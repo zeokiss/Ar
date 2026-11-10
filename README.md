@@ -43,7 +43,8 @@ vannak tárolva, így minden szín- és modellváltozat ugyanazt a geometriát h
 - **Alkatrészfotók**: csak tiszta oldalnézetű, ellenőrizhető méretű termékfotók kerülnek fel. Ahol
   ilyen nincs, szaggatott „?” jelölés mutatja a helyét, a lista az állapotsorban látható.
 - A szíj, az elsütő, a felhúzókar és a kezelőszervek nem jelennek meg külön a képen.
-- Az árak tájékoztató jellegű európai irányárak (EUR), a tömegek kerekített gyári/kereskedői adatok.
+- **Árak: kizárólag svájci frank (CHF), kizárólag svájci boltokból** (Thoron, Schiessstand, Shooting-Store, Armamat; `assets/prices/`). Becsült vagy átváltott ár nincs: ahol nincs bolti ár, ott „nincs ár" látszik. A boltok adatai (cím, szállítás, távolság): `assets/shops.json`.
+- A tömegek a bolti adatlapokból, ennek hiányában kerekített gyári adatokból származnak.
 
 ## Jogi megjegyzés
 

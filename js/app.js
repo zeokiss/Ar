@@ -58,7 +58,6 @@
   const fmtCHF = (n) => (n == null ? '—' : new Intl.NumberFormat('hu-HU', { maximumFractionDigits: 0 }).format(Math.round(n)) + ' CHF');
   const priceTxt = (q) => (q.none ? 'nincs ár' : fmtCHF(q.chf));
   const shopName = (p) => (p && p.shop) ? p.shop : '';
-  const fmtHUF = n => new Intl.NumberFormat('hu-HU', { maximumFractionDigits: 0 }).format(Math.round(n / 1000) * 1000) + ' Ft';
   const fmtKg = g => (g / 1000).toLocaleString('hu-HU', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' kg';
 
   // ------------------------------------------------------------ állapot
@@ -70,7 +69,7 @@
       sel[c] = (list.find(i => i.factory) || list.find(i => i.none) || list[0]).id;
     });
     if (!b.factoryBuis) sel.buis = 'buis-none';
-    return { base: b.id, finish: b.finishes[0], sel, multi: { mlok: [], controls: [] }, colors: {}, pos: {}, rate: 430, eurChf: 0.93, shop: {}, mode: 'cheapest' };
+    return { base: b.id, finish: b.finishes[0], sel, multi: { mlok: [], controls: [] }, colors: {}, pos: {}, shop: {}, mode: 'cheapest' };
   }
 
   let state = loadState() || defaultState();
@@ -98,8 +97,6 @@
     MULTI_CATS.forEach(c => { out.multi[c] = ((s.multi && s.multi[c]) || []).filter(id => ITEM[id] && ITEM[id].cat === c); });
     out.colors = (s.colors && typeof s.colors === 'object') ? s.colors : {};
     out.pos = (s.pos && typeof s.pos === 'object') ? s.pos : {};
-    out.rate = Number(s.rate) > 0 ? Number(s.rate) : d.rate;
-    out.eurChf = Number(s.eurChf) > 0 ? Number(s.eurChf) : d.eurChf;
     out.shop = (s.shop && typeof s.shop === 'object') ? s.shop : {};
     out.mode = typeof s.mode === 'string' ? s.mode : 'cheapest';
     return out;
@@ -220,6 +217,7 @@
 
     if (isActive(lpvo) && lpvo.needsMount && (!mount || mount.none)) add('error', `A(z) ${lpvo.name} céltávcsőhöz szerelék kell – válassz az „Optikaszerelék” fülön.`, ['lpvo', 'mount']);
     if (mount && !mount.none && (!isActive(lpvo) || !lpvo.needsMount)) add('warn', 'A kiválasztott szerelék 30 mm-es tubusos céltávcsőhöz való; most nincs mire felszerelni.', ['mount']);
+    if (isActive(lpvo) && lpvo.tube && isActive(mount) && mount.tube && lpvo.tube !== mount.tube) add('error', `A(z) ${lpvo.name} ${lpvo.tube} mm-es tubusú, a kiválasztott szerelék (${mount.name}) ${mount.tube} mm-es.`, ['lpvo', 'mount']);
     const mag3 = sel('magnifier');
     if (isActive(mag3) && isActive(lpvo)) add('error', 'Nagyító LPVO-val / prizmás irányzékkal nem használható.', ['magnifier', 'lpvo']);
     else if (isActive(mag3) && !isActive(optic)) add('error', 'A nagyító red dot vagy holografikus irányzék mögé való – válassz red dotot.', ['magnifier', 'optic']);
@@ -490,6 +488,19 @@
     const [lo, hi, where] = POS_CATS[cat], v = state.pos[cat] || 0;
     return `<div class="posrow"><label for="posSlider">Pozíció ${where}</label><input id="posSlider" type="range" min="${lo}" max="${hi}" step="0.1" value="${v}"><span id="posVal">${fmtPos(v)}</span><button id="posReset" class="btn small ghost">Alap</button></div>`;
   }
+  // Bélyegkép a kártyán: a valódi termékfotó (a cső iránya egységesen balra), vagy "nincs fotó"
+  function thumbFor(it) {
+    if (it.factory || it.none) return '';
+    const col = colorIdOf(it), P = window.AR_PHOTOS;
+    const rec = P.get(it.id, 'main@left', col) || P.get(it.id, 'main', col) || P.get(it.id, 'main@right', col);
+    if (!rec) return '<div class="thumb empty"><span>nincs fotó</span></div>';
+    return `<div class="thumb"><img src="${rec.src}" alt="${esc(it.brand + ' ' + it.name)}" loading="lazy" decoding="async"${rec.facing === 'right' ? ' class="flip"' : ''}></div>`;
+  }
+  function thumbBase(x) {
+    const f = x.id === base().id ? state.finish : x.finishes[0];
+    const rec = window.AR_PHOTOS.get(x.id, 'base', f);
+    return rec ? `<div class="thumb base"><img src="${rec.src}" alt="${esc(x.brand + ' ' + x.name)}" loading="lazy" decoding="async"${rec.facing === 'right' ? ' class="flip"' : ''}></div>` : '';
+  }
   function srcHtml(it) {
     const q = (it.price || PRICES[it.id]) ? priceOf(it) : null;
     if (!q) return '';
@@ -520,6 +531,7 @@
     const specs = (it.specs || []).map(s => `<span>${s}</span>`).join('');
     return `<div class="card${on ? ' on' : ''}${errs.length ? ' bad' : ''}" data-id="${it.id}" role="button" tabindex="0">
       <div class="card-top"><span class="brand">${brand}</span>${on ? '<span class="check">Kiválasztva</span>' : ''}</div>
+      ${thumbFor(it)}
       <div class="name">${name}</div>
       ${desc ? `<div class="desc">${desc}</div>` : ''}
       ${specs ? `<div class="specs">${specs}</div>` : ''}
@@ -537,6 +549,7 @@
       <div class="grid grid-base">${D.BASES.map(x => `
         <div class="card base${x.id === b.id ? ' on' : ''}" data-id="${x.id}" role="button" tabindex="0">
           <div class="card-top"><span class="brand">${x.brand}</span><span class="tagline">${x.tag}</span></div>
+          ${thumbBase(x)}
           <div class="name big">${x.name}</div>
           <div class="desc">${x.desc}</div>
           <div class="specs"><span>${String(x.barrel).replace('.', ',')}" cső</span><span>${x.cal}</span><span>${x.twist}</span><span>${String(x.hgLen).replace('.', ',')}" előagy${x.hgEstimated ? '*' : ''}</span>${x.ambi ? '<span>Ambidex</span>' : ''}</div>
@@ -678,15 +691,15 @@
     $('#sumTitle').textContent = `${b.brand} ${b.name}`;
     $('#sumFinish').textContent = D.FINISHES[state.finish].name;
     $('#statPrice').textContent = fmtCHF(t.price);
-    $('#statHuf').textContent = '≈ ' + fmtHUF(t.price * state.rate) + (t.missing ? ` · ${t.missing} tétel ára nincs` : '');
+    $('#statHuf').textContent = t.missing ? `${t.missing} tétel ára nincs` : 'svájci bolti árak';
     $('#statWeight').textContent = fmtKg(t.weight);
     $('#statOal').textContent = Math.abs(t.oal[1] - t.oal[0]) < 0.5 ? `${t.oal[0].toFixed(0)} cm` : `${t.oal[0].toFixed(0)}–${t.oal[1].toFixed(0)} cm`;
     $('#statBarrel').textContent = `${String(b.barrel).replace('.', ',')}" · ${b.cal}`;
     $('#sumList').innerHTML = t.lines.map(l => `<li data-cat="${l.cat}"><div><b>${l.label}</b>${(l.sub || l.p) ? `<small>${[l.sub, l.p ? l.p.shop : ''].filter(Boolean).join(' · ')}</small>` : ''}</div><span>${l.none ? '—' : fmtCHF(l.price)}</span></li>`).join('');
     $$('#sumList li').forEach(li => li.onclick = () => { activeTab = li.dataset.cat; renderTabs(); renderPanel(); });
     $('#sumTotal').textContent = fmtCHF(t.price);
-    $('#sumHuf').textContent = '≈ ' + fmtHUF(t.price * state.rate);
     renderOrder(t);
+    const jp = $('#sumJumpPrice'); if (jp) jp.textContent = fmtCHF(t.price);
     $('#sumEst').textContent = t.missing ? `${t.missing} tétel ára hiányzik (nincs svájci bolti ár): az összeg csak a bolti áras tételeket tartalmazza.` : 'Minden tétel svájci bolti ár.';
     const order = { error: 0, warn: 1, info: 2 };
     const sorted = issues.slice().sort((a, c) => order[a.lvl] - order[c.lvl]);
@@ -771,7 +784,7 @@
     },
     'LPVO általános': () => {
       const s = defaultState('schm-m5fl'); s.finish = 'earth';
-      Object.assign(s.sel, { grip: 'mp-moek2p', stock: 'mp-ctr', buttpad: 'mp-pad070', lpvo: 'vx-razor110', mount: 'gs-sp30', optic: 'ap-acro', buis: 'mp-mbusoff', light: 'sf-m640', muzzle: 'sf-3p', trigger: 'gs-sde', ch: 'rd-raptor', mag: 'mp-pm30w', sling: 'mp-ms4' });
+      Object.assign(s.sel, { grip: 'mp-moek2p', stock: 'mp-ctr', buttpad: 'mp-pad070', lpvo: 'vx-pst16', mount: 'vx-cant30', optic: 'ap-acro', buis: 'mp-mbusoff', light: 'sf-m640', muzzle: 'sf-3p', trigger: 'gs-sde', ch: 'rd-raptor', mag: 'mp-pm30w', sling: 'mp-ms4' });
       s.multi.mlok = ['mp-hstop', 'mp-qd', 'mp-cover'];
       s.colors = { 'mp-moek2p': 'fde', 'mp-ctr': 'fde', 'mp-pm30w': 'fde', 'mp-hstop': 'fde', 'mp-cover': 'fde', 'mp-ms4': 'coyote' };
       return s;
@@ -802,9 +815,9 @@
     $('#presets').innerHTML = '<option value="">Előre összeállított buildek…</option>' + Object.keys(PRESETS).map(k => `<option>${k}</option>`).join('');
     $('#presets').onchange = (e) => {
       const k = e.target.value; if (!k) return;
-      const rate = state.rate, ec = state.eurChf, mode = state.mode;
+      const mode = state.mode;
       state = sanitize(PRESETS[k](state.base));
-      state.rate = rate; state.eurChf = ec; state.mode = mode;
+      state.mode = mode;
       activeTab = 'base';
       update(false, true);
       e.target.value = '';
@@ -955,8 +968,7 @@
         <stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
       </linearGradient>
       <mask id="reflMask" maskUnits="userSpaceOnUse"><rect id="reflMaskRect" x="-2000" y="0" width="6000" height="400" fill="url(#reflGrad)"/></mask>`;
-    $('#rate').value = state.rate;
-    $('#rate').oninput = (e) => { const v = Number(e.target.value); if (v > 0) { state.rate = v; update(true); } };
+    const jump = $('#sumJump'); if (jump) jump.onclick = () => $('.summary').scrollIntoView({ behavior: 'smooth', block: 'start' });
     $('#btnPrices').onchange = () => { hidePrices = !$('#btnPrices').checked; try { localStorage.setItem('ar15-hideprices', hidePrices ? '1' : '0'); } catch (e) { /* ignore */ } applyPriceVisibility(); };
     applyPriceVisibility();
     initQuickSearch();
@@ -964,7 +976,7 @@
     $('#btnAssemble').onclick = () => renderRifle(true);
     $('#btnShare').onclick = share;
     $('#btnPng').onclick = exportPng;
-    $('#btnReset').onclick = () => { if (confirm('Visszaállítod a gyári állapotot?')) { const r = state.rate, ec = state.eurChf, md = state.mode; state = defaultState(state.base); state.rate = r; state.eurChf = ec; state.mode = md; update(false, true); } };
+    $('#btnReset').onclick = () => { if (confirm('Visszaállítod a gyári állapotot?')) { const md = state.mode; state = defaultState(state.base); state.mode = md; update(false, true); } };
     initZoom();
     initPartInteraction();
     initPresets();

@@ -38,7 +38,8 @@
    "ax": 270.0,
    "ay": 457.0,
    "facing": "right",
-   "source": "trijicon.com/products/details/ta31f"
+   "source": "trijicon.com/products/details/ta31f",
+   "toned": true
   },
   {
    "item": "tj-acog",
@@ -51,7 +52,8 @@
    "ax": 650.0,
    "ay": 455.0,
    "facing": "left",
-   "source": "trijicon.com/products/details/ta31f"
+   "source": "trijicon.com/products/details/ta31f",
+   "toned": true
   },
   {
    "item": "vx-se18",
@@ -103,7 +105,8 @@
    "ax": 800.0,
    "ay": 209.0,
    "facing": "left",
-   "source": "primaryarms.com/eotech-vudu-1-10x28-ffp-rifle-scope-sr5-mrad-reticle-daylight-bright-dot (Length 10.63 in)"
+   "source": "primaryarms.com/eotech-vudu-1-10x28-ffp-rifle-scope-sr5-mrad-reticle-daylight-bright-dot (Length 10.63 in)",
+   "toned": true
   },
   {
    "item": "tj-vcog",
@@ -116,7 +119,8 @@
    "ax": 533.0,
    "ay": 324.0,
    "facing": "left",
-   "source": "trijicon.com/products/details/vc18-c-2400001"
+   "source": "trijicon.com/products/details/vc18-c-2400001",
+   "toned": true
   },
   {
    "item": "tj-vcog",
@@ -129,7 +133,35 @@
    "ax": 536.0,
    "ay": 326.0,
    "facing": "right",
-   "source": "trijicon.com/products/details/vc18-c-2400001"
+   "source": "trijicon.com/products/details/vc18-c-2400001",
+   "toned": true
+  },
+  {
+   "item": "vx-razor110",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/vx-razor110-main@left-any.webp",
+   "w": 1600,
+   "h": 359,
+   "ppi": 158.42,
+   "ax": 800.0,
+   "ay": 217.0,
+   "facing": "left",
+   "source": "primaryarms.com/vortex-optics-razor-gen-3-1-10x24-riflescope-ebr-9-bdc-reticle (RZR-11001; Length 10.1 in per Vortex spec listings, Armamat 25.9 cm)",
+   "toned": true
+  },
+  {
+   "item": "vx-cant30",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/vx-cant30-main@left-any.webp",
+   "w": 1600,
+   "h": 707,
+   "ppi": 296.85,
+   "ax": 626.2,
+   "ay": 702.4,
+   "facing": "left",
+   "source": "primaryarms.com/vortex-optics-30mm-sport-cantilever-mount-1-5in-height (SCM-30-150; 13.7 cm length per armamat.ch, ratio-checked vs 6.0 cm height)"
   }
  ]
 }

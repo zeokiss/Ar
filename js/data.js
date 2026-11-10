@@ -168,20 +168,20 @@ window.AR_DATA = (function () {
 
     // ----------------------------------------------------------- LPVO / prizmás
     NONE('lpvo', 'Nincs LPVO / prizmás'),
-    { id: 'vx-se16', cat: 'lpvo', brand: 'Vortex', name: 'Strike Eagle 1-6x24', price: 380, weight: 520, style: 'lpvo', len: 10.5, obj: 24, needsMount: true, specs: ['1–6x', 'SFP', '30 mm tubus'] },
-    { id: 'vx-se18', cat: 'lpvo', brand: 'Vortex', name: 'Strike Eagle 1-8x24', price: 450, weight: 560, style: 'lpvo', len: 10.6, obj: 24, needsMount: true, specs: ['1–8x', 'SFP', '30 mm tubus'] },
-    { id: 'vx-pst16', cat: 'lpvo', brand: 'Vortex', name: 'Viper PST Gen II 1-6x24', price: 700, weight: 600, style: 'lpvo', len: 10.4, obj: 24, needsMount: true, specs: ['1–6x', 'SFP', 'Világító szálkereszt'] },
-    { id: 'vx-razor110', cat: 'lpvo', brand: 'Vortex', name: 'Razor HD Gen III 1-10x24', price: 2000, weight: 610, style: 'lpvo', len: 10.1, obj: 24, needsMount: true, specs: ['1–10x', 'FFP', 'Prémium üveg'] },
+    { id: 'vx-se16', cat: 'lpvo', brand: 'Vortex', tube: 30, name: 'Strike Eagle 1-6x24', price: 380, weight: 520, style: 'lpvo', len: 10.5, obj: 24, needsMount: true, specs: ['1–6x', 'SFP', '30 mm tubus'] },
+    { id: 'vx-se18', cat: 'lpvo', brand: 'Vortex', tube: 30, name: 'Strike Eagle 1-8x24', price: 450, weight: 560, style: 'lpvo', len: 10.6, obj: 24, needsMount: true, specs: ['1–8x', 'SFP', '30 mm tubus'] },
+    { id: 'vx-pst16', cat: 'lpvo', brand: 'Vortex', tube: 30, name: 'Viper PST Gen II 1-6x24', price: 700, weight: 600, style: 'lpvo', len: 10.4, obj: 24, needsMount: true, specs: ['1–6x', 'SFP', 'Világító szálkereszt'] },
+    { id: 'vx-razor110', cat: 'lpvo', brand: 'Vortex', tube: 34, name: 'Razor HD Gen III 1-10x24', price: 2000, weight: 610, style: 'lpvo', len: 10.1, obj: 24, needsMount: true, specs: ['1–10x', 'FFP', 'Prémium üveg'] },
     { id: 'tj-acog', cat: 'lpvo', brand: 'Trijicon', name: 'ACOG TA31 4x32', price: 1400, weight: 430, style: 'acog', contact: true, specs: ['Fix 4x prizmás', 'Elem nélküli megvilágítás', 'Szerelékkel'] },
-    { id: 'tj-credo16', cat: 'lpvo', brand: 'Trijicon', name: 'Credo 1-6x24', price: 900, weight: 560, style: 'lpvo', len: 10.3, obj: 24, needsMount: true, specs: ['1–6x', 'SFP', '30 mm tubus'] },
+    { id: 'tj-credo16', cat: 'lpvo', brand: 'Trijicon', tube: 30, name: 'Credo 1-6x24', price: 900, weight: 560, style: 'lpvo', len: 10.3, obj: 24, needsMount: true, specs: ['1–6x', 'SFP', '30 mm tubus'] },
     { id: 'tj-vcog', cat: 'lpvo', brand: 'Trijicon', name: 'VCOG 1-8x28', price: 2100, weight: 650, style: 'lpvo', len: 10.2, obj: 28, integralMount: true, contact: true, specs: ['1–8x', 'FFP', 'Integrált szerelék'] },
-    { id: 'eo-vudu16', cat: 'lpvo', brand: 'EOTech', name: 'Vudu 1-6x24', price: 1200, weight: 570, style: 'lpvo', len: 10.2, obj: 24, needsMount: true, specs: ['1–6x', 'FFP / SFP', '30 mm tubus'] },
-    { id: 'eo-vudu110', cat: 'lpvo', brand: 'EOTech', name: 'Vudu 1-10x28', price: 1700, weight: 640, style: 'lpvo', len: 10.8, obj: 28, needsMount: true, specs: ['1–10x', 'FFP', '34 mm tubus'] },
+    { id: 'eo-vudu16', cat: 'lpvo', brand: 'EOTech', tube: 30, name: 'Vudu 1-6x24', price: 1200, weight: 570, style: 'lpvo', len: 10.2, obj: 24, needsMount: true, specs: ['1–6x', 'FFP / SFP', '30 mm tubus'] },
+    { id: 'eo-vudu110', cat: 'lpvo', brand: 'EOTech', tube: 34, name: 'Vudu 1-10x28', price: 1700, weight: 640, style: 'lpvo', len: 10.8, obj: 28, needsMount: true, specs: ['1–10x', 'FFP', '34 mm tubus'] },
 
     // ----------------------------------------------------------- Szerelék (LPVO-hoz)
     NONE('mount', 'Nincs külön szerelék'),
-    { id: 'gs-sp30', cat: 'mount', brand: 'Geissele', name: 'Super Precision 30 mm', price: 420, weight: 230, style: 'geissele', axis: 1.93, specs: ['30 mm', '1,93" magasság', 'Prémium'] },
-    { id: 'vx-cant30', cat: 'mount', brand: 'Vortex', name: 'Sport Cantilever 30 mm', price: 80, weight: 260, style: 'cant', axis: 1.54, specs: ['30 mm', '2" előretolás'] },
+    { id: 'gs-sp30', cat: 'mount', brand: 'Geissele', tube: 30, name: 'Super Precision 30 mm', price: 420, weight: 230, style: 'geissele', axis: 1.93, specs: ['30 mm', '1,93" magasság', 'Prémium'] },
+    { id: 'vx-cant30', cat: 'mount', brand: 'Vortex', tube: 30, name: 'Sport Cantilever 30 mm', price: 80, weight: 260, style: 'cant', axis: 1.5, specs: ['30 mm', '2" előretolás'] },
 
     // ----------------------------------------------------------- Nagyító
     NONE('magnifier', 'Nincs nagyító'),
@@ -201,11 +201,11 @@ window.AR_DATA = (function () {
     // ----------------------------------------------------------- Lámpa
     NONE('light', 'Nincs lámpa'),
     { id: 'sf-m600', cat: 'light', brand: 'SureFire', name: 'M600DF Scout Light Pro', price: 380, weight: 190, style: 'scout', specs: ['1500 lm', 'M-LOK / Pic szerelék', 'Kettős kapcsoló'] },
-    { id: 'sf-m640', cat: 'light', brand: 'SureFire', name: 'M640DF Scout Light Pro', price: 450, weight: 215, style: 'scout', big: true, specs: ['1500 lm', 'Nagyobb fej', 'Távolra'] },
+    { id: 'sf-m640', cat: 'light', brand: 'SureFire', on: 'top', name: 'M640DF Scout Light Pro', price: 450, weight: 215, style: 'scout', big: true, specs: ['1500 lm', 'Nagyobb fej', 'Távolra'] },
     { id: 'sf-m300', cat: 'light', brand: 'SureFire', name: 'M300 Mini Scout Light Pro', price: 330, weight: 120, style: 'scout', mini: true, specs: ['Kompakt', 'CR123'] },
-    { id: 'sf-x300', cat: 'light', brand: 'SureFire', name: 'X300U-B', price: 330, weight: 115, style: 'x300', needsRail: true, specs: ['1000 lm', 'Picatinny sín kell'] },
-    { id: 'sl-hlx', cat: 'light', brand: 'Streamlight', name: 'ProTac Rail Mount HL-X', price: 170, weight: 180, style: 'scout', big: true, specs: ['1000 lm', 'Kedvező ár'] },
-    { id: 'sl-tlr1', cat: 'light', brand: 'Streamlight', name: 'TLR-1 HL', price: 170, weight: 120, style: 'x300', needsRail: true, specs: ['1000 lm', 'Picatinny sín kell'] },
+    { id: 'sf-x300', cat: 'light', brand: 'SureFire', on: 'bottom', name: 'X300U-B', price: 330, weight: 115, style: 'x300', needsRail: true, specs: ['1000 lm', 'Picatinny sín kell'] },
+    { id: 'sl-hlx', cat: 'light', brand: 'Streamlight', on: 'top', name: 'ProTac Rail Mount HL-X', price: 170, weight: 180, style: 'scout', big: true, specs: ['1000 lm', 'Kedvező ár'] },
+    { id: 'sl-tlr1', cat: 'light', brand: 'Streamlight', on: 'bottom', name: 'TLR-1 HL', price: 170, weight: 120, style: 'x300', needsRail: true, specs: ['1000 lm', 'Picatinny sín kell'] },
 
     // ----------------------------------------------------------- M-LOK kiegészítők (több is választható)
     { id: 'mp-rvg', cat: 'mlok', brand: 'Magpul', name: 'M-LOK RVG függőleges markolat', price: 25, weight: 60, colors: MAGPUL, style: 'rvg', group: 'fgrip', specs: ['Függőleges markolat', 'Polimer'] },

@@ -10,6 +10,7 @@
  */
 window.AR_PHOTO_RENDER = (function () {
   const S = 28;
+  const SEAT = 0.15;   // hüvelyk: a rögzítő bütyök hegye ennyivel a fogak teteje alatt ül
   const P = () => window.AR_PHOTOS;
   const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 
@@ -37,7 +38,8 @@ window.AR_PHOTO_RENDER = (function () {
     const baseRec = ph.get(spec.baseId, 'base', spec.finishId);
     const geo = ph.geo(spec.baseId);
     if (!baseRec || !geo) return null;
-    const getPart = (id, slot, color) => ph.get(id, slot + '@' + baseRec.facing, color) || ph.get(id, slot, color);
+    const other = baseRec.facing === 'left' ? 'right' : 'left';
+    const getPart = (id, slot, color) => ph.get(id, slot + '@' + baseRec.facing, color) || ph.get(id, slot, color) || ph.get(id, slot + '@' + other, color);
     const pts = geo.pts, cuts = geo.cuts || {};
     const D = baseRec.facing === 'left' ? -1 : 1;
     const X = (x) => D * x * S, Y = (y) => y * S;
@@ -108,27 +110,27 @@ window.AR_PHOTO_RENDER = (function () {
     const mountIt = spec.mountItem;
     const lpvoX = spec.lpvo ? ((spec.lpvo.railX != null ? spec.lpvo.railX : rx0 + RAIL.lpvo) + (pos.lpvo || 0)) : null;
 
-    function railPart(cat, it, slot, xin, yin, label) {
+    function railPart(cat, it, slot, xin, yin, label, noSpan) {
       const rec = getPart(it.id, slot || 'main', it.colorId);
       if (!rec) { over.push([cat, placeholder(cat === 'mount' ? 'mount' : cat, label || it.name, xin, yin)]); return null; }
       note(rec, it);
       over.push([cat, img(rec, xin, yin)]);
       const e = extents(rec);
-      spans.push([xin + e.back, xin + e.fwd, label || it.name]);
+      if (!noSpan) spans.push([xin + e.back, xin + e.fwd, label || it.name]);
       return { rec, e };
     }
 
     if (spec.lpvo) {
       const it = spec.lpvo;
       const axis = it.contact ? 0 : ((mountIt && mountIt.axis) || it.axis || 1.93);
-      if (mountIt) railPart('mount', mountIt, 'main', lpvoX, railY);
+      if (mountIt) railPart('mount', mountIt, 'main', lpvoX, railY + SEAT);
       else if (it.needsMount) over.push(['mount', placeholder('mount', 'Szerelék szükséges a céltávcsőhöz', lpvoX, railY)]);
-      railPart('lpvo', it, 'main', lpvoX, railY - axis);
+      railPart('lpvo', it, 'main', lpvoX, it.contact ? railY + SEAT : railY - axis);
     }
     let optX = null, optW = 3.2;
     if (spec.optic) {
       optX = (spec.optic.railX != null ? spec.optic.railX : (spec.lpvo ? lpvoX + 5.2 : rx0 + RAIL.optic)) + (pos.optic || 0);
-      const r = railPart('optic', spec.optic, 'main', optX, railY);
+      const r = railPart('optic', spec.optic, 'main', optX, railY + SEAT);
       if (r) optW = r.e.fwd - r.e.back;
     }
     if (spec.magnifier && spec.optic && !spec.lpvo) {
@@ -136,20 +138,26 @@ window.AR_PHOTO_RENDER = (function () {
       const rec = getPart(it.id, 'main', it.colorId);
       const mw = rec ? (extents(rec).fwd - extents(rec).back) : 3.6;
       const mx = optX - optW / 2 - mw / 2 - 0.25 + (pos.magnifier || 0);
-      railPart('magnifier', it, 'main', mx, railY);
+      railPart('magnifier', it, 'main', mx, railY + SEAT);
     }
     if (spec.buis && !spec.buis.factory) {
       const it = spec.buis;
       holes.length && null;
-      railPart('buis', it, 'rear', rx0 + RAIL.buisRear + (pos.buis || 0), railY, it.name + ' (hátsó)');
-      railPart('buis', it, 'front', pts.hgX1 - 1.5, railY, it.name + ' (első)');
+      railPart('buis', it, 'rear', rx0 + RAIL.buisRear + (pos.buis || 0), railY + SEAT, it.name + ' (hátsó)');
+      railPart('buis', it, 'front', pts.hgX1 - 1.5, railY + SEAT, it.name + ' (első)');
     }
 
     // fegyverlámpa
     if (spec.light) {
       const it = spec.light;
-      const x = pts.hgX1 - 2.4 + (pos.light || 0);
-      railPart('light', it, 'main', x, pts.sideY);
+      // on: 'top' = a fotón a rögzítőláb alul van (a lámpa a felső sínen ül), 'bottom' = a rögzítő felület felül van
+      // (a lámpa az előagy alá lóg), egyébként oldalra szerelt.
+      const on = it.on || 'side';
+      let x, y;
+      if (on === 'top') { x = rx1 - 2.6 + (pos.light || 0); y = railY + SEAT; }
+      else if (on === 'bottom') { x = pts.hgX1 - 1.5 + (pos.light || 0); y = pts.hgBottomY - 0.04; }
+      else { x = pts.hgX1 - 2.4 + (pos.light || 0); y = pts.sideY; }
+      railPart('light', it, 'main', x, y, null, true);
     }
     // bipod
     if (spec.bipod) {

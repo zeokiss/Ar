@@ -72,8 +72,6 @@
       <ul id="sumList" class="sum-list"></ul>
       <div class="sum-total">
         <div><span>Összesen</span><b id="sumTotal"></b></div>
-        <div class="huf"><span id="sumHuf"></span>
-          <label>1 CHF = <input id="rate" type="number" min="1" step="1" inputmode="numeric"> Ft</label></div>
         <div class="huf"><span id="sumEst" class="estnote"></span></div>
       </div>
       <div class="modebox"><label for="shopMode">Vásárlás helye</label><select id="shopMode"></select></div>
@@ -91,6 +89,8 @@
     Tájékoztató jellegű vizuális konfigurátor; a kompatibilitás-ellenőrzés egyszerűsített. Lőfegyverek, lényeges alkatrészeik és egyes kiegészítők (pl. hangtompító, nagy kapacitású tár) beszerzése engedélyhez kötött – mindig ellenőrizd a hatályos szabályozást.
     A márkanevek a tulajdonosaik védjegyei; az oldal nem áll kapcsolatban velük.
   </footer>
+
+  <button id="sumJump" class="sumjump" type="button" aria-label="Ugrás az összesítőhöz">Összesítő <b id="sumJumpPrice" class="price"></b></button>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 

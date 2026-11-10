@@ -12,7 +12,8 @@
    "ax": 395.0,
    "ay": 617.0,
    "facing": "right",
-   "source": "holosun.com/products/hs510c"
+   "source": "holosun.com/products/hs510c",
+   "toned": true
   },
   {
    "item": "hs-510c",
@@ -25,7 +26,8 @@
    "ax": 435.0,
    "ay": 619.0,
    "facing": "left",
-   "source": "holosun.com/products/hs510c"
+   "source": "holosun.com/products/hs510c",
+   "toned": true
   },
   {
    "item": "hs-hm3x",
@@ -38,7 +40,8 @@
    "ax": 661.5,
    "ay": 555.0,
    "facing": "left",
-   "source": "holosun.com/products/hm3x"
+   "source": "holosun.com/products/hm3x",
+   "toned": true
   },
   {
    "item": "hs-hm3x",
@@ -51,7 +54,8 @@
    "ax": 230.5,
    "ay": 558.0,
    "facing": "right",
-   "source": "holosun.com/products/hm3x"
+   "source": "holosun.com/products/hm3x",
+   "toned": true
   },
   {
    "item": "eo-exps3",
@@ -64,7 +68,8 @@
    "ax": 312.0,
    "ay": 405.0,
    "facing": "left",
-   "source": "eotechinc.com/products/eotech-hws-exps3"
+   "source": "eotechinc.com/products/eotech-hws-exps3",
+   "toned": true
   },
   {
    "item": "eo-exps3",
@@ -90,7 +95,8 @@
    "ax": 316.0,
    "ay": 409.0,
    "facing": "left",
-   "source": "eotechinc.com/products/eotech-hws-exps2"
+   "source": "eotechinc.com/products/eotech-hws-exps2",
+   "toned": true
   },
   {
    "item": "eo-exps2",
@@ -129,7 +135,8 @@
    "ax": 268.0,
    "ay": 396.0,
    "facing": "right",
-   "source": "eotechinc.com/products/eotech-hws-xps2"
+   "source": "eotechinc.com/products/eotech-hws-xps2",
+   "toned": true
   },
   {
    "item": "eo-g33",
@@ -142,7 +149,8 @@
    "ax": 335.0,
    "ay": 1336.0,
    "facing": "left",
-   "source": "eotechinc.com/products/eotech-magnifier-g33"
+   "source": "eotechinc.com/products/eotech-magnifier-g33",
+   "toned": true
   },
   {
    "item": "eo-g43",
@@ -168,7 +176,8 @@
    "ax": 770.0,
    "ay": 1598.0,
    "facing": "left",
-   "source": "trijicon.com/products/details/mro-c-2200053"
+   "source": "trijicon.com/products/details/mro-c-2200053",
+   "toned": true
   },
   {
    "item": "tj-mro",
@@ -181,7 +190,23 @@
    "ax": 722.0,
    "ay": 1598.0,
    "facing": "right",
-   "source": "trijicon.com/products/details/mro-c-2200053"
+   "source": "trijicon.com/products/details/mro-c-2200053",
+   "toned": true
+  },
+  {
+   "item": "vx-uh1",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/vx-uh1-main@left-any.webp",
+   "w": 1600,
+   "h": 1165,
+   "ppi": 410.26,
+   "ax": 721.0,
+   "ay": 1162.0,
+   "facing": "left",
+   "source": "primaryarms.com/vortex-optics-amg-uh1-gen-2-holographic-sight (AMG-HS02; Length 3.9 in per Vortex spec listings; ratio vs 2.7 in height checked)",
+   "dy": 0.04,
+   "toned": true
   }
  ]
 }
