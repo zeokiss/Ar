@@ -11,15 +11,17 @@
   "birkenast.ch",
   "bpshop.ch",
   "bt-ag.ch",
+  "dynamikarms.ch",
   "ellie-firearms.com",
   "felder-jagdhof.ch",
   "freesport.ch",
   "freis-waffenschmiede.ch",
+  "gun-art.ch",
   "gunfactory.ch",
   "gunlex.ch",
   "gwmh-shop.ch",
   "heldef.ch",
-  "indoorswiss.ch",
+  "shop.indoorswiss.ch",
   "renehild-tactical.ch",
   "rothwaffen.ch",
   "schiesscenter.ch",
@@ -569,6 +571,21 @@
      },
      "title": "Magpul MOE Grip",
      "color": "black"
+    },
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 24.0,
+     "url": "https://www.dynamikarms.ch/de/pistolengriffe/1040-magpul-moe-grip-ar15-m4.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 24.0,
+       "url": "https://www.dynamikarms.ch/de/pistolengriffe/1040-magpul-moe-grip-ar15-m4.html",
+       "in_stock": true,
+       "title": "MAGPUL MOE® Grip – AR15/M4"
+      }
+     },
+     "title": "MAGPUL MOE® Grip – AR15/M4"
     },
     {
      "shop": "aebiwaffen.ch",
@@ -1708,13 +1725,21 @@
   },
   "ap-pro": {
    "chf": 739.0,
-   "shop": "heldef.ch",
-   "url": "https://heldef.ch/red-dot-aimpoint-patrol-rifle-optic-pro-2-moa-with-qrp2-mount/",
-   "in_stock": null,
-   "title": "Red Dot AIMPOINT Patrol Rifle Optic (PRO) 2 MOA — With QRP2 Mount",
+   "shop": "gun-art.ch",
+   "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m87945006620549fe",
+   "in_stock": true,
+   "title": "Aimpoint Pro Patrol Rifle Optic",
    "weight_g": null,
    "dims": null,
    "offers": [
+    {
+     "shop": "gun-art.ch",
+     "chf": 739.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m87945006620549fe",
+     "in_stock": true,
+     "colors": {},
+     "title": "Aimpoint Pro Patrol Rifle Optic"
+    },
     {
      "shop": "heldef.ch",
      "chf": 739.0,
@@ -1769,14 +1794,22 @@
    ]
   },
   "eo-exps3": {
-   "chf": 970.4,
-   "shop": "tellsarmory.ch",
-   "url": "https://www.tellsarmory.ch/shop/eotech-exps3-holographic-sight-132",
-   "in_stock": null,
-   "title": "EOTECH EXPS3 Holographic Sight – 3-0 – Black",
+   "chf": 460.0,
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/kurzdistanz/3556-eotech-exps3-0-nv-single-qd-65moa-ring-1-moa-dot-672294700074.html",
+   "in_stock": true,
+   "title": "EOTech EXPS3-0 NV Single QD 65Moa ring 1 Moa dot",
    "weight_g": 315,
    "dims": "Länge 9.1 cm x Breite 7 cm x Höhe 5.5 cm",
    "offers": [
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 460.0,
+     "url": "https://www.dynamikarms.ch/de/kurzdistanz/3556-eotech-exps3-0-nv-single-qd-65moa-ring-1-moa-dot-672294700074.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "EOTech EXPS3-0 NV Single QD 65Moa ring 1 Moa dot"
+    },
     {
      "shop": "aebiwaffen.ch",
      "chf": 895.0,
@@ -2349,6 +2382,15 @@
      "note": "a bolti név 'ELITE' jelzőt tartalmaz, de a leírás szerint HS510C (piros 2 MOA pont / 65 MOA kör, alumínium ház titán burkolattal); a bolti cikkszám (10678406000) a HS510C forgalmazói cikkszáma (az armamat.ch-n is ez)"
     },
     {
+     "shop": "gun-art.ch",
+     "chf": 455.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m1c561896eb595a79",
+     "in_stock": true,
+     "colors": {},
+     "title": "Holosun HS510C Circle Dot Sight – Schwarz",
+     "note": "több színváltozat van, a fekete ára szerepel; a többi: FDE 455.00 CHF"
+    },
+    {
      "shop": "schiessstand.ch",
      "chf": 458.0,
      "url": "https://shop.schiessstand.ch/produkt/holosun-hs510c-offenes-reflex-rotpunktvisier-wechselbares-2moa-punkt-65moa-kreis-absehen/",
@@ -2382,11 +2424,11 @@
    ]
   },
   "hs-aems": {
-   "chf": 619.9,
-   "shop": "airsoft.ch",
-   "url": "https://www.airsoft.ch/de-ch/p/aems-red-circle-dot-sight-11252406000/",
+   "chf": 590.0,
+   "shop": "gun-art.ch",
+   "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m4f681e20ba291d9a",
    "in_stock": true,
-   "title": "Holosun AEMS Red Circle Dot Sight",
+   "title": "Holosun AEMS RD Kreispunktvisier",
    "weight_g": 140,
    "dims": "Länge 6 cm x Breite 5.5 cm x Höhe 3.5 cm",
    "offers": [
@@ -2399,6 +2441,14 @@
      "title": "Holosun AEMS RD Red Circle Dot Reflexvisier Closed Emitter Solar",
      "note": "az alap AEMS (piros, 2 MOA pont + 65 MOA kör); az AEMS Core / Pro / Max / GR más modell/változat",
      "color": "black"
+    },
+    {
+     "shop": "gun-art.ch",
+     "chf": 590.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m4f681e20ba291d9a",
+     "in_stock": true,
+     "colors": {},
+     "title": "Holosun AEMS RD Kreispunktvisier"
     },
     {
      "shop": "airsoft.ch",
@@ -2610,6 +2660,15 @@
      "title": "Vortex Optics Strike Eagle 1-8x24 AR-BDC3",
      "note": "SFP, AR-BDC3 reticle",
      "color": "black"
+    },
+    {
+     "shop": "gun-art.ch",
+     "chf": 560.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m25e2f2b95fccab20",
+     "in_stock": true,
+     "colors": {},
+     "title": "Zielfernrohr Vortex Strike Eagle 1-8x24",
+     "note": "a data.js nem nevezi meg a retikulumot; a bolti kivitel a címben szerepel"
     }
    ]
   },
@@ -2963,7 +3022,7 @@
      "title": "Holosun HM3X"
     },
     {
-     "shop": "indoorswiss.ch",
+     "shop": "shop.indoorswiss.ch",
      "chf": 276.0,
      "url": "https://shop.indoorswiss.ch/de/leuchtpunktzielgerat/14727-holosun-hm3x-magnifier.html",
      "in_stock": true,
@@ -3042,6 +3101,14 @@
      "in_stock": true,
      "colors": {},
      "title": "Holosun HM3X 3x Vergrösserung / Booster"
+    },
+    {
+     "shop": "gun-art.ch",
+     "chf": 305.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m37d8df785268d01d",
+     "in_stock": true,
+     "colors": {},
+     "title": "Holosun HM3X Vergrösserungsmodul"
     },
     {
      "shop": "schiessstand.ch",
@@ -3752,7 +3819,7 @@
      "color": "black"
     },
     {
-     "shop": "indoorswiss.ch",
+     "shop": "shop.indoorswiss.ch",
      "chf": 31.5,
      "url": "https://shop.indoorswiss.ch/de/montagen/16392-bcmgunfighter-front-grip-mod-3-black.html",
      "in_stock": false,
@@ -4018,7 +4085,7 @@
      "color": "black"
     },
     {
-     "shop": "indoorswiss.ch",
+     "shop": "shop.indoorswiss.ch",
      "chf": 27.5,
      "url": "https://shop.indoorswiss.ch/de/14249-magpul-m-lok-qd-sling-mount.html",
      "in_stock": true,
@@ -5260,7 +5327,7 @@
      "note": "a bolt Coyote (MCT) színben is árulja (MAG556-MCT, 26.00 CHF) – ez nem FDE, a data.js palettájában (black/fde) nincs"
     },
     {
-     "shop": "indoorswiss.ch",
+     "shop": "shop.indoorswiss.ch",
      "chf": 26.5,
      "url": "https://shop.indoorswiss.ch/de/magazine/21052-148383-magpul-pmag-30-ar-m4-gen-m3-window.html",
      "in_stock": true,
@@ -5475,6 +5542,22 @@
      "color": "black"
     },
     {
+     "shop": "dynamikarms.ch",
+     "chf": 98.0,
+     "url": "https://www.dynamikarms.ch/de/riemen-und-riemensystem/674-ms4-dual-qd-sling-gen-2.html",
+     "in_stock": true,
+     "colors": {
+      "coyote": {
+       "chf": 98.0,
+       "url": "https://www.dynamikarms.ch/de/riemen-und-riemensystem/674-ms4-dual-qd-sling-gen-2.html",
+       "in_stock": true,
+       "title": "Coyote"
+      }
+     },
+     "title": "Magpul MS4® Dual QD Sling GEN 2 – Coyote",
+     "note": "a bolt a Gen 2 kivitelt árulhatja; a bolt további színei, amelyek nincsenek a palettában, kimaradtak: gray"
+    },
+    {
      "shop": "aebiwaffen.ch",
      "chf": 99.9,
      "url": "https://www.aebiwaffen.ch/de/2177/magpul-ms4-dual-qd-sling-gen2-black",
@@ -5643,7 +5726,7 @@
      "color": "black"
     },
     {
-     "shop": "indoorswiss.ch",
+     "shop": "shop.indoorswiss.ch",
      "chf": 112.0,
      "url": "https://shop.indoorswiss.ch/de/14250-142372-magpul-ms4-dual-qd-sling-gen2.html",
      "in_stock": true,
@@ -6507,6 +6590,15 @@
      "color": "black"
     },
     {
+     "shop": "gun-art.ch",
+     "chf": 450.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m2fab8a96177eabcb",
+     "in_stock": true,
+     "colors": {},
+     "title": "Zielfernrohr Vortex Strike Eagle 1-6x24",
+     "note": "a data.js nem nevezi meg a retikulumot; a bolti kivitel a címben szerepel"
+    },
+    {
      "shop": "armashop.ch",
      "chf": 499.99,
      "url": "https://armashop.ch/produit/shortdot-strike-eagle-1-6x24-ar-bdc3-moa/",
@@ -7008,7 +7100,7 @@
      "color": "black"
     },
     {
-     "shop": "indoorswiss.ch",
+     "shop": "shop.indoorswiss.ch",
      "chf": 170.0,
      "url": "https://shop.indoorswiss.ch/de/vorderschaftstutzen/12975-118586-magpul-bipod-fur-m-lok.html",
      "in_stock": true,
@@ -7341,6 +7433,28 @@
      "color": "black"
     },
     {
+     "shop": "dynamikarms.ch",
+     "chf": 56.0,
+     "url": "https://www.dynamikarms.ch/de/materiels/1668-magpul-ms1-sling.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 56.0,
+       "url": "https://www.dynamikarms.ch/de/materiels/1668-magpul-ms1-sling.html",
+       "in_stock": true,
+       "title": "Black"
+      },
+      "ranger": {
+       "chf": 56.0,
+       "url": "https://www.dynamikarms.ch/de/materiels/1668-magpul-ms1-sling.html",
+       "in_stock": true,
+       "title": "Ranger Green"
+      }
+     },
+     "title": "Magpul MS1 Sling – Black",
+     "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: fde"
+    },
+    {
      "shop": "armashop.ch",
      "chf": 99.0,
      "url": "https://armashop.ch/produit/sling-ms1-coyote/",
@@ -7654,7 +7768,7 @@
      "color": "black"
     },
     {
-     "shop": "indoorswiss.ch",
+     "shop": "shop.indoorswiss.ch",
      "chf": 25.5,
      "url": "https://shop.indoorswiss.ch/de/ersatzteile--tuning/21131-148600-magpul-moe-k2-grip-ar15-m4.html",
      "in_stock": false,
@@ -8283,6 +8397,15 @@
      "in_stock": true,
      "colors": {},
      "title": "Radian Weapons AR-15 Talon Safety Selector Ambidextrous"
+    },
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 112.0,
+     "url": "https://www.dynamikarms.ch/de/montage-schienen/2092-radian-talon-ambidextrous-45-90-safety-selector-black-4-lever-817093020606.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Radian Talon Ambidextrous 45/90 Safety Selector – Black 4 Lever",
+     "note": "több színváltozat van, a fekete ára szerepel; a többi: Radian Talon Ambidextrous 45/90 Safety Selector – FDE 2 Lever 86.00 CHF"
     }
    ]
   },
@@ -8365,7 +8488,7 @@
      "note": "a bolti oldal nem nevezi meg a színt"
     },
     {
-     "shop": "indoorswiss.ch",
+     "shop": "shop.indoorswiss.ch",
      "chf": 22.5,
      "url": "https://shop.indoorswiss.ch/de/magazine/21054-148385-magpul-pmag-10-ar-m4-gen-m3.html",
      "in_stock": true,
@@ -8550,7 +8673,7 @@
      "color": "black"
     },
     {
-     "shop": "indoorswiss.ch",
+     "shop": "shop.indoorswiss.ch",
      "chf": 22.5,
      "url": "https://shop.indoorswiss.ch/de/magazine/21057-magpul-pmag-20-ar-m4-gen-m3.html",
      "in_stock": true,
@@ -8703,6 +8826,21 @@
      "color": "black"
     },
     {
+     "shop": "dynamikarms.ch",
+     "chf": 20.0,
+     "url": "https://www.dynamikarms.ch/de/ar-m4/504-pmag-30-ar-m4-gen-m3-556x45.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 20.0,
+       "url": "https://www.dynamikarms.ch/de/ar-m4/504-pmag-30-ar-m4-gen-m3-556x45.html",
+       "in_stock": true,
+       "title": "Black"
+      }
+     },
+     "title": "Magpul PMAG® 30 AR/M4 GEN M3™ 5.56x45mm NATO – Black"
+    },
+    {
      "shop": "gunlex.ch",
      "chf": 20.9,
      "url": "https://gunlex.ch/shop/magazine/magpul-pmag-30-ar-m4-gen-m3/",
@@ -8827,6 +8965,22 @@
      "colors": {},
      "title": "Chargeur MAGPUL AR-15 PMAG GEN M3, Cal. 5.56, 30cps",
      "note": "a bolt 'ACCESSOIRES AR-15' gyűjtőlistájáról (PV = prix de vente); szín nincs megadva"
+    },
+    {
+     "shop": "gun-art.ch",
+     "chf": 29.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m781c1149ebe45842",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 29.0,
+       "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m781c1149ebe45842",
+       "in_stock": true,
+       "title": "Magpul PMAG 30 Rnds Gen M3 – Pmag 30 Black 30 Rnds"
+      }
+     },
+     "title": "Magpul PMAG 30 Rnds Gen M3 – Pmag 30 Black 30 Rnds",
+     "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: coyote"
     },
     {
      "shop": "taczone.ch",
@@ -9133,7 +9287,7 @@
      "color": "black"
     },
     {
-     "shop": "indoorswiss.ch",
+     "shop": "shop.indoorswiss.ch",
      "chf": 31.5,
      "url": "https://shop.indoorswiss.ch/de/montagen/16389-bcmgunfighter-kag---black.html",
      "in_stock": true,
@@ -9238,14 +9392,30 @@
    ]
   },
   "mp-d60": {
-   "chf": 194.0,
-   "shop": "gunfactory.ch",
-   "url": "https://www.gunfactory.ch/langwaf/magazin_betamag.htm",
+   "chf": 178.0,
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/ar-m4/1196-magpul-pmag-d-60-ar-m4-556x45-0840815100560.html",
    "in_stock": true,
-   "title": "AR15 Trommel-Magazin PMAG D-60 Kaliber .223",
+   "title": "Magpul PMAG® D-60 AR/M4, 5.56x45",
    "weight_g": 581,
    "dims": null,
    "offers": [
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 178.0,
+     "url": "https://www.dynamikarms.ch/de/ar-m4/1196-magpul-pmag-d-60-ar-m4-556x45-0840815100560.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 178.0,
+       "url": "https://www.dynamikarms.ch/de/ar-m4/1196-magpul-pmag-d-60-ar-m4-556x45-0840815100560.html",
+       "in_stock": true,
+       "title": "Magpul PMAG® D-60 AR/M4, 5.56x45"
+      }
+     },
+     "title": "Magpul PMAG® D-60 AR/M4, 5.56x45",
+     "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: coyote; a színjelölés nélküli alaptermék feketének véve (a többi szín külön termékként szerepel a boltban)"
+    },
     {
      "shop": "gunfactory.ch",
      "chf": 194.0,
@@ -9304,6 +9474,15 @@
      },
      "title": "Magpul AR-15 PMAG D-60",
      "color": "black"
+    },
+    {
+     "shop": "gun-art.ch",
+     "chf": 260.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m03907f10a116def5",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul PMAG D-60 – Pmag Trommel",
+     "note": "a bolt a színt nem nevezi meg (a cím/változat nem tartalmaz színt)"
     }
    ]
   },
@@ -9586,6 +9765,14 @@
      "title": "Super Dynamic Enhanced (SD-E)"
     },
     {
+     "shop": "dynamikarms.ch",
+     "chf": 308.0,
+     "url": "https://www.dynamikarms.ch/de/ar-m4/1346-geissele-super-dynamic-enhanced-sd-e-trigger-854014005151.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Geissele Super Dynamic Enhanced (SD-E) Trigger"
+    },
+    {
      "shop": "armurerie-richert.ch",
      "chf": 330.0,
      "url": "https://armurerie-richert.ch/produit/detente-geissele-sd-e-pour-ar15/",
@@ -9611,110 +9798,24 @@
     }
    ]
   },
-  "schm-m5fl": {
-   "chf": 2015.0,
-   "shop": "rothwaffen.ch",
-   "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M5FL-Black-16.75-.223-Rem/7009360",
-   "in_stock": null,
-   "title": "Selbstladebüchse Schmeisser AR15 M5FL Black 16.75\" .223 Rem",
-   "weight_g": null,
-   "dims": null,
-   "offers": [
-    {
-     "shop": "schiessstand.ch",
-     "chf": 1749.0,
-     "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m5fl-black-16-75-223-rem/",
-     "in_stock": false,
-     "colors": {
-      "black": {
-       "chf": 1749.0,
-       "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m5fl-black-16-75-223-rem/",
-       "in_stock": false,
-       "title": "Schmeisser – Halbauto / AR15 / M5FL Black / 16.75 / .223 Rem"
-      }
-     },
-     "title": "Schmeisser – Halbauto / AR15 / M5FL Black / 16.75 / .223 Rem",
-     "color": "black"
-    },
-    {
-     "shop": "gunlex.ch",
-     "chf": 1760.0,
-     "url": "https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-m5fl/",
-     "in_stock": false,
-     "colors": {
-      "black": {
-       "chf": 1760.0,
-       "url": "https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-m5fl/",
-       "in_stock": false,
-       "title": "Schmeisser AR15 M5FL"
-      }
-     },
-     "title": "Schmeisser AR15 M5FL",
-     "note": "standard kivitel (16.75\"); a Falke LE optikás csomag más termék",
-     "color": "black"
-    },
-    {
-     "shop": "shooting-store.ch",
-     "chf": 1990.0,
-     "url": "https://www.shooting-store.ch/de/produkt/schmeisser-m5fl-black-223rem-mlok-1675-10-schuss-langer-handschutz",
-     "in_stock": false,
-     "colors": {},
-     "title": "Selbstladebüchse Schmeisser AR15 M5FL Black  16.75\" .223 Rem",
-     "note": "Standard (16.75\", .223 Rem); a boltban csak fekete",
-     "color": "black"
-    },
-    {
-     "shop": "rothwaffen.ch",
-     "chf": 2015.0,
-     "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M5FL-Black-16.75-.223-Rem/7009360",
-     "colors": {
-      "black": {
-       "chf": 2015.0,
-       "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M5FL-Black-16.75-.223-Rem/7009360",
-       "in_stock": null,
-       "title": "Selbstladebüchse Schmeisser AR15 M5FL Black 16.75\" .223 Rem"
-      }
-     },
-     "title": "Selbstladebüchse Schmeisser AR15 M5FL Black 16.75\" .223 Rem",
-     "note": "Standard kivitel (nem 'CSS Stock' / 'Special Edition'); a bolt a kiviteleket külön termékként árulja; a bolt csak a fekete kivitelt árulja"
-    },
-    {
-     "shop": "waffenzimmi.ch",
-     "chf": 2015.0,
-     "url": "https://www.waffenzimmi.ch/produkt/schmeisser-ar15-m5fl-1675/",
-     "in_stock": true,
-     "colors": {},
-     "title": "Schmeisser AR15 M5FL 16.75“",
-     "note": "a 'Solid Line' (új, Solid-előagyas) kivitel másik termék, nem vettük fel; a bolti oldal szerint 16.75\", 3550 g, flip-up irányzékkal; a szín a bolti terméknévben nincs megadva"
-    },
-    {
-     "shop": "tacstore.ch",
-     "chf": 2015.95,
-     "url": "https://www.tacstore.ch/schmeisser-ar15-m5fl-16-75-inch-223-rem-black",
-     "in_stock": false,
-     "colors": {
-      "black": {
-       "chf": 2015.95,
-       "url": "https://www.tacstore.ch/schmeisser-ar15-m5fl-16-75-inch-223-rem-black",
-       "in_stock": false,
-       "title": "Schmeisser AR15 M5FL 16.75 Inch .223 Rem - Black"
-      }
-     },
-     "title": "Schmeisser AR15 M5FL 16.75 Inch .223 Rem - Black",
-     "note": "a 9 mm-es (AR15-9) és a 'Complete Upper' változat másik termék",
-     "color": "black"
-    }
-   ]
-  },
   "dd-v7": {
    "chf": 2340.0,
-   "shop": "heldef.ch",
-   "url": "https://heldef.ch/assault-rife-daniel-defense-ddm4-v7-ar-15-5-56-nato-16/",
-   "in_stock": null,
-   "title": "Assault Rife Daniel Defense DDM4 V7 AR-15 — 5.56 NATO 16\"",
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/ar-m4/1619-daniel-defense-ddm4-v7-16-556-nato-black.html",
+   "in_stock": true,
+   "title": "Daniel Defense DDM4 V7 16\" 5.56 NATO Black",
    "weight_g": 2812,
    "dims": "Lauflänge in mm: 406.4; Lauflänge in Zoll: 16",
    "offers": [
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 2340.0,
+     "url": "https://www.dynamikarms.ch/de/ar-m4/1619-daniel-defense-ddm4-v7-16-556-nato-black.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Daniel Defense DDM4 V7 16\" 5.56 NATO Black",
+     "note": "16\" cső, 5.56 NATO, fekete kivitel (a bolti címben: 'DDM4 V7 16\" 5.56 NATO Black')"
+    },
     {
      "shop": "heldef.ch",
      "chf": 2340.0,
@@ -9822,6 +9923,101 @@
      "colors": {},
      "title": "Daniel Defense DDM4 V7 16\", 5.56 NATO, Brown, MilSpec",
      "note": "A boltban csak a Brown (Mil-Spec) 16\" változat; a data.js fekete"
+    }
+   ]
+  },
+  "schm-m5fl": {
+   "chf": 2015.0,
+   "shop": "rothwaffen.ch",
+   "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M5FL-Black-16.75-.223-Rem/7009360",
+   "in_stock": null,
+   "title": "Selbstladebüchse Schmeisser AR15 M5FL Black 16.75\" .223 Rem",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 1749.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m5fl-black-16-75-223-rem/",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 1749.0,
+       "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m5fl-black-16-75-223-rem/",
+       "in_stock": false,
+       "title": "Schmeisser – Halbauto / AR15 / M5FL Black / 16.75 / .223 Rem"
+      }
+     },
+     "title": "Schmeisser – Halbauto / AR15 / M5FL Black / 16.75 / .223 Rem",
+     "color": "black"
+    },
+    {
+     "shop": "gunlex.ch",
+     "chf": 1760.0,
+     "url": "https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-m5fl/",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 1760.0,
+       "url": "https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-m5fl/",
+       "in_stock": false,
+       "title": "Schmeisser AR15 M5FL"
+      }
+     },
+     "title": "Schmeisser AR15 M5FL",
+     "note": "standard kivitel (16.75\"); a Falke LE optikás csomag más termék",
+     "color": "black"
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 1990.0,
+     "url": "https://www.shooting-store.ch/de/produkt/schmeisser-m5fl-black-223rem-mlok-1675-10-schuss-langer-handschutz",
+     "in_stock": false,
+     "colors": {},
+     "title": "Selbstladebüchse Schmeisser AR15 M5FL Black  16.75\" .223 Rem",
+     "note": "Standard (16.75\", .223 Rem); a boltban csak fekete",
+     "color": "black"
+    },
+    {
+     "shop": "rothwaffen.ch",
+     "chf": 2015.0,
+     "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M5FL-Black-16.75-.223-Rem/7009360",
+     "colors": {
+      "black": {
+       "chf": 2015.0,
+       "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M5FL-Black-16.75-.223-Rem/7009360",
+       "in_stock": null,
+       "title": "Selbstladebüchse Schmeisser AR15 M5FL Black 16.75\" .223 Rem"
+      }
+     },
+     "title": "Selbstladebüchse Schmeisser AR15 M5FL Black 16.75\" .223 Rem",
+     "note": "Standard kivitel (nem 'CSS Stock' / 'Special Edition'); a bolt a kiviteleket külön termékként árulja; a bolt csak a fekete kivitelt árulja"
+    },
+    {
+     "shop": "waffenzimmi.ch",
+     "chf": 2015.0,
+     "url": "https://www.waffenzimmi.ch/produkt/schmeisser-ar15-m5fl-1675/",
+     "in_stock": true,
+     "colors": {},
+     "title": "Schmeisser AR15 M5FL 16.75“",
+     "note": "a 'Solid Line' (új, Solid-előagyas) kivitel másik termék, nem vettük fel; a bolti oldal szerint 16.75\", 3550 g, flip-up irányzékkal; a szín a bolti terméknévben nincs megadva"
+    },
+    {
+     "shop": "tacstore.ch",
+     "chf": 2015.95,
+     "url": "https://www.tacstore.ch/schmeisser-ar15-m5fl-16-75-inch-223-rem-black",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 2015.95,
+       "url": "https://www.tacstore.ch/schmeisser-ar15-m5fl-16-75-inch-223-rem-black",
+       "in_stock": false,
+       "title": "Schmeisser AR15 M5FL 16.75 Inch .223 Rem - Black"
+      }
+     },
+     "title": "Schmeisser AR15 M5FL 16.75 Inch .223 Rem - Black",
+     "note": "a 9 mm-es (AR15-9) és a 'Complete Upper' változat másik termék",
+     "color": "black"
     }
    ]
   },
