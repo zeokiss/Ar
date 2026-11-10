@@ -316,6 +316,9 @@ COLOR_MAP = {
     'multicam': 'multicam', 'multicam tropic': 'multicam-tropic', 'multicam black': 'multicam-black',
     'braun': 'brown', 'blau': 'blue', 'sand': 'sand', 'silber': 'silver', 'od green': 'odg',
     'law enforcement': 'law-enforcement',
+    # felület / kivitel-változatok (a boltban színként szerepelnek)
+    'mil spec +': 'milspec-plus', 'rattlecan': 'rattlecan', 'np3': 'np3', 'tungsten': 'tungsten',
+    'clear anodized': 'clear-anodized', 'schwarz & np3': 'black-np3',
 }
 
 BRAND_RX = {
