@@ -65,6 +65,32 @@
    "ay": 124.5,
    "facing": "right",
    "source": "b5systems.com/collection/ar/enhanced-sopmod-stock/ (profile-right render, Length 7.43 in)"
+  },
+  {
+   "item": "b5-esop",
+   "slot": "main",
+   "color": "fde",
+   "src": "parts/b5-esop-main-fde.webp",
+   "w": 1598,
+   "h": 1061,
+   "ppi": 215.07,
+   "ax": 1595.0,
+   "ay": 83.5,
+   "facing": "right",
+   "source": "b5systems.com/collection/ar/enhanced-sopmod-stock/ (profile-right render, Length 7.43 in)"
+  },
+  {
+   "item": "b5-esop",
+   "slot": "main",
+   "color": "odg",
+   "src": "parts/b5-esop-main-odg.webp",
+   "w": 1588,
+   "h": 1056,
+   "ppi": 213.73,
+   "ax": 1585.0,
+   "ay": 116.0,
+   "facing": "right",
+   "source": "b5systems.com/collection/ar/enhanced-sopmod-stock/ (profile-right render, Length 7.43 in)"
   }
  ]
 }
