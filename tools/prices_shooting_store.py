@@ -114,9 +114,9 @@ S('bcm-s1', ['BCM Stock'], r'^bcm stock mod 1 sopmod compartment (black|flat dar
 S('b5-bravo', ['B5 Systems Bravo'], r'^b5 systems ar 15 bravo stock collapsible mil spec', note='Mil-Spec kivitel')
 
 # --- Tustalpak -------------------------------------------------------------
-S('mp-pad030', ['Magpul Buttpad'], r'^magpul rubber buttpad black$')
-S('mp-pad055', ['Magpul Buttpad'], r'^magpul extended rubber buttpad black$')
-S('mp-pad070', ['Magpul Buttpad'], r'^magpul enhanced rubber buttpad black$')
+S('mp-pad030', ['Magpul Buttpad'], r'^magpul rubber buttpad black$', note='Alap gumi tustalp; a vastagságot (0.30") a bolti oldal nem írja ki, a név alapján azonosítva')
+S('mp-pad055', ['Magpul Buttpad'], r'^magpul extended rubber buttpad black$', note='Extended; a vastagságot (0.55") a bolti oldal nem írja ki, a név alapján azonosítva')
+S('mp-pad070', ['Magpul Buttpad'], r'^magpul enhanced rubber buttpad black$', note='Enhanced; a vastagságot (0.70") a bolti oldal nem írja ki, a név alapján azonosítva')
 S('mp-padsl', ['Magpul Buttpad'], r'^magpul moe sl enhanced rubber buttpad 0 70 inches black$')
 
 # --- Red dot / holo --------------------------------------------------------
@@ -124,7 +124,8 @@ S('eo-exps3', ['EoTech EXPS3'], r'^eotech exps3 0 (black|tan)$', colors=True)
 S('eo-exps2', ['EoTech EXPS2'], r'^eotech exps2 0 black$', r'green|schwarz',
   note='Piros reticle (a "Green Reticle" változat külön termék)')
 S('eo-xps2', ['EoTech XPS2'], r'^eotech xps2 0 black$', r'green')
-S('hs-510c', ['Holosun HS510C'], r'^holosun hs510c (solar red circle dot sight black|fde)', r'set|ge|he510', colors=True)
+S('hs-510c', ['Holosun HS510C'], r'^holosun hs510c( fde)? kreispunktvisier open reflex visier so', r'he510|set', colors=True,
+  note='HS510C (piros, 2 MOA pont + 65 MOA gyűrű, napelemes)')
 S('vx-uh1', ['Vortex UH-1'], r'^vortex optics amg uh 1 gen ii holographic sight$')
 S('vx-crossfire', ['Vortex Crossfire Red Dot'], r'^vortex optics crossfire red dot led upgrade black$',
   note='A boltban "Crossfire Red Dot LED Upgrade"; a magasító szerelék nincs külön feltüntetve')
@@ -148,7 +149,7 @@ S('eo-g43', ['EoTech G43'], r'^eotech vergrosserungsaufsatz g43 sts 3x magnifier
   note='G43.STS (STS szerelékkel); a data.js "Micro szerelék" megjelölése eltér')
 S('hs-hm3x', ['Holosun HM3X'], r'^holosun magnifier hm3x magnifier$')
 S('vx-m3x', ['Vortex Magnifier'], r'^vortex optics v3xm magnifier with flip mount black$',
-  note='V3XM = Vortex Micro 3X magnifier (flip mount-tal)')
+  note='V3XM modellkód (Vortex Micro 3X magnifier, flip mount); az egyezés a modellkódon alapul, a bolti oldal nem írja ki a "Micro3X" nevet')
 
 # --- BUIS (a bolt első/hátsó irányzékot külön árul -> összeg) --------------
 S('mp-mbus3', ['Magpul MBUS'], None, set=[
@@ -185,6 +186,8 @@ S('rd-raptor', ['Radian Raptor'], r'^(radian weapons raptor ambidextrous chargin
 S('rd-raptorlt', ['Radian Raptor-LT'], r'^radian raptor lt ambidextrous charging handle ar15', r'ar10|combo', colors=True)
 S('rd-raptorsd', ['Radian Raptor-SD'], r'^(radian weapons ar 15 raptor sd ambidextrous charging handl|radian raptor sd ambidextrous charging handle ar15|raptor sd charging handle ar15)', r'ar10|combo', colors=True)
 S('rd-talon', ['Radian Talon'], r'^radian weapons talon ambidextrous 45 90 safety selector', r'kit|gi\b', colors=True)
+S('gs-ach', ['Airborne'], r'^airborne charging handle ach 5 56 (black|ddc)$', colors=True,
+  note='A boltban "Airborne Charging Handle (ACH)" néven (Geissele nevet nem tartalmazza a cím)')
 S('mp-bad', ['Magpul B.A.D.'], r'^magpul b a d lever black$')
 S('mp-trigguard', ['Magpul MOE Enhanced Trigger Guard'], r'^magpul moe enhanced trigger guard polymer ar15 m4$')
 
@@ -232,7 +235,6 @@ INFO = {
     'hr-sbrm': ('Harris S-BRM', 'Harris bipod nincs a kínálatban (csak adapter/szerelék)'),
     'bcm-ch4': ('BCM Charging Handle', 'csak az utód BCM Charging Handle MK2 (Large/Medium Latch) van; nem azonos a Gunfighter Mod 4-gyel'),
     'bcm-ch3': ('BCM Charging Handle', 'csak az utód BCM Charging Handle MK2 (Large/Medium Latch) van; nem azonos a Gunfighter Mod 3-mal'),
-    'gs-ach': ('Geissele Charging Handle', 'csak a Geissele "Super Charging Handle" van, az Airborne nem'),
     'mp-pm30w': ('Magpul PMAG 30 Window', 'Gen M3 Window nincs AR-15-höz (csak Gen M2 MOE Window és Steyr AUG Window)'),
     'mp-d60': ('Magpul D-60', 'a D-60 nincs a kínálatban (csak D-50)'),
 }
@@ -385,51 +387,90 @@ def stock_state(txt):
 
 
 def to_grams(num, unit):
+    u = unit.lower()
+    if num and u in ('g', 'gr', 'gramm', 'grams') and re.fullmatch(r'\d{1,3}(\.\d{3})+', num):
+        num = num.replace('.', '')      # német ezreselválasztó: 3.150 g = 3150 g
     v = money(num.replace(',', '.')) if num else None
     if v is None:
         return None
-    u = unit.lower()
-    if u in ('kg',):
-        return round(v * 1000)
-    if u in ('g', 'gr', 'gramm', 'grams'):
-        return round(v)
-    if u in ('oz', 'ounce', 'ounces'):
-        return round(v * 28.3495)
-    if u in ('lb', 'lbs', 'pound', 'pounds'):
-        return round(v * 453.592)
-    return None
+    if u == 'kg':
+        g = v * 1000
+    elif u in ('g', 'gr', 'gramm', 'grams'):
+        g = v
+    elif u in ('oz', 'ounce', 'ounces'):
+        g = v * 28.3495
+    elif u in ('lb', 'lbs', 'pound', 'pounds'):
+        g = v * 453.592
+    else:
+        return None
+    if g < 1 or g > 20000:
+        return None
+    return round(g) if g >= 100 else round(g, 1)
 
 
-WEIGHT_RX = re.compile(r'(?:gewicht|weight|masse)\s*(?:\([^)]*\))?\s*[:=]?\s*(?:ca\.?|approx\.?|~|circa)?\s*'
-                       r'(\d[\d.,]*)\s*(kg|gramm|grams|gr|g|oz|ounces?|lbs?|pounds?)\b', re.I)
+_UNITS = r'(kg|gramm|grams|gr|g|oz|ounces?|lbs?|pounds?)\b'
+WEIGHT_RXS = [
+    re.compile(r'(?<![\w])(?:product |item |artikel|netto|net )?(?:gewicht|weight)\s*(?:\([^)]*\))?\s*[:=]?\s*(?:ca\.?|approx\.?|~|circa|about)?\s*(\d[\d.,]*)\s*' + _UNITS, re.I),
+    re.compile(r'\bwiegt[^.\d]{0,60}?(\d[\d.,]*)\s*' + _UNITS, re.I),
+    re.compile(r'\bweighs[^.\d]{0,40}?(\d[\d.,]*)\s*' + _UNITS, re.I),
+]
+WEIGHT_BAD_PREFIX = re.compile(r'(versand|shipping|abzug|trigger|pull|stufe|stage|ammo|munition)\W*$', re.I)
 DIM_KEYS = re.compile(r'm(?:a|ä)sse|ma(?:ss|ß)e|l(?:ä|ae)nge|breite|h(?:ö|oe)he|abmessung|dimension|gr(?:ö|oe)(?:ß|ss)e|'
                       r'length|width|height|durchmesser|diameter|laufl|barrel|tiefe|depth', re.I)
+DIM_BAD_KEY = re.compile(r'versand|shipping|pin gr', re.I)
+DIM_LABEL = (r'(?:Gesamtl(?:ä|ae)nge|Overall Length|Barrel Length|Laufl(?:ä|ae)nge|L(?:ä|ae)nge|Length|Breite|Width|'
+             r'H(?:ö|oe)he(?: [^:]{0,20})?|Height|Tiefe|Depth|Durchmesser|Diameter)')
+DIM_PAIR = re.compile(r'(?<![\w])(' + DIM_LABEL + r')\s*:?\s*((?:ca\.?\s*)?\d.{0,45})', re.I)
+DIM_UNIT = re.compile(r'\d\s*(?:mm|cm|zoll|inch|in\b|")', re.I)
+DIM_CUT = re.compile(r'\s+[A-ZÄÖÜ]{2,}|\s+[A-ZÄÖÜ][a-zäöüß]+\s*:|;|(?<!ca)\.\s|\s[-–]\s[A-Za-z]')
+DIM_CUT2 = re.compile(r'\s+(?=(?:Gesamtl|Laufl|L(?:ä|ae)nge|Length|Breite|Width|H(?:ö|oe)he|Height|Tiefe|Depth|Durchmesser|Diameter|Barrel|Overall))', re.I)
+DIM_XYZ = re.compile(r'(?:abmessungen?|dimensions?|ma(?:ss|ß)e)\s*(?:von|of|:)?\s*(?:ca\.?\s*)?(\d+(?:[.,]\d+)?\s*[x×]\s*\d+(?:[.,]\d+)?(?:\s*[x×]\s*\d+(?:[.,]\d+)?)?\s*(?:mm|cm|in|"))', re.I)
 
 
 def weight_from(attrs, desc):
     for k, v in attrs.items():
-        if re.search(r'gewicht|weight', k, re.I):
-            m = re.search(r'(\d[\d.,]*)\s*(kg|gramm|grams|gr|g|oz|ounces?|lbs?|pounds?)\b', v, re.I)
+        if re.fullmatch(r'\s*(?:artikel|netto|produkt)?\s*(?:gewicht|weight)\s*(?:\([^)]*\))?\s*', k, re.I):
+            m = re.search(r'(\d[\d.,]*)\s*' + _UNITS, v, re.I)
             if m:
                 g = to_grams(m.group(1), m.group(2))
                 if g:
                     return g, 'attr'
-    m = WEIGHT_RX.search(desc or '')
-    if m:
-        g = to_grams(m.group(1), m.group(2))
-        if g:
-            return g, 'desc'
+    for rx in WEIGHT_RXS:
+        for m in rx.finditer(desc or ''):
+            if WEIGHT_BAD_PREFIX.search((desc or '')[max(0, m.start() - 14):m.start()]):
+                continue
+            g = to_grams(m.group(1), m.group(2))
+            if g:
+                return g, 'desc'
     return None, None
 
 
 def dims_from(attrs, desc):
-    parts = ['%s: %s' % (k, v) for k, v in attrs.items() if DIM_KEYS.search(k) and v]
+    parts = ['%s: %s' % (k, v) for k, v in attrs.items() if DIM_KEYS.search(k) and not DIM_BAD_KEY.search(k) and v]
     if parts:
         return '; '.join(parts)
-    m = re.search(r'(?:dimensions?|abmessungen?|ma(?:ss|ß)e|l(?:ä|ae)nge|length|overall length)\s*[:=]\s*([^\n.;]{3,90})', desc or '', re.I)
+    d = desc or ''
+    m = DIM_XYZ.search(d)
     if m:
-        return m.group(0).strip()
-    return None
+        return m.group(1).strip()
+    pairs, pos = [], 0
+    while len(pairs) < 4:
+        m = DIM_PAIR.search(d, pos)
+        if not m:
+            break
+        pos = m.end(1)
+        if re.search(r'versand|shipping', d[max(0, m.start() - 12):m.start()], re.I):
+            continue
+        val = m.group(2)
+        cuts = [c.start() for c in (DIM_CUT.search(val), DIM_CUT2.search(val)) if c]
+        if cuts:
+            val = val[:min(cuts)]
+        val = val.strip(' ,')
+        if not DIM_UNIT.search(val):
+            continue
+        pairs.append('%s: %s' % (m.group(1).strip(), val))
+        pos = m.start(2) + len(val)
+    return '; '.join(pairs) if pairs else None
 
 
 def parse_product(h, url):
@@ -535,27 +576,38 @@ def literal_words(rx):
     return set(re.findall(r'[a-z0-9]+', re.sub(r'\\[a-z]', ' ', rx or '')))
 
 
-def make_matcher(item, spec):
+AUTO_ALLOWED = set('optics black schwarz tan fde grey gray grau od odg green olive coyote brown foliage'.split())
+
+
+def make_matcher(item, spec, info=None):
     """-> (queries, ok_fn(title_norm)->bool, no_fn, words)"""
     if spec and spec.get('ok'):
         ok, no = re.compile(spec['ok']), re.compile(spec['no']) if spec.get('no') else None
         words = literal_words(spec['ok'])
         return spec['q'], (lambda t: bool(ok.search(t)) and not (no and no.search(t))), \
             (lambda t: bool(no and no.search(t))), words
-    # automatikus: a név (a '+' utáni magyar kiegészítés nélkül) minden szava szerepeljen a bolti névben
     base = item['name'].split('+')[0]
-    toks = [w for w in norm(base).split() if w not in ('szett', 'gen')] or norm(base).split()
     q = (spec or {}).get('q') or [item['brand'] + ' ' + base.strip()]
-    brand_t = norm(item['brand']).split()
-    return q, (lambda t: all(w in t.split() for w in toks) and all(w in t.split() for w in brand_t[:1])), \
-        (lambda t: False), set(toks)
+    if info is not None:
+        # kézzel ellenőrzött: nincs pontos egyezés -> csak a keresés eredményét mutatjuk hasonlóként
+        return q, (lambda t: False), (lambda t: False), set()
+    # Kézi szabály nélküli (új) termék: SZIGORÚ automatikus egyezés -- a bolti név minden szava a
+    # data.js névből / márkából / színszavakból kell, hogy álljon, és a név minden szava szerepeljen.
+    toks = norm(base).split()
+    brand_t = set(norm(item['brand']).split())
+    allowed = set(toks) | brand_t | AUTO_ALLOWED
+
+    def ok_auto(t):
+        tt = t.split()
+        return all(w in tt for w in toks) and all(w in allowed for w in tt)
+    return q, ok_auto, (lambda t: False), set(toks)
 
 
 # ---------------------------------------------------------------------------
 # Egy termék feldolgozása
 # ---------------------------------------------------------------------------
-def find_candidates(item, spec):
-    queries, ok_fn, no_fn, words = make_matcher(item, spec)
+def find_candidates(item, spec, info=None):
+    queries, ok_fn, no_fn, words = make_matcher(item, spec, info)
     seen, pool = {}, []
     for q in queries:
         for r in search(q):
@@ -652,7 +704,7 @@ def similar(item, pool, n=3):
 
 def process(item):
     spec = SPECS.get(item['id'])
-    info = INFO.get(item['id'])
+    info = INFO.get(item['id']) if not (spec and spec.get('ok')) else None
     if info and not spec:
         spec = {'q': [info[0]], 'ok': None, 'no': None}
     # --- készlet-összeállítás (első + hátsó stb.)
@@ -689,16 +741,17 @@ def process(item):
             out['weight_g'] = sum(wg)
         return out, None
 
-    pool, exact, maybe, ok_fn = find_candidates(item, spec)
+    pool, exact, maybe, ok_fn = find_candidates(item, spec, info)
     prods = []
     for r in exact:
         prods.append(fetch_product(r))
-    for r in maybe:      # csonkolt listanév: a teljes névvel ellenőrizzük
-        pr = fetch_product(r)
-        if ok_fn(norm(pr['title'])):
-            prods.append(pr)
-    # a termékoldal teljes nevével is ellenőrzünk
-    prods = [p for p in prods if ok_fn(norm(p['title'])) or ok_fn(norm(p['list_name']))]
+    for r in maybe:      # csonkolt listanév: a teljes névvel / változatnévvel ellenőrizzük
+        prods.append(fetch_product(r))
+
+    def page_ok(p):
+        names = [p['title'], p['list_name'].rstrip('. ')] + [v.get('label') or '' for v in p['variants']]
+        return any(ok_fn(norm(n)) for n in names if n)
+    prods = [p for p in prods if page_ok(p)]
     uniq, seen = [], set()
     for p in prods:
         if p['id'] not in seen:
@@ -722,7 +775,10 @@ def process(item):
         if len(set(keys)) != len(keys) and len(prods) != 1:
             # több oldalon is azonos szín -> nem egyértelmű
             pass
-    return build_item(prods, spec)
+    out, why = build_item(prods, spec)
+    if out and not (spec and spec.get('ok')):
+        out['note'] = 'automatikus egyezés (nincs kézi szabály) -- ellenőrizendő'
+    return out, why
 
 
 def main():

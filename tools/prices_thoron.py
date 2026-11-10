@@ -313,6 +313,9 @@ COLOR_MAP = {
     'grün': 'green', 'rot': 'red', 'sniper grey': 'sniper-grey',
     'deep woods': 'deep-woods', 'deep woods green': 'deep-woods', 'tornado': 'tornado',
     'cobalt': 'cobalt', 'wolf grey': 'wolfgray', 'foliage green': 'foliage',
+    'multicam': 'multicam', 'multicam tropic': 'multicam-tropic', 'multicam black': 'multicam-black',
+    'braun': 'brown', 'blau': 'blue', 'sand': 'sand', 'silber': 'silver', 'od green': 'odg',
+    'law enforcement': 'law-enforcement',
 }
 
 BRAND_RX = {
@@ -466,31 +469,48 @@ def parse_detail(h):
     return d
 
 
+WEIGHT_LABEL = re.compile(r'(?<![A-Za-zäöüß])(?:gewicht|weight)[^\d\n]{0,15}?([\d][\d\'.,]*)\s*'
+                          r'(kg|gramm|grams?|gr|g|oz|lbs?)\b(.{0,40})', re.I)
+
+
+def _grams(num, unit):
+    v = _num(num)
+    if v is None:
+        return None
+    u = unit.lower()
+    if u in ('g', 'gr', 'gram', 'grams', 'gramm'):
+        return v
+    if u == 'kg':
+        return v * 1000.0
+    if u == 'oz':
+        return v * GRAM['oz']
+    if u in ('lb', 'lbs'):
+        return v * GRAM['lb']
+    return None
+
+
 def extract_weight(entries, desc):
+    """Súly grammban - csak kifejezetten "Gewicht"/"Weight" megjelöléssel adott érték
+    (az 'Abzugsgewicht', 'Gesamtgewicht' stb. nem számít)."""
     texts = []
     for label, val in entries:
-        if re.search(r'gewicht|weight', label, re.I):
-            texts.append(val)
-    for line in desc.split('\n'):
-        if re.search(r'gewicht|weight', line, re.I):
-            texts.append(line)
-    rx = re.compile(r'([\d][\d\'.,]*)\s*(kg|gramm|grams?|gr|g|oz|lbs?)\b', re.I)
+        if re.search(r'(?<![A-Za-zäöüß])(gewicht|weight)', label, re.I):
+            texts.append('Gewicht: ' + val)
+    texts += desc.split('\n')
     for t in texts:
-        # "Gewicht: 5.6 oz (160 g)" -> a gramm érték előnyben
-        found = rx.findall(t)
-        for num, unit in found:
-            u = unit.lower().rstrip('s') if unit.lower() in ('grams', 'lbs') else unit.lower()
-            if u in ('g', 'gr', 'gram', 'gramm'):
-                v = _num(num)
-                if v is not None:
-                    return round(v, 1)
-        for num, unit in found:
-            u = unit.lower()
-            u = 'lb' if u in ('lb', 'lbs') else u
-            if u in GRAM:
-                v = _num(num)
-                if v is not None:
-                    return round(v * GRAM[u], 1)
+        m = WEIGHT_LABEL.search(t)
+        if not m:
+            continue
+        num, unit, tail = m.group(1), m.group(2), m.group(3)
+        g = _grams(num, unit)
+        # "11.2 oz (317grams)" -> a gramm érték előnyben
+        mg = re.search(r'([\d][\d\'.,]*)\s*(kg|gramm|grams?|gr|g)\b', tail, re.I)
+        if mg and unit.lower() not in ('g', 'gr', 'gram', 'grams', 'gramm', 'kg'):
+            g2 = _grams(mg.group(1), mg.group(2))
+            if g2:
+                g = g2
+        if g:
+            return round(g, 1)
     return None
 
 
@@ -507,7 +527,8 @@ def _num(s):
 
 
 DIM_LABEL = re.compile(r'länge|laenge|höhe|hoehe|breite|abmessung|masse\b|grösse|größe|durchmesser|length|height|width|dimension|lauflänge', re.I)
-DIM_LINE = re.compile(r'(länge|laenge|höhe|breite|abmessung|gesamtlänge|dimension|length|height|width)[^\n]{0,40}?\d', re.I)
+DIM_LINE = re.compile(r'(?<![A-Za-zäöüß])(länge|laenge|höhe|breite|abmessung\w*|gesamtlänge|dimensions?|length|height|width)'
+                      r'(?![A-Za-zäöüß])[^\n]{0,40}?\d', re.I)
 
 
 def extract_dims(entries, desc):
@@ -667,7 +688,8 @@ def process_item(shop, item, spec, now_note):
     in_stock = 'InStock' in (offer.get('availability') or '')
 
     out = {
-        'title': clean(ld.get('name')) + ((' | ' + ' | '.join(split_sub(prim['sub'])[0])) if split_sub(prim['sub'])[0] else ''),
+        'title': clean(ld.get('name')) or prim['title'],
+        'subtitle': ' | '.join(split_sub(prim['sub'])[0]) or None,
         'price_chf': price, 'list_chf': list_chf,
         'url': prim['url'], 'image': imgs[0] if imgs else prim['thumb'],
         'in_stock': in_stock, 'stock_text': det['stock_text'],

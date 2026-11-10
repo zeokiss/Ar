@@ -1,0 +1,2241 @@
+{
+  "shop": "shooting-store.ch",
+  "currency": "CHF",
+  "fetched": "2026-11-10",
+  "items": {
+    "schm-s4f": {
+      "title": "Selbstladebüchse Schmeisser AR15 S4F Black 10.5\" .223 Rem",
+      "price_chf": 1995.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/schmeisser-selbstladebuechse-s4f-black-105-m-lok-223-rem",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/16368_gr.png",
+      "in_stock": false,
+      "weight_g": 3150,
+      "dims": "LÄNGE: 72 cm eingeschoben, 79 cm ausgezogen",
+      "color": "black",
+      "sku": "Sch03-0099M",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "weight_src": "desc",
+      "colors_prices": {
+        "odg": {
+          "label": null,
+          "price_chf": 2130.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-s4f-od-green-105-223-rem",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/55235_gr.png",
+          "sku": "SCH03-0100MODG"
+        },
+        "black": {
+          "label": null,
+          "price_chf": 1995.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/schmeisser-selbstladebuechse-s4f-black-105-m-lok-223-rem",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/16368_gr.png",
+          "sku": "Sch03-0099M"
+        },
+        "bronze": {
+          "label": null,
+          "price_chf": 2105.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/schmeisser-ar15-s4f-m-lok-105-zoll-bronze-223-rem",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/15543_gr.png",
+          "sku": "030100M"
+        }
+      },
+      "note": "Standard (Selbstladebüchse, M-LOK, 10.5\", .223 Rem); a Solid Line / Special Edition / CSS-tusos kivitelek más termékek"
+    },
+    "schm-m4fl": {
+      "title": "Selbstladebüchse Schmeisser AR15 M4FL Black 14.5\" .223 Rem",
+      "price_chf": 1990.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-m4fl-black-145-m-lok-223-rem",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/16360_gr.png",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "sku": "R31284",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "bronze": {
+          "label": null,
+          "price_chf": 2130.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-bronze-145-223-rem",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/55227_gr.png",
+          "sku": "SCH03-0074MB"
+        },
+        "fde": {
+          "label": null,
+          "price_chf": 2130.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-fde-145-223-rem",
+          "image": null,
+          "sku": "SCH-03-0074MFDE"
+        },
+        "black": {
+          "label": null,
+          "price_chf": 1990.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-m4fl-black-145-m-lok-223-rem",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/16360_gr.png",
+          "sku": "R31284"
+        },
+        "odg": {
+          "label": null,
+          "price_chf": 2130.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-od-green-145-223-rem",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/55231_gr.png",
+          "sku": "SCH03-0074MODG"
+        }
+      },
+      "note": "Standard (14.5\", .223 Rem)"
+    },
+    "schm-m5fl": {
+      "title": "Selbstladebüchse Schmeisser AR15 M5FL Black  16.75\" .223 Rem",
+      "price_chf": 1990.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/schmeisser-m5fl-black-223rem-mlok-1675-10-schuss-langer-handschutz",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/21087_gr.png",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "sku": "SCH7009360",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "note": "Standard (16.75\", .223 Rem); a boltban csak fekete"
+    },
+    "schm-dyn": {
+      "title": "Selbstladebüchse Schmeisser AR15 Dynamic L Black 16.75\" .223 Rem",
+      "price_chf": 2128.49,
+      "list_chf": 2805.0,
+      "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-l-1675-black-223rem-mlok-10-schuss",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/21084_gr.png",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "sku": "SCH7009350",
+      "stock_text": "1 Artikel an Lager",
+      "stock_qty": 1,
+      "colors_prices": {
+        "black": {
+          "label": null,
+          "price_chf": 2128.49,
+          "list_chf": 2805.0,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-l-1675-black-223rem-mlok-10-schuss",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/21084_gr.png",
+          "sku": "SCH7009350"
+        },
+        "gray": {
+          "label": null,
+          "price_chf": 2945.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-l-1675-grey-223rem-mlok-10-schuss",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/21081_gr.png",
+          "sku": "SCH7009351"
+        }
+      },
+      "note": "A boltban \"AR15 Dynamic L\" néven fut (16.75\"); a \"Dynamic M5FL\" névvel való azonosság a bolti oldal alapján valószínű, nem gyári megerősítésű"
+    },
+    "dd-v7": {
+      "title": "Daniel Defense DDM4 V7 16\", 5.56 NATO, Brown, MilSpec",
+      "price_chf": 2580.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/daniel-defense-ddm4-v7-16-556-nato-brown-milspec",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/906545_gr.png",
+      "in_stock": false,
+      "weight_g": 2812,
+      "dims": "Lauflänge in mm: 406.4; Lauflänge in Zoll: 16",
+      "color": "brown",
+      "sku": "DDE-02-128-02338-047",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "weight_src": "desc",
+      "note": "A boltban csak a Brown (Mil-Spec) 16\" változat; a data.js fekete"
+    },
+    "bcm-recce16": {
+      "title": "RECCE-16 MCMR15",
+      "price_chf": 2329.7,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/recce-16-mcmr15",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68902_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": null,
+      "sku": "BCM-750-750",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 240 Tage betragen. )",
+      "stock_qty": null
+    },
+    "mp-moe": {
+      "title": "Magpul MOE Grip",
+      "price_chf": 23.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5970_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "10872",
+      "stock_text": "17 Artikel an Lager",
+      "stock_qty": 17,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 23.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5970_gr.jpg",
+          "sku": "10872"
+        },
+        "coyote": {
+          "label": "medium coyote brown",
+          "price_chf": 23.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/903859_gr.jpg",
+          "sku": "MAG415-MCB"
+        },
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 23.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5936_gr.jpg",
+          "sku": "10873"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 23.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5944_gr.jpg",
+          "sku": "10875"
+        }
+      }
+    },
+    "mp-moek2": {
+      "title": "Magpul MOE K2 Grip",
+      "price_chf": 23.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5319_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "14282",
+      "stock_text": "6 Artikel an Lager",
+      "stock_qty": 6,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 23.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5319_gr.jpg",
+          "sku": "14282"
+        },
+        "coyote": {
+          "label": "medium coyote brown",
+          "price_chf": 23.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/903860_gr.jpg",
+          "sku": "MAG522-MCB"
+        },
+        "gray": {
+          "label": "grau",
+          "price_chf": 23.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64771_gr.jpg",
+          "sku": "MAG522-GRY"
+        },
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 23.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/22579_gr.jpg",
+          "sku": "MAG522DarkEarth"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 23.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/22589_gr.jpg",
+          "sku": "MAG522OD"
+        }
+      }
+    },
+    "mp-moek2p": {
+      "title": "Magpul MOE K2+ Grip",
+      "price_chf": 27.3,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/22575_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "MAG532Black",
+      "stock_text": "2 Artikel an Lager",
+      "stock_qty": 2,
+      "colors_prices": {
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 27.3,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4608_gr.jpg",
+          "sku": "18493"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 27.3,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4598_gr.jpg",
+          "sku": "18494"
+        },
+        "gray": {
+          "label": "grau",
+          "price_chf": 27.3,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64774_gr.jpg",
+          "sku": "MAG532-GRY"
+        },
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 27.3,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/22575_gr.jpg",
+          "sku": "MAG532Black"
+        }
+      }
+    },
+    "mp-miad": {
+      "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1",
+      "price_chf": 43.8,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/22590_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "MAG520Black",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 90 Tage betragen. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "gray": {
+          "label": "grau",
+          "price_chf": 26.9,
+          "list_chf": 43.8,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64769_gr.jpg",
+          "sku": "MAG520-GRY"
+        },
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 43.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/22590_gr.jpg",
+          "sku": "MAG520Black"
+        },
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 43.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/22593_gr.jpg",
+          "sku": "MAG520DarkEarth"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 43.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/22591_gr.jpg",
+          "sku": "MAG520OD"
+        }
+      },
+      "note": "AR-15 (5.56) változat; a 7.62 külön termék"
+    },
+    "bcm-g0": {
+      "title": "BCM®  Grip Mod 0 - Black",
+      "price_chf": 32.4,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-0-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68953_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "sku": "BCM-GFG-MOD-0-BLK",
+      "stock_text": "7 Artikel an Lager",
+      "stock_qty": 7,
+      "colors_prices": {
+        "black": {
+          "label": null,
+          "price_chf": 32.4,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-0-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68953_gr.jpg",
+          "sku": "BCM-GFG-MOD-0-BLK"
+        },
+        "fde": {
+          "label": null,
+          "price_chf": 32.4,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-0-flat-dark-earth",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68954_gr.jpg",
+          "sku": "BCM-GFG-MOD-0-FDE"
+        }
+      },
+      "note": "A boltban \"BCM Grip Mod 0\" (a BCM Gunfighter sorozat)"
+    },
+    "bcm-g3": {
+      "title": "BCM® Grip Mod 3 - Black",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-3-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68959_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "sku": "BCM-GFG-MOD-3-BLK",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Bereits 14 Stück nachbestellt, jedoch kann zur Zeit kein Liefertermin genannt werden. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "fde": {
+          "label": null,
+          "price_chf": 24.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-3-flat-dark-earth",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68960_gr.jpg",
+          "sku": "BCM-GFG-MOD-3-FDE"
+        },
+        "black": {
+          "label": null,
+          "price_chf": 24.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-3-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68959_gr.jpg",
+          "sku": "BCM-GFG-MOD-3-BLK"
+        }
+      },
+      "note": "A boltban \"BCM Grip Mod 3\" (a BCM Gunfighter sorozat)"
+    },
+    "mp-ctr": {
+      "title": "Magpul CTR Carbine Stock Mil Spec",
+      "price_chf": 81.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3067_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "10958",
+      "stock_text": "17 Artikel an Lager",
+      "stock_qty": 17,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 81.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3067_gr.jpg",
+          "sku": "10958"
+        },
+        "coyote": {
+          "label": "medium coyote brown",
+          "price_chf": 81.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/903862_gr.jpg",
+          "sku": "MAG310-MCB"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 81.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5818_gr.jpg",
+          "sku": "10961"
+        },
+        "gray": {
+          "label": "grau",
+          "price_chf": 49.94,
+          "list_chf": 81.2,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64717_gr.jpg",
+          "sku": "MAG310-GRY"
+        },
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 81.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3066_gr.jpg",
+          "sku": "10959"
+        }
+      },
+      "note": "Mil-Spec tuskivitel"
+    },
+    "mp-moesl": {
+      "title": "Magpul MOE SL Carbine Stock Mil Spec",
+      "price_chf": 81.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4721_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "17905",
+      "stock_text": "1 Artikel an Lager",
+      "stock_qty": 1,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 81.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4721_gr.jpg",
+          "sku": "17905"
+        },
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 81.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4711_gr.jpg",
+          "sku": "17906"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 81.2,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4734_gr.jpg",
+          "sku": "17907"
+        }
+      },
+      "note": "Mil-Spec tuskivitel"
+    },
+    "mp-moeslk": {
+      "title": "Magpul MOE SL-K Carbine Stock Mil Spec",
+      "price_chf": 56.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3220_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "21857",
+      "stock_text": "4 Artikel an Lager",
+      "stock_qty": 4,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 56.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3220_gr.jpg",
+          "sku": "21857"
+        },
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 56.2,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3219_gr.jpg",
+          "sku": "21858"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 56.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3218_gr.jpg",
+          "sku": "21859"
+        }
+      },
+      "note": "Mil-Spec tuskivitel"
+    },
+    "mp-ubr2": {
+      "title": "Magpul UBR Gen 2.0 Collapsible Stock",
+      "price_chf": 219.8,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3399_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "21860",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 90 Tage betragen. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 219.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3399_gr.jpg",
+          "sku": "21860"
+        },
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 219.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3217_gr.jpg",
+          "sku": "21861"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 219.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3193_gr.jpg",
+          "sku": "21862"
+        },
+        "gray": {
+          "label": "grau",
+          "price_chf": 193.34,
+          "list_chf": 219.2,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64752_gr.jpg",
+          "sku": "MAG482-GRY"
+        }
+      }
+    },
+    "mp-prs3": {
+      "title": "Magpul PRS Gen 3 Rifle Stock",
+      "price_chf": 256.6,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64793_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "schwarz",
+      "sku": "MAG672-BLK",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 90 Tage betragen. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 257.3,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/1390_gr.jpg",
+          "sku": "21864"
+        },
+        "black": {
+          "label": "schwarz",
+          "price_chf": 256.6,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64793_gr.jpg",
+          "sku": "MAG672-BLK"
+        },
+        "gray": {
+          "label": "grau",
+          "price_chf": 256.6,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64794_gr.jpg",
+          "sku": "MAG672-GRY"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 257.3,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/1392_gr.jpg",
+          "sku": "21865"
+        }
+      }
+    },
+    "mp-prslite": {
+      "title": "Magpul PRS Lite",
+      "price_chf": 150.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/58482_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "schwarz",
+      "sku": "MAG1159-BLK",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 90 Tage betragen. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "black": {
+          "label": "schwarz",
+          "price_chf": 150.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/58482_gr.jpg",
+          "sku": "MAG1159-BLK"
+        },
+        "fde": {
+          "label": "FDE",
+          "price_chf": 150.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64701_gr.jpg",
+          "sku": "MAG1159-FDE"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 150.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64702_gr.jpg",
+          "sku": "MAG1159-ODG"
+        }
+      }
+    },
+    "bcm-s0": {
+      "title": "BCM®   Stock - Mod 0 - Black",
+      "price_chf": 69.8,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-0-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68978_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "sku": "BCM-GFS-MOD-0-BLK",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 180 Tage betragen. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "black": {
+          "label": null,
+          "price_chf": 69.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-0-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68978_gr.jpg",
+          "sku": "BCM-GFS-MOD-0-BLK"
+        },
+        "fde": {
+          "label": null,
+          "price_chf": 69.8,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-0-flat-dark-earth",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68979_gr.jpg",
+          "sku": "BCM-GFS-MOD-0-FDE"
+        }
+      }
+    },
+    "bcm-s1": {
+      "title": "BCM®  Stock - Mod 1 - SOPMOD - Compartment -Black",
+      "price_chf": 83.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-1-sopmod-compartment-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68982_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "sku": "BCM-GFS-MOD1-SPMD-BLK",
+      "stock_text": "3 Artikel an Lager",
+      "stock_qty": 3,
+      "colors_prices": {
+        "black": {
+          "label": null,
+          "price_chf": 83.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-1-sopmod-compartment-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68982_gr.jpg",
+          "sku": "BCM-GFS-MOD1-SPMD-BLK"
+        },
+        "fde": {
+          "label": null,
+          "price_chf": 83.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-1-sopmod-compartment-flat-dark-earth",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68983_gr.jpg",
+          "sku": "BCM-GFS-MOD1-SPMD-FDE"
+        }
+      }
+    },
+    "b5-bravo": {
+      "title": "B5 Systems AR-15 Bravo Stock, Collapsible Mil-Spec, Schwarz",
+      "price_chf": 99.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/b5-systems-ar-15-bravo-stock-collapsible-mil-spec-schwarz",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/87775_gr.png",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "sku": "BFS-BRV-1082",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Bereits 1 Stück nachbestellt, jedoch kann zur Zeit kein Liefertermin genannt werden. )",
+      "stock_qty": null,
+      "note": "Mil-Spec kivitel"
+    },
+    "mp-pad030": {
+      "title": "Magpul Rubber Buttpad Black",
+      "price_chf": 21.4,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-rubber-buttpad-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5343_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "14300",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 90 Tage betragen. )",
+      "stock_qty": null,
+      "note": "Alap gumi tustalp; a vastagságot (0.30\") a bolti oldal nem írja ki, a név alapján azonosítva"
+    },
+    "mp-pad055": {
+      "title": "Magpul Extended Rubber Buttpad Black",
+      "price_chf": 21.4,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-extended-rubber-buttpad-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4605_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "18486",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 90 Tage betragen. )",
+      "stock_qty": null,
+      "note": "Extended; a vastagságot (0.55\") a bolti oldal nem írja ki, a név alapján azonosítva"
+    },
+    "mp-pad070": {
+      "title": "Magpul Enhanced Rubber Buttpad Black",
+      "price_chf": 21.4,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-enhanced-rubber-buttpad-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5292_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "14301",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 90 Tage betragen. )",
+      "stock_qty": null,
+      "note": "Enhanced; a vastagságot (0.70\") a bolti oldal nem írja ki, a név alapján azonosítva"
+    },
+    "mp-padsl": {
+      "title": "Magpul MOE SL Enhanced Rubber Buttpad 0.70 Inches Black",
+      "price_chf": 21.4,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-enhanced-rubber-buttpad-070-inches-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/3273_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "21872",
+      "stock_text": "6 Artikel an Lager",
+      "stock_qty": 6
+    },
+    "eo-exps3": {
+      "title": "EoTech EXPS3-0 Black",
+      "price_chf": 949.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/eotech-exps3-0-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/28324_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A6669",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 949.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/eotech-exps3-0-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/28324_gr.jpg",
+          "sku": "A6669"
+        },
+        "tan": {
+          "label": "Tan",
+          "price_chf": 979.6,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/eotech-exps3-0-tan",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/28323_gr.jpg",
+          "sku": "A6670"
+        }
+      }
+    },
+    "eo-exps2": {
+      "title": "EoTech EXPS2-0 Black",
+      "price_chf": 951.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/eotech-zielgeraet-modell-exps2-0-montage-picatinny-mil-std-1913",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/15544_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "EO-EXPS2-0",
+      "stock_text": "2 Artikel an Lager",
+      "stock_qty": 2,
+      "note": "Piros reticle (a \"Green Reticle\" változat külön termék)"
+    },
+    "eo-xps2": {
+      "title": "EoTech XPS2-0 Black",
+      "price_chf": 756.5,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/eotech-xps2-0-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/28313_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A4427",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null
+    },
+    "hs-510c": {
+      "title": "Holosun HS510C Kreispunktvisier OPEN Reflex Visier, Solar 2 MOA Punkt & 65 MOA Ring",
+      "price_chf": 425.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/holosun-hs510c-solar-red-circle-dot-sight-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/2663_gr.jpg",
+      "in_stock": true,
+      "weight_g": 210,
+      "dims": "84x65x40mm",
+      "color": "Schwarz",
+      "sku": "23251",
+      "stock_text": "1 Artikel an Lager",
+      "stock_qty": 1,
+      "weight_src": "desc",
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 425.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/holosun-hs510c-solar-red-circle-dot-sight-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/2663_gr.jpg",
+          "sku": "23251"
+        },
+        "fde": {
+          "label": null,
+          "price_chf": 425.2,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/holosun-hs510c-fde-kreispunktvisier-open-reflex-visier-solar-2-moa-punkt-65-moa-ring",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29826_gr.jpg",
+          "sku": "HS78003507"
+        }
+      },
+      "note": "HS510C (piros, 2 MOA pont + 65 MOA gyűrű, napelemes)"
+    },
+    "vx-uh1": {
+      "title": "Vortex Optics AMG UH-1 Gen II Holographic Sight",
+      "price_chf": 924.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-amg-uh-1-gen-ii-holographic-sight",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/16479_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A30731",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null
+    },
+    "vx-crossfire": {
+      "title": "Vortex Optics Crossfire Red Dot LED Upgrade Black",
+      "price_chf": 148.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-crossfire-red-dot-led-upgrade-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/1504_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "29856",
+      "stock_text": "2 Artikel an Lager",
+      "stock_qty": 2,
+      "note": "A boltban \"Crossfire Red Dot LED Upgrade\"; a magasító szerelék nincs külön feltüntetve"
+    },
+    "vx-se16": {
+      "title": "Vortex Optics Strike Eagle 1-6x24 AR-BDC3",
+      "price_chf": 446.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-strike-eagle-1-6x24-ar-bdc3",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/8219_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A30479",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null
+    },
+    "vx-se18": {
+      "title": "Vortex Optics Strike Eagle 1-8x24 AR-BDC3",
+      "price_chf": 559.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-strike-eagle-1-8x24-ar-bdc3",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/8218_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A30480",
+      "stock_text": "2 Artikel an Lager",
+      "stock_qty": 2,
+      "note": "SFP, AR-BDC3 reticle"
+    },
+    "vx-pst16": {
+      "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP VMR-2 MOA",
+      "price_chf": 799.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/380_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "22976",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "variants": [
+        {
+          "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP VMR-2 MOA",
+          "price_chf": 799.9,
+          "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa",
+          "in_stock": false
+        },
+        {
+          "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP VMR-2 MRAD",
+          "price_chf": 775.9,
+          "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-viper-pst-gen-ii-1-6x24-sfp-vmr-2-mrad",
+          "in_stock": false
+        }
+      ],
+      "note": "Két reticle-változat (MOA / MRAD), a fizikai termék azonos; price_chf = az első (MOA) változat"
+    },
+    "vx-razor110": {
+      "title": "Vortex Optics Razor Gen III 1-10x24 EBR-9 MRAD",
+      "price_chf": 3359.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-razor-gen-iii-1-10x24-ebr-9-mrad",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/21898_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": null,
+      "sku": "A30021",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null
+    },
+    "eo-vudu16": {
+      "title": "EoTech Vudu 1-6x24 FFP - SR1 Reticle MRAD Black",
+      "price_chf": 1503.4,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/eotech-vudu-1-6x24-ffp-sr1-reticle-mrad-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/28315_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A30985",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "note": "FFP, SR1 MRAD reticle (az egyetlen 1-6x24 a boltban)"
+    },
+    "eo-vudu110": {
+      "title": "EoTech Vudu 1-10x28 FFP - LE5 Reticle MRAD Black",
+      "price_chf": 1949.6,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/eotech-vudu-1-10x28-ffp-le5-reticle-mrad-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/28317_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A36851",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "variants": [
+        {
+          "title": "EoTech Vudu 1-10x28 FFP - LE5 Reticle MRAD Black",
+          "price_chf": 1949.6,
+          "url": "https://www.shooting-store.ch/de/produkt/eotech-vudu-1-10x28-ffp-le5-reticle-mrad-black",
+          "in_stock": false
+        },
+        {
+          "title": "EoTech Vudu 1-10x28 FFP - SR5 Reticle MRAD Black",
+          "price_chf": 1949.6,
+          "url": "https://www.shooting-store.ch/de/produkt/eotech-vudu-1-10x28-ffp-sr5-reticle-mrad-black",
+          "in_stock": false
+        }
+      ],
+      "note": "Két reticle-változat (LE5 / SR5), azonos ár"
+    },
+    "gs-sp30": {
+      "title": "Super Precision 30MM 1.93, Black",
+      "price_chf": 396.3,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/super-precision-30mm-193-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/79501_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "schwarz",
+      "sku": "GA-05-542B",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 180 Tage betragen. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "black": {
+          "label": "schwarz",
+          "price_chf": 396.3,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/super-precision-30mm-193-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/79501_gr.jpg",
+          "sku": "GA-05-542B"
+        },
+        "ddc": {
+          "label": "DDC",
+          "price_chf": 425.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/super-precision-30mm-193-ddc",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/79502_gr.jpg",
+          "sku": "GA-05-542S"
+        }
+      },
+      "note": "Geissele Super Precision 30 mm, 1.93\" magasság"
+    },
+    "eo-g33": {
+      "title": "EoTech G33.STS Magnifier Black",
+      "price_chf": 785.6,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/eotech-g33sts-magnifier-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/28322_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A13232",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 785.6,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/eotech-g33sts-magnifier-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/28322_gr.jpg",
+          "sku": "A13232"
+        },
+        "tan": {
+          "label": "Tan",
+          "price_chf": 761.4,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/eotech-g33sts-magnifier-tan",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/28321_gr.jpg",
+          "sku": "A13233"
+        }
+      }
+    },
+    "eo-g43": {
+      "title": "Eotech Vergrösserungsaufsatz G43.STS 3x Magnifier/Montage Picatinny (MIL STD 1913)/1\"Weaver",
+      "price_chf": 851.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/eotech-magnifier-g43",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/7311_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "EO-G43",
+      "stock_text": "2 Artikel an Lager",
+      "stock_qty": 2,
+      "note": "G43.STS (STS szerelékkel); a data.js \"Micro szerelék\" megjelölése eltér"
+    },
+    "hs-hm3x": {
+      "title": "Holosun Magnifier HM3X Magnifier",
+      "price_chf": 287.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/holosun-hm3x-magnifier-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/1600_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "28593",
+      "stock_text": "2 Artikel an Lager",
+      "stock_qty": 2
+    },
+    "vx-m3x": {
+      "title": "Vortex Optics V3XM Magnifier with Flip Mount Black",
+      "price_chf": 361.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-v3xm-magnifier-with-flip-mount-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/1413_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "29435",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "note": "V3XM modellkód (Vortex Micro 3X magnifier, flip mount); az egyezés a modellkódon alapul, a bolti oldal nem írja ki a \"Micro3X\" nevet"
+    },
+    "mp-mbus3": {
+      "title": "Magpul MBUS 3 Front Back-Up Sight + Magpul MBUS 3 Rear Back-Up Sight",
+      "price_chf": 114.6,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-3-front-back-up-sight",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29581_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "schwarz",
+      "components": [
+        {
+          "title": "Magpul MBUS 3 Front Back-Up Sight",
+          "price_chf": 45.8,
+          "list_chf": null,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-3-front-back-up-sight",
+          "in_stock": false,
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29581_gr.jpg",
+          "weight_g": null
+        },
+        {
+          "title": "Magpul MBUS 3 Rear Back-Up Sight",
+          "price_chf": 68.8,
+          "list_chf": null,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-3-rear-back-up-sight",
+          "in_stock": false,
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29580_gr.jpg",
+          "weight_g": null
+        }
+      ],
+      "note": "A bolt az első és a hátsó irányzékot külön árulja; az ár az alkatrészek összege"
+    },
+    "mp-mbuspro": {
+      "title": "Magpul MBUS Pro Sight Front Black + Magpul MBUS Pro Sight Rear Black",
+      "price_chf": 246.7,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-sight-front-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5297_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "components": [
+        {
+          "title": "Magpul MBUS Pro Sight Front Black",
+          "price_chf": 111.6,
+          "list_chf": null,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-sight-front-black",
+          "in_stock": false,
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5297_gr.jpg",
+          "weight_g": null
+        },
+        {
+          "title": "Magpul MBUS Pro Sight Rear Black",
+          "price_chf": 135.1,
+          "list_chf": null,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-sight-rear-black",
+          "in_stock": true,
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5296_gr.jpg",
+          "weight_g": null
+        }
+      ],
+      "note": "A bolt az első és a hátsó irányzékot külön árulja; az ár az alkatrészek összege"
+    },
+    "mp-mbusoff": {
+      "title": "Magpul MBUS Pro Offset Sight Front Black + Magpul MBUS Pro Offset Sight Rear Black",
+      "price_chf": 254.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-offset-sight-front-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4677_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "components": [
+        {
+          "title": "Magpul MBUS Pro Offset Sight Front Black",
+          "price_chf": 113.1,
+          "list_chf": null,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-offset-sight-front-black",
+          "in_stock": false,
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4677_gr.jpg",
+          "weight_g": null
+        },
+        {
+          "title": "Magpul MBUS Pro Offset Sight Rear Black",
+          "price_chf": 140.9,
+          "list_chf": null,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-offset-sight-rear-black",
+          "in_stock": false,
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4685_gr.jpg",
+          "weight_g": null
+        }
+      ],
+      "note": "A bolt az első és a hátsó irányzékot külön árulja; az ár az alkatrészek összege"
+    },
+    "sl-hlx": {
+      "title": "Streamlight ProTac Rail Mount HL X Black",
+      "price_chf": 223.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/streamlight-protac-rail-mount-hl-x-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/8222_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A30190",
+      "stock_text": "3 Artikel an Lager",
+      "stock_qty": 3
+    },
+    "sl-tlr1": {
+      "title": "Streamlight TLR-1 HL Black",
+      "price_chf": 252.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/streamlight-tlr-1-hl-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/8223_gr.png",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A30187",
+      "stock_text": "1 Artikel an Lager",
+      "stock_qty": 1
+    },
+    "mp-hstop": {
+      "title": "Magpul M-LOK Hand Stop Kit",
+      "price_chf": 31.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/335_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "18540",
+      "stock_text": "17 Artikel an Lager",
+      "stock_qty": 17,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 31.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/335_gr.jpg",
+          "sku": "18540"
+        },
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 31.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4515_gr.jpg",
+          "sku": "18541"
+        },
+        "gray": {
+          "label": "grau",
+          "price_chf": 31.2,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64787_gr.jpg",
+          "sku": "MAG608-GRY"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 31.2,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29576_gr.jpg",
+          "sku": "MAG608OD"
+        }
+      }
+    },
+    "bcm-vg3": {
+      "title": "BCM® Vertical Grip - (M-LOK® Compatible*) - Mod 3 -",
+      "price_chf": 23.6,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/bcm-vertical-grip-m-lok-compatible-mod-3",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/69076_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "schwarz",
+      "sku": "BCM-VG-MCMR-MOD-3-BLK",
+      "stock_text": "35 Artikel an Lager",
+      "stock_qty": 35,
+      "colors_prices": {
+        "black": {
+          "label": "schwarz",
+          "price_chf": 23.6,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-vertical-grip-m-lok-compatible-mod-3",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/69076_gr.jpg",
+          "sku": "BCM-VG-MCMR-MOD-3-BLK"
+        },
+        "fde": {
+          "label": "FDE",
+          "price_chf": 23.6,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-vertical-grip-m-lok-compatible-mod-3",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/69077_gr.jpg",
+          "sku": "BCM-VG-MCMR-MOD-3-FDE"
+        }
+      },
+      "note": "M-LOK kompatibilis Mod 3 (BCM Gunfighter)"
+    },
+    "bcm-kag": {
+      "title": "BCM® Kinesthetic Angled Grip - (M-LOK® Compatible*)",
+      "price_chf": 23.6,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/bcm-kinesthetic-angled-grip-m-lok-compatible",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68996_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "schwarz",
+      "sku": "BCM-KAG-MCMR-BLK",
+      "stock_text": "9 Artikel an Lager",
+      "stock_qty": 9,
+      "colors_prices": {
+        "black": {
+          "label": "schwarz",
+          "price_chf": 23.6,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-kinesthetic-angled-grip-m-lok-compatible",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68996_gr.jpg",
+          "sku": "BCM-KAG-MCMR-BLK"
+        },
+        "fde": {
+          "label": "FDE",
+          "price_chf": 23.6,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/bcm-kinesthetic-angled-grip-m-lok-compatible",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68997_gr.jpg",
+          "sku": "BCM-KAG-MCMR-FDE"
+        }
+      },
+      "note": "M-LOK kompatibilis KAG (BCM Gunfighter)"
+    },
+    "mp-rail5": {
+      "title": "Magpul M-LOK Rail Section Aluminium 5 Slots Black",
+      "price_chf": 23.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-section-aluminium-5-slots-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/513_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "17033",
+      "stock_text": "7 Artikel an Lager",
+      "stock_qty": 7
+    },
+    "mp-qd": {
+      "title": "Magpul M-LOK QD Sling Mount Black",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-qd-sling-mount-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4736_gr.jpg",
+      "in_stock": true,
+      "weight_g": 17.6,
+      "dims": "Länge: ca. 33 mm; Breite: ca. 15 mm; Höhe über Handschutz: ca. 10 mm",
+      "color": "Schwarz",
+      "sku": "17919",
+      "stock_text": "27 Artikel an Lager",
+      "stock_qty": 27,
+      "weight_src": "desc"
+    },
+    "mp-cover": {
+      "title": "Magpul M-LOK Rail Cover Type 2",
+      "price_chf": 18.3,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/22586_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "MAG603Black",
+      "stock_text": "12 Artikel an Lager",
+      "stock_qty": 12,
+      "colors_prices": {
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 18.3,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4523_gr.jpg",
+          "sku": "18530"
+        },
+        "coyote": {
+          "label": "medium coyote brown",
+          "price_chf": 18.3,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/903864_gr.jpg",
+          "sku": "MAG603-MCB"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 18.3,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4522_gr.jpg",
+          "sku": "18531"
+        },
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 18.3,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/22586_gr.jpg",
+          "sku": "MAG603Black"
+        }
+      }
+    },
+    "mp-bipod": {
+      "title": "Magpul Bipod for M-LOK",
+      "price_chf": 155.7,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-bipod-for-m-lok",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/1669_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "28198",
+      "stock_text": "13 Artikel an Lager",
+      "stock_qty": 13,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 155.7,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-bipod-for-m-lok",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/1669_gr.jpg",
+          "sku": "28198"
+        },
+        "fde": {
+          "label": "Dark Earth",
+          "price_chf": 155.7,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-bipod-for-m-lok",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/1708_gr.jpg",
+          "sku": "28199"
+        }
+      }
+    },
+    "bcm-comp0": {
+      "title": "BCM®  Compensator Mod 0 - 5.56",
+      "price_chf": 105.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/bcm-compensator-mod-0-556",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68942_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": null,
+      "sku": "BCM-GFC-MOD-0-556",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 180 Tage betragen. )",
+      "stock_qty": null
+    },
+    "gs-ssae": {
+      "title": "Super Semi-Automatic Enhanced (SSA-E)",
+      "price_chf": 295.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-enhanced-ssa-e",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/79398_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": null,
+      "sku": "GA-05-160",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 180 Tage betragen. )",
+      "stock_qty": null
+    },
+    "gs-ssa": {
+      "title": "Super Semi-Automatic (SSA)",
+      "price_chf": 295.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-ssa",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/79380_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": null,
+      "sku": "GA-05-101",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 180 Tage betragen. )",
+      "stock_qty": null
+    },
+    "gs-sde": {
+      "title": "Super Dynamic Enhanced (SD-E)",
+      "price_chf": 295.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/super-dynamic-enhanced-sd-e",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/79405_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": null,
+      "sku": "GA-05-167",
+      "stock_text": "5 Artikel an Lager",
+      "stock_qty": 5
+    },
+    "gs-s3g": {
+      "title": "Geissele Automatics AR15 Super 3 Gun S3G Trigger",
+      "price_chf": 295.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/geissele-automatics-ar15-super-3-gun-s3g-trigger",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/57808_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": null,
+      "sku": "GA-05-152",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 180 Tage betragen. )",
+      "stock_qty": null
+    },
+    "rd-raptor": {
+      "title": "Radian Weapons Raptor Ambidextrous Charging Handle AR15 Black",
+      "price_chf": 122.9,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-raptor-ambidextrous-charging-handle-ar15-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29428_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A35856",
+      "stock_text": "7 Artikel an Lager",
+      "stock_qty": 7,
+      "colors_prices": {
+        "gray": {
+          "label": null,
+          "price_chf": 129.4,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/raptor-charging-handle-ar15-radian-grey",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/65435_gr.jpg",
+          "sku": "RAW-R0560"
+        },
+        "odg": {
+          "label": null,
+          "price_chf": 129.4,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/raptor-charging-handle-ar15-radian-od-green",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/65437_gr.jpg",
+          "sku": "RAW-R0375"
+        },
+        "fde": {
+          "label": null,
+          "price_chf": 129.4,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/radian-raptor-ambidextrous-charging-handle-ar15-dark-earth",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/65024_gr.jpg",
+          "sku": "RAWR0003"
+        },
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 122.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-raptor-ambidextrous-charging-handle-ar15-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29428_gr.jpg",
+          "sku": "A35856"
+        }
+      }
+    },
+    "rd-raptorlt": {
+      "title": "RAPTOR - LT Charging Handle - AR15",
+      "price_chf": 93.7,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29429_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "24307",
+      "stock_text": "14 Artikel an Lager",
+      "stock_qty": 14,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 93.7,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29429_gr.jpg",
+          "sku": "24307"
+        },
+        "gray": {
+          "label": "Stealth Grey",
+          "price_chf": 99.5,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/66325_gr.png",
+          "sku": "RAW-R0150"
+        },
+        "fde": {
+          "label": "FDE",
+          "price_chf": 99.5,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/65031_gr.jpg",
+          "sku": "RAWR0149"
+        }
+      }
+    },
+    "rd-raptorsd": {
+      "title": "Radian Weapons AR-15 Raptor-SD Ambidextrous Charging Handle Black",
+      "price_chf": 158.1,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-ar-15-raptor-sd-ambidextrous-charging-handle-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29313_gr.png",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "sku": "RAWR0006",
+      "stock_text": "6 Artikel an Lager",
+      "stock_qty": 6,
+      "colors_prices": {
+        "fde": {
+          "label": null,
+          "price_chf": 164.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/radian-raptor-sd-ambidextrous-charging-handle-ar15-dark-earth",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/65028_gr.jpg",
+          "sku": "RAWR0066"
+        },
+        "black": {
+          "label": null,
+          "price_chf": 158.1,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-ar-15-raptor-sd-ambidextrous-charging-handle-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/29313_gr.png",
+          "sku": "RAWR0006"
+        }
+      }
+    },
+    "gs-ach": {
+      "title": "Airborne Charging Handle (ACH), 5.56, Black",
+      "price_chf": 141.0,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/airborne-charging-handle-ach-556-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/79498_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "schwarz",
+      "sku": "GA-05-497B",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 180 Tage betragen. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "black": {
+          "label": "schwarz",
+          "price_chf": 141.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/airborne-charging-handle-ach-556-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/79498_gr.jpg",
+          "sku": "GA-05-497B"
+        },
+        "ddc": {
+          "label": "DDC",
+          "price_chf": 153.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/airborne-charging-handle-ach-556-ddc",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/79499_gr.jpg",
+          "sku": "GA-05-497S"
+        }
+      },
+      "note": "A boltban \"Airborne Charging Handle (ACH)\" néven (Geissele nevet nem tartalmazza a cím)"
+    },
+    "rd-talon": {
+      "title": "Radian Weapons Talon Ambidextrous 45/90 Safety Selector Black",
+      "price_chf": 75.6,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-talon-ambidextrous-45-90-safety-selector-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/28935_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "A35854",
+      "stock_text": "2 Artikel an Lager",
+      "stock_qty": 2
+    },
+    "mp-bad": {
+      "title": "Magpul B.A.D. Lever Black",
+      "price_chf": 41.2,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-bad-lever-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/382_gr.png",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "11036",
+      "stock_text": "12 Artikel an Lager",
+      "stock_qty": 12
+    },
+    "mp-trigguard": {
+      "title": "Magpul MOE Enhanced Trigger Guard, Polymer - AR15/M4",
+      "price_chf": 12.4,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64956_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "schwarz",
+      "sku": "MAG1186-BLK",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Bereits 5 Stück nachbestellt, jedoch kann zur Zeit kein Liefertermin genannt werden. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "black": {
+          "label": "schwarz",
+          "price_chf": 12.4,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64956_gr.jpg",
+          "sku": "MAG1186-BLK"
+        },
+        "fde": {
+          "label": "FDE",
+          "price_chf": 12.4,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64955_gr.jpg",
+          "sku": "MAG1186-FDE"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 12.4,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/64954_gr.jpg",
+          "sku": "MAG1186-ODG"
+        }
+      }
+    },
+    "mp-pm10": {
+      "title": "Magpul PMAG 10 Gen M3 Black",
+      "price_chf": 20.3,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-10-gen-m3-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/383_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "15045",
+      "stock_text": "18 Artikel an Lager",
+      "stock_qty": 18,
+      "colors_prices": {
+        "odg": {
+          "label": "ODG",
+          "price_chf": 20.3,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-10-gen-m3-odg",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/903856_gr.jpg",
+          "sku": "MAG559-ODG"
+        },
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 20.3,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-10-gen-m3-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/383_gr.jpg",
+          "sku": "15045"
+        }
+      }
+    },
+    "mp-pm20": {
+      "title": "Magpul PMAG 20 Gen M3 Black",
+      "price_chf": 20.3,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-20-gen-m3-black",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5126_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "15044",
+      "stock_text": "46 Artikel an Lager",
+      "stock_qty": 46,
+      "colors_prices": {
+        "odg": {
+          "label": "ODG",
+          "price_chf": 20.3,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-20-gen-m3-odg",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/903855_gr.jpg",
+          "sku": "MAG560-ODG"
+        },
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 20.3,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-20-gen-m3-black",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5126_gr.jpg",
+          "sku": "15044"
+        }
+      }
+    },
+    "mp-pm30": {
+      "title": "Magpul PMAG 30 Gen M3",
+      "price_chf": 19.4,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/564_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "1007",
+      "stock_text": "184 Artikel an Lager",
+      "stock_qty": 184,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 19.4,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/564_gr.jpg",
+          "sku": "1007"
+        },
+        "coyote": {
+          "label": "medium coyote brown",
+          "price_chf": 19.4,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/903850_gr.jpg",
+          "sku": "MAG557-MCB"
+        },
+        "odg": {
+          "label": "ODG",
+          "price_chf": 19.4,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/903849_gr.jpg",
+          "sku": "MAG557-ODG"
+        }
+      }
+    },
+    "mp-pm40": {
+      "title": "MAGPUL AR-15 40RD PMAG GEN M3 MAGAZINE 223/5.56",
+      "price_chf": 31.1,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-ar-15-40rd-pmag-gen-m3-magazine-223-556",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/699_gr.png",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "schwarz",
+      "sku": "14252",
+      "stock_text": "3 Artikel an Lager",
+      "stock_qty": 3
+    },
+    "mp-ms1": {
+      "title": "Magpul MS1 Sling",
+      "price_chf": 45.8,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5152_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "15049",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Da wir diesen Artikel direkt aus Amerika bestellen, wird die Lieferzeit mindestens 90 Tage betragen. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 45.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5152_gr.jpg",
+          "sku": "15049"
+        },
+        "coyote": {
+          "label": "coyote",
+          "price_chf": 45.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5151_gr.jpg",
+          "sku": "15050"
+        },
+        "ranger": {
+          "label": "Ranger Green",
+          "price_chf": 49.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5141_gr.jpg",
+          "sku": "15051"
+        },
+        "gray": {
+          "label": "Grau",
+          "price_chf": 49.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/2226_gr.jpg",
+          "sku": "25862"
+        }
+      }
+    },
+    "mp-ms4": {
+      "title": "Magpul MS4 Dual QD Gen 2 Sling",
+      "price_chf": 94.8,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5146_gr.jpg",
+      "in_stock": true,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "15058",
+      "stock_text": "2 Artikel an Lager",
+      "stock_qty": 2,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 94.8,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5146_gr.jpg",
+          "sku": "15058"
+        },
+        "coyote": {
+          "label": "coyote",
+          "price_chf": 94.8,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5145_gr.jpg",
+          "sku": "15059"
+        },
+        "ranger": {
+          "label": "Ranger Green",
+          "price_chf": 94.8,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5144_gr.jpg",
+          "sku": "15060"
+        }
+      },
+      "note": "A boltban Gen 2 kivitel"
+    },
+    "bfg-vickers": {
+      "title": "Blue Force Gear Vickers Combat Application Sling",
+      "price_chf": 82.4,
+      "list_chf": null,
+      "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
+      "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5312_gr.jpg",
+      "in_stock": false,
+      "weight_g": null,
+      "dims": null,
+      "color": "Schwarz",
+      "sku": "14491",
+      "stock_text": "Artikel ist nicht an Lager (Liefertermin Dieser Artikel wird auf Kundenwunsch bestellt. Die Lieferzeit beträgt ca. 30 Tage. )",
+      "stock_qty": null,
+      "colors_prices": {
+        "black": {
+          "label": "Schwarz",
+          "price_chf": 82.4,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5312_gr.jpg",
+          "sku": "14491"
+        },
+        "coyote": {
+          "label": "coyote",
+          "price_chf": 82.4,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5302_gr.jpg",
+          "sku": "14492"
+        },
+        "odg": {
+          "label": "OD",
+          "price_chf": 82.4,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/5310_gr.jpg",
+          "sku": "14493"
+        },
+        "multicam": {
+          "label": "Multicam",
+          "price_chf": 82.4,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
+          "image": "https://www.shooting-store.ch/shop/ProdukteBilder/4932_gr.jpg",
+          "sku": "17378"
+        }
+      }
+    }
+  },
+  "unmatched": {
+    "b5-t22": "nincs a boltban: a keresés (B5 Systems P-Grip) nem adott pontosan azonos terméket. Megjegyzés: a boltban nincs B5 Systems markolat",
+    "b5-t23": "nincs a boltban: a keresés (B5 Systems P-Grip) nem adott pontosan azonos terméket. Megjegyzés: a boltban nincs B5 Systems markolat",
+    "b5-esop": "nincs a boltban: a keresés (B5 Systems SOPMOD) nem adott pontosan azonos terméket; hasonló, de nem azonos: B5 Systems AR-15 Bravo Stock, Collapsible Mil-Spec, Schwarz (CHF 99.90). Megjegyzés: a boltban csak a B5 Bravo Stock van",
+    "b5-prec": "nincs a boltban: a keresés (B5 Systems Precision) nem adott pontosan azonos terméket. Megjegyzés: a boltban csak a B5 Bravo Stock van",
+    "ap-t2": "nincs a boltban: a keresés (Aimpoint Micro T-2) nem adott pontosan azonos terméket; hasonló, de nem azonos: BCM® 1.93” Height AT™ Optic Mount for Aimpoint Micro T2 (CHF 141.60) | BCM® Lower 1/3 AT™ Optic Mount for Aimpoint Micro T2 (CHF 205.50). Megjegyzés: Aimpoint optikát nem árul, csak szereléket hozzájuk",
+    "ap-m5": "nincs a boltban: a keresés (Aimpoint CompM5) nem adott pontosan azonos terméket. Megjegyzés: Aimpoint optikát nem árul, csak szereléket hozzájuk",
+    "ap-pro": "nincs a boltban: a keresés (Aimpoint PRO) nem adott pontosan azonos terméket; hasonló, de nem azonos: QD Ring Mount Aimpoint Pro (CHF 148.30) | QD Ring Mount Aimpoint Pro Co Witness-Black (CHF 148.30) | Walther PDP Hunter PRO Compact mit montiertem Aimpoint Acr.. (CHF 2'249.00). Megjegyzés: Aimpoint optikát nem árul, csak szereléket hozzájuk",
+    "ap-acro": "nincs a boltban: a keresés (Aimpoint ACRO) nem adott pontosan azonos terméket; hasonló, de nem azonos: GlareGard Training Lens für Aimpoint Acro P-2 1 Stück (CHF 29.90) | GlareGard Training Lens für Aimpoint Acro P-2 2 Stück (CHF 38.90) | OpticGard Visier Cover für Aimpoint Acro P-2 (Ab CHF 39.90). Megjegyzés: Aimpoint optikát nem árul, csak szereléket hozzájuk",
+    "hs-aems": "nincs a boltban: a keresés (Holosun AEMS) nem adott pontosan azonos terméket; hasonló, de nem azonos: Holosun AEMS-EVO (Ab CHF 572.80) | Holosun Dot Sight AEMS-MACRO (Ab CHF 487.90) | Holosun Dot Sight AEMS-MICRO (Ab CHF 487.90). Megjegyzés: csak AEMS-CORE/-EVO/-MACRO/-MICRO/-PRO változatok vannak, az \"AEMS\" alapmodell nem",
+    "hs-403b": "nincs a boltban: a keresés (Holosun 403) nem adott pontosan azonos terméket. Megjegyzés: a HS403B nincs a kínálatban",
+    "tj-mro": "nincs a boltban: a keresés (Trijicon MRO) nem adott pontosan azonos terméket; hasonló, de nem azonos: Midwest Industries Trijicon MRO Co-Witness QD Mount (CHF 89.92) | Midwest Industries Trijicon MRO Lower 1/3 QD Mount (CHF 89.92) | QD Optic Mount for Trijicon MRO Low (CHF 119.00). Megjegyzés: Trijicon optikát nem árul, csak szereléket (Super Precision, BCM, Midwest)",
+    "vx-sparc": "nincs a boltban: a keresés (Vortex SPARC) nem adott pontosan azonos terméket; hasonló, de nem azonos: QD Vortex Sparc Mark AR (CHF 119.00) | Vortex Optics SPARC Solar Red Dot 2 MOA (CHF 337.90). Megjegyzés: csak a SPARC Solar Red Dot (CHF 337.90) van, a SPARC AR nem azonos",
+    "tj-acog": "nincs a boltban: a keresés (Trijicon ACOG) nem adott pontosan azonos terméket; hasonló, de nem azonos: Midwest Industries Trijicon ACOG / VCOG QD Mount - Black (CHF 111.70) | Midwest Industries Trijicon Mini ACOG TA33 / TA44 QD Mount.. (CHF 108.00) | Super Precision ACOG, Optimized for Trijicon 4X ACOG Optic.. (CHF 172.00). Megjegyzés: Trijicon optikát nem árul, csak szereléket",
+    "tj-credo16": "nincs a boltban: a keresés (Trijicon Credo) nem adott pontosan azonos terméket. Megjegyzés: a Credo nincs a kínálatban",
+    "tj-vcog": "nincs a boltban: a keresés (Trijicon VCOG) nem adott pontosan azonos terméket; hasonló, de nem azonos: Midwest Industries Trijicon ACOG / VCOG QD Mount - Black (CHF 111.70). Megjegyzés: a VCOG nincs a kínálatban (csak QD szerelék)",
+    "vx-cant30": "nincs a boltban: a keresés (Vortex Cantilever) nem adott pontosan azonos terméket; hasonló, de nem azonos: Vortex Optics Cantilever Ring Mount 25.4mm 2-Inch Offset B.. (CHF 149.90) | Vortex Optics Cantilever Ring Mount 25.4mm 3-Inch Offset B.. (CHF 149.90) | Vortex Optics Precision Cantilever 30mm Mount Black (CHF 281.20). Megjegyzés: csak Vortex Precision Cantilever 30mm van, a Sport Cantilever nem",
+    "ap-3x": "nincs a boltban: a keresés (Aimpoint 3XMag) nem adott pontosan azonos terméket. Megjegyzés: Aimpoint 3XMag nincs a kínálatban",
+    "sf-m600": "nincs a boltban: a keresés (SureFire M600) nem adott pontosan azonos terméket. Megjegyzés: csak M340C/M340DFT/Infrared Scout Light Pro van, M600DF nincs",
+    "sf-m640": "nincs a boltban: a keresés (SureFire M640) nem adott pontosan azonos terméket; hasonló, de nem azonos: Surefire Lampe Mod. Infrared Scout Light Pro, schwarz (CHF 535.00) | Surefire Lampe Mod. Infrared Scout Light Pro, tan (CHF 535.00). Megjegyzés: csak M340C/M340DFT/Infrared Scout Light Pro van, M640DF nincs",
+    "sf-m300": "nincs a boltban: a keresés (SureFire M300) nem adott pontosan azonos terméket. Megjegyzés: az M300 Mini Scout Light Pro nincs a kínálatban",
+    "sf-x300": "nincs a boltban: a keresés (SureFire X300) nem adott pontosan azonos terméket; hasonló, de nem azonos: Surefire Lampe Mod. X300U-A, LED, Schnellverschluss, schwarz (CHF 403.20) | Surefire Lampe Mod. X300U-A, LED, Schnellverschluss, tan (CHF 411.00). Megjegyzés: csak az X300U-A van (CHF 403.20), az X300U-B nem",
+    "mp-rvg": "nincs a boltban: a keresés (Magpul RVG) nem adott pontosan azonos terméket; hasonló, de nem azonos: Magpul MOE RVG Grip (Ab CHF 9.85). Megjegyzés: csak MOE RVG Grip (MOE-slotos) és külön RVG M-LOK Adapter Rail van, a kész M-LOK RVG nem azonos komplett termék",
+    "mp-cable": "nincs a boltban: a keresés (Magpul Cable Management) nem adott pontosan azonos terméket. Megjegyzés: a Cable Management Kit nincs a kínálatban",
+    "hr-sbrm": "nincs a boltban: a keresés (Harris S-BRM) nem adott pontosan azonos terméket. Megjegyzés: Harris bipod nincs a kínálatban (csak adapter/szerelék)",
+    "sf-warcomp": "nincs a boltban: a keresés (SureFire WarComp) nem adott pontosan azonos terméket. Megjegyzés: SureFire torkolati eszköz nincs a kínálatban",
+    "sf-3p": "nincs a boltban: a keresés (SureFire SF3P) nem adott pontosan azonos terméket. Megjegyzés: SureFire torkolati eszköz nincs a kínálatban",
+    "sf-rc2": "nincs a boltban: a keresés (SureFire SOCOM) nem adott pontosan azonos terméket. Megjegyzés: SureFire hangtompító nincs a kínálatban",
+    "bcm-ch4": "nincs a boltban: a keresés (BCM Charging Handle) nem adott pontosan azonos terméket; hasonló, de nem azonos: BCM® Charging Handle MK2 Large Latch (CHF 89.20) | BCM® Charging Handle MK2 Large Latch Ambidextrous (CHF 107.10) | BCM® Charging Handle MK2 Medium Latch (CHF 89.20). Megjegyzés: csak az utód BCM Charging Handle MK2 (Large/Medium Latch) van; nem azonos a Gunfighter Mod 4-gyel",
+    "bcm-ch3": "nincs a boltban: a keresés (BCM Charging Handle) nem adott pontosan azonos terméket; hasonló, de nem azonos: BCM® Charging Handle MK2 Large Latch (CHF 89.20) | BCM® Charging Handle MK2 Large Latch Ambidextrous (CHF 107.10) | BCM® Charging Handle MK2 Medium Latch (CHF 89.20). Megjegyzés: csak az utód BCM Charging Handle MK2 (Large/Medium Latch) van; nem azonos a Gunfighter Mod 3-mal",
+    "mp-pm30w": "nincs a boltban: a keresés (Magpul PMAG 30 Window) nem adott pontosan azonos terméket; hasonló, de nem azonos: Magpul PMAG 30 Steyr AUG Gen M3 Window Black (CHF 37.90) | Magpul PMAG 30 Gen M3 (Ab CHF 19.40) | Magpul PMAG 30 Gen M2 MOE Window Black (CHF 20.70). Megjegyzés: Gen M3 Window nincs AR-15-höz (csak Gen M2 MOE Window és Steyr AUG Window)",
+    "mp-d60": "nincs a boltban: a keresés (Magpul D-60) nem adott pontosan azonos terméket; hasonló, de nem azonos: Magpul PMAG D-50 AR/M4 GEN M3, 5.56x45 (CHF 182.80). Megjegyzés: a D-60 nincs a kínálatban (csak D-50)"
+  }
+}

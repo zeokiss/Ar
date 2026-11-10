@@ -1,0 +1,2054 @@
+{
+  "shop": "armamat.ch",
+  "currency": "CHF",
+  "fetched": "2026-11-10",
+  "items": {
+    "mp-moe": {
+      "title": "Magpul MOE Grip",
+      "price_chf": 28.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293206000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--YI_vKGg1--/webshop/media/a0/bc/72/1702623178/102932060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 81,
+      "dims": "Länge 10.6 cm x Breite 7.2 cm x Höhe 2.7 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10293206000",
+      "mpn": "MAG415-BLK",
+      "weight_packed_g": 111,
+      "dims_packed": "Länge 16.7 cm x Breite 7.6 cm x Höhe 4.4 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/moe-grip-102932/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--YI_vKGg1--/webshop/media/a0/bc/72/1702623178/102932060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--yhRmdQbB--/webshop/media/99/b1/8f/1702623181/102932060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--xKbxgZ1k--/webshop/media/eb/4e/37/1702623183/102932060_3.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293230900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--AWrEQcKZ--/webshop/media/a7/66/ed/1702623194/102932309_1.jpg?_a=AAFIKBs",
+          "sku": "10293230900",
+          "mpn": "MAG415-FDE"
+        },
+        "OD": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293222000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--BGYTkeW---/webshop/media/0b/89/d6/1702623187/102932220_1.jpg?_a=AAFIKBs",
+          "sku": "10293222000",
+          "mpn": "MAG415-ODG"
+        },
+        "Schwarz": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293206000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--YI_vKGg1--/webshop/media/a0/bc/72/1702623178/102932060_1.jpg?_a=AAFIKBs",
+          "sku": "10293206000",
+          "mpn": "MAG415-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-moek2": {
+      "title": "Magpul MOE K2 Grip",
+      "price_chf": 28.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381206000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--8PUGJ4KC--/webshop/media/54/97/e5/1702633396/103812060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 81,
+      "dims": "Länge 11 cm x Breite 7 cm x Höhe 3.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10381206000",
+      "mpn": "MAG522-BLK",
+      "weight_packed_g": 111,
+      "dims_packed": "Länge 16.6 cm x Breite 7.7 cm x Höhe 4.4 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-103812/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--8PUGJ4KC--/webshop/media/54/97/e5/1702633396/103812060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--COwd1Kqu--/webshop/media/b0/a9/81/1702633399/103812060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--54dUP97b--/webshop/media/fd/80/03/1702633401/103812060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--5aQU6O9g--/webshop/media/bd/fe/4b/1702633404/103812060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381230900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--8rNYoqIx--/webshop/media/7a/0f/19/1702633417/103812309_1.jpg?_a=AAFIKBs",
+          "sku": "10381230900",
+          "mpn": "MAG522-FDE"
+        },
+        "OD": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381222000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--y2i3kBWc--/webshop/media/7b/21/17/1702633406/103812220_1.jpg?_a=AAFIKBs",
+          "sku": "10381222000",
+          "mpn": "MAG522-ODG"
+        },
+        "Schwarz": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381206000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--8PUGJ4KC--/webshop/media/54/97/e5/1702633396/103812060_1.jpg?_a=AAFIKBs",
+          "sku": "10381206000",
+          "mpn": "MAG522-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-moek2p": {
+      "title": "Magpul MOE K2+ Grip",
+      "price_chf": 33.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503106000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ZqrSTJFB--/webshop/media/13/a6/5f/1702653582/105031060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 89,
+      "dims": "Länge 11.1 cm x Breite 7 cm x Höhe 2.7 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10503106000",
+      "mpn": "MAG532-BLK",
+      "weight_packed_g": 120,
+      "dims_packed": "Länge 16.6 cm x Breite 7.5 cm x Höhe 4.4 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-105031/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ZqrSTJFB--/webshop/media/13/a6/5f/1702653582/105031060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--DsLkBiSw--/webshop/media/16/7a/5b/1702653585/105031060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--x6I-NkcS--/webshop/media/82/05/a3/1702653588/105031060_3.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503130900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--mKx1TdPb--/webshop/media/4b/e4/a7/1702653600/105031309_1.jpg?_a=AAFIKBs",
+          "sku": "10503130900",
+          "mpn": "MAG532-FDE"
+        },
+        "OD": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503122000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--1LMnGx6s--/webshop/media/73/2a/e9/1702653591/105031220_1.jpg?_a=AAFIKBs",
+          "sku": "10503122000",
+          "mpn": "MAG532-ODG"
+        },
+        "Schwarz": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503106000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ZqrSTJFB--/webshop/media/13/a6/5f/1702653582/105031060_1.jpg?_a=AAFIKBs",
+          "sku": "10503106000",
+          "mpn": "MAG532-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-miad": {
+      "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1",
+      "price_chf": 49.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381306000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--q6ZafeJa--/webshop/media/ff/1a/a3/1702633427/103813060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 159,
+      "dims": "Länge 10.9 cm x Breite 3 cm x Höhe 7.1 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10381306000",
+      "mpn": "MAG520-BLK",
+      "weight_packed_g": 199,
+      "dims_packed": "Länge 17.6 cm x Breite 7.8 cm x Höhe 6.1 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-103813/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--q6ZafeJa--/webshop/media/ff/1a/a3/1702633427/103813060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ct5wygxF--/webshop/media/c6/8a/fb/1702633430/103813060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--DJgufXNb--/webshop/media/4a/e9/7e/1702633433/103813060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--UjaLaJXR--/webshop/media/15/3f/48/1702633436/103813060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 49.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381330900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--xowrob-t--/webshop/media/d9/d1/de/1702633450/103813309_1.jpg?_a=AAFIKBs",
+          "sku": "10381330900",
+          "mpn": "MAG520-FDE"
+        },
+        "OD": {
+          "price_chf": 49.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381322000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--n_9q9plg--/webshop/media/03/a9/c2/1702633439/103813220_1.jpg?_a=AAFIKBs",
+          "sku": "10381322000",
+          "mpn": "MAG520-ODG"
+        },
+        "Schwarz": {
+          "price_chf": 49.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381306000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--q6ZafeJa--/webshop/media/ff/1a/a3/1702633427/103813060_1.jpg?_a=AAFIKBs",
+          "sku": "10381306000",
+          "mpn": "MAG520-BLK"
+        }
+      },
+      "note": "AR-15 (5.56, Type 1) kivitel; a MIAD 7.62 Type 2 másik termék",
+      "match": "exact"
+    },
+    "bcm-g3": {
+      "title": "BCM Grip Mod 3",
+      "price_chf": 32.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/grip-mod-3-12031706000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ocnCE-Nj--/webshop/media/66/32/3c/1774435102/120317060_1.jpg?_a=AAFIKBs",
+      "in_stock": false,
+      "weight_g": 102,
+      "dims": "Länge 11.5 cm x Breite 7.5 cm x Höhe 3 cm",
+      "color": "Schwarz",
+      "stock_text": "Ausverkauft Dieser Artikel ist im Moment nicht lieferbar. Ja, mich benachrichtigen lassen",
+      "sku": "12031706000",
+      "mpn": "BCM-GFG-MOD-3-BLK",
+      "weight_packed_g": 142,
+      "dims_packed": "Länge 23 cm x Breite 13 cm x Höhe 4 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/grip-mod-3-120317/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ocnCE-Nj--/webshop/media/66/32/3c/1774435102/120317060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--BiBcNPw2--/webshop/media/dc/f5/63/1774435105/120317060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--bltsxMOZ--/webshop/media/2f/76/ba/1774435109/120317060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--rpCjzNsD--/webshop/media/cc/dc/4c/1774435113/120317060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Y6AbCPKh--/webshop/media/e5/67/18/1774435130/120317060_5.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 32.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.armamat.ch/de-ch/p/grip-mod-3-12031706000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ocnCE-Nj--/webshop/media/66/32/3c/1774435102/120317060_1.jpg?_a=AAFIKBs",
+          "sku": "12031706000",
+          "mpn": "BCM-GFG-MOD-3-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-ctr": {
+      "title": "Magpul CTR Carbine Stock Mil Spec",
+      "price_chf": 89.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295906000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--QyGr9VKu--/webshop/media/57/a9/51/1702623550/102959060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 250,
+      "dims": "Länge 17.6 cm x Breite 13.5 cm x Höhe 4.4 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10295906000",
+      "mpn": "MAG310-BLK",
+      "weight_packed_g": 345,
+      "dims_packed": "Länge 19.5 cm x Breite 14 cm x Höhe 5.2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-102959/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--QyGr9VKu--/webshop/media/57/a9/51/1702623550/102959060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--WQPo0pvE--/webshop/media/84/68/da/1702623553/102959060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--6n3ziZXq--/webshop/media/75/f9/1c/1702623556/102959060_3.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295930900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s---H60mf6s--/webshop/media/e3/75/04/1702623569/102959309_1.jpg?_a=AAFIKBs",
+          "sku": "10295930900",
+          "mpn": "MAG310-FDE"
+        },
+        "OD": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295922000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--npJZIr_5--/webshop/media/f3/e2/d0/1702623560/102959220_1.jpg?_a=AAFIKBs",
+          "sku": "10295922000",
+          "mpn": "MAG310-ODG"
+        },
+        "Schwarz": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295906000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--QyGr9VKu--/webshop/media/57/a9/51/1702623550/102959060_1.jpg?_a=AAFIKBs",
+          "sku": "10295906000",
+          "mpn": "MAG310-BLK"
+        }
+      },
+      "note": "Mil-Spec csöves kivitel (a bolt csak ezt árulja)",
+      "match": "exact"
+    },
+    "mp-moesl": {
+      "title": "Magpul MOE SL Carbine Stock Mil Spec",
+      "price_chf": 89.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485006000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--6sWp4GCp--/webshop/media/11/36/9c/1702650776/104850060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 271,
+      "dims": "Länge 18.5 cm x Breite 13.7 cm x Höhe 5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10485006000",
+      "mpn": "MAG347-BLK",
+      "weight_packed_g": 429,
+      "dims_packed": "Länge 19.6 cm x Breite 14 cm x Höhe 5.2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-104850/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--6sWp4GCp--/webshop/media/11/36/9c/1702650776/104850060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--EAWIIS18--/webshop/media/5f/d3/a8/1702650779/104850060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Wxe8kKVo--/webshop/media/cc/3c/89/1702650781/104850060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--fvzxEVz8--/webshop/media/e1/9e/0a/1702650784/104850060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485030900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--f9iBfAoi--/webshop/media/6f/eb/d3/1702650801/104850309_1.jpg?_a=AAFIKBs",
+          "sku": "10485030900",
+          "mpn": "MAG347-FDE"
+        },
+        "OD": {
+          "price_chf": 87.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485022000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--5Th99agl--/webshop/media/57/3b/cc/1702650788/104850220_1.jpg?_a=AAFIKBs",
+          "sku": "10485022000",
+          "mpn": "MAG347-ODG"
+        },
+        "Schwarz": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485006000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--6sWp4GCp--/webshop/media/11/36/9c/1702650776/104850060_1.jpg?_a=AAFIKBs",
+          "sku": "10485006000",
+          "mpn": "MAG347-BLK"
+        }
+      },
+      "note": "Mil-Spec csöves kivitel (a bolt csak ezt árulja)",
+      "match": "exact"
+    },
+    "mp-moeslk": {
+      "title": "Magpul MOE SL-K Carbine Stock Mil Spec",
+      "price_chf": 64.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/moe-sl-k-carbine-stock-mil-spec-10618906000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Ofl2v1Lv--/webshop/media/99/f7/59/1703032286/106189060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 222,
+      "dims": "Länge 17 cm x Breite 11 cm x Höhe 2.8 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10618906000",
+      "mpn": "MAG626-BLK",
+      "weight_packed_g": 381,
+      "dims_packed": "Länge 19.9 cm x Breite 14 cm x Höhe 5.2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/moe-sl-k-carbine-stock-mil-spec-106189/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Ofl2v1Lv--/webshop/media/99/f7/59/1703032286/106189060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--rl-hbSdd--/webshop/media/d0/86/65/1703032289/106189060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--HiC0w57I--/webshop/media/ee/2a/f3/1703032292/106189060_3.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 64.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-sl-k-carbine-stock-mil-spec-10618930900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--2HQtPMjB--/webshop/media/66/e2/c6/1703032306/106189309_1.jpg?_a=AAFIKBs",
+          "sku": "10618930900",
+          "mpn": "MAG626-FDE"
+        },
+        "Schwarz": {
+          "price_chf": 64.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/moe-sl-k-carbine-stock-mil-spec-10618906000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Ofl2v1Lv--/webshop/media/99/f7/59/1703032286/106189060_1.jpg?_a=AAFIKBs",
+          "sku": "10618906000",
+          "mpn": "MAG626-BLK"
+        }
+      },
+      "note": "Mil-Spec csöves kivitel (a bolt csak ezt árulja)",
+      "match": "exact"
+    },
+    "mp-ubr2": {
+      "title": "Magpul UBR Gen 2.0 Collapsible Stock",
+      "price_chf": 293.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619006000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--5ecbBlck--/webshop/media/f4/65/4d/1703032316/106190060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 603,
+      "dims": "Länge 23 cm x Breite 13.5 cm x Höhe 4.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10619006000",
+      "mpn": "MAG482-BLK",
+      "weight_packed_g": 841,
+      "dims_packed": "Länge 29.5 cm x Breite 14.5 cm x Höhe 5.5 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-106190/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--5ecbBlck--/webshop/media/f4/65/4d/1703032316/106190060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--daA57YvB--/webshop/media/73/e3/7c/1703032319/106190060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--z1VpEgfj--/webshop/media/44/18/8e/1703032322/106190060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--w49GwV93--/webshop/media/c3/1d/4b/1703032325/106190060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--QyjePtkH--/webshop/media/6c/55/d7/1703032328/106190060_5.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 276.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619030900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--K7AGYhy9--/webshop/media/34/a6/41/1703032342/106190309_1.jpg?_a=AAFIKBs",
+          "sku": "10619030900",
+          "mpn": "MAG482-FDE"
+        },
+        "OD": {
+          "price_chf": 279.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619022000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ZNNrAmrs--/webshop/media/8f/20/44/1703032332/106190220_1.jpg?_a=AAFIKBs",
+          "sku": "10619022000",
+          "mpn": "MAG482-ODG"
+        },
+        "Schwarz": {
+          "price_chf": 293.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619006000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--5ecbBlck--/webshop/media/f4/65/4d/1703032316/106190060_1.jpg?_a=AAFIKBs",
+          "sku": "10619006000",
+          "mpn": "MAG482-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-prs3": {
+      "title": "Magpul PRS Gen 3 Rifle Stock Mil Spec",
+      "price_chf": 338.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619106000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--WwUe4YTR--/webshop/media/55/84/2b/1774553120/106191060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 820,
+      "dims": "Länge 28.5 cm x Breite 13 cm x Höhe 3 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10619106000",
+      "mpn": "MAG672-BLK",
+      "weight_packed_g": 1022,
+      "dims_packed": "Länge 33 cm x Breite 17 cm x Höhe 5.5 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-106191/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--WwUe4YTR--/webshop/media/55/84/2b/1774553120/106191060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--yAFyBjx1--/webshop/media/f3/5c/83/1774553125/106191060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--2pyZr8kQ--/webshop/media/7f/83/7c/1774553130/106191060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--673lkM3j--/webshop/media/c3/01/0c/1774553135/106191060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 338.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619130900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Xo7dzEee--/webshop/media/f2/88/a2/1693314310/106191309_1.jpg?_a=AAFIKBs",
+          "sku": "10619130900",
+          "mpn": "MAG672-FDE"
+        },
+        "OD": {
+          "price_chf": 331.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619122000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--kC_13voZ--/webshop/media/91/1f/79/1693314294/106191220_1.jpg?_a=AAFIKBs",
+          "sku": "10619122000",
+          "mpn": "MAG672-ODG"
+        },
+        "Schwarz": {
+          "price_chf": 338.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619106000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--WwUe4YTR--/webshop/media/55/84/2b/1774553120/106191060_1.jpg?_a=AAFIKBs",
+          "sku": "10619106000",
+          "mpn": "MAG672-BLK"
+        }
+      },
+      "note": "Mil-Spec csöves kivitel",
+      "match": "exact"
+    },
+    "mp-prslite": {
+      "title": "Magpul PRS Lite",
+      "price_chf": 163.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/prs-lite-11739906000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--odLYg_Et--/webshop/media/6f/g0/f8/1703320373/117399060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 540,
+      "dims": "Länge 26.6 cm x Breite 13 cm x Höhe 5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "11739906000",
+      "mpn": "MAG1159-BLK",
+      "weight_packed_g": 710,
+      "dims_packed": "Länge 33 cm x Breite 17.1 cm x Höhe 5.5 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/prs-lite-117399/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--odLYg_Et--/webshop/media/6f/g0/f8/1703320373/117399060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--lJcMZwu2--/webshop/media/e0/d8/b5/1703320376/117399060_2.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 163.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/prs-lite-11739906000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--odLYg_Et--/webshop/media/6f/g0/f8/1703320373/117399060_1.jpg?_a=AAFIKBs",
+          "sku": "11739906000",
+          "mpn": "MAG1159-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pad030": {
+      "title": "Magpul Rubber Butt-Pad",
+      "price_chf": 26.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/rubber-butt-pad-10381706000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--9k6QSdBg--/webshop/media/c1/19/bb/1702633561/103817060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 37,
+      "dims": "Länge 13 cm x Breite 3.7 cm x Höhe 2.3 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10381706000",
+      "mpn": "MAG315-BLK",
+      "weight_packed_g": 60,
+      "dims_packed": "Länge 16.5 cm x Breite 4.4 cm x Höhe 3.7 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/rubber-butt-pad-103817/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--9k6QSdBg--/webshop/media/c1/19/bb/1702633561/103817060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--0BPKSPKZ--/webshop/media/be/d7/a3/1702633564/103817060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--H1T03v7c--/webshop/media/38/db/a4/1702633568/103817060_3.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 26.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/rubber-butt-pad-10381706000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--9k6QSdBg--/webshop/media/c1/19/bb/1702633561/103817060_1.jpg?_a=AAFIKBs",
+          "sku": "10381706000",
+          "mpn": "MAG315-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pad055": {
+      "title": "Magpul Extended Rubber Buttpad",
+      "price_chf": 26.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/extended-rubber-buttpad-10502506000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Z5Cw-rE1--/webshop/media/ac/2c/dc/1702653510/105025060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 50,
+      "dims": "Länge 13.3 cm x Breite 4 cm x Höhe 2.9 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10502506000",
+      "mpn": "MAG316-BLK",
+      "weight_packed_g": 65,
+      "dims_packed": "Länge 16.5 cm x Breite 4.4 cm x Höhe 3.9 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/extended-rubber-buttpad-105025/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Z5Cw-rE1--/webshop/media/ac/2c/dc/1702653510/105025060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--SGhY4yjP--/webshop/media/c7/06/82/1702653513/105025060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--HQNIDfFK--/webshop/media/9a/28/51/1702653516/105025060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--izChHjDb--/webshop/media/b2/2f/47/1702653519/105025060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 26.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/extended-rubber-buttpad-10502506000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Z5Cw-rE1--/webshop/media/ac/2c/dc/1702653510/105025060_1.jpg?_a=AAFIKBs",
+          "sku": "10502506000",
+          "mpn": "MAG316-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pad070": {
+      "title": "Magpul Enhanced Rubber Butt-Pad",
+      "price_chf": 26.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/enhanced-rubber-butt-pad-10381806000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--v2iLP-3X--/webshop/media/a2/0e/3f/1702633571/103818060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 58,
+      "dims": "Länge 13.4 cm x Breite 4 cm x Höhe 3.3 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10381806000",
+      "mpn": "MAG317-BLK",
+      "weight_packed_g": 80,
+      "dims_packed": "Länge 16.5 cm x Breite 4.4 cm x Höhe 3.8 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/enhanced-rubber-butt-pad-103818/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--v2iLP-3X--/webshop/media/a2/0e/3f/1702633571/103818060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--VsJtKcoj--/webshop/media/18/ab/f3/1702633574/103818060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--nIS4lL2W--/webshop/media/83/88/39/1702633577/103818060_3.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 26.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/enhanced-rubber-butt-pad-10381806000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--v2iLP-3X--/webshop/media/a2/0e/3f/1702633571/103818060_1.jpg?_a=AAFIKBs",
+          "sku": "10381806000",
+          "mpn": "MAG317-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-padsl": {
+      "title": "Magpul MOE SL Enhanced Rubber Butt-Pad 0.70 Inches",
+      "price_chf": 26.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/moe-sl-enhanced-rubber-butt-pad-0.70-inches-10619406000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--T5klRqU---/webshop/media/72/b2/33/1703032404/106194060_1.jpg?_a=AAFIKBs",
+      "in_stock": false,
+      "weight_g": 63,
+      "dims": "Länge 13 cm x Breite 2.5 cm x Höhe 2 cm",
+      "color": "Schwarz",
+      "stock_text": "Ausverkauft Dieser Artikel ist im Moment nicht lieferbar. Ja, mich benachrichtigen lassen",
+      "sku": "10619406000",
+      "mpn": "MAG349-BLK",
+      "weight_packed_g": 79,
+      "dims_packed": "Länge 19 cm x Breite 10.8 cm x Höhe 2.5 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/moe-sl-enhanced-rubber-butt-pad-0.70-inches-106194/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--T5klRqU---/webshop/media/72/b2/33/1703032404/106194060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--vc2Kz-UZ--/webshop/media/3b/87/81/1703032407/106194060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--3dDalvTF--/webshop/media/31/a9/f4/1703032409/106194060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--N4dQD_ea--/webshop/media/d1/3a/dc/1703032412/106194060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 26.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.armamat.ch/de-ch/p/moe-sl-enhanced-rubber-butt-pad-0.70-inches-10619406000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--T5klRqU---/webshop/media/72/b2/33/1703032404/106194060_1.jpg?_a=AAFIKBs",
+          "sku": "10619406000",
+          "mpn": "MAG349-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "eo-exps3": {
+      "title": "EoTech EXPS3-0",
+      "price_chf": 973.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/exps3-0-10183106000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--RM4zkp2h--/webshop/media/63/f9/fb/1702610675/101831060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 314,
+      "dims": "Länge 9.1 cm x Breite 7 cm x Höhe 5.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10183106000",
+      "mpn": "NT000417",
+      "weight_packed_g": 615,
+      "dims_packed": "Länge 18.6 cm x Breite 16.6 cm x Höhe 9 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/exps3-0-101831/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--RM4zkp2h--/webshop/media/63/f9/fb/1702610675/101831060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--FJyd-qRq--/webshop/media/53/c6/d1/1702610678/101831060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--XUh93Y6N--/webshop/media/1e/36/30/1702610681/101831060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--NVJJzbI5--/webshop/media/06/8c/a3/1702610684/101831060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Kx30kC_u--/webshop/media/7a/18/32/1702610686/101831060_5.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 973.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/exps3-0-10183106000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--RM4zkp2h--/webshop/media/63/f9/fb/1702610675/101831060_1.jpg?_a=AAFIKBs",
+          "sku": "10183106000",
+          "mpn": "NT000417"
+        },
+        "Tan": {
+          "price_chf": 973.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/exps3-0-10183132800/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--foTo2TYP--/webshop/media/94/0a/61/1702610689/101831328_1.jpg?_a=AAFIKBs",
+          "sku": "10183132800",
+          "mpn": "NT000421"
+        }
+      },
+      "match": "exact"
+    },
+    "eo-exps2": {
+      "title": "EoTech EXPS2-0",
+      "price_chf": 813.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/exps2-0-10232906000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--YInsO471--/webshop/media/14/a4/ba/1702616442/102329060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 312,
+      "dims": "Länge 9.1 cm x Breite 5.4 cm x Höhe 7.1 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10232906000",
+      "mpn": "NT000428",
+      "weight_packed_g": 620,
+      "dims_packed": "Länge 19 cm x Breite 16.5 cm x Höhe 9.2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/exps2-0-102329/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--YInsO471--/webshop/media/14/a4/ba/1702616442/102329060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--2LLZ55MQ--/webshop/media/a7/13/ed/1702616444/102329060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--JiGeytnr--/webshop/media/5b/f0/f4/1702616447/102329060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--fT9jDg7d--/webshop/media/a2/dc/f5/1702616450/102329060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 813.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/exps2-0-10232906000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--YInsO471--/webshop/media/14/a4/ba/1702616442/102329060_1.jpg?_a=AAFIKBs",
+          "sku": "10232906000",
+          "mpn": "NT000428"
+        }
+      },
+      "match": "exact"
+    },
+    "eo-xps2": {
+      "title": "EoTech XPS2-0",
+      "price_chf": 749.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/xps2-0-10151506000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--7BOBk8xT--/webshop/media/ff/a2/66/1702466529/101515060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 251,
+      "dims": "Länge 9.2 cm x Breite 6.1 cm x Höhe 5.1 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10151506000",
+      "mpn": "XPS2-0",
+      "weight_packed_g": 568,
+      "dims_packed": "Länge 18.6 cm x Breite 16.8 cm x Höhe 9 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/xps2-0-101515/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--7BOBk8xT--/webshop/media/ff/a2/66/1702466529/101515060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--kzIusV3r--/webshop/media/91/e8/12/1702466532/101515060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--xeIKCm8U--/webshop/media/91/17/ec/1702466535/101515060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--hKv2bqDq--/webshop/media/13/93/b5/1702466537/101515060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--1nQyv8eJ--/webshop/media/fe/2a/66/1702466540/101515060_5.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 749.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/xps2-0-10151506000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--7BOBk8xT--/webshop/media/ff/a2/66/1702466529/101515060_1.jpg?_a=AAFIKBs",
+          "sku": "10151506000",
+          "mpn": "XPS2-0"
+        }
+      },
+      "match": "exact"
+    },
+    "hs-510c": {
+      "title": "Holosun HS510C Solar Red Circle Dot Sight",
+      "price_chf": 361.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/hs510c-solar-red-circle-dot-sight-10678406000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--_02nptok--/webshop/media/35/6d/34/1703242313/106784060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 209,
+      "dims": "Länge 8.3 cm x Breite 5.6 cm x Höhe 4.3 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10678406000",
+      "mpn": "HS510C",
+      "weight_packed_g": 389,
+      "dims_packed": "Länge 12.1 cm x Breite 9.2 cm x Höhe 8.1 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/hs510c-solar-red-circle-dot-sight-106784/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--_02nptok--/webshop/media/35/6d/34/1703242313/106784060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--g54jWNYZ--/webshop/media/0e/f6/05/1703242316/106784060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Q2Uz11XC--/webshop/media/c6/fe/ea/1703242320/106784060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--pLTQuN_Y--/webshop/media/81/2f/1d/1703242323/106784060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--GBZxmC5I--/webshop/media/b7/c1/f4/1703242325/106784060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--0rb64JkK--/webshop/media/05/9e/8b/1703242328/106784060_6.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 361.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/hs510c-solar-red-circle-dot-sight-10678430900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--tzGo_n7u--/webshop/media/98/2f/18/1709745756/106784309_1.jpg?_a=AAFIKBs",
+          "sku": "10678430900",
+          "mpn": "HS510C-FDE"
+        },
+        "Schwarz": {
+          "price_chf": 361.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/hs510c-solar-red-circle-dot-sight-10678406000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--_02nptok--/webshop/media/35/6d/34/1703242313/106784060_1.jpg?_a=AAFIKBs",
+          "sku": "10678406000",
+          "mpn": "HS510C"
+        }
+      },
+      "match": "exact"
+    },
+    "vx-uh1": {
+      "title": "Vortex Optics AMG UH-1 Gen II Holographic Sight",
+      "price_chf": 949.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/amg-uh-1-gen-ii-holographic-sight-11027306000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--57coLZ4I--/webshop/media/0d/13/ea/1703285199/110273060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 313,
+      "dims": "Länge 9 cm x Breite 5.8 cm x Höhe 7 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "11027306000",
+      "mpn": "AMG-HS02",
+      "weight_packed_g": 500,
+      "dims_packed": "Länge 14.2 cm x Breite 12.6 cm x Höhe 10 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/amg-uh-1-gen-ii-holographic-sight-110273/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--57coLZ4I--/webshop/media/0d/13/ea/1703285199/110273060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--hB7z9PzY--/webshop/media/ea/12/12/1703285202/110273060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--1l1f4CKC--/webshop/media/d5/30/f7/1703285204/110273060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--C-yo_CDd--/webshop/media/a3/08/50/1703285207/110273060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--KOX-yEdg--/webshop/media/61/92/b9/1703285210/110273060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--BrIVNioZ--/webshop/media/eb/5a/9b/1703285213/110273060_6.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--SfQj3qse--/webshop/media/3d/45/58/1703285216/110273060_7.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 949.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/amg-uh-1-gen-ii-holographic-sight-11027306000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--57coLZ4I--/webshop/media/0d/13/ea/1703285199/110273060_1.jpg?_a=AAFIKBs",
+          "sku": "11027306000",
+          "mpn": "AMG-HS02"
+        },
+        "Tan": {
+          "price_chf": 822.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.armamat.ch/de-ch/p/amg-uh-1-gen-ii-holographic-sight-11027332800/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--VgAqLvdm--/webshop/media/bb/b3/ba/1734454851/110273328_1.jpg?_a=AAFIKBs",
+          "sku": "11027332800",
+          "mpn": "AMG-HS02T"
+        }
+      },
+      "match": "exact"
+    },
+    "vx-se16": {
+      "title": "Vortex Optics Strike Eagle 1-6x24 AR-BDC3",
+      "price_chf": 446.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-6x24-ar-bdc3-11010106000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--80s9427b--/webshop/media/9e/07/a4/1703283159/110101060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 542,
+      "dims": null,
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "11010106000",
+      "mpn": "SE-1624-2",
+      "weight_packed_g": 800,
+      "dims_packed": "Länge 36.5 cm x Breite 9.5 cm x Höhe 9 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-6x24-ar-bdc3-110101/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--80s9427b--/webshop/media/9e/07/a4/1703283159/110101060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--AmfV_tOv--/webshop/media/c6/c3/e0/1703283161/110101060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--k77xdteE--/webshop/media/00/4b/92/1703283163/110101060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--EPxKwAic--/webshop/media/03/87/e1/1703283166/110101060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--jyPdUexY--/webshop/media/cd/31/d6/1703283168/110101060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--5vm6wEkf--/webshop/media/f6/ef/23/1703283171/110101060_6.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--tqE7d7es--/webshop/media/a1/e4/5a/1703283174/110101060_7.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--dwMSDJst--/webshop/media/ca/90/c9/1703283177/110101060_8.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 446.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-6x24-ar-bdc3-11010106000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--80s9427b--/webshop/media/9e/07/a4/1703283159/110101060_1.jpg?_a=AAFIKBs",
+          "sku": "11010106000",
+          "mpn": "SE-1624-2"
+        }
+      },
+      "note": "AR-BDC3 retikulos kivitel (a bolt csak ezt árulja)",
+      "match": "exact"
+    },
+    "vx-se18": {
+      "title": "Vortex Optics Strike Eagle 1-8x24 AR-BDC3",
+      "price_chf": 381.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-8x24-ar-bdc3-11010206000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--gGOZFE3x--/webshop/media/ea/ef/50/1703283181/110102060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 506,
+      "dims": null,
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "11010206000",
+      "mpn": "SE-1824-2",
+      "weight_packed_g": 800,
+      "dims_packed": "Länge 36.5 cm x Breite 9 cm x Höhe 10 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-8x24-ar-bdc3-110102/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--gGOZFE3x--/webshop/media/ea/ef/50/1703283181/110102060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--wK6cCwCL--/webshop/media/7f/fa/a2/1703283184/110102060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--cHsk6hyZ--/webshop/media/cc/dd/31/1703283188/110102060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--zYJMcTg8--/webshop/media/9e/dc/23/1703283191/110102060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--6yEYgmXl--/webshop/media/da/2d/dd/1703283194/110102060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--LUZ89cJH--/webshop/media/61/8e/3d/1703283197/110102060_6.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--5nBb6BpI--/webshop/media/61/4b/2f/1703283201/110102060_7.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--p9Bp3Pmy--/webshop/media/99/77/de/1703283205/110102060_8.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 381.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-8x24-ar-bdc3-11010206000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--gGOZFE3x--/webshop/media/ea/ef/50/1703283181/110102060_1.jpg?_a=AAFIKBs",
+          "sku": "11010206000",
+          "mpn": "SE-1824-2"
+        }
+      },
+      "note": "AR-BDC3 retikulos SFP kivitel; az FFP EBR-8 külön termék",
+      "match": "exact"
+    },
+    "vx-pst16": {
+      "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP VMR-2 MOA",
+      "price_chf": 666.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa-10664406000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--629ZuYm0--/webshop/media/21/e2/db/1703240284/106644060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 676,
+      "dims": "Länge 28.5 cm x Breite 7 cm x Höhe 5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10664406000",
+      "mpn": "PST-1605",
+      "weight_packed_g": 962,
+      "dims_packed": "Länge 35 cm x Breite 11 cm x Höhe 9 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa-106644/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--629ZuYm0--/webshop/media/21/e2/db/1703240284/106644060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--TDvXS5HA--/webshop/media/a9/03/c2/1703240286/106644060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--86gLMeGw--/webshop/media/9b/4e/d2/1703240289/106644060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--MxMrX01j--/webshop/media/f6/7b/38/1703240291/106644060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--UNjgfAuG--/webshop/media/bc/53/45/1703240294/106644060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Dv3Q8sVk--/webshop/media/fa/ac/24/1703240296/106644060_6.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 666.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa-10664406000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--629ZuYm0--/webshop/media/21/e2/db/1703240284/106644060_1.jpg?_a=AAFIKBs",
+          "sku": "10664406000",
+          "mpn": "PST-1605"
+        }
+      },
+      "note": "a bolt két retikulos (MOA/MRAD) kivitelt árul; a data.js nem határozza meg",
+      "alternatives": [
+        {
+          "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP VMR-2 MRAD",
+          "url": "https://www.armamat.ch/de-ch/p/viper-pst-gen-ii-1-6x24-sfp-vmr-2-mrad-106645/",
+          "price_from_chf": 668.9
+        }
+      ],
+      "match": "variant"
+    },
+    "vx-razor110": {
+      "title": "Vortex Optics Razor Gen III 1-10x24 EBR-9 MRAD",
+      "price_chf": 3359.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/razor-gen-iii-1-10x24-ebr-9-mrad-109797/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--IK1QCgbi--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/3c/f1/63/1703277224/109797000_1/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 646,
+      "dims": "Länge 25.9 cm x Breite 7.8 cm x Höhe 5.9 cm",
+      "color": null,
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10979700000",
+      "mpn": "RZR-11002",
+      "weight_packed_g": 1690,
+      "dims_packed": "Länge 42.1 cm x Breite 19.4 cm x Höhe 10.5 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/razor-gen-iii-1-10x24-ebr-9-mrad-109797/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--IK1QCgbi--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/3c/f1/63/1703277224/109797000_1/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--PWRu8wZy--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/26/f4/e7/1703277229/109797000_2/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--D8UhdgfF--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/66/ee/63/1703277232/109797000_3/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--_PVYzrpj--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/1b/da/19/1703277234/109797000_4/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--WulgmgX4--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/8e/17/f7/1703277236/109797000_5/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--LmKfC9wr--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/d6/73/75/1703277239/109797000_6/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--vL05_9U2--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/12/6a/e8/1703277242/109797000_7/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--smvxObnR--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/0c/1f/20/1703277245/109797000_8/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--wDdODLeF--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/16/64/05/1703277248/109797000_9/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--Akk7bbVT--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/f9/c5/8c/1703277226/109797000_10/vortex_optics_razor_gen_iii_1-10x24_ebr-9_mrad?_a=AAFIKBs"
+      ],
+      "match": "exact"
+    },
+    "eo-vudu16": {
+      "title": "EoTech Vudu 1-6x24 FFP - SR1 Reticle MRAD",
+      "price_chf": 1448.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/vudu-1-6x24-ffp-sr1-reticle-mrad-11045606000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--p7mXVCGk--/webshop/media/e5/c7/51/1703286209/110456060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 580,
+      "dims": "Länge 27.6 cm x Breite 6.4 cm x Höhe 4.7 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "11045606000",
+      "mpn": "NT000574",
+      "weight_packed_g": 950,
+      "dims_packed": "Länge 34.1 cm x Breite 11.3 cm x Höhe 9.2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/vudu-1-6x24-ffp-sr1-reticle-mrad-110456/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--p7mXVCGk--/webshop/media/e5/c7/51/1703286209/110456060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--uLDaawOA--/webshop/media/18/cf/b7/1703286211/110456060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--30WdvY_g--/webshop/media/4a/87/07/1703286214/110456060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--_bUzTGmX--/webshop/media/cf/c8/3c/1703286217/110456060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--M11ZfsuC--/webshop/media/5b/db/54/1703286220/110456060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--d-KW68hk--/webshop/media/85/99/db/1703286223/110456060_6.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 1448.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/vudu-1-6x24-ffp-sr1-reticle-mrad-11045606000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--p7mXVCGk--/webshop/media/e5/c7/51/1703286209/110456060_1.jpg?_a=AAFIKBs",
+          "sku": "11045606000",
+          "mpn": "NT000574"
+        }
+      },
+      "note": "FFP kivitel ('Vudu X 1-6x24 SFP' külön modell)",
+      "match": "exact"
+    },
+    "eo-vudu110": {
+      "title": "EoTech Vudu 1-10x28 FFP - LE5 Reticle MRAD",
+      "price_chf": 1933.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/vudu-1-10x28-ffp-le5-reticle-mrad-11328806000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--NSkJBzn0--/webshop/media/53/78/40/1720436192/113288060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 580,
+      "dims": "Länge 26.8 cm x Breite 7.2 cm x Höhe 5.3 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "11328806000",
+      "mpn": "NT000594",
+      "weight_packed_g": 960,
+      "dims_packed": "Länge 34.1 cm x Breite 11.3 cm x Höhe 9.7 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/vudu-1-10x28-ffp-le5-reticle-mrad-113288/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--NSkJBzn0--/webshop/media/53/78/40/1720436192/113288060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--d5RJPecs--/webshop/media/eb/c8/f4/1720436195/113288060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--8sPAPYSW--/webshop/media/3f/e1/43/1720436199/113288060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Zz-k61lX--/webshop/media/73/16/2a/1720436202/113288060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--YkuwFJck--/webshop/media/76/89/2f/1720436205/113288060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Djc5Kkxs--/webshop/media/9c/9a/56/1720436208/113288060_6.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--MViHMoBI--/webshop/media/39/37/74/1720436211/113288060_7.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s---GN-1415--/webshop/media/0a/96/0a/1720436215/113288060_8.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 1933.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/vudu-1-10x28-ffp-le5-reticle-mrad-11328806000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--NSkJBzn0--/webshop/media/53/78/40/1720436192/113288060_1.jpg?_a=AAFIKBs",
+          "sku": "11328806000",
+          "mpn": "NT000594"
+        }
+      },
+      "note": "a bolt két retikulos (SR5/LE5) kivitelt árul; a data.js nem határozza meg",
+      "alternatives": [
+        {
+          "title": "EoTech Vudu 1-10x28 FFP - SR5 Reticle MRAD",
+          "url": "https://www.armamat.ch/de-ch/p/vudu-1-10x28-ffp-sr5-reticle-mrad-113287/",
+          "price_from_chf": 1933.9
+        }
+      ],
+      "match": "variant"
+    },
+    "vx-cant30": {
+      "title": "Vortex Optics Sport Cantilever Mount 30mm 1.5 Inch Height",
+      "price_chf": 106.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/sport-cantilever-mount-30mm-1.5-inch-height-12737906000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--PYiEkN18--/webshop/media/ed/06/29/1767104997/127379060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 152,
+      "dims": "Länge 13.7 cm x Breite 4.7 cm x Höhe 6 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "12737906000",
+      "mpn": "SCM-30-150",
+      "weight_packed_g": 204,
+      "dims_packed": "Länge 14 cm x Breite 6 cm x Höhe 8 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/sport-cantilever-mount-30mm-1.5-inch-height-127379/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--PYiEkN18--/webshop/media/ed/06/29/1767104997/127379060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--1POfsXWz--/webshop/media/g0/90/dd/1767105000/127379060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--LY4-utRt--/webshop/media/0a/5d/7f/1767105005/127379060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--9Z3YapE6--/webshop/media/62/81/3c/1767105010/127379060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 106.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/sport-cantilever-mount-30mm-1.5-inch-height-12737906000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--PYiEkN18--/webshop/media/ed/06/29/1767104997/127379060_1.jpg?_a=AAFIKBs",
+          "sku": "12737906000",
+          "mpn": "SCM-30-150"
+        }
+      },
+      "match": "exact"
+    },
+    "eo-g33": {
+      "title": "EoTech G33.STS Magnifier",
+      "price_chf": 759.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/g33.sts-magnifier-10349306000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--M41sJ1iD--/webshop/media/d8/5b/d4/1707836295/103493060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 220,
+      "dims": "Länge 10 cm x Breite 4.5 cm x Höhe 4.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10349306000",
+      "mpn": "NT000045",
+      "weight_packed_g": 597,
+      "dims_packed": "Länge 19.5 cm x Breite 16.5 cm x Höhe 8.5 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/g33.sts-magnifier-103493/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--M41sJ1iD--/webshop/media/d8/5b/d4/1707836295/103493060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--9JnVjoNl--/webshop/media/6a/a2/65/1707836298/103493060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--KsVPq04w--/webshop/media/cc/2e/14/1707836301/103493060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--clvoLk9E--/webshop/media/6a/80/46/1707836304/103493060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--9QTtFff7--/webshop/media/6e/69/46/1707836306/103493060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Vvz3cxfh--/webshop/media/c8/7d/9c/1707836309/103493060_6.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 759.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/g33.sts-magnifier-10349306000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--M41sJ1iD--/webshop/media/d8/5b/d4/1707836295/103493060_1.jpg?_a=AAFIKBs",
+          "sku": "10349306000",
+          "mpn": "NT000045"
+        },
+        "Tan": {
+          "price_chf": 759.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/g33.sts-magnifier-10349332800/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ofnioewK--/webshop/media/eb/d9/04/1707836312/103493328_1.jpg?_a=AAFIKBs",
+          "sku": "10349332800",
+          "mpn": "NT000099"
+        }
+      },
+      "match": "exact"
+    },
+    "hs-hm3x": {
+      "title": "Holosun HM3X Magnifier",
+      "price_chf": 237.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/hm3x-magnifier-10904806000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--uII3dj2F--/webshop/media/7b/e1/e9/1703269646/109048060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 304,
+      "dims": "Länge 10.7 cm x Breite 6.5 cm x Höhe 3.7 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10904806000",
+      "mpn": "HM3X",
+      "weight_packed_g": 485,
+      "dims_packed": "Länge 11.1 cm x Breite 9.1 cm x Höhe 8 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/hm3x-magnifier-109048/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--uII3dj2F--/webshop/media/7b/e1/e9/1703269646/109048060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--g62ArrSV--/webshop/media/f3/90/06/1703269649/109048060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--TacBXYGG--/webshop/media/37/8d/5c/1703269652/109048060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--dDEzfj30--/webshop/media/3c/bb/17/1703269654/109048060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--hdp0I6tu--/webshop/media/a2/30/21/1703269657/109048060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--zaWsOJBU--/webshop/media/7e/3d/a1/1703269659/109048060_6.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--bmxytP7R--/webshop/media/07/a7/51/1703269663/109048060_7.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 237.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/hm3x-magnifier-10904806000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--uII3dj2F--/webshop/media/7b/e1/e9/1703269646/109048060_1.jpg?_a=AAFIKBs",
+          "sku": "10904806000",
+          "mpn": "HM3X"
+        }
+      },
+      "match": "exact"
+    },
+    "sl-tlr1": {
+      "title": "Streamlight TLR-1 HL",
+      "price_chf": 252.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/tlr-1-hl-10994606000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--271hRDry--/webshop/media/9f/72/5c/1703278591/109946060_1.jpg?_a=AAFIKBs",
+      "in_stock": false,
+      "weight_g": 130,
+      "dims": "Länge 8 cm x Breite 3.9 cm x Höhe 2.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Mitte November wieder lieferbar Dieser Artikel ist im Moment nicht lieferbar. Dieses Produkt wird voraussichtlich Mitte November wieder lieferbar sein. Dieser Termin basiert auf Prognosen und kann sich daher noch ändern. Sie möchten eine unverbindliche Nachricht erhalten, sobald das Produkt wieder lagernd und direkt lieferbar ist? Dann füllen Sie bitte das nachfolgende Formular aus: Ja, mich benachrichtigen lassen",
+      "sku": "10994606000",
+      "mpn": "69264",
+      "weight_packed_g": 214,
+      "dims_packed": "Länge 15.5 cm x Breite 10.5 cm x Höhe 4 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/tlr-1-hl-109946/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--271hRDry--/webshop/media/9f/72/5c/1703278591/109946060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--S5eEdzp---/webshop/media/43/d1/90/1703278593/109946060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--b2LmpicU--/webshop/media/a4/fc/d3/1703278595/109946060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--3XXou9_d--/webshop/media/71/fd/05/1703278598/109946060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--Yu6fkf9V--/webshop/media/43/ac/ee/1703278600/109946060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--KWabt80a--/webshop/media/53/97/d5/1703278604/109946060_6.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--neZGckr2--/webshop/media/a1/ef/7d/1703278607/109946060_7.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--qBwb3rbp--/webshop/media/bd/2b/37/1703278610/109946060_8.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--lm66wYZ4--/webshop/media/d7/8a/86/1703278614/109946060_9.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 252.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.armamat.ch/de-ch/p/tlr-1-hl-10994606000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--271hRDry--/webshop/media/9f/72/5c/1703278591/109946060_1.jpg?_a=AAFIKBs",
+          "sku": "10994606000",
+          "mpn": "69264"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-hstop": {
+      "title": "Magpul M-LOK Hand Stop Kit",
+      "price_chf": 36.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/m-lok-hand-stop-kit-10505506000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--PhGmTvud--/webshop/media/a0/ac/b4/1702654091/105055060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 48,
+      "dims": "Länge 12 cm x Breite 2.5 cm x Höhe 4 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10505506000",
+      "mpn": "MAG608-BLK",
+      "weight_packed_g": 65,
+      "dims_packed": "Länge 16.5 cm x Breite 4.5 cm x Höhe 4 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/m-lok-hand-stop-kit-105055/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--PhGmTvud--/webshop/media/a0/ac/b4/1702654091/105055060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--WxVQJJpR--/webshop/media/3c/f1/97/1702654094/105055060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--aK5nFGcz--/webshop/media/50/b9/fd/1702654096/105055060_3.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 36.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/m-lok-hand-stop-kit-10505530900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--dS72teBr--/webshop/media/9d/0b/fc/1702654109/105055309_1.jpg?_a=AAFIKBs",
+          "sku": "10505530900",
+          "mpn": "MAG608-FDE"
+        },
+        "Schwarz": {
+          "price_chf": 36.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/m-lok-hand-stop-kit-10505506000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--PhGmTvud--/webshop/media/a0/ac/b4/1702654091/105055060_1.jpg?_a=AAFIKBs",
+          "sku": "10505506000",
+          "mpn": "MAG608-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-rail5": {
+      "title": "Magpul M-LOK Rail Section Aluminium 5 Slots",
+      "price_chf": 28.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-section-aluminium-5-slots-10464006000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--0mOXPNBI--/webshop/media/e0/01/52/1702643959/104640060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 23,
+      "dims": "Länge 6 cm x Breite 2 cm x Höhe 1 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10464006000",
+      "mpn": "MAG581-BLK",
+      "weight_packed_g": 26,
+      "dims_packed": "Länge 19 cm x Breite 10.8 cm x Höhe 1 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/m-lok-rail-section-aluminium-5-slots-104640/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--0mOXPNBI--/webshop/media/e0/01/52/1702643959/104640060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--MfFw2glX--/webshop/media/51/d4/dd/1702643961/104640060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ylBu2zlL--/webshop/media/65/44/e8/1702643963/104640060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--2c2EdWfA--/webshop/media/b2/46/0b/1702643965/104640060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-section-aluminium-5-slots-10464006000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--0mOXPNBI--/webshop/media/e0/01/52/1702643959/104640060_1.jpg?_a=AAFIKBs",
+          "sku": "10464006000",
+          "mpn": "MAG581-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-qd": {
+      "title": "Magpul M-LOK QD Sling Mount",
+      "price_chf": 31.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/m-lok-qd-sling-mount-10485506000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--XhfL0wzd--/webshop/media/dc/2d/2c/1702650869/104855060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 12,
+      "dims": "Länge 3 cm x Breite 1 cm x Höhe 1 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10485506000",
+      "mpn": "MAG606-BLK",
+      "weight_packed_g": 31,
+      "dims_packed": "Länge 19.2 cm x Breite 10.8 cm x Höhe 1.2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/m-lok-qd-sling-mount-104855/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--XhfL0wzd--/webshop/media/dc/2d/2c/1702650869/104855060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--6aTcsS2B--/webshop/media/d0/b2/f0/1702650871/104855060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--r3yOU-_4--/webshop/media/30/a5/71/1702650874/104855060_3.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 31.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/m-lok-qd-sling-mount-10485506000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--XhfL0wzd--/webshop/media/dc/2d/2c/1702650869/104855060_1.jpg?_a=AAFIKBs",
+          "sku": "10485506000",
+          "mpn": "MAG606-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-cover": {
+      "title": "Magpul M-LOK Rail Cover Type 2",
+      "price_chf": 23.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504606000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--y1oA8dkD--/webshop/media/c2/bb/4a/1702653988/105046060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 30,
+      "dims": "Länge 4 cm x Breite 2.6 cm x Höhe 1 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10504606000",
+      "mpn": "MAG603-BLK",
+      "weight_packed_g": 35,
+      "dims_packed": "Länge 16.5 cm x Breite 4.4 cm x Höhe 3.9 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-105046/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--y1oA8dkD--/webshop/media/c2/bb/4a/1702653988/105046060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--0xtVxMVk--/webshop/media/fd/g0/49/1702653991/105046060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--VPz_nvJb--/webshop/media/b3/3f/24/1702653993/105046060_3.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Dark Earth": {
+          "price_chf": 23.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504630900/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--aXoYdsO---/webshop/media/24/63/8c/1702654006/105046309_1.jpg?_a=AAFIKBs",
+          "sku": "10504630900",
+          "mpn": "MAG603-FDE"
+        },
+        "OD": {
+          "price_chf": 23.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504622000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--jyCrN-qJ--/webshop/media/23/90/37/1702653996/105046220_1.jpg?_a=AAFIKBs",
+          "sku": "10504622000",
+          "mpn": "MAG603-ODG"
+        },
+        "Schwarz": {
+          "price_chf": 23.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504606000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--y1oA8dkD--/webshop/media/c2/bb/4a/1702653988/105046060_1.jpg?_a=AAFIKBs",
+          "sku": "10504606000",
+          "mpn": "MAG603-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "gs-s3g": {
+      "title": "Geissele Automatics AR15 Super 3 Gun S3G Trigger",
+      "price_chf": 414.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/ar15-super-3-gun-s3g-trigger-113721/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--oaqNSyjR--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/af/99/0b/1703319213/113721000_1/geissele_automatics_ar15_super_3_gun_s3g_trigger?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 80,
+      "dims": "Länge 5.1 cm x Breite 5.1 cm x Höhe 2.3 cm",
+      "color": null,
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "11372100000",
+      "mpn": "05-152",
+      "weight_packed_g": 120,
+      "dims_packed": "Länge 13.5 cm x Breite 10.1 cm x Höhe 4.6 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/ar15-super-3-gun-s3g-trigger-113721/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--oaqNSyjR--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/af/99/0b/1703319213/113721000_1/geissele_automatics_ar15_super_3_gun_s3g_trigger?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--GS357Vs---/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/dd/15/3a/1703319215/113721000_2/geissele_automatics_ar15_super_3_gun_s3g_trigger?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--foNuOdDR--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/23/0f/ae/1703319218/113721000_3/geissele_automatics_ar15_super_3_gun_s3g_trigger?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/private_images/s--KGOkso3c--/c_fit,h_420,w_600/f_auto/q_auto/webshop/media/5a/07/da/1703319221/113721000_4/geissele_automatics_ar15_super_3_gun_s3g_trigger?_a=AAFIKBs"
+      ],
+      "match": "exact"
+    },
+    "rd-raptor": {
+      "title": "Radian Weapons Raptor Ambidextrous Charging Handle AR15",
+      "price_chf": 148.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/raptor-ambidextrous-charging-handle-ar15-11262806000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--VCVtmSha--/webshop/media/f2/74/4b/1693658103/112628060_1.jpg?_a=AAFIKBs",
+      "in_stock": false,
+      "weight_g": 40,
+      "dims": "Länge 17.6 cm x Breite 6.5 cm x Höhe 1.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Ausverkauft Dieser Artikel ist im Moment nicht lieferbar. Ja, mich benachrichtigen lassen",
+      "sku": "11262806000",
+      "mpn": "R0001",
+      "weight_packed_g": 80,
+      "dims_packed": "Länge 27.8 cm x Breite 9.7 cm x Höhe 2.2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/raptor-ambidextrous-charging-handle-ar15-112628/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--VCVtmSha--/webshop/media/f2/74/4b/1693658103/112628060_1.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 148.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.armamat.ch/de-ch/p/raptor-ambidextrous-charging-handle-ar15-11262806000/",
+          "image": null,
+          "sku": "11262806000",
+          "mpn": "R0001"
+        }
+      },
+      "match": "exact"
+    },
+    "rd-raptorlt": {
+      "title": "Radian Weapons Raptor-LT Ambidextrous Charging Handle for AR15",
+      "price_chf": 114.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/raptor-lt-ambidextrous-charging-handle-for-ar15-11262706000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--oC5aimhH--/webshop/media/7f/80/e1/1693330360/112627060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 30,
+      "dims": "Länge 17.6 cm x Breite 6.5 cm x Höhe 1.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "11262706000",
+      "mpn": "R0148",
+      "weight_packed_g": 80,
+      "dims_packed": "Länge 27.7 cm x Breite 9.7 cm x Höhe 2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/raptor-lt-ambidextrous-charging-handle-for-ar15-112627/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--oC5aimhH--/webshop/media/7f/80/e1/1693330360/112627060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--3EIlYKsn--/webshop/media/bc/1e/c9/1693330363/112627060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--_7LwkNk---/webshop/media/11/38/cb/1693330365/112627060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--JJJsOXRU--/webshop/media/39/16/71/1693330367/112627060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 114.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/raptor-lt-ambidextrous-charging-handle-for-ar15-11262706000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--oC5aimhH--/webshop/media/7f/80/e1/1693330360/112627060_1.jpg?_a=AAFIKBs",
+          "sku": "11262706000",
+          "mpn": "R0148"
+        }
+      },
+      "match": "exact"
+    },
+    "rd-talon": {
+      "title": "Radian Weapons Talon Ambidextrous 45/90 Safety Selector",
+      "price_chf": 88.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/talon-ambidextrous-45-90-safety-selector-11262606000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--e9xCj522--/webshop/media/5c/84/d2/1760464984/112626060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 17,
+      "dims": "Länge 2.3 cm x Breite 1 cm x Höhe 1 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "11262606000",
+      "mpn": "R0018",
+      "weight_packed_g": 52,
+      "dims_packed": "Länge 18.1 cm x Breite 13 cm x Höhe 2.2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/talon-ambidextrous-45-90-safety-selector-112626/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--e9xCj522--/webshop/media/5c/84/d2/1760464984/112626060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--OeoxJrde--/webshop/media/9a/70/e1/1760464987/112626060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--L3FOPkef--/webshop/media/e8/f7/f2/1760464990/112626060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--4mwTPa1f--/webshop/media/b1/16/6a/1760464993/112626060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--QdrkBhVL--/webshop/media/f9/26/36/1760464997/112626060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--N8z8kKfM--/webshop/media/4a/3f/7b/1760465001/112626060_6.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--CD70s2Xe--/webshop/media/1a/65/c6/1760465004/112626060_7.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 88.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/talon-ambidextrous-45-90-safety-selector-11262606000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--e9xCj522--/webshop/media/5c/84/d2/1760464984/112626060_1.jpg?_a=AAFIKBs",
+          "sku": "11262606000",
+          "mpn": "R0018"
+        }
+      },
+      "note": "a bolt külön 'Kit' változatot is árul (az nem ez)",
+      "match": "exact"
+    },
+    "mp-bad": {
+      "title": "Magpul B.A.D. Lever",
+      "price_chf": 49.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/b.a.d.-lever-10298606000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--r5KWJ36X--/webshop/media/89/4e/0f/1720119287/102986060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 10,
+      "dims": "Länge 6 cm x Breite 2 cm x Höhe 3.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10298606000",
+      "mpn": "MAG980-BLK",
+      "weight_packed_g": 30,
+      "dims_packed": "Länge 19 cm x Breite 10.8 cm x Höhe 2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/b.a.d.-lever-102986/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--r5KWJ36X--/webshop/media/89/4e/0f/1720119287/102986060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--dcDljAlf--/webshop/media/a4/cd/62/1720119289/102986060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--zYduXbSv--/webshop/media/e6/1f/57/1720119291/102986060_3.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 49.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/b.a.d.-lever-10298606000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--r5KWJ36X--/webshop/media/89/4e/0f/1720119287/102986060_1.jpg?_a=AAFIKBs",
+          "sku": "10298606000",
+          "mpn": "MAG980-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm10": {
+      "title": "Magpul PMAG 10 Gen M3",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/pmag-10-gen-m3-10410706000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--lMJ_UOc6--/webshop/media/c7/b2/4b/1702636867/104107060_1.jpg?_a=AAFIKBs",
+      "in_stock": false,
+      "weight_g": 92,
+      "dims": "Länge 10.4 cm x Breite 7.3 cm x Höhe 2.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Ausverkauft Dieser Artikel ist im Moment nicht lieferbar. Ja, mich benachrichtigen lassen",
+      "sku": "10410706000",
+      "mpn": "MAG559-BLK",
+      "weight_packed_g": 97,
+      "dims_packed": "Länge 25 cm x Breite 11.9 cm x Höhe 4.6 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/pmag-10-gen-m3-104107/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--lMJ_UOc6--/webshop/media/c7/b2/4b/1702636867/104107060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--0MEZhHQd--/webshop/media/fc/96/87/1702636869/104107060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--gQjI5_n8--/webshop/media/52/58/aa/1702636871/104107060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--EJfDc6GL--/webshop/media/25/8e/be/1702636873/104107060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://www.armamat.ch/de-ch/p/pmag-10-gen-m3-10410706000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--lMJ_UOc6--/webshop/media/c7/b2/4b/1702636867/104107060_1.jpg?_a=AAFIKBs",
+          "sku": "10410706000",
+          "mpn": "MAG559-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm20": {
+      "title": "Magpul PMAG 20 Gen M3",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/pmag-20-gen-m3-10410606000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--gZtaPPSF--/webshop/media/42/9e/37/1702636856/104106060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 127,
+      "dims": "Länge 14.5 cm x Breite 7 cm x Höhe 2.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10410606000",
+      "mpn": "MAG560-BLK",
+      "weight_packed_g": 133,
+      "dims_packed": "Länge 26 cm x Breite 11 cm x Höhe 2.5 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/pmag-20-gen-m3-104106/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--gZtaPPSF--/webshop/media/42/9e/37/1702636856/104106060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--e2KZz11z--/webshop/media/27/bf/21/1702636858/104106060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--_U0wERuL--/webshop/media/70/20/72/1702636861/104106060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--WwIvMdwZ--/webshop/media/c6/61/5e/1702636863/104106060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/pmag-20-gen-m3-10410606000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--gZtaPPSF--/webshop/media/42/9e/37/1702636856/104106060_1.jpg?_a=AAFIKBs",
+          "sku": "10410606000",
+          "mpn": "MAG560-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm30": {
+      "title": "Magpul PMAG 30 Gen M3",
+      "price_chf": 26.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-10294406000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--dcTSiyzk--/webshop/media/67/ec/1f/1702623287/102944060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 156,
+      "dims": "Länge 19.5 cm x Breite 7 cm x Höhe 3 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10294406000",
+      "mpn": "MAG557-BLK",
+      "weight_packed_g": 160,
+      "dims_packed": "Länge 31 cm x Breite 11.5 cm x Höhe 3 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-102944/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--dcTSiyzk--/webshop/media/67/ec/1f/1702623287/102944060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--g_Copw9J--/webshop/media/51/92/59/1702623290/102944060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--5e2TMpIW--/webshop/media/d7/20/b9/1702623293/102944060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--yABfyAre--/webshop/media/ff/fa/41/1702623296/102944060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Coyote": {
+          "price_chf": 26.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-10294430100/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--5_tMCak1--/webshop/media/3f/a2/d6/1702623299/102944301_1.jpg?_a=AAFIKBs",
+          "sku": "10294430100",
+          "mpn": "MAG557-MCT"
+        },
+        "Schwarz": {
+          "price_chf": 26.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-10294406000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--dcTSiyzk--/webshop/media/67/ec/1f/1702623287/102944060_1.jpg?_a=AAFIKBs",
+          "sku": "10294406000",
+          "mpn": "MAG557-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm30w": {
+      "title": "Magpul PMAG 30 Gen M3 Window",
+      "price_chf": 29.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-10294506000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--f-qjGC-W--/webshop/media/b1/b9/78/1702623308/102945060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 150,
+      "dims": "Länge 19 cm x Breite 7.5 cm x Höhe 2.8 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "10294506000",
+      "mpn": "MAG556-BLK",
+      "weight_packed_g": 150,
+      "dims_packed": "Länge 30 cm x Breite 11 cm x Höhe 3 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-102945/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--f-qjGC-W--/webshop/media/b1/b9/78/1702623308/102945060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--bf-FBRVZ--/webshop/media/7c/bd/10/1702623310/102945060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--WFzp5IwZ--/webshop/media/08/53/c9/1702623313/102945060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--nAvYUm2a--/webshop/media/7c/e8/cf/1702623316/102945060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Coyote": {
+          "price_chf": 31.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-10294530100/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--tYa8zJg3--/webshop/media/f6/f9/63/1702623320/102945301_1.jpg?_a=AAFIKBs",
+          "sku": "10294530100",
+          "mpn": "MAG556-MCT"
+        },
+        "Schwarz": {
+          "price_chf": 29.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-10294506000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--f-qjGC-W--/webshop/media/b1/b9/78/1702623308/102945060_1.jpg?_a=AAFIKBs",
+          "sku": "10294506000",
+          "mpn": "MAG556-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm40": {
+      "title": "Magpul PMAG 40 Gen M3",
+      "price_chf": 36.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/pmag-40-gen-m3-12184806000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--VUz5Y439--/webshop/media/56/00/62/1720121101/121848060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 190,
+      "dims": null,
+      "color": "Schwarz",
+      "stock_text": "Lagernd, geliefert nach Schweiz / Fürstentum Lichtenstein in 1-2 Werktagen",
+      "sku": "12184806000",
+      "mpn": "MAG233-BLK",
+      "weight_packed_g": 195,
+      "dims_packed": "Länge 36 cm x Breite 11 cm x Höhe 2.5 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/pmag-40-gen-m3-121848/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--VUz5Y439--/webshop/media/56/00/62/1720121101/121848060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--MpiGBYnf--/webshop/media/76/2b/72/1720121104/121848060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--kR87lB1X--/webshop/media/5d/b9/bc/1720121107/121848060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--cfQLrfgv--/webshop/media/70/7c/7c/1720121110/121848060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Schwarz": {
+          "price_chf": 36.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/pmag-40-gen-m3-12184806000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--VUz5Y439--/webshop/media/56/00/62/1720121101/121848060_1.jpg?_a=AAFIKBs",
+          "sku": "12184806000",
+          "mpn": "MAG233-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-ms1": {
+      "title": "Magpul MS1 Sling",
+      "price_chf": 54.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411106000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--L63CU8es--/webshop/media/c9/a7/3f/1702636918/104111060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 168,
+      "dims": "Länge 163 cm x Breite 4.9 cm x Höhe 1.3 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10411106000",
+      "mpn": "MAG513-BLK",
+      "weight_packed_g": 192,
+      "dims_packed": "Länge 28.5 cm x Breite 13.1 cm x Höhe 3.2 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/ms1-sling-104111/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--L63CU8es--/webshop/media/c9/a7/3f/1702636918/104111060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--IgIR3K56--/webshop/media/5d/d3/95/1702636920/104111060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--M1bP_MyU--/webshop/media/a1/20/52/1702636923/104111060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--O9Kx03lJ--/webshop/media/a4/32/df/1702636926/104111060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--JzC0kTy3--/webshop/media/aa/a8/9f/1702636929/104111060_5.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Coyote": {
+          "price_chf": 54.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411130100/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--8s6-gvWM--/webshop/media/02/dc/4e/1702636965/104111301_1.jpg?_a=AAFIKBs",
+          "sku": "10411130100",
+          "mpn": "MAG513-COY"
+        },
+        "Grau": {
+          "price_chf": 49.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411110000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--p0m1FPbd--/webshop/media/10/ca/e1/1702636932/104111100_1.jpg?_a=AAFIKBs",
+          "sku": "10411110000",
+          "mpn": "MAG513-GRY"
+        },
+        "Ranger Green": {
+          "price_chf": 54.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411120200/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--E0dByEo8--/webshop/media/e1/9b/50/1702636952/104111202_1.jpg?_a=AAFIKBs",
+          "sku": "10411120200",
+          "mpn": "MAG513-RGR"
+        },
+        "Schwarz": {
+          "price_chf": 54.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411106000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--L63CU8es--/webshop/media/c9/a7/3f/1702636918/104111060_1.jpg?_a=AAFIKBs",
+          "sku": "10411106000",
+          "mpn": "MAG513-BLK"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-ms4": {
+      "title": "Magpul MS4 Dual QD Gen 2 Sling",
+      "price_chf": 101.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411406000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--PwJYMNjj--/webshop/media/90/ac/e0/1693309252/104114060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 270,
+      "dims": "Länge 8.5 cm x Breite 4 cm x Höhe 0.5 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10411406000",
+      "mpn": "MAG518-BLK",
+      "weight_packed_g": 297,
+      "dims_packed": "Länge 28 cm x Breite 13 cm x Höhe 3 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-104114/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--PwJYMNjj--/webshop/media/90/ac/e0/1693309252/104114060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--HQrnadXL--/webshop/media/a6/22/e5/1693309255/104114060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ZegOxuhK--/webshop/media/68/24/a7/1693309257/104114060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--I7IGXM3C--/webshop/media/76/ee/65/1693309260/104114060_4.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--cu1tOMck--/webshop/media/a2/c0/36/1693309263/104114060_5.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--wxvedJeB--/webshop/media/a4/e5/6a/1693309266/104114060_6.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--1MexrL2i--/webshop/media/20/0f/dd/1693309270/104114060_7.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Coyote": {
+          "price_chf": 101.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411430100/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--2Wf7i74p--/webshop/media/5b/64/f3/1693309296/104114301_1.jpg?_a=AAFIKBs",
+          "sku": "10411430100",
+          "mpn": "MAG518-COY"
+        },
+        "Ranger Green": {
+          "price_chf": 101.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411420200/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--2OqNdCzx--/webshop/media/1a/7e/6f/1693309275/104114202_1.jpg?_a=AAFIKBs",
+          "sku": "10411420200",
+          "mpn": "MAG518-RGR"
+        },
+        "Schwarz": {
+          "price_chf": 101.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411406000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--PwJYMNjj--/webshop/media/90/ac/e0/1693309252/104114060_1.jpg?_a=AAFIKBs",
+          "sku": "10411406000",
+          "mpn": "MAG518-BLK"
+        }
+      },
+      "note": "a bolt csak a Gen 2 kivitelt árulja",
+      "match": "exact"
+    },
+    "bfg-vickers": {
+      "title": "Blue Force Gear Vickers Combat Application Sling",
+      "price_chf": 84.9,
+      "list_chf": null,
+      "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391506000/",
+      "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--2FDp37eW--/webshop/media/87/0f/f1/1702634614/103915060_1.jpg?_a=AAFIKBs",
+      "in_stock": true,
+      "weight_g": 118,
+      "dims": "Länge 142 cm x Breite 3 cm x Höhe 1 cm",
+      "color": "Schwarz",
+      "stock_text": "Lagernd, versandbereit nach Schweiz / Fürstentum Lichtenstein in ca. einer Woche",
+      "sku": "10391506000",
+      "mpn": "VCAS-125-OA-BK",
+      "weight_packed_g": 128,
+      "dims_packed": "Länge 51 cm x Breite 11 cm x Höhe 3.3 cm",
+      "product_url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-103915/",
+      "images": [
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--2FDp37eW--/webshop/media/87/0f/f1/1702634614/103915060_1.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--7Z_OnzPX--/webshop/media/1d/1d/26/1702634616/103915060_2.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--OeuBoOeK--/webshop/media/55/66/8d/1702634619/103915060_3.jpg?_a=AAFIKBs",
+        "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--SDBSls1Z--/webshop/media/fa/b4/5d/1702634622/103915060_4.jpg?_a=AAFIKBs"
+      ],
+      "colors_prices": {
+        "Coyote": {
+          "price_chf": 84.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391530100/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--ruYupd7o--/webshop/media/4b/5e/f6/1702634636/103915301_1.jpg?_a=AAFIKBs",
+          "sku": "10391530100",
+          "mpn": "VCAS-125-OA-CB"
+        },
+        "Multicam": {
+          "price_chf": 84.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391575100/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--vEA-6CW7--/webshop/media/72/fb/d4/1702634648/103915751_1.jpg?_a=AAFIKBs",
+          "sku": "10391575100",
+          "mpn": "VCAS-125-OA-MC"
+        },
+        "OD": {
+          "price_chf": 77.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391522000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--xxZNPdie--/webshop/media/67/c3/73/1702634625/103915220_1.jpg?_a=AAFIKBs",
+          "sku": "10391522000",
+          "mpn": "VCAS-125-OA-OD"
+        },
+        "Schwarz": {
+          "price_chf": 84.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391506000/",
+          "image": "https://res.cloudinary.com/tmh-trading-gmbh/image/private/s--2FDp37eW--/webshop/media/87/0f/f1/1702634614/103915060_1.jpg?_a=AAFIKBs",
+          "sku": "10391506000",
+          "mpn": "VCAS-125-OA-BK"
+        }
+      },
+      "match": "exact"
+    }
+  },
+  "unmatched": {
+    "schm-s4f": "ok: alapfegyver (lőfegyver): a webshop nem árul fegyvert",
+    "schm-m4fl": "ok: alapfegyver (lőfegyver): a webshop nem árul fegyvert",
+    "schm-m5fl": "ok: alapfegyver (lőfegyver): a webshop nem árul fegyvert",
+    "schm-dyn": "ok: alapfegyver (lőfegyver): a webshop nem árul fegyvert",
+    "dd-v7": "ok: alapfegyver (lőfegyver): a webshop nem árul fegyvert",
+    "bcm-recce16": "ok: alapfegyver (lőfegyver): a webshop nem árul fegyvert",
+    "bcm-g0": "ok: a Mod 0 markolat nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: BCM Grip Mod 1 (51.90 CHF, https://www.armamat.ch/de-ch/p/grip-mod-1-120315/) | BCM Grip Mod 3 (32.90 CHF, https://www.armamat.ch/de-ch/p/grip-mod-3-120317/)",
+    "b5-t22": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-t23": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-s0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-s1": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-bravo": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-esop": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-prec": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "ap-t2": "ok: csomag (T-2 + LRP szerelék): a bolt a T-2-t külön és két különböző (30/39 mm távtartós) LRP-csomagban árulja, a konkrét kombináció nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Aimpoint Micro T-2 2 MOA (1281.90 CHF, https://www.armamat.ch/de-ch/p/micro-t-2-2-moa-105499/) | Aimpoint Micro T-2 2 MOA with 39mm Spacer and LRP (1394.90 CHF, https://www.armamat.ch/de-ch/p/micro-t-2-2-moa-with-39mm-spacer-and-lrp-108095/) | Aimpoint Micro T-2 2 MOA with 30mm Spacer and LRP (1214.90 CHF, https://www.armamat.ch/de-ch/p/micro-t-2-2-moa-with-30mm-spacer-and-lrp-108094/)",
+    "ap-m5": "ok: csomag (CompM5 + LRP szerelék): a bolt 'with Mount' (gyári szerelék) és 'without Mount' változatot árul, az LRP külön termék; legközelebbi bolti termék(ek), NEM azonos: Aimpoint Comp M5 2 MOA with Mount (994.90 CHF, https://www.armamat.ch/de-ch/p/comp-m5-2-moa-with-mount-108090/) | Aimpoint Comp M5 2 MOA without Mount (1349.90 CHF, https://www.armamat.ch/de-ch/p/comp-m5-2-moa-without-mount-108091/) | Aimpoint LRP Mount M5 / Micro (198.90 CHF, https://www.armamat.ch/de-ch/p/lrp-mount-m5-micro-108112/)",
+    "ap-pro": "ok: az Aimpoint PRO nincs a boltban",
+    "ap-acro": "ok: csomag (ACRO P-2 + Picatinny talp): a bolt az ACRO P-2-t talp nélkül árulja; legközelebbi bolti termék(ek), NEM azonos: Aimpoint ACRO P-2 - 3.5 MOA (758.90 CHF, https://www.armamat.ch/de-ch/p/acro-p-2-3.5-moa-112630/)",
+    "hs-aems": "ok: az eredeti 'AEMS' nincs a boltban, csak AEMS Core/Macro/Micro/EVO modellek (más termékek); legközelebbi bolti termék(ek), NEM azonos: Holosun AEMS Core X2 Gold Dot Sight (377.90 CHF, https://www.armamat.ch/de-ch/p/aems-core-x2-gold-dot-sight-126886/) | Holosun AEMS Macro Red Circle Dot Sight (499.90 CHF, https://www.armamat.ch/de-ch/p/aems-macro-red-circle-dot-sight-129394/) | Holosun AEMS Low Mount (43.90 CHF, https://www.armamat.ch/de-ch/p/aems-low-mount-119978/) | Holosun AEMS EVO Red Circle Dot Sight (571.90 CHF, https://www.armamat.ch/de-ch/p/aems-evo-red-circle-dot-sight-129398/)",
+    "hs-403b": "ok: a HS403B + magasító csomag nincs a boltban",
+    "tj-mro": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "vx-sparc": "ok: 'SPARC AR + magasító' csomag nincs a boltban, csak a 'SPARC Solar' (más modell); legközelebbi bolti termék(ek), NEM azonos: Vortex Optics SPARC Solar Red Dot 2 MOA (337.90 CHF, https://www.armamat.ch/de-ch/p/sparc-solar-red-dot-2-moa-111451/)",
+    "vx-crossfire": "ok: 'Crossfire Red Dot + magasító' csomag: a bolt a vörös pontot magasító nélkül árulja, a csomag összetétele nem azonos; legközelebbi bolti termék(ek), NEM azonos: Vortex Optics Crossfire II 2 MOA Solar Red Dot Sight (ab 169.90 CHF, https://www.armamat.ch/de-ch/p/crossfire-ii-2-moa-solar-red-dot-sight-129941/) | Vortex Optics Crossfire II 2 MOA Red Dot Sight (177.90 CHF, https://www.armamat.ch/de-ch/p/crossfire-ii-2-moa-red-dot-sight-129939/) | Vortex Optics Crossfire Red Dot Sight 2 MOA (ab 148.90 CHF, https://www.armamat.ch/de-ch/p/crossfire-red-dot-sight-2-moa-109695/)",
+    "tj-acog": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "tj-credo16": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "tj-vcog": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "gs-sp30": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "eo-g43": "ok: G43 + 'Micro' szerelék csomag: a bolt csak a G43.STS (STS szerelékkel) változatot árulja; legközelebbi bolti termék(ek), NEM azonos: EoTech G43.STS Magnifier (ab 792.90 CHF, https://www.armamat.ch/de-ch/p/g43.sts-magnifier-110097/)",
+    "ap-3x": "ok: csomag (3XMag-1 + Flip szerelék): a bolt a nagyítót és a szerelékeket külön árulja; legközelebbi bolti termék(ek), NEM azonos: Aimpoint 3XMag-1 (1292.90 CHF, https://www.armamat.ch/de-ch/p/3xmag-1-108099/) | Aimpoint Flip Mount 30mm (299.90 CHF, https://www.armamat.ch/de-ch/p/flip-mount-30mm-108110/) | Aimpoint 3x Magnifier Twist Mount (286.90 CHF, https://www.armamat.ch/de-ch/p/3x-magnifier-twist-mount-103841/)",
+    "vx-m3x": "ok: a 'Micro3X + Flip' nincs a boltban; a legközelebbi a V3XM (másik típusjelzés, nem azonosítható biztosan azonosnak); legközelebbi bolti termék(ek), NEM azonos: Vortex Optics V3XM Magnifier with Flip Mount (361.90 CHF, https://www.armamat.ch/de-ch/p/v3xm-magnifier-with-flip-mount-109534/)",
+    "mp-mbus3": "ok: szett (első + hátsó irányzék): a bolt az elsőt és a hátsót külön termékként árulja, szett nincs; legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS 3 Front Back-Up Sight (49.90 CHF, https://www.armamat.ch/de-ch/p/mbus-3-front-back-up-sight-117395/) | Magpul MBUS 3 Rear Back-Up Sight (73.90 CHF, https://www.armamat.ch/de-ch/p/mbus-3-rear-back-up-sight-117396/)",
+    "mp-mbuspro": "ok: szett (első + hátsó irányzék): a bolt az elsőt és a hátsót külön termékként árulja, szett nincs; legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS Pro Sight Front (124.90 CHF, https://www.armamat.ch/de-ch/p/mbus-pro-sight-front-103805/) | Magpul MBUS Pro Sight Rear (149.90 CHF, https://www.armamat.ch/de-ch/p/mbus-pro-sight-rear-103806/)",
+    "mp-mbusoff": "ok: szett (első + hátsó irányzék): a bolt az elsőt és a hátsót külön termékként árulja, szett nincs; legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS Pro Offset Sight Front (112.90 CHF, https://www.armamat.ch/de-ch/p/mbus-pro-offset-sight-front-105019/) | Magpul MBUS Pro Offset Sight Rear (138.90 CHF, https://www.armamat.ch/de-ch/p/mbus-pro-offset-sight-rear-105020/)",
+    "sf-m600": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "sf-m640": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "sf-m300": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "sf-x300": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "sl-hlx": "ok: a bolt csak 'HL X Pro' típusú változatokat listáz, a data.js 'HL-X' típusa nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Streamlight ProTac Rail Mount HL X Pro Lite (159.90 CHF, https://www.armamat.ch/de-ch/p/protac-rail-mount-hl-x-pro-lite-124876/) | Streamlight ProTac Rail Mount HL X Pro Kit (189.90 CHF, https://www.armamat.ch/de-ch/p/protac-rail-mount-hl-x-pro-kit-124874/) | Streamlight ProTac Rail Mount HL X Pro USB Lite (172.90 CHF, https://www.armamat.ch/de-ch/p/protac-rail-mount-hl-x-pro-usb-lite-124877/) | Streamlight ProTac Rail Mount HL X Pro Jack-Cap (41.90 CHF, https://www.armamat.ch/de-ch/p/protac-rail-mount-hl-x-pro-jack-cap-124878/)",
+    "mp-rvg": "ok: az 'M-LOK RVG' függőleges markolat nincs a boltban; a talált 'MOE RVG Grip' / 'RVG M-LOK Adapter Rail' nem azonos; legközelebbi bolti termék(ek), NEM azonos: Magpul MOE RVG Grip (34.90 CHF, https://www.armamat.ch/de-ch/p/moe-rvg-grip-102641/) | Magpul RVG M-LOK Adapter Rail (14.90 CHF, https://www.armamat.ch/de-ch/p/rvg-m-lok-adapter-rail-105051/)",
+    "bcm-vg3": "ok: a Gunfighter Vertical Grip Mod 3 nem azonosítható a bolti 'Vertical Grip - Short' termékkel; legközelebbi bolti termék(ek), NEM azonos: BCM Vertical Grip - Short (63.90 CHF, https://www.armamat.ch/de-ch/p/vertical-grip-short-120327/)",
+    "bcm-kag": "ok: a KAG nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: BCM Vertical Grip - Short (63.90 CHF, https://www.armamat.ch/de-ch/p/vertical-grip-short-120327/)",
+    "mp-cable": "ok: a Magpul M-LOK Cable Management Kit nincs a boltban",
+    "mp-bipod": "ok: több Magpul M-LOK bipod van a boltban (alumínium / MOE QD polimer), a 'Bipod M-LOK' egyértelműen nem azonosítható; legközelebbi bolti termék(ek), NEM azonos: Magpul MOE QD Polymer Bipod for M-LOK (119.90 CHF, https://www.armamat.ch/de-ch/p/moe-qd-polymer-bipod-for-m-lok-128091/) | Magpul Aluminum M-LOK 6.8-10.3 Inch Bipod (166.90 CHF, https://www.armamat.ch/de-ch/p/aluminum-m-lok-6.8-10.3-inch-bipod-108822/)",
+    "hr-sbrm": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "sf-warcomp": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "sf-3p": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-comp0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "sf-rc2": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "gs-ssae": "ok: az SSA-E nincs a boltban",
+    "gs-ssa": "ok: az SSA nincs a boltban",
+    "gs-sde": "ok: az SD-E nincs a boltban (csak SD-C, SD-3G)",
+    "rd-raptorsd": "ok: a Raptor-SD nincs a boltban",
+    "bcm-ch4": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-ch3": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "gs-ach": "ok: az 'Airborne' nincs a boltban; az 'AR15 Super Charging Handle' másik termék; legközelebbi bolti termék(ek), NEM azonos: Geissele Automatics AR15 Super Charging Handle (169.90 CHF, https://www.armamat.ch/de-ch/p/ar15-super-charging-handle-113733/)",
+    "mp-trigguard": "ok: a 'MOE Enhanced Trigger Guard' nem szerepel a boltban; a 'Polymer Enhanced Trigger Guard' (MAG1186) más cikkszám/név, nem azonosítható biztosan azonosnak; legközelebbi bolti termék(ek), NEM azonos: Magpul Polymer Enhanced Trigger Guard (ab 14.90 CHF, https://www.armamat.ch/de-ch/p/polymer-enhanced-trigger-guard-125351/) | Magpul Aluminium Enhanced Trigger Guard (31.90 CHF, https://www.armamat.ch/de-ch/p/aluminium-enhanced-trigger-guard-103824/)",
+    "mp-d60": "ok: a D-60 dobtár nincs a boltban (csak D-50 típusok, más lőszerhez)"
+  }
+}

@@ -38,7 +38,10 @@ def main():
             offers.setdefault(iid, []).append(dict(
                 shop=shop, chf=float(it['price_chf']), list_chf=it.get('list_chf'), url=it.get('url'),
                 image=it.get('image'), in_stock=it.get('in_stock'), title=it.get('title'),
-                weight_g=it.get('weight_g'), dims=it.get('dims')))
+                weight_g=it.get('weight_g'), dims=it.get('dims'),
+                colors={k: dict(chf=v['price_chf'], url=v.get('url'), in_stock=v.get('in_stock'))
+                        for k, v in (it.get('colors_prices') or {}).items()
+                        if isinstance(v, dict) and v.get('price_chf') is not None and k != 'default'}))
 
     items = {}
     for iid, offs in offers.items():
@@ -49,7 +52,7 @@ def main():
             chf=best['chf'], shop=best['shop'], url=best['url'], in_stock=best['in_stock'], title=best['title'],
             weight_g=round(sum(weights) / len(weights)) if weights else None,
             dims=next((o['dims'] for o in offs if o.get('dims')), None),
-            offers=sorted(({k: o[k] for k in ('shop', 'chf', 'url', 'in_stock')} for o in offs), key=lambda x: x['chf']))
+            offers=sorted(({k: o[k] for k in ('shop', 'chf', 'url', 'in_stock', 'colors')} for o in offs), key=lambda x: x['chf']))
 
     out = dict(currency='CHF', shops=shops, built=datetime.date.today().isoformat(), items=items)
     json.dump(out, open(os.path.join(PR, 'merged.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

@@ -1,0 +1,69 @@
+{
+ "reference": {
+  "place": "Richterswil",
+  "plz": "8805",
+  "radius_km": 30,
+  "note": "A bolt akkor jöhet szóba, ha szállít, VAGY legfeljebb radius_km távolságra van a 8805 Richterswiltől. A km érték légvonalbeli becslés (kerekítve), nem útvonaltávolság."
+ },
+ "shops": {
+  "thoron.ch": {
+   "name": "THORON AG",
+   "city": "Steinen SZ",
+   "addr": "Bahnhofstrasse 25a, 6422 Steinen",
+   "km": 15,
+   "ships": true,
+   "shipNote": "Van „Zahlung & Versand” oldaluk; a szállítási díjat a pénztárnál mutatja. Saját üzlet nyitvatartással (szerda zárva).",
+   "tel": "+41 41 508 26 25",
+   "url": "https://www.thoron.ch",
+   "sources": [
+    "https://www.thoron.ch/de/informationen/impressum",
+    "https://www.thoron.ch/de/service/zahlung-versand"
+   ]
+  },
+  "schiessstand.ch": {
+   "name": "Schiessstand.ch GmbH",
+   "city": "Glarus",
+   "addr": "Buchholzstrasse 32, 8750 Glarus",
+   "km": null,
+   "ships": true,
+   "shipNote": "Szállít is: a rendeléseket általában 3 munkanapon belül adják postára vagy futárnak. Üzlet és műhely is van (Unser Laden).",
+   "tel": "",
+   "url": "https://shop.schiessstand.ch",
+   "sources": [
+    "https://schiessstand.ch/impressum/",
+    "https://schiessstand.ch/allgemeine-geschaeftsbedingungen/",
+    "https://schiessstand.ch/unser-laden/"
+   ],
+   "walk": true,
+   "visit": "Helyben: gyalog is elérhető, általában autóval jársz oda"
+  },
+  "shooting-store.ch": {
+   "name": "Shooting-Inn AG",
+   "city": "Oberentfelden AG",
+   "addr": "Köllikerstrasse 32, 5036 Oberentfelden",
+   "km": 50,
+   "ships": true,
+   "shipNote": "Szállít: a szállítási díj a csomag súlya szerint számolódik; előre fizetés (Vorauskasse).",
+   "tel": "+41 62 521 32 00",
+   "url": "https://www.shooting-store.ch",
+   "sources": [
+    "https://www.shooting-store.ch/de/impressum",
+    "https://www.shooting-store.ch/bc/agb.html"
+   ]
+  },
+  "armamat.ch": {
+   "name": "TM Trading GmbH",
+   "city": "Cham ZG",
+   "addr": "Gewerbestrasse 6, 6330 Cham",
+   "km": 18,
+   "ships": true,
+   "shipNote": "Szállít: PostPac Economy 9 CHF (terjedelmes áru 28 CHF), 299 CHF fölött a postaköltség benne van az árban; 1–2 nap Svájcon belül.",
+   "tel": "+41 44 862 48 17",
+   "url": "https://www.armamat.ch",
+   "sources": [
+    "https://www.armamat.ch/de-ch/i/impressum/",
+    "https://www.armamat.ch/de-ch/i/versand-zahlungsmoeglichkeiten/"
+   ]
+  }
+ }
+}

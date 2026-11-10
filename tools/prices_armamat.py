@@ -321,8 +321,8 @@ RULES = {
     "rd-talon": R("Radian Talon", RD, r"Talon Ambidextrous 45/90 Safety Selector",
                   near=r"Talon .*", note="a bolt külön 'Kit' változatot is árul (az nem ez)"),
     "mp-bad": R("Magpul B.A.D. Lever", MP, r"B\.A\.D\. Lever"),
-    "mp-trigguard": R("Magpul Enhanced Trigger Guard", MP, r"Polymer Enhanced Trigger Guard",
-                      near=r".*Trigger Guard", note="polimer (MOE) kivitel; az alumínium külön termék"),
+    "mp-trigguard": R("Magpul Enhanced Trigger Guard", MP, None, near=r".*Enhanced Trigger Guard",
+                      why="a 'MOE Enhanced Trigger Guard' nem szerepel a boltban; a 'Polymer Enhanced Trigger Guard' (MAG1186) más cikkszám/név, nem azonosítható biztosan azonosnak"),
     # ---- tárak
     "mp-pm10": R("Magpul PMAG 10 Gen M3", MP, r"PMAG 10 Gen M3"),
     "mp-pm20": R("Magpul PMAG 20 Gen M3", MP, r"PMAG 20 Gen M3"),
@@ -523,7 +523,7 @@ def build_item(card, ld, base, variants, note=None):
         title=norm("%s %s" % (card["brand"], card["name"])),
         price_chf=prim["price_chf"],
         list_chf=prim["list_chf"],
-        url=card["url"],
+        url=prim["url"] or card["url"],  # az elsődleges (fekete / első) változat oldala
         image=prim["image"] or base["image"] or ld_img,
         in_stock=prim["in_stock"],
         weight_g=prim["weight_g"] if prim["weight_g"] is not None else base["weight_g"],
@@ -537,8 +537,8 @@ def build_item(card, ld, base, variants, note=None):
     item["weight_packed_g"] = (prim["weight_packed_g"] if prim["weight_packed_g"] is not None
                                else base["weight_packed_g"])
     item["dims_packed"] = prim["dims_packed"] or base["dims_packed"]
-    item["variant_url"] = prim["url"]
-    item["images"] = prim["images"] or base["images"]
+    item["product_url"] = card["url"]  # a termék általános (szülő) oldala
+    item["images"] = prim["images"] or base["images"] or ([ld_img] if ld_img else [])
     if len(variants) > 1 or prim["color"] or prim["other_options"]:
         cp = {}
         for v in variants:

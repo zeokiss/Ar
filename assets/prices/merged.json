@@ -1,0 +1,3351 @@
+{
+ "currency": "CHF",
+ "shops": [
+  "armamat.ch",
+  "schiessstand.ch",
+  "shooting-store.ch"
+ ],
+ "built": "2026-11-10",
+ "items": {
+  "mp-moe": {
+   "chf": 23.0,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+   "in_stock": true,
+   "title": "Magpul MOE Grip",
+   "weight_g": 81,
+   "dims": "Länge 10.6 cm x Breite 7.2 cm x Höhe 2.7 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 23.0,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 23.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+       "in_stock": true
+      },
+      "coyote": {
+       "chf": 23.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 23.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 23.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 28.9,
+     "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293206000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 28.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293230900/",
+       "in_stock": true
+      },
+      "OD": {
+       "chf": 28.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293222000/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 28.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293206000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-moek2": {
+   "chf": 23.0,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+   "in_stock": true,
+   "title": "Magpul MOE K2 Grip",
+   "weight_g": 81,
+   "dims": "Länge 11 cm x Breite 7 cm x Höhe 3.5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 23.0,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 23.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+       "in_stock": true
+      },
+      "coyote": {
+       "chf": 23.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+       "in_stock": true
+      },
+      "gray": {
+       "chf": 23.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 23.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 23.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 24.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde-3/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 24.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde-3/",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 24.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde-2/",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 24.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-od-green/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 28.9,
+     "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381206000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 28.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381230900/",
+       "in_stock": true
+      },
+      "OD": {
+       "chf": 28.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381222000/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 28.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381206000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-moek2p": {
+   "chf": 27.3,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+   "in_stock": true,
+   "title": "Magpul MOE K2+ Grip",
+   "weight_g": 89,
+   "dims": "Länge 11.1 cm x Breite 7 cm x Höhe 2.7 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 27.3,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+     "in_stock": true,
+     "colors": {
+      "fde": {
+       "chf": 27.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 27.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+       "in_stock": false
+      },
+      "gray": {
+       "chf": 27.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+       "in_stock": false
+      },
+      "black": {
+       "chf": 27.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 33.9,
+     "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503106000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 33.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503130900/",
+       "in_stock": true
+      },
+      "OD": {
+       "chf": 33.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503122000/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 33.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503106000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 34.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-schwarz/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 34.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-schwarz/",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 34.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde/",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 34.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-schwarz-2/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-miad": {
+   "chf": 49.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381306000/",
+   "in_stock": true,
+   "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1",
+   "weight_g": 159,
+   "dims": "Länge 10.9 cm x Breite 3 cm x Höhe 7.1 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 43.8,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
+     "in_stock": false,
+     "colors": {
+      "gray": {
+       "chf": 26.9,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
+       "in_stock": true
+      },
+      "black": {
+       "chf": 43.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
+       "in_stock": false
+      },
+      "fde": {
+       "chf": 43.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
+       "in_stock": false
+      },
+      "odg": {
+       "chf": 43.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 49.9,
+     "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381306000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 49.9,
+       "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381330900/",
+       "in_stock": true
+      },
+      "OD": {
+       "chf": 49.9,
+       "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381322000/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 49.9,
+       "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381306000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "bcm-g3": {
+   "chf": 24.9,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-3-black",
+   "in_stock": false,
+   "title": "BCM® Grip Mod 3 - Black",
+   "weight_g": 102,
+   "dims": "Länge 11.5 cm x Breite 7.5 cm x Höhe 3 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 24.9,
+     "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-3-black",
+     "in_stock": false,
+     "colors": {
+      "fde": {
+       "chf": 24.9,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-3-flat-dark-earth",
+       "in_stock": false
+      },
+      "black": {
+       "chf": 24.9,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-3-black",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 32.9,
+     "url": "https://www.armamat.ch/de-ch/p/grip-mod-3-12031706000/",
+     "in_stock": false,
+     "colors": {
+      "Schwarz": {
+       "chf": 32.9,
+       "url": "https://www.armamat.ch/de-ch/p/grip-mod-3-12031706000/",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "mp-ctr": {
+   "chf": 81.2,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+   "in_stock": true,
+   "title": "Magpul CTR Carbine Stock Mil Spec",
+   "weight_g": 250,
+   "dims": "Länge 17.6 cm x Breite 13.5 cm x Höhe 4.4 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 81.2,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 81.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+       "in_stock": true
+      },
+      "coyote": {
+       "chf": 81.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 81.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+       "in_stock": true
+      },
+      "gray": {
+       "chf": 49.94,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 81.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 89.9,
+     "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295906000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 89.9,
+       "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295930900/",
+       "in_stock": false
+      },
+      "OD": {
+       "chf": 89.9,
+       "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295922000/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 89.9,
+       "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295906000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-moesl": {
+   "chf": 81.2,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
+   "in_stock": true,
+   "title": "Magpul MOE SL Carbine Stock Mil Spec",
+   "weight_g": 271,
+   "dims": "Länge 18.5 cm x Breite 13.7 cm x Höhe 5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 81.2,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 81.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 81.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 81.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 89.9,
+     "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485006000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 89.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485030900/",
+       "in_stock": true
+      },
+      "OD": {
+       "chf": 87.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485022000/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 89.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485006000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-moeslk": {
+   "chf": 56.2,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
+   "in_stock": true,
+   "title": "Magpul MOE SL-K Carbine Stock Mil Spec",
+   "weight_g": 222,
+   "dims": "Länge 17 cm x Breite 11 cm x Höhe 2.8 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 56.2,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 56.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 56.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
+       "in_stock": false
+      },
+      "odg": {
+       "chf": 56.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 64.9,
+     "url": "https://www.armamat.ch/de-ch/p/moe-sl-k-carbine-stock-mil-spec-10618906000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 64.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-sl-k-carbine-stock-mil-spec-10618930900/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 64.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-sl-k-carbine-stock-mil-spec-10618906000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-ubr2": {
+   "chf": 293.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619006000/",
+   "in_stock": true,
+   "title": "Magpul UBR Gen 2.0 Collapsible Stock",
+   "weight_g": 603,
+   "dims": "Länge 23 cm x Breite 13.5 cm x Höhe 4.5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 219.8,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 219.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
+       "in_stock": false
+      },
+      "fde": {
+       "chf": 219.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
+       "in_stock": false
+      },
+      "odg": {
+       "chf": 219.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
+       "in_stock": false
+      },
+      "gray": {
+       "chf": 193.34,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 293.9,
+     "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619006000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 276.9,
+       "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619030900/",
+       "in_stock": true
+      },
+      "OD": {
+       "chf": 279.9,
+       "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619022000/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 293.9,
+       "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619006000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-prs3": {
+   "chf": 338.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619106000/",
+   "in_stock": true,
+   "title": "Magpul PRS Gen 3 Rifle Stock Mil Spec",
+   "weight_g": 820,
+   "dims": "Länge 28.5 cm x Breite 13 cm x Höhe 3 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 256.6,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
+     "in_stock": false,
+     "colors": {
+      "fde": {
+       "chf": 257.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
+       "in_stock": false
+      },
+      "black": {
+       "chf": 256.6,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
+       "in_stock": false
+      },
+      "gray": {
+       "chf": 256.6,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
+       "in_stock": false
+      },
+      "odg": {
+       "chf": 257.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 338.9,
+     "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619106000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 338.9,
+       "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619130900/",
+       "in_stock": true
+      },
+      "OD": {
+       "chf": 331.9,
+       "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619122000/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 338.9,
+       "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619106000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 344.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-moe-carbine-stock-mil-spec-black-2/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 344.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-moe-carbine-stock-mil-spec-black-2/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-prslite": {
+   "chf": 163.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/prs-lite-11739906000/",
+   "in_stock": true,
+   "title": "Magpul PRS Lite",
+   "weight_g": 540,
+   "dims": "Länge 26.6 cm x Breite 13 cm x Höhe 5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 150.0,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 150.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
+       "in_stock": false
+      },
+      "fde": {
+       "chf": 150.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 150.0,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 163.9,
+     "url": "https://www.armamat.ch/de-ch/p/prs-lite-11739906000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 163.9,
+       "url": "https://www.armamat.ch/de-ch/p/prs-lite-11739906000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-pad030": {
+   "chf": 26.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/rubber-butt-pad-10381706000/",
+   "in_stock": true,
+   "title": "Magpul Rubber Butt-Pad",
+   "weight_g": 37,
+   "dims": "Länge 13 cm x Breite 3.7 cm x Höhe 2.3 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 21.4,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-rubber-buttpad-black",
+     "in_stock": false,
+     "colors": {}
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 26.9,
+     "url": "https://www.armamat.ch/de-ch/p/rubber-butt-pad-10381706000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 26.9,
+       "url": "https://www.armamat.ch/de-ch/p/rubber-butt-pad-10381706000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-pad055": {
+   "chf": 26.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/extended-rubber-buttpad-10502506000/",
+   "in_stock": true,
+   "title": "Magpul Extended Rubber Buttpad",
+   "weight_g": 50,
+   "dims": "Länge 13.3 cm x Breite 4 cm x Höhe 2.9 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 21.4,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-extended-rubber-buttpad-black",
+     "in_stock": false,
+     "colors": {}
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 26.9,
+     "url": "https://www.armamat.ch/de-ch/p/extended-rubber-buttpad-10502506000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 26.9,
+       "url": "https://www.armamat.ch/de-ch/p/extended-rubber-buttpad-10502506000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-pad070": {
+   "chf": 26.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/enhanced-rubber-butt-pad-10381806000/",
+   "in_stock": true,
+   "title": "Magpul Enhanced Rubber Butt-Pad",
+   "weight_g": 58,
+   "dims": "Länge 13.4 cm x Breite 4 cm x Höhe 3.3 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 21.4,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-enhanced-rubber-buttpad-black",
+     "in_stock": false,
+     "colors": {}
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 26.9,
+     "url": "https://www.armamat.ch/de-ch/p/enhanced-rubber-butt-pad-10381806000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 26.9,
+       "url": "https://www.armamat.ch/de-ch/p/enhanced-rubber-butt-pad-10381806000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-padsl": {
+   "chf": 21.4,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-enhanced-rubber-buttpad-070-inches-black",
+   "in_stock": true,
+   "title": "Magpul MOE SL Enhanced Rubber Buttpad 0.70 Inches Black",
+   "weight_g": 63,
+   "dims": "Länge 13 cm x Breite 2.5 cm x Höhe 2 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 21.4,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-enhanced-rubber-buttpad-070-inches-black",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 26.9,
+     "url": "https://www.armamat.ch/de-ch/p/moe-sl-enhanced-rubber-butt-pad-0.70-inches-10619406000/",
+     "in_stock": false,
+     "colors": {
+      "Schwarz": {
+       "chf": 26.9,
+       "url": "https://www.armamat.ch/de-ch/p/moe-sl-enhanced-rubber-butt-pad-0.70-inches-10619406000/",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "eo-exps3": {
+   "chf": 973.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/exps3-0-10183106000/",
+   "in_stock": true,
+   "title": "EoTech EXPS3-0",
+   "weight_g": 314,
+   "dims": "Länge 9.1 cm x Breite 7 cm x Höhe 5.5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 949.9,
+     "url": "https://www.shooting-store.ch/de/produkt/eotech-exps3-0-black",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 949.9,
+       "url": "https://www.shooting-store.ch/de/produkt/eotech-exps3-0-black",
+       "in_stock": false
+      },
+      "tan": {
+       "chf": 979.6,
+       "url": "https://www.shooting-store.ch/de/produkt/eotech-exps3-0-tan",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 973.9,
+     "url": "https://www.armamat.ch/de-ch/p/exps3-0-10183106000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 973.9,
+       "url": "https://www.armamat.ch/de-ch/p/exps3-0-10183106000/",
+       "in_stock": true
+      },
+      "Tan": {
+       "chf": 973.9,
+       "url": "https://www.armamat.ch/de-ch/p/exps3-0-10183132800/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 979.9,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-exps3-0/",
+     "in_stock": false,
+     "colors": {
+      "fde": {
+       "chf": 999.0,
+       "url": "https://shop.schiessstand.ch/produkt/eotech-hws-exps3-dcr-2/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "eo-exps2": {
+   "chf": 813.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/exps2-0-10232906000/",
+   "in_stock": true,
+   "title": "EoTech EXPS2-0",
+   "weight_g": 313,
+   "dims": "Länge 9.1 cm x Breite 5.4 cm x Höhe 7.1 cm",
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 793.9,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-exps2-0/",
+     "in_stock": false,
+     "colors": {}
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 813.9,
+     "url": "https://www.armamat.ch/de-ch/p/exps2-0-10232906000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 813.9,
+       "url": "https://www.armamat.ch/de-ch/p/exps2-0-10232906000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 951.9,
+     "url": "https://www.shooting-store.ch/de/produkt/eotech-zielgeraet-modell-exps2-0-montage-picatinny-mil-std-1913",
+     "in_stock": true,
+     "colors": {}
+    }
+   ]
+  },
+  "eo-xps2": {
+   "chf": 749.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/xps2-0-10151506000/",
+   "in_stock": true,
+   "title": "EoTech XPS2-0",
+   "weight_g": 250,
+   "dims": "Länge 9.2 cm x Breite 6.1 cm x Höhe 5.1 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 749.9,
+     "url": "https://www.armamat.ch/de-ch/p/xps2-0-10151506000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 749.9,
+       "url": "https://www.armamat.ch/de-ch/p/xps2-0-10151506000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 756.5,
+     "url": "https://www.shooting-store.ch/de/produkt/eotech-xps2-0-black",
+     "in_stock": false,
+     "colors": {}
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 814.9,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-xps2-0/",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "hs-510c": {
+   "chf": 361.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/hs510c-solar-red-circle-dot-sight-10678406000/",
+   "in_stock": true,
+   "title": "Holosun HS510C Solar Red Circle Dot Sight",
+   "weight_g": 210,
+   "dims": "Länge 8.3 cm x Breite 5.6 cm x Höhe 4.3 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 361.9,
+     "url": "https://www.armamat.ch/de-ch/p/hs510c-solar-red-circle-dot-sight-10678406000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 361.9,
+       "url": "https://www.armamat.ch/de-ch/p/hs510c-solar-red-circle-dot-sight-10678430900/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 361.9,
+       "url": "https://www.armamat.ch/de-ch/p/hs510c-solar-red-circle-dot-sight-10678406000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 425.2,
+     "url": "https://www.shooting-store.ch/de/produkt/holosun-hs510c-solar-red-circle-dot-sight-black",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 425.2,
+       "url": "https://www.shooting-store.ch/de/produkt/holosun-hs510c-solar-red-circle-dot-sight-black",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 425.2,
+       "url": "https://www.shooting-store.ch/de/produkt/holosun-hs510c-fde-kreispunktvisier-open-reflex-visier-solar-2-moa-punkt-65-moa-ring",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 458.0,
+     "url": "https://shop.schiessstand.ch/produkt/holosun-hs510c-offenes-reflex-rotpunktvisier-wechselbares-2moa-punkt-65moa-kreis-absehen/",
+     "in_stock": true,
+     "colors": {
+      "fde": {
+       "chf": 421.9,
+       "url": "https://shop.schiessstand.ch/produkt/holosun-hs510c-solar-red-circle-dot-sigh-2moa-punkt-65moa-kreis-absehen-fde/",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "vx-uh1": {
+   "chf": 949.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/amg-uh-1-gen-ii-holographic-sight-11027306000/",
+   "in_stock": true,
+   "title": "Vortex Optics AMG UH-1 Gen II Holographic Sight",
+   "weight_g": 313,
+   "dims": "Länge 9 cm x Breite 5.8 cm x Höhe 7 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 924.0,
+     "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-amg-uh-1-gen-ii-holographic-sight",
+     "in_stock": false,
+     "colors": {}
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 949.9,
+     "url": "https://www.armamat.ch/de-ch/p/amg-uh-1-gen-ii-holographic-sight-11027306000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 949.9,
+       "url": "https://www.armamat.ch/de-ch/p/amg-uh-1-gen-ii-holographic-sight-11027306000/",
+       "in_stock": true
+      },
+      "Tan": {
+       "chf": 822.9,
+       "url": "https://www.armamat.ch/de-ch/p/amg-uh-1-gen-ii-holographic-sight-11027332800/",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "vx-se16": {
+   "chf": 446.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-6x24-ar-bdc3-11010106000/",
+   "in_stock": true,
+   "title": "Vortex Optics Strike Eagle 1-6x24 AR-BDC3",
+   "weight_g": 542,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 446.9,
+     "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-6x24-ar-bdc3-11010106000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 446.9,
+       "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-6x24-ar-bdc3-11010106000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 446.9,
+     "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-strike-eagle-1-6x24-ar-bdc3",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "vx-se18": {
+   "chf": 381.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-8x24-ar-bdc3-11010206000/",
+   "in_stock": true,
+   "title": "Vortex Optics Strike Eagle 1-8x24 AR-BDC3",
+   "weight_g": 506,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 381.9,
+     "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-8x24-ar-bdc3-11010206000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 381.9,
+       "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-8x24-ar-bdc3-11010206000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 559.9,
+     "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-strike-eagle-1-8x24-ar-bdc3",
+     "in_stock": true,
+     "colors": {}
+    }
+   ]
+  },
+  "vx-pst16": {
+   "chf": 666.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa-10664406000/",
+   "in_stock": true,
+   "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP VMR-2 MOA",
+   "weight_g": 660,
+   "dims": "Länge 28.5 cm x Breite 7 cm x Höhe 5 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 666.9,
+     "url": "https://www.armamat.ch/de-ch/p/viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa-10664406000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 666.9,
+       "url": "https://www.armamat.ch/de-ch/p/viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa-10664406000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 666.9,
+     "url": "https://shop.schiessstand.ch/produkt/vortex-optics-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa/",
+     "in_stock": false,
+     "colors": {}
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 799.9,
+     "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "vx-razor110": {
+   "chf": 3359.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/razor-gen-iii-1-10x24-ebr-9-mrad-109797/",
+   "in_stock": true,
+   "title": "Vortex Optics Razor Gen III 1-10x24 EBR-9 MRAD",
+   "weight_g": 646,
+   "dims": "Länge 25.9 cm x Breite 7.8 cm x Höhe 5.9 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 3359.9,
+     "url": "https://www.armamat.ch/de-ch/p/razor-gen-iii-1-10x24-ebr-9-mrad-109797/",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 3359.9,
+     "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-razor-gen-iii-1-10x24-ebr-9-mrad",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "eo-vudu16": {
+   "chf": 1448.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/vudu-1-6x24-ffp-sr1-reticle-mrad-11045606000/",
+   "in_stock": true,
+   "title": "EoTech Vudu 1-6x24 FFP - SR1 Reticle MRAD",
+   "weight_g": 580,
+   "dims": "Länge 27.6 cm x Breite 6.4 cm x Höhe 4.7 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 1448.9,
+     "url": "https://www.armamat.ch/de-ch/p/vudu-1-6x24-ffp-sr1-reticle-mrad-11045606000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 1448.9,
+       "url": "https://www.armamat.ch/de-ch/p/vudu-1-6x24-ffp-sr1-reticle-mrad-11045606000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 1503.4,
+     "url": "https://www.shooting-store.ch/de/produkt/eotech-vudu-1-6x24-ffp-sr1-reticle-mrad-black",
+     "in_stock": false,
+     "colors": {}
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 1639.0,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-vudu-1-6x24-ffp-7-62-sr2-absehen/",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "eo-vudu110": {
+   "chf": 1933.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/vudu-1-10x28-ffp-le5-reticle-mrad-11328806000/",
+   "in_stock": true,
+   "title": "EoTech Vudu 1-10x28 FFP - LE5 Reticle MRAD",
+   "weight_g": 580,
+   "dims": "Länge 26.8 cm x Breite 7.2 cm x Höhe 5.3 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 1933.9,
+     "url": "https://www.armamat.ch/de-ch/p/vudu-1-10x28-ffp-le5-reticle-mrad-11328806000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 1933.9,
+       "url": "https://www.armamat.ch/de-ch/p/vudu-1-10x28-ffp-le5-reticle-mrad-11328806000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 1949.6,
+     "url": "https://www.shooting-store.ch/de/produkt/eotech-vudu-1-10x28-ffp-le5-reticle-mrad-black",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "vx-cant30": {
+   "chf": 106.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/sport-cantilever-mount-30mm-1.5-inch-height-12737906000/",
+   "in_stock": true,
+   "title": "Vortex Optics Sport Cantilever Mount 30mm 1.5 Inch Height",
+   "weight_g": 152,
+   "dims": "Länge 13.7 cm x Breite 4.7 cm x Höhe 6 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 106.9,
+     "url": "https://www.armamat.ch/de-ch/p/sport-cantilever-mount-30mm-1.5-inch-height-12737906000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 106.9,
+       "url": "https://www.armamat.ch/de-ch/p/sport-cantilever-mount-30mm-1.5-inch-height-12737906000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 106.9,
+     "url": "https://shop.schiessstand.ch/produkt/vortex-optics-sport-cantilever-mount-30mm-1-5-inch-height/",
+     "in_stock": true,
+     "colors": {}
+    }
+   ]
+  },
+  "eo-g33": {
+   "chf": 759.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/g33.sts-magnifier-10349306000/",
+   "in_stock": true,
+   "title": "EoTech G33.STS Magnifier",
+   "weight_g": 260,
+   "dims": "Länge 10 cm x Breite 4.5 cm x Höhe 4.5 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 759.9,
+     "url": "https://www.armamat.ch/de-ch/p/g33.sts-magnifier-10349306000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 759.9,
+       "url": "https://www.armamat.ch/de-ch/p/g33.sts-magnifier-10349306000/",
+       "in_stock": true
+      },
+      "Tan": {
+       "chf": 759.9,
+       "url": "https://www.armamat.ch/de-ch/p/g33.sts-magnifier-10349332800/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 784.9,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-magnifier-g33-sts-tan/",
+     "in_stock": false,
+     "colors": {
+      "tan": {
+       "chf": 784.9,
+       "url": "https://shop.schiessstand.ch/produkt/eotech-magnifier-g33-sts-tan/",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 785.6,
+     "url": "https://www.shooting-store.ch/de/produkt/eotech-g33sts-magnifier-black",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 785.6,
+       "url": "https://www.shooting-store.ch/de/produkt/eotech-g33sts-magnifier-black",
+       "in_stock": false
+      },
+      "tan": {
+       "chf": 761.4,
+       "url": "https://www.shooting-store.ch/de/produkt/eotech-g33sts-magnifier-tan",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "hs-hm3x": {
+   "chf": 237.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/hm3x-magnifier-10904806000/",
+   "in_stock": true,
+   "title": "Holosun HM3X Magnifier",
+   "weight_g": 304,
+   "dims": "Länge 10.7 cm x Breite 6.5 cm x Höhe 3.7 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 237.9,
+     "url": "https://www.armamat.ch/de-ch/p/hm3x-magnifier-10904806000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 237.9,
+       "url": "https://www.armamat.ch/de-ch/p/hm3x-magnifier-10904806000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 287.0,
+     "url": "https://www.shooting-store.ch/de/produkt/holosun-hm3x-magnifier-black",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 309.0,
+     "url": "https://shop.schiessstand.ch/produkt/holosun-magnifier-hm3x-3-fach-vergroesserung/",
+     "in_stock": true,
+     "colors": {}
+    }
+   ]
+  },
+  "sl-tlr1": {
+   "chf": 252.9,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/streamlight-tlr-1-hl-black",
+   "in_stock": true,
+   "title": "Streamlight TLR-1 HL Black",
+   "weight_g": 130,
+   "dims": "Länge 8 cm x Breite 3.9 cm x Höhe 2.5 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 252.9,
+     "url": "https://www.armamat.ch/de-ch/p/tlr-1-hl-10994606000/",
+     "in_stock": false,
+     "colors": {
+      "Schwarz": {
+       "chf": 252.9,
+       "url": "https://www.armamat.ch/de-ch/p/tlr-1-hl-10994606000/",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 252.9,
+     "url": "https://www.shooting-store.ch/de/produkt/streamlight-tlr-1-hl-black",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 279.95,
+     "url": "https://shop.schiessstand.ch/produkt/streamlight-tlr-1-hl/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 279.95,
+       "url": "https://shop.schiessstand.ch/produkt/streamlight-tlr-1-hl/",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 289.95,
+       "url": "https://shop.schiessstand.ch/produkt/streamlight-tlr-1-hl-3/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-hstop": {
+   "chf": 31.2,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+   "in_stock": true,
+   "title": "Magpul M-LOK Hand Stop Kit",
+   "weight_g": 48,
+   "dims": "Länge 12 cm x Breite 2.5 cm x Höhe 4 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 31.2,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 31.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 31.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+       "in_stock": true
+      },
+      "gray": {
+       "chf": 31.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+       "in_stock": false
+      },
+      "odg": {
+       "chf": 31.2,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 33.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-schwarz/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 33.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-schwarz/",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 33.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-fde/",
+       "in_stock": true
+      },
+      "gray": {
+       "chf": 33.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-grau/",
+       "in_stock": false
+      },
+      "odg": {
+       "chf": 33.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-od-green/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 36.9,
+     "url": "https://www.armamat.ch/de-ch/p/m-lok-hand-stop-kit-10505506000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 36.9,
+       "url": "https://www.armamat.ch/de-ch/p/m-lok-hand-stop-kit-10505530900/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 36.9,
+       "url": "https://www.armamat.ch/de-ch/p/m-lok-hand-stop-kit-10505506000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-rail5": {
+   "chf": 23.0,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-section-aluminium-5-slots-black",
+   "in_stock": true,
+   "title": "Magpul M-LOK Rail Section Aluminium 5 Slots Black",
+   "weight_g": 23,
+   "dims": "Länge 6 cm x Breite 2 cm x Höhe 1 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 23.0,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-section-aluminium-5-slots-black",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 26.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-aluminum-rail-section-5-slots-58mm/",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 28.9,
+     "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-section-aluminium-5-slots-10464006000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 28.9,
+       "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-section-aluminium-5-slots-10464006000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-qd": {
+   "chf": 24.9,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-qd-sling-mount-black",
+   "in_stock": true,
+   "title": "Magpul M-LOK QD Sling Mount Black",
+   "weight_g": 15,
+   "dims": "Länge 3 cm x Breite 1 cm x Höhe 1 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 24.9,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-qd-sling-mount-black",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 29.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-qd-sling-mount-black/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 29.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-qd-sling-mount-black/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 31.9,
+     "url": "https://www.armamat.ch/de-ch/p/m-lok-qd-sling-mount-10485506000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 31.9,
+       "url": "https://www.armamat.ch/de-ch/p/m-lok-qd-sling-mount-10485506000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-cover": {
+   "chf": 18.3,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+   "in_stock": true,
+   "title": "Magpul M-LOK Rail Cover Type 2",
+   "weight_g": 30,
+   "dims": "Länge 4 cm x Breite 2.6 cm x Höhe 1 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 18.3,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+     "in_stock": true,
+     "colors": {
+      "fde": {
+       "chf": 18.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+       "in_stock": true
+      },
+      "coyote": {
+       "chf": 18.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+       "in_stock": false
+      },
+      "odg": {
+       "chf": 18.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+       "in_stock": true
+      },
+      "black": {
+       "chf": 18.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 22.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-black/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 22.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-black/",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 22.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-fde/",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 22.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-odg/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 23.9,
+     "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504606000/",
+     "in_stock": true,
+     "colors": {
+      "Dark Earth": {
+       "chf": 23.9,
+       "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504630900/",
+       "in_stock": true
+      },
+      "OD": {
+       "chf": 23.9,
+       "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504622000/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 23.9,
+       "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504606000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "gs-s3g": {
+   "chf": 414.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/ar15-super-3-gun-s3g-trigger-113721/",
+   "in_stock": true,
+   "title": "Geissele Automatics AR15 Super 3 Gun S3G Trigger",
+   "weight_g": 80,
+   "dims": "Länge 5.1 cm x Breite 5.1 cm x Höhe 2.3 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 295.2,
+     "url": "https://www.shooting-store.ch/de/produkt/geissele-automatics-ar15-super-3-gun-s3g-trigger",
+     "in_stock": false,
+     "colors": {}
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 414.9,
+     "url": "https://www.armamat.ch/de-ch/p/ar15-super-3-gun-s3g-trigger-113721/",
+     "in_stock": true,
+     "colors": {}
+    }
+   ]
+  },
+  "rd-raptor": {
+   "chf": 122.9,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-raptor-ambidextrous-charging-handle-ar15-black",
+   "in_stock": true,
+   "title": "Radian Weapons Raptor Ambidextrous Charging Handle AR15 Black",
+   "weight_g": 40,
+   "dims": "Länge 17.6 cm x Breite 6.5 cm x Höhe 1.5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 122.9,
+     "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-raptor-ambidextrous-charging-handle-ar15-black",
+     "in_stock": true,
+     "colors": {
+      "gray": {
+       "chf": 129.4,
+       "url": "https://www.shooting-store.ch/de/produkt/raptor-charging-handle-ar15-radian-grey",
+       "in_stock": false
+      },
+      "odg": {
+       "chf": 129.4,
+       "url": "https://www.shooting-store.ch/de/produkt/raptor-charging-handle-ar15-radian-od-green",
+       "in_stock": false
+      },
+      "fde": {
+       "chf": 129.4,
+       "url": "https://www.shooting-store.ch/de/produkt/radian-raptor-ambidextrous-charging-handle-ar15-dark-earth",
+       "in_stock": true
+      },
+      "black": {
+       "chf": 122.9,
+       "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-raptor-ambidextrous-charging-handle-ar15-black",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 148.9,
+     "url": "https://www.armamat.ch/de-ch/p/raptor-ambidextrous-charging-handle-ar15-11262806000/",
+     "in_stock": false,
+     "colors": {
+      "Schwarz": {
+       "chf": 148.9,
+       "url": "https://www.armamat.ch/de-ch/p/raptor-ambidextrous-charging-handle-ar15-11262806000/",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 154.9,
+     "url": "https://shop.schiessstand.ch/produkt/radian-weapons-ar-15-raptor-ambidextrous-charging-handle-black/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 154.9,
+       "url": "https://shop.schiessstand.ch/produkt/radian-weapons-ar-15-raptor-ambidextrous-charging-handle-black/",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 154.9,
+       "url": "https://shop.schiessstand.ch/produkt/radian-weapons-ar-15-raptor-ambidextrous-charging-handle-fde/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "rd-raptorlt": {
+   "chf": 93.7,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
+   "in_stock": true,
+   "title": "RAPTOR - LT Charging Handle - AR15",
+   "weight_g": 30,
+   "dims": "Länge 17.6 cm x Breite 6.5 cm x Höhe 1.5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 93.7,
+     "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 93.7,
+       "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
+       "in_stock": true
+      },
+      "gray": {
+       "chf": 99.5,
+       "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
+       "in_stock": false
+      },
+      "fde": {
+       "chf": 99.5,
+       "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 114.9,
+     "url": "https://www.armamat.ch/de-ch/p/raptor-lt-ambidextrous-charging-handle-for-ar15-11262706000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 114.9,
+       "url": "https://www.armamat.ch/de-ch/p/raptor-lt-ambidextrous-charging-handle-for-ar15-11262706000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "rd-talon": {
+   "chf": 75.6,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-talon-ambidextrous-45-90-safety-selector-black",
+   "in_stock": true,
+   "title": "Radian Weapons Talon Ambidextrous 45/90 Safety Selector Black",
+   "weight_g": 17,
+   "dims": "Länge 2.3 cm x Breite 1 cm x Höhe 1 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 75.6,
+     "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-talon-ambidextrous-45-90-safety-selector-black",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 88.9,
+     "url": "https://www.armamat.ch/de-ch/p/talon-ambidextrous-45-90-safety-selector-11262606000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 88.9,
+       "url": "https://www.armamat.ch/de-ch/p/talon-ambidextrous-45-90-safety-selector-11262606000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-bad": {
+   "chf": 41.2,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-bad-lever-black",
+   "in_stock": true,
+   "title": "Magpul B.A.D. Lever Black",
+   "weight_g": 10,
+   "dims": "Länge 6 cm x Breite 2 cm x Höhe 3.5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 41.2,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-bad-lever-black",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 48.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-b-a-d-lever-battery-assist-device-ar15-m4-schwarz/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 48.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-b-a-d-lever-battery-assist-device-ar15-m4-schwarz/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 49.9,
+     "url": "https://www.armamat.ch/de-ch/p/b.a.d.-lever-10298606000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 49.9,
+       "url": "https://www.armamat.ch/de-ch/p/b.a.d.-lever-10298606000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-pm10": {
+   "chf": 20.3,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-10-gen-m3-black",
+   "in_stock": true,
+   "title": "Magpul PMAG 10 Gen M3 Black",
+   "weight_g": 92,
+   "dims": "Länge 10.4 cm x Breite 7.3 cm x Höhe 2.5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 20.3,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-10-gen-m3-black",
+     "in_stock": true,
+     "colors": {
+      "odg": {
+       "chf": 20.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-10-gen-m3-odg",
+       "in_stock": true
+      },
+      "black": {
+       "chf": 20.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-10-gen-m3-black",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 24.9,
+     "url": "https://www.armamat.ch/de-ch/p/pmag-10-gen-m3-10410706000/",
+     "in_stock": false,
+     "colors": {
+      "Schwarz": {
+       "chf": 24.9,
+       "url": "https://www.armamat.ch/de-ch/p/pmag-10-gen-m3-10410706000/",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 24.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-10-ar-m4-gen-m3/",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "mp-pm20": {
+   "chf": 20.3,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-20-gen-m3-black",
+   "in_stock": true,
+   "title": "Magpul PMAG 20 Gen M3 Black",
+   "weight_g": 127,
+   "dims": "Länge 14.5 cm x Breite 7 cm x Höhe 2.5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 20.3,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-20-gen-m3-black",
+     "in_stock": true,
+     "colors": {
+      "odg": {
+       "chf": 20.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-20-gen-m3-odg",
+       "in_stock": true
+      },
+      "black": {
+       "chf": 20.3,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-20-gen-m3-black",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 24.9,
+     "url": "https://www.armamat.ch/de-ch/p/pmag-20-gen-m3-10410606000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 24.9,
+       "url": "https://www.armamat.ch/de-ch/p/pmag-20-gen-m3-10410606000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 24.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-20-ar-m4-gen-m3-223rem/",
+     "in_stock": true,
+     "colors": {}
+    }
+   ]
+  },
+  "mp-pm30": {
+   "chf": 19.4,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
+   "in_stock": true,
+   "title": "Magpul PMAG 30 Gen M3",
+   "weight_g": 156,
+   "dims": "Länge 19.5 cm x Breite 7 cm x Höhe 3 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 19.4,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 19.4,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
+       "in_stock": true
+      },
+      "coyote": {
+       "chf": 19.4,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 19.4,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 24.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-30-gen-m3-black/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 24.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-30-gen-m3-black/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 26.9,
+     "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-10294406000/",
+     "in_stock": true,
+     "colors": {
+      "Coyote": {
+       "chf": 26.9,
+       "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-10294430100/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 26.9,
+       "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-10294406000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-pm30w": {
+   "chf": 29.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-10294506000/",
+   "in_stock": true,
+   "title": "Magpul PMAG 30 Gen M3 Window",
+   "weight_g": 150,
+   "dims": "Länge 19 cm x Breite 7.5 cm x Höhe 2.8 cm",
+   "offers": [
+    {
+     "shop": "armamat.ch",
+     "chf": 29.9,
+     "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-10294506000/",
+     "in_stock": true,
+     "colors": {
+      "Coyote": {
+       "chf": 31.9,
+       "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-10294530100/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 29.9,
+       "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-10294506000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 29.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-ar15-pmag-gen-m3-30schuss/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 29.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-ar15-pmag-gen-m3-30schuss/",
+       "in_stock": true
+      },
+      "coyote": {
+       "chf": 29.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-ar15-pmag-gen-m3-30schuss-coyote/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-pm40": {
+   "chf": 31.1,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-ar-15-40rd-pmag-gen-m3-magazine-223-556",
+   "in_stock": true,
+   "title": "MAGPUL AR-15 40RD PMAG GEN M3 MAGAZINE 223/5.56",
+   "weight_g": 190,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 31.1,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-ar-15-40rd-pmag-gen-m3-magazine-223-556",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 32.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-40-ar-m4-gen-m3/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 32.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-40-ar-m4-gen-m3/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 36.9,
+     "url": "https://www.armamat.ch/de-ch/p/pmag-40-gen-m3-12184806000/",
+     "in_stock": true,
+     "colors": {
+      "Schwarz": {
+       "chf": 36.9,
+       "url": "https://www.armamat.ch/de-ch/p/pmag-40-gen-m3-12184806000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-ms1": {
+   "chf": 54.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411106000/",
+   "in_stock": true,
+   "title": "Magpul MS1 Sling",
+   "weight_g": 168,
+   "dims": "Länge 163 cm x Breite 4.9 cm x Höhe 1.3 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 45.8,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 45.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
+       "in_stock": false
+      },
+      "coyote": {
+       "chf": 45.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
+       "in_stock": false
+      },
+      "ranger": {
+       "chf": 49.9,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
+       "in_stock": false
+      },
+      "gray": {
+       "chf": 49.9,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 54.9,
+     "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411106000/",
+     "in_stock": true,
+     "colors": {
+      "Coyote": {
+       "chf": 54.9,
+       "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411130100/",
+       "in_stock": true
+      },
+      "Grau": {
+       "chf": 49.9,
+       "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411110000/",
+       "in_stock": true
+      },
+      "Ranger Green": {
+       "chf": 54.9,
+       "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411120200/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 54.9,
+       "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411106000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 54.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-ms1-sling-black/",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 54.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-ms1-sling-black/",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "mp-ms4": {
+   "chf": 94.8,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
+   "in_stock": true,
+   "title": "Magpul MS4 Dual QD Gen 2 Sling",
+   "weight_g": 270,
+   "dims": "Länge 8.5 cm x Breite 4 cm x Höhe 0.5 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 94.8,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 94.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
+       "in_stock": true
+      },
+      "coyote": {
+       "chf": 94.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
+       "in_stock": false
+      },
+      "ranger": {
+       "chf": 94.8,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 101.9,
+     "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411406000/",
+     "in_stock": true,
+     "colors": {
+      "Coyote": {
+       "chf": 101.9,
+       "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411430100/",
+       "in_stock": true
+      },
+      "Ranger Green": {
+       "chf": 101.9,
+       "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411420200/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 101.9,
+       "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411406000/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 114.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-black/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 114.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-black/",
+       "in_stock": true
+      },
+      "coyote": {
+       "chf": 114.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-coyote/",
+       "in_stock": true
+      },
+      "ranger": {
+       "chf": 114.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-ranger-green/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "bfg-vickers": {
+   "chf": 84.9,
+   "shop": "armamat.ch",
+   "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391506000/",
+   "in_stock": true,
+   "title": "Blue Force Gear Vickers Combat Application Sling",
+   "weight_g": 118,
+   "dims": "Länge 142 cm x Breite 3 cm x Höhe 1 cm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 82.4,
+     "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 82.4,
+       "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
+       "in_stock": false
+      },
+      "coyote": {
+       "chf": 82.4,
+       "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
+       "in_stock": false
+      },
+      "odg": {
+       "chf": 82.4,
+       "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
+       "in_stock": false
+      },
+      "multicam": {
+       "chf": 82.4,
+       "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "armamat.ch",
+     "chf": 84.9,
+     "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391506000/",
+     "in_stock": true,
+     "colors": {
+      "Coyote": {
+       "chf": 84.9,
+       "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391530100/",
+       "in_stock": true
+      },
+      "Multicam": {
+       "chf": 84.9,
+       "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391575100/",
+       "in_stock": true
+      },
+      "OD": {
+       "chf": 77.9,
+       "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391522000/",
+       "in_stock": true
+      },
+      "Schwarz": {
+       "chf": 84.9,
+       "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391506000/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "schm-s4f": {
+   "chf": 1749.0,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/schmeisser-s4f-10-5-m-lok-black-223-rem/",
+   "in_stock": false,
+   "title": "Schmeisser – Halbauto / AR15 / S4F / Black / 10.5 / .223 Rem",
+   "weight_g": 3150,
+   "dims": "LÄNGE: 72 cm eingeschoben, 79 cm ausgezogen",
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 1749.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-s4f-10-5-m-lok-black-223-rem/",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 1749.0,
+       "url": "https://shop.schiessstand.ch/produkt/schmeisser-s4f-10-5-m-lok-black-223-rem/",
+       "in_stock": false
+      },
+      "olive": {
+       "chf": 1849.0,
+       "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-s4f-od-green-10-5-223-rem/",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 1995.0,
+     "url": "https://www.shooting-store.ch/de/produkt/schmeisser-selbstladebuechse-s4f-black-105-m-lok-223-rem",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 2130.0,
+       "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-s4f-od-green-105-223-rem",
+       "in_stock": false
+      },
+      "black": {
+       "chf": 1995.0,
+       "url": "https://www.shooting-store.ch/de/produkt/schmeisser-selbstladebuechse-s4f-black-105-m-lok-223-rem",
+       "in_stock": false
+      },
+      "bronze": {
+       "chf": 2105.0,
+       "url": "https://www.shooting-store.ch/de/produkt/schmeisser-ar15-s4f-m-lok-105-zoll-bronze-223-rem",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "schm-m4fl": {
+   "chf": 1749.0,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-black-223-rem/",
+   "in_stock": false,
+   "title": "Schmeisser – Halbauto / AR15 / M4FL / Black / 14.5 / .223 Rem",
+   "weight_g": 3250,
+   "dims": "Länge: 79,5 cm eingeschoben, 89,5 cm ausgezogen",
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 1749.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-black-223-rem/",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 1749.0,
+       "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-black-223-rem/",
+       "in_stock": false
+      },
+      "bronze": {
+       "chf": 1849.0,
+       "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-bronze-223-rem/",
+       "in_stock": false
+      },
+      "earth": {
+       "chf": 1899.0,
+       "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m4fl-fde-14-5-223-rem/",
+       "in_stock": false
+      },
+      "olive": {
+       "chf": 1849.0,
+       "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-od-green-223-rem/",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 1990.0,
+     "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-m4fl-black-145-m-lok-223-rem",
+     "in_stock": false,
+     "colors": {
+      "bronze": {
+       "chf": 2130.0,
+       "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-bronze-145-223-rem",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 2130.0,
+       "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-fde-145-223-rem",
+       "in_stock": false
+      },
+      "black": {
+       "chf": 1990.0,
+       "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-m4fl-black-145-m-lok-223-rem",
+       "in_stock": false
+      },
+      "odg": {
+       "chf": 2130.0,
+       "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-od-green-145-223-rem",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "schm-m5fl": {
+   "chf": 1749.0,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m5fl-black-16-75-223-rem/",
+   "in_stock": false,
+   "title": "Schmeisser – Halbauto / AR15 / M5FL Black / 16.75 / .223 Rem",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 1749.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m5fl-black-16-75-223-rem/",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 1749.0,
+       "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m5fl-black-16-75-223-rem/",
+       "in_stock": false
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 1990.0,
+     "url": "https://www.shooting-store.ch/de/produkt/schmeisser-m5fl-black-223rem-mlok-1675-10-schuss-langer-handschutz",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "ap-pro": {
+   "chf": 739.5,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/aimpoint-zielgeraet-pro-2-moa-schwarz/",
+   "in_stock": false,
+   "title": "Aimpoint – Zielgerät PRO / 2 Moa / Schwarz",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 739.5,
+     "url": "https://shop.schiessstand.ch/produkt/aimpoint-zielgeraet-pro-2-moa-schwarz/",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 739.5,
+       "url": "https://shop.schiessstand.ch/produkt/aimpoint-zielgeraet-pro-2-moa-schwarz/",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "hs-aems": {
+   "chf": 619.9,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/holosun-reflex-visier-aems-rd-black-rotem-wechselabsehen-2moa-dot-65moa-cricledo/",
+   "in_stock": true,
+   "title": "Holosun – Reflex Visier / AEMS-RD-Black / rotem Wechselabsehen: 2MOA Dot & 65MOA Cricledo",
+   "weight_g": 110,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 619.9,
+     "url": "https://shop.schiessstand.ch/produkt/holosun-reflex-visier-aems-rd-black-rotem-wechselabsehen-2moa-dot-65moa-cricledo/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 619.9,
+       "url": "https://shop.schiessstand.ch/produkt/holosun-reflex-visier-aems-rd-black-rotem-wechselabsehen-2moa-dot-65moa-cricledo/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "hs-403b": {
+   "chf": 263.0,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/holosun-hs403b-microdot-rotpunktvisier-mit-2moa-punkt-absehen-fde/",
+   "in_stock": true,
+   "title": "Holosun – HS403B Microdot Rotpunktvisier mit 2MOA Punkt Absehen / FDE",
+   "weight_g": 125,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 263.0,
+     "url": "https://shop.schiessstand.ch/produkt/holosun-hs403b-microdot-rotpunktvisier-mit-2moa-punkt-absehen-fde/",
+     "in_stock": true,
+     "colors": {
+      "fde": {
+       "chf": 263.0,
+       "url": "https://shop.schiessstand.ch/produkt/holosun-hs403b-microdot-rotpunktvisier-mit-2moa-punkt-absehen-fde/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "tj-acog": {
+   "chf": 1729.0,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/trijicon-zielgeraet-acog-tr-ta31-4x32-dual-illuminated-red-dount-223-bac-reticlemount/",
+   "in_stock": false,
+   "title": "Trijicon – Zielgerät ACOG / TR-TA31 / 4×32 Dual Illuminated / Red Dount / .223 BAC ReticleMount",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 1729.0,
+     "url": "https://shop.schiessstand.ch/produkt/trijicon-zielgeraet-acog-tr-ta31-4x32-dual-illuminated-red-dount-223-bac-reticlemount/",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "eo-g43": {
+   "chf": 836.5,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/eotech-g43-sts-magnifier/",
+   "in_stock": true,
+   "title": "EoTech – G43.STS Magnifier",
+   "weight_g": 320,
+   "dims": "79x58x84 mm",
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 836.5,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-g43-sts-magnifier/",
+     "in_stock": true,
+     "colors": {
+      "tan": {
+       "chf": 849.0,
+       "url": "https://shop.schiessstand.ch/produkt/eotech-g43-compact-3-power-magnifier-with-quick-disconnect-switch-to-side-sts-mount-tan/",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "shooting-store.ch",
+     "chf": 851.9,
+     "url": "https://www.shooting-store.ch/de/produkt/eotech-magnifier-g43",
+     "in_stock": true,
+     "colors": {}
+    }
+   ]
+  },
+  "mp-mbusoff": {
+   "chf": 269.8,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/magpul-mbus-pro-offset-sight-front-blk/",
+   "in_stock": true,
+   "title": "Magpul – MBUS Pro Offset Sight / Front / BLK + Magpul – MBUS Pro Offset Sight / Rear / BLK",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 254.0,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-offset-sight-front-black",
+     "in_stock": false,
+     "colors": {}
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 269.8,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-mbus-pro-offset-sight-front-blk/",
+     "in_stock": true,
+     "colors": {}
+    }
+   ]
+  },
+  "sf-m640": {
+   "chf": 395.0,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m640df-dual-fuel-scout-pro-schwarz/",
+   "in_stock": true,
+   "title": "SureFire – Lampe / Mod. M640DF Dual Fuel Scout pro / schwarz",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 395.0,
+     "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m640df-dual-fuel-scout-pro-schwarz/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 395.0,
+       "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m640df-dual-fuel-scout-pro-schwarz/",
+       "in_stock": true
+      },
+      "tan": {
+       "chf": 428.0,
+       "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m640df-dual-fuel-scout-pro-tan/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "sf-x300": {
+   "chf": 399.0,
+   "shop": "schiessstand.ch",
+   "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-tactical-x300u-b-ultra-schwarz/",
+   "in_stock": true,
+   "title": "Surefire – Lampe / Mod. Tactical X300U-B Ultra / schwarz",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "schiessstand.ch",
+     "chf": 399.0,
+     "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-tactical-x300u-b-ultra-schwarz/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 399.0,
+       "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-tactical-x300u-b-ultra-schwarz/",
+       "in_stock": true
+      },
+      "tan": {
+       "chf": 399.0,
+       "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-tactical-x300u-b-ultra-tan/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "sl-hlx": {
+   "chf": 223.9,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/streamlight-protac-rail-mount-hl-x-black",
+   "in_stock": true,
+   "title": "Streamlight ProTac Rail Mount HL X Black",
+   "weight_g": 181,
+   "dims": "138 mm",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 223.9,
+     "url": "https://www.shooting-store.ch/de/produkt/streamlight-protac-rail-mount-hl-x-black",
+     "in_stock": true,
+     "colors": {}
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 229.0,
+     "url": "https://shop.schiessstand.ch/produkt/streamlight-protac-rail-mount-hl-x-black/",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 229.0,
+       "url": "https://shop.schiessstand.ch/produkt/streamlight-protac-rail-mount-hl-x-black/",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "bcm-vg3": {
+   "chf": 23.6,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/bcm-vertical-grip-m-lok-compatible-mod-3",
+   "in_stock": true,
+   "title": "BCM® Vertical Grip - (M-LOK® Compatible*) - Mod 3 -",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 23.6,
+     "url": "https://www.shooting-store.ch/de/produkt/bcm-vertical-grip-m-lok-compatible-mod-3",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 23.6,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-vertical-grip-m-lok-compatible-mod-3",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 23.6,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-vertical-grip-m-lok-compatible-mod-3",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 49.0,
+     "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-black/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 49.0,
+       "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-black/",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 49.0,
+       "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-fde/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "bcm-kag": {
+   "chf": 23.6,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/bcm-kinesthetic-angled-grip-m-lok-compatible",
+   "in_stock": true,
+   "title": "BCM® Kinesthetic Angled Grip - (M-LOK® Compatible*)",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 23.6,
+     "url": "https://www.shooting-store.ch/de/produkt/bcm-kinesthetic-angled-grip-m-lok-compatible",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 23.6,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-kinesthetic-angled-grip-m-lok-compatible",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 23.6,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-kinesthetic-angled-grip-m-lok-compatible",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 38.0,
+     "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-black/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 38.0,
+       "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-black/",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 38.0,
+       "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-fde/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "mp-bipod": {
+   "chf": 155.7,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-bipod-for-m-lok",
+   "in_stock": true,
+   "title": "Magpul Bipod for M-LOK",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 155.7,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-bipod-for-m-lok",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 155.7,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-bipod-for-m-lok",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 155.7,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-bipod-for-m-lok",
+       "in_stock": true
+      }
+     }
+    },
+    {
+     "shop": "schiessstand.ch",
+     "chf": 179.9,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-bipod-for-m-lok-black/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 179.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-bipod-for-m-lok-black/",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 171.9,
+       "url": "https://shop.schiessstand.ch/produkt/magpul-bipod-for-m-lok-black-2/",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "schm-dyn": {
+   "chf": 2128.49,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-l-1675-black-223rem-mlok-10-schuss",
+   "in_stock": true,
+   "title": "Selbstladebüchse Schmeisser AR15 Dynamic L Black 16.75\" .223 Rem",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 2128.49,
+     "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-l-1675-black-223rem-mlok-10-schuss",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 2128.49,
+       "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-l-1675-black-223rem-mlok-10-schuss",
+       "in_stock": true
+      },
+      "gray": {
+       "chf": 2945.0,
+       "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-l-1675-grey-223rem-mlok-10-schuss",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "dd-v7": {
+   "chf": 2580.0,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/daniel-defense-ddm4-v7-16-556-nato-brown-milspec",
+   "in_stock": false,
+   "title": "Daniel Defense DDM4 V7 16\", 5.56 NATO, Brown, MilSpec",
+   "weight_g": 2812,
+   "dims": "Lauflänge in mm: 406.4; Lauflänge in Zoll: 16",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 2580.0,
+     "url": "https://www.shooting-store.ch/de/produkt/daniel-defense-ddm4-v7-16-556-nato-brown-milspec",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "bcm-recce16": {
+   "chf": 2329.7,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/recce-16-mcmr15",
+   "in_stock": false,
+   "title": "RECCE-16 MCMR15",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 2329.7,
+     "url": "https://www.shooting-store.ch/de/produkt/recce-16-mcmr15",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "bcm-g0": {
+   "chf": 32.4,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-0-black",
+   "in_stock": true,
+   "title": "BCM®  Grip Mod 0 - Black",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 32.4,
+     "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-0-black",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 32.4,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-0-black",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 32.4,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-0-flat-dark-earth",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "bcm-s0": {
+   "chf": 69.8,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-0-black",
+   "in_stock": false,
+   "title": "BCM®   Stock - Mod 0 - Black",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 69.8,
+     "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-0-black",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 69.8,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-0-black",
+       "in_stock": false
+      },
+      "fde": {
+       "chf": 69.8,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-0-flat-dark-earth",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "bcm-s1": {
+   "chf": 83.2,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-1-sopmod-compartment-black",
+   "in_stock": true,
+   "title": "BCM®  Stock - Mod 1 - SOPMOD - Compartment -Black",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 83.2,
+     "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-1-sopmod-compartment-black",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 83.2,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-1-sopmod-compartment-black",
+       "in_stock": true
+      },
+      "fde": {
+       "chf": 83.2,
+       "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-1-sopmod-compartment-flat-dark-earth",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "b5-bravo": {
+   "chf": 99.9,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/b5-systems-ar-15-bravo-stock-collapsible-mil-spec-schwarz",
+   "in_stock": false,
+   "title": "B5 Systems AR-15 Bravo Stock, Collapsible Mil-Spec, Schwarz",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 99.9,
+     "url": "https://www.shooting-store.ch/de/produkt/b5-systems-ar-15-bravo-stock-collapsible-mil-spec-schwarz",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "vx-crossfire": {
+   "chf": 148.9,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-crossfire-red-dot-led-upgrade-black",
+   "in_stock": true,
+   "title": "Vortex Optics Crossfire Red Dot LED Upgrade Black",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 148.9,
+     "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-crossfire-red-dot-led-upgrade-black",
+     "in_stock": true,
+     "colors": {}
+    }
+   ]
+  },
+  "gs-sp30": {
+   "chf": 396.3,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/super-precision-30mm-193-black",
+   "in_stock": false,
+   "title": "Super Precision 30MM 1.93, Black",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 396.3,
+     "url": "https://www.shooting-store.ch/de/produkt/super-precision-30mm-193-black",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 396.3,
+       "url": "https://www.shooting-store.ch/de/produkt/super-precision-30mm-193-black",
+       "in_stock": false
+      },
+      "ddc": {
+       "chf": 425.0,
+       "url": "https://www.shooting-store.ch/de/produkt/super-precision-30mm-193-ddc",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "vx-m3x": {
+   "chf": 361.9,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-v3xm-magnifier-with-flip-mount-black",
+   "in_stock": false,
+   "title": "Vortex Optics V3XM Magnifier with Flip Mount Black",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 361.9,
+     "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-v3xm-magnifier-with-flip-mount-black",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "mp-mbus3": {
+   "chf": 114.6,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-3-front-back-up-sight",
+   "in_stock": false,
+   "title": "Magpul MBUS 3 Front Back-Up Sight + Magpul MBUS 3 Rear Back-Up Sight",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 114.6,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-3-front-back-up-sight",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "mp-mbuspro": {
+   "chf": 246.7,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-sight-front-black",
+   "in_stock": false,
+   "title": "Magpul MBUS Pro Sight Front Black + Magpul MBUS Pro Sight Rear Black",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 246.7,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-sight-front-black",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "bcm-comp0": {
+   "chf": 105.9,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/bcm-compensator-mod-0-556",
+   "in_stock": false,
+   "title": "BCM®  Compensator Mod 0 - 5.56",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 105.9,
+     "url": "https://www.shooting-store.ch/de/produkt/bcm-compensator-mod-0-556",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "gs-ssae": {
+   "chf": 295.2,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-enhanced-ssa-e",
+   "in_stock": false,
+   "title": "Super Semi-Automatic Enhanced (SSA-E)",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 295.2,
+     "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-enhanced-ssa-e",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "gs-ssa": {
+   "chf": 295.2,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-ssa",
+   "in_stock": false,
+   "title": "Super Semi-Automatic (SSA)",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 295.2,
+     "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-ssa",
+     "in_stock": false,
+     "colors": {}
+    }
+   ]
+  },
+  "gs-sde": {
+   "chf": 295.2,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/super-dynamic-enhanced-sd-e",
+   "in_stock": true,
+   "title": "Super Dynamic Enhanced (SD-E)",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 295.2,
+     "url": "https://www.shooting-store.ch/de/produkt/super-dynamic-enhanced-sd-e",
+     "in_stock": true,
+     "colors": {}
+    }
+   ]
+  },
+  "rd-raptorsd": {
+   "chf": 158.1,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-ar-15-raptor-sd-ambidextrous-charging-handle-black",
+   "in_stock": true,
+   "title": "Radian Weapons AR-15 Raptor-SD Ambidextrous Charging Handle Black",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 158.1,
+     "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-ar-15-raptor-sd-ambidextrous-charging-handle-black",
+     "in_stock": true,
+     "colors": {
+      "fde": {
+       "chf": 164.0,
+       "url": "https://www.shooting-store.ch/de/produkt/radian-raptor-sd-ambidextrous-charging-handle-ar15-dark-earth",
+       "in_stock": false
+      },
+      "black": {
+       "chf": 158.1,
+       "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-ar-15-raptor-sd-ambidextrous-charging-handle-black",
+       "in_stock": true
+      }
+     }
+    }
+   ]
+  },
+  "gs-ach": {
+   "chf": 141.0,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/airborne-charging-handle-ach-556-black",
+   "in_stock": false,
+   "title": "Airborne Charging Handle (ACH), 5.56, Black",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 141.0,
+     "url": "https://www.shooting-store.ch/de/produkt/airborne-charging-handle-ach-556-black",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 141.0,
+       "url": "https://www.shooting-store.ch/de/produkt/airborne-charging-handle-ach-556-black",
+       "in_stock": false
+      },
+      "ddc": {
+       "chf": 153.8,
+       "url": "https://www.shooting-store.ch/de/produkt/airborne-charging-handle-ach-556-ddc",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  },
+  "mp-trigguard": {
+   "chf": 12.4,
+   "shop": "shooting-store.ch",
+   "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
+   "in_stock": false,
+   "title": "Magpul MOE Enhanced Trigger Guard, Polymer - AR15/M4",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 12.4,
+     "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 12.4,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
+       "in_stock": false
+      },
+      "fde": {
+       "chf": 12.4,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
+       "in_stock": true
+      },
+      "odg": {
+       "chf": 12.4,
+       "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
+       "in_stock": false
+      }
+     }
+    }
+   ]
+  }
+ }
+}

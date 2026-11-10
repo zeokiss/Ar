@@ -74,10 +74,11 @@
         <div><span>Összesen</span><b id="sumTotal"></b></div>
         <div class="huf"><span id="sumHuf"></span>
           <label>1 CHF = <input id="rate" type="number" min="1" step="1" inputmode="numeric"> Ft</label></div>
-        <div class="huf"><span id="sumEst" class="estnote"></span>
-          <label title="Csak a becsült árú tételekhez">1 € = <input id="eurChf" type="number" min="0.1" step="0.01" inputmode="decimal"> CHF</label></div>
+        <div class="huf"><span id="sumEst" class="estnote"></span></div>
       </div>
-      <p class="fine">* A tömeg az alapfegyver gyári adatából és a cserélt alkatrészek különbségéből becsült. Az árak tájékoztató jellegű európai irányárak, a tényleges ár kereskedőnként eltér.</p>
+      <div class="modebox"><label for="shopMode">Vásárlás helye</label><select id="shopMode"></select></div>
+      <div id="orderBox" class="orderbox"></div>
+      <p class="fine">* A tömeg az alapfegyver gyári adatából és a cserélt alkatrészek különbségéből becsült. Az árak a svájci boltok kiírt, ÁFÁ-s árai CHF-ben (a bolt neve és a termékoldal mellettük); a bolti ár és a raktárkészlet változhat, rendelés előtt ellenőrizd. Fegyver és egyes kiegészítők vásárlásához engedély kellhet, ezt egyeztesd a bolttal.</p>
     </aside>
 
     <section id="builder" class="builder">

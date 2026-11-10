@@ -15,16 +15,48 @@
   const FACTORY_W = { grip: 75, stock: 250, muzzle: 85, trigger: 70, ch: 45, buis: 90 };
   const RIFLE_KIT = { name: 'Rifle puffercső-készlet (tushoz szükséges)', price: 60, weight: 110 };
 
-  // Árak: ahol van valós bolti ár (assets/prices/merged.json), azt használjuk (CHF);
-  // ahol nincs, a js/data.js becsült EUR-ára kerül átváltásra (jelölve: ~).
-  let PRICES = {};
-  const priceOf = (it) => {
+  // Árak: KIZÁRÓLAG svájci bolti árak (assets/prices/merged.json); ahol nincs ilyen, ott "nincs ár" látszik.
+  // Csak olyan bolt jöhet szóba, amelyik szállít, vagy a 8805 Richterswil közelében van (assets/shops.json).
+  let PRICES = {}, SHOPS = [], SHOPINFO = {}, SHOPREF = { place: 'Richterswil', plz: '8805', radius_km: 30 };
+  const shopOk = (sh) => {
+    if (!Object.keys(SHOPINFO).length) return true;
+    const i = SHOPINFO[sh];
+    return !!i && (i.ships === true || i.walk === true || (i.km != null && i.km <= SHOPREF.radius_km));
+  };
+  const shopTag = (sh) => (SHOPINFO[sh] && SHOPINFO[sh].city) ? `${sh} (${SHOPINFO[sh].city})` : sh;
+  const shopBadge = (sh) => { const i = SHOPINFO[sh]; return i ? (i.walk ? ' · helyben is elérhető' : (i.ships ? ' · szállít' : '')) : ''; };
+  // a színváltozatnak külön lehet ára és termékoldala (pl. a Schmeisser Bronze kivitel drágább a feketénél)
+  const variantKey = (it) => BASE[it.id] ? state.finish : (it.colors ? (state.colors[it.id] || it.colors[0]) : null);
+  function variantOf(o, it) {
+    const k = variantKey(it), v = (o.colors && k) ? o.colors[k] : null;
+    return { chf: v ? v.chf : o.chf, url: (v && v.url) || o.url, in_stock: v ? v.in_stock : o.in_stock };
+  }
+  function offersOf(it) {
     const p = PRICES[it.id];
-    if (p && p.chf != null) return { chf: p.chf, est: false, p };
-    return { chf: (it.price || 0) * state.eurChf, est: !!it.price, p: null };
+    if (!p) return [];
+    const offs = (p.offers && p.offers.length) ? p.offers : (p.chf != null ? [{ shop: p.shop, chf: p.chf, url: p.url, in_stock: p.in_stock }] : []);
+    return offs.filter(o => shopOk(o.shop));
+  }
+  // Bolt-választás egy tételhez: tételenként felülírható, egyébként az "egy boltból" mód, egyébként a legolcsóbb.
+  function offerFor(it) {
+    const offs = offersOf(it);
+    if (!offs.length) return null;
+    const want = state.shop[it.id];
+    let o = want && offs.find(x => x.shop === want);
+    if (!o && state.mode && state.mode !== 'cheapest') o = offs.find(x => x.shop === state.mode);
+    if (o) return o;
+    // mindig a legolcsóbb ajánlat; a raktárhiány csak jelölve látszik (nincs raktáron / előrendelés)
+    return offs.reduce((a, b) => (variantOf(b, it).chf < variantOf(a, it).chf ? b : a));
+  }
+  const priceOf = (it) => {
+    const o = offerFor(it);
+    if (!o) return { chf: null, none: true, p: null };
+    const v = variantOf(o, it);
+    return { chf: v.chf, none: false, p: { shop: o.shop, url: v.url, in_stock: v.in_stock } };
   };
   const weightOf = (it) => { const p = PRICES[it.id]; return (p && p.weight_g) ? p.weight_g : (it.weight || 0); };
-  const fmtCHF = (n, est) => (est ? '~ ' : '') + new Intl.NumberFormat('hu-HU', { maximumFractionDigits: 0 }).format(Math.round(n)) + ' CHF';
+  const fmtCHF = (n) => (n == null ? '—' : new Intl.NumberFormat('hu-HU', { maximumFractionDigits: 0 }).format(Math.round(n)) + ' CHF');
+  const priceTxt = (q) => (q.none ? 'nincs ár' : fmtCHF(q.chf));
   const shopName = (p) => (p && p.shop) ? p.shop : '';
   const fmtHUF = n => new Intl.NumberFormat('hu-HU', { maximumFractionDigits: 0 }).format(Math.round(n / 1000) * 1000) + ' Ft';
   const fmtKg = g => (g / 1000).toLocaleString('hu-HU', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' kg';
@@ -38,7 +70,7 @@
       sel[c] = (list.find(i => i.factory) || list.find(i => i.none) || list[0]).id;
     });
     if (!b.factoryBuis) sel.buis = 'buis-none';
-    return { base: b.id, finish: b.finishes[0], sel, multi: { mlok: [], controls: [] }, colors: {}, pos: {}, rate: 430, eurChf: 0.93 };
+    return { base: b.id, finish: b.finishes[0], sel, multi: { mlok: [], controls: [] }, colors: {}, pos: {}, rate: 430, eurChf: 0.93, shop: {}, mode: 'cheapest' };
   }
 
   let state = loadState() || defaultState();
@@ -68,6 +100,8 @@
     out.pos = (s.pos && typeof s.pos === 'object') ? s.pos : {};
     out.rate = Number(s.rate) > 0 ? Number(s.rate) : d.rate;
     out.eurChf = Number(s.eurChf) > 0 ? Number(s.eurChf) : d.eurChf;
+    out.shop = (s.shop && typeof s.shop === 'object') ? s.shop : {};
+    out.mode = typeof s.mode === 'string' ? s.mode : 'cheapest';
     return out;
   }
   function save() {
@@ -138,8 +172,8 @@
   function totals(metrics) {
     const b = base();
     const bp = priceOf(b);
-    let price = bp.chf, weight = weightOf(b), estCount = bp.est ? 1 : 0;
-    const lines = [{ cat: 'base', label: `${b.brand} ${b.name}`, sub: D.FINISHES[state.finish].name, price: bp.chf, est: bp.est, p: bp.p, weight: weightOf(b) }];
+    let price = bp.none ? 0 : bp.chf, weight = weightOf(b), missing = bp.none ? 1 : 0;
+    const lines = [{ cat: 'base', label: `${b.brand} ${b.name}`, sub: D.FINISHES[state.finish].name, price: bp.chf, none: bp.none, p: bp.p, weight: weightOf(b) }];
     SINGLE_CATS.forEach(cat => {
       const it = sel(cat);
       if (!it || it.none && !(cat === 'buis' && b.factoryBuis)) return;
@@ -152,18 +186,18 @@
         weight -= FACTORY_W.buis; return;
       }
       if (FACTORY_W[cat] != null && !(cat === 'buis' && !b.factoryBuis)) w -= FACTORY_W[cat];
-      const ip = priceOf(it); price += ip.chf; weight += w; if (ip.est) estCount++;
-      lines.push({ cat, label: `${it.brand} ${it.name}`, sub: colorName(it), price: ip.chf, est: ip.est, p: ip.p, weight: weightOf(it) });
+      const ip = priceOf(it); if (ip.none) missing++; else price += ip.chf; weight += w;
+      lines.push({ cat, label: `${it.brand} ${it.name}`, sub: colorName(it), price: ip.chf, none: ip.none, p: ip.p, weight: weightOf(it) });
     });
     MULTI_CATS.forEach(cat => state.multi[cat].forEach(id => {
       const it = ITEM[id];
-      const ip = priceOf(it); price += ip.chf; weight += weightOf(it); if (ip.est) estCount++;
-      lines.push({ cat, label: `${it.brand} ${it.name}`, sub: colorName(it), price: ip.chf, est: ip.est, p: ip.p, weight: weightOf(it) });
+      const ip = priceOf(it); if (ip.none) missing++; else price += ip.chf; weight += weightOf(it);
+      lines.push({ cat, label: `${it.brand} ${it.name}`, sub: colorName(it), price: ip.chf, none: ip.none, p: ip.p, weight: weightOf(it) });
     }));
     const st = sel('stock');
     if (st && st.type === 'rifle') {
-      price += RIFLE_KIT.price * state.eurChf; weight += RIFLE_KIT.weight; estCount++;
-      lines.push({ cat: 'stock', label: RIFLE_KIT.name, sub: 'becsült', price: RIFLE_KIT.price * state.eurChf, est: true, weight: RIFLE_KIT.weight });
+      weight += RIFLE_KIT.weight; missing++;
+      lines.push({ cat: 'stock', label: RIFLE_KIT.name, sub: 'nincs svájci bolti ár', price: null, none: true, weight: RIFLE_KIT.weight });
     }
     // hossz
     const spec = buildSpec();
@@ -173,7 +207,7 @@
     const maxS = isRifle ? spec.stockRear + (spec.stock.style === 'prs' ? 1.5 : 0) : spec.stockRear + 1.65;
     let oal = [(minS + fixed) * 2.54, (maxS + fixed) * 2.54];
     if (metrics.oalIn) oal = [metrics.oalIn * 2.54, metrics.oalIn * 2.54];
-    return { price, weight, lines, oal, estCount };
+    return { price, weight, lines, oal, missing };
   }
 
   // ------------------------------------------------------------ kompatibilitás
@@ -436,9 +470,10 @@
     }
     $$('.chip', panel).forEach(c => c.onclick = () => { brandFilter = c.dataset.brand; renderPanel(); });
     $$('.card', panel).forEach(c => c.onclick = (e) => {
-      if (e.target.closest('.swatch')) return;
+      if (e.target.closest('.swatch, .shopsel, .src a')) return;
       choose(cat.id, c.dataset.id);
     });
+    bindShopSelects(panel);
     $$('.swatch', panel).forEach(s => s.onclick = () => {
       state.colors[s.dataset.item] = s.dataset.color;
       const it = ITEM[s.dataset.item];
@@ -454,6 +489,22 @@
   function posRow(cat) {
     const [lo, hi, where] = POS_CATS[cat], v = state.pos[cat] || 0;
     return `<div class="posrow"><label for="posSlider">Pozíció ${where}</label><input id="posSlider" type="range" min="${lo}" max="${hi}" step="0.1" value="${v}"><span id="posVal">${fmtPos(v)}</span><button id="posReset" class="btn small ghost">Alap</button></div>`;
+  }
+  function srcHtml(it) {
+    const q = (it.price || PRICES[it.id]) ? priceOf(it) : null;
+    if (!q) return '';
+    if (q.none) return '<div class="src est">nincs svájci bolti ár</div>';
+    const offs = offersOf(it);
+    const sel = offs.length > 1
+      ? `<select class="shopsel" data-item="${it.id}" aria-label="Bolt választása">${offs.map(o => `<option value="${o.shop}"${o.shop === q.p.shop ? ' selected' : ''}>${shopTag(o.shop)} · ${fmtCHF(variantOf(o, it).chf)}${variantOf(o, it).in_stock === false ? ' (nincs raktáron)' : ''}</option>`).join('')}</select>`
+      : '';
+    return `<div class="src"><a href="${q.p.url}" target="_blank" rel="noopener">${shopTag(q.p.shop)} ↗</a>${shopBadge(q.p.shop)}${q.p.in_stock === false ? ' · nincs raktáron' : ''}${sel}</div>`;
+  }
+  function bindShopSelects(root) {
+    $$('.shopsel', root).forEach(sl => {
+      sl.onclick = (e) => e.stopPropagation();
+      sl.onchange = () => { state.shop[sl.dataset.item] = sl.value; update(true); };
+    });
   }
   function card(it, on, cat) {
     const b = base();
@@ -473,8 +524,8 @@
       ${desc ? `<div class="desc">${desc}</div>` : ''}
       ${specs ? `<div class="specs">${specs}</div>` : ''}
       ${swatches(it, on)}
-      <div class="card-bot">${(() => { if (!it.price && !(PRICES[it.id])) return `<span class="price">${it.factory ? 'benne az árban' : '—'}</span>`; const q = priceOf(it); return `<span class="price">${fmtCHF(q.chf, q.est)}</span>`; })()}${weightOf(it) ? `<span class="w">${weightOf(it)} g</span>` : ''}</div>
-      ${(() => { const q = it.price || PRICES[it.id] ? priceOf(it) : null; if (!q) return ''; return q.est ? '<div class="src est">becsült ár</div>' : `<div class="src"><a href="${q.p.url}" target="_blank" rel="noopener">${shopName(q.p)}</a>${q.p.in_stock === false ? ' · nincs raktáron' : ''}</div>`; })()}
+      <div class="card-bot">${it.factory ? '<span class="price">benne az árban</span>' : (() => { const q = priceOf(it); return `<span class="price${q.none ? ' none' : ''}">${priceTxt(q)}</span>`; })()}${weightOf(it) ? `<span class="w">${weightOf(it)} g</span>` : ''}</div>
+      ${srcHtml(it)}
       ${errs.length ? `<div class="warnline">${errs[0]}</div>` : ''}
     </div>`;
   }
@@ -491,15 +542,17 @@
           <div class="specs"><span>${String(x.barrel).replace('.', ',')}" cső</span><span>${x.cal}</span><span>${x.twist}</span><span>${String(x.hgLen).replace('.', ',')}" előagy${x.hgEstimated ? '*' : ''}</span>${x.ambi ? '<span>Ambidex</span>' : ''}</div>
           <div class="sw">${x.finishes.map(f => `<button class="swatch fin${x.id === b.id && f === state.finish ? ' on' : ''}${(window.AR_PHOTOS.get(x.id, 'base', f) || {}).exactColor ? '' : ' nophoto'}" data-base="${x.id}" data-finish="${f}" title="${D.FINISHES[f].name}${(window.AR_PHOTOS.get(x.id, 'base', f) || {}).exactColor ? ((window.AR_PHOTOS.get(x.id, 'base', f) || {}).derived ? ' (színezett fotó)' : '') : ' (nincs fotó)'}" style="--c:${D.FINISHES[f].hex}"></button>`).join('')}
             <span class="swname">${x.id === b.id ? D.FINISHES[state.finish].name : x.finishes.map(f => D.FINISHES[f].name).join(' / ')}</span></div>
-          <div class="card-bot"><span class="price">${(() => { const q = priceOf(x); return fmtCHF(q.chf, q.est); })()}</span><span class="w">${fmtKg(weightOf(x))}</span></div>
-          ${(() => { const q = priceOf(x); return q.est ? '<div class="src est">becsült ár</div>' : `<div class="src"><a href="${q.p.url}" target="_blank" rel="noopener">${shopName(q.p)}</a></div>`; })()}
+          <div class="card-bot"><span class="price">${priceTxt(priceOf(x))}</span><span class="w">${fmtKg(weightOf(x))}</span></div>
+          ${srcHtml(x)}
           ${x.oalNote ? `<div class="desc small">${x.oalNote}</div>` : ''}
         </div>`).join('')}</div>
       <p class="hint small">* Becsült érték a megjelenítéshez. Az árak tájékoztató jellegű európai irányárak; a színváltozatok elérhetősége modellenként és kereskedőnként eltérhet.</p>`;
     $$('.card.base', panel).forEach(c => c.onclick = (e) => {
+      if (e.target.closest('.shopsel, .src a')) return;
       const sw = e.target.closest('.swatch');
       setBase(c.dataset.id, sw ? sw.dataset.finish : null);
     });
+    bindShopSelects(panel);
   }
 
   function renderBrandsPanel(panel) {
@@ -512,7 +565,7 @@
         return `<section class="brand-box${D.BRANDS[br].core ? '' : ' spec'}"><h3>${br}${D.BRANDS[br].core ? '' : ' <small>specialista</small>'}</h3><p>${D.BRANDS[br].note}</p>
           ${cats.map(c => `<div class="bcat"><h4>${c.name}</h4><ul>${its.filter(i => i.cat === c.id).map(i => {
             const on = c.multi ? state.multi[c.id].includes(i.id) : state.sel[c.id] === i.id;
-            return `<li class="${on ? 'on' : ''}" data-cat="${c.id}" data-id="${i.id}"><span>${i.name}</span><b>${(() => { const q = priceOf(i); return fmtCHF(q.chf, q.est); })()}</b></li>`;
+            return `<li class="${on ? 'on' : ''}" data-cat="${c.id}" data-id="${i.id}"><span>${i.name}</span><b>${priceTxt(priceOf(i))}</b></li>`;
           }).join('')}</ul></div>`).join('')}</section>`;
       }).join('')}</div>`;
     $$('.brands li', panel).forEach(li => li.onclick = () => choose(li.dataset.cat, li.dataset.id, true));
@@ -569,20 +622,72 @@
     el.className = 'photo-note' + (p.missing.length || !p.finishExact ? ' warn' : '');
     el.innerHTML = bits.join(' ');
   }
+  function shopInfoHtml(sh) {
+    const i = SHOPINFO[sh];
+    if (!i) return '';
+    const dist = i.visit ? i.visit : (i.km != null ? `kb. ${i.km} km a ${SHOPREF.plz} ${SHOPREF.place} térségétől (légvonal, becslés)` : '');
+    return `<div class="ordinfo">${esc(i.name)} · ${esc(i.addr)}${dist ? '<br>' + dist : ''}<br>${esc(i.shipNote || '')}` +
+      `${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}${i.url ? ' · <a href="' + i.url + '" target="_blank" rel="noopener">a bolt oldala ↗</a>' : ''}</div>`;
+  }
+  function orderText(t) {
+    const groups = {}, est = [];
+    t.lines.forEach(l => { if (l.p) (groups[l.p.shop] = groups[l.p.shop] || []).push(l); else est.push(l); });
+    const b = base();
+    let out = `Rendelési lista – ${b.brand} ${b.name}\n`;
+    Object.keys(groups).forEach(sh => {
+      const ls = groups[sh];
+      const si = SHOPINFO[sh];
+      out += `\n== ${shopTag(sh)}${hidePrices ? '' : ' – ' + fmtCHF(ls.reduce((a, l) => a + l.price, 0))} ==\n${si ? si.name + ', ' + si.addr + (si.visit ? ' (' + si.visit + ')' : '') + '\n' : ''}`;
+      ls.forEach(l => { out += `- ${l.label}${hidePrices ? '' : ' – ' + fmtCHF(l.price)}${l.p.in_stock === false ? ' [nincs raktáron]' : ''}\n  ${l.p.url}\n`; });
+    });
+    if (est.length) { out += `\n== Még nincs bolti ár ==\n`; est.forEach(l => { out += `- ${l.label}\n`; }); }
+    return out;
+  }
+  function renderOrder(t) {
+    const box = $('#orderBox');
+    if (!box) return;
+    const groups = {}, est = [];
+    t.lines.forEach(l => { if (l.p) (groups[l.p.shop] = groups[l.p.shop] || []).push(l); else est.push(l); });
+    const shops = Object.keys(groups);
+    let html = '';
+    if (shops.length) html += `<div class="ordhead"><b>Hol rendeld</b><span>${shops.length} bolt</span><button id="ordCopy" class="btn small ghost" type="button">Lista másolása</button></div>`;
+    if (state.mode !== 'cheapest' && shops.length > 1) html += `<p class="ordnote">Nem minden tétel kapható a(z) ${shopTag(state.mode)} boltban, ezért ${shops.length} boltba kell rendelni.</p>`;
+    shops.forEach(sh => {
+      const ls = groups[sh];
+      html += `<div class="ord"><h4><span>${shopTag(sh)}</span><span class="price">${fmtCHF(ls.reduce((a, l) => a + l.price, 0))}</span></h4>${shopInfoHtml(sh)}<ul>` +
+        ls.map(l => `<li><a href="${l.p.url}" target="_blank" rel="noopener">${l.label}</a>${l.p.in_stock === false ? '<em> · nincs raktáron</em>' : ''}<span class="price">${fmtCHF(l.price)}</span></li>`).join('') + '</ul></div>';
+    });
+    if (est.length) html += `<div class="ord est"><h4><span>Még nincs svájci bolti ár</span></h4><ul>${est.map(l => `<li>${l.label}</li>`).join('')}</ul></div>`;
+    box.innerHTML = html;
+    const cp = $('#ordCopy');
+    if (cp) cp.onclick = async () => {
+      try { await navigator.clipboard.writeText(orderText(t)); toast('A rendelési lista a vágólapon van.'); }
+      catch (e) { toast('A vágólap nem érhető el ebben a nézetben.'); }
+    };
+  }
+  function buildShopMode() {
+    const sel = $('#shopMode');
+    if (!sel) return;
+    sel.innerHTML = `<option value="cheapest">Legolcsóbb tételenként</option>` + SHOPS.filter(shopOk).map(sh => `<option value="${sh}">Egy boltból: ${shopTag(sh)}</option>`).join('');
+    if (state.mode !== 'cheapest' && !SHOPS.filter(shopOk).includes(state.mode)) state.mode = 'cheapest';
+    sel.value = state.mode;
+    sel.onchange = () => { state.mode = sel.value; update(true); };
+  }
   function renderSummary(t, issues) {
     const b = base();
     $('#sumTitle').textContent = `${b.brand} ${b.name}`;
     $('#sumFinish').textContent = D.FINISHES[state.finish].name;
     $('#statPrice').textContent = fmtCHF(t.price);
-    $('#statHuf').textContent = '≈ ' + fmtHUF(t.price * state.rate) + (t.estCount ? ` · ${t.estCount} becsült tétel` : '');
+    $('#statHuf').textContent = '≈ ' + fmtHUF(t.price * state.rate) + (t.missing ? ` · ${t.missing} tétel ára nincs` : '');
     $('#statWeight').textContent = fmtKg(t.weight);
     $('#statOal').textContent = Math.abs(t.oal[1] - t.oal[0]) < 0.5 ? `${t.oal[0].toFixed(0)} cm` : `${t.oal[0].toFixed(0)}–${t.oal[1].toFixed(0)} cm`;
     $('#statBarrel').textContent = `${String(b.barrel).replace('.', ',')}" · ${b.cal}`;
-    $('#sumList').innerHTML = t.lines.map(l => `<li data-cat="${l.cat}"><div><b>${l.label}</b>${l.sub ? `<small>${l.sub}</small>` : ''}</div><span>${l.est ? fmtCHF(l.price, true) : fmtCHF(l.price)}</span></li>`).join('');
+    $('#sumList').innerHTML = t.lines.map(l => `<li data-cat="${l.cat}"><div><b>${l.label}</b>${(l.sub || l.p) ? `<small>${[l.sub, l.p ? l.p.shop : ''].filter(Boolean).join(' · ')}</small>` : ''}</div><span>${l.none ? '—' : fmtCHF(l.price)}</span></li>`).join('');
     $$('#sumList li').forEach(li => li.onclick = () => { activeTab = li.dataset.cat; renderTabs(); renderPanel(); });
     $('#sumTotal').textContent = fmtCHF(t.price);
     $('#sumHuf').textContent = '≈ ' + fmtHUF(t.price * state.rate);
-    $('#sumEst').textContent = t.estCount ? `Ebből ${t.estCount} tétel becsült ár (nincs bolti ár hozzá).` : 'Minden tétel valós bolti ár.';
+    renderOrder(t);
+    $('#sumEst').textContent = t.missing ? `${t.missing} tétel ára hiányzik (nincs svájci bolti ár): az összeg csak a bolti áras tételeket tartalmazza.` : 'Minden tétel svájci bolti ár.';
     const order = { error: 0, warn: 1, info: 2 };
     const sorted = issues.slice().sort((a, c) => order[a.lvl] - order[c.lvl]);
     const nErr = issues.filter(i => i.lvl === 'error').length;
@@ -697,9 +802,9 @@
     $('#presets').innerHTML = '<option value="">Előre összeállított buildek…</option>' + Object.keys(PRESETS).map(k => `<option>${k}</option>`).join('');
     $('#presets').onchange = (e) => {
       const k = e.target.value; if (!k) return;
-      const rate = state.rate, ec = state.eurChf;
+      const rate = state.rate, ec = state.eurChf, mode = state.mode;
       state = sanitize(PRESETS[k](state.base));
-      state.rate = rate; state.eurChf = ec;
+      state.rate = rate; state.eurChf = ec; state.mode = mode;
       activeTab = 'base';
       update(false, true);
       e.target.value = '';
@@ -808,7 +913,7 @@
         const pr = priceOf(q2);
         const photo = e.kind === 'base' ? !!window.AR_PHOTOS.get(e.id, 'base', 'black') : window.AR_PHOTOS.has(e.id);
         return `<li id="qso${i}" role="option" data-i="${i}" aria-selected="false"><div class="qs-main"><b>${hl(e.title, toks)}</b><small>${esc(e.sub)}</small></div>` +
-          `<div class="qs-side">${qsIsOn(e) ? '<span class="qs-tag on">kiválasztva</span>' : ''}${photo ? '<span class="qs-tag ok">fotó</span>' : ''}<span class="price">${fmtCHF(pr.chf, pr.est)}</span></div></li>`;
+          `<div class="qs-side">${qsIsOn(e) ? '<span class="qs-tag on">kiválasztva</span>' : ''}${photo ? '<span class="qs-tag ok">fotó</span>' : ''}<span class="price${pr.none ? ' none' : ''}">${priceTxt(pr)}</span></div></li>`;
       }).join('') + `<li class="qs-foot" role="presentation">${res.length} találat · ↑↓ választ · Enter kiválaszt · Esc bezár</li>`;
       list.hidden = false; input.setAttribute('aria-expanded', 'true'); mark();
     };
@@ -852,8 +957,6 @@
       <mask id="reflMask" maskUnits="userSpaceOnUse"><rect id="reflMaskRect" x="-2000" y="0" width="6000" height="400" fill="url(#reflGrad)"/></mask>`;
     $('#rate').value = state.rate;
     $('#rate').oninput = (e) => { const v = Number(e.target.value); if (v > 0) { state.rate = v; update(true); } };
-    $('#eurChf').value = state.eurChf;
-    $('#eurChf').oninput = (e) => { const v = Number(e.target.value); if (v > 0) { state.eurChf = v; update(true); } };
     $('#btnPrices').onchange = () => { hidePrices = !$('#btnPrices').checked; try { localStorage.setItem('ar15-hideprices', hidePrices ? '1' : '0'); } catch (e) { /* ignore */ } applyPriceVisibility(); };
     applyPriceVisibility();
     initQuickSearch();
@@ -861,14 +964,15 @@
     $('#btnAssemble').onclick = () => renderRifle(true);
     $('#btnShare').onclick = share;
     $('#btnPng').onclick = exportPng;
-    $('#btnReset').onclick = () => { if (confirm('Visszaállítod a gyári állapotot?')) { const r = state.rate, ec = state.eurChf; state = defaultState(state.base); state.rate = r; state.eurChf = ec; update(false, true); } };
+    $('#btnReset').onclick = () => { if (confirm('Visszaállítod a gyári állapotot?')) { const r = state.rate, ec = state.eurChf, md = state.mode; state = defaultState(state.base); state.rate = r; state.eurChf = ec; state.mode = md; update(false, true); } };
     initZoom();
     initPartInteraction();
     initPresets();
     let ready = false;
     window.AR_PHOTOS.onChange(() => { if (ready) update(false); });
-    const loadPrices = fetch('assets/prices/merged.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (j && j.items) PRICES = j.items; }).catch(() => {});
-    Promise.all([window.AR_PHOTOS.load().catch(() => {}), loadPrices]).then(() => { ready = true; update(false, true); });
+    const loadShops = fetch('assets/shops.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (j) { SHOPINFO = j.shops || {}; if (j.reference) SHOPREF = Object.assign(SHOPREF, j.reference); } }).catch(() => {});
+    const loadPrices = fetch('assets/prices/merged.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (j && j.items) { PRICES = j.items; SHOPS = j.shops || []; } }).catch(() => {});
+    Promise.all([window.AR_PHOTOS.load().catch(() => {}), loadPrices, loadShops]).then(() => { buildShopMode(); ready = true; update(false, true); });
   }
   document.addEventListener('DOMContentLoaded', init);
 })();

@@ -244,3 +244,29 @@ select { background: var(--panel-2); border: 1px solid var(--line); border-radiu
 .card.flash { animation: flash 1.4s ease-out; }
 @keyframes flash { 0% { box-shadow: 0 0 0 3px var(--accent); } 100% { box-shadow: 0 0 0 0 rgba(232,145,58,0); } }
 @media (max-width: 760px) { .qsearch { order: 3; flex-basis: 100%; max-width: none; } }
+
+/* ---------------- boltválasztás és rendelési lista */
+.modebox { margin-top: 14px; display: flex; flex-direction: column; gap: 4px; }
+.modebox label { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.modebox select { width: 100%; }
+.card .shopsel { display: block; margin-top: 4px; width: 100%; max-width: 100%; font-size: 11.5px; padding: 4px 6px; border-radius: 7px; }
+.orderbox { margin-top: 14px; display: flex; flex-direction: column; gap: 10px; }
+.ordhead { display: flex; align-items: center; gap: 8px; }
+.ordhead b { font: 700 17px/1 var(--head); letter-spacing: .04em; text-transform: uppercase; }
+.ordhead span { color: var(--muted); font-size: 12px; margin-right: auto; }
+.ordnote { margin: 0; font-size: 12px; color: var(--warn); }
+.ord { background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; }
+.ord h4 { margin: 0 0 4px; display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--accent-2); }
+.ord ul { list-style: none; margin: 0; padding: 0; }
+.ord li { display: flex; justify-content: space-between; gap: 10px; padding: 3px 0; font-size: 12.5px; border-top: 1px solid rgba(255,255,255,.04); }
+.ord li a { color: var(--text); text-decoration: none; min-width: 0; }
+.ord li a:hover { color: var(--accent-2); text-decoration: underline; }
+.ord li em { color: var(--warn); font-style: normal; }
+.ord li .price, .ord h4 .price { font: 600 13px/1.2 var(--body); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.ord.est h4 { color: var(--muted); }
+.noprice .ord .price { display: none !important; }
+
+.price.none { color: var(--muted); font: 500 13px/1.2 var(--body); }
+.ordinfo { font-size: 11.5px; color: var(--muted); line-height: 1.5; margin: 0 0 6px; }
+.ordinfo a { color: var(--accent-2); text-decoration: none; }
+.ordinfo a:hover { text-decoration: underline; }
