@@ -1,0 +1,44 @@
+{
+ "version": 1,
+ "photos": [
+  {
+   "item": "sf-warcomp",
+   "slot": "main",
+   "color": "*",
+   "src": "parts/sf-warcomp-main-any.webp",
+   "w": 736,
+   "h": 265,
+   "ppi": 272.59,
+   "ax": 2.0,
+   "ay": 132.0,
+   "facing": "right",
+   "source": "primaryarms.com/surefire-warcomp-556-warcomp-556-1-2-28 (kep: WARCOMP-556-1-2-28_03, 90 fokkal forgatva; meret: surefire.com/warcomp-flash-hider/ Length 2.7 in)"
+  },
+  {
+   "item": "sf-3p",
+   "slot": "main",
+   "color": "*",
+   "src": "parts/sf-3p-main-any.webp",
+   "w": 685,
+   "h": 252,
+   "ppi": 263.46,
+   "ax": 2.0,
+   "ay": 125.0,
+   "facing": "right",
+   "source": "primaryarms.com/surefire-3-prong-flash-hider-silencer-mount-sf3p-556-1-2-28 (kep: SF3P-556-1-2-28_03, 90 fokkal forgatva; meret: surefire.com/socom-3-prong-flash-hider/ Length 2.6 in)"
+  },
+  {
+   "item": "sf-rc2",
+   "slot": "main",
+   "color": "*",
+   "src": "parts/sf-rc2-main-any.webp",
+   "w": 1057,
+   "h": 254,
+   "ppi": 165.16,
+   "ax": 2.0,
+   "ay": 123.0,
+   "facing": "right",
+   "source": "primaryarms.com/surefire-socom-2-qd-sound-suppressor-socom556-rc2-bk (kep: SOCOM556-RC2-BK_03, 90 fokkal forgatva; meret: surefire.com/socom556-rc2/ Length 6.4 in, Diameter 1.5 in)"
+  }
+ ]
+}

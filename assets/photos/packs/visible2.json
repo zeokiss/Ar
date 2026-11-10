@@ -1,0 +1,18 @@
+{
+ "version": 1,
+ "photos": [
+  {
+   "item": "b5-bravo",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/b5-bravo-main-black.webp",
+   "w": 1513,
+   "h": 1044,
+   "ppi": 210.14,
+   "ax": 1510.0,
+   "ay": 137.0,
+   "facing": "right",
+   "source": "b5systems.com/collection/ar/bravo-stock/ (profile-right render, Length 7.2 in)"
+  }
+ ]
+}
