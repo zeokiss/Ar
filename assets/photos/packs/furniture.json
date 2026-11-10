@@ -210,17 +210,82 @@
    "source": "magpul.com/ubr-gen2-collapsible-stock.html"
   },
   {
+   "item": "mp-pm30",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/mp-pm30-main-black.webp",
+   "w": 423,
+   "h": 1075,
+   "ppi": 143.33,
+   "ax": 191.0,
+   "ay": 3.0,
+   "facing": "left",
+   "source": "magpul.com/pmag-30-ar-m4-gen-m3.html"
+  },
+  {
+   "item": "mp-pm30w",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/mp-pm30w-main-black.webp",
+   "w": 456,
+   "h": 1029,
+   "ppi": 137.2,
+   "ax": 254.0,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "magpul.com/pmag-30-ar-m4-gen-m3-window.html"
+  },
+  {
+   "item": "mp-pm40",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/mp-pm40-main-black.webp",
+   "w": 378,
+   "h": 1134,
+   "ppi": 116.91,
+   "ax": 170.5,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "magpul.com/pmag-40-ar-m4-gen-m3.html"
+  },
+  {
+   "item": "mp-pm10",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/mp-pm10-main-black.webp",
+   "w": 664,
+   "h": 895,
+   "ppi": 248.61,
+   "ax": 325.0,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "magpul.com/pmag-10-ar-m4-gen-m3.html"
+  },
+  {
    "item": "bcm-g3",
    "slot": "main",
    "color": "black",
    "src": "parts/bcm-g3-main-black.webp",
-   "w": 565,
-   "h": 866,
-   "ppi": 191.25,
-   "ax": 347.0,
-   "ay": 2.0,
+   "w": 622,
+   "h": 948,
+   "ppi": 191.24,
+   "ax": 318.0,
+   "ay": 325.0,
    "facing": "left",
    "source": "shooting-store.ch"
+  },
+  {
+   "item": "mp-pm20",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/mp-pm20-main-black.webp",
+   "w": 530,
+   "h": 1038,
+   "ppi": 185.36,
+   "ax": 246.0,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "magpul.com/pmag-20-ar-m4-gen-m3.html"
   }
  ]
 }
