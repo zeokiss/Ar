@@ -325,6 +325,19 @@
    "ay": 2.0,
    "facing": "left",
    "source": "magpul.com/pmag-30-ar-m4-gen-m3.html"
+  },
+  {
+   "item": "bcm-g3",
+   "slot": "main",
+   "color": "fde",
+   "src": "parts/bcm-g3-main-fde.webp",
+   "w": 422,
+   "h": 629,
+   "ppi": 126.33,
+   "ax": 224.0,
+   "ay": 213.0,
+   "facing": "right",
+   "source": "shooting-store.ch"
   }
  ]
 }

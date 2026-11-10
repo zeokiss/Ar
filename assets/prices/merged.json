@@ -3,7 +3,8 @@
  "shops": [
   "armamat.ch",
   "schiessstand.ch",
-  "shooting-store.ch"
+  "shooting-store.ch",
+  "thoron.ch"
  ],
  "built": "2026-11-10",
  "items": {
@@ -48,6 +49,15 @@
       }
      },
      "title": "Magpul MOE Grip",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 25.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-grip",
+     "in_stock": true,
+     "colors": {},
+     "title": "MOE Grip",
      "note": null
     },
     {
@@ -158,6 +168,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 25.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip",
+     "in_stock": true,
+     "colors": {},
+     "title": "MOE-K2 Grip",
+     "note": null
+    },
+    {
      "shop": "armamat.ch",
      "chf": 28.9,
      "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381206000/",
@@ -231,6 +250,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 28.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip--8750",
+     "in_stock": true,
+     "colors": {},
+     "title": "MOE-K2+ Grip",
+     "note": null
+    },
+    {
      "shop": "armamat.ch",
      "chf": 33.9,
      "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503106000/",
@@ -289,11 +317,11 @@
    ]
   },
   "mp-miad": {
-   "chf": 49.9,
-   "shop": "armamat.ch",
-   "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381306000/",
+   "chf": 46.9,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/miad-gen-11-grip-kit",
    "in_stock": true,
-   "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1",
+   "title": "MIAD GEN 1.1 Grip Kit",
    "weight_g": 159,
    "dims": "Länge 10.9 cm x Breite 3 cm x Höhe 7.1 cm",
    "offers": [
@@ -330,6 +358,15 @@
      },
      "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1",
      "note": "AR-15 (5.56) változat; a 7.62 külön termék"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 46.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/miad-gen-11-grip-kit",
+     "in_stock": true,
+     "colors": {},
+     "title": "MIAD GEN 1.1 Grip Kit",
+     "note": "A boltban Type 1 és Type 2 kit is van (azonos ár)."
     },
     {
      "shop": "armamat.ch",
@@ -486,6 +523,15 @@
      },
      "title": "Magpul CTR Carbine Stock Mil Spec",
      "note": "Mil-Spec csöves kivitel (a bolt csak ezt árulja)"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 92.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ctr-carbine-stock",
+     "in_stock": true,
+     "colors": {},
+     "title": "CTR Carbine Stock",
+     "note": null
     }
    ]
   },
@@ -553,6 +599,15 @@
      },
      "title": "Magpul MOE SL Carbine Stock Mil Spec",
      "note": "Mil-Spec csöves kivitel (a bolt csak ezt árulja)"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 92.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-carbine-stock",
+     "in_stock": true,
+     "colors": {},
+     "title": "MOE SL Carbine Stock",
+     "note": null
     }
    ]
   },
@@ -614,6 +669,15 @@
      },
      "title": "Magpul MOE SL-K Carbine Stock Mil Spec",
      "note": "Mil-Spec csöves kivitel (a bolt csak ezt árulja)"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 66.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-k-carbine-stock",
+     "in_stock": true,
+     "colors": {},
+     "title": "MOE SL-K Carbine Stock",
+     "note": null
     }
    ]
   },
@@ -686,6 +750,15 @@
       }
      },
      "title": "Magpul UBR Gen 2.0 Collapsible Stock",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 323.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ubr-gen2-collapsible-stock",
+     "in_stock": true,
+     "colors": {},
+     "title": "UBR GEN2 Collapsible Stock",
      "note": null
     }
    ]
@@ -776,6 +849,15 @@
      },
      "title": "Magpul – PRS GEN3 Precision-Adjustable Stock / Black",
      "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 344.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-gen3-precision-adjustable-stock",
+     "in_stock": true,
+     "colors": {},
+     "title": "PRS GEN3 Precision-Adjustable Stock",
+     "note": "Bolti név: PRS GEN3 Precision-Adjustable Stock"
     }
    ]
   },
@@ -831,15 +913,24 @@
      },
      "title": "Magpul PRS Lite",
      "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 172.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-lite-stock",
+     "in_stock": true,
+     "colors": {},
+     "title": "PRS Lite Stock",
+     "note": null
     }
    ]
   },
   "mp-pad030": {
-   "chf": 26.9,
-   "shop": "armamat.ch",
-   "url": "https://www.armamat.ch/de-ch/p/rubber-butt-pad-10381706000/",
+   "chf": 22.9,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/rubber-butt-pad-030",
    "in_stock": true,
-   "title": "Magpul Rubber Butt-Pad",
+   "title": "Rubber Butt-Pad | 0.30\"",
    "weight_g": 37,
    "dims": "Länge 13 cm x Breite 3.7 cm x Höhe 2.3 cm",
    "offers": [
@@ -851,6 +942,15 @@
      "colors": {},
      "title": "Magpul Rubber Buttpad Black",
      "note": "Alap gumi tustalp; a vastagságot (0.30\") a bolti oldal nem írja ki, a név alapján azonosítva"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 22.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/rubber-butt-pad-030",
+     "in_stock": true,
+     "colors": {},
+     "title": "Rubber Butt-Pad | 0.30\"",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -871,11 +971,11 @@
    ]
   },
   "mp-pad055": {
-   "chf": 26.9,
-   "shop": "armamat.ch",
-   "url": "https://www.armamat.ch/de-ch/p/extended-rubber-buttpad-10502506000/",
+   "chf": 22.9,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/extended-rubber-butt-pad-055",
    "in_stock": true,
-   "title": "Magpul Extended Rubber Buttpad",
+   "title": "Extended Rubber Butt-Pad | 0.55\"",
    "weight_g": 50,
    "dims": "Länge 13.3 cm x Breite 4 cm x Höhe 2.9 cm",
    "offers": [
@@ -887,6 +987,15 @@
      "colors": {},
      "title": "Magpul Extended Rubber Buttpad Black",
      "note": "Extended; a vastagságot (0.55\") a bolti oldal nem írja ki, a név alapján azonosítva"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 22.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/extended-rubber-butt-pad-055",
+     "in_stock": true,
+     "colors": {},
+     "title": "Extended Rubber Butt-Pad | 0.55\"",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -907,11 +1016,11 @@
    ]
   },
   "mp-pad070": {
-   "chf": 26.9,
-   "shop": "armamat.ch",
-   "url": "https://www.armamat.ch/de-ch/p/enhanced-rubber-butt-pad-10381806000/",
+   "chf": 22.9,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/enhanced-rubber-butt-pad-070",
    "in_stock": true,
-   "title": "Magpul Enhanced Rubber Butt-Pad",
+   "title": "Enhanced Rubber Butt-Pad | 0.70\"",
    "weight_g": 58,
    "dims": "Länge 13.4 cm x Breite 4 cm x Höhe 3.3 cm",
    "offers": [
@@ -923,6 +1032,15 @@
      "colors": {},
      "title": "Magpul Enhanced Rubber Buttpad Black",
      "note": "Enhanced; a vastagságot (0.70\") a bolti oldal nem írja ki, a név alapján azonosítva"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 22.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/enhanced-rubber-butt-pad-070",
+     "in_stock": true,
+     "colors": {},
+     "title": "Enhanced Rubber Butt-Pad | 0.70\"",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -961,6 +1079,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 22.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/moe-sl-enhanced-rubber-butt-pad-070",
+     "in_stock": true,
+     "colors": {},
+     "title": "MOE SL Enhanced Rubber Butt-Pad | 0.70\"",
+     "note": null
+    },
+    {
      "shop": "armamat.ch",
      "chf": 26.9,
      "url": "https://www.armamat.ch/de-ch/p/moe-sl-enhanced-rubber-butt-pad-0.70-inches-10619406000/",
@@ -984,7 +1111,7 @@
    "url": "https://www.armamat.ch/de-ch/p/exps3-0-10183106000/",
    "in_stock": true,
    "title": "EoTech EXPS3-0",
-   "weight_g": 314,
+   "weight_g": 315,
    "dims": "Länge 9.1 cm x Breite 7 cm x Höhe 5.5 cm",
    "offers": [
     {
@@ -1046,6 +1173,15 @@
      },
      "title": "EoTech – EXPS3-0",
      "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 999.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-exps3-0--1605684553",
+     "in_stock": true,
+     "colors": {},
+     "title": "HWS EXPS3-0",
+     "note": null
     }
    ]
   },
@@ -1055,7 +1191,7 @@
    "url": "https://www.armamat.ch/de-ch/p/exps2-0-10232906000/",
    "in_stock": true,
    "title": "EoTech EXPS2-0",
-   "weight_g": 313,
+   "weight_g": 314,
    "dims": "Länge 9.1 cm x Breite 5.4 cm x Höhe 7.1 cm",
    "offers": [
     {
@@ -1082,6 +1218,15 @@
      },
      "title": "EoTech EXPS2-0",
      "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 925.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-exps2-0--1118542061",
+     "in_stock": true,
+     "colors": {},
+     "title": "HWS EXPS2-0",
+     "note": "Piros célkereszt; a zöld változat a boltban külön, drágább termék."
     },
     {
      "shop": "shooting-store.ch",
@@ -1136,6 +1281,15 @@
      "colors": {},
      "title": "EoTech – XPS2-0",
      "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 859.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-xps2-0--1118542071",
+     "in_stock": true,
+     "colors": {},
+     "title": "HWS XPS2-0",
+     "note": "Piros célkereszt; a zöld változat a boltban külön, drágább termék."
     }
    ]
   },
@@ -1191,6 +1345,15 @@
      },
      "title": "Holosun HS510C Kreispunktvisier OPEN Reflex Visier, Solar 2 MOA Punkt & 65 MOA Ring",
      "note": "HS510C (piros, 2 MOA pont + 65 MOA gyűrű, napelemes)"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 430.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/dot-sight-hs510c--1669314857",
+     "in_stock": true,
+     "colors": {},
+     "title": "Dot Sight HS510C",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -1440,6 +1603,15 @@
      "colors": {},
      "title": "EOTECH – Vudu® 1-6×24 FFP / 7.62 SR2 Absehen",
      "note": "bolti változat: FFP, 7.62 SR2 szálkereszt (a data.js nem ad szálkeresztet)"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 1671.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-scopes-zielfernrohre/vudu-1-6x24-ffp",
+     "in_stock": false,
+     "colors": {},
+     "title": "Vudu 1-6x24 FFP",
+     "note": "A boltban csak FFP, többféle célkereszttel (azonos ár); a megjelenített a 5.56 BDC."
     }
    ]
   },
@@ -1476,6 +1648,15 @@
      "colors": {},
      "title": "EoTech Vudu 1-10x28 FFP - LE5 Reticle MRAD Black",
      "note": "Két reticle-változat (LE5 / SR5), azonos ár"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 2239.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-scopes-zielfernrohre/vudu-1-10x28-ffp--3517",
+     "in_stock": false,
+     "colors": {},
+     "title": "Vudu 1-10x28 FFP",
+     "note": "A boltban 3 változat (sr5-mrad, sr4-moa, le5-mrad) azonos áron."
     }
    ]
   },
@@ -1583,6 +1764,15 @@
      },
      "title": "EoTech G33.STS Magnifier Black",
      "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 869.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/magnifier/g33-magnifier--1118542065",
+     "in_stock": true,
+     "colors": {},
+     "title": "G33 Magnifier",
+     "note": "Bolti SKU: G33.STS (Flip-to-Side montázzsal)."
     }
    ]
   },
@@ -1612,6 +1802,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 284.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/magnifier/hm3x-magnifier",
+     "in_stock": true,
+     "colors": {},
+     "title": "HM3X Magnifier",
+     "note": null
+    },
+    {
      "shop": "shooting-store.ch",
      "chf": 287.0,
      "url": "https://www.shooting-store.ch/de/produkt/holosun-hm3x-magnifier-black",
@@ -1632,14 +1831,23 @@
    ]
   },
   "sl-tlr1": {
-   "chf": 252.9,
-   "shop": "shooting-store.ch",
-   "url": "https://www.shooting-store.ch/de/produkt/streamlight-tlr-1-hl-black",
+   "chf": 249.9,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/pistol-lights-pistolenlampen/tlr-1-hl",
    "in_stock": true,
-   "title": "Streamlight TLR-1 HL Black",
+   "title": "TLR-1 HL",
    "weight_g": 130,
    "dims": "Länge 8 cm x Breite 3.9 cm x Höhe 2.5 cm",
    "offers": [
+    {
+     "shop": "thoron.ch",
+     "chf": 249.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/pistol-lights-pistolenlampen/tlr-1-hl",
+     "in_stock": true,
+     "colors": {},
+     "title": "TLR-1 HL",
+     "note": null
+    },
     {
      "shop": "armamat.ch",
      "chf": 252.9,
@@ -1767,6 +1975,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 33.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/m-lok-hand-stop-kit",
+     "in_stock": true,
+     "colors": {},
+     "title": "M-LOK Hand Stop Kit",
+     "note": null
+    },
+    {
      "shop": "armamat.ch",
      "chf": 36.9,
      "url": "https://www.armamat.ch/de-ch/p/m-lok-hand-stop-kit-10505506000/",
@@ -1818,6 +2035,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 26.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/zubehoermontagen/montageschienen/m-lok/aluminum-picatinny-rail-m-lok--8779",
+     "in_stock": true,
+     "colors": {},
+     "title": "Aluminum Picatinny Rail M-LOK",
+     "note": null
+    },
+    {
      "shop": "armamat.ch",
      "chf": 28.9,
      "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-section-aluminium-5-slots-10464006000/",
@@ -1851,6 +2077,15 @@
      "in_stock": true,
      "colors": {},
      "title": "Magpul M-LOK QD Sling Mount Black",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 27.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/zubehoermontagen/m-lok-qd-sling-mount",
+     "in_stock": true,
+     "colors": {},
+     "title": "M-LOK QD Sling Mount",
      "note": null
     },
     {
@@ -1931,6 +2166,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 19.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/m-lok-rail-covers-type-2--8802",
+     "in_stock": true,
+     "colors": {},
+     "title": "M-LOK Rail Covers | Type 2",
+     "note": null
+    },
+    {
      "shop": "schiessstand.ch",
      "chf": 22.9,
      "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-black/",
@@ -1989,11 +2233,11 @@
    ]
   },
   "gs-s3g": {
-   "chf": 414.9,
-   "shop": "armamat.ch",
-   "url": "https://www.armamat.ch/de-ch/p/ar15-super-3-gun-s3g-trigger-113721/",
+   "chf": 359.0,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-3-gun-s3g-trigger",
    "in_stock": true,
-   "title": "Geissele Automatics AR15 Super 3 Gun S3G Trigger",
+   "title": "Super 3 Gun (S3G) Trigger",
    "weight_g": 80,
    "dims": "Länge 5.1 cm x Breite 5.1 cm x Höhe 2.3 cm",
    "offers": [
@@ -2004,6 +2248,15 @@
      "in_stock": false,
      "colors": {},
      "title": "Geissele Automatics AR15 Super 3 Gun S3G Trigger",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 359.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-3-gun-s3g-trigger",
+     "in_stock": true,
+     "colors": {},
+     "title": "Super 3 Gun (S3G) Trigger",
      "note": null
     },
     {
@@ -2058,6 +2311,15 @@
       }
      },
      "title": "Radian Weapons Raptor Ambidextrous Charging Handle AR15 Black",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 129.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--9172",
+     "in_stock": true,
+     "colors": {},
+     "title": "Raptor",
      "note": null
     },
     {
@@ -2138,6 +2400,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 99.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-lt--9182",
+     "in_stock": true,
+     "colors": {},
+     "title": "Raptor-LT",
+     "note": null
+    },
+    {
      "shop": "armamat.ch",
      "chf": 114.9,
      "url": "https://www.armamat.ch/de-ch/p/raptor-lt-ambidextrous-charging-handle-for-ar15-11262706000/",
@@ -2210,6 +2481,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 44.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/bad-lever-battery-assist-device",
+     "in_stock": true,
+     "colors": {},
+     "title": "B.A.D. Lever - Battery Assist Device",
+     "note": null
+    },
+    {
      "shop": "schiessstand.ch",
      "chf": 48.9,
      "url": "https://shop.schiessstand.ch/produkt/magpul-b-a-d-lever-battery-assist-device-ar15-m4-schwarz/",
@@ -2275,6 +2555,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 22.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-10-ar-m4-gen-m3",
+     "in_stock": true,
+     "colors": {},
+     "title": "PMAG 10 AR/M4 GEN M3",
+     "note": null
+    },
+    {
      "shop": "armamat.ch",
      "chf": 24.9,
      "url": "https://www.armamat.ch/de-ch/p/pmag-10-gen-m3-10410706000/",
@@ -2330,6 +2619,15 @@
       }
      },
      "title": "Magpul PMAG 20 Gen M3 Black",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 22.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-20-ar-m4-gen-m3",
+     "in_stock": true,
+     "colors": {},
+     "title": "PMAG 20 AR/M4 GEN M3",
      "note": null
     },
     {
@@ -2397,6 +2695,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 21.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3",
+     "in_stock": true,
+     "colors": {},
+     "title": "PMAG 30 AR/M4 GEN M3",
+     "note": null
+    },
+    {
      "shop": "schiessstand.ch",
      "chf": 24.9,
      "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-30-gen-m3-black/",
@@ -2437,14 +2744,23 @@
    ]
   },
   "mp-pm30w": {
-   "chf": 29.9,
-   "shop": "armamat.ch",
-   "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-10294506000/",
+   "chf": 26.9,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3-window",
    "in_stock": true,
-   "title": "Magpul PMAG 30 Gen M3 Window",
+   "title": "PMAG 30 AR/M4 GEN M3 Window",
    "weight_g": 150,
    "dims": "Länge 19 cm x Breite 7.5 cm x Höhe 2.8 cm",
    "offers": [
+    {
+     "shop": "thoron.ch",
+     "chf": 26.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3-window",
+     "in_stock": true,
+     "colors": {},
+     "title": "PMAG 30 AR/M4 GEN M3 Window",
+     "note": null
+    },
     {
      "shop": "armamat.ch",
      "chf": 29.9,
@@ -2526,6 +2842,15 @@
      "note": null
     },
     {
+     "shop": "thoron.ch",
+     "chf": 34.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-40-ar-m4-gen-m3",
+     "in_stock": true,
+     "colors": {},
+     "title": "PMAG 40 AR/M4 GEN M3",
+     "note": null
+    },
+    {
      "shop": "armamat.ch",
      "chf": 36.9,
      "url": "https://www.armamat.ch/de-ch/p/pmag-40-gen-m3-12184806000/",
@@ -2544,11 +2869,11 @@
    ]
   },
   "mp-ms1": {
-   "chf": 54.9,
-   "shop": "armamat.ch",
-   "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411106000/",
+   "chf": 52.9,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms1-sling",
    "in_stock": true,
-   "title": "Magpul MS1 Sling",
+   "title": "MS1 Sling",
    "weight_g": 168,
    "dims": "Länge 163 cm x Breite 4.9 cm x Höhe 1.3 cm",
    "offers": [
@@ -2584,6 +2909,15 @@
       }
      },
      "title": "Magpul MS1 Sling",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 52.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms1-sling",
+     "in_stock": true,
+     "colors": {},
+     "title": "MS1 Sling",
      "note": null
     },
     {
@@ -2730,6 +3064,15 @@
      },
      "title": "Magpul – MS4® Dual QD Sling GEN2 / Black",
      "note": "bolti kivitel: GEN2"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 114.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms4-dual-qd-sling",
+     "in_stock": true,
+     "colors": {},
+     "title": "MS4 Dual QD Sling",
+     "note": null
     }
    ]
   },
@@ -2774,6 +3117,15 @@
       }
      },
      "title": "Blue Force Gear Vickers Combat Application Sling",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 82.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/vickers-combat-application-sling--3874",
+     "in_stock": false,
+     "colors": {},
+     "title": "Vickers Combat Application Sling",
      "note": null
     },
     {
@@ -2870,6 +3222,15 @@
      },
      "title": "Selbstladebüchse Schmeisser AR15 S4F Black 10.5\" .223 Rem",
      "note": "Standard (Selbstladebüchse, M-LOK, 10.5\", .223 Rem); a Solid Line / Special Edition / CSS-tusos kivitelek más termékek"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 2325.0,
+     "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ar15-s4f-m-lock-105",
+     "in_stock": false,
+     "colors": {},
+     "title": "AR15 S4F M-Lock | 10.5\"",
+     "note": "Bolti név: AR15 S4F M-Lock 10.5\" (.223 Rem.)"
     }
    ]
   },
@@ -3070,11 +3431,11 @@
    ]
   },
   "tj-acog": {
-   "chf": 1729.0,
-   "shop": "schiessstand.ch",
-   "url": "https://shop.schiessstand.ch/produkt/trijicon-zielgeraet-acog-tr-ta31-4x32-dual-illuminated-red-dount-223-bac-reticlemount/",
-   "in_stock": false,
-   "title": "Trijicon – Zielgerät ACOG / TR-TA31 / 4×32 Dual Illuminated / Red Dount / .223 BAC ReticleMount",
+   "chf": 2399.0,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/acog-4x32-bac-riflescope",
+   "in_stock": true,
+   "title": "ACOG 4x32 BAC Riflescope",
    "weight_g": null,
    "dims": null,
    "offers": [
@@ -3086,6 +3447,15 @@
      "colors": {},
      "title": "Trijicon – Zielgerät ACOG / TR-TA31 / 4×32 Dual Illuminated / Red Dount / .223 BAC ReticleMount",
      "note": "bolti változat: TA31 4x32, .223 BAC szálkereszt, dual illuminated, szereléssel (a szálkereszt-változat nem azonosítható a data.js-ből)"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 2399.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/acog-4x32-bac-riflescope",
+     "in_stock": true,
+     "colors": {},
+     "title": "ACOG 4x32 BAC Riflescope",
+     "note": "Bolti kivitel: TA31F (.223/5.56 BDC); a data.js csak \"TA31\"-et ír."
     }
    ]
   },
@@ -3122,6 +3492,15 @@
      "colors": {},
      "title": "Eotech Vergrösserungsaufsatz G43.STS 3x Magnifier/Montage Picatinny (MIL STD 1913)/1\"Weaver",
      "note": "G43.STS (STS szerelékkel); a data.js \"Micro szerelék\" megjelölése eltér"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 939.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/magnifier/g43-magnifier--1118542067",
+     "in_stock": true,
+     "colors": {},
+     "title": "G43 Magnifier",
+     "note": "Bolti SKU: G43.STS (Flip-to-Side montázzsal) - a data.js \"Micro szerelék\" megjelölése nem ellenőrizhető."
     }
    ]
   },
@@ -3184,6 +3563,15 @@
      },
      "title": "SureFire – Lampe / Mod. M640DF Dual Fuel Scout pro / schwarz",
      "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 439.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/rifle-lights-gewehrlampen/scout-light-pro-m640df",
+     "in_stock": true,
+     "colors": {},
+     "title": "Scout Light Pro M640DF",
+     "note": null
     }
    ]
   },
@@ -3196,6 +3584,15 @@
    "weight_g": null,
    "dims": null,
    "offers": [
+    {
+     "shop": "thoron.ch",
+     "chf": 395.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/pistol-lights-pistolenlampen/x300u-b",
+     "in_stock": false,
+     "colors": {},
+     "title": "X300U-B",
+     "note": null
+    },
     {
      "shop": "schiessstand.ch",
      "chf": 399.0,
@@ -3236,6 +3633,15 @@
      "in_stock": true,
      "colors": {},
      "title": "Streamlight ProTac Rail Mount HL X Black",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 225.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/rifle-lights-gewehrlampen/protac-rail-mount-hl-x",
+     "in_stock": true,
+     "colors": {},
+     "title": "ProTac Rail Mount HL-X",
      "note": null
     },
     {
@@ -3308,6 +3714,15 @@
      },
      "title": "BCM – Gunfighter Vertical Grip / Black",
      "note": "bolti SKU: BCM-VG-MCMR-MOD-3 (Mod 3, M-LOK)"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 49.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/gunfighter-vertical-grip--4251",
+     "in_stock": true,
+     "colors": {},
+     "title": "Gunfighter Vertical Grip",
+     "note": "Bolti SKU: BCM-VG-MCMR-MOD-3 (M-LOK, Mod 3)."
     }
    ]
   },
@@ -3363,6 +3778,15 @@
      },
      "title": "BCM – Gunfighter KAG Angled Grip / Black",
      "note": "bolti SKU: BCM-KAG-MCMR (M-LOK)"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 38.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/gunfighter-kag-angled-grip",
+     "in_stock": true,
+     "colors": {},
+     "title": "Gunfighter KAG Angled Grip",
+     "note": null
     }
    ]
   },
@@ -3395,6 +3819,15 @@
       }
      },
      "title": "Magpul Bipod for M-LOK",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 172.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/mono-bipods/bipod-for-m-lok",
+     "in_stock": true,
+     "colors": {},
+     "title": "Bipod for M-LOK",
      "note": null
     },
     {
@@ -3455,14 +3888,23 @@
    ]
   },
   "dd-v7": {
-   "chf": 2580.0,
-   "shop": "shooting-store.ch",
-   "url": "https://www.shooting-store.ch/de/produkt/daniel-defense-ddm4-v7-16-556-nato-brown-milspec",
-   "in_stock": false,
-   "title": "Daniel Defense DDM4 V7 16\", 5.56 NATO, Brown, MilSpec",
+   "chf": 2450.0,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16",
+   "in_stock": true,
+   "title": "DDM4 V7 | 16\"",
    "weight_g": 2812,
    "dims": "Lauflänge in mm: 406.4; Lauflänge in Zoll: 16",
    "offers": [
+    {
+     "shop": "thoron.ch",
+     "chf": 2450.0,
+     "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16",
+     "in_stock": true,
+     "colors": {},
+     "title": "DDM4 V7 | 16\"",
+     "note": null
+    },
     {
      "shop": "shooting-store.ch",
      "chf": 2580.0,
@@ -3634,11 +4076,11 @@
    ]
   },
   "gs-sp30": {
-   "chf": 396.3,
-   "shop": "shooting-store.ch",
-   "url": "https://www.shooting-store.ch/de/produkt/super-precision-30mm-193-black",
-   "in_stock": false,
-   "title": "Super Precision 30MM 1.93, Black",
+   "chf": 436.9,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-scope-mount-zf-montagen/super-precision-scope-mount-193",
+   "in_stock": true,
+   "title": "Super Precision Scope Mount | 1.93\"",
    "weight_g": null,
    "dims": null,
    "offers": [
@@ -3663,6 +4105,15 @@
      },
      "title": "Super Precision 30MM 1.93, Black",
      "note": "Geissele Super Precision 30 mm, 1.93\" magasság"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 436.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-scope-mount-zf-montagen/super-precision-scope-mount-193",
+     "in_stock": true,
+     "colors": {},
+     "title": "Super Precision Scope Mount | 1.93\"",
+     "note": null
     }
    ]
   },
@@ -3747,11 +4198,11 @@
    ]
   },
   "gs-ssae": {
-   "chf": 295.2,
-   "shop": "shooting-store.ch",
-   "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-enhanced-ssa-e",
-   "in_stock": false,
-   "title": "Super Semi-Automatic Enhanced (SSA-E)",
+   "chf": 359.0,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-semi-automatic-enhanced-ssa-e-trigger",
+   "in_stock": true,
+   "title": "Super Semi-Automatic Enhanced (SSA-E) Trigger",
    "weight_g": null,
    "dims": null,
    "offers": [
@@ -3762,6 +4213,15 @@
      "in_stock": false,
      "colors": {},
      "title": "Super Semi-Automatic Enhanced (SSA-E)",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 359.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-semi-automatic-enhanced-ssa-e-trigger",
+     "in_stock": true,
+     "colors": {},
+     "title": "Super Semi-Automatic Enhanced (SSA-E) Trigger",
      "note": null
     }
    ]
@@ -3783,6 +4243,15 @@
      "colors": {},
      "title": "Super Semi-Automatic (SSA)",
      "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 328.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-semi-automatic-ssa-trigger",
+     "in_stock": false,
+     "colors": {},
+     "title": "Super Semi-Automatic (SSA) Trigger",
+     "note": null
     }
    ]
   },
@@ -3802,6 +4271,15 @@
      "in_stock": true,
      "colors": {},
      "title": "Super Dynamic Enhanced (SD-E)",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 359.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-dynamic-enhanced-sd-e-trigger",
+     "in_stock": true,
+     "colors": {},
+     "title": "Super Dynamic Enhanced (SD-E) Trigger",
      "note": null
     }
    ]
@@ -3836,15 +4314,24 @@
      },
      "title": "Radian Weapons AR-15 Raptor-SD Ambidextrous Charging Handle Black",
      "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 159.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-sd",
+     "in_stock": true,
+     "colors": {},
+     "title": "Raptor-SD",
+     "note": null
     }
    ]
   },
   "gs-ach": {
-   "chf": 141.0,
-   "shop": "shooting-store.ch",
-   "url": "https://www.shooting-store.ch/de/produkt/airborne-charging-handle-ach-556-black",
-   "in_stock": false,
-   "title": "Airborne Charging Handle (ACH), 5.56, Black",
+   "chf": 159.0,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/airborne-charging-handle",
+   "in_stock": true,
+   "title": "Airborne Charging Handle",
    "weight_g": null,
    "dims": null,
    "offers": [
@@ -3869,6 +4356,15 @@
      },
      "title": "Airborne Charging Handle (ACH), 5.56, Black",
      "note": "A boltban \"Airborne Charging Handle (ACH)\" néven (Geissele nevet nem tartalmazza a cím)"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 159.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/airborne-charging-handle",
+     "in_stock": true,
+     "colors": {},
+     "title": "Airborne Charging Handle",
+     "note": null
     }
    ]
   },
@@ -3907,6 +4403,115 @@
       }
      },
      "title": "Magpul MOE Enhanced Trigger Guard, Polymer - AR15/M4",
+     "note": null
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 13.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/trigger-guard-abzugsbuegel/moe-enhanced-trigger-guard-polymer",
+     "in_stock": false,
+     "colors": {},
+     "title": "MOE Enhanced Trigger Guard, Polymer",
+     "note": null
+    }
+   ]
+  },
+  "ap-t2": {
+   "chf": 1217.4,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/micro-t-2-schwarz-lrp-montage-39-mm",
+   "in_stock": false,
+   "title": "Micro T-2 Schwarz | LRP Montage | 39 mm",
+   "weight_g": null,
+   "dims": "Höhe der optischen Achse 39 mm (1.5 in) gemessen von der Oberseite der Montageplattform",
+   "offers": [
+    {
+     "shop": "thoron.ch",
+     "chf": 1217.4,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/micro-t-2-schwarz-lrp-montage-39-mm",
+     "in_stock": false,
+     "colors": {},
+     "title": "Micro T-2 Schwarz | LRP Montage | 39 mm",
+     "note": "Bolti kivitel: Micro T-2 LRP-quick-release montázzsal és 39 mm távtartóval."
+    }
+   ]
+  },
+  "ap-m5": {
+   "chf": 865.0,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/pistol-sights-visierungen/pistol-reflex-sights-red-dot/comp-m5",
+   "in_stock": false,
+   "title": "Comp M5",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "thoron.ch",
+     "chf": 865.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/pistol-sights-visierungen/pistol-reflex-sights-red-dot/comp-m5",
+     "in_stock": false,
+     "colors": {},
+     "title": "Comp M5",
+     "note": "A bolti leírás szerint a CompM5 LRP-montázzsal és 39 mm távtartóval kerül eladásra."
+    }
+   ]
+  },
+  "tj-vcog": {
+   "chf": 3999.0,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/vcog1-8x28-riflescope-sco",
+   "in_stock": true,
+   "title": "VCOG® 1-8x28 Riflescope - SCO",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "thoron.ch",
+     "chf": 3999.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/vcog1-8x28-riflescope-sco",
+     "in_stock": true,
+     "colors": {},
+     "title": "VCOG® 1-8x28 Riflescope - SCO",
+     "note": "Bolti kivitel: VCOG 1-8x28 SCO, LaRue Tactical LT799 szereléssel."
+    }
+   ]
+  },
+  "sf-warcomp": {
+   "chf": 219.0,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/muendungsaufsaetze/warcomp-flash-hider",
+   "in_stock": false,
+   "title": "WARCOMP Flash Hider",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "thoron.ch",
+     "chf": 219.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/muendungsaufsaetze/warcomp-flash-hider",
+     "in_stock": false,
+     "colors": {},
+     "title": "WARCOMP Flash Hider",
+     "note": null
+    }
+   ]
+  },
+  "mp-d60": {
+   "chf": 200.9,
+   "shop": "thoron.ch",
+   "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-d-60-ar-m4-gen-m3",
+   "in_stock": false,
+   "title": "PMAG D-60 AR/M4 GEN M3",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "thoron.ch",
+     "chf": 200.9,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-d-60-ar-m4-gen-m3",
+     "in_stock": false,
+     "colors": {},
+     "title": "PMAG D-60 AR/M4 GEN M3",
      "note": null
     }
    ]
