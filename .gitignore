@@ -2,3 +2,7 @@ assets/photos/_src/
 
 # ideiglenes
 assets/photos/_check/
+
+# Python gyorsítótár
+__pycache__/
+*.pyc
