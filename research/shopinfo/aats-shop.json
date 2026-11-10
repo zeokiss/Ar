@@ -1,0 +1,18 @@
+{
+  "domain": "aats-shop.ch",
+  "url": "https://www.aats-shop.ch/",
+  "name": "AATS-Group GmbH (AATS-Shop)",
+  "addr": "Kirchbergstrasse 192 (2. OG), 3400 Burgdorf",
+  "city": "Burgdorf BE",
+  "canton": "BE",
+  "tel": "+41 34 413 40 40",
+  "kind": "both",
+  "ships": null,
+  "shipNote": "Nem ellenőrizhető: az aats-shop.ch és a shop.aats-group.ch is az aats-group.ch hostra irányít át, amely ebből a hálózatból nem érhető el (az egress proxy 403-at ad a CONNECT-re), így a szállítási feltételek nem olvashatók.",
+  "online_prices": null,
+  "sources": [
+    "https://www.aats-shop.ch/",
+    "https://shop.aats-group.ch/"
+  ],
+  "notes": "BLOKKOLT (hálózati szabályzat, nem botvédelem): a bolt tartalma nem tölthető le. A cím/telefon a korábbi kutatásból való (research/shopinfo_extra.json: aats-group.ch/geschaeft és cégtárak keresési kivonata), a bolt saját oldaláról nem ellenőriztük. A kutatás szerint árak: SureFire M640DFT-PRO CHF 445.80, Holosun ARO-MRS CHF 298 – ezeket nem vettük fel (nem ellenőrizhetők, és az M640DFT nem azonos az M640DF-fel)."
+}

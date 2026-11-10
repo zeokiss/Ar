@@ -1,0 +1,19 @@
+{
+  "domain": "dangos.ch",
+  "url": "https://www.dangos.ch/",
+  "name": "DangoS Waffen GmbH",
+  "addr": "Industriestrasse 8, 8880 Walenstadt",
+  "city": "Walenstadt SG",
+  "canton": "SG",
+  "tel": "+41 81 515 70 03",
+  "kind": "both",
+  "ships": null,
+  "shipNote": "Az ÁSZF szerint az árak a MwSt-t tartalmazzák, de a csomagolási és szállítási költség nélkül; személyes átvételkor nincs szállítási költség; a szállítás a rendelés beérkezésétől számított 5–14 munkanapon belül történik, fizetés: PostFinance Card/E-Finance, Twint, előre fizetés vagy átvételkor készpénz. A szállítási területet (Svájc), a díjtáblázatot és az engedélyköteles áruk szállítását az oldal nem írja le, ezért a 'ships' nincs megerősítve; fegyvereknél az ÁSZF fegyvervásárlási szerződés aláírását említi.",
+  "online_prices": true,
+  "sources": [
+    "https://www.dangos.ch/de/impressum",
+    "https://www.dangos.ch/de/agb",
+    "https://www.dangos.ch/"
+  ],
+  "notes": "Az Impressum szerint az online portálért a DangoS Waffen GmbH felel (Industriestrasse 8, 8880 Walenstadt); a főoldalon telefon: 081 515 70 03 és 079 360 35 54, e-mail info@dangos.ch; az ÁSZF szerint eladóhely (Verkaufslokal) és online shop. Egyedi shop-motor (kereső: /de/suche?search=…). A színváltozatok külön termékként szerepelnek; sok tétel a raktárkészlet-jelzés szerint 'nicht auf Lager'."
+}

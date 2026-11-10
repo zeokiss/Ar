@@ -1,0 +1,18 @@
+{
+  "domain": "gun-art.ch",
+  "url": "https://www.gun-art.ch/",
+  "name": "Thalmann Gun-Art",
+  "addr": "Kreuzlingerstrasse 75, 8590 Romanshorn (üzleti cím); szállítási/feladási cím: Amriswilerstrasse 57, 8589 Sitterdorf",
+  "city": "Romanshorn TG",
+  "canton": "TG",
+  "tel": "+41 79 418 71 95",
+  "kind": "both",
+  "ships": true,
+  "shipNote": "A szállítási tájékoztató szerint a Svájcba irányuló standard szállítási díj CHF 1.50 (az oldal szó szerinti adata; az árak 'Endpreis, zzgl. Versandkosten'), a termékoldalak 1–3 napos szállítási időt jeleznek. Külföldre is szállítanak (CHF 7.50–18.00). Fegyverre/alkatrészre vonatkozó engedélyről az oldal itt nem ír.",
+  "online_prices": true,
+  "sources": [
+    "https://www.gun-art.ch/kontakt/",
+    "https://www.gun-art.ch/j/shop/deliveryinfo"
+  ],
+  "notes": "Jimdo Creator + Jimdo Store webshop (nincs keresőmező; termékek kategória-oldalakon). Fegyvermester-műhely és bolt; a Kontakt oldal szerint telefonon/WhatsApp-on is elérhető (079 418 71 95). Impressum-link az oldalon nem volt megtalálható, a cégnév a Kontakt oldalról való ('Thalmann Gun-Art')."
+}

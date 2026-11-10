@@ -1,0 +1,21 @@
+{
+  "domain": "taczone.ch",
+  "url": "https://www.taczone.ch/",
+  "name": "TacWorld GmbH (Taczone)",
+  "addr": "Schützenmattstr. 144, 8180 Bülach (üzlet); cégcím: Grubenackerstrasse 11, 8052 Zürich",
+  "city": "Bülach ZH",
+  "canton": "ZH",
+  "tel": "+41 43 536 17 10",
+  "kind": "both",
+  "ships": true,
+  "shipNote": "A GYIK szerint a postaköltség Svájcon belül CHF 9.-, CHF 250.- áruértéktől ingyenes; az ÁSZF szerint külföldre is szállítanak (a svájci Postával vagy más fuvarozóval). A 10 töltényesnél nagyobb tárakhoz (és a törvényben felsorolt félautomata fegyverekhez) a 'Gesetzliche Bestimmungen' oldal és a termékoldalak szerint kivételes engedély (Ausnahmebewilligung) vagy birtoklási igazolás kell.",
+  "online_prices": true,
+  "sources": [
+    "https://www.taczone.ch/impressum/",
+    "https://www.taczone.ch/fragen-antworten/",
+    "https://www.taczone.ch/agb/",
+    "https://www.taczone.ch/gesetzliche-bestimmungen/",
+    "https://www.taczone.ch/kontakt/"
+  ],
+  "notes": "Az Impressum szerint az oldalért a TacWorld GmbH felel (Grubenackerstrasse 11, 8052 Zürich; UID CHE-294.994.657); a bülachi üzlet nyitva: K 13–21, Sze–P 10–12 és 13–19, Szo 9–16, hétfő zárva. Testvér-webshopok: survivalzone.ch, armazone.ch, perchzone.ch. WooCommerce-motor. A kínálatból a konfigurátorhoz csak a PMAG tárak relevánsak."
+}

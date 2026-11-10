@@ -1,0 +1,19 @@
+{
+  "domain": "bpshop.ch",
+  "url": "https://bpshop.ch/",
+  "name": "BP-Group GmbH (BP Group Shop)",
+  "addr": "Dorfstrasse 63, 5244 Birrhard",
+  "city": "Birrhard AG",
+  "canton": "AG",
+  "tel": null,
+  "kind": "online",
+  "ships": null,
+  "shipNote": "Az ÁSZF szerint a szállítási költséget külön számítják fel, és a rendelési folyamatban jelenítik meg; a tarifát, az ingyenes határt, a szállítási területet (Svájc) és az engedélyköteles áruk szállítását az oldal nem írja le, ezért a 'ships' nincs megerősítve. A rendelés csak a teljes fizetés beérkezése után kerül kiszállításra (számlás vásárlás kivétel).",
+  "online_prices": true,
+  "sources": [
+    "https://bpshop.ch/impressum/",
+    "https://bpshop.ch/kontakt/",
+    "https://bpshop.ch/agb/"
+  ],
+  "notes": "Az Impressum/Kontakt szerint a BP-Group GmbH (UID CHE-110.042.644) üzemelteti; csak e-mail (info(at)bpshop.ch) és kapcsolatfelvételi űrlap szerepel, telefonszám és üzlet nincs. Az ÁSZF szerint az oldalon kiírt árak végárak, a törvényes MwSt-t tartalmazzák (a 'rein netto' kifejezés ugyanott CHF-értékre utal). WooCommerce-motor; Trijicon, EOTech, Streamlight, ELCAN, C&H Precision stb. – főleg pisztoly-/optikai kiegészítők."
+}

@@ -14,32 +14,19 @@
   },
   "aats-shop.ch": {
    "name": "AATS-Group GmbH",
-   "display": "AATS-Shop",
    "addr": "Kirchbergstrasse 192, 3400 Burgdorf",
-   "city": "Burgdorf",
+   "city": "Burgdorf BE",
    "canton": "BE",
    "tel": "+41 34 413 40 40",
-   "hours": "Mi 13:30-18:30, Do 13:30-17:30, Fr 13:30-18:30, Sa 10:00-16:00",
    "url": "https://www.aats-shop.ch/",
    "kind": "both",
-   "online_prices": true,
-   "brands": [
-    "Holosun",
-    "SureFire",
-    "Springfield Armory",
-    "5.11",
-    "GPS",
-    "Hornady"
-   ],
+   "shipNote": "Nem ellenőrizhető: az aats-shop.ch és a shop.aats-group.ch is az aats-group.ch hostra irányít át, amely ebből a hálózatból nem érhető el, így a szállítási feltételek nem olvashatók.",
    "verified": true,
    "sources": [
-    "https://aats-group.ch/geschaeft",
-    "https://aats-group.ch/",
-    "https://www.aats-shop.ch/produkt-kategorie/waffen/",
-    "https://shop.aats-group.ch/shop/item/waffenlicht-surefire-m640dft-pro-scout-light-pro-dual-fuel-700-lumen-100-000-candela-51493",
-    "https://onlineinfo.ch/firma/aats-group-gmbh---che-416-356-315/pdf",
-    "https://firmania.ch/burgdorf/aats-shop-944731"
-   ]
+    "https://www.aats-shop.ch/",
+    "https://shop.aats-group.ch/"
+   ],
+   "noPriceReason": "A bolt oldala botvédelmet használ, automatikusan nem kérdezhető le; az árakat a bolt oldalán kell megnézni."
   },
   "aebiwaffen.ch": {
    "name": "Aebi Waffen GmbH",
@@ -286,20 +273,19 @@
    ]
   },
   "bpshop.ch": {
-   "name": "BP Group GmbH",
-   "display": "BP Group Shop",
+   "name": "BP-Group GmbH",
+   "addr": "Dorfstrasse 63, 5244 Birrhard",
+   "city": "Birrhard AG",
+   "canton": "AG",
    "url": "https://bpshop.ch/",
    "kind": "online",
+   "shipNote": "Az ÁSZF szerint a szállítási költséget külön számítják fel, és a rendelési folyamatban jelenítik meg; a tarifát, az ingyenes határt, a szállítási területet és az engedélyköteles áruk szállítását az oldal nem írja le, ezért a 'ships' nincs megerősítve. A rendelés csak a teljes fizetés beérkezése után kerül kiszállításra.",
    "online_prices": true,
-   "brands": [
-    "Trijicon",
-    "Streamlight"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://bpshop.ch/produkt-kategorie/trijicon/acog/",
-    "https://bpshop.ch/produkt/streamlight-tlr-1-hl-gun-light/",
-    "https://onlineinfo.ch/company/bp-group-gmbh---che-110-042-644/pdf"
+    "https://bpshop.ch/impressum/",
+    "https://bpshop.ch/kontakt/",
+    "https://bpshop.ch/agb/"
    ]
   },
   "Brix Waffen AG": {
@@ -319,26 +305,13 @@
    "name": "Brownells Schweiz",
    "url": "https://www.brownells.ch/",
    "kind": "online",
-   "ships": true,
-   "online_prices": true,
-   "brands": [
-    "Geissele",
-    "BCM",
-    "Magpul",
-    "B5 Systems",
-    "Wilson Combat",
-    "Double Star",
-    "Superlative Arms",
-    "ELCAN"
-   ],
-   "verified": false,
+   "shipNote": "Nem ellenőrizhető: a bolt főoldala a /WebRoot/Notices/CH.html oldalra irányít, amely Cloudflare-kihívást ad, ezért sem a szállítás, sem a CHF-árak, sem az üzemeltető/raktár nem olvasható a bolt oldaláról.",
+   "verified": true,
    "sources": [
-    "https://www.brownells.ch/Popular/Ar-15",
-    "https://www.brownells.ch/Manufacturers/BRAVO-COMPANY",
-    "https://www.brownells.ch/Popular/Geissele-Trigger",
-    "https://www.brownells.ch/Popular/fr/Garde-Main-AR-15",
-    "https://www.brownells.ch/Popular/AR-15-Handguard"
-   ]
+    "https://www.brownells.ch/",
+    "https://www.brownells.ch/WebRoot/Notices/CH.html"
+   ],
+   "noPriceReason": "A bolt oldala botvédelmet használ, automatikusan nem kérdezhető le; az árakat a bolt oldalán kell megnézni."
   },
   "bt-ag.ch": {
    "name": "B&T AG",
@@ -437,24 +410,20 @@
    ]
   },
   "dangos.ch": {
-   "name": "DangoS GmbH",
-   "display": "DangoS Waffen",
+   "name": "DangoS Waffen GmbH",
    "addr": "Industriestrasse 8, 8880 Walenstadt",
-   "city": "Walenstadt",
+   "city": "Walenstadt SG",
    "canton": "SG",
+   "tel": "+41 81 515 70 03",
    "url": "https://www.dangos.ch/",
    "kind": "both",
+   "shipNote": "Az ÁSZF szerint az árak a MwSt-t tartalmazzák, de a csomagolási és szállítási költség nélkül; személyes átvételkor nincs szállítási költség; a szállítás a rendelés beérkezésétől számított 5–14 munkanapon belül történik, fizetés: PostFinance Card/E-Finance, Twint, előre fizetés vagy átvételkor készpénz. A szállítási területet, a díjtáblázatot és az engedélyköteles áruk szállítását az oldal nem írja le, ezért a 'ships' nincs megerősítve; fegyvereknél az ÁSZF fegyvervásárlási szerződés aláírását említi.",
    "online_prices": true,
-   "brands": [
-    "Magpul",
-    "SIG Sauer"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://www.dangos.ch/",
-    "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/handschutz-magpul-moe-m-lok-hand-guard-mid-length-ar15-m4",
-    "https://www.dangos.ch/de/sportoptik-nachtsicht/zielfernrohre/zielfernrohr-sig-sauer-tango-msr-lpvo-1-6x24-mm",
-    "https://onlineinfo.ch/firma/dangos-gmbh---che-200-266-415/pdf"
+    "https://www.dangos.ch/de/impressum",
+    "https://www.dangos.ch/de/agb",
+    "https://www.dangos.ch/"
    ]
   },
   "dhnetwork.ch": {
@@ -473,24 +442,22 @@
    ]
   },
   "dynamikarms.ch": {
-   "name": "Dynamik Arms Sàrl",
-   "display": "Dynamik Arms",
+   "name": "Dynamik Arms SARL",
    "addr": "Route d'Annecy 124, 1257 La Croix-de-Rozon",
-   "city": "La Croix-de-Rozon",
+   "city": "La Croix-de-Rozon GE",
    "canton": "GE",
+   "tel": "+41 22 301 24 25",
    "url": "https://www.dynamikarms.ch/",
    "kind": "both",
+   "ships": true,
+   "shipNote": "A csomagokat a Svájci Postával küldik a fizetés beérkezése után; az ÁSZF szerint FedExszel és a svájci Postával dolgoznak. A szállítási díj tartalmazza a csomagolást és a postaköltséget, két rendelést nem vonnak össze. Fegyvert, fegyverelemet és lőszert csak Svájcból leadott rendelésre fogadnak el, az ÁSZF szerint fegyvervásárlási engedély szükséges.",
    "online_prices": true,
-   "brands": [
-    "Daniel Defense",
-    "Magpul"
-   ],
    "verified": true,
    "sources": [
-    "https://www.dynamikarms.ch/de/79-ar-m4",
-    "https://www.dynamikarms.ch/fr/179_magpul",
-    "https://yellowpages.swiss/company/CHE-191.696.482/dynamik-arms-sarl-la-croix-de-rozon",
-    "https://danieldefense.com/international-dealers-and-distributors"
+    "https://www.dynamikarms.ch/de/content/1-Lieferung",
+    "https://www.dynamikarms.ch/de/content/3-allgemeine-geschaeftsbedingungen",
+    "https://www.dynamikarms.ch/de/shops",
+    "https://www.dynamikarms.ch/de/"
    ]
   },
   "ellie-firearms.com": {
@@ -627,20 +594,19 @@
   },
   "gun-art.ch": {
    "name": "Thalmann Gun-Art",
-   "addr": "Kreuzlingerstrasse 75, 8590 Romanshorn",
-   "city": "Romanshorn",
+   "addr": "Kreuzlingerstrasse 75, 8590 Romanshorn; szállítási/feladási cím: Amriswilerstrasse 57, 8589 Sitterdorf",
+   "city": "Romanshorn TG",
    "canton": "TG",
+   "tel": "+41 79 418 71 95",
    "url": "https://www.gun-art.ch/",
    "kind": "both",
    "ships": true,
+   "shipNote": "A szállítási tájékoztató szerint a Svájcba irányuló standard szállítási díj CHF 1.50, a termékoldalak 1–3 napos szállítási időt jeleznek. Külföldre is szállítanak. Fegyverre/alkatrészre vonatkozó engedélyről az oldal itt nem ír.",
    "online_prices": true,
-   "brands": [
-    "SureFire"
-   ],
    "verified": true,
    "sources": [
-    "https://www.gun-art.ch/",
-    "https://www.gun-art.ch/shop/waffenlampen/shurefire/"
+    "https://www.gun-art.ch/kontakt/",
+    "https://www.gun-art.ch/j/shop/deliveryinfo"
    ]
   },
   "gunfactory.ch": {
@@ -1194,21 +1160,21 @@
    ]
   },
   "shop.waffen-grischun.ch": {
-   "name": "Waffen Grischun",
+   "name": "Waffen Grischun GmbH",
    "addr": "Industriestrasse 17, 7000 Chur",
-   "city": "Chur",
+   "city": "Chur GR",
    "canton": "GR",
+   "tel": "+41 76 240 62 50",
    "url": "https://shop.waffen-grischun.ch/",
    "kind": "both",
+   "ships": true,
+   "shipNote": "Az ÁSZF szerint a szállítás alapvetően kizárólag Svájcon belül történik; a szállítási, csomagolási és különszállítási költséget külön tüntetik fel. Az engedélyköteles fegyvereket csak a törvényi előírásoknak megfelelően küldik vagy adják át személyesen; a szállítás a szükséges dokumentumok beérkezése után történik.",
    "online_prices": true,
-   "brands": [
-    "Aimpoint"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://shop.waffen-grischun.ch/",
-    "https://shop.waffen-grischun.ch/index.php?id_manufacturer=10&controller=manufacturer",
-    "https://www.local.ch/de/q/graubuenden-kanton/waffen-und-munition"
+    "https://shop.waffen-grischun.ch/kontakt",
+    "https://shop.waffen-grischun.ch/content/3-allgemeine-geschaeftsbedingungen",
+    "https://shop.waffen-grischun.ch/content/4-uber-uns"
    ]
   },
   "softgun.ch": {
@@ -1350,17 +1316,23 @@
    ]
   },
   "taczone.ch": {
-   "name": "Taczone",
+   "name": "TacWorld GmbH",
+   "addr": "Schützenmattstr. 144, 8180 Bülach; cégcím: Grubenackerstrasse 11, 8052 Zürich",
+   "city": "Bülach ZH",
+   "canton": "ZH",
+   "tel": "+41 43 536 17 10",
    "url": "https://www.taczone.ch/",
-   "kind": "online",
+   "kind": "both",
    "ships": true,
+   "shipNote": "A GYIK szerint a postaköltség Svájcon belül CHF 9.-, CHF 250.- áruértéktől ingyenes; az ÁSZF szerint külföldre is szállítanak. A 10 töltényesnél nagyobb tárakhoz a 'Gesetzliche Bestimmungen' oldal és a termékoldalak szerint kivételes engedély vagy birtoklási igazolás kell.",
    "online_prices": true,
-   "brands": [
-    "Magpul"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://www.taczone.ch/"
+    "https://www.taczone.ch/impressum/",
+    "https://www.taczone.ch/fragen-antworten/",
+    "https://www.taczone.ch/agb/",
+    "https://www.taczone.ch/gesetzliche-bestimmungen/",
+    "https://www.taczone.ch/kontakt/"
    ]
   },
   "tellsarmory.ch": {
@@ -1451,25 +1423,19 @@
   },
   "trooper.ch": {
    "name": "CHEVEYO AG",
-   "display": "Trooper",
    "addr": "Ruessenstrasse 8, 6340 Baar",
-   "city": "Baar",
+   "city": "Baar ZG",
    "canton": "ZG",
+   "tel": "+41 44 748 11 11",
    "url": "https://www.trooper.ch/",
    "kind": "both",
    "ships": true,
+   "shipNote": "Csak Svájcon belülre és Liechtensteinbe szállítanak: DHL Express vagy A-Post Priority CHF 9.90, katonai címre Feldpost CHF 9.90; CHF 199 rendelési értéktől a postaköltség elmarad. A raktáron lévő, 12 óráig megrendelt árut aznap feladják; átvétel a baari üzletben is lehetséges. Lőfegyverről/fegyveralkatrész-engedélyről az oldal nem ír.",
    "online_prices": true,
-   "brands": [
-    "Holosun",
-    "Vortex",
-    "BlackHawk"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://www.trooper.ch/collections/holosun",
-    "https://www.trooper.ch/collections/vortex-optics",
-    "https://www.trooper.ch/collections/holster",
-    "https://www.jobs.ch/de/firmen/4435e306-6c5e-4d9e-9bac-32af2aa3fb5c-cheveyo-ag/"
+    "https://www.trooper.ch/policies/legal-notice",
+    "https://www.trooper.ch/policies/shipping-policy"
    ]
   },
   "ulrich-waffen.ch": {

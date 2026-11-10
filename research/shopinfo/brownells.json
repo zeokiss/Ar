@@ -1,0 +1,18 @@
+{
+  "domain": "brownells.ch",
+  "url": "https://www.brownells.ch/",
+  "name": "Brownells Schweiz (az üzemeltető ismeretlen)",
+  "addr": null,
+  "city": null,
+  "canton": null,
+  "tel": null,
+  "kind": "online",
+  "ships": null,
+  "shipNote": "Nem ellenőrizhető: a bolt főoldala a /WebRoot/Notices/CH.html oldalra irányít, amely Cloudflare-kihívást (HTTP 403) ad, ezért sem a szállítás, sem a CHF-árak, sem az üzemeltető/raktár (USA-raktár?) nem olvasható a bolt oldaláról.",
+  "online_prices": null,
+  "sources": [
+    "https://www.brownells.ch/",
+    "https://www.brownells.ch/WebRoot/Notices/CH.html"
+  ],
+  "notes": "BLOKKOLT: botvédelem (Cloudflare 'Just a moment…'), megkerülés nélkül leálltunk; ebből a körből csak a két fenti kérés történt. A korábbi keresési felderítés (research/shopinfo_extra.json) szerint a bolt AR-15-alkatrészekből a legnagyobb, több tétele 'Lager USA' – ezek a bolt saját oldaláról nem ellenőrizhetők, ezért árat nem vettünk fel. Az Impressum/üzemeltető nem derült ki."
+}

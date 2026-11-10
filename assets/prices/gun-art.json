@@ -15,7 +15,8 @@
       "mpn": null,
       "weight_g": null,
       "dims": null,
-      "match": "exact"
+      "match": "exact",
+      "note": "a csomag tartalma a bolti termékleírás alapján igazolt"
     },
     "ap-pro": {
       "title": "Aimpoint Pro Patrol Rifle Optic",
@@ -29,7 +30,8 @@
       "mpn": null,
       "weight_g": null,
       "dims": null,
-      "match": "exact"
+      "match": "exact",
+      "note": "a csomag tartalma a bolti termékleírás alapján igazolt"
     },
     "hs-510c": {
       "title": "Holosun HS510C Circle Dot Sight – Schwarz",
@@ -164,7 +166,7 @@
       "match": "exact"
     },
     "mp-pm30": {
-      "title": "Magpul PMAG 30 Rnds Gen M3 Pmag 30 Black 30 Rnds",
+      "title": "Magpul PMAG 30 Rnds Gen M3",
       "price_chf": 29.0,
       "list_chf": null,
       "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m781c1149ebe45842",

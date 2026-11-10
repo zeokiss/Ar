@@ -1,6 +1,7 @@
 {
  "currency": "CHF",
  "shops": [
+  "aats-shop.ch",
   "aebiwaffen.ch",
   "airsoft.ch",
   "armamat.ch",
@@ -10,7 +11,9 @@
   "armurerie-richert.ch",
   "birkenast.ch",
   "bpshop.ch",
+  "brownells.ch",
   "bt-ag.ch",
+  "dangos.ch",
   "dynamikarms.ch",
   "ellie-firearms.com",
   "felder-jagdhof.ch",
@@ -33,6 +36,8 @@
   "tellsarmory.ch",
   "thoron.ch",
   "treehuggersupply.ch",
+  "trooper.ch",
+  "shop.waffen-grischun.ch",
   "waffenemmental.ch",
   "waffenpauli.ch",
   "waffenzimmi.ch",
@@ -651,6 +656,40 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 24.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-grip-ar15-m4-schwarz--5204",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 24.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-grip-ar15-m4-od-green--5207",
+       "in_stock": false,
+       "title": "Pistolengriff, MAgpul, MOE Grip, AR15/M4 OD-Green"
+      },
+      "gray": {
+       "chf": 24.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-grip-ar15-m4-grau--5206",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE Grip, AR15/M4 grau"
+      },
+      "fde": {
+       "chf": 24.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-grip-ar15-m4-fde--5205",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE Grip, AR15/M4 FDE"
+      },
+      "black": {
+       "chf": 24.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-grip-ar15-m4-schwarz--5204",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE Grip, AR15/M4 schwarz"
+      }
+     },
+     "title": "Pistolengriff, Magpul, MOE Grip, AR15/M4 schwarz",
+     "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: mc brown"
+    },
+    {
      "shop": "armashop.ch",
      "chf": 25.9,
      "url": "https://armashop.ch/produit/moe-pistol-grip-ar15-blk/",
@@ -866,6 +905,39 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 28.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-schwarz",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 28.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-od-green",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE-K2+ Grip, AR15/M4 OD-Green"
+      },
+      "gray": {
+       "chf": 28.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-grau",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE-K2+ Grip, AR15/M4 grau"
+      },
+      "fde": {
+       "chf": 28.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-fde",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE-K2+ Grip, AR15/M4 FDE"
+      },
+      "black": {
+       "chf": 28.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-schwarz",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE-K2+ Grip, AR15/M4 schwarz"
+      }
+     },
+     "title": "Pistolengriff, Magpul, MOE-K2+ Grip, AR15/M4 schwarz"
+    },
+    {
      "shop": "gunlex.ch",
      "chf": 28.9,
      "url": "https://gunlex.ch/shop/griff/magpul-moe-k2grip/",
@@ -904,6 +976,21 @@
      },
      "title": "MAGPUL MOE K2+ GRIP – AR15/M4 - Noir",
      "color": "black"
+    },
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 29.0,
+     "url": "https://shop.waffen-grischun.ch/730-172-magpul-moe-k2-grip-ar15-m4.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 29.0,
+       "url": "https://shop.waffen-grischun.ch/730-172-magpul-moe-k2-grip-ar15-m4.html",
+       "in_stock": true,
+       "title": "MAGPUL MOE-K2+ Grip AR15/M4"
+      }
+     },
+     "title": "MAGPUL MOE-K2+ Grip AR15/M4"
     },
     {
      "shop": "tacstore.ch",
@@ -1077,6 +1164,40 @@
      "title": "Magpul CTR Carbine Stock Mil Spec",
      "note": "Mil-Spec tuskivitel",
      "color": "black"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 86.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ctr-carbine-stock-mil-spec-schwarz",
+     "in_stock": false,
+     "colors": {
+      "gray": {
+       "chf": 86.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/ersatzschaft-magpul-ctr-carbine-stock-mil-spec-grau",
+       "in_stock": false,
+       "title": "Ersatzschaft, Magpul, CTR Carbine Stock, Mil Spec, grau"
+      },
+      "odg": {
+       "chf": 86.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ctr-carbine-stock-mil-spec-od-green",
+       "in_stock": false,
+       "title": "Schaft, Magpul, CTR Carbine Stock Mil Spec OD-Green"
+      },
+      "fde": {
+       "chf": 86.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ctr-carbine-stock-mil-spec-fde",
+       "in_stock": false,
+       "title": "Schaft, Magpul, CTR Carbine Stock Mil Spec FDE"
+      },
+      "black": {
+       "chf": 86.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ctr-carbine-stock-mil-spec-schwarz",
+       "in_stock": false,
+       "title": "Schaft, Magpul, CTR Carbine Stock Mil Spec schwarz"
+      }
+     },
+     "title": "Schaft, Magpul, CTR Carbine Stock Mil Spec schwarz",
+     "note": "a bolt Mil-Spec/Commercial-Spec csöves kivitelt is árulhat; a data.js nem dönt; a bolt további színei, amelyek nincsenek a palettában, kimaradtak: mc brown"
     },
     {
      "shop": "aebiwaffen.ch",
@@ -1275,11 +1396,11 @@
    ]
   },
   "mp-prs3": {
-   "chf": 338.9,
-   "shop": "armamat.ch",
-   "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619106000/",
+   "chf": 312.0,
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/schaft/1165-magpul-prs-gen3-precision-adjustable-stock-ar15-m4-m16-sr25-m110.html",
    "in_stock": true,
-   "title": "Magpul PRS Gen 3 Rifle Stock Mil Spec",
+   "title": "Magpul PRS® GEN3 Precision-Adjustable Stock AR15/M4/M16/SR25/M110",
    "weight_g": 820,
    "dims": "Länge 28.5 cm x Breite 13 cm x Höhe 3 cm",
    "offers": [
@@ -1316,6 +1437,15 @@
      },
      "title": "Magpul PRS Gen 3 Rifle Stock",
      "color": "black"
+    },
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 312.0,
+     "url": "https://www.dynamikarms.ch/de/schaft/1165-magpul-prs-gen3-precision-adjustable-stock-ar15-m4-m16-sr25-m110.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul PRS® GEN3 Precision-Adjustable Stock AR15/M4/M16/SR25/M110",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók); a bolt a színt nem nevezi meg (a cím/változat nem tartalmaz színt)"
     },
     {
      "shop": "tacstore.ch",
@@ -1415,6 +1545,39 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 344.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-gen3-precision-adjustable-stock-mil-spec-a5-schwarz",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 344.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-gen3-precision-adjustable-stock-mil-spec-a5-od-green",
+       "in_stock": false,
+       "title": "Schaft, Magpul, PRS GEN3 Precision-Adjustable Stock Mil Spec&A5 OD-Green"
+      },
+      "gray": {
+       "chf": 344.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-gen3-precision-adjustable-stock-mil-spec-a5-grau",
+       "in_stock": false,
+       "title": "Schaft, Magpul, PRS GEN3 Precision-Adjustable Stock, Mil Spec&A5 grau"
+      },
+      "fde": {
+       "chf": 344.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-gen3-precision-adjustable-stock-mil-spec-a5-fde",
+       "in_stock": false,
+       "title": "Schaft, Magpul, PRS GEN3 Precision-Adjustable Stock, Mil Spec&A5 FDE"
+      },
+      "black": {
+       "chf": 344.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-gen3-precision-adjustable-stock-mil-spec-a5-schwarz",
+       "in_stock": false,
+       "title": "Schaft, Magpul, PRS GEN3 Precision-Adjustable Stock, Mil Spec&A5 schwarz"
+      }
+     },
+     "title": "Schaft, Magpul, PRS GEN3 Precision-Adjustable Stock, Mil Spec&A5 schwarz"
+    },
+    {
      "shop": "schiessstand.ch",
      "chf": 344.9,
      "url": "https://shop.schiessstand.ch/produkt/magpul-moe-carbine-stock-mil-spec-black-2/",
@@ -1489,9 +1652,9 @@
    ]
   },
   "mp-prslite": {
-   "chf": 163.9,
-   "shop": "armamat.ch",
-   "url": "https://www.armamat.ch/de-ch/p/prs-lite-11739906000/",
+   "chf": 155.0,
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/schaft/2112-magpul-prs-lite.html",
    "in_stock": true,
    "title": "Magpul PRS Lite",
    "weight_g": 540,
@@ -1540,6 +1703,42 @@
      },
      "title": "Magpul PRS Lite",
      "color": "black"
+    },
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 155.0,
+     "url": "https://www.dynamikarms.ch/de/schaft/2112-magpul-prs-lite.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul PRS Lite",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók); a bolt a színt nem nevezi meg (a cím/változat nem tartalmaz színt)"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 158.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-lite-stock-schwarz",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 158.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-lite-stock-od-green",
+       "in_stock": false,
+       "title": "Schaft, Magpul, PRS Lite Stock OD-Green"
+      },
+      "fde": {
+       "chf": 158.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-lite-stock-fde",
+       "in_stock": false,
+       "title": "Schaft, Magpul, PRS Lite Stock FDE"
+      },
+      "black": {
+       "chf": 158.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-lite-stock-schwarz",
+       "in_stock": false,
+       "title": "Schaft, Magpul, PRS Lite Stock schwarz"
+      }
+     },
+     "title": "Schaft, Magpul, PRS Lite Stock schwarz"
     },
     {
      "shop": "armamat.ch",
@@ -1663,6 +1862,14 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 22.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaftzubehoer-magpul-enhanced-rubber-butt-pad-070-schwarz",
+     "in_stock": false,
+     "colors": {},
+     "title": "Schaftzubehör, Magpul, Enhanced Rubber Butt-Pad 0.70\" schwarz"
+    },
+    {
      "shop": "thoron.ch",
      "chf": 22.9,
      "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/enhanced-rubber-butt-pad-070",
@@ -1724,21 +1931,31 @@
    ]
   },
   "ap-pro": {
-   "chf": 739.0,
-   "shop": "gun-art.ch",
-   "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m87945006620549fe",
+   "chf": 595.0,
+   "shop": "shop.waffen-grischun.ch",
+   "url": "https://shop.waffen-grischun.ch/752-aimpoint-patrol-rifle-optic.html",
    "in_stock": true,
-   "title": "Aimpoint Pro Patrol Rifle Optic",
+   "title": "Aimpoint Patrol Rifle Optic",
    "weight_g": null,
    "dims": null,
    "offers": [
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 595.0,
+     "url": "https://shop.waffen-grischun.ch/752-aimpoint-patrol-rifle-optic.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Aimpoint Patrol Rifle Optic",
+     "note": "a csomag tartalma a bolti termékleírás alapján igazolt"
+    },
     {
      "shop": "gun-art.ch",
      "chf": 739.0,
      "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m87945006620549fe",
      "in_stock": true,
      "colors": {},
-     "title": "Aimpoint Pro Patrol Rifle Optic"
+     "title": "Aimpoint Pro Patrol Rifle Optic",
+     "note": "a csomag tartalma a bolti termékleírás alapján igazolt"
     },
     {
      "shop": "heldef.ch",
@@ -1794,22 +2011,14 @@
    ]
   },
   "eo-exps3": {
-   "chf": 460.0,
-   "shop": "dynamikarms.ch",
-   "url": "https://www.dynamikarms.ch/de/kurzdistanz/3556-eotech-exps3-0-nv-single-qd-65moa-ring-1-moa-dot-672294700074.html",
-   "in_stock": true,
-   "title": "EOTech EXPS3-0 NV Single QD 65Moa ring 1 Moa dot",
+   "chf": 970.4,
+   "shop": "tellsarmory.ch",
+   "url": "https://www.tellsarmory.ch/shop/eotech-exps3-holographic-sight-132",
+   "in_stock": null,
+   "title": "EOTECH EXPS3 Holographic Sight – 3-0 – Black",
    "weight_g": 315,
    "dims": "Länge 9.1 cm x Breite 7 cm x Höhe 5.5 cm",
    "offers": [
-    {
-     "shop": "dynamikarms.ch",
-     "chf": 460.0,
-     "url": "https://www.dynamikarms.ch/de/kurzdistanz/3556-eotech-exps3-0-nv-single-qd-65moa-ring-1-moa-dot-672294700074.html",
-     "in_stock": true,
-     "colors": {},
-     "title": "EOTech EXPS3-0 NV Single QD 65Moa ring 1 Moa dot"
-    },
     {
      "shop": "aebiwaffen.ch",
      "chf": 895.0,
@@ -1936,6 +2145,15 @@
      "url": "https://treehuggersupply.ch/eotech-hws-exps3-0/",
      "colors": {},
      "title": "EOTECH HWS EXPS3-0"
+    },
+    {
+     "shop": "trooper.ch",
+     "chf": 999.9,
+     "url": "https://www.trooper.ch/products/holographisches-visier-hws-exps3?variant=56061364666741",
+     "in_stock": false,
+     "colors": {},
+     "title": "Holographisches Visier HWS EXPS3 – Black",
+     "note": "több színváltozat van, a fekete ára szerepel; a többi: Tan 999.90 CHF"
     },
     {
      "shop": "heldef.ch",
@@ -2162,6 +2380,14 @@
      "title": "EOTECH HWS XPS2-0"
     },
     {
+     "shop": "trooper.ch",
+     "chf": 779.9,
+     "url": "https://www.trooper.ch/products/holographisches-visier-hws-xps2?variant=56056776819061",
+     "in_stock": true,
+     "colors": {},
+     "title": "Holographisches Visier HWS XPS2"
+    },
+    {
      "shop": "heldef.ch",
      "chf": 799.0,
      "url": "https://heldef.ch/red-dot-eotech-xps2-0-compact-cr123-holographic-weapon-sight/",
@@ -2363,6 +2589,14 @@
      "colors": {},
      "title": "Dot Sight HS510C",
      "color": "black"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 442.0,
+     "url": "https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/holosun-reflex-visier-modell-hs510c-rd-black",
+     "in_stock": false,
+     "colors": {},
+     "title": "Holosun, Reflex, Visier, Modell, HS510C-RD-Black,"
     },
     {
      "shop": "felder-jagdhof.ch",
@@ -2579,6 +2813,15 @@
      "color": "black"
     },
     {
+     "shop": "trooper.ch",
+     "chf": 149.9,
+     "url": "https://www.trooper.ch/products/vortex-crossfire-red-dot-2-moa-dot?variant=57691859517813",
+     "in_stock": false,
+     "colors": {},
+     "title": "Vortex Crossfire Red Dot 2 MOA Dot",
+     "note": "a csomag tartalma a bolti termékleírás alapján igazolt"
+    },
+    {
      "shop": "armurerie-richert.ch",
      "chf": 169.0,
      "url": "https://armurerie-richert.ch/produit/vortex-crossfire-red-dot/",
@@ -2599,14 +2842,23 @@
    ]
   },
   "vx-se18": {
-   "chf": 381.9,
-   "shop": "armamat.ch",
-   "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-8x24-ar-bdc3-11010206000/",
+   "chf": 379.9,
+   "shop": "trooper.ch",
+   "url": "https://www.trooper.ch/products/vortex-strike-eagle-1-8x24-ar-bdc3-moa-reticle-zielfernrohr?variant=57690471694709",
    "in_stock": true,
-   "title": "Vortex Optics Strike Eagle 1-8x24 AR-BDC3",
+   "title": "Vortex Strike Eagle 1-8x24 AR-BDC3 (MOA) Reticle Zielfernrohr",
    "weight_g": 506,
    "dims": null,
    "offers": [
+    {
+     "shop": "trooper.ch",
+     "chf": 379.9,
+     "url": "https://www.trooper.ch/products/vortex-strike-eagle-1-8x24-ar-bdc3-moa-reticle-zielfernrohr?variant=57690471694709",
+     "in_stock": true,
+     "colors": {},
+     "title": "Vortex Strike Eagle 1-8x24 AR-BDC3 (MOA) Reticle Zielfernrohr",
+     "note": "a data.js nem nevezi meg a retikulumot; a bolti kivitel a címben szerepel"
+    },
     {
      "shop": "airsoft.ch",
      "chf": 381.9,
@@ -2724,6 +2976,14 @@
      "colors": {},
      "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP Riflescope VMR-2 MOA",
      "note": "két retikulos kivitel (VMR-2 MOA / MRAD) azonos áron; a data.js nem határozza meg"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 799.9,
+     "url": "https://www.dangos.ch/de/sportoptik-nachtsicht/zielfernrohre/zielfernrohr-vortex-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa--5027",
+     "in_stock": false,
+     "colors": {},
+     "title": "Zielfernrohr, Vortex, VIPER PST GEN II 1-6X24 SFP VMR-2 MOA"
     },
     {
      "shop": "shooting-store.ch",
@@ -2941,6 +3201,15 @@
      "color": "black"
     },
     {
+     "shop": "trooper.ch",
+     "chf": 799.9,
+     "url": "https://www.trooper.ch/products/magnifier-g33?variant=56056769741173",
+     "in_stock": false,
+     "colors": {},
+     "title": "Magnifier G33 – Black",
+     "note": "több színváltozat van, a fekete ára szerepel; a többi: Tan 799.90 CHF"
+    },
+    {
      "shop": "heldef.ch",
      "chf": 805.0,
      "url": "https://heldef.ch/eotech-g33-magnifier-3x-qd-sts/",
@@ -3111,6 +3380,14 @@
      "title": "Holosun HM3X Vergrösserungsmodul"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 309.0,
+     "url": "https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/holosun-magnifier-modell-hm3x",
+     "in_stock": false,
+     "colors": {},
+     "title": "Holosun, Magnifier, Modell, HM3X"
+    },
+    {
      "shop": "schiessstand.ch",
      "chf": 309.0,
      "url": "https://shop.schiessstand.ch/produkt/holosun-magnifier-hm3x-3-fach-vergroesserung/",
@@ -3146,14 +3423,23 @@
    ]
   },
   "sf-m640": {
-   "chf": 389.0,
-   "shop": "armatum.ch",
-   "url": "https://armatum.ch/produkt/surefire-m640-dual-fuel-scout-light-pro-1-500-lumen-fuer-hoechste-praezision/",
+   "chf": 385.0,
+   "shop": "gun-art.ch",
+   "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/mc59c0594ceb47e56",
    "in_stock": true,
-   "title": "SureFire M640 Scout Light Pro",
+   "title": "Lampe, SureFire, Mod. M640DF Dual Fuel Scout pro – Scharz",
    "weight_g": 156,
    "dims": "Länge 141 mm x Breite 29 mm",
    "offers": [
+    {
+     "shop": "gun-art.ch",
+     "chf": 385.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/mc59c0594ceb47e56",
+     "in_stock": true,
+     "colors": {},
+     "title": "Lampe, SureFire, Mod. M640DF Dual Fuel Scout pro – Scharz",
+     "note": "több színváltozat van, a fekete ára szerepel; a többi: Tan 395.00 CHF"
+    },
     {
      "shop": "armatum.ch",
      "chf": 389.0,
@@ -3270,6 +3556,14 @@
      "colors": {},
      "title": "Lampe Surefire Tactical X300U-B Ultra LED Schwarz",
      "color": "black"
+    },
+    {
+     "shop": "trooper.ch",
+     "chf": 389.9,
+     "url": "https://www.trooper.ch/products/surefire-taktische-waffenlampe-sf-x300u-b-1000-lumen-inkl-batterien?variant=47804845130032",
+     "in_stock": true,
+     "colors": {},
+     "title": "taktische Waffenlampe SF-X300U-B, 1'000 Lumen (inkl. Batterien)"
     },
     {
      "shop": "thoron.ch",
@@ -3393,6 +3687,15 @@
      "color": "black"
     },
     {
+     "shop": "trooper.ch",
+     "chf": 249.9,
+     "url": "https://www.trooper.ch/products/taktische-waffenlampe-tlr-1-hl-1000-lumen-inkl-batterien?variant=57228628689269",
+     "in_stock": true,
+     "colors": {},
+     "title": "Taktische Waffenlampe TLR-1 HL, 1'000 Lumen (inkl. Batterien) – Black",
+     "note": "több színváltozat van, a fekete ára szerepel; a többi: flak dark earth 259.90 CHF, Flat Dark Earth Brown 259.90 CHF"
+    },
+    {
      "shop": "armurerie-richert.ch",
      "chf": 250.0,
      "url": "https://armurerie-richert.ch/produit/streamlight-tlr-1-hl/",
@@ -3469,6 +3772,15 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 265.5,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/lampen/streamlight-lampe-tactical-tlr-1-hl-led-schwarz",
+     "in_stock": false,
+     "colors": {},
+     "title": "Streamlight Lampe Tactical TLR-1 HL LED schwarz",
+     "note": "több színváltozat van, a fekete ára szerepel; a többi: Streamlight Lampe, Tactical TLR-1, HL LED FDE, 1000 Lumen 275.00 CHF"
+    },
+    {
      "shop": "schiessstand.ch",
      "chf": 279.95,
      "url": "https://shop.schiessstand.ch/produkt/streamlight-tlr-1-hl/",
@@ -3489,6 +3801,14 @@
      },
      "title": "Streamlight – TLR-1 HL Tactical LED Light – Black",
      "color": "black"
+    },
+    {
+     "shop": "gun-art.ch",
+     "chf": 299.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m61efdd6c569e0165",
+     "in_stock": true,
+     "colors": {},
+     "title": "Streamligth TLR-1 HL"
     },
     {
      "shop": "gunfactory.ch",
@@ -3578,6 +3898,39 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 33.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/hand-stop-kit-magpul-m-lok-schwarz",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 33.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/hand-stop-kit-magpul-m-lok-od-green",
+       "in_stock": false,
+       "title": "Hand Stop Kit, Magpul, M-Lok OD-Green"
+      },
+      "gray": {
+       "chf": 33.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/hand-stop-kit-magpul-m-lok-grau",
+       "in_stock": false,
+       "title": "Hand Stop Kit, Magpul, M-Lok grau"
+      },
+      "fde": {
+       "chf": 33.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/hand-stop-kit-magpul-m-lok-fde",
+       "in_stock": false,
+       "title": "Hand Stop Kit, Magpul, M-Lok FDE"
+      },
+      "black": {
+       "chf": 33.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/hand-stop-kit-magpul-m-lok-schwarz",
+       "in_stock": false,
+       "title": "Hand Stop Kit, Magpul, M-Lok schwarz"
+      }
+     },
+     "title": "Hand Stop Kit, Magpul, M-Lok schwarz"
+    },
+    {
      "shop": "gunlex.ch",
      "chf": 33.9,
      "url": "https://gunlex.ch/shop/griff/magpul-m-lok-hand-stop-kit/",
@@ -3642,6 +3995,48 @@
      "colors": {},
      "title": "M-LOK Hand Stop Kit",
      "color": "black"
+    },
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 34.0,
+     "url": "https://shop.waffen-grischun.ch/735-178-magpul-m-lok-hand-stop-kit.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 34.0,
+       "url": "https://shop.waffen-grischun.ch/735-178-magpul-m-lok-hand-stop-kit.html",
+       "in_stock": true,
+       "title": "Schwarz"
+      },
+      "fde": {
+       "chf": 34.0,
+       "url": "https://shop.waffen-grischun.ch/735-183-magpul-m-lok-hand-stop-kit.html",
+       "in_stock": true,
+       "title": "FDE"
+      }
+     },
+     "title": "MAGPUL M-LOK Hand Stop Kit – Schwarz"
+    },
+    {
+     "shop": "gun-art.ch",
+     "chf": 34.5,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m8f35cddf1e28bc99",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 34.5,
+       "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m8f35cddf1e28bc99",
+       "in_stock": false,
+       "title": "Schwarz"
+      },
+      "fde": {
+       "chf": 34.5,
+       "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m8f35cddf1e28bc99",
+       "in_stock": true,
+       "title": "FDE"
+      }
+     },
+     "title": "Magpul M-LOK Hand Stop Kit – Schwarz"
     },
     {
      "shop": "armashop.ch",
@@ -3940,6 +4335,14 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 24.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/montageschiene-magpul-aluminium-picatinny-rail-m-lok-aluminium-rail-section-5-slots-58mm",
+     "in_stock": true,
+     "colors": {},
+     "title": "Montageschiene, Magpul, Aluminium Picatinny Rail, M-LOK Aluminium Rail Section 5 Slots - 58mm"
+    },
+    {
      "shop": "tacstore.ch",
      "chf": 25.95,
      "url": "https://www.tacstore.ch/magpul-m-lok-aluminium-rail-5-slot",
@@ -4068,6 +4471,15 @@
      "color": "black"
     },
     {
+     "shop": "dynamikarms.ch",
+     "chf": 24.0,
+     "url": "https://www.dynamikarms.ch/de/riemen-und-riemensystem/666-m-lok-qd-sling-mount-0873750002842.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul M-LOK - QD Sling Mount",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók)"
+    },
+    {
      "shop": "aebiwaffen.ch",
      "chf": 24.9,
      "url": "https://www.aebiwaffen.ch/de/2791/magpul-m-lok-qd-sling-mount",
@@ -4083,6 +4495,14 @@
      "colors": {},
      "title": "Magpul M-LOK QD Sling Mount Black",
      "color": "black"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 26.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/sling-mount-magpul-m-lok-qd-aluminium",
+     "in_stock": true,
+     "colors": {},
+     "title": "Sling Mount, Magpul, M-LOK QD Aluminium"
     },
     {
      "shop": "shop.indoorswiss.ch",
@@ -4192,14 +4612,23 @@
    ]
   },
   "mp-cover": {
-   "chf": 18.3,
-   "shop": "shooting-store.ch",
-   "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
+   "chf": 18.0,
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/montage-schienen/996-magpul-m-lok-rail-cover-type-2.html",
    "in_stock": true,
-   "title": "Magpul M-LOK Rail Cover Type 2",
+   "title": "Magpul M-LOK - Rail Cover, Type 2",
    "weight_g": 30,
    "dims": "Länge 4 cm x Breite 2.6 cm x Höhe 1 cm",
    "offers": [
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 18.0,
+     "url": "https://www.dynamikarms.ch/de/montage-schienen/996-magpul-m-lok-rail-cover-type-2.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul M-LOK - Rail Cover, Type 2",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók); a bolt a színt nem nevezi meg (a cím/változat nem tartalmaz színt)"
+    },
     {
      "shop": "shooting-store.ch",
      "chf": 18.3,
@@ -4284,6 +4713,39 @@
      },
      "title": "Magpul M-LOK Rail Cover TYPE 2 – Schwarz",
      "color": "black"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 19.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/abdeckung-magpul-m-lok-rail-covers-type-2-schwarz",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 19.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/abdeckung-magpul-m-lok-rail-covers-type-2-od-green",
+       "in_stock": false,
+       "title": "Abdeckung, Magpul, M-LOK Rail Covers Type 2 OD-Green"
+      },
+      "gray": {
+       "chf": 19.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/abdeckung-magpul-m-lok-rail-covers-type-2-grau",
+       "in_stock": false,
+       "title": "Abdeckung, Magpul, M-LOK Rail Covers Type 2 grau"
+      },
+      "fde": {
+       "chf": 19.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/abdeckung-magpul-m-lok-rail-covers-type-2-fde",
+       "in_stock": false,
+       "title": "Abdeckung, Magpul, M-LOK Rail Covers Type 2 FDE"
+      },
+      "black": {
+       "chf": 19.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/abdeckung-magpul-m-lok-rail-covers-type-2-schwarz",
+       "in_stock": false,
+       "title": "Abdeckung, Magpul, M-LOK Rail Covers Type 2 schwarz"
+      }
+     },
+     "title": "Abdeckung, Magpul, M-LOK Rail Covers Type 2 schwarz"
     },
     {
      "shop": "thoron.ch",
@@ -4631,14 +5093,29 @@
    ]
   },
   "rd-raptor": {
-   "chf": 119.33,
-   "shop": "tellsarmory.ch",
-   "url": "https://www.tellsarmory.ch/shop/radian-weapons-raptor-charging-handle-for-ar15-m16-od-green-321",
-   "in_stock": null,
-   "title": "RADIAN WEAPONS, Raptor Charging Handle, for AR15/M16, OD Green",
+   "chf": 119.0,
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/montage-schienen/1072-axts-ambidextrous-raptor-charging-handle-black-for-556-car15-m4-817093020477.html",
+   "in_stock": true,
+   "title": "Raptor Ambidextrous Charging Handle Black for AR15/M4",
    "weight_g": 40,
    "dims": "Länge 17.6 cm x Breite 6.5 cm x Höhe 1.5 cm",
    "offers": [
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 119.0,
+     "url": "https://www.dynamikarms.ch/de/montage-schienen/1072-axts-ambidextrous-raptor-charging-handle-black-for-556-car15-m4-817093020477.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 119.0,
+       "url": "https://www.dynamikarms.ch/de/montage-schienen/1072-axts-ambidextrous-raptor-charging-handle-black-for-556-car15-m4-817093020477.html",
+       "in_stock": true,
+       "title": "Raptor Ambidextrous Charging Handle Black for AR15/M4"
+      }
+     },
+     "title": "Raptor Ambidextrous Charging Handle Black for AR15/M4"
+    },
     {
      "shop": "tellsarmory.ch",
      "chf": 119.33,
@@ -4877,6 +5354,15 @@
      "color": "fde"
     },
     {
+     "shop": "dynamikarms.ch",
+     "chf": 92.0,
+     "url": "https://www.dynamikarms.ch/de/montage-schienen/1905-ambidextrous-charging-handle-for-ar15-m16-black-817093021160.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Raptor-LT Ambidextrous Charging Handle for AR15/M16 - Black",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók)"
+    },
+    {
      "shop": "shooting-store.ch",
      "chf": 93.7,
      "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
@@ -5001,14 +5487,23 @@
    ]
   },
   "rd-raptorsd": {
-   "chf": 158.1,
-   "shop": "shooting-store.ch",
-   "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-ar-15-raptor-sd-ambidextrous-charging-handle-black",
+   "chf": 155.0,
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/montage-schienen/2338-raptor-sd-ambidextrous-charging-handle-ar15-black-817093020491.html",
    "in_stock": true,
-   "title": "Radian Weapons AR-15 Raptor-SD Ambidextrous Charging Handle Black",
+   "title": "Raptor-SD Ambidextrous Charging Handle AR15 Black",
    "weight_g": 150,
    "dims": "L 200 mm x B 150 mm x H 25 mm (bolti adat, valószínűleg csomagméret)",
    "offers": [
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 155.0,
+     "url": "https://www.dynamikarms.ch/de/montage-schienen/2338-raptor-sd-ambidextrous-charging-handle-ar15-black-817093020491.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Raptor-SD Ambidextrous Charging Handle AR15 Black",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók)"
+    },
     {
      "shop": "shooting-store.ch",
      "chf": 158.1,
@@ -5156,6 +5651,14 @@
      "color": "black"
     },
     {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 45.0,
+     "url": "https://shop.waffen-grischun.ch/738-magpul-bad-lever-battery-assist-device-ar15-m4-schwarz.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "MAGPUL B.A.D. Lever - Battery Assist Device AR15/M4 - Schwarz"
+    },
+    {
      "shop": "tacstore.ch",
      "chf": 45.95,
      "url": "https://www.tacstore.ch/magpul-b.a.d.-lever",
@@ -5271,6 +5774,31 @@
      "color": "black"
     },
     {
+     "shop": "dynamikarms.ch",
+     "chf": 24.0,
+     "url": "https://www.dynamikarms.ch/de/ar-m4/498-pmag-30-ar-m4-gen-m3-window-cal-556x45-magazine.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul PMAG® 30 AR/M4 GEN M3™ Window 5.56x45mm NATO Magazine",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók); a bolt a színt nem nevezi meg (a cím/változat nem tartalmaz színt)"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 24.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-30-ar-m4-gen-m3-window-kal-223-rem-schwarz",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 24.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-30-ar-m4-gen-m3-window-kal-223-rem-schwarz",
+       "in_stock": false,
+       "title": "Magazin, Magpul, PMAG 30 AR/M4 Gen M3 Window, Kal. .223 Rem. schwarz"
+      }
+     },
+     "title": "Magazin, Magpul, PMAG 30 AR/M4 Gen M3 Window, Kal. .223 Rem. schwarz",
+     "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: coyote, mc brown, odg"
+    },
+    {
      "shop": "gunlex.ch",
      "chf": 24.9,
      "url": "https://gunlex.ch/shop/magazine/magpul-pmag30-gen-3-223-rem-schwarz/",
@@ -5366,6 +5894,22 @@
      "colors": {},
      "title": "PMAG 30 AR/M4 GEN M3 Window",
      "color": "black"
+    },
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 26.9,
+     "url": "https://shop.waffen-grischun.ch/692-magpul-pmag-30-ar-m4-gen-m3-window-223-rem-schwarz.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 26.9,
+       "url": "https://shop.waffen-grischun.ch/692-magpul-pmag-30-ar-m4-gen-m3-window-223-rem-schwarz.html",
+       "in_stock": true,
+       "title": "MAGPUL PMAG 30 AR/M4 GEN M3 Window .223 Rem Schwarz"
+      }
+     },
+     "title": "MAGPUL PMAG 30 AR/M4 GEN M3 Window .223 Rem Schwarz",
+     "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: coyote"
     },
     {
      "shop": "gunfactory.ch",
@@ -5755,6 +6299,34 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 114.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms4-dual-qd-sling-gen2-schwarz",
+     "in_stock": true,
+     "colors": {
+      "ranger": {
+       "chf": 114.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms4-dual-qd-sling-gen2-ranger-green",
+       "in_stock": false,
+       "title": "Gewehrriemen, Magpul, MS4 Dual QD Sling, Gen2 Ranger Green"
+      },
+      "coyote": {
+       "chf": 114.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms4-dual-qd-sling-gen2-coyote",
+       "in_stock": true,
+       "title": "Gewehrriemen, Magpul, MS4 Dual QD Sling, Gen2 coyote"
+      },
+      "black": {
+       "chf": 114.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms4-dual-qd-sling-gen2-schwarz",
+       "in_stock": true,
+       "title": "Gewehrriemen, Magpul, MS4 Dual QD Sling, Gen2 schwarz"
+      }
+     },
+     "title": "Gewehrriemen, Magpul, MS4 Dual QD Sling, Gen2 schwarz",
+     "note": "a bolt a Gen 2 kivitelt árulhatja; a bolt további színei, amelyek nincsenek a palettában, kimaradtak: gray"
+    },
+    {
      "shop": "gunlex.ch",
      "chf": 114.9,
      "url": "https://gunlex.ch/shop/gewehrriemen/magpul-sling-ms4-dual-qd-black/",
@@ -5870,6 +6442,49 @@
      "title": "Magpul MOE SL Carbine Stock Mil Spec",
      "note": "Mil-Spec tuskivitel",
      "color": "black"
+    },
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 82.0,
+     "url": "https://www.dynamikarms.ch/de/schaft/798-moe-sl-carbine-stock-commercial-spec.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul MOE SL™ Carbine Stock – Commercial-Spec",
+     "note": "a bolt Mil-Spec/Commercial-Spec csöves kivitelt is árulhat; a data.js nem dönt; a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók); a bolt a színt nem nevezi meg (a cím/változat nem tartalmaz színt)"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 86.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-carbine-stock-mil-spec-schwarz",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 86.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-carbine-stock-mil-spec-od-green",
+       "in_stock": false,
+       "title": "Schaft, Magpul, MOE SL Carbine Stock, Mil Spec OD-Green"
+      },
+      "gray": {
+       "chf": 86.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-carbine-stock-mil-spec-grau",
+       "in_stock": false,
+       "title": "Schaft, Magpul, MOE SL Carbine Stock, Mil Spec grau"
+      },
+      "fde": {
+       "chf": 86.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-carbine-stock-mil-spec-fde",
+       "in_stock": false,
+       "title": "Schaft, Magpul, MOE SL Carbine Stock, Mil Spec FDE"
+      },
+      "black": {
+       "chf": 86.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-carbine-stock-mil-spec-schwarz",
+       "in_stock": false,
+       "title": "Schaft, Magpul, MOE SL Carbine Stock, Mil Spec schwarz"
+      }
+     },
+     "title": "Schaft, Magpul, MOE SL Carbine Stock, Mil Spec schwarz",
+     "note": "a bolt Mil-Spec/Commercial-Spec csöves kivitelt is árulhat; a data.js nem dönt"
     },
     {
      "shop": "airsoft.ch",
@@ -6080,6 +6695,40 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 59.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-k-carbine-stock-mil-spec-schwarz",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 59.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-k-carbine-stock-mil-spec-od-green",
+       "in_stock": false,
+       "title": "Schaft, Magpul, MOE SL-K Carbine Stock, Mil-Spec OD-Green"
+      },
+      "gray": {
+       "chf": 59.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-k-carbine-stock-mil-spec-grau",
+       "in_stock": false,
+       "title": "Schaft, Magpul, MOE SL-K Carbine Stock, Mil Spec grau"
+      },
+      "fde": {
+       "chf": 59.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-k-carbine-stock-mil-spec-fde",
+       "in_stock": false,
+       "title": "Schaft, Magpul, MOE SL-K Carbine Stock, Mil-Spec FDE"
+      },
+      "black": {
+       "chf": 59.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-k-carbine-stock-mil-spec-schwarz",
+       "in_stock": false,
+       "title": "Schaft, Magpul, MOE SL-K Carbine Stock, Mil Spec schwarz"
+      }
+     },
+     "title": "Schaft, Magpul, MOE SL-K Carbine Stock, Mil Spec schwarz",
+     "note": "a bolt Mil-Spec/Commercial-Spec csöves kivitelt is árulhat; a data.js nem dönt"
+    },
+    {
      "shop": "tacstore.ch",
      "chf": 61.95,
      "url": "https://www.tacstore.ch/magpul-moe-sl-k-carbine-stock-mil-spec-black",
@@ -6251,6 +6900,14 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 22.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaftzubehoer-magpul-rubber-butt-pad-030-schwarz",
+     "in_stock": false,
+     "colors": {},
+     "title": "Schaftzubehör, Magpul, Rubber Butt-Pad 0.30\" schwarz"
+    },
+    {
      "shop": "thoron.ch",
      "chf": 22.9,
      "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/rubber-butt-pad-030",
@@ -6331,6 +6988,14 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 22.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaftzubehoer-magpul-extended-rubber-butt-pad-055-schwarz",
+     "in_stock": false,
+     "colors": {},
+     "title": "Schaftzubehör, Magpul, Extended Rubber Butt-Pad 0.55\" schwarz"
+    },
+    {
      "shop": "thoron.ch",
      "chf": 22.9,
      "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/extended-rubber-butt-pad-055",
@@ -6391,6 +7056,14 @@
      "colors": {},
      "title": "Magpul MOE SL Enhanced Rubber Butt-Pad 0.70 Zoll",
      "color": "black"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 22.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaftzubehoer-magpul-moe-sl-enhanced-rubber-butt-pad-070-schwarz",
+     "in_stock": true,
+     "colors": {},
+     "title": "Schaftzubehör, Magpul, MOE SL Enhanced Rubber Butt-Pad 0.70\" schwarz"
     },
     {
      "shop": "thoron.ch",
@@ -6553,6 +7226,15 @@
      "title": "VORTEX OPTICS, Strike Eagle 1-6 x 24 SFP, AR-BDC3, blk",
      "note": "AR-BDC3 szálkereszt, SFP; a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
      "color": "black"
+    },
+    {
+     "shop": "trooper.ch",
+     "chf": 439.9,
+     "url": "https://www.trooper.ch/products/vortex-strike-eagle-1-6x24-ar-bdc3-moa-reticle-zielfernrohr?variant=57691823079797",
+     "in_stock": true,
+     "colors": {},
+     "title": "Vortex Strike Eagle 1-6x24 AR-BDC3 (MOA) Reticle Zielfernrohr",
+     "note": "a data.js nem nevezi meg a retikulumot; a bolti kivitel a címben szerepel"
     },
     {
      "shop": "airsoft.ch",
@@ -6977,6 +7659,15 @@
      "color": "black"
     },
     {
+     "shop": "dynamikarms.ch",
+     "chf": 155.0,
+     "url": "https://www.dynamikarms.ch/de/zweibeine/1797-magpul-bipod-for-m-lok.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul Bipod for M-LOK",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók); a bolt a színt nem nevezi meg (a cím/változat nem tartalmaz színt)"
+    },
+    {
      "shop": "shooting-store.ch",
      "chf": 155.7,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-bipod-for-m-lok",
@@ -7013,6 +7704,27 @@
      },
      "title": "Magpul M-LOK Bipod",
      "note": "a fő tétel ('M-LOK Bipod') színe nincs megadva; a 'Magpul M-LOK Bipod' TAN (=FDE) színű"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 164.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/bipod-magpul-for-m-lok-schwarz",
+     "in_stock": false,
+     "colors": {
+      "fde": {
+       "chf": 164.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/bipod-magpul-for-m-lok-fde",
+       "in_stock": false,
+       "title": "Bipod, Magpul, for M-LOK FDE"
+      },
+      "black": {
+       "chf": 164.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/bipod-magpul-for-m-lok-schwarz",
+       "in_stock": false,
+       "title": "Bipod, Magpul, for M-LOK schwarz"
+      }
+     },
+     "title": "Bipod, Magpul, for M-LOK schwarz"
     },
     {
      "shop": "gunlex.ch",
@@ -7146,6 +7858,27 @@
      "color": "black"
     },
     {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 172.0,
+     "url": "https://shop.waffen-grischun.ch/737-181-magpul-bipod-for-m-lok.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 172.0,
+       "url": "https://shop.waffen-grischun.ch/737-181-magpul-bipod-for-m-lok.html",
+       "in_stock": true,
+       "title": "Schwarz"
+      },
+      "fde": {
+       "chf": 172.0,
+       "url": "https://shop.waffen-grischun.ch/737-182-magpul-bipod-for-m-lok.html",
+       "in_stock": true,
+       "title": "FDE"
+      }
+     },
+     "title": "MAGPUL Bipod for M-LOK – Schwarz"
+    },
+    {
      "shop": "thoron.ch",
      "chf": 172.9,
      "url": "https://www.thoron.ch/de/waffenzubehoer/mono-bipods/bipod-for-m-lok",
@@ -7264,6 +7997,34 @@
      },
      "title": "Magpul MS1 Sling",
      "color": "black"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 48.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms1-sling-schwarz",
+     "in_stock": false,
+     "colors": {
+      "ranger": {
+       "chf": 48.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms1-sling-ranger-green",
+       "in_stock": false,
+       "title": "Gewehrriemen, Magpul, MS1 Sling Ranger Green"
+      },
+      "coyote": {
+       "chf": 48.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms1-sling-coyote",
+       "in_stock": false,
+       "title": "Gewehrriemen, Magpul, MS1 Sling coyote"
+      },
+      "black": {
+       "chf": 48.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms1-sling-schwarz",
+       "in_stock": false,
+       "title": "Gewehrriemen, Magpul, MS1 Sling schwarz"
+      }
+     },
+     "title": "Gewehrriemen, Magpul, MS1 Sling schwarz",
+     "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: gray"
     },
     {
      "shop": "armatum.ch",
@@ -7740,6 +8501,40 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 24.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-schwarz--5200",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 24.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-od-green--5203",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE-K2 Grip, AR15/M4 OD-Green"
+      },
+      "gray": {
+       "chf": 24.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-grau--5202",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE-K2 Grip, AR15/M4 grau"
+      },
+      "fde": {
+       "chf": 24.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-fde--5201",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE-K2 Grip AR15/M4 FDE"
+      },
+      "black": {
+       "chf": 24.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-schwarz--5200",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MOE-K2 Grip, AR15/M4 schwarz"
+      }
+     },
+     "title": "Pistolengriff, Magpul, MOE-K2 Grip, AR15/M4 schwarz",
+     "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: mc brown"
+    },
+    {
      "shop": "schiessstand.ch",
      "chf": 24.9,
      "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde-3/",
@@ -7860,6 +8655,27 @@
      },
      "title": "Magpul MOE K2 AR15 Grip - Black",
      "color": "black"
+    },
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 26.0,
+     "url": "https://shop.waffen-grischun.ch/729-169-magpul-moe-k2-grip-ar15-m4.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 26.0,
+       "url": "https://shop.waffen-grischun.ch/729-169-magpul-moe-k2-grip-ar15-m4.html",
+       "in_stock": true,
+       "title": "Schwarz"
+      },
+      "fde": {
+       "chf": 26.0,
+       "url": "https://shop.waffen-grischun.ch/729-168-magpul-moe-k2-grip-ar15-m4.html",
+       "in_stock": true,
+       "title": "FDE"
+      }
+     },
+     "title": "MAGPUL MOE-K2 Grip AR15/M4 – Schwarz"
     },
     {
      "shop": "armamat.ch",
@@ -7984,6 +8800,40 @@
      "title": "Magpul MIAD GEN 1.1 Grip Kit – TYPE 1 Schwarz",
      "note": "Type 1 (AR-15) kivitel; a Type 2 (AR-10/SR-25) más termék",
      "color": "black"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 46.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-miad-gen-11-grip-kit-type-1-schwarz",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 46.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-miad-gen-11-grip-kit-type-1-od-green",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MIAD GEN 1.1 Grip Kit, Type 1 OD-Green"
+      },
+      "gray": {
+       "chf": 46.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-miad-gen-11-grip-kit-type-1-grau",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MIAD GEN 1.1 Grip Kit, Type 1 grau"
+      },
+      "fde": {
+       "chf": 46.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-miad-gen-11-grip-kit-type-1-fde",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MIAD GEN 1.1 Grip Kit, Type 1 FDE"
+      },
+      "black": {
+       "chf": 46.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-miad-gen-11-grip-kit-type-1-schwarz",
+       "in_stock": false,
+       "title": "Pistolengriff, Magpul, MIAD GEN 1.1 Grip Kit, Type 1 schwarz"
+      }
+     },
+     "title": "Pistolengriff, Magpul, MIAD GEN 1.1 Grip Kit, Type 1 schwarz",
+     "note": "AR-15 (5.56, Type 1) kivitel"
     },
     {
      "shop": "thoron.ch",
@@ -8249,6 +9099,39 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 294.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ubr-gen2-collapsible-stock-schwarz",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 294.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ubr-gen2-collapsible-stock-od-green",
+       "in_stock": false,
+       "title": "Schaft, Magpul, UBR GEN2 Collapsible Stock OD-Green"
+      },
+      "gray": {
+       "chf": 294.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ubr-gen2-collapsible-stock-grau",
+       "in_stock": false,
+       "title": "Schaft, Magpul, UBR GEN2 Collapsible Stock grau"
+      },
+      "fde": {
+       "chf": 294.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ubr-gen2-collapsible-stock-fde",
+       "in_stock": false,
+       "title": "Schaft, Magpul, UBR GEN2 Collapsible Stock FDE"
+      },
+      "black": {
+       "chf": 294.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ubr-gen2-collapsible-stock-schwarz",
+       "in_stock": false,
+       "title": "Schaft, Magpul, UBR GEN2 Collapsible Stock schwarz"
+      }
+     },
+     "title": "Schaft, Magpul, UBR GEN2 Collapsible Stock schwarz"
+    },
+    {
      "shop": "armatum.ch",
      "chf": 319.9,
      "url": "https://armatum.ch/produkt/magpul-ubr-gen2-collapsible-stock/",
@@ -8303,11 +9186,11 @@
    ]
   },
   "gs-s3g": {
-   "chf": 359.0,
-   "shop": "thoron.ch",
-   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-3-gun-s3g-trigger",
+   "chf": 325.0,
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/ar-m4/1506-geissele-super-3-gun-s3g-854014005052.html",
    "in_stock": true,
-   "title": "Super 3 Gun (S3G) Trigger",
+   "title": "Geissele Super 3 Gun S3G",
    "weight_g": 80,
    "dims": "Länge 5.1 cm x Breite 5.1 cm x Höhe 2.3 cm",
    "offers": [
@@ -8320,12 +9203,29 @@
      "title": "Geissele Automatics AR15 Super 3 Gun S3G Trigger"
     },
     {
+     "shop": "dynamikarms.ch",
+     "chf": 325.0,
+     "url": "https://www.dynamikarms.ch/de/ar-m4/1506-geissele-super-3-gun-s3g-854014005052.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Geissele Super 3 Gun S3G",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók)"
+    },
+    {
      "shop": "thoron.ch",
      "chf": 359.0,
      "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-3-gun-s3g-trigger",
      "in_stock": true,
      "colors": {},
      "title": "Super 3 Gun (S3G) Trigger"
+    },
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 359.0,
+     "url": "https://shop.waffen-grischun.ch/820-geissele-super-3-gun-s3g-trigger.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Geissele Super 3 Gun (S3G) Trigger"
     },
     {
      "shop": "armamat.ch",
@@ -8463,6 +9363,21 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 21.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-10-ar-m4-gen-m3-kal-223-rem-schwarz",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 21.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-10-ar-m4-gen-m3-kal-223-rem-schwarz",
+       "in_stock": false,
+       "title": "Magazin, Magpul, PMAG 10 AR/M4 Gen M3, Kal. .223 Rem., schwarz"
+      }
+     },
+     "title": "Magazin, Magpul, PMAG 10 AR/M4 Gen M3, Kal. .223 Rem., schwarz"
+    },
+    {
      "shop": "gunlex.ch",
      "chf": 21.9,
      "url": "https://gunlex.ch/shop/magazine/magpul-pmag10-gen-3-223-rem-schwarz/",
@@ -8511,6 +9426,21 @@
      "colors": {},
      "title": "PMAG 10 AR/M4 GEN M3",
      "color": "black"
+    },
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 22.9,
+     "url": "https://shop.waffen-grischun.ch/689-magpul-pmag-10-ar-m4-gen-m3-223-rem-schwarz.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 22.9,
+       "url": "https://shop.waffen-grischun.ch/689-magpul-pmag-10-ar-m4-gen-m3-223-rem-schwarz.html",
+       "in_stock": true,
+       "title": "MAGPUL PMAG 10 AR/M4 GEN M3 .223 Rem. - Schwarz"
+      }
+     },
+     "title": "MAGPUL PMAG 10 AR/M4 GEN M3 .223 Rem. - Schwarz"
     },
     {
      "shop": "armamat.ch",
@@ -8673,6 +9603,21 @@
      "color": "black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 21.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-20-ar-m4-gen-m3-kal-223-rem-schwarz",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 21.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-20-ar-m4-gen-m3-kal-223-rem-schwarz",
+       "in_stock": false,
+       "title": "Magazin, Magpul, PMAG 20 AR/M4 Gen M3, Kal. .223 Rem. schwarz"
+      }
+     },
+     "title": "Magazin, Magpul, PMAG 20 AR/M4 Gen M3, Kal. .223 Rem. schwarz"
+    },
+    {
      "shop": "shop.indoorswiss.ch",
      "chf": 22.5,
      "url": "https://shop.indoorswiss.ch/de/magazine/21057-magpul-pmag-20-ar-m4-gen-m3.html",
@@ -8688,6 +9633,21 @@
      "colors": {},
      "title": "PMAG 20 AR/M4 GEN M3",
      "color": "black"
+    },
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 22.9,
+     "url": "https://shop.waffen-grischun.ch/695-magpul-pmag-20-ar-m4-gen-m3-223-rem-schwarz.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 22.9,
+       "url": "https://shop.waffen-grischun.ch/695-magpul-pmag-20-ar-m4-gen-m3-223-rem-schwarz.html",
+       "in_stock": true,
+       "title": "MAGPUL PMAG 20 AR/M4 GEN M3 .223 Rem Schwarz"
+      }
+     },
+     "title": "MAGPUL PMAG 20 AR/M4 GEN M3 .223 Rem Schwarz"
     },
     {
      "shop": "tacstore.ch",
@@ -8841,6 +9801,28 @@
      "title": "Magpul PMAG® 30 AR/M4 GEN M3™ 5.56x45mm NATO – Black"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 20.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-30-ar-m4-gen-m3-kal-223-rem-schwarz",
+     "in_stock": false,
+     "colors": {
+      "odg": {
+       "chf": 20.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-30-ar-m4-gen-m3-kal-223-rem-od-green",
+       "in_stock": false,
+       "title": "Magazin, Magpul, PMAG 30 AR/M4 Gen M3, Kal. .223 Rem., OD-Green"
+      },
+      "black": {
+       "chf": 20.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-30-ar-m4-gen-m3-kal-223-rem-schwarz",
+       "in_stock": false,
+       "title": "Magazin, Magpul, PMAG 30 AR/M4 Gen M3, Kal. 223 Rem. schwarz"
+      }
+     },
+     "title": "Magazin, Magpul, PMAG 30 AR/M4 Gen M3, Kal. 223 Rem. schwarz",
+     "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: coyote, mc brown"
+    },
+    {
      "shop": "gunlex.ch",
      "chf": 20.9,
      "url": "https://gunlex.ch/shop/magazine/magpul-pmag-30-ar-m4-gen-m3/",
@@ -8976,10 +9958,10 @@
        "chf": 29.0,
        "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m781c1149ebe45842",
        "in_stock": true,
-       "title": "Magpul PMAG 30 Rnds Gen M3 – Pmag 30 Black 30 Rnds"
+       "title": "Magpul PMAG 30 Rnds Gen M3 Pmag 30 Black 30 Rnds"
       }
      },
-     "title": "Magpul PMAG 30 Rnds Gen M3 – Pmag 30 Black 30 Rnds",
+     "title": "Magpul PMAG 30 Rnds Gen M3",
      "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: coyote"
     },
     {
@@ -9017,6 +9999,21 @@
      "colors": {},
      "title": "MAGPUL AR-15 40RD PMAG GEN M3 MAGAZINE 223/5.56",
      "color": "black"
+    },
+    {
+     "shop": "dangos.ch",
+     "chf": 32.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-40-ar-m4-gen-m3-kal-223-rem-schwarz",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 32.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-40-ar-m4-gen-m3-kal-223-rem-schwarz",
+       "in_stock": false,
+       "title": "Magazin, Magpul, PMAG 40 AR/M4 Gen M3, Kal. .223 Rem., schwarz"
+      }
+     },
+     "title": "Magazin, Magpul, PMAG 40 AR/M4 Gen M3, Kal. .223 Rem., schwarz"
     },
     {
      "shop": "gunlex.ch",
@@ -9089,6 +10086,21 @@
      "colors": {},
      "title": "PMAG 40 AR/M4 GEN M3",
      "color": "black"
+    },
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 34.9,
+     "url": "https://shop.waffen-grischun.ch/696-magpul-pmag-40-ar-m4-gen-m3-223-rem-schwarz.html",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 34.9,
+       "url": "https://shop.waffen-grischun.ch/696-magpul-pmag-40-ar-m4-gen-m3-223-rem-schwarz.html",
+       "in_stock": true,
+       "title": "MAGPUL PMAG 40 AR/M4 GEN M3 .223 Rem Schwarz"
+      }
+     },
+     "title": "MAGPUL PMAG 40 AR/M4 GEN M3 .223 Rem Schwarz"
     },
     {
      "shop": "armamat.ch",
@@ -9229,6 +10241,15 @@
      },
      "title": "Super Precision Scope Mount | 1.93\"",
      "color": "black"
+    },
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 437.0,
+     "url": "https://shop.waffen-grischun.ch/808-geissele-ar15-super-precision-standard-o30mm-schwarz.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Geissele AR15 Super Precision Standard - Ø30mm - Schwarz",
+     "note": "a bolt több azonos árú Super Precision 30 mm kivitelt árul (Standard / Scope Mount 1.93\"); a legolcsóbb szerepel"
     }
    ]
   },
@@ -9417,6 +10438,21 @@
      "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: coyote; a színjelölés nélküli alaptermék feketének véve (a többi szín külön termékként szerepel a boltban)"
     },
     {
+     "shop": "dangos.ch",
+     "chf": 193.9,
+     "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-d-60-ar-m4-gen-m3-kal-223-rem-schwarz",
+     "in_stock": false,
+     "colors": {
+      "black": {
+       "chf": 193.9,
+       "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-d-60-ar-m4-gen-m3-kal-223-rem-schwarz",
+       "in_stock": false,
+       "title": "Magazin, Magpul, PMAG D-60 AR/M4 Gen M3, Kal. .223 Rem. schwarz"
+      }
+     },
+     "title": "Magazin, Magpul, PMAG D-60 AR/M4 Gen M3, Kal. .223 Rem. schwarz"
+    },
+    {
      "shop": "gunfactory.ch",
      "chf": 194.0,
      "url": "https://www.gunfactory.ch/langwaf/magazin_betamag.htm",
@@ -9481,7 +10517,7 @@
      "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m03907f10a116def5",
      "in_stock": true,
      "colors": {},
-     "title": "Magpul PMAG D-60 – Pmag Trommel",
+     "title": "Magpul PMAG D-60",
      "note": "a bolt a színt nem nevezi meg (a cím/változat nem tartalmaz színt)"
     }
    ]
@@ -9704,11 +10740,11 @@
    ]
   },
   "gs-ssa": {
-   "chf": 330.0,
-   "shop": "armurerie-richert.ch",
-   "url": "https://armurerie-richert.ch/produit/detente-geissele-ssa-pour-ar15/",
+   "chf": 298.0,
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/ar-m4/3074-geissele-super-semi-automatic-ssa.html",
    "in_stock": true,
-   "title": "Détente GEISSELE SSA pour AR15",
+   "title": "Geissele Super Semi-Automatic SSA",
    "weight_g": null,
    "dims": null,
    "offers": [
@@ -9721,12 +10757,29 @@
      "title": "Super Semi-Automatic (SSA)"
     },
     {
+     "shop": "dynamikarms.ch",
+     "chf": 298.0,
+     "url": "https://www.dynamikarms.ch/de/ar-m4/3074-geissele-super-semi-automatic-ssa.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Geissele Super Semi-Automatic SSA",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók)"
+    },
+    {
      "shop": "thoron.ch",
      "chf": 328.0,
      "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-semi-automatic-ssa-trigger",
      "in_stock": false,
      "colors": {},
      "title": "Super Semi-Automatic (SSA) Trigger"
+    },
+    {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 329.0,
+     "url": "https://shop.waffen-grischun.ch/822-geissele-super-semi-automatic-ssa-trigger.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Geissele Super Semi-Automatic (SSA) Trigger"
     },
     {
      "shop": "armurerie-richert.ch",
@@ -9789,6 +10842,14 @@
      "title": "Super Dynamic Enhanced (SD-E) Trigger"
     },
     {
+     "shop": "shop.waffen-grischun.ch",
+     "chf": 359.0,
+     "url": "https://shop.waffen-grischun.ch/825-geissele-super-dynamic-enhanced-sd-e-trigger.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Geissele Super Dynamic Enhanced (SD-E) Trigger"
+    },
+    {
      "shop": "tacstore.ch",
      "chf": 392.95,
      "url": "https://www.tacstore.ch/geissele-super-dynamic-enhanced-trigger-sd-e",
@@ -9800,13 +10861,22 @@
   },
   "dd-v7": {
    "chf": 2340.0,
-   "shop": "dynamikarms.ch",
-   "url": "https://www.dynamikarms.ch/de/ar-m4/1619-daniel-defense-ddm4-v7-16-556-nato-black.html",
+   "shop": "dangos.ch",
+   "url": "https://www.dangos.ch/de/sportwaffen/halbautomaten/halbautomat-daniel-defense-ddm4-v7-16-kal-556-nato",
    "in_stock": true,
-   "title": "Daniel Defense DDM4 V7 16\" 5.56 NATO Black",
+   "title": "Halbautomat, Daniel Defense, DDM4 V7 16\", Kal. 5.56 Nato",
    "weight_g": 2812,
    "dims": "Lauflänge in mm: 406.4; Lauflänge in Zoll: 16",
    "offers": [
+    {
+     "shop": "dangos.ch",
+     "chf": 2340.0,
+     "url": "https://www.dangos.ch/de/sportwaffen/halbautomaten/halbautomat-daniel-defense-ddm4-v7-16-kal-556-nato",
+     "in_stock": true,
+     "colors": {},
+     "title": "Halbautomat, Daniel Defense, DDM4 V7 16\", Kal. 5.56 Nato",
+     "note": "16\" csöves, 5.56 NATO kivitel (a bolt a DDM4 V7 16\" alapkivitelét listázza; a Cerakote/színes változatok külön tételek); több színváltozat van, a fekete ára szerepel; a többi: Halbautomat, Daniel Defense, DDM4 V7 16\", Kal. 5.56mm Nato, Cobalt 2700.00 CHF; a színjelölés nélküli alaptermék feketének véve (a többi szín külön termékként szerepel a boltban)"
+    },
     {
      "shop": "dynamikarms.ch",
      "chf": 2340.0,
@@ -9814,7 +10884,7 @@
      "in_stock": true,
      "colors": {},
      "title": "Daniel Defense DDM4 V7 16\" 5.56 NATO Black",
-     "note": "16\" cső, 5.56 NATO, fekete kivitel (a bolti címben: 'DDM4 V7 16\" 5.56 NATO Black')"
+     "note": "16\" csöves, 5.56 NATO kivitel (a bolt a DDM4 V7 16\" alapkivitelét listázza; a Cerakote/színes változatok külön tételek)"
     },
     {
      "shop": "heldef.ch",
@@ -9923,6 +10993,106 @@
      "colors": {},
      "title": "Daniel Defense DDM4 V7 16\", 5.56 NATO, Brown, MilSpec",
      "note": "A boltban csak a Brown (Mil-Spec) 16\" változat; a data.js fekete"
+    }
+   ]
+  },
+  "gs-ssae": {
+   "chf": 309.0,
+   "shop": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/de/ar-m4/1507-geissele-super-semi-automatic-enhanced-ssa-e-854014005038.html",
+   "in_stock": true,
+   "title": "Geissele Super Semi-Automatic Enhanced SSA-E",
+   "weight_g": 150,
+   "dims": "L 150 mm x B 150 mm x H 25 mm (bolti adat, valószínűleg csomagméret)",
+   "offers": [
+    {
+     "shop": "shooting-store.ch",
+     "chf": 295.2,
+     "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-enhanced-ssa-e",
+     "in_stock": false,
+     "colors": {},
+     "title": "Super Semi-Automatic Enhanced (SSA-E)"
+    },
+    {
+     "shop": "dynamikarms.ch",
+     "chf": 309.0,
+     "url": "https://www.dynamikarms.ch/de/ar-m4/1507-geissele-super-semi-automatic-enhanced-ssa-e-854014005038.html",
+     "in_stock": true,
+     "colors": {},
+     "title": "Geissele Super Semi-Automatic Enhanced SSA-E",
+     "note": "a termékoldal HTTP 500-at ad; az ár és a készlet a bolt találati listájából való (színváltozatok nem olvashatók)"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 359.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-semi-automatic-enhanced-ssa-e-trigger",
+     "in_stock": true,
+     "colors": {},
+     "title": "Super Semi-Automatic Enhanced (SSA-E) Trigger"
+    },
+    {
+     "shop": "waffenpauli.ch",
+     "chf": 369.0,
+     "url": "https://www.waffenpauli.ch/Abzug-Geissele-Automatics-Super-Semi-Automatic-Enhanced-SSA-E-Trigger-2-Stage-AR15-AR10/100006357",
+     "in_stock": false,
+     "colors": {},
+     "title": "Abzug Geissele Automatics Super Semi-Automatic Enhanced (SSA-E) Trigger 2 Stage AR15/AR10"
+    },
+    {
+     "shop": "tacstore.ch",
+     "chf": 389.95,
+     "url": "https://www.tacstore.ch/geissele-super-semi-automatic-enhanced-ssa-e-trigger",
+     "in_stock": false,
+     "colors": {},
+     "title": "Geissele Super Semi-Automatic Enhanced SSA-E Trigger",
+     "note": "a 'Large Pin' és az 'SSA-E X' más termék"
+    }
+   ]
+  },
+  "ap-m5": {
+   "chf": 860.0,
+   "shop": "heldef.ch",
+   "url": "https://heldef.ch/red-dot-aimpoint-compm5-2-moa-ar15-ready-with-lrp-mount-and-39-mm-spacer/",
+   "in_stock": null,
+   "title": "Red Dot AIMPOINT CompM5 2 MOA — AR15 Ready with LRP Mount and 39 mm Spacer",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "heldef.ch",
+     "chf": 860.0,
+     "url": "https://heldef.ch/red-dot-aimpoint-compm5-2-moa-ar15-ready-with-lrp-mount-and-39-mm-spacer/",
+     "colors": {},
+     "title": "Red Dot AIMPOINT CompM5 2 MOA — AR15 Ready with LRP Mount and 39 mm Spacer",
+     "note": "CompM5 2 MOA + LRP szerelék + 39 mm távtartó"
+    },
+    {
+     "shop": "thoron.ch",
+     "chf": 865.0,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/pistol-sights-visierungen/pistol-reflex-sights-red-dot/comp-m5",
+     "in_stock": false,
+     "colors": {},
+     "title": "Comp M5",
+     "note": "A bolti leírás szerint a CompM5 LRP-montázzsal és 39 mm távtartóval kerül eladásra.",
+     "color": "black"
+    },
+    {
+     "shop": "tacstore.ch",
+     "chf": 999.95,
+     "url": "https://www.tacstore.ch/aimpoint-comp-m5-2-moa-39mm-lrp-mount-red-dot-reflex-sight",
+     "in_stock": false,
+     "colors": {},
+     "title": "Aimpoint Comp M5 2 MOA & 39mm LRP Mount Red Dot Reflex Sight",
+     "note": "CompM5 2 MOA + 39 mm-es LRP szerelék; a 'Standard Mount' és a szerelék nélküli más termék"
+    },
+    {
+     "shop": "gun-art.ch",
+     "chf": 1130.0,
+     "url": "https://www.gun-art.ch/app/module/webproduct/goto/m/m81f76f3598291cee",
+     "in_stock": true,
+     "colors": {},
+     "title": "Aimpoint Comp M5",
+     "note": "a csomag tartalma a bolti termékleírás alapján igazolt"
     }
    ]
   },
@@ -10055,44 +11225,6 @@
      "colors": {},
      "title": "Micro T-2 Schwarz | LRP Montage | 39 mm",
      "note": "Bolti kivitel: Micro T-2 LRP-quick-release montázzsal és 39 mm távtartóval."
-    }
-   ]
-  },
-  "ap-m5": {
-   "chf": 860.0,
-   "shop": "heldef.ch",
-   "url": "https://heldef.ch/red-dot-aimpoint-compm5-2-moa-ar15-ready-with-lrp-mount-and-39-mm-spacer/",
-   "in_stock": null,
-   "title": "Red Dot AIMPOINT CompM5 2 MOA — AR15 Ready with LRP Mount and 39 mm Spacer",
-   "weight_g": null,
-   "dims": null,
-   "offers": [
-    {
-     "shop": "heldef.ch",
-     "chf": 860.0,
-     "url": "https://heldef.ch/red-dot-aimpoint-compm5-2-moa-ar15-ready-with-lrp-mount-and-39-mm-spacer/",
-     "colors": {},
-     "title": "Red Dot AIMPOINT CompM5 2 MOA — AR15 Ready with LRP Mount and 39 mm Spacer",
-     "note": "CompM5 2 MOA + LRP szerelék + 39 mm távtartó"
-    },
-    {
-     "shop": "thoron.ch",
-     "chf": 865.0,
-     "url": "https://www.thoron.ch/de/waffenzubehoer/pistol-sights-visierungen/pistol-reflex-sights-red-dot/comp-m5",
-     "in_stock": false,
-     "colors": {},
-     "title": "Comp M5",
-     "note": "A bolti leírás szerint a CompM5 LRP-montázzsal és 39 mm távtartóval kerül eladásra.",
-     "color": "black"
-    },
-    {
-     "shop": "tacstore.ch",
-     "chf": 999.95,
-     "url": "https://www.tacstore.ch/aimpoint-comp-m5-2-moa-39mm-lrp-mount-red-dot-reflex-sight",
-     "in_stock": false,
-     "colors": {},
-     "title": "Aimpoint Comp M5 2 MOA & 39mm LRP Mount Red Dot Reflex Sight",
-     "note": "CompM5 2 MOA + 39 mm-es LRP szerelék; a 'Standard Mount' és a szerelék nélküli más termék"
     }
    ]
   },
@@ -10569,50 +11701,6 @@
      "in_stock": false,
      "colors": {},
      "title": "BCM Gunfighter Compensator MOD0 5.56 / .223"
-    }
-   ]
-  },
-  "gs-ssae": {
-   "chf": 359.0,
-   "shop": "thoron.ch",
-   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-semi-automatic-enhanced-ssa-e-trigger",
-   "in_stock": true,
-   "title": "Super Semi-Automatic Enhanced (SSA-E) Trigger",
-   "weight_g": 150,
-   "dims": "L 150 mm x B 150 mm x H 25 mm (bolti adat, valószínűleg csomagméret)",
-   "offers": [
-    {
-     "shop": "shooting-store.ch",
-     "chf": 295.2,
-     "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-enhanced-ssa-e",
-     "in_stock": false,
-     "colors": {},
-     "title": "Super Semi-Automatic Enhanced (SSA-E)"
-    },
-    {
-     "shop": "thoron.ch",
-     "chf": 359.0,
-     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-semi-automatic-enhanced-ssa-e-trigger",
-     "in_stock": true,
-     "colors": {},
-     "title": "Super Semi-Automatic Enhanced (SSA-E) Trigger"
-    },
-    {
-     "shop": "waffenpauli.ch",
-     "chf": 369.0,
-     "url": "https://www.waffenpauli.ch/Abzug-Geissele-Automatics-Super-Semi-Automatic-Enhanced-SSA-E-Trigger-2-Stage-AR15-AR10/100006357",
-     "in_stock": false,
-     "colors": {},
-     "title": "Abzug Geissele Automatics Super Semi-Automatic Enhanced (SSA-E) Trigger 2 Stage AR15/AR10"
-    },
-    {
-     "shop": "tacstore.ch",
-     "chf": 389.95,
-     "url": "https://www.tacstore.ch/geissele-super-semi-automatic-enhanced-ssa-e-trigger",
-     "in_stock": false,
-     "colors": {},
-     "title": "Geissele Super Semi-Automatic Enhanced SSA-E Trigger",
-     "note": "a 'Large Pin' és az 'SSA-E X' más termék"
     }
    ]
   },

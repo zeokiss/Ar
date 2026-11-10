@@ -216,25 +216,31 @@ COLOR_ORDER = [
 ]
 
 
+OTHER_COLORS = (r"\b(mc ?brown|mcb|multicam|brown|braun|sand|khaki|orange|red(?! dot)|rot|blue|blau|green(?! (dot|circle|laser))|"
+                r"gr[uü]n|pink|purple|yellow|gelb|white|weiss|camo|tarn|burnt|cobalt|cerakote|bronze|olive green)\b")
+
+
 def color_of(text):
+    """-> a data.js palettakulcs | 'x:<szín>' (a palettában nem szereplő szín) | None (nincs színjelölés)"""
     t = nt(text)
     for key, rx in COLOR_ORDER:
         if re.search(rx, t):
             return key
-    return None
+    m = re.search(OTHER_COLORS, t)
+    return ("x:" + m.group(1)) if m else None
 
 
 # --------------------------------------------------------------------------- szabályok
-def S(q, req=(), bad=(), brand=None, vreq=(), desc=(), multi=False, why=None, near=None, kit=None, note=None):
+def S(q, req=(), bad=(), brand=None, vreq=(), desc=(), multi=False, why=None, near=None, kit=None, note=None, skureq=None):
     """q: keresőkifejezések; brand: a márka (regex, a bolti márka+cím normalizált szövegében);
     req/bad: a bolti TERMÉKCÍM (normalizált) mintái – mind kell / egy sem lehet;
     vreq: a címben, változat-címben, cikkszámban VAGY leírásban kötelezően szereplő minták;
     desc: csomag-tartalom igazolása (cím vagy leírás); multi: azonos modell több kivitele -> a legolcsóbb,
-    a többi 'alternatives'; why: az unmatched indoka; near: tájékoztató 'legközelebbi' minta."""
+    a többi 'alternatives'; skureq: ha a bolti cikkszám meg van adva, ennek a mintának illenie kell rá (címhiba-védelem); why: az unmatched indoka; near: tájékoztató 'legközelebbi' minta."""
     if isinstance(q, str):
         q = [q]
     return dict(q=list(q), req=list(req), bad=list(bad), brand=brand, vreq=list(vreq), desc=list(desc),
-                multi=multi, why=why, near=near, kit=kit, note=note)
+                multi=multi, why=why, near=near, kit=kit, note=note, skureq=skureq)
 
 
 FIREARM = "alapfegyver (lőfegyver)"
@@ -244,20 +250,22 @@ SET_BUIS = "szett (első + hátsó irányzék): csak külön első/hátsó téte
 # A mintákat a bolti terméknév nt() szerinti normalizált alakjára írjuk (kisbetű, írásjel -> szóköz,
 # '+' -> ' plus ', pont csak számjegyek között marad: "k2+" -> "k2 plus", "B.A.D." -> "bad").
 MP, BCM_, B5_ = r"magpul", r"bcm|bravo company", r"b5"
+RAD_BAD = r"ar ?10|sr ?25|mpx|mcx|\bsig\b|308|7\.62|\bak\b"
+SCHM_BAD = r"9 ?mm|conversion|upper|abzug|trigger|pcc|schalld|magazin|zubeh|straight pull|sp15|repetier"
 PM_BAD = r"\blr\b|\bsr\b|lrsr|7\.62|308|gl9|\bak\b|akm|ar ?10|swiss|\bd 50|\bd 60|300 b|300 blk|blackout|6\.8|6\.5|grendel|x39|9mm|g36|stgw|10 30"
 RULES = {
     # ---- alapfegyverek
-    "schm-s4f": S(["Schmeisser AR15 S4F"], [r"schmeisser", r"s4f"], brand="schmeisser"),
-    "schm-m4fl": S(["Schmeisser AR15 M4FL"], [r"schmeisser", r"m4fl"], brand="schmeisser"),
-    "schm-m5fl": S(["Schmeisser AR15 M5FL"], [r"schmeisser", r"m5fl"], [r"dynamic"], brand="schmeisser"),
-    "schm-dyn": S(["Schmeisser AR15 Dynamic"], [r"schmeisser", r"dynamic"], brand="schmeisser"),
-    "dd-v7": S(["Daniel Defense DDM4 V7", "Daniel Defense"], [r"ddm4 v7 16\b"], [r"slw|\bs\b|sbr|\bpro\b|\blw\b|mk18"],
+    "schm-s4f": S(["Schmeisser AR15 S4F"], [r"schmeisser", r"s4f"], [SCHM_BAD], brand="schmeisser"),
+    "schm-m4fl": S(["Schmeisser AR15 M4FL"], [r"schmeisser", r"m4fl"], [SCHM_BAD], brand="schmeisser"),
+    "schm-m5fl": S(["Schmeisser AR15 M5FL"], [r"schmeisser", r"m5fl"], [r"dynamic", SCHM_BAD], brand="schmeisser"),
+    "schm-dyn": S(["Schmeisser AR15 Dynamic"], [r"schmeisser", r"dynamic"], [SCHM_BAD], brand="schmeisser"),
+    "dd-v7": S(["Daniel Defense DDM4 V7", "Daniel Defense"], [r"ddm4 v7 16\b"], [r"slw|\bs\b|sbr|\bpro\b|\blw\b|mk18|rattlecan|cerakote|\bfde\b|\btan\b|olive|od green|mil spec"],
                brand="daniel defense",
-               note="16\" cső, 5.56 NATO, fekete kivitel (a bolti címben: 'DDM4 V7 16\" 5.56 NATO Black')"),
+               note="16\" csöves, 5.56 NATO kivitel (a bolt a DDM4 V7 16\" alapkivitelét listázza; a Cerakote/színes változatok külön tételek)"),
     "bcm-recce16": S(["BCM RECCE-16", "BCM RECCE"], [r"recce 16"], brand=BCM_),
     # ---- markolatok
     "mp-moe": S(["Magpul MOE Grip", "MOE Grip"], [MP, r"\bmoe\b", r"\bgrip\b"],
-                [r"\bk2|miad|\bak\b|akm|ak47|ak74|\bsl\b|plus|vertical|guard|mvg|afg|rvg|\bstop|bipod|sg9|\bxl\b|enhanced|angled|hand ?guard|\bsr\b"],
+                [r"\bk2|miad|\bak\b|akm|ak47|ak74|\bsl\b|plus|vertical|guard|mvg|afg|rvg|\bstop|bipod|sg9|\bxl\b|enhanced|angled|hand ?guard|\bsr\b|\bk\b|evo"],
                 brand=MP),
     "mp-moek2": S(["Magpul MOE K2 Grip", "MOE K2 Grip"], [MP, r"\bmoe k2\b", r"\bgrip\b"], [r"plus|\bxl\b|\bak"], brand=MP),
     "mp-moek2p": S(["Magpul MOE K2 Grip", "MOE K2 plus"], [MP, r"\bk2 plus\b", r"\bgrip\b"], brand=MP),
@@ -300,10 +308,10 @@ RULES = {
     "ap-acro": S(["Aimpoint ACRO P-2", "Aimpoint ACRO"], [r"aimpoint", r"ac?r?c?ro p ?2|arcro p ?2|acro p ?2"], [r"montage|mount|spacer"], brand="aimpoint", kit=True,
                  desc=[r"picatinny"], near=r"ac?r?c?ro",
                  why="csomag (ACRO P-2 + Picatinny talp): a bolti termék nem igazolja a Picatinny talp tartozékként való szállítását"),
-    "eo-exps3": S(["EOTech EXPS3", "EOTech HWS EXPS3"], [r"exps3"], [r"dcr|exps3 ?[1-9]"], vreq=[r"exps3 ?0\b"], brand="eotech"),
-    "eo-exps2": S(["EOTech EXPS2", "EOTech HWS EXPS2"], [r"exps2"], [r"exps2 ?[1-9]"], vreq=[r"exps2 ?0\b"], brand="eotech"),
-    "eo-xps2": S(["EOTech XPS2", "EOTech HWS XPS2"], [r"\bxps2"], [r"exps|xps2 ?[1-9]"], vreq=[r"xps2 ?0\b"], brand="eotech"),
-    "hs-510c": S(["Holosun HS510C", "Holosun 510C"], [r"holosun", r"\bhs510c\b"], [r"\bhe510|elite"], brand="holosun"),
+    "eo-exps3": S(["EOTech EXPS3", "EOTech HWS EXPS3"], [r"exps3"], [r"dcr|exps3 ?[1-9]"], vreq=[r"exps3 ?0\b"], brand="eotech", skureq=r"exps3"),
+    "eo-exps2": S(["EOTech EXPS2", "EOTech HWS EXPS2"], [r"exps2"], [r"exps2 ?[1-9]"], vreq=[r"exps2 ?0\b"], brand="eotech", skureq=r"exps2"),
+    "eo-xps2": S(["EOTech XPS2", "EOTech HWS XPS2"], [r"\bxps2"], [r"exps|xps2 ?[1-9]"], vreq=[r"xps2 ?0\b"], brand="eotech", skureq=r"xps2"),
+    "hs-510c": S(["Holosun HS510C", "Holosun 510C"], [r"holosun", r"\bhs510c\b"], [r"\bhe510|elite|\bset\b|magnifier|hm3x|koffer|case"], brand="holosun"),
     "hs-aems": S(["Holosun AEMS"], [r"holosun", r"\baems\b"], [r"core|macro|micro|evo|\bpro\b|\bmax\b|\bx2\b|aems pro"], brand="holosun", near=r"aems",
                  why="az eredeti 'AEMS' típus nincs a boltban (csak más AEMS-modellek: Core/Macro/Pro/Micro)"),
     "hs-403b": S(["Holosun HS403B", "Holosun 403B"], [r"holosun", r"\bhs403b\b", r"riser|mount|montage|spacer|erhöh|magas"], brand="holosun", kit=True, near=r"403",
@@ -330,16 +338,17 @@ RULES = {
     "eo-vudu16": S(["EOTech Vudu 1-6x24", "EOTech Vudu"], [r"eotech", r"vudu", r"1 6x24"], multi=True, brand="eotech"),
     "eo-vudu110": S(["EOTech Vudu 1-10x28", "EOTech Vudu"], [r"eotech", r"vudu", r"1 10x28"], multi=True, brand="eotech"),
     # ---- optikaszerelék
-    "gs-sp30": S(["Geissele Super Precision", "Geissele Scope Mount"], [r"geissele", r"super precision", r"30"], [r"34"], brand="geissele"),
+    "gs-sp30": S(["Geissele Super Precision", "Geissele Scope Mount"], [r"geissele", r"super precision", r"30"], [r"34|extended|razor"], multi=True, brand="geissele",
+                 note="a bolt több azonos árú Super Precision 30 mm kivitelt árul (Standard / Scope Mount 1.93\"); a legolcsóbb szerepel"),
     "vx-cant30": S(["Vortex Sport Cantilever", "Vortex Cantilever"], [r"vortex", r"sport cantilever", r"30 ?mm"], brand="vortex"),
     # ---- nagyítók
-    "eo-g33": S(["EOTech G33", "EOTech Magnifier"], [r"eotech", r"\bg33\b"], vreq=[r"sts"], brand="eotech", kit=True, near=r"g33",
+    "eo-g33": S(["EOTech G33", "EOTech Magnifier"], [r"eotech", r"\bg33\b"], vreq=[r"sts"], brand="eotech", kit=True, near=r"g33", skureq=r"g33",
                 why="csomag (G33 + STS szerelék): a bolti tétel nem igazolja az STS szerelék mellékelését"),
     "eo-g43": S(["EOTech G43", "EOTech Magnifier"], [r"eotech", r"\bg43\b"], vreq=[r"micro"], brand="eotech", kit=True, near=r"g43",
                 why="csomag (G43 + Micro szerelék) nincs a boltban"),
     "ap-3x": S(["Aimpoint 3XMag-1", "Aimpoint 3X Magnifier"], [r"aimpoint", r"3x ?mag ?1", r"flip"], brand="aimpoint", kit=True, near=r"3x ?mag",
                why="csomag (3XMag-1 + Flip szerelék): a bolt a nagyítót és a szerelékeket külön árulja / nincs ilyen tétel"),
-    "hs-hm3x": S(["Holosun HM3X", "Holosun Magnifier"], [r"holosun", r"\bhm3x\b"], brand="holosun", near=r"hm3x"),
+    "hs-hm3x": S(["Holosun HM3X", "Holosun Magnifier"], [r"holosun", r"\bhm3x\b"], [r"\bset\b|hs510c|koffer|case"], brand="holosun", near=r"hm3x"),
     "vx-m3x": S(["Vortex Micro 3X Magnifier", "Vortex Magnifier"], [r"vortex", r"micro ?3x"], vreq=[r"flip"], brand="vortex", kit=True, near=r"magnifier|3x",
                 why="a 'Micro3X + Flip' nincs a boltban"),
     # ---- BUIS
@@ -361,11 +370,11 @@ RULES = {
     "bcm-kag": S(["BCM KAG", "BCM Kinesthetic Angled Grip"], [BCM_, r"\bkag\b|kinesthetic"], brand=BCM_),
     "mp-rail5": S(["Magpul M-LOK Rail Section", "Magpul Rail Section"], [MP, r"m ?lok", r"rail section", r"\b5 slots?\b", r"alumin"], brand=MP, near=r"rail section"),
     "mp-qd": S(["Magpul M-LOK QD", "Magpul QD Sling Mount"], [MP, r"m ?lok", r"\bqd\b", r"sling mount"], [r"rsa|rail"], brand=MP),
-    "mp-cover": S(["Magpul M-LOK Rail Cover", "Magpul Rail Cover"], [MP, r"m ?lok", r"rail cover", r"type 2"], brand=MP),
+    "mp-cover": S(["Magpul M-LOK Rail Cover", "Magpul Rail Cover"], [MP, r"m ?lok", r"rail cover", r"type 2"], [r"half"], brand=MP),
     "mp-cable": S(["Magpul M-LOK Cable", "Magpul Cable Management"], [MP, r"m ?lok", r"cable"], brand=MP,
                   why="a Magpul M-LOK Cable Management Kit nincs a boltban"),
     # ---- bipod
-    "mp-bipod": S(["Magpul Bipod", "Magpul Bipod M-LOK"], [MP, r"bipod", r"m ?lok"], [r"moe|alumin|arms|picatinny|1913"], brand=MP, near=r"bipod|zweibein"),
+    "mp-bipod": S(["Magpul Bipod", "Magpul Bipod M-LOK"], [MP, r"bipod", r"m ?lok"], [r"moe|alumin|arms|picatinny|1913|mount|adapter"], brand=MP, near=r"bipod|zweibein"),
     "hr-sbrm": S(["Harris S-BRM", "Harris Bipod"], [r"harris", r"s ?brm", r"m ?lok"], brand="harris", kit=True, near=r"harris"),
     # ---- torkolat
     "sf-warcomp": S(["SureFire WarComp", "SureFire Muzzle"], [r"surefire", r"warcomp", r"556|5.56|223"], [r"rc2|socom"], brand="surefire", near=r"warcomp"),
@@ -373,24 +382,24 @@ RULES = {
     "bcm-comp0": S(["BCM Compensator Mod 0", "BCM Compensator"], [BCM_, r"comp", r"\bmod 0\b"], brand=BCM_, near=r"comp"),
     "sf-rc2": S(["SureFire SOCOM556-RC2", "SureFire RC2"], [r"surefire", r"rc2"], [r"adapter ?only"], brand="surefire", near=r"rc2|socom"),
     # ---- elsütők
-    "gs-ssae": S(["Geissele SSA-E", "Geissele SSA"], [r"geissele", r"\bssa e\b"], brand="geissele"),
+    "gs-ssae": S(["Geissele SSA-E", "Geissele SSA"], [r"geissele", r"\bssa e\b"], [r"ssa e x|lightning|\bx\b|mcx|mpx|scar"], brand="geissele"),
     "gs-ssa": S(["Geissele SSA", "Geissele Trigger"], [r"geissele", r"\bssa\b"], [r"ssa e\b", r"mcx|mpx|scar|hk416"], brand="geissele", near=r"\bssa\b"),
     "gs-sde": S(["Geissele SD-E", "Geissele Super Dynamic"], [r"geissele", r"\bsd e\b|super dynamic enhanced"], brand="geissele", near=r"\bsd"),
     "gs-s3g": S(["Geissele S3G", "Geissele Super 3 Gun"], [r"geissele", r"\bs3g\b|super 3 gun"], brand="geissele"),
     # ---- felhúzókar
-    "rd-raptor": S(["Radian Raptor"], [r"radian|raptor", r"\braptor\b"], [r"raptor (lt|sd|sl)|\blt\b|\bsd\b"], brand="radian|raptor", near=r"raptor"),
-    "rd-raptorlt": S(["Radian Raptor-LT", "Radian Raptor"], [r"radian|raptor", r"raptor lt"], brand="radian|raptor", near=r"raptor"),
-    "rd-raptorsd": S(["Radian Raptor-SD", "Radian Raptor"], [r"radian|raptor", r"raptor sd"], brand="radian|raptor", near=r"raptor"),
+    "rd-raptor": S(["Radian Raptor"], [r"\braptor\b", r"charging handle|ladegriff|spannhebel"], [r"raptor (lt|sd|sl)|\blt\b|\bsd\b", RAD_BAD], near=r"raptor"),
+    "rd-raptorlt": S(["Radian Raptor-LT", "Radian Raptor"], [r"raptor lt", r"charging handle|ladegriff|spannhebel"], [RAD_BAD], near=r"raptor"),
+    "rd-raptorsd": S(["Radian Raptor-SD", "Radian Raptor"], [r"raptor sd", r"charging handle|ladegriff|spannhebel"], [RAD_BAD], near=r"raptor"),
     "bcm-ch4": S(["BCM Charging Handle Mod 4", "BCM Charging Handle"], [BCM_, r"charging handle", r"\bmod 4\b"], brand=BCM_, near=r"charging handle"),
     "bcm-ch3": S(["BCM Charging Handle Mod 3", "BCM Charging Handle"], [BCM_, r"charging handle", r"\bmod 3\b"], brand=BCM_, near=r"charging handle"),
     "gs-ach": S(["Geissele Airborne", "Geissele Charging Handle"], [r"geissele", r"airborne"], brand="geissele", near=r"charging handle"),
     # ---- kezelőszervek
-    "rd-talon": S(["Radian Talon", "Radian Safety Selector"], [r"radian|talon", r"\btalon\b", r"safety|selector|sicherung"], [r"\bkit\b"], brand="radian|talon", near=r"talon"),
+    "rd-talon": S(["Radian Talon", "Radian Safety Selector"], [r"\btalon\b", r"safety|selector|sicherung"], [r"\bkit\b"], near=r"talon"),
     "mp-bad": S(["Magpul B.A.D. Lever", "Magpul BAD Lever"], [MP, r"\bbad lever\b"], brand=MP),
     "mp-trigguard": S(["Magpul MOE Enhanced Trigger Guard", "Magpul Trigger Guard"], [MP, r"moe enhanced trigger guard"], brand=MP, near=r"trigger guard",
                       why="a 'MOE Enhanced Trigger Guard' típus nincs a boltban"),
     # ---- tárak
-    "mp-pm10": S(["Magpul PMAG 10", "PMAG 10"], [MP + r"|pmag", r"\bpmag 10\b", r"gen m3"], [PM_BAD], brand=MP + r"|pmag", near=r"pmag"),
+    "mp-pm10": S(["Magpul PMAG 10", "PMAG 10"], [MP + r"|pmag", r"\bpmag 10\b", r"gen m3"], [PM_BAD, r"schuss"], brand=MP + r"|pmag", near=r"pmag"),
     "mp-pm20": S(["Magpul PMAG 20", "PMAG 20"], [MP + r"|pmag", r"\bpmag 20\b", r"gen m3"], [PM_BAD], brand=MP + r"|pmag", near=r"pmag"),
     "mp-pm30": S(["Magpul PMAG 30", "PMAG 30"], [MP + r"|pmag", r"\bpmag 30\b", r"gen m3"], [PM_BAD, r"window|maglevel|\bm2\b|moe"], brand=MP + r"|pmag", near=r"pmag"),
     "mp-pm30w": S(["Magpul PMAG 30 Window", "PMAG 30"], [MP + r"|pmag", r"\bpmag 30\b", r"window", r"gen m3"], [PM_BAD, r"\bm2\b|moe"], brand=MP + r"|pmag", near=r"pmag"),
@@ -398,7 +407,7 @@ RULES = {
     "mp-d60": S(["Magpul D-60", "PMAG D-60"], [MP + r"|pmag", r"\bd 60\b"], brand=MP + r"|pmag", near=r"\bd 50\b|\bd 60\b",
                 why="a D-60 dobtár nincs a boltban"),
     # ---- szíjak
-    "mp-ms1": S(["Magpul MS1 Sling", "Magpul MS1"], [MP, r"\bms1\b", r"sling"], [r"adapter|qdm|ms3|ms4|padded|mount"], brand=MP, near=r"\bms[134]\b"),
+    "mp-ms1": S(["Magpul MS1 Sling", "Magpul MS1"], [MP, r"\bms1\b", r"sling"], [r"adapter|qdm|ms3|ms4|padded|mount|lite"], brand=MP, near=r"\bms[134]\b"),
     "mp-ms4": S(["Magpul MS4 Dual QD", "Magpul MS4"], [MP, r"\bms4\b", r"dual qd", r"sling"], [r"adapter|qdm|ms1|ms3"], brand=MP, near=r"\bms[134]\b",
                 note="a bolt a Gen 2 kivitelt árulhatja"),
     "bfg-vickers": S(["Blue Force Gear Vickers", "Vickers Combat Application Sling"], [r"blue force|bfg|vickers", r"vickers", r"combat applications? sling"], [r"padded|221"], brand="blue force|bfg|vickers", near=r"vickers"),
@@ -530,7 +539,7 @@ def build_item(prod, det, variants, palette, rule, alts):
         for v in sorted(variants, key=lambda x: x["price"] if x.get("price") is not None else 1e9):
             if v["color"] in palette and v["color"] not in colored and v.get("price") is not None:
                 colored[v["color"]] = v
-        others = sorted({v["color"] for v in variants if v["color"] and v["color"] not in palette})
+        others = sorted({v["color"].replace("x:", "") for v in variants if v["color"] and v["color"] not in palette})
         nocolor = [v for v in variants if not v["color"] and v.get("price") is not None]
         if colored:
             main_key = "black" if "black" in colored else [k for k in palette if k in colored][0]
@@ -561,7 +570,9 @@ def build_item(prod, det, variants, palette, rule, alts):
                     " | ".join("%s (%s CHF)" % (v.get("title"), fmt_chf(v.get("price"))) for v in priced[:6]))
     pt = norm(prod["title"])
     vt = norm(main.get("title") or "")
-    if not vt or one or slugify(vt) in slugify(pt):
+    if main.get("src_title"):
+        title = norm(main["src_title"])
+    elif not vt or one or slugify(vt) in slugify(pt):
         title = pt
     elif slugify(pt) in slugify(vt):
         title = vt
@@ -578,6 +589,8 @@ def build_item(prod, det, variants, palette, rule, alts):
                                          url=v.get("url") or prod["url"], in_stock=v.get("in_stock"),
                                          title=norm(v.get("title") or prod["title"]) if not one else pt)
                                  for k, v in colored.items()}
+    if det.get("note"):
+        note.insert(0, det["note"])
     if rule.get("note"):
         note.insert(0, rule["note"])
     if note:
@@ -591,7 +604,9 @@ def build_item(prod, det, variants, palette, rule, alts):
 
 
 def decide(http, pid, brand, name, palette, rule, qcache):
-    queries = rule["q"] if rule else ["%s %s" % (brand, name)]
+    queries = list(rule["q"]) if rule else ["%s %s" % (brand, name)]
+    if brand and brand not in queries:
+        queries.append(brand)  # márka-szintű keresés is: a bolti kereső a pontos kifejezésre gyakran nem talál
     cands, seen = [], set()
     for q in queries:
         if q not in qcache:
@@ -627,6 +642,7 @@ def decide(http, pid, brand, name, palette, rule, qcache):
                 v = dict(v)
                 v["title"] = (c["title"] + " " + (c.get("hint") or "")).strip() if not v.get("title") else "%s / %s" % (c["title"], v["title"])
                 v["color_force"] = col or "black"
+                v["src_title"] = c["title"]
                 variants.append(v)
     else:
         main, alts = hits[0], hits[1:]
@@ -640,14 +656,24 @@ def decide(http, pid, brand, name, palette, rule, qcache):
             near = near_list(rule, cands, [])
             return "no", "ok: " + (rule["why"] or "a kért kivitel/jelölés nincs a boltban") + \
                    "; legközelebbi bolti termék(ek), NEM azonos: " + near_text([main] + [c for c in near if c["url"] != main["url"]][:3])
+    if rule.get("skureq"):
+        ok = [v for v in variants if not v.get("sku") or re.search(rule["skureq"], nt(v["sku"]))]
+        if not ok:
+            return "no", "ok: a bolti cím és a cikkszám ellentmond egymásnak (cikkszám: %s) – nem azonosítható biztosan; bolti termék: %s" % (
+                ", ".join(sorted({v.get("sku") or "?" for v in variants})), near_text([main]))
+        variants = ok
+    kit_note = None
     if rule["desc"]:
         h = nt(main["title"] + " " + (det.get("desc") or ""))
         if not all(re.search(r, h) for r in rule["desc"]):
             return "no", "ok: " + (rule["why"] or "a csomag tartalma nem igazolható") + \
                    "; legközelebbi bolti termék(ek), NEM azonos: " + near_text([main])
+        kit_note = "a csomag tartalma a bolti termékleírás alapján igazolt"
     kind, res = build_item(main, det, variants, palette, rule, alts)
     if kind == "no" and "paletta" in res:
         res += "; bolti termék: " + near_text([main])
+    if kind == "ok" and kit_note:
+        res["note"] = "; ".join(x for x in [res.get("note"), kit_note] if x)
     if kind == "ok" and color_mode and cols[hits.index(main)] is None:
         res["note"] = "; ".join(x for x in [res.get("note"), "a színjelölés nélküli alaptermék feketének véve (a többi szín külön termékként szerepel a boltban)"] if x)
     return kind, res
@@ -668,17 +694,17 @@ def run(argv=None):
     for i, (pid, brand, name, palette) in enumerate(entries, 1):
         sys.stderr.write("[%d/%d] %s  (%s %s)\n" % (i, len(entries), pid, brand, name))
         if blocked:
-            unmatched[pid] = "ok: a bolt blokkolt, nem ellenőrizhető (%s)" % blocked
+            unmatched[pid] = "ok: a bolt blokkolt / elérhetetlen, nem ellenőrizhető (az okot lásd a 'blocked' mezőben)"
             continue
         try:
             kind, res = decide(http, pid, brand, name, palette, RULES.get(pid), qcache)
         except Blocked as e:
             blocked = "%s – a bolttal azonnal leálltunk, a védelmet nem kerültük meg" % e
-            unmatched[pid] = "ok: a bolt blokkolt, nem ellenőrizhető (%s)" % blocked
+            unmatched[pid] = "ok: a bolt blokkolt / elérhetetlen, nem ellenőrizhető (az okot lásd a 'blocked' mezőben)"
             sys.stderr.write("   BLOKKOLT: %s\n" % e)
             continue
         except Exception as e:
-            unmatched[pid] = "ok: hiba a lekérdezéskor, nem sikerült ellenőrizni (%s)" % e
+            unmatched[pid] = "ok: hiba a lekérdezéskor, nem sikerült ellenőrizni (%s%s)" % (e, (" – " + e.url) if getattr(e, "url", None) else "")
             sys.stderr.write("   HIBA: %s\n" % e)
             continue
         if kind == "ok":

@@ -1,0 +1,1018 @@
+{
+  "shop": "dangos.ch",
+  "currency": "CHF",
+  "fetched": "2026-11-10",
+  "items": {
+    "dd-v7": {
+      "title": "Halbautomat, Daniel Defense, DDM4 V7 16\", Kal. 5.56 Nato",
+      "price_chf": 2340.0,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/sportwaffen/halbautomaten/halbautomat-daniel-defense-ddm4-v7-16-kal-556-nato",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_0212802081047_22269.jpg",
+      "in_stock": true,
+      "stock_text": "sofort lieferbar; Lagerbestand: 1; Lieferzeit: 1 - 2 Werktage",
+      "sku": "02-128-02081-047",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "note": "16\" csöves, 5.56 NATO kivitel (a bolt a DDM4 V7 16\" alapkivitelét listázza; a Cerakote/színes változatok külön tételek); több színváltozat van, a fekete ára szerepel; a többi: Halbautomat, Daniel Defense, DDM4 V7 16\", Kal. 5.56mm Nato, Cobalt 2700.00 CHF; a színjelölés nélküli alaptermék feketének véve (a többi szín külön termékként szerepel a boltban)",
+      "match": "exact"
+    },
+    "mp-moe": {
+      "title": "Pistolengriff, Magpul, MOE Grip, AR15/M4 schwarz",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-grip-ar15-m4-schwarz--5204",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x269_MAG415BLK_23137.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG415-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-grip-ar15-m4-od-green--5207",
+          "in_stock": false,
+          "title": "Pistolengriff, MAgpul, MOE Grip, AR15/M4 OD-Green"
+        },
+        "gray": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-grip-ar15-m4-grau--5206",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE Grip, AR15/M4 grau"
+        },
+        "fde": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-grip-ar15-m4-fde--5205",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE Grip, AR15/M4 FDE"
+        },
+        "black": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-grip-ar15-m4-schwarz--5204",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE Grip, AR15/M4 schwarz"
+        }
+      },
+      "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: mc brown",
+      "match": "exact"
+    },
+    "mp-moek2": {
+      "title": "Pistolengriff, Magpul, MOE-K2 Grip, AR15/M4 schwarz",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-schwarz--5200",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG522BLK_23109.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG522-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-od-green--5203",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE-K2 Grip, AR15/M4 OD-Green"
+        },
+        "gray": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-grau--5202",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE-K2 Grip, AR15/M4 grau"
+        },
+        "fde": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-fde--5201",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE-K2 Grip AR15/M4 FDE"
+        },
+        "black": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-schwarz--5200",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE-K2 Grip, AR15/M4 schwarz"
+        }
+      },
+      "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: mc brown",
+      "match": "exact"
+    },
+    "mp-moek2p": {
+      "title": "Pistolengriff, Magpul, MOE-K2+ Grip, AR15/M4 schwarz",
+      "price_chf": 28.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG532BLK_23102.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG532-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-od-green",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE-K2+ Grip, AR15/M4 OD-Green"
+        },
+        "gray": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-grau",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE-K2+ Grip, AR15/M4 grau"
+        },
+        "fde": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-fde",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE-K2+ Grip, AR15/M4 FDE"
+        },
+        "black": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-moe-k2-grip-ar15-m4-schwarz",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MOE-K2+ Grip, AR15/M4 schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-miad": {
+      "title": "Pistolengriff, Magpul, MIAD GEN 1.1 Grip Kit, Type 1 schwarz",
+      "price_chf": 46.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-miad-gen-11-grip-kit-type-1-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG520BLK_23113.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG520-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 46.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-miad-gen-11-grip-kit-type-1-od-green",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MIAD GEN 1.1 Grip Kit, Type 1 OD-Green"
+        },
+        "gray": {
+          "price_chf": 46.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-miad-gen-11-grip-kit-type-1-grau",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MIAD GEN 1.1 Grip Kit, Type 1 grau"
+        },
+        "fde": {
+          "price_chf": 46.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-miad-gen-11-grip-kit-type-1-fde",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MIAD GEN 1.1 Grip Kit, Type 1 FDE"
+        },
+        "black": {
+          "price_chf": 46.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/pistolengriff-magpul-miad-gen-11-grip-kit-type-1-schwarz",
+          "in_stock": false,
+          "title": "Pistolengriff, Magpul, MIAD GEN 1.1 Grip Kit, Type 1 schwarz"
+        }
+      },
+      "note": "AR-15 (5.56, Type 1) kivitel",
+      "match": "exact"
+    },
+    "mp-ctr": {
+      "title": "Schaft, Magpul, CTR Carbine Stock Mil Spec schwarz",
+      "price_chf": 86.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ctr-carbine-stock-mil-spec-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_269x270_MAG310BLK_22768.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG310-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "gray": {
+          "price_chf": 86.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/ersatzschaft-magpul-ctr-carbine-stock-mil-spec-grau",
+          "in_stock": false,
+          "title": "Ersatzschaft, Magpul, CTR Carbine Stock, Mil Spec, grau"
+        },
+        "odg": {
+          "price_chf": 86.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ctr-carbine-stock-mil-spec-od-green",
+          "in_stock": false,
+          "title": "Schaft, Magpul, CTR Carbine Stock Mil Spec OD-Green"
+        },
+        "fde": {
+          "price_chf": 86.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ctr-carbine-stock-mil-spec-fde",
+          "in_stock": false,
+          "title": "Schaft, Magpul, CTR Carbine Stock Mil Spec FDE"
+        },
+        "black": {
+          "price_chf": 86.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ctr-carbine-stock-mil-spec-schwarz",
+          "in_stock": false,
+          "title": "Schaft, Magpul, CTR Carbine Stock Mil Spec schwarz"
+        }
+      },
+      "note": "a bolt Mil-Spec/Commercial-Spec csöves kivitelt is árulhat; a data.js nem dönt; a bolt további színei, amelyek nincsenek a palettában, kimaradtak: mc brown",
+      "match": "exact"
+    },
+    "mp-moesl": {
+      "title": "Schaft, Magpul, MOE SL Carbine Stock, Mil Spec schwarz",
+      "price_chf": 86.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-carbine-stock-mil-spec-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG347BLK_22939.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG347-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 86.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-carbine-stock-mil-spec-od-green",
+          "in_stock": false,
+          "title": "Schaft, Magpul, MOE SL Carbine Stock, Mil Spec OD-Green"
+        },
+        "gray": {
+          "price_chf": 86.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-carbine-stock-mil-spec-grau",
+          "in_stock": false,
+          "title": "Schaft, Magpul, MOE SL Carbine Stock, Mil Spec grau"
+        },
+        "fde": {
+          "price_chf": 86.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-carbine-stock-mil-spec-fde",
+          "in_stock": false,
+          "title": "Schaft, Magpul, MOE SL Carbine Stock, Mil Spec FDE"
+        },
+        "black": {
+          "price_chf": 86.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-carbine-stock-mil-spec-schwarz",
+          "in_stock": false,
+          "title": "Schaft, Magpul, MOE SL Carbine Stock, Mil Spec schwarz"
+        }
+      },
+      "note": "a bolt Mil-Spec/Commercial-Spec csöves kivitelt is árulhat; a data.js nem dönt",
+      "match": "exact"
+    },
+    "mp-moeslk": {
+      "title": "Schaft, Magpul, MOE SL-K Carbine Stock, Mil Spec schwarz",
+      "price_chf": 59.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-k-carbine-stock-mil-spec-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG626BLK_22964.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG626-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 59.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-k-carbine-stock-mil-spec-od-green",
+          "in_stock": false,
+          "title": "Schaft, Magpul, MOE SL-K Carbine Stock, Mil-Spec OD-Green"
+        },
+        "gray": {
+          "price_chf": 59.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-k-carbine-stock-mil-spec-grau",
+          "in_stock": false,
+          "title": "Schaft, Magpul, MOE SL-K Carbine Stock, Mil Spec grau"
+        },
+        "fde": {
+          "price_chf": 59.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-k-carbine-stock-mil-spec-fde",
+          "in_stock": false,
+          "title": "Schaft, Magpul, MOE SL-K Carbine Stock, Mil-Spec FDE"
+        },
+        "black": {
+          "price_chf": 59.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-moe-sl-k-carbine-stock-mil-spec-schwarz",
+          "in_stock": false,
+          "title": "Schaft, Magpul, MOE SL-K Carbine Stock, Mil Spec schwarz"
+        }
+      },
+      "note": "a bolt Mil-Spec/Commercial-Spec csöves kivitelt is árulhat; a data.js nem dönt",
+      "match": "exact"
+    },
+    "mp-ubr2": {
+      "title": "Schaft, Magpul, UBR GEN2 Collapsible Stock schwarz",
+      "price_chf": 294.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ubr-gen2-collapsible-stock-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG482BLK_23041.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG482-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 294.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ubr-gen2-collapsible-stock-od-green",
+          "in_stock": false,
+          "title": "Schaft, Magpul, UBR GEN2 Collapsible Stock OD-Green"
+        },
+        "gray": {
+          "price_chf": 294.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ubr-gen2-collapsible-stock-grau",
+          "in_stock": false,
+          "title": "Schaft, Magpul, UBR GEN2 Collapsible Stock grau"
+        },
+        "fde": {
+          "price_chf": 294.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ubr-gen2-collapsible-stock-fde",
+          "in_stock": false,
+          "title": "Schaft, Magpul, UBR GEN2 Collapsible Stock FDE"
+        },
+        "black": {
+          "price_chf": 294.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-ubr-gen2-collapsible-stock-schwarz",
+          "in_stock": false,
+          "title": "Schaft, Magpul, UBR GEN2 Collapsible Stock schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-prs3": {
+      "title": "Schaft, Magpul, PRS GEN3 Precision-Adjustable Stock, Mil Spec&A5 schwarz",
+      "price_chf": 344.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-gen3-precision-adjustable-stock-mil-spec-a5-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG672BLK_23022.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG672-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 344.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-gen3-precision-adjustable-stock-mil-spec-a5-od-green",
+          "in_stock": false,
+          "title": "Schaft, Magpul, PRS GEN3 Precision-Adjustable Stock Mil Spec&A5 OD-Green"
+        },
+        "gray": {
+          "price_chf": 344.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-gen3-precision-adjustable-stock-mil-spec-a5-grau",
+          "in_stock": false,
+          "title": "Schaft, Magpul, PRS GEN3 Precision-Adjustable Stock, Mil Spec&A5 grau"
+        },
+        "fde": {
+          "price_chf": 344.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-gen3-precision-adjustable-stock-mil-spec-a5-fde",
+          "in_stock": false,
+          "title": "Schaft, Magpul, PRS GEN3 Precision-Adjustable Stock, Mil Spec&A5 FDE"
+        },
+        "black": {
+          "price_chf": 344.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-gen3-precision-adjustable-stock-mil-spec-a5-schwarz",
+          "in_stock": false,
+          "title": "Schaft, Magpul, PRS GEN3 Precision-Adjustable Stock, Mil Spec&A5 schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-prslite": {
+      "title": "Schaft, Magpul, PRS Lite Stock schwarz",
+      "price_chf": 158.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-lite-stock-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG1159BLK_23026.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG1159-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 158.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-lite-stock-od-green",
+          "in_stock": false,
+          "title": "Schaft, Magpul, PRS Lite Stock OD-Green"
+        },
+        "fde": {
+          "price_chf": 158.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-lite-stock-fde",
+          "in_stock": false,
+          "title": "Schaft, Magpul, PRS Lite Stock FDE"
+        },
+        "black": {
+          "price_chf": 158.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaft-magpul-prs-lite-stock-schwarz",
+          "in_stock": false,
+          "title": "Schaft, Magpul, PRS Lite Stock schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pad030": {
+      "title": "Schaftzubehör, Magpul, Rubber Butt-Pad 0.30\" schwarz",
+      "price_chf": 22.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaftzubehoer-magpul-rubber-butt-pad-030-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG315BLK_23089.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG315-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "mp-pad055": {
+      "title": "Schaftzubehör, Magpul, Extended Rubber Butt-Pad 0.55\" schwarz",
+      "price_chf": 22.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaftzubehoer-magpul-extended-rubber-butt-pad-055-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG316BLK_23084.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG316-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "mp-pad070": {
+      "title": "Schaftzubehör, Magpul, Enhanced Rubber Butt-Pad 0.70\" schwarz",
+      "price_chf": 22.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaftzubehoer-magpul-enhanced-rubber-butt-pad-070-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG317BLK_23083.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG317-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "mp-padsl": {
+      "title": "Schaftzubehör, Magpul, MOE SL Enhanced Rubber Butt-Pad 0.70\" schwarz",
+      "price_chf": 22.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/schaftzubehoer-magpul-moe-sl-enhanced-rubber-butt-pad-070-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG349BLK_23086.jpeg",
+      "in_stock": true,
+      "stock_text": "sofort lieferbar; Lagerbestand: 10; Lieferzeit: 1 - 2 Werktage",
+      "sku": "MAG349-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "hs-510c": {
+      "title": "Holosun, Reflex, Visier, Modell, HS510C-RD-Black,",
+      "price_chf": 442.0,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/holosun-reflex-visier-modell-hs510c-rd-black",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_7078001220_12337.jpg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "70-78001220",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "vx-pst16": {
+      "title": "Zielfernrohr, Vortex, VIPER PST GEN II 1-6X24 SFP VMR-2 MOA",
+      "price_chf": 799.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/sportoptik-nachtsicht/zielfernrohre/zielfernrohr-vortex-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa--5027",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x158_35194_21092.jpg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "35194",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "hs-hm3x": {
+      "title": "Holosun, Magnifier, Modell, HM3X",
+      "price_chf": 309.0,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/holosun-magnifier-modell-hm3x",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_7078004122_12331.jpg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "70-78004122",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "sl-tlr1": {
+      "title": "Streamlight Lampe Tactical TLR-1 HL LED schwarz",
+      "price_chf": 265.5,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/lampen/streamlight-lampe-tactical-tlr-1-hl-led-schwarz",
+      "image": null,
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "SL-69260",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "note": "több színváltozat van, a fekete ára szerepel; a többi: Streamlight Lampe, Tactical TLR-1, HL LED FDE, 1000 Lumen 275.00 CHF",
+      "match": "exact"
+    },
+    "mp-hstop": {
+      "title": "Hand Stop Kit, Magpul, M-Lok schwarz",
+      "price_chf": 33.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/hand-stop-kit-magpul-m-lok-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG608BLK_23177.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG608-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/hand-stop-kit-magpul-m-lok-od-green",
+          "in_stock": false,
+          "title": "Hand Stop Kit, Magpul, M-Lok OD-Green"
+        },
+        "gray": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/hand-stop-kit-magpul-m-lok-grau",
+          "in_stock": false,
+          "title": "Hand Stop Kit, Magpul, M-Lok grau"
+        },
+        "fde": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/hand-stop-kit-magpul-m-lok-fde",
+          "in_stock": false,
+          "title": "Hand Stop Kit, Magpul, M-Lok FDE"
+        },
+        "black": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/hand-stop-kit-magpul-m-lok-schwarz",
+          "in_stock": false,
+          "title": "Hand Stop Kit, Magpul, M-Lok schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-rail5": {
+      "title": "Montageschiene, Magpul, Aluminium Picatinny Rail, M-LOK Aluminium Rail Section 5 Slots - 58mm",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/montageschiene-magpul-aluminium-picatinny-rail-m-lok-aluminium-rail-section-5-slots-58mm",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_269x270_MAG581BLK_23352.jpeg",
+      "in_stock": true,
+      "stock_text": "sofort lieferbar; Lagerbestand: 4; Lieferzeit: 1 - 2 Werktage",
+      "sku": "MAG581-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "mp-qd": {
+      "title": "Sling Mount, Magpul, M-LOK QD Aluminium",
+      "price_chf": 26.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/sling-mount-magpul-m-lok-qd-aluminium",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG606BLK_23742.jpg",
+      "in_stock": true,
+      "stock_text": "sofort lieferbar; Lagerbestand: 9; Lieferzeit: 1 - 2 Werktage",
+      "sku": "MAG606-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "mp-cover": {
+      "title": "Abdeckung, Magpul, M-LOK Rail Covers Type 2 schwarz",
+      "price_chf": 19.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/abdeckung-magpul-m-lok-rail-covers-type-2-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG603BLK_23371.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG603-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 19.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/abdeckung-magpul-m-lok-rail-covers-type-2-od-green",
+          "in_stock": false,
+          "title": "Abdeckung, Magpul, M-LOK Rail Covers Type 2 OD-Green"
+        },
+        "gray": {
+          "price_chf": 19.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/abdeckung-magpul-m-lok-rail-covers-type-2-grau",
+          "in_stock": false,
+          "title": "Abdeckung, Magpul, M-LOK Rail Covers Type 2 grau"
+        },
+        "fde": {
+          "price_chf": 19.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/abdeckung-magpul-m-lok-rail-covers-type-2-fde",
+          "in_stock": false,
+          "title": "Abdeckung, Magpul, M-LOK Rail Covers Type 2 FDE"
+        },
+        "black": {
+          "price_chf": 19.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/abdeckung-magpul-m-lok-rail-covers-type-2-schwarz",
+          "in_stock": false,
+          "title": "Abdeckung, Magpul, M-LOK Rail Covers Type 2 schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-bipod": {
+      "title": "Bipod, Magpul, for M-LOK schwarz",
+      "price_chf": 164.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/bipod-magpul-for-m-lok-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG933BLK_23750.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG933-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "fde": {
+          "price_chf": 164.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/bipod-magpul-for-m-lok-fde",
+          "in_stock": false,
+          "title": "Bipod, Magpul, for M-LOK FDE"
+        },
+        "black": {
+          "price_chf": 164.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/bipod-magpul-for-m-lok-schwarz",
+          "in_stock": false,
+          "title": "Bipod, Magpul, for M-LOK schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm10": {
+      "title": "Magazin, Magpul, PMAG 10 AR/M4 Gen M3, Kal. .223 Rem., schwarz",
+      "price_chf": 21.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-10-ar-m4-gen-m3-kal-223-rem-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG559BLK_27990.jpg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG559-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "black": {
+          "price_chf": 21.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-10-ar-m4-gen-m3-kal-223-rem-schwarz",
+          "in_stock": false,
+          "title": "Magazin, Magpul, PMAG 10 AR/M4 Gen M3, Kal. .223 Rem., schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm20": {
+      "title": "Magazin, Magpul, PMAG 20 AR/M4 Gen M3, Kal. .223 Rem. schwarz",
+      "price_chf": 21.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-20-ar-m4-gen-m3-kal-223-rem-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG560BLK_22684.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG560-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "black": {
+          "price_chf": 21.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-20-ar-m4-gen-m3-kal-223-rem-schwarz",
+          "in_stock": false,
+          "title": "Magazin, Magpul, PMAG 20 AR/M4 Gen M3, Kal. .223 Rem. schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm30": {
+      "title": "Magazin, Magpul, PMAG 30 AR/M4 Gen M3, Kal. 223 Rem. schwarz",
+      "price_chf": 20.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-30-ar-m4-gen-m3-kal-223-rem-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG557BLK_22682.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG557-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "odg": {
+          "price_chf": 20.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-30-ar-m4-gen-m3-kal-223-rem-od-green",
+          "in_stock": false,
+          "title": "Magazin, Magpul, PMAG 30 AR/M4 Gen M3, Kal. .223 Rem., OD-Green"
+        },
+        "black": {
+          "price_chf": 20.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-30-ar-m4-gen-m3-kal-223-rem-schwarz",
+          "in_stock": false,
+          "title": "Magazin, Magpul, PMAG 30 AR/M4 Gen M3, Kal. 223 Rem. schwarz"
+        }
+      },
+      "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: coyote, mc brown",
+      "match": "exact"
+    },
+    "mp-pm30w": {
+      "title": "Magazin, Magpul, PMAG 30 AR/M4 Gen M3 Window, Kal. .223 Rem. schwarz",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-30-ar-m4-gen-m3-window-kal-223-rem-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG556BLK_22681.jpg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG556-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "black": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-30-ar-m4-gen-m3-window-kal-223-rem-schwarz",
+          "in_stock": false,
+          "title": "Magazin, Magpul, PMAG 30 AR/M4 Gen M3 Window, Kal. .223 Rem. schwarz"
+        }
+      },
+      "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: coyote, mc brown, odg",
+      "match": "exact"
+    },
+    "mp-pm40": {
+      "title": "Magazin, Magpul, PMAG 40 AR/M4 Gen M3, Kal. .223 Rem., schwarz",
+      "price_chf": 32.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-40-ar-m4-gen-m3-kal-223-rem-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG233BLK_22673.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG233-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "black": {
+          "price_chf": 32.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-40-ar-m4-gen-m3-kal-223-rem-schwarz",
+          "in_stock": false,
+          "title": "Magazin, Magpul, PMAG 40 AR/M4 Gen M3, Kal. .223 Rem., schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-d60": {
+      "title": "Magazin, Magpul, PMAG D-60 AR/M4 Gen M3, Kal. .223 Rem. schwarz",
+      "price_chf": 193.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-d-60-ar-m4-gen-m3-kal-223-rem-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG576BLK_22690.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG576-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "black": {
+          "price_chf": 193.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/magazin-magpul-pmag-d-60-ar-m4-gen-m3-kal-223-rem-schwarz",
+          "in_stock": false,
+          "title": "Magazin, Magpul, PMAG D-60 AR/M4 Gen M3, Kal. .223 Rem. schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-ms1": {
+      "title": "Gewehrriemen, Magpul, MS1 Sling schwarz",
+      "price_chf": 48.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms1-sling-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG513BLK_23655.jpeg",
+      "in_stock": false,
+      "stock_text": "nicht auf Lager; Lagerbestand: 0",
+      "sku": "MAG513-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "ranger": {
+          "price_chf": 48.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms1-sling-ranger-green",
+          "in_stock": false,
+          "title": "Gewehrriemen, Magpul, MS1 Sling Ranger Green"
+        },
+        "coyote": {
+          "price_chf": 48.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms1-sling-coyote",
+          "in_stock": false,
+          "title": "Gewehrriemen, Magpul, MS1 Sling coyote"
+        },
+        "black": {
+          "price_chf": 48.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms1-sling-schwarz",
+          "in_stock": false,
+          "title": "Gewehrriemen, Magpul, MS1 Sling schwarz"
+        }
+      },
+      "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: gray",
+      "match": "exact"
+    },
+    "mp-ms4": {
+      "title": "Gewehrriemen, Magpul, MS4 Dual QD Sling, Gen2 schwarz",
+      "price_chf": 114.9,
+      "list_chf": null,
+      "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms4-dual-qd-sling-gen2-schwarz",
+      "image": "https://www.dangos.ch/temp/canvas_270x270_resize_270x270_MAG518BLK_23669.jpeg",
+      "in_stock": true,
+      "stock_text": "sofort lieferbar; Lagerbestand: 2; Lieferzeit: 1 - 2 Werktage",
+      "sku": "MAG518-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {
+        "ranger": {
+          "price_chf": 114.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms4-dual-qd-sling-gen2-ranger-green",
+          "in_stock": false,
+          "title": "Gewehrriemen, Magpul, MS4 Dual QD Sling, Gen2 Ranger Green"
+        },
+        "coyote": {
+          "price_chf": 114.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms4-dual-qd-sling-gen2-coyote",
+          "in_stock": true,
+          "title": "Gewehrriemen, Magpul, MS4 Dual QD Sling, Gen2 coyote"
+        },
+        "black": {
+          "price_chf": 114.9,
+          "list_chf": null,
+          "url": "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/gewehrriemen-magpul-ms4-dual-qd-sling-gen2-schwarz",
+          "in_stock": true,
+          "title": "Gewehrriemen, Magpul, MS4 Dual QD Sling, Gen2 schwarz"
+        }
+      },
+      "note": "a bolt a Gen 2 kivitelt árulhatja; a bolt további színei, amelyek nincsenek a palettában, kimaradtak: gray",
+      "match": "exact"
+    }
+  },
+  "unmatched": {
+    "schm-s4f": "ok: több, a data.js alapján nem megkülönböztethető bolti termék illik rá (nem egyértelmű): Halbautomat, Schmeisser, AR15/ S4F 10.5\" 223 Rem (1990.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/halbautomat-schmeisser-ar15-s4f-105-223-rem) | Selbstladebüchse, Schmeisser, S4F 10.5\" M-Lok Black .223 Rem. (1995.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-s4f-105-m-lok-black-223-rem) | Selbstladebüchse, Schmeisser, AR15 S4F CSS Stock, .223 Rem. (2065.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-ar15-s4f-css-stock-223-rem) | Halbautomat, Schmeisser, AR15 S4F, 10.5\", Kal. .223 Rem., SOLID LINE (2100.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/halbautomat-schmeisser-ar15-s4f-105-kal-223-rem-solid-line) | Selbstladebüchse, Schmeisser, AR15 S4F OD Green .223 Rem. (2130.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-ar15-s4f-od-green-223-rem)",
+    "schm-m4fl": "ok: több, a data.js alapján nem megkülönböztethető bolti termék illik rá (nem egyértelmű): Selbstladebüchse, Schmeisser, AR15 M4FL CSS Stock, Black 14.5\" .223 Rem. (2065.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-ar15-m4fl-css-stock-black-145-223-rem) | Halbautomat, Schmeisser, AR15, M4FL 14.5\", Kal. .223 Rem., SOLID LINE (2100.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/halbautomat-schmeisser-ar15-m4fl-145-kal-223-rem-solid-line) | Halbautomat, Schmeisser, AR15 M4FL, 12.5\", Kal. .223 Rem, SOLID LINE (2100.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/halbautomat-schmeisser-ar15-m4fl-125-kal-223-rem-solid-line) | Selbstladebüchse, Schmeisser, AR15 M4FL OD Green 14.5\" .223 Rem. (2130.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-ar15-m4fl-od-green-145-223-rem) | Selbstladebüchse, Schmeisser, AR15 M4FL Bronze 14.5\" .223 Rem. (2130.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-ar15-m4fl-bronze-145-223-rem)",
+    "schm-m5fl": "ok: több változat, amelyek közül a data.js alapján nem választható (Selbstladebüchse, Schmeisser, AR15 M5FL 16.75\" M-Lok Black .223 Rem. (1995.00 CHF) | Halbautomat, Schmeisser, AR15 M5FL, 16.75\", Kal. .223 Rem., SOLID LINE (2100.00 CHF))",
+    "schm-dyn": "ok: több, a data.js alapján nem megkülönböztethető bolti termék illik rá (nem egyértelmű): Selbstladebüchse, Schmeisser, AR15 Dynamic Black 10.5\" .223 Rem. (2595.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-ar15-dynamic-black-105-223-rem) | Selbstladebüchse, Schmeisser, AR15 Dynamic L Black 14.5\" .223 Rem. (2595.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-ar15-dynamic-l-black-145-223-rem) | Selbstladebüchse, Schmeisser, AR15 Dynamic L black 16.75\" .223 Rem. (2595.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-ar15-dynamic-l-black-1675-223-rem) | Selbstladebüchse, Schmeisser, AR15 Dynamic L Gray 14.5\" .223 Rem. (2745.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-ar15-dynamic-l-gray-145-223-rem) | Selbstladebüchse, Schmeisser, AR15 Dynamic Gray 10.5\" .223 Rem. (2745.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/selbstladebuechse-schmeisser-ar15-dynamic-gray-105-223-rem)",
+    "bcm-recce16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-g0": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-g3": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "b5-t22": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "b5-t23": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-s0": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-s1": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "b5-bravo": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "b5-esop": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "b5-prec": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "ap-t2": "ok: csomag (T-2 + LRP szerelék, 39 mm távtartóval): nincs olyan bolti tétel, amely ezt egy cikkszámon, a szerelékkel együtt adná; legközelebbi bolti termék(ek), NEM azonos: Aimpoint Zielgerät Micro T-2 schwarz, mit IR Stufe, 2 MOA, ACET Technologie (1039.50 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/aimpoint-zielgeraet-micro-t-2-schwarz-mit-ir-stufe-2-moa-acet-technologie)",
+    "ap-m5": "ok: csomag (CompM5 + LRP szerelék): a bolti tétel nem igazolja az LRP szerelék mellékelését",
+    "ap-pro": "ok: csomag (PRO + QRP2 szerelék): a bolti termék nem igazolja a QRP2 szerelék tartozékként való szállítását; legközelebbi bolti termék(ek), NEM azonos: Halbautomat, B&T, APC9 PRO G, Kal. 9x19mm, Lauflänge 175mm,Aimpoint® Micro T-1, (2664.00 CHF, https://www.dangos.ch/de/sportwaffen/halbautomaten/halbautomat-b-t-apc9-pro-g-kal-9x19mm-lauflaenge-175mmaimpoint-micro-t-1)",
+    "ap-acro": "ok: csomag (ACRO P-2 + Picatinny talp): a bolti termék nem igazolja a Picatinny talp tartozékként való szállítását; legközelebbi bolti termék(ek), NEM azonos: Zielgerät, Aimpoint, ACRO C-2 3.5 MOA Acro Interface schwarz (499.00 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/zielgeraet-aimpoint-acro-c-2-35-moa-acro-interface-schwarz) | Zielgerät, Aimpoint® ACRO S-2 9 MOA schwarz (664.00 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/zielgeraet-aimpoint-acro-s-2-9-moa-schwarz) | Red Dot Adapter, EAW, für Aimpoint Acro*, BH 8mm, Hole dist. 20mm (49.00 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/red-dot-adapter-eaw-fuer-aimpoint-acro-bh-8mm-hole-dist-20mm) | Red Dot Adapter, EAW, für Aimpoint Acro*, BH 8mm, Hole dist. 10mm (49.00 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/red-dot-adapter-eaw-fuer-aimpoint-acro-bh-8mm-hole-dist-10mm)",
+    "eo-exps3": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-exps2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Eotech Zielgerät Holographic Hybrid Modell EXPS2-2 HWS/ mit G33 Vergrösserungsvorsatz (1503.00 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/eotech-zielgeraet-holographic-hybrid-modell-exps2-2-hws-mit-g33-vergroesserungsvorsatz)",
+    "eo-xps2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "hs-aems": "ok: az eredeti 'AEMS' típus nincs a boltban (csak más AEMS-modellek: Core/Macro/Pro/Micro)",
+    "hs-403b": "ok: a HS403B + magasító csomag nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Holosun Reflex Visier, Modell HS403B-RD-Black mit rotem 2MOA Dot (269.00 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/holosun-reflex-visier-modell-hs403b-rd-black-mit-rotem-2moa-dot)",
+    "tj-mro": "ok: csomag (MRO HD + Lower 1/3 szerelék): a bolt a szerelékeket külön tételként árulja, csomag nincs",
+    "vx-uh1": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Montageplatte, Walther PDP Gen2, Nr. 6.2 für Noblex, Hawke, Burris, Vortex Viper und Meopta (68.00 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/montageplatte-walther-pdp-gen2-nr-62-fuer-noblex-hawke-burris-vortex-viper-und-meopta) | Zielfernrohr, Vortex, VIPER PST GEN II 1-6X24 SFP VMR-2 MOA (799.90 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/zielfernrohre/zielfernrohr-vortex-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa--5027)",
+    "vx-sparc": "ok: 'SPARC AR + magasító' csomag nincs a boltban",
+    "vx-crossfire": "ok: 'Crossfire Red Dot + magasító' csomag: a bolti termék nem igazolja a magasító (riser) mellékelését; legközelebbi bolti termék(ek), NEM azonos: Zielfernrohr, Vortex Optics Crossfire II 3-9x50 Riflescope Straight-Wall BDC MOA (188.95 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/zielfernrohre/zielfernrohr-vortex-optics-crossfire-ii-3-9x50-riflescope-straight-wall-bdc-moa)",
+    "vx-se16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Zielfernrohr, Vortex, VIPER PST GEN II 1-6X24 SFP VMR-2 MOA (799.90 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/zielfernrohre/zielfernrohr-vortex-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa--5027)",
+    "vx-se18": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-razor110": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "tj-acog": "ok: a TA31 típusjelzésű ACOG nincs a boltban",
+    "tj-credo16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "tj-vcog": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-vudu16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-vudu110": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-sp30": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-cant30": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-g33": "ok: csomag (G33 + STS szerelék): a bolti tétel nem igazolja az STS szerelék mellékelését; legközelebbi bolti termék(ek), NEM azonos: Eotech Zielgerät Holographic Hybrid Modell EXPS2-2 HWS/ mit G33 Vergrösserungsvorsatz (1503.00 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/eotech-zielgeraet-holographic-hybrid-modell-exps2-2-hws-mit-g33-vergroesserungsvorsatz)",
+    "eo-g43": "ok: csomag (G43 + Micro szerelék) nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Eotech Vergrösserungsaufsatz G43.STS 3x Magnifier/Montage Picatinny (MIL STD 1913)/1\"Weaver tan (849.00 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/eotech-vergroesserungsaufsatz-g43sts-3x-magnifier-montage-picatinny-mil-std-1913-1weaver-tan)",
+    "ap-3x": "ok: csomag (3XMag-1 + Flip szerelék): a bolt a nagyítót és a szerelékeket külön árulja / nincs ilyen tétel",
+    "vx-m3x": "ok: a 'Micro3X + Flip' nincs a boltban",
+    "mp-mbus3": "ok: szett (első + hátsó irányzék): csak külön első/hátsó tétel van, 'szett' nincs; legközelebbi bolti termék(ek), NEM azonos: Diopter, Magpul, MBUS 3 Visierung OD-Green (72.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/diopter-magpul-mbus-3-visierung-od-green) | Diopter, Magpul, MBUS 3 Visierung FDE (72.90 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/diopter-magpul-mbus-3-visierung-fde) | Diopter, Magpul, MBUS 3 Visierung schwarz (72.90 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/diopter-magpul-mbus-3-visierung-schwarz) | Korn, Magpul, MBUS 3 Visierung OD-Green (48.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/korn-magpul-mbus-3-visierung-od-green)",
+    "mp-mbuspro": "ok: szett (első + hátsó irányzék): csak külön első/hátsó tétel van, 'szett' nincs; legközelebbi bolti termék(ek), NEM azonos: Adjustable Sight, Magpul, MBUS Pro LR, Rear (169.90 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/adjustable-sight-magpul-mbus-pro-lr-rear) | Offset Sights, Magpul, MBUS Pro, Rear (149.90 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/offset-sights-magpul-mbus-pro-rear) | Offset Sights, Magpul, MBUS Pro Front (119.90 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/offset-sights-magpul-mbus-pro-front) | Diopter, Magpul, MBUS Pro Sights - Rear (143.90 CHF, https://www.dangos.ch/de/sportoptik-nachtsicht/leuchtpunktzielgeraete/diopter-magpul-mbus-pro-sights-rear)",
+    "mp-mbusoff": "ok: szett (első + hátsó irányzék): csak külön első/hátsó tétel van, 'szett' nincs",
+    "sf-m600": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Waffenlampe, SUREFIRE, M600U Scout Light, 6-Volt Ultra-High-Output (649.00 CHF, https://www.dangos.ch/de/zubehoer-diverses/lampen/waffenlampe-surefire-m600u-scout-light-6-volt-ultra-high-output)",
+    "sf-m640": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-m300": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-x300": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Lampe, SureFire, Mod. X300 TURBO, schwarz (399.00 CHF, https://www.dangos.ch/de/zubehoer-diverses/lampen/lampe-surefire-mod-x300-turbo-schwarz) | Lampe, SureFire, Tactical X300U-A Ultra LED tan (394.00 CHF, https://www.dangos.ch/de/zubehoer-diverses/lampen/lampe-surefire-tactical-x300u-a-ultra-led-tan) | Lampe Surefire Mod. X300U-A, LED, Schnellverschluss, schwarz (389.00 CHF, https://www.dangos.ch/de/zubehoer-diverses/lampen/lampe-surefire-mod-x300u-a-led-schnellverschluss-schwarz)",
+    "sl-hlx": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Taschenlampe, Streamlight Pro Tac Rail Mount (199.00 CHF, https://www.dangos.ch/de/zubehoer-diverses/lampen/taschenlampe-streamlight-pro-tac-rail-mount)",
+    "mp-rvg": "ok: az 'M-LOK RVG' függőleges markolat nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Adapterschiene, Magpul, RVG Adapter Rail, M-LOK schwarz (10.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/adapterschiene-magpul-rvg-adapter-rail-m-lok-schwarz) | vertikaler Vordergriff, Magpul, RVG, M1913 Picatinny OD-Green (30.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/vertikaler-vordergriff-magpul-rvg-m1913-picatinny-od-green) | vertikaler Vordergriff, Magpul, RVG, M1913 Picatinny grau (30.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/vertikaler-vordergriff-magpul-rvg-m1913-picatinny-grau) | vertikaler Vordergriff, Magpul, RVG, M1913 Picatinny FDE (30.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/vertikaler-vordergriff-magpul-rvg-m1913-picatinny-fde)",
+    "bcm-vg3": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-kag": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-cable": "ok: a Magpul M-LOK Cable Management Kit nincs a boltban",
+    "hr-sbrm": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Zweibeinstütze, Harris Bipods, M-LOK, Drehbar, gekerbte Beine, 6\"-9\" (225.50 CHF, https://www.dangos.ch/de/zubehoer-diverses/schutzausruestung-ausruestung/zweibeinstuetze-harris-bipods-m-lok-drehbar-gekerbte-beine-6-9) | Zweibeinstütze, Harris Bipods, Picatinny, drehbar, gekerbte Beine, 6\"-9\" (216.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/schutzausruestung-ausruestung/zweibeinstuetze-harris-bipods-picatinny-drehbar-gekerbte-beine-6-9) | Zweibeinstütze, Harris Bipods, Swivel, Drehbar, gekerbte Beine, 6\"-9\" (191.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/schutzausruestung-ausruestung/zweibeinstuetze-harris-bipods-swivel-drehbar-gekerbte-beine-6-9) | Zweibeinstütze, Harris Bipods, M-LOK, Drehbar, gekerbte Beine, 9\"-13\" (225.50 CHF, https://www.dangos.ch/de/zubehoer-diverses/schutzausruestung-ausruestung/zweibeinstuetze-harris-bipods-m-lok-drehbar-gekerbte-beine-9-13)",
+    "sf-warcomp": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-3p": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-comp0": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-rc2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-ssae": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-ssa": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-sde": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-s3g": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "rd-raptor": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "rd-raptorlt": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "rd-raptorsd": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-ch4": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-ch3": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-ach": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "rd-talon": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-bad": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-trigguard": "ok: a 'MOE Enhanced Trigger Guard' típus nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Enhanced Trigger Guard, Magpul, MOE Polymer, AR15/M4 OD-Green (13.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/enhanced-trigger-guard-magpul-moe-polymer-ar15-m4-od-green) | Enhanced Trigger Guard, Magpul, MOE Polymer, AR15/M4 FDE (13.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/enhanced-trigger-guard-magpul-moe-polymer-ar15-m4-fde) | Enhanced Trigger Guard, Magpul, MOE Polymer, AR15/M4 schwarz (13.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/enhanced-trigger-guard-magpul-moe-polymer-ar15-m4-schwarz) | Trigger Guard, Magpul, Enhanced, Aluminium, AR15/M4 (26.90 CHF, https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/trigger-guard-magpul-enhanced-aluminium-ar15-m4)",
+    "bfg-vickers": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)"
+  },
+  "blocked": null
+}

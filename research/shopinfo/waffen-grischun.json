@@ -1,0 +1,19 @@
+{
+  "domain": "shop.waffen-grischun.ch",
+  "url": "https://shop.waffen-grischun.ch/",
+  "name": "Waffen Grischun GmbH",
+  "addr": "Industriestrasse 17, 7000 Chur",
+  "city": "Chur GR",
+  "canton": "GR",
+  "tel": "+41 76 240 62 50",
+  "kind": "both",
+  "ships": true,
+  "shipNote": "Az ÁSZF szerint a szállítás alapvetően kizárólag Svájcon belül történik; a szállítási, csomagolási és különszállítási költséget külön tüntetik fel (összegük az ÁSZF-ben nincs megadva). Az engedélyköteles fegyvereket csak a törvényi előírásoknak megfelelően küldik vagy adják át személyesen; a szállítás a szükséges dokumentumok beérkezése után történik.",
+  "online_prices": true,
+  "sources": [
+    "https://shop.waffen-grischun.ch/kontakt",
+    "https://shop.waffen-grischun.ch/content/3-allgemeine-geschaeftsbedingungen",
+    "https://shop.waffen-grischun.ch/content/4-uber-uns"
+  ],
+  "notes": "A kapcsolati oldal szerint Industriestrasse 17, 7000 Chur, e-mail info@w-gr.ch; a szakbolt 2024-ben nyílt Churban. Az árak CHF-ben, a törvényes MwSt-vel együtt értendők (ÁSZF 5. pont). PrestaShop 1.7. Aimpoint, Geissele, Magpul, Vortex, Streamlight, SureFire kínálat; EOTech, Trijicon alig."
+}

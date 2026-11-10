@@ -1,0 +1,18 @@
+{
+  "domain": "trooper.ch",
+  "url": "https://www.trooper.ch/",
+  "name": "CHEVEYO AG (TROOPER)",
+  "addr": "Ruessenstrasse 8, 6340 Baar",
+  "city": "Baar ZG",
+  "canton": "ZG",
+  "tel": "+41 44 748 11 11",
+  "kind": "both",
+  "ships": true,
+  "shipNote": "Csak Svájcon belülre és Liechtensteinbe szállítanak: DHL Express vagy A-Post Priority (Svájci Posta) CHF 9.90, katonai címre Feldpost CHF 9.90; CHF 199 rendelési értéktől a postaköltség elmarad. A raktáron lévő, 12 óráig megrendelt árut aznap feladják; átvétel a baari üzletben is lehetséges. Lőfegyverről/fegyveralkatrész-engedélyről az oldal nem ír.",
+  "online_prices": true,
+  "sources": [
+    "https://www.trooper.ch/policies/legal-notice",
+    "https://www.trooper.ch/policies/shipping-policy"
+  ],
+  "notes": "Impressum szerint a www.trooper.ch a CHEVEYO AG (UID CHE-468.685.364) domainje; üzlet/visszaküldés/átvétel: Ruessenstrasse 8, 6340 Baar (nyitva: K–P 10:00–18:30, Szo 10:00–16:00); iroda: H–P 9–12 és 13–17, e-mail office(at)trooper.ch. Az árak az oldal szerint 8.1% MwSt-vel együtt értendők. Shopify-motor. A kínálatban Holosun, EOTech, Vortex, SureFire, Streamlight (nincs Magpul, Aimpoint, Trijicon, Geissele)."
+}

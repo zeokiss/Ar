@@ -1,0 +1,20 @@
+{
+  "domain": "dynamikarms.ch",
+  "url": "https://www.dynamikarms.ch/",
+  "name": "Dynamik Arms SARL",
+  "addr": "Route d'Annecy 124, 1257 La Croix-de-Rozon",
+  "city": "La Croix-de-Rozon GE",
+  "canton": "GE",
+  "tel": "+41 22 301 24 25",
+  "kind": "both",
+  "ships": true,
+  "shipNote": "A csomagokat a Svájci Postával küldik a fizetés beérkezése után; az ÁSZF szerint FedExszel és a svájci Postával dolgoznak. A szállítási díj tartalmazza a csomagolást és a postaköltséget (összege az oldalakon nincs megadva), két rendelést nem vonnak össze. Fegyvert, fegyverelemet és lőszert csak Svájcból leadott rendelésre fogadnak el, az ÁSZF szerint fegyvervásárlási engedély (Waffenerwerbsschein) szükséges.",
+  "online_prices": true,
+  "sources": [
+    "https://www.dynamikarms.ch/de/content/1-Lieferung",
+    "https://www.dynamikarms.ch/de/content/3-allgemeine-geschaeftsbedingungen",
+    "https://www.dynamikarms.ch/de/shops",
+    "https://www.dynamikarms.ch/de/"
+  ],
+  "notes": "Az oldal láblécében: 'Dynamik Arms SARL/Gmbh, 124 route d Annecy 1257 Croix-De-Rozon Suisse', tel. +41 (0)22 301 24 25; üzlet lőtérrel, nyitva: Sze–P 11:30–18:30, Szo 9:00–17:00. PrestaShop 1.6. Az ÁSZF franciául van (a webshop dynamik-gun.ch néven is említett). Néhány termékoldal HTTP 500-at ad (szerver-hiba); ilyenkor a találati lista ára szerepel az árfájlban."
+}
