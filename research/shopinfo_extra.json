@@ -1,0 +1,2460 @@
+{
+ "collected": "2026-11-10",
+ "scope_note": "Országos kör (a felhasználó lakóhelye nem viszonyítási pont, km mező nincs). 'origin': 'ch_shops_recheck' = a ch_shops.json bizonytalan boltjainak ellenőrzése; 'new' = a ch_shops.json-ban nem szereplő bolt. Minden adat WebSearch-találatokból; közvetlenül letöltve csak vogtwaffen.ch és munitionsdepot.ch (a többi host proxy-tiltott vagy 403).",
+ "shops": [
+  {
+   "name": "AATS-Shop",
+   "company": "AATS-Group GmbH",
+   "domain": "aats-shop.ch",
+   "url": "https://www.aats-shop.ch/",
+   "addr": "Kirchbergstrasse 192 (2. OG), 3400 Burgdorf",
+   "city": "Burgdorf",
+   "canton": "BE",
+   "tel": "+41 34 413 40 40",
+   "hours": "Mi 13:30-18:30, Do 13:30-17:30, Fr 13:30-18:30, Sa 10:00-16:00",
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Holosun",
+    "SureFire",
+    "Springfield Armory",
+    "5.11",
+    "GPS",
+    "Hornady"
+   ],
+   "verified": true,
+   "sources": [
+    "https://aats-group.ch/geschaeft",
+    "https://aats-group.ch/",
+    "https://www.aats-shop.ch/produkt-kategorie/waffen/",
+    "https://shop.aats-group.ch/shop/item/waffenlicht-surefire-m640dft-pro-scout-light-pro-dual-fuel-700-lumen-100-000-candela-51493",
+    "https://onlineinfo.ch/firma/aats-group-gmbh---che-416-356-315/pdf",
+    "https://firmania.ch/burgdorf/aats-shop-944731"
+   ],
+   "notes": "Domain megtalálva: aats-shop.ch (shop) + aats-group.ch (cégoldal) + shop.aats-group.ch (termékoldalak). 2024 áprilisa óta Kirchbergstrasse 192, 2. emelet (üvegajtónál csengetni); régi listázások Kirchbergstrasse 97/105 – elavult. Alternatív tel. a cégoldal strukturált adataiban: +41 34 422 15 15. Árak: SureFire M640DFT-PRO CHF 445.80, Holosun ARO-MRS CHF 298. Szállítás nem ellenőrzött. Ugyanezen a címen van bejegyezve a Dynamik Pro Sàrl (fegyverimport) is – kapcsolat ismeretlen. Szerepel a sigsauer.swiss és acheron.ch kereskedőlistákon (nem letölthető).",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Kessler Shop (Kessler Auktionen / Kessler Waffen AG)",
+   "company": "Kessler Auktionen AG (azonos címen: Kessler Waffen AG, alapítva 1957)",
+   "domain": "shop.kesslerauktionen.ch",
+   "url": "https://shop.kesslerauktionen.ch/",
+   "addr": "Löwenstrasse 20, 8280 Kreuzlingen",
+   "city": "Kreuzlingen",
+   "canton": "TG",
+   "tel": "+41 71 671 23 23",
+   "hours": "Di, Fr, Sa délelőtt; Di és Fr délután (pontos órák: unknown)",
+   "kind": "both",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://shop.kesslerauktionen.ch/",
+    "https://kesslerauktionen.ch/neuer-online-shop/",
+    "https://business-monitor.ch/en/companies/40919-kessler-waffen-ag",
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf"
+   ],
+   "notes": "A 'Kessler Shop' a Kessler Auktionen AG webshopja (fegyverek és tartozékok antiktól modernig) az aukciós ház mellett. AR-15 tartozék-kínálat és szállítási feltételek nem ellenőrzöttek. Az SBV Festbüchsenmacher-lista is ezen a címen sorolja.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Brix Waffen AG",
+   "company": "Brix Waffen AG",
+   "domain": null,
+   "url": null,
+   "addr": "Rhonesandstrasse 10, 3900 Brig",
+   "city": "Brig",
+   "canton": "VS",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.brig-simplon.ch/en/poi/brix-weapons",
+    "https://onlineinfo.ch/firma/brix-waffen-ag---che-106-537-701/pdf",
+    "https://www.outdoor-enterprise.ch/Karte"
+   ],
+   "notes": "Saját weboldalt nem találtam. Brig turisztikai oldala szerint fegyverek, tartozékok, lőszer, optika, lámpák, kések, horgászcikk. Telefon/nyitvatartás nem derült ki. UID CHE-106.537.701.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Waffen Ingold AG",
+   "company": "Waffen Ingold AG",
+   "domain": "waffen-ingold.ch",
+   "url": "https://www.waffen-ingold.ch/",
+   "addr": "Zürich-Bernstrasse 46, 3429 Höchstetten",
+   "city": "Höchstetten",
+   "canton": "BE",
+   "tel": "+41 34 413 13 34",
+   "hours": "Do-Fr 13:30-20:00, Sa 09:00-17:30, Mo zárva (local.ch; Ke-Sze nem derült ki)",
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Wyssen Defence",
+    "Leupold",
+    "Swarovski"
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.waffen-ingold.ch/kontakt-und-anfahrt/",
+    "https://www.waffen-ingold.ch/waffenfachgeschaeft/",
+    "https://www.waffen-ingold.ch/product/muendungsbremse-wyssen-defence-kfh-o-5-56mm-gewinde-5-8-24/",
+    "https://www.waffen-ingold.ch/product/zf-leupold-vx-freedom-3x9-50mm-duplex/",
+    "https://www.local.ch/en/d/hoechstetten/3429/weapons-and-munitions/waffen-ingold-ag--7K5YGZl5ErLMFryqUWX0A",
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "Domain megtalálva: waffen-ingold.ch (webshop CHF-árakkal, pl. Wyssen Defence KFH 5.56 torkolatfék, 5/8-24 menet, CHF 110.50). Házszám eltér: saját kontaktoldal 46, címtárak/lábléc 50. Büchsenmacher-műhely, beltéri lőtér, saját lőszergyártás; autópálya-kijárat Kriegstetten, tömegközlekedés nincs.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Lakeside Shooting",
+   "company": "Lakeside Shooting AG",
+   "domain": "lakeside-shooting.ch",
+   "url": "https://lakeside-shooting.ch/",
+   "addr": "Alte Landstrasse 15, 8804 Au ZH",
+   "city": "Au ZH (Wädenswil)",
+   "canton": "ZH",
+   "tel": "+41 44 781 22 22",
+   "hours": "Sze-P 14:00-22:00, Szo-V 09:00-20:00 (harmadik féltől)",
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://lakeside-shooting.ch/infos",
+    "https://onlineinfo.ch/firma/lakeside-shooting-ag---che-325-288-818/pdf",
+    "https://www.moneyhouse.ch/en/company/lakeside-shooting-ag-6141416611",
+    "https://www.tripadvisor.com/Attraction_Review-g1463434-d27948698-Reviews-Lakeside_Shooting-Waedenswil.html"
+   ],
+   "notes": "Elsősorban beltéri lőtér/élményprogram; a cégcél tartalmazza a lőfegyverek adás-vételét. A bolt a lőtér épületében: 'Shooting & Wilderness Store (1. OG)' – külön cég, lásd 'Shooting & Wilderness Store' bejegyzést. Online bolt nem derült ki. Telefon és nyitvatartás csak harmadik féltől.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Vogt Waffen",
+   "company": "Vogt Waffen AG",
+   "domain": "vogtwaffen.ch",
+   "url": "https://vogtwaffen.ch/",
+   "addr": "Marterlochstrasse 21, 8180 Bülach",
+   "city": "Bülach",
+   "canton": "ZH",
+   "tel": "+41 44 244 99 77",
+   "hours": "K-P 09:45-12:00, 13:00-18:30; Szo 08:00-17:00",
+   "kind": "both",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": true,
+   "brands": [
+    "Swarovski",
+    "B&T"
+   ],
+   "verified": true,
+   "sources": [
+    "https://vogtwaffen.ch/",
+    "https://vogtwaffen.ch/versand/",
+    "https://www.swarovskioptik.com/us/en/outdoor/dealer-locator/vogt-waffen-michael-vogt-7ff2"
+   ],
+   "notes": "Saját oldal letöltve (elérhető). JAVÍTÁS: a ch_shops.json 'Marterlochstrasse 218' címe hibás összevonás (21 + 8180) – helyesen Marterlochstrasse 21. 2023 tavasza óta a Widstud lőtéren; korábban Oberglatt (az SBV-lista még a régi Wehntalerstrasse 6, Oberglatt címet mutatja). Webshop: shop.vogtwaffen.ch (a proxy tiltja). Szállítás: fegyver/lőszer a fegyvertörvény szerint, rendelés e-mailben/telefonon, külföldre is. Büchsenmacher, újratöltés, céltávcső/red dot szerelés.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Boller-Waffen",
+   "company": "Boller-Waffen",
+   "domain": null,
+   "url": null,
+   "addr": "Stadtstrasse 52, 6204 Sempach (nem megerősített)",
+   "city": "Sempach",
+   "canton": "LU",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.local.ch/de/q/zentralschweiz-region/waffen-und-munition",
+    "https://www.outdoor-enterprise.ch/Karte"
+   ],
+   "notes": "A ch_shops.json 'Steinen SZ' helye valószínűleg téves: az Outdoor Enterprise kereskedőlistája 'Boller Waffen 6204 Sempach'-ot ír, a local.ch összesítő oldal Stadtstrasse 52, Sempach címet mutat. Ugyanazon local.ch oldalon a Bahnhofstrasse 25A, Steinen cím (= Thoron AG címe) és egy Rotkreuz-i cím is felbukkan – a snippetek keverednek. Weboldal nem található.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Waffenwerkstatt Ming",
+   "company": "Waffenwerkstatt Ming (egyéni cég, Michael Ming)",
+   "domain": null,
+   "url": null,
+   "addr": "Industriestrasse 42, 6078 Lungern",
+   "city": "Lungern",
+   "canton": "OW",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://onlineinfo.ch/entreprise/waffenwerkstatt-ming---che-109-832-450/pdf",
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf",
+    "https://www.local.ch/de/q/zentralschweiz-region/waffen-und-munition"
+   ],
+   "notes": "JAVÍTÁS: a cégjegyzék és az SBV Festbüchsenmacher-lista (OW) szerint Lungern OW, nem Sempach LU. A local.ch Sempach-i (Stadtstrasse 52) bejegyzése valószínűleg a Boller-Waffené. Fegyverműhely; weboldal nem található.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Schiesssport-Center Geissbühler",
+   "company": "Schiesssport-Center Geissbühler GmbH",
+   "domain": null,
+   "url": null,
+   "addr": "Industriestrasse 4, 6078 Lungern",
+   "city": "Lungern",
+   "canton": "OW",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.local.ch/de/q/zentralschweiz-region/waffen-und-munition"
+   ],
+   "notes": "Csak egy local.ch összesítő oldal snippetje (kategória: Waffen und Munition, 'Geschlossen' státusz) és egy 2018-as vélemény. Nem tévesztendő össze a Brünig Indoor lőtérrel (Walchistrasse 30, Lungern). Működése nem megerősített; weboldal nincs.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Ulrich Waffen AG",
+   "company": "Ulrich Waffen AG",
+   "domain": "ulrich-waffen.ch",
+   "url": "https://www.ulrich-waffen.ch/",
+   "addr": "Selgis 6, 6436 Ried (Muotathal)",
+   "city": "Ried (Muotathal)",
+   "canton": "SZ",
+   "tel": "+41 41 811 64 40",
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.ulrich-waffen.ch/",
+    "https://www.sbv-asa.ch/ad.html",
+    "https://onlineinfo.ch/firma/ulrich-waffen-ag---che-412-081-094/pdf"
+   ],
+   "notes": "Domain megtalálva: ulrich-waffen.ch. Okl. Büchsenmachermeister-üzem, vadász- és sportlövő bolt. Az SBV-lista telefonszámot ad. Online árlista nem ellenőrzött.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Hollenstein Waffen",
+   "company": "Hollenstein Waffen (egyéni cég)",
+   "domain": null,
+   "url": null,
+   "addr": "Hauptstrasse 24, 9553 Bettwiesen",
+   "city": "Bettwiesen",
+   "canton": "TG",
+   "tel": "+41 71 622 87 27",
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://onlineinfo.ch/company/hollenstein-waffen---che-107-090-223/pdf",
+    "https://kapo.tg.ch/public/upload/assets/123006/2112%20Vorgehen%20Waffen%20im%20Nachlass.pdf?fp=1"
+   ],
+   "notes": "A TG kantoni rendőrség 2021-es 'Autorisierte Waffenhändler' listáján szerepel (cím+telefon; ott 8570 Weinfelden irányítószámmal). Cégjegyzék: cél 'Waffenhandel'. Weboldal nincs; bolt-e vagy csak kereskedés – nem derült ki.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Waffen Glauser AG",
+   "company": "Waffen Glauser AG",
+   "domain": "waffenglauser.ch",
+   "url": "https://www.waffenglauser.ch/",
+   "addr": "Stadtplatz 17, 3270 Aarberg",
+   "city": "Aarberg",
+   "canton": "BE",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.waffenglauser.ch/",
+    "https://onlineinfo.ch/firma/waffen-glauser-ag---che-103-736-888/pdf",
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "Domain megtalálva: waffenglauser.ch. Családi vállalkozás: fegyver, vadászat, horgászat. Telefon/nyitvatartás nem derült ki.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Caputi Waffen",
+   "company": "Caputi Waffen (egyéni cég)",
+   "domain": null,
+   "url": null,
+   "addr": "Neumattweg 12, 4805 Brittnau",
+   "city": "Brittnau",
+   "canton": "AG",
+   "tel": null,
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://onlineinfo.ch/firma/caputi-waffen---che-108-633-310/pdf"
+   ],
+   "notes": "Csak cégjegyzék: aktív egyéni cég, cél: fegyver- és lőszerkereskedelem. Bolthelyiség/weboldal nem derült ki (lehet csak kereskedés).",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Gun Shop Schweiz",
+   "company": "Gun Shop Schweiz GmbH",
+   "domain": "gunshop-schweiz.ch",
+   "url": "https://gunshop-schweiz.ch/",
+   "addr": "Obere Schwandenstrasse 8, 8833 Samstagern",
+   "city": "Samstagern (Richterswil)",
+   "canton": "ZH",
+   "tel": "+41 44 687 23 01",
+   "hours": "Sze 15:00-18:00, Cs-P 15:00-19:00, Szo 09:00-12:00",
+   "kind": "both",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [
+    "SIG Sauer",
+    "MDT",
+    "B&T",
+    "Diamond Defence",
+    "Trijicon"
+   ],
+   "verified": true,
+   "sources": [
+    "https://gunshop-schweiz.ch/",
+    "http://www.gunshopschweiz.ch/Category/",
+    "https://www.gunshopschweiz.ch/Product/Index/3215?name=Impressum",
+    "https://www.gunshopschweiz.ch/Manufacturer/Products?mainCategoryId=18&manufacturerId=1549",
+    "https://search.ch/tel/samstagern/obere-schwandenstrasse-8/gun-shop-schweiz-gmbh",
+    "https://onlineinfo.ch/firma/gun-shop-schweiz-gmbh---che-116-072-448/pdf",
+    "https://www.similarweb.com/website/shop.indoorswiss.ch/competitors"
+   ],
+   "notes": "Domain megtalálva: gunshop-schweiz.ch (főoldal) + gunshopschweiz.ch (katalógus, Impressum, 'Trijicon Zubehör' gyártói kategória). Telefonszámok eltérnek: 044 687 23 01 (Impressum), 044 499 00 59 (főoldal), 044 683 17 81 (Yelp). 2010-ben jegyezték be; fegyver, lőszer, lövészeti tartozék, holster, lámpa, kés, önvédelem; import/export. Similarweb szerint ~39 100 látogatás 2025 decemberében. AR-15 tartozék és CHF-árlista a hálózati tiltás miatt nem ellenőrizhető.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "MGX GmbH",
+   "company": "MGX GmbH",
+   "domain": null,
+   "url": null,
+   "addr": null,
+   "city": "Unterengstringen",
+   "canton": "ZH",
+   "tel": null,
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://onlineinfo.ch/firma/mgx-gmbh---che-112-540-166/pdf"
+   ],
+   "notes": "Aktív GmbH (UID CHE-112.540.166), de a cégcél üres a kivonatban; fegyverkereskedéssel való kapcsolatot NEM találtam. Javaslat: törölni a bolt-listáról, amíg nincs bizonyíték.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Stampfli Waffen",
+   "company": "Stampfli Waffen AG",
+   "domain": "stampfli-waffen.ch",
+   "url": "https://www.stampfli-waffen.ch/",
+   "addr": "Grossmatte Ost 22, 6014 Luzern",
+   "city": "Luzern (Littau)",
+   "canton": "LU",
+   "tel": "+41 41 410 38 33",
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Magpul",
+    "Corelock",
+    "Lux Def Tec",
+    "Rieffel",
+    "Nitecore",
+    "Walther"
+   ],
+   "verified": true,
+   "sources": [
+    "https://search.ch/tel/luzern/grossmatte-ost-22/stampfli-waffen-ag.en.html",
+    "https://www.sbv-asa.ch/ad.html",
+    "https://ch.kompass.com/c/stampfli-waffen-ag/ch333825/",
+    "https://www.stampfli-waffen.ch/",
+    "https://www.swarovskioptik.com/ch/de/vogelbeobachtung/dealer-locator/stampfli-waffen-ag-7b8e"
+   ],
+   "notes": "Saját büchsenmacher-műhely + webshop (fegyver, lőszer, optika, vadászat, kés, outdoor). A stampfli-waffen.ch a proxyn átengedett, de a szerver HTTP 403-at ad automatikus kérésre – NEM kerültem meg. Régi cím (Zürichstrasse 12/14, 6004 Luzern; SBV Festbüchsenmacher-lista) elavult; a local.ch-snippet 'Burgerstrasse 20' egy másik céghez tartozik. Nyitvatartás nem derült ki.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Munitionsdepot",
+   "company": "CBR Trading AG",
+   "domain": "munitionsdepot.ch",
+   "url": "https://www.munitionsdepot.ch/",
+   "addr": "Riedstrasse 8, 4222 Zwingen (fiók: Hintermättlistrasse 4, 5506 Mägenwil AG)",
+   "city": "Zwingen",
+   "canton": "BL",
+   "tel": "+41 61 723 20 00",
+   "hours": "Zwingen: H-P 10:00-12:00, 13:30-18:30, Szo 10:00-15:00 | Mägenwil (+41 62 896 07 07): K-P 13:30-18:30, Szo 09:00-15:00",
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": true,
+   "brands": [
+    "Magpul",
+    "Geissele",
+    "Aero Precision",
+    "SureFire",
+    "Leupold",
+    "SAI Optics",
+    "Clawgear",
+    "Vortex"
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.munitionsdepot.ch/Impressum",
+    "https://www.munitionsdepot.ch/Kontakt",
+    "https://www.munitionsdepot.ch/Versandkosten",
+    "https://www.munitionsdepot.ch/Handschutz-Magpul-M-Lok-Carbine-fuer-AR15-OD-Green",
+    "https://www.munitionsdepot.ch/Abzug-Geissele-Automatics-LLC-Geissele-G2s-Two-Stage-Trigger",
+    "https://www.munitionsdepot.ch/Muendungsbremse-Clawgear-2-Kammer-AR-15"
+   ],
+   "notes": "Saját oldal letöltve (elérhető a proxyn). Üzemeltető: CBR Trading AG; két fizikai bolt (Zwingen BL, Mägenwil AG) + webshop (wawi.ch platform). Árak 'inkl. MwSt., zzgl. Versand'; szállítási költség a kosárban. Büchsenmacher hétfő és szerda délután. Fegyverexport csak engedélyes kereskedőnek, lőszer/lőpor nem exportálható. Példák: Magpul M-LOK Carbine AR15 handguard CHF 54, Geissele Super 3 Gun CHF 319.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "M426 Systems",
+   "company": "M426 Systems GmbH",
+   "domain": "m426.ch",
+   "url": "https://m426.ch/",
+   "addr": "Schenkstrasse 6, 3380 Wangen an der Aare",
+   "city": "Wangen an der Aare",
+   "canton": "BE",
+   "tel": "+41 32 426 70 00",
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Geissele",
+    "Radian",
+    "Trijicon",
+    "Aimpoint",
+    "EOTech",
+    "Streamlight",
+    "Wyssen Defence",
+    "Acheron",
+    "BCM",
+    "Magpul"
+   ],
+   "verified": true,
+   "sources": [
+    "https://search.ch/tel/wangen-an-der-aare/schenkstrasse-6/m426-systems-gmbh.en.html",
+    "https://onlineinfo.ch/firma/m426-systems-gmbh---che-327-023-455/pdf",
+    "https://m426.ch/shop/abzug-ar-15-geissele-super-semi-automatic-enhanced-ssa-e-trigger-2-stage/",
+    "https://m426.ch/shop/ladegriff-radian-weapons-ar-15-raptor-sd/",
+    "https://m426.ch/shop/zielgeraet-trijiconacog-4x32-bac-5-56-bdc/"
+   ],
+   "notes": "A search.ch nyitvatartási státuszt mutat (fizikai hely valószínű), pontos órák ismeretlenek. Webshop CHF inkl. MWST, sok tétel 'Auf Bestellung, Lieferzeit 1-16 Wochen'. Példák: Geissele SSA-E CHF 369.80, Radian Raptor-SD CHF 168.50, ACOG 4x32 CHF 1991.10. Az m426.ch a proxyn átengedett, de HTTP 403-at ad automatikus kérésre – NEM kerültem meg.",
+   "origin": "ch_shops_recheck"
+  },
+  {
+   "name": "Brownells Schweiz",
+   "company": "unknown (Brownells; svájci üzemeltető nem derült ki)",
+   "domain": "brownells.ch",
+   "url": "https://www.brownells.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": true,
+   "brands": [
+    "Geissele",
+    "BCM",
+    "Magpul",
+    "B5 Systems",
+    "Wilson Combat",
+    "Double Star",
+    "Superlative Arms",
+    "ELCAN"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.brownells.ch/Popular/Ar-15",
+    "https://www.brownells.ch/Manufacturers/BRAVO-COMPANY",
+    "https://www.brownells.ch/Popular/Geissele-Trigger",
+    "https://www.brownells.ch/Popular/fr/Garde-Main-AR-15",
+    "https://www.brownells.ch/Popular/AR-15-Handguard"
+   ],
+   "notes": "A legnagyobb AR-15 alkatrész-kínálat CHF-ben (de/fr/it). Árak inkl. MwSt + szállítás; több tétel 'Lager USA' (kb. 8-15 nap). Példák: Geissele G2S CHF 249.90, SSA-E CHF 309.90, BCM Gunfighter Mod 3 markolat CHF 33.90-38.90. Az üzemeltető/Impressum nem derült ki (Brownells Europe: Neumünster DE – a kapcsolat nem megerősített). Lényeges alkatrészeknél (závár, alsó tok stb.) svájci engedély/import kérdés.",
+   "origin": "new"
+  },
+  {
+   "name": "Trooper",
+   "company": "CHEVEYO AG (jobs.ch alapján)",
+   "domain": "trooper.ch",
+   "url": "https://www.trooper.ch/",
+   "addr": "Ruessenstrasse 8, 6340 Baar",
+   "city": "Baar",
+   "canton": "ZG",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": true,
+   "brands": [
+    "Holosun",
+    "Vortex",
+    "BlackHawk"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.trooper.ch/collections/holosun",
+    "https://www.trooper.ch/collections/vortex-optics",
+    "https://www.trooper.ch/collections/holster",
+    "https://www.jobs.ch/de/firmen/4435e306-6c5e-4d9e-9bac-32af2aa3fb5c-cheveyo-ag/"
+   ],
+   "notes": "Katonai/rendőrségi/outdoor felszerelés; nagy Holosun-készlet svájci raktárból, ingyenes szállítás CHF 100 felett. Cím/üzemeltető csak egy álláshirdetési cégprofilból (iroda, raktár, bolt Baarban; korábban Dietikon) – nem megerősített.",
+   "origin": "new"
+  },
+  {
+   "name": "Taczone",
+   "company": "unknown",
+   "domain": "taczone.ch",
+   "url": "https://www.taczone.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": true,
+   "brands": [
+    "Magpul"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.taczone.ch/"
+   ],
+   "notes": "Tárak, holsterek, hatósági holsterek; PMAG 30 Gen M3 CHF 29; ingyenes szállítás Svájcon belül CHF 250 felett. Üzemeltető/cím nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "Armtec",
+   "company": "unknown",
+   "domain": "armtec.ch",
+   "url": "https://armtec.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": true,
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [
+    "Magpul"
+   ],
+   "verified": false,
+   "sources": [
+    "https://armtec.ch/en/collections/weapon-accessories"
+   ],
+   "notes": "Fegyvertartozék-gyűjtemény Magpul-termékekkel (részben elfogyott). Ár és üzemeltető nem ellenőrzött (az 'Armourtec GmbH', Uster nem bizonyítottan azonos).",
+   "origin": "new"
+  },
+  {
+   "name": "DangoS Waffen",
+   "company": "DangoS GmbH (valószínű)",
+   "domain": "dangos.ch",
+   "url": "https://www.dangos.ch/",
+   "addr": "Industriestrasse 8, 8880 Walenstadt (nem megerősített)",
+   "city": "Walenstadt",
+   "canton": "SG",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Magpul",
+    "SIG Sauer"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.dangos.ch/",
+    "https://www.dangos.ch/de/zubehoer-diverses/waffenzubehoer-montagen/handschutz-magpul-moe-m-lok-hand-guard-mid-length-ar15-m4",
+    "https://www.dangos.ch/de/sportoptik-nachtsicht/zielfernrohre/zielfernrohr-sig-sauer-tango-msr-lpvo-1-6x24-mm",
+    "https://onlineinfo.ch/firma/dangos-gmbh---che-200-266-415/pdf"
+   ],
+   "notes": "Vadász-/sportfegyver, optika, lőszer, újratöltés; a főoldalon nyitvatartás szerepel (fizikai bolt). Magpul MOE M-LOK Mid-Length AR15 handguard CHF 48.90; Sig Tango-MSR 1-6x24 CHF 659. A Walenstadt-i DangoS GmbH és a dangos.ch kapcsolata nem megerősített.",
+   "origin": "new"
+  },
+  {
+   "name": "Waffen Grischun",
+   "company": "Waffen Grischun",
+   "domain": "shop.waffen-grischun.ch",
+   "url": "https://shop.waffen-grischun.ch/",
+   "addr": "Industriestrasse 17, 7000 Chur (nem megerősített)",
+   "city": "Chur",
+   "canton": "GR",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Aimpoint"
+   ],
+   "verified": false,
+   "sources": [
+    "https://shop.waffen-grischun.ch/",
+    "https://shop.waffen-grischun.ch/index.php?id_manufacturer=10&controller=manufacturer",
+    "https://www.local.ch/de/q/graubuenden-kanton/waffen-und-munition"
+   ],
+   "notes": "Webshop CHF-árakkal (Aimpoint Comp M5, Duty RDS; vadászpuskák, sörétes, KK, lőszer, céltávcsövek). Cím csak keresési összefoglalóból.",
+   "origin": "new"
+  },
+  {
+   "name": "BP Group Shop",
+   "company": "BP Group GmbH (a bpshop.ch kapcsolata nem megerősített)",
+   "domain": "bpshop.ch",
+   "url": "https://bpshop.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Trijicon",
+    "Streamlight"
+   ],
+   "verified": false,
+   "sources": [
+    "https://bpshop.ch/produkt-kategorie/trijicon/acog/",
+    "https://bpshop.ch/produkt/streamlight-tlr-1-hl-gun-light/",
+    "https://onlineinfo.ch/company/bp-group-gmbh---che-110-042-644/pdf"
+   ],
+   "notes": "Trijicon ACOG 4x32 CHF 1990; Streamlight TLR-1 HL CHF 260 inkl. MwSt. Cégjegyzékben van egy BP Group GmbH (Dorfstrasse 63, 5244 Birrhard AG), de nem bizonyított, hogy ez üzemelteti.",
+   "origin": "new"
+  },
+  {
+   "name": "DH Network",
+   "company": "unknown",
+   "domain": "dhnetwork.ch",
+   "url": "https://dhnetwork.ch/",
+   "addr": null,
+   "city": "Cham (fórum szerint)",
+   "canton": "ZG",
+   "tel": null,
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Trijicon"
+   ],
+   "verified": false,
+   "sources": [
+    "https://dhnetwork.ch/produkt/trijicon-acog-4x32-dual-illuminated-red-crosshair-223-ballistic-reticle-w-ta51-mount/",
+    "https://waffenforum.ch/forum/index.php?thread%2F2898-empfehlung-waffengesch%C3%A4ft-grossregion-z%C3%BCrich%2F="
+   ],
+   "notes": "Trijicon ACOG 4x32 TA51-gyel CHF 1990 inkl. MwSt. Egy fórumbejegyzés Cham-i boltként ajánlja – cím nem megerősített.",
+   "origin": "new"
+  },
+  {
+   "name": "Thalmann Gun-Art",
+   "company": "Thalmann Gun-Art",
+   "domain": "gun-art.ch",
+   "url": "https://www.gun-art.ch/",
+   "addr": "Kreuzlingerstrasse 75, 8590 Romanshorn",
+   "city": "Romanshorn",
+   "canton": "TG",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": true,
+   "brands": [
+    "SureFire"
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.gun-art.ch/",
+    "https://www.gun-art.ch/shop/waffenlampen/shurefire/"
+   ],
+   "notes": "Swiss gunsmithing + webshop; SureFire XSC-A CHF 385, M640T (puskalámpa) CHF 425, szállítás 1-3 nap. Cím a saját oldal keresési kivonatából.",
+   "origin": "new"
+  },
+  {
+   "name": "Polizeibedarf.ch",
+   "company": "unknown",
+   "domain": "polizeibedarf.ch",
+   "url": "https://www.polizeibedarf.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "SureFire"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.polizeibedarf.ch/ki/Lampen-Taschenlampen/SURE-FIRE.html"
+   ],
+   "notes": "Rendőrségi felszerelés; SureFire M640DFT-PRO SFr 428, M640DF-PRO SFr 348. Az URL-szerkezet azonos a shooting-store.ch-val – lehet, hogy ugyanaz a platform/üzemeltető (Shooting-Inn AG), NEM megerősített.",
+   "origin": "new"
+  },
+  {
+   "name": "Proforce",
+   "company": "unknown",
+   "domain": "proforce.ch",
+   "url": "https://www.proforce.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.proforce.ch/de/kategorie/holster",
+    "https://www.proforce.ch/ki/Polizeibedarf-Taktische-Ausruestung/Holster.html"
+   ],
+   "notes": "Rendőrségi/taktikai felszerelés (holster, tasak) CHF 11-63 körüli árakkal. AR-15 tartozék nem látszott. URL-szerkezet azonos a shooting-store.ch-val (üzemeltető nem megerősített).",
+   "origin": "new"
+  },
+  {
+   "name": "Per-Tec Trade",
+   "company": "unknown",
+   "domain": "per-tec-trade.ch",
+   "url": "https://www.per-tec-trade.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": true,
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [
+    "SureFire"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.per-tec-trade.ch/ArtikelGruppen/ArtikelGruppeSub_043.html"
+   ],
+   "notes": "SureFire lámpák termékcsoportja. Árak/üzemeltető nem ellenőrzött.",
+   "origin": "new"
+  },
+  {
+   "name": "Wyssen Defence",
+   "company": "Wyssen Defence AG",
+   "domain": "wyssendefence.com",
+   "url": "https://www.wyssendefence.com/",
+   "addr": "3713 Reichenbach im Kandertal (utca nem derült ki)",
+   "city": "Reichenbach im Kandertal",
+   "canton": "BE",
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Geissele",
+    "Timney",
+    "Wyssen Defence"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.wyssendefence.com/shop/handfeuerwaffen/ar15/abzuege/geissele-super-3-gun-trigger-fuer-ar15/",
+    "https://www.iwa.info/en/exhibitors/wyssen-defence-ag-2530503",
+    "https://www.enforcetac.com/en/exhibitors/wyssen-defence-ag-2531617"
+   ],
+   "notes": "Svájci gyártó (AR-15 típusú puskák, hangtompítók, KFH torkolatfék) saját webshoppal: 'AR15 > Abzüge' kategória, Geissele S3G CHF 345. Cím csak egy hirdetési snippetből (3713 Reichenbach).",
+   "origin": "new"
+  },
+  {
+   "name": "Zander Tactical",
+   "company": "unknown",
+   "domain": "zandertactical.com",
+   "url": "https://www.zandertactical.com/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "BCM"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.zandertactical.com/waffen-ausr%C3%BCstrung/waffen/gewehre/"
+   ],
+   "notes": "Komplett BCM AR-15 puskák CHF-ben (pl. CQB9 300 BLK CHF 2420), svájci Ausnahmebewilligung-utalással. Hely/üzemeltető nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "Roch Custom (Atelier d'Armurerie)",
+   "company": "Roch Custom",
+   "domain": "rochcustom.com",
+   "url": "https://www.rochcustom.com/",
+   "addr": null,
+   "city": "Genève",
+   "canton": "GE",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "UTG",
+    "Aimpoint",
+    "Magpul",
+    "Smith & Wesson"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.rochcustom.com/",
+    "https://www.rochcustom.com/categorie-produit/accessoires/?max_price=595&orderby=price-desc",
+    "https://www.rochcustom.com/marques/magpul/",
+    "https://www.rochcustom.com/marques/aimpoint/"
+   ],
+   "notes": "Genfi fegyverműhely webshoppal: UTG Super Slim free-float handguard CHF 185, Aimpoint Micro magasító CHF 68, PMAG17 GL9 CHF 23-tól. Utcacím/szállítás nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "Swiss Safety",
+   "company": "unknown",
+   "domain": "swisssafety.com",
+   "url": "https://swisssafety.com/",
+   "addr": null,
+   "city": "Liestal (nem megerősített)",
+   "canton": "BL",
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Vortex",
+    "Kahles"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisssafety.com/optik_zielfernrohre,rid,483,produktliste.html",
+    "https://swisssafety.com/wbc.php?sid=58118300b072f&pid=11168&rid=483&recno=7&cmd=inwatchlist&tpl=produktdetail.html"
+   ],
+   "notes": "'Schweizer Shop': Vortex Strike Eagle 1-8x24 FFP SFr 650, Kahles K16i 1-6x24 SFr 1901 inkl. MwSt. Üzemeltető/cím nem derült ki (Liestal csak keresési összefoglalóból).",
+   "origin": "new"
+  },
+  {
+   "name": "Waffen Joray",
+   "company": "Joray Waffen & Feinmechanik",
+   "domain": "waffen-joray.ch",
+   "url": "https://waffen-joray.ch/",
+   "addr": null,
+   "city": "Laufen",
+   "canton": "BL",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": true,
+   "brands": [
+    "Southern Tactical",
+    "LMT",
+    "Schmeisser"
+   ],
+   "verified": false,
+   "sources": [
+    "https://waffen-joray.ch/",
+    "https://waffen-joray.ch/waffen/halbautomaten",
+    "https://waffen-joray.ch/manufacturer/schmeisser/4/halbautomaten"
+   ],
+   "notes": "'Waffengeschäft Laufen': új és használt fegyverek, tartozék; szállítás Svájcon belül vagy átvétel a boltban. AR-15: Southern Tactical ST-15 CHF 990, LMT SPM14-JOR CHF 2850. Utcacím nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "SwissOrdnance",
+   "company": "SwissOrdnance GmbH",
+   "domain": "swissordnance.com",
+   "url": "https://swissordnance.com/",
+   "addr": "Im Waidli 3, 8142 Uitikon Waldegg (cégjegyzék)",
+   "city": "Uitikon Waldegg",
+   "canton": "ZH",
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://swissordnance.com/waffen/Semi-Auto-Rifles",
+    "https://onlineinfo.ch/firma/swissordnance-gmbh---che-318-155-684/pdf"
+   ],
+   "notes": "Félautomata puskák CHF-ben (Basic AR-15 CHF 910). A cégjegyzéki cím nem feltétlenül bolt; cégcél nem látszott.",
+   "origin": "new"
+  },
+  {
+   "name": "Dynamik Arms",
+   "company": "Dynamik Arms Sàrl",
+   "domain": "dynamikarms.ch",
+   "url": "https://www.dynamikarms.ch/",
+   "addr": "Route d'Annecy 124, 1257 La Croix-de-Rozon",
+   "city": "La Croix-de-Rozon (Bardonnex)",
+   "canton": "GE",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Daniel Defense",
+    "Magpul"
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.dynamikarms.ch/de/79-ar-m4",
+    "https://www.dynamikarms.ch/fr/179_magpul",
+    "https://yellowpages.swiss/company/CHE-191.696.482/dynamik-arms-sarl-la-croix-de-rozon",
+    "https://danieldefense.com/international-dealers-and-distributors"
+   ],
+   "notes": "A Daniel Defense hivatalos svájci kereskedője (a Thoron mellett). AR/M4 kategória: DDM4 V7 16\" CHF 2340, V7S 11.5\" CHF 2368; Magpul CHF-ben. Cégcél: fegyver- és tartozék-kereskedelem + a La Croix-de-Rozon-i lőtér üzemeltetése.",
+   "origin": "new"
+  },
+  {
+   "name": "Topguns / SPECIALGUNSHOP",
+   "company": "unknown",
+   "domain": "topguns.ch",
+   "url": "https://www.topguns.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Daniel Defense"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.topguns.ch/product-view.php?id=1524"
+   ],
+   "notes": "Daniel Defense termék 2549 Frs. Üzemeltető/hely nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "Swiss Shooting Armory (shop)",
+   "company": "unknown",
+   "domain": "shop.swiss-shooting-armory.ch",
+   "url": "https://shop.swiss-shooting-armory.ch/",
+   "addr": null,
+   "city": "Spreitenbach",
+   "canton": "AG",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Radian"
+   ],
+   "verified": false,
+   "sources": [
+    "https://shop.swiss-shooting-armory.ch/ar-15-extended-lade-griff-beidseitig.html"
+   ],
+   "notes": "AR-15 kétoldali ládogató CHF 94 ('Standort Spreitenbach: Nicht auf Lager'). Lehet, hogy a Swiss Shooting Range AG (Härdlistrasse 15, 8957 Spreitenbach) boltja – nem megerősített.",
+   "origin": "new"
+  },
+  {
+   "name": "Grünig + Elmiger",
+   "company": "Grünig & Elmiger AG",
+   "domain": "gruenel.ch",
+   "url": "https://www.gruenel.ch/",
+   "addr": null,
+   "city": "Malters",
+   "canton": "LU",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": true,
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [
+    "Radian"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.gruenel.ch/en/product/radian-raptor-ar15-charging-handle--70_39_100023416",
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "Svájci sportpuska-gyártó webshoppal; Radian Raptor AR15 ládogató listázva (ár nem látszott). SBV-tag, Malters; utcacím nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "Navara Shop",
+   "company": "unknown",
+   "domain": "navara-handel.ch",
+   "url": "https://www.navara-handel.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Leupold"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.navara-handel.ch/zielfernrohre"
+   ],
+   "notes": "Leupold céltávcsövek CHF-ben, szállíthatósági státusszal (pl. VX-Freedom 1.5-4x28 CHF 598). Inkább vadász-optika. Üzemeltető/hely ismeretlen.",
+   "origin": "new"
+  },
+  {
+   "name": "GB Tactical",
+   "company": "GB Tactical GmbH (valószínű)",
+   "domain": "gbtactical.ch",
+   "url": "https://www.gbtactical.ch/",
+   "addr": "Aarauerstrasse 112, 5200 Brugg (cégjegyzék; bolt-cím nem megerősített)",
+   "city": "Brugg",
+   "canton": "AG",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": true,
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.gbtactical.ch/en/waffen-kaufen",
+    "https://onlineinfo.ch/firma/gb-tactical-gmbh---che-423-796-553/pdf"
+   ],
+   "notes": "Pisztolyok, revolverek, puskák, lőszer online; átadás a boltban vagy dokumentált szállítás haza. AR-15 tartozék nem ellenőrzött.",
+   "origin": "new"
+  },
+  {
+   "name": "Casarmi",
+   "company": "Casarmi SA",
+   "domain": "casarmi.ch",
+   "url": "https://www.casarmi.ch/it/",
+   "addr": "Via Ferruccio Pelli 11, 6900 Lugano",
+   "city": "Lugano",
+   "canton": "TI",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.casarmi.ch/it/",
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf",
+    "https://www.local.ch/it/q/ticino-cantone/armi-e-munizioni"
+   ],
+   "notes": "Online fegyver-, lőszer-, tartozék- és ruházat-árus Luganóban; SBV Festbüchsenmacher-listán. Árak/szállítás nem ellenőrzött.",
+   "origin": "new"
+  },
+  {
+   "name": "Armurerie Lagardère",
+   "company": "Armurerie Lagardère SA",
+   "domain": "lagardere.ch",
+   "url": "https://lagardere.ch/",
+   "addr": "Boulevard des Eplatures 21, 2300 La Chaux-de-Fonds",
+   "city": "La Chaux-de-Fonds",
+   "canton": "NE",
+   "tel": "+41 32 926 60 66",
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://lagardere.ch/en/about-us/",
+    "https://www.lagardere.ch/index.php/shop-en-ligne",
+    "https://www.neuchatelnet.ch/armurerie/lagardere-sa-armurerie-a-la-chaux-de-fonds.html",
+    "https://mapcarta.com/N7401137391"
+   ],
+   "notes": "Saját állítás szerint >10 000 fegyver raktáron, fegyver/lőszer/tartozék, javítóműhely, földalatti lőtér (10/25/100 m). Van 'shop en ligne'. A főoldali nyitvatartás 2026 májusi – ellenőrizendő.",
+   "origin": "new"
+  },
+  {
+   "name": "AA Store",
+   "company": "unknown",
+   "domain": "aa-store.ch",
+   "url": "https://www.aa-store.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [
+    "Holosun"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.aa-store.ch/holosun"
+   ],
+   "notes": "Airsoft/softair bolt Holosun kategóriával – nem ellenőrzött, hogy valódi (éles fegyverre való) optika-e. Alacsony relevancia.",
+   "origin": "new"
+  },
+  {
+   "name": "Softgun.ch",
+   "company": "unknown",
+   "domain": "softgun.ch",
+   "url": "https://www.softgun.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [
+    "Vector Optics"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.softgun.ch/zielhilfen-optiken-zubehoer-lpvo-zielfernrohre-c-1027_856_1611.html"
+   ],
+   "notes": "Airsoft bolt LPVO-kategóriával (Vector Optics Continental 1-6x24 CHF 383.90). Éles fegyverre alkalmasság nem ellenőrzött. Alacsony relevancia.",
+   "origin": "new"
+  },
+  {
+   "name": "Army-Shop.ch",
+   "company": "unknown",
+   "domain": "army-shop.ch",
+   "url": "https://army-shop.ch/",
+   "addr": null,
+   "city": null,
+   "canton": null,
+   "tel": null,
+   "hours": null,
+   "kind": "online",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://army-shop.ch/en/holster/"
+   ],
+   "notes": "Kydex holsterek (Glock, SIG, CZ) kb. CHF 109-149. AR-15 tartozék nem látszott. Alacsony relevancia.",
+   "origin": "new"
+  },
+  {
+   "name": "W. Glaser Waffen",
+   "company": "W. Glaser Waffen AG",
+   "domain": "glaserwaffen.ch",
+   "url": "https://www.glaserwaffen.ch/",
+   "addr": "Röntgenstrasse 32, 8005 Zürich",
+   "city": "Zürich",
+   "canton": "ZH",
+   "tel": "+41 43 205 25 23",
+   "hours": "K, Cs, P (déli szünettel; pontos órák unknown)",
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://search.ch/tel/zuerich/roentgenstrasse-32/w-glaser-waffen-ag.de.html",
+    "https://www.local.ch/de/d/zuerich/8005/waffen-und-munition/w-glaser-waffen-ag-Bt2sWfDFYjJ7eqg8OQIFNw",
+    "https://www.sbv-asa.ch/ad.html",
+    "https://www.infobel.com/de/switzerland/w_glaser_waffen/zurich/CH100421773-0432052523/businessdetails.aspx"
+   ],
+   "notes": "~170 éves zürichi fegyverbolt + büchsenmacher; új és használt fegyverek, vadászat/sportlövészet. Telefon eltér: 043 205 25 23 vs. 044 278 90 90 (SBV). 2024-es fórum szerint új tulajdonos.",
+   "origin": "new"
+  },
+  {
+   "name": "Bürchler Waffen",
+   "company": "Bürchler Waffen (Robert Bürchler)",
+   "domain": "waffenbuerchler.ch",
+   "url": "https://www.waffenbuerchler.ch/",
+   "addr": "Predigerplatz 36, 8001 Zürich",
+   "city": "Zürich",
+   "canton": "ZH",
+   "tel": "+41 44 251 17 27",
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html",
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf"
+   ],
+   "notes": "SBV-tag és Festbüchsenmacher. Online kínálat nem ellenőrzött.",
+   "origin": "new"
+  },
+  {
+   "name": "Armoran",
+   "company": "Armoran AG",
+   "domain": null,
+   "url": null,
+   "addr": null,
+   "city": "Zürich",
+   "canton": "ZH",
+   "tel": "+41 44 313 19 60",
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "Csak az SBV kiskereskedelmi címlistájából (név, hely, telefon); utcacím/weboldal nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "Waffen Noser",
+   "company": "Noser Waffen",
+   "domain": "waffennoser.ch",
+   "url": "https://waffennoser.ch/",
+   "addr": "Gewerbestrasse 4, 8634 Hombrechtikon",
+   "city": "Hombrechtikon",
+   "canton": "ZH",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html",
+    "https://waffennoser.ch/Waffen/Halbautomaten/"
+   ],
+   "notes": "SBV-tag; weboldalon 'Halbautomaten' kategória (AR-15 típus valószínű, nem ellenőrzött).",
+   "origin": "new"
+  },
+  {
+   "name": "Shooting & Wilderness Store",
+   "company": "Shooting and Wilderness GmbH",
+   "domain": null,
+   "url": "https://lakeside-shooting.ch/infos",
+   "addr": "Alte Landstrasse 15, 8804 Au ZH",
+   "city": "Au ZH (Wädenswil)",
+   "canton": "ZH",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://onlineinfo.ch/firma/shooting-and-wilderness-gmbh---che-253-970-719/pdf",
+    "https://lakeside-shooting.ch/infos"
+   ],
+   "notes": "A Lakeside Shooting lőtér épületében (1. emelet) működő bolt; cégcél: lőfegyverek, tartozékok, lőszer kereskedelme. Ugyanitt: Tanner's Wilderness Store (egyéni cég). Valószínűleg ez a swisswaffen.com 'Shooting & Wilderness Store' forrása. Saját domain nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "Beierer Waffen",
+   "company": "Beierer Waffen GmbH (cégjegyzék szerint 'in Liquidation')",
+   "domain": "beierer.ch",
+   "url": "https://beierer.ch/",
+   "addr": "Schneidergasse 17, 4051 Basel (cégjegyzék: Schneidergasse 27)",
+   "city": "Basel",
+   "canton": "BS",
+   "tel": "+41 61 262 22 25",
+   "hours": "H-K zárva; Sze-Cs délelőtt+délután",
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://beierer.ch/",
+    "https://onlineinfo.ch/firma/beierer-waffen-gmbh-in-liquidation---che-245-883-857/pdf"
+   ],
+   "notes": "Fegyver, lőszer, paprikaspray, kés, outdoor & tactical gear. FIGYELEM: a cégjegyzék-kivonat (2026-06) szerint felszámolás alatt – működése bizonytalan; házszám eltér (17 vs 27).",
+   "origin": "new"
+  },
+  {
+   "name": "Niklaus Bürgin Waffen",
+   "company": "Niklaus Bürgin Waffen, Munition; Handel, Büchsenmacherei",
+   "domain": "waffenbuergin.ch",
+   "url": "https://www.waffenbuergin.ch/",
+   "addr": "Theaterstrasse 14, 4051 Basel",
+   "city": "Basel",
+   "canton": "BS",
+   "tel": "+41 61 281 51 77",
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.allbiz.ch/niklaus-b%C3%BCrgin-waffen-munition-handel-061-281-51-77"
+   ],
+   "notes": "1938-ban alapítva; csak egy cégkatalógusból (allbiz), nem megerősített.",
+   "origin": "new"
+  },
+  {
+   "name": "Waffen Dobler",
+   "company": "Dobler Waffen GmbH (Stefan Dobler)",
+   "domain": null,
+   "url": null,
+   "addr": "Badweg 3, 4460 Gelterkinden",
+   "city": "Gelterkinden",
+   "canton": "BL",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf",
+    "https://onlineinfo.ch/firma/dobler-waffen-gmbh---che-393-268-017/pdf"
+   ],
+   "notes": "SBV Festbüchsenmacher-lista (BL). Weboldal nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "Frölicher Waffen",
+   "company": "Waffen Frölicher",
+   "domain": "waffen-froelicher.ch",
+   "url": "https://waffen-froelicher.ch/",
+   "addr": "Goldgasse 6, 4500 Solothurn",
+   "city": "Solothurn",
+   "canton": "SO",
+   "tel": "+41 32 622 88 40",
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://waffen-froelicher.ch/",
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "Fegyver-szaküzlet Solothurnban (SBV-tag).",
+   "origin": "new"
+  },
+  {
+   "name": "Waffen Wildi",
+   "company": "Wildi Waffen AG",
+   "domain": "waffenwildi.ch",
+   "url": "https://waffenwildi.ch/",
+   "addr": "Stengelbacherstrasse 11, 4800 Zofingen",
+   "city": "Zofingen",
+   "canton": "AG",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://waffenwildi.ch/",
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf"
+   ],
+   "notes": "Vadász- és sportlövő szaküzlet (SBV Festbüchsenmacher, AG).",
+   "origin": "new"
+  },
+  {
+   "name": "Büchel Waffen & Outdoor",
+   "company": "Büchel Waffen & Outdoor",
+   "domain": "buechelwaffen.ch",
+   "url": "https://buechelwaffen.ch/",
+   "addr": "Oberrieterstrasse 77, 9450 Altstätten",
+   "city": "Altstätten",
+   "canton": "SG",
+   "tel": null,
+   "hours": "K-P és Szo (pontos órák unknown), H zárva",
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://buechelwaffen.ch/",
+    "https://buechelwaffen.ch/waffen/"
+   ],
+   "notes": ">35 éve szaküzlet vadászoknak, lövészeknek, gyűjtőknek; sport- és gyűjtői fegyverek, tárak, 300 m-es ordonnanc-szerviz.",
+   "origin": "new"
+  },
+  {
+   "name": "Hediger Waffen",
+   "company": "Hediger Jagd- und Sportwaffen",
+   "domain": "hedigerwaffen.ch",
+   "url": "https://www.hedigerwaffen.ch/",
+   "addr": "Rorschacher Strasse 127, 9000 St. Gallen (más címtár: Wittenbach)",
+   "city": "St. Gallen",
+   "canton": "SG",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.hedigerwaffen.ch/",
+    "https://www.suche.ch/info/waffen/st.%20gallen/"
+   ],
+   "notes": "Cím ellentmondásos (St. Gallen vs. 9300 Wittenbach).",
+   "origin": "new"
+  },
+  {
+   "name": "Spielmann & Partner",
+   "company": "Spielmann & Partner AG",
+   "domain": null,
+   "url": null,
+   "addr": "Biltenerstrasse 35, 8718 Schänis",
+   "city": "Schänis",
+   "canton": "SG",
+   "tel": null,
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf"
+   ],
+   "notes": "SBV Festbüchsenmacher-lista (SG). Weboldal/bolt-jelleg nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "Fuhrer Industries",
+   "company": "Fuhrer Industries",
+   "domain": "fuhrerindustries.ch",
+   "url": "https://fuhrerindustries.ch/",
+   "addr": "Im Rötler 1, 8583 Donzhausen",
+   "city": "Donzhausen (Sulgen)",
+   "canton": "TG",
+   "tel": "+41 78 608 35 98",
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "SBV kiskereskedelmi címlista.",
+   "origin": "new"
+  },
+  {
+   "name": "Kesselring Freizeit und Natur",
+   "company": "Freizeit und Natur E. Kesselring AG",
+   "domain": null,
+   "url": null,
+   "addr": "Bahnhofstrasse 56, 8500 Frauenfeld",
+   "city": "Frauenfeld",
+   "canton": "TG",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "SBV kiskereskedelmi címlista; vadászat/outdoor.",
+   "origin": "new"
+  },
+  {
+   "name": "Rüegg Waffen",
+   "company": "Rüegg Waffen Optik u. Feinmechanik",
+   "domain": "rueggwaffen.ch",
+   "url": "https://rueggwaffen.ch/",
+   "addr": "Herrenstrasse 64, 8762 Schwanden",
+   "city": "Schwanden (Glarus Süd)",
+   "canton": "GL",
+   "tel": null,
+   "hours": "H zárva (többi unknown)",
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://rueggwaffen.ch/",
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf"
+   ],
+   "notes": "Vadász- és sportfegyver, optika, gravírozás, műhely.",
+   "origin": "new"
+  },
+  {
+   "name": "Wichser Waffen",
+   "company": "Wichser Waffen AG",
+   "domain": null,
+   "url": null,
+   "addr": "Rathausgasse 25, 8750 Glarus",
+   "city": "Glarus",
+   "canton": "GL",
+   "tel": "+41 55 640 16 23",
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.oeffnungszeitenbuch.de/filiale/Glarus-Wichser%2520Waffen%2520AG-3441428J.html"
+   ],
+   "notes": "Csak régi címtár-bejegyzés – működése bizonytalan.",
+   "origin": "new"
+  },
+  {
+   "name": "Angerer Waffen",
+   "company": "Beat Angerer Büchsenmacherei GmbH",
+   "domain": "angerer-waffen.ch",
+   "url": "https://angerer-waffen.ch/",
+   "addr": "Mattastrasse 11, 7270 Davos Platz",
+   "city": "Davos",
+   "canton": "GR",
+   "tel": "+41 81 413 37 45",
+   "hours": "K-P 09:00-12:00, 14:00-18:00; Szo 09:00-12:00",
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://angerer-waffen.ch/",
+    "https://www.local.ch/de/q/graubuenden-kanton/waffen-und-munition"
+   ],
+   "notes": "Fegyver, lőszer, vadászfelszerelés, lőtér, javítás saját büchsenmacherekkel, képzőközpont.",
+   "origin": "new"
+  },
+  {
+   "name": "Vasella",
+   "company": "Vasella AG",
+   "domain": "vasella-chur.ch",
+   "url": "https://www.vasella-chur.ch/shop/waffen",
+   "addr": "Grabenstrasse 15, 7000 Chur",
+   "city": "Chur",
+   "canton": "GR",
+   "tel": "+41 81 252 17 29",
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.vasella-chur.ch/shop/waffen",
+    "https://www.sbv-asa.ch/wg.html"
+   ],
+   "notes": "'Waffen & Jagd' shop-rész; SBV-tag. Online árak nem ellenőrzöttek.",
+   "origin": "new"
+  },
+  {
+   "name": "Waffen Koller",
+   "company": "Waffen Koller",
+   "domain": "waffenkoller.ch",
+   "url": "https://waffenkoller.ch/",
+   "addr": "Via Nouva 13, 7505 Celerina",
+   "city": "Celerina",
+   "canton": "GR",
+   "tel": "+41 81 832 19 81",
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "SBV kiskereskedelmi címlista (Engadin).",
+   "origin": "new"
+  },
+  {
+   "name": "Marti Waffen",
+   "company": "Marti Waffen AG",
+   "domain": null,
+   "url": null,
+   "addr": "Oberdorfstrasse 4, 6340 Baar",
+   "city": "Baar",
+   "canton": "ZG",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://us.kompass.com/c/marti-waffen-ag/ch308934/",
+    "https://waffenforum.ch/forum/index.php?thread%2F2898-empfehlung-waffengesch%C3%A4ft-grossregion-z%C3%BCrich%2F="
+   ],
+   "notes": "Sport- és vadászfegyver, lőszer, kés; nagy kaliberű kézifegyverek/mesterlövész-puskák szakmunkái (Kompass). Domain talán waffenmarti.ch – nem megerősített.",
+   "origin": "new"
+  },
+  {
+   "name": "Wyss Waffen (WWB AG)",
+   "company": "WWB AG",
+   "domain": "wysswaffen.ch",
+   "url": "https://wysswaffen.ch/",
+   "addr": "Kirchbergstrasse 186A, 3400 Burgdorf",
+   "city": "Burgdorf",
+   "canton": "BE",
+   "tel": "+41 34 422 20 51",
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://wysswaffen.ch/store",
+    "https://www.sbv-asa.ch/gs.html",
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf"
+   ],
+   "notes": "SBV-tag és nagykereskedő; a 'store' oldalon nyitvatartás és megközelítés. A telefonszám az SBV-titkárságé is (azonos cím) – ellenőrizendő.",
+   "origin": "new"
+  },
+  {
+   "name": "Büchsenmacherei Zurbriggen",
+   "company": "Büchsenmacherei Zurbriggen GmbH",
+   "domain": "buechsenmacherei-zurbriggen.ch",
+   "url": "https://buechsenmacherei-zurbriggen.ch/",
+   "addr": "Altelsweg 6, Uetendorf",
+   "city": "Uetendorf",
+   "canton": "BE",
+   "tel": "+41 33 345 24 24",
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "SBV kiskereskedelmi címlista.",
+   "origin": "new"
+  },
+  {
+   "name": "Waffenhaus Schneider",
+   "company": "Waffenhaus Schneider AG",
+   "domain": "waffenhaus-schneider.ch",
+   "url": "https://www.waffenhaus-schneider.ch/",
+   "addr": "Dorfplatz 12, 3114 Wichtrach",
+   "city": "Wichtrach",
+   "canton": "BE",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://onlineinfo.ch/firma/waffenhaus-schneider-ag---che-155-405-861/pdf",
+    "https://www.waffenhaus-schneider.ch/buechsenmacherei/"
+   ],
+   "notes": "Cégcél: vadász- és sportfegyver, lőszer, tartozék kereskedelme + büchsenmacher-műhely.",
+   "origin": "new"
+  },
+  {
+   "name": "Poyet AG",
+   "company": "Poyet AG",
+   "domain": null,
+   "url": "https://www.local.ch/en/d/liebefeld/3097/weapons-and-munitions/poyet-ag-S_mmTGddkw4cKoCfCRCBVg",
+   "addr": null,
+   "city": "Liebefeld (Köniz)",
+   "canton": "BE",
+   "tel": null,
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.local.ch/en/d/liebefeld/3097/weapons-and-munitions/poyet-ag-S_mmTGddkw4cKoCfCRCBVg"
+   ],
+   "notes": "Csak a local.ch 'weapons-and-munitions' kategóriás URL-je ismert; részletek nem derültek ki.",
+   "origin": "new"
+  },
+  {
+   "name": "CT Centre-Tir",
+   "company": "CT Centre-Tir Sàrl",
+   "domain": "centre-tir.ch",
+   "url": "https://centre-tir.ch/",
+   "addr": "Route de Lausanne 23, 1400 Yverdon-les-Bains",
+   "city": "Yverdon-les-Bains",
+   "canton": "VD",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "SBV kiskereskedelmi címlista.",
+   "origin": "new"
+  },
+  {
+   "name": "Shooting Range.45",
+   "company": "unknown",
+   "domain": "stand-de-tir.ch",
+   "url": "http://www.stand-de-tir.ch/",
+   "addr": null,
+   "city": "Corminboeuf",
+   "canton": "FR",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "http://www.stand-de-tir.ch/",
+    "https://www.local.ch/fr/q/fribourg-canton/armurerie"
+   ],
+   "notes": "Beltéri lőtér saját armurerie-bolttal (pisztolyok, hosszú fegyverek, tartozékok), autópálya-kijárat Fribourg-Centre. Utcacím nem derült ki.",
+   "origin": "new"
+  },
+  {
+   "name": "Tactical-Armes",
+   "company": "Tactical-Armes",
+   "domain": "tactical-armes.ch",
+   "url": "https://www.tactical-armes.ch/",
+   "addr": "Route de Bâle 16, 2800 Delémont",
+   "city": "Delémont",
+   "canton": "JU",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.tactical-armes.ch/"
+   ],
+   "notes": "Fegyver, lőszer, tartozék eladás; használt fegyvert is vásárol. Az egyetlen talált jurai bolt.",
+   "origin": "new"
+  },
+  {
+   "name": "Swiss Gun Center (SGC)",
+   "company": "Swiss Gun Center",
+   "domain": "sgc-ge.ch",
+   "url": "https://www.sgc-ge.ch/fr",
+   "addr": "La Voie-Creuse 16, 1202 Genève",
+   "city": "Genève",
+   "canton": "GE",
+   "tel": "+41 22 740 00 01",
+   "hours": "H-P 11:00-19:30, Szo 09:00-17:00",
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sgc-ge.ch/fr",
+    "https://www.loisirs.ch/activite/stand-de-tir-et-formations-a-geneve/"
+   ],
+   "notes": "Lőtér + armurerie + shop + dojo (2019 óta). Partner: Armurerie Richert (Rainier Arms romand importőr).",
+   "origin": "new"
+  },
+  {
+   "name": "Kohli Florian (armurier)",
+   "company": "Kohli Florian",
+   "domain": null,
+   "url": null,
+   "addr": "Case postale 147, 1211 Genève 13",
+   "city": "Genève",
+   "canton": "GE",
+   "tel": null,
+   "hours": null,
+   "kind": "unknown",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "SBV kiskereskedelmi címlista – csak postafiók; bolt-jelleg ismeretlen.",
+   "origin": "new"
+  },
+  {
+   "name": "The Gun Room",
+   "company": "The Gun Room",
+   "domain": "thegunroom.ch",
+   "url": "https://thegunroom.ch/",
+   "addr": "Route de la Drague 35, 1950 Sion",
+   "city": "Sion",
+   "canton": "VS",
+   "tel": "+41 27 322 37 08",
+   "hours": "K-P délután, Szo délelőtt; V-H zárva",
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.yellowpages.net/fr/phone,41-273223708,Armurerie,Sion,IT463163.html",
+    "https://switzerland.worldplaces.me/review/88780861-the-gun-room.html",
+    "https://www.outdoor-enterprise.ch/Karte"
+   ],
+   "notes": "Csak harmadik feles címtárakból. 2026 júniusában egy Route de la Drague-i sioni fegyverboltot (sajtó szerint Dayer Armes) robbantással kiraboltak – a fegyvereket visszaszerezték.",
+   "origin": "new"
+  },
+  {
+   "name": "Ambrosini Lugano",
+   "company": "Ambrosini Lugano Sagl",
+   "domain": "ambrosini-lugano.ch",
+   "url": "https://ambrosini-lugano.ch/",
+   "addr": "Via Francesco Soave 4, 6900 Lugano",
+   "city": "Lugano",
+   "canton": "TI",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://ambrosini-lugano.ch/",
+    "https://www.sbv-asa.ch/ad.html"
+   ],
+   "notes": "Fegyver, lőszer, optika, késáru.",
+   "origin": "new"
+  },
+  {
+   "name": "Bertarmi",
+   "company": "Bertarmi",
+   "domain": null,
+   "url": null,
+   "addr": "Via San Materno 32, 6616 Losone",
+   "city": "Losone",
+   "canton": "TI",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": true,
+   "sources": [
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf",
+    "https://www.local.ch/it/q/locarnese-e-vallemaggia-regione/armi-e-munizioni"
+   ],
+   "notes": "SBV Festbüchsenmacher (TI).",
+   "origin": "new"
+  },
+  {
+   "name": "Colombo caccia e pesca",
+   "company": "Colombo Sagl",
+   "domain": null,
+   "url": null,
+   "addr": "Via Dogana 10, 6500 Bellinzona",
+   "city": "Bellinzona",
+   "canton": "TI",
+   "tel": null,
+   "hours": null,
+   "kind": "store",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": "unknown",
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.local.ch/it/q/ticino-cantone/armi-e-munizioni"
+   ],
+   "notes": "local.ch 'armi e munizioni' kategória; vadász-horgász bolt.",
+   "origin": "new"
+  },
+  {
+   "name": "Armeria Guns Tech",
+   "company": "Armeria Guns Tech SA",
+   "domain": "gunstech.ch",
+   "url": "https://www.gunstech.ch/",
+   "addr": null,
+   "city": "Tenero",
+   "canton": "TI",
+   "tel": null,
+   "hours": null,
+   "kind": "both",
+   "sells_ar15_accessories": "unknown",
+   "online_prices": true,
+   "ships": "unknown",
+   "brands": [],
+   "verified": false,
+   "sources": [
+    "https://www.gunstech.ch/catalog/index.php?filter_id=189&manufacturers_id=29&sort=2a"
+   ],
+   "notes": "Fegyver- és tartozék import/export, online katalógus CHF-árakkal (optika/szerelék), de a katalógus elavultnak tűnik (© 2019).",
+   "origin": "new"
+  }
+ ],
+ "existing_updates": [
+  {
+   "name": "Armamat (már lefedett)",
+   "update": "Üzemeltető: TM Trading GmbH, Gewerbestrasse 6, 6330 Cham ZG (tmt.ch); ugyanez a cég üzemelteti a Gunzone légfegyver-shopot.",
+   "sources": [
+    "https://www.tmt.ch/de/",
+    "https://tel.search.ch/cham/gewerbestrasse-6/tm-trading-gmbh-2",
+    "https://www.sbv-asa.ch/ad.html"
+   ]
+  },
+  {
+   "name": "Indoor Swiss Shooting (ch_shops.json)",
+   "update": "Hely: Gossau SG (keresési összefoglaló szerint); csomagszállítás CHF 9.90-től.",
+   "sources": [
+    "https://shop.indoorswiss.ch/fr/529_holosun"
+   ]
+  },
+  {
+   "name": "MAS Dayer Sàrl / Dayer Armes (ch_shops.json)",
+   "update": "SBV-lista: Dayer Armes SA, Rue de la Drague 41, Sion VS, tel. 027 203 32 91, domain dayer-armes.ch.",
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ]
+  },
+  {
+   "name": "Armurerie Richert (ch_shops.json)",
+   "update": "SBV-lista: Richert & Associés SNC, Rue de la Tillette 1, Bière VD, armuriers.ch (a ch_shops.json Onex GE-t ír – ellenőrizendő, lehet két telephely).",
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ]
+  },
+  {
+   "name": "Armurerie Les Dix (ch_shops.json)",
+   "update": "SBV-lista: Armurerie Les Dix SA, Route de l'industrie 54, Sion VS, tel. 027 203 60 07.",
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ]
+  },
+  {
+   "name": "Gun Factory (ch_shops.json)",
+   "update": "gunfactory.ch elérhető a proxyn; régi stílusú statikus árlisták (pl. SETS AR15 torkolatfék CHF 228).",
+   "sources": [
+    "https://www.gunfactory.ch/langwaf/colt_flashhider.htm"
+   ]
+  },
+  {
+   "name": "Waffenbörse / NaturAktiv (ch_shops.json)",
+   "update": "SBV Festbüchsenmacher: NaturAktiv AG, Riedäckerstrasse 9, 8422 Pfungen.",
+   "sources": [
+    "https://www.sbv-asa.ch/dk/Adressliste_Festbuechsenmacher.pdf"
+   ]
+  },
+  {
+   "name": "Waffen Pauli (ch_shops.json)",
+   "update": "SBV: Waffen Pauli AG, Rennweg 2, 5606 Dintikon, tel. 062 822 33 46.",
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html"
+   ]
+  },
+  {
+   "name": "TacStore (ch_shops.json)",
+   "update": "Üzemeltető: Euschen Trading GmbH, Dietikon ZH; ingyenes szállítás CHF 199 felett.",
+   "sources": [
+    "https://www.tacstore.ch/en/aimpoint"
+   ]
+  },
+  {
+   "name": "B&T AG (ch_shops.json)",
+   "update": "SBV: Tempelstrasse 6, 3608 Thun, tel. 033 334 67 00; civil webshop: webshop.bt-ag.ch (Aimpoint, Trijicon, SureFire CHF-ben).",
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html",
+    "https://webshop.bt-ag.ch/collections/aimpoint"
+   ]
+  }
+ ],
+ "leads_unverified": [
+  {
+   "name": "Armurerie Stucki Sàrl",
+   "note": "SBV-tag (név szerepel a wg.html listán), hely nem derült ki",
+   "sources": [
+    "https://www.sbv-asa.ch/wg.html"
+   ]
+  },
+  {
+   "name": "A.N.S.R. SA",
+   "note": "SBV-tag, hely nem derült ki",
+   "sources": [
+    "https://www.sbv-asa.ch/wg.html"
+   ]
+  },
+  {
+   "name": "Pircher Waffen (Walchwil ZG)",
+   "note": "csak címtár-összefoglaló",
+   "sources": [
+    "https://firmania.ch/cham/waffen-und-munitionsh%C3%A4ndler"
+   ]
+  },
+  {
+   "name": "Unicorn Arms (Unterägeri ZG)",
+   "note": "csak címtár-összefoglaló",
+   "sources": [
+    "https://firmania.ch/cham/waffen-und-munitionsh%C3%A4ndler"
+   ]
+  },
+  {
+   "name": "GoBaster (Av. J.-J. Rousseau 7, 2000 Neuchâtel)",
+   "note": "régi cikk/annuaire, nem megerősített",
+   "sources": [
+    "https://lake-lucern.over-blog.com/armurerie-neuchatel.html"
+   ]
+  },
+  {
+   "name": "Armurerie Dubois (Le Locle NE), Pol Gun (La Coudre NE)",
+   "note": "csak régi fórum-említés",
+   "sources": [
+    "https://www.tircollection.com/t5979p25-acheter-une-arme-en-suisse"
+   ]
+  },
+  {
+   "name": "Ambrosini Mauro (Muralto TI), Pura Fabio (Gordola TI)",
+   "note": "local.ch összesítő snippet",
+   "sources": [
+    "https://www.local.ch/it/q/ticino-cantone/armi-e-munizioni"
+   ]
+  },
+  {
+   "name": "Bossart Sport (Wil SG)",
+   "note": "címtár-bejegyzés, részletek nélkül",
+   "sources": [
+    "https://www.suche.ch/info/waffen/st.%20gallen/"
+   ]
+  },
+  {
+   "name": "Galliker Waffen & Security (Kirchfeldweg 15, Oberentfelden AG)",
+   "note": "csak cégjegyzék, egyéni cég",
+   "sources": [
+    "https://onlineinfo.ch/firma/galliker-waffen-security---che-113-156-830/pdf"
+   ]
+  },
+  {
+   "name": "fps fraenzel progressive solutions",
+   "note": "cégcél: fegyver-, lőszer-, tartozék-kereskedelem; hely nem derült ki",
+   "sources": [
+    "https://onlineinfo.ch/company/fps-fraenzel-progressive-solutions---che-301-330-306"
+   ]
+  },
+  {
+   "name": "militaershop.ch, techstudio.ch",
+   "note": "Toppreise.ch Holosun-összehasonlításban szerepelnek; nem ellenőrzött",
+   "sources": [
+    "https://www.toppreise.ch/browse?q=holosun"
+   ]
+  },
+  {
+   "name": "jagdundsport.store",
+   "note": "céltávcső-shop, ország/üzemeltető nem derült ki",
+   "sources": [
+    "https://www.jagdundsport.store/optik/klassische-optik/zielfernrohre/"
+   ]
+  },
+  {
+   "name": "Teljes listák forrása (nem letölthető most)",
+   "note": "SBV kiskereskedelmi címlista (Stand 10/2026), SBV tag-lista kanton-szűrővel, Outdoor Enterprise kereskedőtérkép, waffenforum.ch 'Liste Schweizer Shops', gun-forum.de 'Waffenhändler Schweiz A-Z', TG kantoni engedélyes kereskedőlista, sigsauer.swiss dealer-search, acheron.ch/haendler – ezek allow-listázása után a lista jelentősen bővíthető.",
+   "sources": [
+    "https://www.sbv-asa.ch/ad.html",
+    "https://www.sbv-asa.ch/wg.html",
+    "https://www.outdoor-enterprise.ch/Karte",
+    "https://waffenforum.ch/forum/index.php?thread%2F565-liste-schweizer-shops%2F=&pageNo=32",
+    "https://waffenforum.gun-forum.de/forum/thread/70957-waffenh%C3%A4ndler-schweiz-a-z/",
+    "https://www.sigsauer.swiss/en/dealer-search.php",
+    "https://acheron.ch/haendler/"
+   ]
+  }
+ ],
+ "hosts_to_allow": [
+  "aa-store.ch",
+  "aats-group.ch",
+  "aats-shop.ch",
+  "ambrosini-lugano.ch",
+  "angerer-waffen.ch",
+  "armtec.ch",
+  "armuriers.ch",
+  "army-shop.ch",
+  "beierer.ch",
+  "bpshop.ch",
+  "brownells.ch",
+  "buechelwaffen.ch",
+  "buechsenmacherei-zurbriggen.ch",
+  "casarmi.ch",
+  "centre-tir.ch",
+  "dangos.ch",
+  "dayer-armes.ch",
+  "dhnetwork.ch",
+  "dynamikarms.ch",
+  "fuhrerindustries.ch",
+  "gbtactical.ch",
+  "glaserwaffen.ch",
+  "gruenel.ch",
+  "gun-art.ch",
+  "gunshop-schweiz.ch",
+  "gunshopschweiz.ch",
+  "gunstech.ch",
+  "hedigerwaffen.ch",
+  "kesslerauktionen.ch",
+  "lagardere.ch",
+  "lakeside-shooting.ch",
+  "navara-handel.ch",
+  "per-tec-trade.ch",
+  "polizeibedarf.ch",
+  "proforce.ch",
+  "rochcustom.com",
+  "rueggwaffen.ch",
+  "sgc-ge.ch",
+  "shop.aats-group.ch",
+  "shop.kesslerauktionen.ch",
+  "shop.swiss-shooting-armory.ch",
+  "shop.vogtwaffen.ch",
+  "shop.waffen-grischun.ch",
+  "softgun.ch",
+  "swissordnance.com",
+  "swisssafety.com",
+  "tactical-armes.ch",
+  "taczone.ch",
+  "thegunroom.ch",
+  "tmt.ch",
+  "topguns.ch",
+  "trooper.ch",
+  "ulrich-waffen.ch",
+  "vasella-chur.ch",
+  "waffen-froelicher.ch",
+  "waffen-ingold.ch",
+  "waffen-joray.ch",
+  "waffenbuerchler.ch",
+  "waffenglauser.ch",
+  "waffenhaus-schneider.ch",
+  "waffenkoller.ch",
+  "waffennoser.ch",
+  "waffenwildi.ch",
+  "www.aa-store.ch",
+  "www.aats-group.ch",
+  "www.aats-shop.ch",
+  "www.ambrosini-lugano.ch",
+  "www.angerer-waffen.ch",
+  "www.armtec.ch",
+  "www.armuriers.ch",
+  "www.army-shop.ch",
+  "www.beierer.ch",
+  "www.bpshop.ch",
+  "www.brownells.ch",
+  "www.buechelwaffen.ch",
+  "www.buechsenmacherei-zurbriggen.ch",
+  "www.casarmi.ch",
+  "www.centre-tir.ch",
+  "www.dangos.ch",
+  "www.dayer-armes.ch",
+  "www.dhnetwork.ch",
+  "www.dynamikarms.ch",
+  "www.fuhrerindustries.ch",
+  "www.gbtactical.ch",
+  "www.glaserwaffen.ch",
+  "www.gruenel.ch",
+  "www.gun-art.ch",
+  "www.gunshop-schweiz.ch",
+  "www.gunshopschweiz.ch",
+  "www.gunstech.ch",
+  "www.hedigerwaffen.ch",
+  "www.kesslerauktionen.ch",
+  "www.lagardere.ch",
+  "www.lakeside-shooting.ch",
+  "www.navara-handel.ch",
+  "www.per-tec-trade.ch",
+  "www.polizeibedarf.ch",
+  "www.proforce.ch",
+  "www.rochcustom.com",
+  "www.rueggwaffen.ch",
+  "www.sgc-ge.ch",
+  "www.softgun.ch",
+  "www.swissordnance.com",
+  "www.swisssafety.com",
+  "www.tactical-armes.ch",
+  "www.taczone.ch",
+  "www.thegunroom.ch",
+  "www.tmt.ch",
+  "www.topguns.ch",
+  "www.trooper.ch",
+  "www.ulrich-waffen.ch",
+  "www.vasella-chur.ch",
+  "www.waffen-froelicher.ch",
+  "www.waffen-ingold.ch",
+  "www.waffen-joray.ch",
+  "www.waffenbuerchler.ch",
+  "www.waffenglauser.ch",
+  "www.waffenhaus-schneider.ch",
+  "www.waffenkoller.ch",
+  "www.waffennoser.ch",
+  "www.waffenwildi.ch",
+  "www.wyssendefence.com",
+  "www.wysswaffen.ch",
+  "www.zandertactical.com",
+  "wyssendefence.com",
+  "wysswaffen.ch",
+  "zandertactical.com"
+ ],
+ "hosts_reachable_now": [
+  "vogtwaffen.ch",
+  "www.vogtwaffen.ch",
+  "munitionsdepot.ch",
+  "www.munitionsdepot.ch",
+  "gunfactory.ch",
+  "www.gunfactory.ch"
+ ],
+ "hosts_bot_protected": [
+  {
+   "host": "stampfli-waffen.ch",
+   "note": "proxy átengedi, a szerver HTTP 403-at ad – nem kerültem meg"
+  },
+  {
+   "host": "m426.ch",
+   "note": "proxy átengedi, a szerver HTTP 403-at ad – nem kerültem meg"
+  },
+  {
+   "host": "swisswaffen.com",
+   "note": "proxy átengedi, de egyetlen kérésre '403 You are banned from using this site' válasz jött – NE használjuk automatikusan (a ch_shops.json aggregátor-javaslata így nem járható)"
+  }
+ ],
+ "hosts_directories_recommended": [
+  "sbv-asa.ch",
+  "www.sbv-asa.ch",
+  "www.outdoor-enterprise.ch",
+  "outdoor-enterprise.ch",
+  "www.local.ch",
+  "search.ch",
+  "tel.search.ch",
+  "onlineinfo.ch",
+  "www.zefix.ch"
+ ],
+ "excluded": [
+  {
+   "name": "Black Trident (blacktrident.com/de-ch)",
+   "reason": "Osztrák cég (CH-lokalizált webshop), nem svájci bolt."
+  },
+  {
+   "name": "SIG Sauer AG (Neuhausen am Rheinfall SH)",
+   "reason": "Gyártó, nem kiskereskedelmi bolt (SBV-listán Festbüchsenmacherként szerepel)."
+  },
+  {
+   "name": "Outdoor Enterprise SA (Viale Cattori 6, Lugano)",
+   "reason": "Importőr/nagykereskedő (Beretta, Benelli, Sako, Tikka stb.), nem bolt; kereskedőtérképe forrásként hasznos."
+  },
+  {
+   "name": "TM Trading GmbH / Gunzone (Cham)",
+   "reason": "A már lefedett Armamat üzemeltetője; Gunzone légfegyver-bolt."
+  },
+  {
+   "name": "Swiss Shooting Range AG (Spreitenbach)",
+   "reason": "Lőtér (bérfegyverek), bolt-jelleg nem igazolt (lehetséges kapcsolat: Swiss Shooting Armory shop – külön bejegyzésben)."
+  },
+  {
+   "name": "Brünig Indoor Schiesssport-Zentrum (Lungern)",
+   "reason": "Lőtér, nem bolt."
+  },
+  {
+   "name": "waffenplatz.ch, gebrauchtwaffen-schweiz.ch, gebrauchtwaffen.com, ricardo.ch, ebay.ch, gunfinder.ch, toppreise.ch, waffenboerse24.ch",
+   "reason": "Piactér / árösszehasonlító / címtár, nem bolt."
+  },
+  {
+   "name": "munition.ch",
+   "reason": "Csak lőszer (első rendelésnél dokumentumfeltöltés, csak CH-ba szállít) – AR-15 tartozék nem."
+  },
+  {
+   "name": "sanitaet24.ch / politas.ch",
+   "reason": "Egészségügyi/hatósági ellátó; csak SureFire keresőlámpa, nem releváns."
+  },
+  {
+   "name": "meister-messer.ch",
+   "reason": "Késbolt néhány vadász-céltávcsővel; nem fegyverbolt."
+  },
+  {
+   "name": "Gotcha GmbH (St. Gallen)",
+   "reason": "Airsoft/paintball bolt."
+  },
+  {
+   "name": "Wydler SA (Courrendlin JU)",
+   "reason": "Munkaruha-cég, nem fegyverbolt (az Outdoor Enterprise-lista tévesen sugallta)."
+  },
+  {
+   "name": "Elsener Messerschmied AG (Rapperswil)",
+   "reason": "Késgyártó."
+  },
+  {
+   "name": "Armurerie du Pont-Muré / Antiquaire du Tilleul (Fribourg)",
+   "reason": "Antikvárium, nem modern fegyverbolt (nem megerősített)."
+  },
+  {
+   "name": "MGX GmbH (Unterengstringen)",
+   "reason": "Fegyverkereskedéssel való kapcsolat nem igazolható – a shops listában verified:false-szal benne hagyva, törlése javasolt."
+  }
+ ],
+ "counts": {
+  "recheck_total": 18,
+  "recheck_verified": 15,
+  "new_total": 64,
+  "new_verified": 27,
+  "new_online_or_both_with_prices": 23,
+  "new_ar15_accessories_true": 21,
+  "new_by_canton": {
+   "AG": 3,
+   "BE": 5,
+   "BL": 3,
+   "BS": 2,
+   "FR": 1,
+   "GE": 4,
+   "GL": 2,
+   "GR": 4,
+   "JU": 1,
+   "LU": 1,
+   "NE": 1,
+   "SG": 4,
+   "SO": 1,
+   "TG": 3,
+   "TI": 5,
+   "VD": 1,
+   "VS": 1,
+   "ZG": 3,
+   "ZH": 6,
+   "unknown": 13
+  },
+  "hosts_to_allow": 127
+ }
+}

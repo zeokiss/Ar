@@ -23,6 +23,9 @@ OUT = os.path.join(ROOT, 'assets', 'shops.json')
 
 KEEP = {'thoron.ch', 'schiessstand.ch', 'shooting-store.ch', 'armamat.ch'}   # kézzel ellenőrzött, nem írjuk felül
 BLOCKED = 'A bolt oldala botvédelmet használ, automatikusan nem kérdezhető le; az árakat a bolt oldalán kell megnézni.'
+# a kutatás szerint nem fegyverbolt / megszűnőben van: nem kerül a katalógusba
+EXCLUDE = {'MGX GmbH', 'Beierer Waffen', 'beierer.ch', 'Action Sport (indoor lőtér)', 'Armurerie Gilles',
+           "MAS Dayer Sàrl / 'Dayer Armes'"}
 KINDS = {'online', 'store', 'both'}
 CANTONS = {'AG', 'AI', 'AR', 'BE', 'BL', 'BS', 'FR', 'GE', 'GL', 'GR', 'JU', 'LU', 'NE', 'NW', 'OW', 'SG', 'SH',
            'SO', 'SZ', 'TG', 'TI', 'UR', 'VD', 'VS', 'ZG', 'ZH'}
@@ -85,6 +88,23 @@ def rec_of(s, verified_default=True):
     return out
 
 
+def nname(v):
+    v = re.sub(r'[^a-z0-9]', '', (v or '').lower())
+    return re.sub(r'(ag|gmbh|sarl|sa|shop|waffen|schweiz)+$', '', v) or v
+
+
+def same_shop(rec, shops):
+    """Webcím nélküli találat ne duplázzon egy már (domainnel) szereplő boltot."""
+    mine = {nname(rec.get(f)) for f in ('name', 'display') if rec.get(f)} - {''}
+    for o in shops.values():
+        theirs = {nname(o.get(f)) for f in ('name', 'display') if o.get(f)} - {''}
+        for a in mine:
+            for b in theirs:
+                if a == b or (min(len(a), len(b)) >= 6 and (a in b or b in a)):
+                    return True
+    return False
+
+
 def main():
     cur = json.load(open(OUT, encoding='utf-8'))
     shops = {k: v for k, v in cur['shops'].items() if k in KEEP}
@@ -111,8 +131,13 @@ def main():
     if os.path.exists(ex):
         for s in json.load(open(ex, encoding='utf-8')).get('shops', []):
             k = key_of(s.get('domain') or s.get('url'), s.get('name') or s.get('company'))
-            if k not in shops:
-                shops[k] = rec_of(s, verified_default=False)
+            if k in shops:
+                continue
+            r = rec_of(s, verified_default=False)
+            if k == r.get('display') or k == r.get('name') or not re.search(r'\.', k):
+                if same_shop(r, shops):
+                    continue
+            shops[k] = r
 
     # 4. első felderítés (ami még nincs benne)
     for s in json.load(open(os.path.join(RES, 'ch_shops.json'), encoding='utf-8'))['shops']:
@@ -120,6 +145,8 @@ def main():
         if k in shops:
             continue
         r = rec_of(s, verified_default=False)
+        if same_shop(r, shops):
+            continue
         if r['kind'] is None:
             r['kind'] = ('both' if s.get('in_store') is True else 'online') if s.get('online_prices') is True else \
                         ('store' if s.get('in_store') is True else None)
@@ -132,6 +159,8 @@ def main():
         if k in shops and not shops[k].get('noPriceReason'):
             shops[k]['noPriceReason'] = BLOCKED
 
+    for k in [k for k, v in shops.items() if k in EXCLUDE or v.get('display') in EXCLUDE or v.get('name') in EXCLUDE]:
+        del shops[k]
     for v in shops.values():
         for f in [f for f, x in v.items() if x is None or x == []]:
             del v[f]
