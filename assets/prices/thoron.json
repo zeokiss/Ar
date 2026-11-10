@@ -1,0 +1,2415 @@
+{
+ "shop": "thoron.ch",
+ "currency": "CHF",
+ "fetched": "2026-11-10",
+ "note": "Fogyasztói árak, ÁFÁ-val (inkl. MWST), a bolt termékoldaláról kiolvasva. in_stock=true csak a \"Verfügbar\" (InStock) státusznál; a \"Beim Lieferanten bestellbar\" rendelhető, de nincs raktáron.",
+ "items": {
+  "schm-s4f": {
+   "title": "AR15 S4F M-Lock | 10.5\"",
+   "subtitle": ".223 Rem.",
+   "price_chf": 2325.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ar15-s4f-m-lock-105",
+   "image": "https://www.thoron.ch/resources/7009342_474267.jpeg",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": null,
+   "brand": "Schmeisser",
+   "sku": "7009342",
+   "note": "Bolti név: AR15 S4F M-Lock 10.5\" (.223 Rem.)"
+  },
+  "dd-v7": {
+   "title": "DDM4 V7 | 16\"",
+   "subtitle": "5.56mm Nato",
+   "price_chf": 2450.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16",
+   "image": "https://www.thoron.ch/resources/0212802081047_554848.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": null,
+   "brand": "Daniel Defense",
+   "sku": "02-128-02081-047",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "5.56mm Nato | Schwarz",
+     "price_chf": 2450.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16"
+    },
+    {
+     "color": "rattlecan",
+     "sub": "5.56mm Nato | Rattlecan",
+     "price_chf": 2700.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16--170"
+    },
+    {
+     "color": "milspec-plus",
+     "sub": "5.56mm Nato | MIL SPEC +",
+     "price_chf": 2700.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16--171"
+    },
+    {
+     "color": "cobalt",
+     "sub": "5.56mm Nato | Cobalt",
+     "price_chf": 2700.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16--173"
+    },
+    {
+     "color": "fde",
+     "sub": "5.56mm NATO | FDE",
+     "price_chf": 2700.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16--174"
+    },
+    {
+     "color": "tornado",
+     "sub": "5.56mm Nato | Tornado",
+     "price_chf": 2850.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16--178"
+    },
+    {
+     "color": "deep-woods",
+     "sub": "5.56mm Nato | DEEP WOODS",
+     "price_chf": 2700.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16--179"
+    }
+   ],
+   "colors_prices": {
+    "black": 2450.0,
+    "rattlecan": 2700.0,
+    "milspec-plus": 2700.0,
+    "cobalt": 2700.0,
+    "fde": 2700.0,
+    "tornado": 2850.0,
+    "deep-woods": 2700.0
+   }
+  },
+  "mp-moe": {
+   "title": "MOE Grip",
+   "subtitle": "AR15/M4",
+   "price_chf": 25.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-grip",
+   "image": "https://www.thoron.ch/resources/MAG415BLK_487788.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG415-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "AR15/M4 - Schwarz",
+     "price_chf": 25.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-grip"
+    },
+    {
+     "color": "mc-brown",
+     "sub": "AR15/M4 | MC-Brown",
+     "price_chf": 25.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-grip--45359212"
+    },
+    {
+     "color": "fde",
+     "sub": "AR15/M4 - FDE",
+     "price_chf": 25.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-grip--8643"
+    },
+    {
+     "color": "gray",
+     "sub": "AR15/M4 - Grau",
+     "price_chf": 25.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-grip--8644"
+    },
+    {
+     "color": "odg",
+     "sub": "AR15/M4 - OD-Green",
+     "price_chf": 25.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-grip--8645"
+    }
+   ]
+  },
+  "mp-moek2": {
+   "title": "MOE-K2 Grip",
+   "subtitle": "AR15/M4",
+   "price_chf": 25.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip",
+   "image": "https://www.thoron.ch/resources/MAG522BLK_487868.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG522-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "AR15/M4 | Schwarz",
+     "price_chf": 25.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip"
+    },
+    {
+     "color": "mc-brown",
+     "sub": "AR15/M4 | MC-Brown",
+     "price_chf": 25.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip--45359213"
+    },
+    {
+     "color": "fde",
+     "sub": "AR15/M4 | FDE",
+     "price_chf": 25.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip--8741"
+    },
+    {
+     "color": "gray",
+     "sub": "AR15/M4 | Grau",
+     "price_chf": 25.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip--8742"
+    },
+    {
+     "color": "odg",
+     "sub": "AR15/M4 | OD-Green",
+     "price_chf": 25.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip--8743"
+    }
+   ]
+  },
+  "mp-moek2p": {
+   "title": "MOE-K2+ Grip",
+   "subtitle": "AR15/M4",
+   "price_chf": 28.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip--8750",
+   "image": "https://www.thoron.ch/resources/MAG532BLK_487908.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG532-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "AR15/M4 - Schwarz",
+     "price_chf": 28.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip--8750"
+    },
+    {
+     "color": "fde",
+     "sub": "AR15/M4 - FDE",
+     "price_chf": 28.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip--8751"
+    },
+    {
+     "color": "gray",
+     "sub": "AR15/M4 - Grau",
+     "price_chf": 28.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip--8752"
+    },
+    {
+     "color": "odg",
+     "sub": "AR15/M4 - OD-Green",
+     "price_chf": 28.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/moe-k2-grip--8753"
+    }
+   ]
+  },
+  "mp-miad": {
+   "title": "MIAD GEN 1.1 Grip Kit",
+   "subtitle": "TYPE 1",
+   "price_chf": 46.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/miad-gen-11-grip-kit",
+   "image": "https://www.thoron.ch/resources/MAG520BLK_511898.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG520-BLK",
+   "note": "A boltban Type 1 és Type 2 kit is van (azonos ár).",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "TYPE 1 - Schwarz",
+     "price_chf": 46.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/miad-gen-11-grip-kit"
+    },
+    {
+     "color": "fde",
+     "sub": "TYPE 1 - FDE",
+     "price_chf": 46.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/miad-gen-11-grip-kit--8734"
+    },
+    {
+     "color": "odg",
+     "sub": "TYPE 1 - OD-Green",
+     "price_chf": 46.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-pistol-grips-pistolengriffe/miad-gen-11-grip-kit--8736"
+    }
+   ]
+  },
+  "mp-ctr": {
+   "title": "CTR Carbine Stock",
+   "subtitle": "Mil Spec",
+   "price_chf": 92.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ctr-carbine-stock",
+   "image": "https://www.thoron.ch/resources/MAG310BLK_485929.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG310-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Mil Spec - Schwarz",
+     "price_chf": 92.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ctr-carbine-stock"
+    },
+    {
+     "color": "mc-brown",
+     "sub": "Mil Spec | MC-Brown",
+     "price_chf": 92.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ctr-carbine-stock--45359210"
+    },
+    {
+     "color": "fde",
+     "sub": "Mil Spec - FDE",
+     "price_chf": 92.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ctr-carbine-stock--8603"
+    },
+    {
+     "color": "gray",
+     "sub": "Mil Spec - Grau",
+     "price_chf": 92.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ctr-carbine-stock--8604"
+    },
+    {
+     "color": "odg",
+     "sub": "Mil Spec - OD-Green",
+     "price_chf": 92.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ctr-carbine-stock--8605"
+    }
+   ]
+  },
+  "mp-moesl": {
+   "title": "MOE SL Carbine Stock",
+   "subtitle": "Mil Spec",
+   "price_chf": 92.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-carbine-stock",
+   "image": "https://www.thoron.ch/resources/MAG347BLK_492808.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG347-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Mil Spec | Schwarz",
+     "price_chf": 92.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-carbine-stock"
+    },
+    {
+     "color": "fde",
+     "sub": "Mil Spec | FDE",
+     "price_chf": 92.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-carbine-stock--8617"
+    },
+    {
+     "color": "gray",
+     "sub": "Mil Spec | Grau",
+     "price_chf": 92.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-carbine-stock--8618"
+    },
+    {
+     "color": "odg",
+     "sub": "Mil Spec | OD-Green",
+     "price_chf": 92.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-carbine-stock--8619"
+    }
+   ]
+  },
+  "mp-moeslk": {
+   "title": "MOE SL-K Carbine Stock",
+   "subtitle": "Mil Spec",
+   "price_chf": 66.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-k-carbine-stock",
+   "image": "https://www.thoron.ch/resources/MAG626BLK_492848.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG626-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Mil Spec - Schwarz",
+     "price_chf": 66.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-k-carbine-stock"
+    },
+    {
+     "color": "fde",
+     "sub": "Mil Spec - FDE",
+     "price_chf": 66.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-k-carbine-stock--8816"
+    },
+    {
+     "color": "odg",
+     "sub": "Mil Spec - OD-Green",
+     "price_chf": 66.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/moe-sl-k-carbine-stock--8818"
+    }
+   ]
+  },
+  "mp-ubr2": {
+   "title": "UBR GEN2 Collapsible Stock",
+   "subtitle": null,
+   "price_chf": 323.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ubr-gen2-collapsible-stock",
+   "image": "https://www.thoron.ch/resources/MAG482BLK_499109.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG482-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Schwarz",
+     "price_chf": 323.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ubr-gen2-collapsible-stock"
+    },
+    {
+     "color": "fde",
+     "sub": "FDE",
+     "price_chf": 323.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ubr-gen2-collapsible-stock--8686"
+    },
+    {
+     "color": "odg",
+     "sub": "OD-Green",
+     "price_chf": 323.9,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/ubr-gen2-collapsible-stock--8688"
+    }
+   ]
+  },
+  "mp-prs3": {
+   "title": "PRS GEN3 Precision-Adjustable Stock",
+   "subtitle": "Mil Spec &A5",
+   "price_chf": 344.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-gen3-precision-adjustable-stock",
+   "image": "https://www.thoron.ch/resources/MAG672BLK_499038.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG672-BLK",
+   "note": "Bolti név: PRS GEN3 Precision-Adjustable Stock",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Mil Spec &A5 - Schwarz",
+     "price_chf": 344.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-gen3-precision-adjustable-stock"
+    },
+    {
+     "color": "fde",
+     "sub": "Mil Spec &A5 - FDE",
+     "price_chf": 344.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-gen3-precision-adjustable-stock--8822"
+    },
+    {
+     "color": "gray",
+     "sub": "Mil Spec &A5 - Grau",
+     "price_chf": 344.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-gen3-precision-adjustable-stock--8823"
+    },
+    {
+     "color": "odg",
+     "sub": "Mil Spec &A5 - OD-Green",
+     "price_chf": 344.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-gen3-precision-adjustable-stock--8824"
+    }
+   ]
+  },
+  "mp-prslite": {
+   "title": "PRS Lite Stock",
+   "subtitle": null,
+   "price_chf": 172.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-lite-stock",
+   "image": "https://www.thoron.ch/resources/MAG1159BLK_499069.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG1159-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Schwarz",
+     "price_chf": 172.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-lite-stock"
+    },
+    {
+     "color": "fde",
+     "sub": "FDE",
+     "price_chf": 172.9,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-lite-stock--8455"
+    },
+    {
+     "color": "odg",
+     "sub": "OD-Green",
+     "price_chf": 172.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stocks-schaefte/prs-lite-stock--8456"
+    }
+   ]
+  },
+  "mp-pad030": {
+   "title": "Rubber Butt-Pad | 0.30\"",
+   "subtitle": null,
+   "price_chf": 22.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/rubber-butt-pad-030",
+   "image": "https://www.thoron.ch/resources/MAG315BLK_5081910.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG315-BLK"
+  },
+  "mp-pad055": {
+   "title": "Extended Rubber Butt-Pad | 0.55\"",
+   "subtitle": null,
+   "price_chf": 22.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/extended-rubber-butt-pad-055",
+   "image": "https://www.thoron.ch/resources/MAG316BLK_5082010.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG316-BLK"
+  },
+  "mp-pad070": {
+   "title": "Enhanced Rubber Butt-Pad | 0.70\"",
+   "subtitle": null,
+   "price_chf": 22.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/enhanced-rubber-butt-pad-070",
+   "image": "https://www.thoron.ch/resources/MAG317BLK_5082110.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG317-BLK"
+  },
+  "mp-padsl": {
+   "title": "MOE SL Enhanced Rubber Butt-Pad | 0.70\"",
+   "subtitle": null,
+   "price_chf": 22.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/stock-parts-schaftzubehoer/moe-sl-enhanced-rubber-butt-pad-070",
+   "image": "https://www.thoron.ch/resources/MAG349BLK_508559.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG349-BLK"
+  },
+  "ap-t2": {
+   "title": "Micro T-2 Schwarz | LRP Montage | 39 mm",
+   "subtitle": "2 MOA Rotpunkt | Linsenabdeckung geschlossen und transparent",
+   "price_chf": 1217.4,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/micro-t-2-schwarz-lrp-montage-39-mm",
+   "image": "https://www.thoron.ch/resources/AP200198_63959.png",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": "Höhe der optischen Achse 39 mm (1.5 in) gemessen von der Oberseite der Montageplattform",
+   "color": null,
+   "color_shop": null,
+   "brand": "Aimpoint",
+   "sku": "AP-200198",
+   "note": "Bolti kivitel: Micro T-2 LRP-quick-release montázzsal és 39 mm távtartóval."
+  },
+  "ap-m5": {
+   "title": "Comp M5",
+   "subtitle": "2 MOA",
+   "price_chf": 865.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/pistol-sights-visierungen/pistol-reflex-sights-red-dot/comp-m5",
+   "image": "https://www.thoron.ch/resources/AP200386_66212.jpeg",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Aimpoint",
+   "sku": "AP-200386",
+   "note": "A bolti leírás szerint a CompM5 LRP-montázzsal és 39 mm távtartóval kerül eladásra."
+  },
+  "eo-exps3": {
+   "title": "HWS EXPS3-0",
+   "subtitle": "Red Circle Dot",
+   "price_chf": 999.0,
+   "list_chf": 1054.9,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-exps3-0--1605684553",
+   "image": "https://www.thoron.ch/resources/EXPS30_66843.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": 317.0,
+   "dims": "Abmessungen Sichtfeld 30 x 23 mm; Length/Width/Height: 3.5\"x2.4\"x2.8\" (91.4X 60.9x71mm); Dimensions: 1.20\" x 0.85\" (30 x 23mm)",
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "EOTECH",
+   "sku": "EXPS3-0",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Red Circle Dot | Schwarz",
+     "price_chf": 999.0,
+     "list_chf": 1054.9,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-exps3-0--1605684553"
+    },
+    {
+     "color": "tan",
+     "sub": "Red Circle Dot | TAN",
+     "price_chf": 999.0,
+     "list_chf": 1054.9,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-exps3-0--1605684554"
+    }
+   ]
+  },
+  "eo-exps2": {
+   "title": "HWS EXPS2-0",
+   "subtitle": "Red Circle Dot",
+   "price_chf": 925.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-exps2-0--1118542061",
+   "image": "https://www.thoron.ch/resources/EXPS20_66291.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": 317.0,
+   "dims": "Abmessungen von 95x58x74mm gehört es zu den kompakten Geräten auf dem Markt. Die versiegel",
+   "color": null,
+   "color_shop": null,
+   "brand": "EOTECH",
+   "sku": "EXPS2-0",
+   "note": "Piros célkereszt; a zöld változat a boltban külön, drágább termék."
+  },
+  "eo-xps2": {
+   "title": "HWS XPS2-0",
+   "subtitle": "Circle Dot Red",
+   "price_chf": 859.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-xps2-0--1118542071",
+   "image": "https://www.thoron.ch/resources/XPS20_66307.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "EOTECH",
+   "sku": "XPS2-0",
+   "note": "Piros célkereszt; a zöld változat a boltban külön, drágább termék.",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Circle Dot Red - Schwarz",
+     "price_chf": 859.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-xps2-0--1118542071"
+    },
+    {
+     "color": "odg",
+     "sub": "Circle Dot Red - OD-Green",
+     "price_chf": 859.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-xps2-0--13984"
+    },
+    {
+     "color": "gray",
+     "sub": "Circle Dot Red - Grau",
+     "price_chf": 859.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-xps2-0--13985"
+    },
+    {
+     "color": "tan",
+     "sub": "Circle Dot Red - TAN",
+     "price_chf": 859.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-xps2-0--13987"
+    }
+   ]
+  },
+  "hs-510c": {
+   "title": "Dot Sight HS510C",
+   "subtitle": "Red Dot/Circle | 2/65MOA",
+   "price_chf": 430.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/dot-sight-hs510c--1669314857",
+   "image": "https://www.thoron.ch/resources/HS510C_66956.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Holosun",
+   "sku": "HS510C",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Red Dot/Circle | 2/65MOA - Schwarz",
+     "price_chf": 430.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/dot-sight-hs510c--1669314857"
+    },
+    {
+     "color": "fde",
+     "sub": "Red Dot/Circle | 2/65MOA - FDE",
+     "price_chf": 430.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/dot-sight-hs510c--8228"
+    }
+   ]
+  },
+  "tj-acog": {
+   "title": "ACOG 4x32 BAC Riflescope",
+   "subtitle": ".223 / 5.56 BDC | TA31F",
+   "price_chf": 2399.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/acog-4x32-bac-riflescope",
+   "image": "https://www.thoron.ch/resources/TA31F_4798210.jpg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "Trijicon",
+   "sku": "TA31F",
+   "note": "Bolti kivitel: TA31F (.223/5.56 BDC); a data.js csak \"TA31\"-et ír."
+  },
+  "tj-vcog": {
+   "title": "VCOG® 1-8x28 Riflescope - SCO",
+   "subtitle": "Larue Tactical LT799 Mount",
+   "price_chf": 3999.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/vcog1-8x28-riflescope-sco",
+   "image": "https://www.thoron.ch/resources/VC18C2400012_572699.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "Trijicon",
+   "sku": "VC18-C-2400012",
+   "note": "Bolti kivitel: VCOG 1-8x28 SCO, LaRue Tactical LT799 szereléssel."
+  },
+  "eo-vudu16": {
+   "title": "Vudu 1-6x24 FFP",
+   "subtitle": "SR3 | MOA | 5.56 BDC",
+   "price_chf": 1671.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-scopes-zielfernrohre/vudu-1-6x24-ffp",
+   "image": "https://www.thoron.ch/resources/20250701804_479167.jpeg",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "EOTECH",
+   "sku": "20250701804",
+   "note": "A boltban csak FFP, többféle célkereszttel (azonos ár); a megjelenített a 5.56 BDC."
+  },
+  "eo-vudu110": {
+   "title": "Vudu 1-10x28 FFP",
+   "subtitle": "SR5-MRAD",
+   "price_chf": 2239.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-scopes-zielfernrohre/vudu-1-10x28-ffp--3517",
+   "image": "https://www.thoron.ch/resources/672294110187_479389.jpeg",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "EOTECH",
+   "sku": "672294110187",
+   "note": "A boltban 3 változat (sr5-mrad, sr4-moa, le5-mrad) azonos áron."
+  },
+  "gs-sp30": {
+   "title": "Super Precision Scope Mount | 1.93\"",
+   "subtitle": "for AR 15 | Ø30mm",
+   "price_chf": 436.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-scope-mount-zf-montagen/super-precision-scope-mount-193",
+   "image": "https://www.thoron.ch/resources/05542B_521148.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Geissele",
+   "sku": "05-542B",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "for AR 15 | Ø30mm - Schwarz",
+     "price_chf": 436.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-scope-mount-zf-montagen/super-precision-scope-mount-193"
+    },
+    {
+     "color": "ddc",
+     "sub": "for AR 15 | Ø30mm - DDC",
+     "price_chf": 469.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-scope-mount-zf-montagen/super-precision-scope-mount-193--14503"
+    }
+   ],
+   "colors_prices": {
+    "black": 436.9,
+    "ddc": 469.9
+   }
+  },
+  "eo-g33": {
+   "title": "G33 Magnifier",
+   "subtitle": "3x Vergrösserung",
+   "price_chf": 869.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/magnifier/g33-magnifier--1118542065",
+   "image": "https://www.thoron.ch/resources/G33STS_66308.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "EOTECH",
+   "sku": "G33.STS",
+   "note": "Bolti SKU: G33.STS (Flip-to-Side montázzsal)."
+  },
+  "eo-g43": {
+   "title": "G43 Magnifier",
+   "subtitle": "3x Vergrösserung",
+   "price_chf": 939.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/magnifier/g43-magnifier--1118542067",
+   "image": "https://www.thoron.ch/resources/G43STS_66251.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": null,
+   "brand": "EOTECH",
+   "sku": "G43.STS",
+   "note": "Bolti SKU: G43.STS (Flip-to-Side montázzsal) - a data.js \"Micro szerelék\" megjelölése nem ellenőrizhető."
+  },
+  "hs-hm3x": {
+   "title": "HM3X Magnifier",
+   "subtitle": "1-3 Fach Vergrösserung",
+   "price_chf": 284.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/magnifier/hm3x-magnifier",
+   "image": "https://www.thoron.ch/resources/HM3X_470138.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": "height-Optiken. Das Gehäuse des HM3X ist aus Aluminium gefertigt.",
+   "color": null,
+   "color_shop": null,
+   "brand": "Holosun",
+   "sku": "HM3X"
+  },
+  "sf-m640": {
+   "title": "Scout Light Pro M640DF",
+   "subtitle": "1200-1500 Lumen",
+   "price_chf": 439.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/rifle-lights-gewehrlampen/scout-light-pro-m640df",
+   "image": "https://www.thoron.ch/resources/SFM640DFBKPRO_507739.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Surefire",
+   "sku": "SF-M640DF-BK-PRO",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "1200-1500 Lumen | Schwarz",
+     "price_chf": 439.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/rifle-lights-gewehrlampen/scout-light-pro-m640df"
+    },
+    {
+     "color": "tan",
+     "sub": "1200-1500 Lumen | TAN",
+     "price_chf": 459.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/rifle-lights-gewehrlampen/scout-light-pro-m640df--12702"
+    }
+   ],
+   "colors_prices": {
+    "black": 439.0,
+    "tan": 459.0
+   }
+  },
+  "sf-x300": {
+   "title": "X300U-B",
+   "subtitle": "1000 Lumen",
+   "price_chf": 395.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/pistol-lights-pistolenlampen/x300u-b",
+   "image": "https://www.thoron.ch/resources/X300UBBK_4992511.jpeg",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Surefire",
+   "sku": "X300U-B-BK"
+  },
+  "sl-hlx": {
+   "title": "ProTac Rail Mount HL-X",
+   "subtitle": "1000 Lumen",
+   "price_chf": 225.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/rifle-lights-gewehrlampen/protac-rail-mount-hl-x",
+   "image": "https://www.thoron.ch/resources/88066_471187.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "Streamlight",
+   "sku": "88066"
+  },
+  "sl-tlr1": {
+   "title": "TLR-1 HL",
+   "subtitle": "1000 Lumen",
+   "price_chf": 249.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/pistol-lights-pistolenlampen/tlr-1-hl",
+   "image": "https://www.thoron.ch/resources/080926692602_471247.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Streamlight",
+   "sku": "080926692602",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "1000 Lumen | - Schwarz",
+     "price_chf": 249.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/pistol-lights-pistolenlampen/tlr-1-hl"
+    },
+    {
+     "color": "fde",
+     "sub": "1000 Lumen | FDE Brown",
+     "price_chf": 260.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/pistol-lights-pistolenlampen/tlr-1-hl--2147489315"
+    },
+    {
+     "color": "fde",
+     "sub": "1000 Lumen | FDE",
+     "price_chf": 260.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/pistol-lights-pistolenlampen/tlr-1-hl--322"
+    }
+   ],
+   "colors_prices": {
+    "black": 249.9,
+    "fde": 260.0
+   }
+  },
+  "mp-hstop": {
+   "title": "M-LOK Hand Stop Kit",
+   "subtitle": null,
+   "price_chf": 33.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/m-lok-hand-stop-kit",
+   "image": "https://www.thoron.ch/resources/MAG608BLK_508539.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG608-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Schwarz",
+     "price_chf": 33.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/m-lok-hand-stop-kit"
+    },
+    {
+     "color": "fde",
+     "sub": "FDE",
+     "price_chf": 33.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/m-lok-hand-stop-kit--8807"
+    },
+    {
+     "color": "gray",
+     "sub": "- Grau",
+     "price_chf": 33.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/m-lok-hand-stop-kit--8808"
+    },
+    {
+     "color": "odg",
+     "sub": "- OD-Green",
+     "price_chf": 33.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/m-lok-hand-stop-kit--8809"
+    }
+   ]
+  },
+  "bcm-vg3": {
+   "title": "Gunfighter Vertical Grip",
+   "subtitle": "M-Lok",
+   "price_chf": 49.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/gunfighter-vertical-grip--4251",
+   "image": "https://www.thoron.ch/resources/BCMVGMCMRMOD3BLK_502288.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "BCM",
+   "sku": "BCM-VG-MCMR-MOD-3-BLK",
+   "note": "Bolti SKU: BCM-VG-MCMR-MOD-3 (M-LOK, Mod 3).",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "M-Lok - Schwarz",
+     "price_chf": 49.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/gunfighter-vertical-grip--4251"
+    },
+    {
+     "color": "fde",
+     "sub": "M-Lok - FDE",
+     "price_chf": 49.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/gunfighter-vertical-grip--4252"
+    }
+   ]
+  },
+  "bcm-kag": {
+   "title": "Gunfighter KAG Angled Grip",
+   "subtitle": "M-LOK",
+   "price_chf": 38.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/gunfighter-kag-angled-grip",
+   "image": "https://www.thoron.ch/resources/BCMKAGMCMRBLK_548729.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "BCM",
+   "sku": "BCM-KAG-MCMR-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "M-LOK | - Schwarz",
+     "price_chf": 38.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/gunfighter-kag-angled-grip"
+    },
+    {
+     "color": "fde",
+     "sub": "M-LOK | - FDE",
+     "price_chf": 38.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/gunfighter-kag-angled-grip--4243"
+    }
+   ]
+  },
+  "mp-rail5": {
+   "title": "Aluminum Picatinny Rail M-LOK",
+   "subtitle": "5 Slots | 58mm",
+   "price_chf": 26.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/zubehoermontagen/montageschienen/m-lok/aluminum-picatinny-rail-m-lok--8779",
+   "image": "https://www.thoron.ch/resources/MAG581BLK_476468.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "MAGPUL",
+   "sku": "MAG581-BLK"
+  },
+  "mp-qd": {
+   "title": "M-LOK QD Sling Mount",
+   "subtitle": "Aluminium",
+   "price_chf": 27.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/zubehoermontagen/m-lok-qd-sling-mount",
+   "image": "https://www.thoron.ch/resources/MAG606BLK_469727.jpg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "MAGPUL",
+   "sku": "MAG606-BLK"
+  },
+  "mp-cover": {
+   "title": "M-LOK Rail Covers | Type 2",
+   "subtitle": null,
+   "price_chf": 19.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/m-lok-rail-covers-type-2--8802",
+   "image": "https://www.thoron.ch/resources/MAG603BLK_505118.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG603-BLK",
+   "variants": [
+    {
+     "color": "mc-brown",
+     "sub": "MC-Brown",
+     "price_chf": 19.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/m-lok-rail-covers-type-2--45400227"
+    },
+    {
+     "color": "black",
+     "sub": "Schwarz",
+     "price_chf": 19.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/m-lok-rail-covers-type-2--8802"
+    },
+    {
+     "color": "fde",
+     "sub": "FDE",
+     "price_chf": 19.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/m-lok-rail-covers-type-2--8803"
+    },
+    {
+     "color": "gray",
+     "sub": "Grau",
+     "price_chf": 19.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/m-lok-rail-covers-type-2--8804"
+    },
+    {
+     "color": "odg",
+     "sub": "OD-Green",
+     "price_chf": 19.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/m-lok-rail-covers-type-2--8805"
+    }
+   ]
+  },
+  "mp-bipod": {
+   "title": "Bipod for M-LOK",
+   "subtitle": null,
+   "price_chf": 172.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/mono-bipods/bipod-for-m-lok",
+   "image": "https://www.thoron.ch/resources/MAG933BLK_512288.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG933-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Schwarz",
+     "price_chf": 172.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/mono-bipods/bipod-for-m-lok"
+    },
+    {
+     "color": "fde",
+     "sub": "FDE",
+     "price_chf": 172.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/mono-bipods/bipod-for-m-lok--8874"
+    }
+   ]
+  },
+  "sf-warcomp": {
+   "title": "WARCOMP Flash Hider",
+   "subtitle": "5.56x45mm | .223 Rem., 1/2\"-28 UNEF",
+   "price_chf": 219.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/muendungsaufsaetze/warcomp-flash-hider",
+   "image": "https://www.thoron.ch/resources/WARCOMP5561_228_578299.jpeg",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "Surefire",
+   "sku": "WARCOMP-556-1/2-28"
+  },
+  "gs-ssae": {
+   "title": "Super Semi-Automatic Enhanced (SSA-E) Trigger",
+   "subtitle": null,
+   "price_chf": 359.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-semi-automatic-enhanced-ssa-e-trigger",
+   "image": "https://www.thoron.ch/resources/05160_49360.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "Geissele",
+   "sku": "05-160"
+  },
+  "gs-ssa": {
+   "title": "Super Semi-Automatic (SSA) Trigger",
+   "subtitle": null,
+   "price_chf": 328.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-semi-automatic-ssa-trigger",
+   "image": "https://www.thoron.ch/resources/05101_493591.jpeg",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "Geissele",
+   "sku": "05-101"
+  },
+  "gs-sde": {
+   "title": "Super Dynamic Enhanced (SD-E) Trigger",
+   "subtitle": null,
+   "price_chf": 359.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-dynamic-enhanced-sd-e-trigger",
+   "image": "https://www.thoron.ch/resources/05167_493687.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "Geissele",
+   "sku": "05-167"
+  },
+  "gs-s3g": {
+   "title": "Super 3 Gun (S3G) Trigger",
+   "subtitle": null,
+   "price_chf": 359.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-3-gun-s3g-trigger",
+   "image": "https://www.thoron.ch/resources/05152_493747.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "color_shop": null,
+   "brand": "Geissele",
+   "sku": "05-152"
+  },
+  "rd-raptor": {
+   "title": "Raptor",
+   "subtitle": "AR15/M16",
+   "price_chf": 129.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--9172",
+   "image": "https://www.thoron.ch/resources/RADR0001_469377.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Radian Weapons",
+   "sku": "RAD-R0001",
+   "variants": [
+    {
+     "color": "black-np3",
+     "sub": "AR15/M16 | Schwarz & NP3",
+     "price_chf": 139.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor"
+    },
+    {
+     "color": "brown",
+     "sub": "AR15/M16 | Braun",
+     "price_chf": 139.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--3299"
+    },
+    {
+     "color": "tungsten",
+     "sub": "AR15/M16 | Tungsten",
+     "price_chf": 139.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--3303"
+    },
+    {
+     "color": "clear-anodized",
+     "sub": "AR15/M16 | Clear Anodized",
+     "price_chf": 139.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--3375"
+    },
+    {
+     "color": "black",
+     "sub": "AR15/M16 | - Schwarz",
+     "price_chf": 129.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--9172"
+    },
+    {
+     "color": "fde",
+     "sub": "AR15/M16 | FDE",
+     "price_chf": 129.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--9173"
+    },
+    {
+     "color": "np3",
+     "sub": "AR15/M16 | NP3",
+     "price_chf": 139.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--9175"
+    },
+    {
+     "color": "odg",
+     "sub": "AR15/M16 | OD-Green",
+     "price_chf": 129.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--9188"
+    },
+    {
+     "color": "gray",
+     "sub": "AR15/M16 | Grau",
+     "price_chf": 129.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--9192"
+    }
+   ],
+   "colors_prices": {
+    "black-np3": 139.0,
+    "brown": 139.0,
+    "tungsten": 139.0,
+    "clear-anodized": 139.0,
+    "black": 129.0,
+    "fde": 129.0,
+    "np3": 139.0,
+    "odg": 129.0,
+    "gray": 129.0
+   }
+  },
+  "rd-raptorlt": {
+   "title": "Raptor-LT",
+   "subtitle": "AR15/M16",
+   "price_chf": 99.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-lt--9182",
+   "image": "https://www.thoron.ch/resources/RADR0148_473478.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Radian Weapons",
+   "sku": "RAD-R0148",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "AR15/M16 | Schwarz",
+     "price_chf": 99.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-lt--9182"
+    },
+    {
+     "color": "fde",
+     "sub": "AR15/M16 | FDE",
+     "price_chf": 99.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-lt--9183"
+    },
+    {
+     "color": "gray",
+     "sub": "AR15/M16 | Grau",
+     "price_chf": 99.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-lt--9184"
+    }
+   ]
+  },
+  "rd-raptorsd": {
+   "title": "Raptor-SD",
+   "subtitle": "AR15/M16",
+   "price_chf": 159.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-sd",
+   "image": "https://www.thoron.ch/resources/RADR0006_473507.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Radian Weapons",
+   "sku": "RAD-R0006",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "AR15/M16 | Schwarz",
+     "price_chf": 159.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-sd"
+    },
+    {
+     "color": "fde",
+     "sub": "AR15/M16 | FDE",
+     "price_chf": 159.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-sd--9181"
+    },
+    {
+     "color": "odg",
+     "sub": "AR15/M16 | OD-Green",
+     "price_chf": 159.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-sd--9190"
+    },
+    {
+     "color": "gray",
+     "sub": "AR15/M16 | Grau",
+     "price_chf": 159.0,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor-sd--9194"
+    }
+   ]
+  },
+  "gs-ach": {
+   "title": "Airborne Charging Handle",
+   "subtitle": "AR-15",
+   "price_chf": 159.0,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/airborne-charging-handle",
+   "image": "https://www.thoron.ch/resources/05497B_484817.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Geissele",
+   "sku": "05-497B",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "AR-15 - Schwarz",
+     "price_chf": 159.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/airborne-charging-handle"
+    },
+    {
+     "color": "ddc",
+     "sub": "AR-15 - DDC",
+     "price_chf": 179.0,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/airborne-charging-handle--307"
+    }
+   ],
+   "colors_prices": {
+    "black": 159.0,
+    "ddc": 179.0
+   }
+  },
+  "mp-bad": {
+   "title": "B.A.D. Lever - Battery Assist Device",
+   "subtitle": "AR15/M4",
+   "price_chf": 44.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/bad-lever-battery-assist-device",
+   "image": "https://www.thoron.ch/resources/MAG980BLK_508187.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG980-BLK"
+  },
+  "mp-trigguard": {
+   "title": "MOE Enhanced Trigger Guard, Polymer",
+   "subtitle": "AR15/M4",
+   "price_chf": 13.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/trigger-guard-abzugsbuegel/moe-enhanced-trigger-guard-polymer",
+   "image": "https://www.thoron.ch/resources/MAG1186BLK_504928.jpeg",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG1186-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "AR15/M4 | Schwarz",
+     "price_chf": 13.9,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/trigger-guard-abzugsbuegel/moe-enhanced-trigger-guard-polymer"
+    },
+    {
+     "color": "fde",
+     "sub": "AR15/M4 | FDE",
+     "price_chf": 13.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/trigger-guard-abzugsbuegel/moe-enhanced-trigger-guard-polymer--8468"
+    },
+    {
+     "color": "odg",
+     "sub": "AR15/M4 | OD-Green",
+     "price_chf": 13.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/trigger-guard-abzugsbuegel/moe-enhanced-trigger-guard-polymer--8469"
+    }
+   ]
+  },
+  "mp-pm10": {
+   "title": "PMAG 10 AR/M4 GEN M3",
+   "subtitle": ".223 Rem.",
+   "price_chf": 22.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-10-ar-m4-gen-m3",
+   "image": "https://www.thoron.ch/resources/MAG559BLK_498357.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG559-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": ".223 Rem. - Schwarz",
+     "price_chf": 22.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-10-ar-m4-gen-m3"
+    },
+    {
+     "color": "odg",
+     "sub": ".223 Rem. | OD-Green",
+     "price_chf": 22.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-10-ar-m4-gen-m3--45400223"
+    }
+   ]
+  },
+  "mp-pm20": {
+   "title": "PMAG 20 AR/M4 GEN M3",
+   "subtitle": ".223 Rem.",
+   "price_chf": 22.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-20-ar-m4-gen-m3",
+   "image": "https://www.thoron.ch/resources/MAG560BLK_469597.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG560-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": ".223 Rem. - Schwarz",
+     "price_chf": 22.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-20-ar-m4-gen-m3"
+    },
+    {
+     "color": "odg",
+     "sub": ".223 Rem. | OD-Green",
+     "price_chf": 22.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-20-ar-m4-gen-m3--45400224"
+    }
+   ]
+  },
+  "mp-pm30": {
+   "title": "PMAG 30 AR/M4 GEN M3",
+   "subtitle": ".223 Rem.",
+   "price_chf": 21.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3",
+   "image": "https://www.thoron.ch/resources/MAG557BLK_498337.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG557-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": ".223 Rem. - Schwarz",
+     "price_chf": 21.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3"
+    },
+    {
+     "color": "mc-brown",
+     "sub": ".223 Rem. | MC-Brown",
+     "price_chf": 21.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3--45400221"
+    },
+    {
+     "color": "odg",
+     "sub": ".223 Rem. | OD-Green",
+     "price_chf": 21.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3--45400222"
+    },
+    {
+     "color": "coyote",
+     "sub": ".223 Rem. - Coyote",
+     "price_chf": 21.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3--8774"
+    }
+   ]
+  },
+  "mp-pm30w": {
+   "title": "PMAG 30 AR/M4 GEN M3 Window",
+   "subtitle": ".223 Rem.",
+   "price_chf": 26.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3-window",
+   "image": "https://www.thoron.ch/resources/MAG556BLK_498319.jpg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG556-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": ".223 Rem. | Schwarz",
+     "price_chf": 26.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3-window"
+    },
+    {
+     "color": "mc-brown",
+     "sub": ".223 Rem. | MC-Brown",
+     "price_chf": 26.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3-window--45400219"
+    },
+    {
+     "color": "odg",
+     "sub": ".223 Rem. | OD-Green",
+     "price_chf": 26.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3-window--45400220"
+    },
+    {
+     "color": "coyote",
+     "sub": ".223 Rem. | Coyote",
+     "price_chf": 26.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3-window--8773"
+    }
+   ]
+  },
+  "mp-pm40": {
+   "title": "PMAG 40 AR/M4 GEN M3",
+   "subtitle": ".223 Rem.",
+   "price_chf": 34.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-40-ar-m4-gen-m3",
+   "image": "https://www.thoron.ch/resources/MAG233BLK_498308.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG233-BLK"
+  },
+  "mp-d60": {
+   "title": "PMAG D-60 AR/M4 GEN M3",
+   "subtitle": ".223 Rem.",
+   "price_chf": 200.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-d-60-ar-m4-gen-m3",
+   "image": "https://www.thoron.ch/resources/MAG576BLK_498299.jpeg",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG576-BLK"
+  },
+  "mp-ms1": {
+   "title": "MS1 Sling",
+   "subtitle": null,
+   "price_chf": 52.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms1-sling",
+   "image": "https://www.thoron.ch/resources/MAG513BLK_508058.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG513-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "Schwarz",
+     "price_chf": 52.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms1-sling"
+    },
+    {
+     "color": "coyote",
+     "sub": "Coyote",
+     "price_chf": 52.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms1-sling--8713"
+    },
+    {
+     "color": "gray",
+     "sub": "- Grau",
+     "price_chf": 52.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms1-sling--8714"
+    },
+    {
+     "color": "ranger",
+     "sub": "- Ranger Green",
+     "price_chf": 52.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms1-sling--8715"
+    }
+   ]
+  },
+  "mp-ms4": {
+   "title": "MS4 Dual QD Sling",
+   "subtitle": "GEN2",
+   "price_chf": 114.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms4-dual-qd-sling",
+   "image": "https://www.thoron.ch/resources/MAG518BLK_509577.jpeg",
+   "in_stock": true,
+   "stock_text": "Verfügbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "MAGPUL",
+   "sku": "MAG518-BLK",
+   "variants": [
+    {
+     "color": "black",
+     "sub": "GEN2 | Schwarz",
+     "price_chf": 114.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms4-dual-qd-sling"
+    },
+    {
+     "color": "coyote",
+     "sub": "GEN2 | Coyote",
+     "price_chf": 114.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms4-dual-qd-sling--8728"
+    },
+    {
+     "color": "gray",
+     "sub": "GEN2 | Grau",
+     "price_chf": 114.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms4-dual-qd-sling--8729"
+    },
+    {
+     "color": "ranger",
+     "sub": "GEN2 | Ranger Green",
+     "price_chf": 114.9,
+     "list_chf": null,
+     "in_stock": true,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/ms4-dual-qd-sling--8730"
+    }
+   ]
+  },
+  "bfg-vickers": {
+   "title": "Vickers Combat Application Sling",
+   "subtitle": null,
+   "price_chf": 82.9,
+   "list_chf": null,
+   "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/vickers-combat-application-sling--3874",
+   "image": "https://www.thoron.ch/resources/814520015228_476958.jpeg",
+   "in_stock": false,
+   "stock_text": "Beim Lieferanten bestellbar",
+   "weight_g": null,
+   "dims": null,
+   "color": "black",
+   "color_shop": "Schwarz",
+   "brand": "Blue Force Gear",
+   "sku": "814520015228",
+   "variants": [
+    {
+     "color": "odg",
+     "sub": "- OD-Green",
+     "price_chf": 84.9,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/vickers-combat-application-sling"
+    },
+    {
+     "color": "black",
+     "sub": "Schwarz",
+     "price_chf": 82.9,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/vickers-combat-application-sling--3874"
+    },
+    {
+     "color": "coyote",
+     "sub": "Coyote",
+     "price_chf": 82.9,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/vickers-combat-application-sling--3875"
+    },
+    {
+     "color": "multicam",
+     "sub": "- MultiCam",
+     "price_chf": 82.9,
+     "list_chf": null,
+     "in_stock": false,
+     "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/vickers-combat-application-sling--3876"
+    }
+   ],
+   "colors_prices": {
+    "odg": 84.9,
+    "black": 82.9,
+    "coyote": 82.9,
+    "multicam": 82.9
+   }
+  }
+ },
+ "unmatched": {
+  "schm-m4fl": "ok: nincs a boltban (a Schmeisser AR15 családból csak az S4F 10.5\" kapható)",
+  "schm-m5fl": "ok: nincs a boltban (a Schmeisser AR15 családból csak az S4F 10.5\" kapható)",
+  "schm-dyn": "ok: nincs a boltban (a Schmeisser AR15 családból csak az S4F 10.5\" kapható)",
+  "bcm-recce16": "ok: nincs a boltban (csak a RECCE-14 MCMR 14.5\" kapható, az nem azonos)",
+  "bcm-g0": "ok: nincs a boltban (BCM pisztolymarkolat nincs, csak előmarkolatok)",
+  "bcm-g3": "ok: nincs a boltban (BCM pisztolymarkolat nincs, csak előmarkolatok)",
+  "b5-t22": "ok: nincs a boltban (B5 Systems nincs a kínálatban)",
+  "b5-t23": "ok: nincs a boltban (B5 Systems nincs a kínálatban)",
+  "bcm-s0": "ok: nincs a boltban (BCM tus nincs a kínálatban)",
+  "bcm-s1": "ok: nincs a boltban (BCM tus nincs a kínálatban)",
+  "b5-bravo": "ok: nincs a boltban (B5 Systems nincs a kínálatban)",
+  "b5-esop": "ok: nincs a boltban (B5 Systems nincs a kínálatban)",
+  "b5-prec": "ok: nincs a boltban (B5 Systems nincs a kínálatban)",
+  "ap-pro": "ok: nincs a boltban (Aimpoint PRO nincs a kínálatban)",
+  "ap-acro": "bizonytalan: a boltban az Acro P-2 önmagában kapható (3.5 MOA), a Picatinny talp nincs a termékhez írva -> a csomag nem azonosítható biztosan",
+  "hs-aems": "bizonytalan: a boltban csak AEMS-EVO / AEMS PRO / Ronin AEMS MAX van, az \"AEMS\" alapmodell nincs -> nem azonos",
+  "hs-403b": "ok: nincs a boltban (a keresés nem hozott azonos terméket)",
+  "tj-mro": "bizonytalan: a \"MRO HD + Lower 1/3 szerelék\" csomag a boltban nem egy termék (az MRO HD Low Mount külön, az 1/3 Co-Witness 39 mm Q-Loc montázs külön) -> jelöltek a \"candidates\"-ben",
+  "vx-uh1": "ok: nincs a boltban (Vortex UH-1 nincs)",
+  "vx-sparc": "ok: nincs a boltban (Vortex SPARC nincs)",
+  "vx-crossfire": "ok: nincs a boltban (Vortex Crossfire red dot nincs)",
+  "vx-se16": "ok: nincs a boltban (csak Strike Eagle EBR-7C 5-25x56 van, az nem azonos)",
+  "vx-se18": "ok: nincs a boltban (csak Strike Eagle EBR-7C 5-25x56 van, az nem azonos)",
+  "vx-pst16": "ok: nincs a boltban (Viper PST 1-6x24 nincs)",
+  "vx-razor110": "ok: nincs a boltban (Vortex Razor nincs)",
+  "tj-credo16": "ok: nincs a boltban (Trijicon Credo nincs)",
+  "vx-cant30": "ok: nincs a boltban (Vortex Sport Cantilever nincs)",
+  "ap-3x": "ok: nincs a boltban (Aimpoint 3XMag-1 nincs)",
+  "vx-m3x": "ok: nincs a boltban (Vortex Micro3X nincs)",
+  "mp-mbus3": "bizonytalan: a boltban az elő- és a hátsó MBUS 3 irányzék külön termék (nincs \"szett\"), jelöltek a \"candidates\"-ben",
+  "mp-mbuspro": "bizonytalan: a boltban az elő- és a hátsó MBUS Pro irányzék külön termék (nincs \"szett\"), jelöltek a \"candidates\"-ben",
+  "mp-mbusoff": "bizonytalan: a boltban az elő- és a hátsó MBUS Pro Offset irányzék külön termék (nincs \"szett\"), jelöltek a \"candidates\"-ben",
+  "sf-m600": "ok: nincs a boltban (M600DF nincs; csak az M640DF/M640DFT/M640U kapható)",
+  "sf-m300": "ok: nincs a boltban (M300 nincs; a Mini Scout Light Pro M340C más modell)",
+  "mp-rvg": "bizonytalan: a boltban az RVG Rail Vertical Grip (Picatinny) és az RVG Adapter Rail (M-LOK) külön termék; az M-LOK-os RVG nincs egyben -> jelöltek a \"candidates\"-ben",
+  "mp-cable": "ok: nincs a boltban (Cable Management Kit nincs; a \"WCK - Wire Control Kit\" más termék)",
+  "hr-sbrm": "ok: nincs a boltban (Harris bipod nincs)",
+  "sf-3p": "ok: nincs a boltban (SF3P nincs; WARCOMP lángrejtők vannak)",
+  "bcm-comp0": "ok: nincs a boltban (BCM kompenzátor nincs)",
+  "sf-rc2": "ok: nincs a boltban (SureFire hangtompító nincs)",
+  "bcm-ch4": "ok: nincs a boltban (BCM felhúzókar nincs)",
+  "bcm-ch3": "ok: nincs a boltban (BCM felhúzókar nincs)",
+  "rd-talon": "bizonytalan: a boltban a Talon 45/90 több kitként kapható (2 LEVER KIT / 4 LEVER KIT / Competition), a data.js \"ambidex\" kit melyik megfelelője, nem dönthető el -> jelöltek a \"candidates\"-ben"
+ },
+ "candidates": {
+  "bcm-recce16": [
+   {
+    "title": "RECCE-14 MCMR | 14.5\"",
+    "sub": "5.56mm NATO",
+    "price_chf": 2899.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/-recce-14-mcmr-145"
+   }
+  ],
+  "ap-acro": [
+   {
+    "title": "Acro P-2",
+    "sub": "2.5 MOA | Schwarz",
+    "price_chf": 652.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/pistol-sights-visierungen/pistol-reflex-sights-red-dot/acro-p-2--2244184920"
+   },
+   {
+    "title": "Acro P-2",
+    "sub": "3.5 MOA | Sniper Grey",
+    "price_chf": 799.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/pistol-sights-visierungen/pistol-reflex-sights-red-dot/acro-p-2--4223"
+   },
+   {
+    "title": "Acro P-2",
+    "sub": "3.5 MOA | FDE",
+    "price_chf": 777.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/pistol-sights-visierungen/pistol-reflex-sights-red-dot/acro-p-2--4222"
+   },
+   {
+    "title": "Acro P-2",
+    "sub": "3.5 MOA | Schwarz",
+    "price_chf": 652.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/pistol-sights-visierungen/pistol-reflex-sights-red-dot/acro-p-2"
+   }
+  ],
+  "hs-aems": [
+   {
+    "title": "AEMS-EVO-RD",
+    "sub": "2MOA/65MOA | Rot",
+    "price_chf": 569.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/aems-evo-rd"
+   },
+   {
+    "title": "AEMS-EVO-GR",
+    "sub": "2MOA/65MOA | Grün",
+    "price_chf": 599.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/aems-evo-gr"
+   },
+   {
+    "title": "AEMS-EVO-GD",
+    "sub": "2MOA/65MOA | Gold",
+    "price_chf": 569.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/aems-evo-gd"
+   },
+   {
+    "title": "Ronin AEMS MAX",
+    "sub": "2MOA/65MOA | Rot",
+    "price_chf": 729.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/ronin-aems-max--9284"
+   },
+   {
+    "title": "Ronin AEMS MAX",
+    "sub": "2MOA/65MOA | Grün",
+    "price_chf": 764.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/ronin-aems-max"
+   },
+   {
+    "title": "Dot Sight AEMS PRO",
+    "sub": "2MOA/65MOA | Grün",
+    "price_chf": 629.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/dot-sight-aems-pro--45359203"
+   },
+   {
+    "title": "Dot Sight AEMS PRO",
+    "sub": "2MOA/65MOA | Rot",
+    "price_chf": 589.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/dot-sight-aems-pro"
+   }
+  ],
+  "tj-mro": [
+   {
+    "title": "MRO HD 1x25 Red Dot Sight",
+    "sub": "2 MOA / 68 MOA | Low Mount",
+    "price_chf": 1299.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/mro-hd-1x25-red-dot-sight--9001"
+   },
+   {
+    "title": "MRO HD 1x25 Red Dot Sight",
+    "sub": "2 MOA / 68 MOA",
+    "price_chf": 1150.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/mro-hd-1x25-red-dot-sight"
+   },
+   {
+    "title": "MRO Schnellmontage Q-Loc 1/3 Co-Witness 39mm Picatinny",
+    "sub": "Schwarz",
+    "price_chf": 196.5,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/mro-schnellmontage-q-loc-1-3-co-witness-39mm-picatinny"
+   }
+  ],
+  "mp-mbus3": [
+   {
+    "title": "MBUS 3 Sight",
+    "sub": "Rear | OD-Green",
+    "price_chf": 72.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-iron-sights-kimme-korn/mbus-3-sight--8464"
+   },
+   {
+    "title": "MBUS 3 Sight",
+    "sub": "Rear | FDE",
+    "price_chf": 72.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-iron-sights-kimme-korn/mbus-3-sight--8463"
+   },
+   {
+    "title": "MBUS 3 Sight",
+    "sub": "Rear | Schwarz",
+    "price_chf": 72.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-iron-sights-kimme-korn/mbus-3-sight--8462"
+   },
+   {
+    "title": "MBUS 3 Sight",
+    "sub": "Front | OD-Green",
+    "price_chf": 48.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-iron-sights-kimme-korn/mbus-3-sight--8461"
+   },
+   {
+    "title": "MBUS 3 Sight",
+    "sub": "Front | FDE",
+    "price_chf": 48.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-iron-sights-kimme-korn/mbus-3-sight--8460"
+   },
+   {
+    "title": "MBUS 3 Sight",
+    "sub": "Front | Schwarz",
+    "price_chf": 48.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-iron-sights-kimme-korn/mbus-3-sight"
+   }
+  ],
+  "mp-mbuspro": [
+   {
+    "title": "MBUS Pro Sight",
+    "sub": "Rear | Schwarz",
+    "price_chf": 155.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-iron-sights-kimme-korn/mbus-pro-sight--14269"
+   },
+   {
+    "title": "MBUS Pro Sight",
+    "sub": "Front | Schwarz",
+    "price_chf": 130.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-iron-sights-kimme-korn/mbus-pro-sight"
+   }
+  ],
+  "mp-mbusoff": [
+   {
+    "title": "MBUS Pro Offset Sight",
+    "sub": "Rear | Schwarz",
+    "price_chf": 161.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-iron-sights-kimme-korn/mbus-pro-offset-sight--8749"
+   },
+   {
+    "title": "MBUS Pro Offset Sight",
+    "sub": "Front | Schwarz",
+    "price_chf": 131.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-iron-sights-kimme-korn/mbus-pro-offset-sight"
+   }
+  ],
+  "sf-m300": [
+   {
+    "title": "M340V Mini Scout Light Pro Vampire",
+    "sub": "250 Lumen | 100mW IR | Schwarz",
+    "price_chf": 629.9,
+    "url": "https://www.thoron.ch/de/ausruestung/helm-helmzubehoer/rifle-lights-gewehrlampen/m340v-mini-scout-light-pro-vampire"
+   },
+   {
+    "title": "Mini Scout Light Pro M340C",
+    "sub": "500 Lumen | - TAN",
+    "price_chf": 393.5,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/rifle-lights-gewehrlampen/mini-scout-light-pro-m340c--12701"
+   },
+   {
+    "title": "Mini Scout Light Pro M340C",
+    "sub": "500 Lumen | - Schwarz",
+    "price_chf": 383.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/rifle-lights-gewehrlampen/mini-scout-light-pro-m340c"
+   },
+   {
+    "title": "M340V Mini Scout Pro Vampire",
+    "sub": "250 Lumen | 100mW IR | FDE",
+    "price_chf": 629.9,
+    "url": "https://www.thoron.ch/de/ausruestung/helm-helmzubehoer/rifle-lights-gewehrlampen/m340v-mini-scout-pro-vampire"
+   }
+  ],
+  "mp-rvg": [
+   {
+    "title": "RVG Rail Vertical Grip",
+    "sub": "M1913 Picatinny - OD-Green",
+    "price_chf": 30.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/rvg-rail-vertical-grip--8639"
+   },
+   {
+    "title": "RVG Rail Vertical Grip",
+    "sub": "M1913 Picatinny - Grau",
+    "price_chf": 30.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/rvg-rail-vertical-grip--8638"
+   },
+   {
+    "title": "RVG Rail Vertical Grip",
+    "sub": "M1913 Picatinny - FDE",
+    "price_chf": 30.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/rvg-rail-vertical-grip--8637"
+   },
+   {
+    "title": "RVG Rail Vertical Grip",
+    "sub": "M1913 Picatinny - Schwarz",
+    "price_chf": 30.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/rvg-rail-vertical-grip"
+   },
+   {
+    "title": "RVG Adapter Rail",
+    "sub": "M-LOK - Schwarz",
+    "price_chf": 10.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/schaefte-stocks-griffe/frontgriffe-railcovers/rvg-adapter-rail"
+   }
+  ],
+  "mp-cable": [
+   {
+    "title": "WCK - Wire Control Kit",
+    "sub": "M-LOK | OD-Green",
+    "price_chf": 24.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/wck-wire-control-kit--8519"
+   },
+   {
+    "title": "WCK - Wire Control Kit",
+    "sub": "M-LOK | FDE",
+    "price_chf": 24.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/wck-wire-control-kit--8518"
+   },
+   {
+    "title": "WCK - Wire Control Kit",
+    "sub": "M-LOK | Schwarz",
+    "price_chf": 24.9,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/wck-wire-control-kit"
+   }
+  ],
+  "rd-talon": [
+   {
+    "title": "Sicherung Talon 45/90",
+    "sub": "Competition 2 LEVER KIT | Rot",
+    "price_chf": 99.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/selectors-sicherungen/sicherung-talon-45-90"
+   },
+   {
+    "title": "Sicherung Talon 45/90",
+    "sub": "4 LEVER KIT | Grau",
+    "price_chf": 139.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/sicherung-talon-45-90--9195"
+   },
+   {
+    "title": "Sicherung Talon 45/90",
+    "sub": "4 LEVER KIT | OD-Green",
+    "price_chf": 139.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/sicherung-talon-45-90--9191"
+   },
+   {
+    "title": "Sicherung Talon 45/90",
+    "sub": "4 LEVER KIT | FDE",
+    "price_chf": 139.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/sicherung-talon-45-90--9180"
+   },
+   {
+    "title": "Sicherung Talon 45/90",
+    "sub": "4 LEVER KIT | Schwarz",
+    "price_chf": 139.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/sicherung-talon-45-90--9179"
+   },
+   {
+    "title": "Sicherung Talon 45/90",
+    "sub": "2 LEVER KIT | - Grau",
+    "price_chf": 98.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/sicherung-talon-45-90--9152"
+   },
+   {
+    "title": "Sicherung Talon 45/90",
+    "sub": "2 LEVER KIT | FDE",
+    "price_chf": 109.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/sicherung-talon-45-90--9148"
+   },
+   {
+    "title": "Sicherung Talon 45/90",
+    "sub": "2 LEVER KIT | Schwarz",
+    "price_chf": 99.0,
+    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/sicherung-talon-45-90--3899"
+   }
+  ]
+ }
+}

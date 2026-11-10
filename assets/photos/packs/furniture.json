@@ -223,32 +223,6 @@
    "source": "magpul.com/pmag-30-ar-m4-gen-m3.html"
   },
   {
-   "item": "mp-pm30w",
-   "slot": "main",
-   "color": "black",
-   "src": "parts/mp-pm30w-main-black.webp",
-   "w": 456,
-   "h": 1029,
-   "ppi": 137.2,
-   "ax": 254.0,
-   "ay": 2.0,
-   "facing": "left",
-   "source": "magpul.com/pmag-30-ar-m4-gen-m3-window.html"
-  },
-  {
-   "item": "mp-pm40",
-   "slot": "main",
-   "color": "black",
-   "src": "parts/mp-pm40-main-black.webp",
-   "w": 378,
-   "h": 1134,
-   "ppi": 116.91,
-   "ax": 170.5,
-   "ay": 2.0,
-   "facing": "left",
-   "source": "magpul.com/pmag-40-ar-m4-gen-m3.html"
-  },
-  {
    "item": "mp-pm10",
    "slot": "main",
    "color": "black",
@@ -286,6 +260,71 @@
    "ay": 2.0,
    "facing": "left",
    "source": "magpul.com/pmag-20-ar-m4-gen-m3.html"
+  },
+  {
+   "item": "mp-pm30w",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/mp-pm30w-main-black.webp",
+   "w": 411,
+   "h": 1031,
+   "ppi": 137.47,
+   "ax": 193.5,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "magpul.com/pmag-30-ar-m4-gen-m3-window.html"
+  },
+  {
+   "item": "mp-pm40",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/mp-pm40-main-black.webp",
+   "w": 392,
+   "h": 1133,
+   "ppi": 116.8,
+   "ax": 178.0,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "magpul.com/pmag-40-ar-m4-gen-m3.html"
+  },
+  {
+   "item": "mp-pm10",
+   "slot": "main",
+   "color": "odg",
+   "src": "parts/mp-pm10-main-odg.webp",
+   "w": 664,
+   "h": 895,
+   "ppi": 248.61,
+   "ax": 324.5,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "magpul.com/pmag-10-ar-m4-gen-m3.html"
+  },
+  {
+   "item": "mp-pm20",
+   "slot": "main",
+   "color": "odg",
+   "src": "parts/mp-pm20-main-odg.webp",
+   "w": 528,
+   "h": 1039,
+   "ppi": 185.54,
+   "ax": 240.5,
+   "ay": 3.0,
+   "facing": "left",
+   "source": "magpul.com/pmag-20-ar-m4-gen-m3.html"
+  },
+  {
+   "item": "mp-pm30",
+   "slot": "main",
+   "color": "odg",
+   "src": "parts/mp-pm30-main-odg.webp",
+   "w": 424,
+   "h": 1075,
+   "ppi": 143.33,
+   "ax": 190.5,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "magpul.com/pmag-30-ar-m4-gen-m3.html"
   }
  ]
 }
