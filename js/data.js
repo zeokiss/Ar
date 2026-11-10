@@ -200,9 +200,8 @@ window.AR_DATA = (function () {
 
     // ----------------------------------------------------------- Lámpa
     NONE('light', 'Nincs lámpa'),
-    { id: 'sf-m600', cat: 'light', brand: 'SureFire', name: 'M600DF Scout Light Pro', price: 380, weight: 190, style: 'scout', specs: ['1500 lm', 'M-LOK / Pic szerelék', 'Kettős kapcsoló'] },
     { id: 'sf-m640', cat: 'light', brand: 'SureFire', on: 'top', name: 'M640DF Scout Light Pro', price: 450, weight: 215, style: 'scout', big: true, specs: ['1500 lm', 'Nagyobb fej', 'Távolra'] },
-    { id: 'sf-m300', cat: 'light', brand: 'SureFire', name: 'M300 Mini Scout Light Pro', price: 330, weight: 120, style: 'scout', mini: true, specs: ['Kompakt', 'CR123'] },
+    { id: 'sf-m340c', cat: 'light', brand: 'SureFire', on: 'top', name: 'M340C Mini Scout Light Pro', price: 330, weight: 104, style: 'scout', mini: true, specs: ['500 lm', '1× CR123A', 'Kompakt', 'M-LOK / Pic szerelék külön'] },
     { id: 'sf-x300', cat: 'light', brand: 'SureFire', on: 'bottom', name: 'X300U-B', price: 330, weight: 115, style: 'x300', needsRail: true, specs: ['1000 lm', 'Picatinny sín kell'] },
     { id: 'sl-hlx', cat: 'light', brand: 'Streamlight', on: 'top', name: 'ProTac Rail Mount HL-X', price: 170, weight: 180, style: 'scout', big: true, specs: ['1000 lm', 'Kedvező ár'] },
     { id: 'sl-tlr1', cat: 'light', brand: 'Streamlight', on: 'bottom', name: 'TLR-1 HL', price: 170, weight: 120, style: 'x300', needsRail: true, specs: ['1000 lm', 'Picatinny sín kell'] },

@@ -11908,6 +11908,55 @@
      "note": "Bolti kivitel: VCOG 1-8x28 SCO, LaRue Tactical LT799 szereléssel."
     }
    ]
+  },
+  "sf-m340c": {
+   "chf": 379.0,
+   "shop": "armatum.ch",
+   "url": "https://armatum.ch/produkt/surefire-lampe-m340c-mini/",
+   "in_stock": null,
+   "title": "SureFire Lampe M340C Mini Scout Light Pro",
+   "weight_g": null,
+   "dims": null,
+   "offers": [
+    {
+     "shop": "armashop.ch",
+     "chf": 370.0,
+     "url": "https://armashop.ch/produit/lampe-m340c-mini-scout-light-blk-arrive-prochainement/",
+     "in_stock": false,
+     "colors": {},
+     "title": "Surefire Lampe M340C Mini Scout Light BLK",
+     "note": "Az oldal szerint hamarosan érkezik."
+    },
+    {
+     "shop": "armatum.ch",
+     "chf": 379.0,
+     "url": "https://armatum.ch/produkt/surefire-lampe-m340c-mini/",
+     "colors": {},
+     "title": "SureFire Lampe M340C Mini Scout Light Pro"
+    },
+    {
+     "shop": "aebiwaffen.ch",
+     "chf": 395.0,
+     "url": "https://www.aebiwaffen.ch/de/8545/lampe-surefire-mod-m340c-scout-pro-compact-blk",
+     "colors": {},
+     "title": "Lampe, SureFire, Mod. M340C Scout pro compact, BLK"
+    },
+    {
+     "shop": "tellsarmory.ch",
+     "chf": 415.36,
+     "url": "https://www.tellsarmory.ch/shop/surefire-m340c-mini-scout-light-pro-black-272",
+     "colors": {},
+     "title": "SUREFIRE, M340C Mini Scout Light Pro - Black"
+    },
+    {
+     "shop": "tacstore.ch",
+     "chf": 447.95,
+     "url": "https://www.tacstore.ch/surefire-m340c-mini-scout-light-pro-black",
+     "in_stock": true,
+     "colors": {},
+     "title": "SureFire M340C Mini Scout Light Pro - Black"
+    }
+   ]
   }
  }
 }

@@ -12,7 +12,7 @@
    "ax": 896.0,
    "ay": 106.0,
    "facing": "right",
-   "source": "primaryarms.com BCM-GFS-MOD-0-BLK (kép 00, jobbra néz); méret: hossz 6.75 in (Wing Tactical adatlap), a kép oldalaránya 1.395 egyezik a listázott 6.75/4.9=1.378 aránnyal (+-1.2%); a QD-furat 0.35 in, egyezik a Mod 1-ével",
+   "source": "primaryarms.com BCM-GFS-MOD-0-BLK (k\u00e9p 00, jobbra n\u00e9z); m\u00e9ret: hossz 6.75 in (Wing Tactical adatlap), a k\u00e9p oldalar\u00e1nya 1.395 egyezik a list\u00e1zott 6.75/4.9=1.378 ar\u00e1nnyal (+-1.2%); a QD-furat 0.35 in, egyezik a Mod 1-\u00e9vel",
    "toned": true
   },
   {
@@ -26,7 +26,7 @@
    "ax": 897.0,
    "ay": 96.5,
    "facing": "right",
-   "source": "primaryarms.com BCM-GFS-MOD1-SPMD-BLK (kép 00, jobbra néz); méret: hossz 7.32 in (AR15Discounts adatlap), a QD-furat 0.35 in a Mod 0-val azonos méretű furattal egyezik",
+   "source": "primaryarms.com BCM-GFS-MOD1-SPMD-BLK (k\u00e9p 00, jobbra n\u00e9z); m\u00e9ret: hossz 7.32 in (AR15Discounts adatlap), a QD-furat 0.35 in a Mod 0-val azonos m\u00e9ret\u0171 furattal egyezik",
    "toned": true
   },
   {
@@ -40,7 +40,35 @@
    "ax": 2.0,
    "ay": 104.5,
    "facing": "left",
-   "source": "primaryarms.com BCM-GFS-MOD1-SPMD-BLK (kép 01, balra néz); méret: hossz 7.32 in (AR15Discounts adatlap)",
+   "source": "primaryarms.com BCM-GFS-MOD1-SPMD-BLK (k\u00e9p 01, balra n\u00e9z); m\u00e9ret: hossz 7.32 in (AR15Discounts adatlap)",
+   "toned": true
+  },
+  {
+   "item": "sf-m340c",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/sf-m340c-main@left-any.webp",
+   "w": 1500,
+   "h": 802,
+   "ppi": 365.85,
+   "ax": 882.5,
+   "ay": 799.0,
+   "facing": "left",
+   "source": "surefire.com/mini-scout-light-pro (M340C-BK-PRO-profileL; hossz 4.1 in a gy\u00e1rt\u00f3i adatlapr\u00f3l)",
+   "toned": true
+  },
+  {
+   "item": "sf-m340c",
+   "slot": "main@right",
+   "color": "*",
+   "src": "parts/sf-m340c-main@right-any.webp",
+   "w": 1500,
+   "h": 801,
+   "ppi": 365.85,
+   "ax": 585.5,
+   "ay": 798.0,
+   "facing": "right",
+   "source": "surefire.com/mini-scout-light-pro (M340C-BK-PRO-profileR; hossz 4.1 in a gy\u00e1rt\u00f3i adatlapr\u00f3l)",
    "toned": true
   }
  ]

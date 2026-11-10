@@ -50,7 +50,7 @@ def main():
     offers = {}
     shops = []
     for f in sorted(glob.glob(os.path.join(PR, '*.json'))):
-        if f.endswith('merged.json'):
+        if f.endswith('merged.json') or f.endswith('overrides.json'):
             continue
         d = json.load(open(f, encoding='utf-8'))
         shop = d.get('shop') or os.path.basename(f)[:-5]
@@ -64,6 +64,14 @@ def main():
                 weight_g=it.get('weight_g'), dims=it.get('dims'), note=it.get('note'),
                 colors=colors_of(it)))
 
+    # kézi kiegészítések (overrides.json): átnevezett tételek pontosan megfelelő bolti ajánlatai
+    op = os.path.join(PR, 'overrides.json')
+    if os.path.exists(op):
+        for iid, lst in (json.load(open(op, encoding='utf-8')).get('items') or {}).items():
+            for o in lst:
+                offers.setdefault(iid, []).append(dict(shop=o['shop'], chf=float(o['price_chf']), list_chf=None, url=o['url'],
+                    image=None, in_stock=o.get('in_stock'), title=o.get('title'), weight_g=None, dims=None, note=o.get('note'),
+                    color=None, colors={}))
     items = {}
     for iid, offs in offers.items():
         stock = [o for o in offs if o['in_stock'] is not False]

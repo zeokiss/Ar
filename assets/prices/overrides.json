@@ -1,0 +1,43 @@
+{
+ "_comment": "Kézi kiegészítések a boltonkénti gyűjtőkön kívül: olyan bolti termékek, amelyek egy átnevezett katalógus-tételnek pontosan megfelelnek (itt: sf-m340c, korábban sf-m300). Az árat és az URL-t a bolt oldaláról gyűjtötték az ár-ügynökök (tacstore: újra ellenőrizve 2026-11-10).",
+ "items": {
+  "sf-m340c": [
+   {
+    "shop": "aebiwaffen.ch",
+    "price_chf": 395.0,
+    "url": "https://www.aebiwaffen.ch/de/8545/lampe-surefire-mod-m340c-scout-pro-compact-blk",
+    "in_stock": null,
+    "title": "Lampe, SureFire, Mod. M340C Scout pro compact, BLK"
+   },
+   {
+    "shop": "armatum.ch",
+    "price_chf": 379.0,
+    "url": "https://armatum.ch/produkt/surefire-lampe-m340c-mini/",
+    "in_stock": null,
+    "title": "SureFire Lampe M340C Mini Scout Light Pro"
+   },
+   {
+    "shop": "tellsarmory.ch",
+    "price_chf": 415.36,
+    "url": "https://www.tellsarmory.ch/shop/surefire-m340c-mini-scout-light-pro-black-272",
+    "in_stock": null,
+    "title": "SUREFIRE, M340C Mini Scout Light Pro - Black"
+   },
+   {
+    "shop": "tacstore.ch",
+    "price_chf": 447.95,
+    "url": "https://www.tacstore.ch/surefire-m340c-mini-scout-light-pro-black",
+    "in_stock": true,
+    "title": "SureFire M340C Mini Scout Light Pro - Black"
+   },
+   {
+    "shop": "armashop.ch",
+    "price_chf": 370.0,
+    "url": "https://armashop.ch/produit/lampe-m340c-mini-scout-light-blk-arrive-prochainement/",
+    "in_stock": false,
+    "title": "Surefire Lampe M340C Mini Scout Light BLK",
+    "note": "Az oldal szerint hamarosan érkezik."
+   }
+  ]
+ }
+}
