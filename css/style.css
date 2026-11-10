@@ -318,3 +318,9 @@ select { background: var(--panel-2); border: 1px solid var(--line); border-radiu
 .srclist li a { color: var(--text); text-decoration: none; }
 .srclist li a:hover { color: var(--accent-2); text-decoration: underline; }
 @media (max-width: 640px) { .sources { padding: 0 16px 8px; } .srclist { grid-template-columns: 1fr; } }
+
+.srcsub small { font: 500 12px var(--body); color: var(--muted); text-transform: none; letter-spacing: 0; margin-left: 8px; }
+.srcbox.muted { background: transparent; }
+.srctags { display: flex; flex-wrap: wrap; gap: 4px; }
+.srctags span { font-size: 11px; line-height: 1; padding: 3px 6px; border: 1px solid var(--line); border-radius: 10px; color: var(--muted); }
+.srcbox .why { font-style: italic; }

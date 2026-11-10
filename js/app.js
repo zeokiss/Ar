@@ -955,19 +955,42 @@
     if (!el) return;
     const cnt = {}, best = {};
     Object.values(PRICES).forEach(it => {
-      (it.offers || []).forEach(o => { cnt[o.shop] = (cnt[o.shop] || 0) + 1; });
-      const b = (it.offers || []).reduce((x, y) => (!x || y.chf < x.chf ? y : x), null);
+      const offs = (it.offers || []).filter(o => shopOk(o.shop));
+      offs.forEach(o => { cnt[o.shop] = (cnt[o.shop] || 0) + 1; });
+      const b = offs.reduce((x, y) => (!x || y.chf < x.chf ? y : x), null);
       if (b) best[b.shop] = (best[b.shop] || 0) + 1;
     });
-    const shops = Object.keys(SHOPINFO).filter(shopOk).sort((x, y) => (cnt[y] || 0) - (cnt[x] || 0));
+    const all = Object.keys(SHOPINFO);
+    const priced = all.filter(sh => shopOk(sh) && cnt[sh]).sort((x, y) => (cnt[y] || 0) - (cnt[x] || 0) || x.localeCompare(y));
+    const rest = all.filter(sh => !priced.includes(sh)).sort((x, y) => {
+      const a = SHOPINFO[x], b = SHOPINFO[y];
+      return ((a.km == null) - (b.km == null)) || ((a.km || 0) - (b.km || 0)) || x.localeCompare(y);
+    });
+    const KIND = { online: 'csak online', store: 'csak üzlet', both: 'webshop + üzlet' };
+    const dist = (i) => i.visit ? i.visit
+      : (i.km != null ? `${i.km_est ? 'kb. ' : ''}${i.km} km a ${SHOPREF.plz} ${SHOPREF.place} térségétől${i.km_est ? ' (becslés)' : ''}` : '');
+    const why = (sh) => {
+      const i = SHOPINFO[sh];
+      if (i.noPriceReason) return i.noPriceReason;
+      if (!shopOk(sh)) return `Nem szállít, és ${SHOPREF.radius_km} km-nél messzebb van, ezért az árait nem veszem figyelembe.`;
+      if (i.online_prices === false) return 'Nincs online árlista – az árakat a boltban kell megkérdezni.';
+      return 'A kalkulátor termékei közül egyikhez sem találtam pontosan egyező, árazott terméket.';
+    };
+    const box = (sh, withPrice) => { const i = SHOPINFO[sh]; const tags = [i.canton, KIND[i.kind], i.ships ? 'szállít' : (i.ships === false ? 'nem szállít' : '')].filter(Boolean);
+      return `<div class="srcbox${withPrice ? '' : ' muted'}">
+        <h3><a href="${i.url}" target="_blank" rel="noopener">${esc(sh)}</a><small>${esc(i.city || '')}</small></h3>
+        ${tags.length ? `<p class="srctags">${tags.map(t => `<span>${esc(t)}</span>`).join('')}</p>` : ''}
+        <p>${esc(i.name || '')}${i.addr ? '<br>' + esc(i.addr) : ''}${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}</p>
+        <p class="srcmeta">${withPrice ? `<b>${cnt[sh]} termék ára</b> · ${best[sh] || 0} tételnél ez a legolcsóbb<br>` : ''}${esc(dist(i))}</p>
+        ${i.shipNote ? `<p class="srcmeta">${esc(i.shipNote)}</p>` : ''}
+        ${withPrice ? '' : `<p class="srcmeta why">${esc(why(sh))}</p>`}</div>`; };
     const others = (window.AR_OTHER_SOURCES || []);
     el.innerHTML = `<h2 id="srcTitle">Boltok és források</h2>
-      <p class="srcnote">Az árak <b>kizárólag</b> az alábbi svájci boltokból származnak (CHF, a bolt kiírt fogyasztói ára). A fotók és a méretek a második listában szereplő gyártói és kereskedői oldalakról jönnek.</p>
-      <div class="srcgrid">${shops.map(sh => { const i = SHOPINFO[sh]; return `<div class="srcbox">
-        <h3><a href="${i.url}" target="_blank" rel="noopener">${esc(sh)}</a><small>${esc(i.city)}</small></h3>
-        <p>${esc(i.name)}<br>${esc(i.addr)}${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}</p>
-        <p class="srcmeta">${cnt[sh] || 0} termék ára · ${best[sh] || 0} tételnél ez a legolcsóbb<br>${esc(i.visit || (i.km != null ? 'kb. ' + i.km + ' km a ' + SHOPREF.plz + ' ' + SHOPREF.place + ' térségétől' : ''))}</p>
-        <p class="srcmeta">${esc(i.shipNote || '')}</p></div>`; }).join('')}</div>
+      <p class="srcnote">${all.length} svájci bolt van a listán, ebből <b>${priced.length}</b> bolt árai vannak a kalkulátorban. Az árak <b>kizárólag</b> svájci boltokból származnak (CHF, a bolt kiírt fogyasztói ára), és csak olyan boltból, amelyik szállít, vagy ${SHOPREF.radius_km} km-en belül van ${SHOPREF.plz} ${SHOPREF.place}-től.</p>
+      <h3 class="srcsub">Árak forrásai <small>${priced.length} bolt</small></h3>
+      <div class="srcgrid">${priced.map(sh => box(sh, true)).join('')}</div>
+      ${rest.length ? `<h3 class="srcsub">További svájci boltok <small>${rest.length} bolt · ár nélkül</small></h3>
+      <div class="srcgrid">${rest.map(sh => box(sh, false)).join('')}</div>` : ''}
       <h3 class="srcsub">Fotó- és adatforrások</h3>
       <ul class="srclist">${others.map(o => `<li><b>${o.url ? `<a href="${o.url}" target="_blank" rel="noopener">${esc(o.name)}</a>` : esc(o.name)}</b><span>${esc(o.for)}</span></li>`).join('')}</ul>`;
   }
