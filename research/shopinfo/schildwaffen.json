@@ -1,0 +1,21 @@
+{
+ "domain": "schildwaffen.ch",
+ "url": "https://www.schildwaffen.ch/de/start.htm",
+ "name": "Schild Waffen AG",
+ "addr": "Kohlackerstrasse 12, 4323 Wallbach",
+ "city": "Wallbach AG",
+ "canton": "AG",
+ "tel": "+41 61 861 14 27",
+ "kind": "both",
+ "ships": true,
+ "shipNote": "Az ÁSZF szerint az árak EXW (ab Werk) értendők; szállítás, csomagolás, biztosítás (és MWST, díjak, vám) a vevőt terheli, szállítási díjat vagy ingyenes határt az oldal nem közöl; engedélyköteles ügyleteknél a teljesítés a hatósági engedély megérkezésétől függ.",
+ "km": 90,
+ "km_est": true,
+ "online_prices": true,
+ "sources": [
+  "https://www.schildwaffen.ch/de/impressum/",
+  "https://www.schildwaffen.ch/de/kontakt/",
+  "https://www.schildwaffen.ch/de/agb/"
+ ],
+ "notes": "Opacc webshop; az árakat az oldal JavaScripttel tölti be (a termék-/keresőoldal saját ár-lekérdezése, munkamenettel). Az ÁSZF 3. pontja: 'Mehrwertsteuern ... gehen zu Lasten des Kunden' – az oldal nem írja ki egyértelműen, hogy a megjelenített ár MWST-vel értendő-e. Bolt + lőtér (Schiesskeller); nyitva K–P 09.00–12.00, 14.00–18.30, Szo 09.00–16.00, hétfő zárva. Online minimum rendelési érték CHF 25 (az oldal 'mindestumsatzamt' adata)."
+}

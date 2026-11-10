@@ -1,0 +1,22 @@
+{
+ "domain": "heldef.ch",
+ "url": "https://heldef.ch/",
+ "name": "Helvetia Defense",
+ "addr": "Route de Compois 6, 1222 Vésenaz",
+ "city": "Vésenaz GE",
+ "canton": "GE",
+ "tel": "+41 22 593 00 01",
+ "kind": "both",
+ "ships": true,
+ "shipNote": "Svájcon belül ingyenes szállítás (ÁSZF; a fejléc szerint CHF 29 felett); fegyvert aláírás ellenében kézbesítenek, és csak a teljes fizetés, a szerzési engedély és érvényes igazolvány beérkezése után adják fel; nemzetközi szállítás nincs. Engedélymentes cikkeket a fizetéstől számított 48 órán belül küldenek.",
+ "km": 310,
+ "km_est": true,
+ "online_prices": true,
+ "sources": [
+  "https://heldef.ch/pages/contact.html",
+  "https://heldef.ch/general-sales-terms-and-conditions/",
+  "https://heldef.ch/pages/about.html",
+  "https://heldef.ch/faq/"
+ ],
+ "notes": "BigCommerce webshop (angol/francia; de.heldef.ch német nyelvű változat). A megjelenített ár a 'price--withTax' (ÁFA-val) ár. Bemutatóterem csak előzetes időpontra, H–P 11–20 óra. A cégforma az oldalon nincs feltüntetve (csak 'Helvetia Defense')."
+}

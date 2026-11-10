@@ -1,0 +1,21 @@
+{
+ "domain": "waffenboerse.ch",
+ "url": "https://www.waffenboerse.ch/",
+ "name": "NaturAktiv AG (Waffenbörse)",
+ "addr": "Riedäckerstrasse 9, 8422 Pfungen",
+ "city": "Pfungen ZH",
+ "canton": "ZH",
+ "tel": "+41 52 212 34 12",
+ "kind": "both",
+ "ships": true,
+ "shipNote": "Az ÁSZF szerint a csomagot általában 3 munkanapon belül adják át a Postának/futárszolgálatnak; a szállítási és csomagolási költség a vevőé (aktuális posta-/fuvardíj), minden postai küldemény „Signature”. Engedélyköteles cikkeknél az eredeti dokumentum (WES / kivételes engedély) a vásárlás feltétele.",
+ "km": 55,
+ "km_est": true,
+ "online_prices": true,
+ "sources": [
+  "https://www.waffenboerse.ch/de/ueberuns/kontakt/",
+  "https://www.waffenboerse.ch/de/agb/",
+  "https://www.waffenboerse.ch/de/ueberuns/faq/"
+ ],
+ "notes": "Opacc webshop. Az ÁSZF szerint minden ár CHF-ben, MWST-vel értendő. Bolt (Fachgeschäft Pfungen): K–P 09.30–12.00 és 13.30–18.30, csüt. 19.30-ig, Szo 09.00–16.00. A színváltozatok külön cikkek (pl. 'PMAG 30 ... Schwarz' / '... FDE')."
+}

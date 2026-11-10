@@ -1,0 +1,20 @@
+{
+ "domain": "ellie-firearms.com",
+ "url": "https://ellie-firearms.com/",
+ "name": "ELLIE FA GmbH",
+ "addr": "Bächliweg 6, FL-9495 Triesen (Liechtenstein); Verkaufsstelle: Gemeindegarten 23, FL-9495 Nendeln",
+ "city": "Triesen / Nendeln (FL)",
+ "canton": null,
+ "tel": "+41 78 757 00 89",
+ "kind": "both",
+ "ships": true,
+ "shipNote": "Svájci Postával (A-Post) küldenek; csak fogyóanyagokra: CHF 350 rendelési értékig átalány CHF 11, CHF 351-től ingyenes; nehéz/terjedelmes áru szállítmányozóval; expressz felár CHF 60. Az oldal szerint szinte minden európai országba szállítanak.",
+ "km": 100,
+ "km_est": true,
+ "online_prices": true,
+ "sources": [
+  "https://ellie-firearms.com/content/7-impressum",
+  "https://ellie-firearms.com/content/9-liefer-versandkosten"
+ ],
+ "notes": "NEM svájci bolt: az Impressum szerint a cég székhelye és értékesítési pontja Liechtensteinben van (Hauptsitz Triesen, Verkaufsstelle Nendeln; FL Handelsregister FL-0002.727.942-1; UID CHE-227.045.976). Az árak CHF-ben vannak, de a feladat szerint nem svájci boltnál árat nem gyűjtöttünk. (A korábbi kutatás 'Buchs SG' helymegjelölése téves.) PrestaShop webshop."
+}

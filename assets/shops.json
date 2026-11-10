@@ -260,26 +260,19 @@
    ]
   },
   "ellie-firearms.com": {
-   "name": "Ellie FA GmbH",
-   "display": "ELLIE-Firearms",
-   "city": "Buchs",
-   "canton": "SG",
+   "name": "ELLIE FA GmbH",
+   "addr": "Bächliweg 6, FL-9495 Triesen; Verkaufsstelle: Gemeindegarten 23, FL-9495 Nendeln",
+   "city": "Triesen / Nendeln",
+   "tel": "+41 78 757 00 89",
    "url": "https://ellie-firearms.com/",
-   "kind": "online",
+   "kind": "both",
+   "ships": true,
+   "shipNote": "Svájci Postával küldenek; csak fogyóanyagokra: CHF 350 rendelési értékig átalány CHF 11, CHF 351-től ingyenes; nehéz/terjedelmes áru szállítmányozóval; expressz felár CHF 60. Az oldal szerint szinte minden európai országba szállítanak.",
    "online_prices": true,
-   "brands": [
-    "Hera Arms",
-    "Vortex",
-    "Falke",
-    "Condor",
-    "Skeleton Optics",
-    "Akdas",
-    "Skywolf",
-    "Messerschmitt"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/ellie/hera-cqr-gen1-black/m8h9f8tzvrj6"
+    "https://ellie-firearms.com/content/7-impressum",
+    "https://ellie-firearms.com/content/9-liefer-versandkosten"
    ]
   },
   "felder-jagdhof.ch": {
@@ -393,25 +386,22 @@
    ]
   },
   "heldef.ch": {
-   "name": "Helvetia Defense Sàrl",
-   "display": "Helvetia Defense",
+   "name": "Helvetia Defense",
+   "addr": "Route de Compois 6, 1222 Vésenaz",
+   "city": "Vésenaz GE",
+   "canton": "GE",
+   "tel": "+41 22 593 00 01",
    "url": "https://heldef.ch/",
-   "kind": "online",
+   "kind": "both",
    "ships": true,
+   "shipNote": "Svájcon belül ingyenes szállítás; fegyvert aláírás ellenében kézbesítenek, és csak a teljes fizetés, a szerzési engedély és érvényes igazolvány beérkezése után adják fel; nemzetközi szállítás nincs. Engedélymentes cikkeket a fizetéstől számított 48 órán belül küldenek.",
    "online_prices": true,
-   "brands": [
-    "Holosun",
-    "EOTech",
-    "Aimpoint",
-    "Vortex",
-    "Hera Arms",
-    "Nextorch",
-    "Vaultek",
-    "GPS"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/heldef/red-dot-aimpoint-9000-l-2-moa/mpp3metmmobb"
+    "https://heldef.ch/pages/contact.html",
+    "https://heldef.ch/general-sales-terms-and-conditions/",
+    "https://heldef.ch/pages/about.html",
+    "https://heldef.ch/faq/"
    ]
   },
   "Hollenstein Waffen": {
@@ -610,21 +600,21 @@
    "canton": "GL"
   },
   "schildwaffen.ch": {
-   "name": "Schild Waffen",
-   "city": "Wallbach",
+   "name": "Schild Waffen AG",
+   "addr": "Kohlackerstrasse 12, 4323 Wallbach",
+   "city": "Wallbach AG",
    "canton": "AG",
-   "url": "https://www.schildwaffen.ch/",
-   "kind": "online",
+   "tel": "+41 61 861 14 27",
+   "url": "https://www.schildwaffen.ch/de/start.htm",
+   "kind": "both",
+   "ships": true,
+   "shipNote": "Az ÁSZF szerint az árak EXW értendők; szállítás, csomagolás, biztosítás a vevőt terheli, szállítási díjat vagy ingyenes határt az oldal nem közöl; engedélyköteles ügyleteknél a teljesítés a hatósági engedély megérkezésétől függ.",
    "online_prices": true,
-   "brands": [
-    "SureFire",
-    "Aimpoint",
-    "Holosun",
-    "5.11"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/schild/lampe-surefire-x300u-b-tan-1000lm/mplsofk6c6ep"
+    "https://www.schildwaffen.ch/de/impressum/",
+    "https://www.schildwaffen.ch/de/kontakt/",
+    "https://www.schildwaffen.ch/de/agb/"
    ]
   },
   "shooting-store.ch": {
@@ -740,22 +730,19 @@
    "canton": "SZ"
   },
   "treehuggersupply.ch": {
-   "name": "Treehugger Supply",
+   "name": "Schärer Treehuggersupply",
+   "addr": "8153 Rümlang",
+   "city": "Rümlang ZH",
+   "canton": "ZH",
    "url": "https://treehuggersupply.ch/",
    "kind": "online",
+   "shipNote": "Az oldalon nincs szállítási/ÁSZF-oldal; szállítási díjat vagy feltételt nem találtam.",
    "online_prices": true,
-   "brands": [
-    "SureFire",
-    "Trijicon",
-    "Aimpoint",
-    "Vortex",
-    "A-TEC",
-    "Acheron",
-    "Silent Steel"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/treehugger/trijicon-acog-3535-dual-illuminated-223-556/m2c0rn2af3zl"
+    "https://treehuggersupply.ch/",
+    "https://treehuggersupply.ch/kontakt/",
+    "https://treehuggersupply.ch/dienstleistungen/"
    ]
   },
   "Ulrich Waffen AG": {
@@ -810,26 +797,20 @@
   },
   "waffenboerse.ch": {
    "name": "NaturAktiv AG",
-   "display": "Waffenbörse",
-   "addr": "8422 Pfungen",
-   "city": "Pfungen",
+   "addr": "Riedäckerstrasse 9, 8422 Pfungen",
+   "city": "Pfungen ZH",
    "canton": "ZH",
+   "tel": "+41 52 212 34 12",
    "url": "https://www.waffenboerse.ch/",
-   "kind": "online",
+   "kind": "both",
+   "ships": true,
+   "shipNote": "Az ÁSZF szerint a csomagot általában 3 munkanapon belül adják át a Postának/futárszolgálatnak; a szállítási és csomagolási költség a vevőé, minden postai küldemény „Signature”. Engedélyköteles cikkeknél az eredeti dokumentum a vásárlás feltétele.",
    "online_prices": true,
-   "brands": [
-    "Holosun",
-    "Aimpoint",
-    "EOTech",
-    "Streamlight",
-    "Zev",
-    "Blaser",
-    "GPS",
-    "Eberlestock"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/naturaktiv/holosun-aro-mrs-rd/mh1n391ppakj"
+    "https://www.waffenboerse.ch/de/ueberuns/kontakt/",
+    "https://www.waffenboerse.ch/de/agb/",
+    "https://www.waffenboerse.ch/de/ueberuns/faq/"
    ]
   },
   "waffenemmental.ch": {

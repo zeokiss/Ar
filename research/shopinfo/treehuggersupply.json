@@ -1,0 +1,21 @@
+{
+ "domain": "treehuggersupply.ch",
+ "url": "https://treehuggersupply.ch/",
+ "name": "Schärer Treehuggersupply",
+ "addr": "8153 Rümlang (utca nincs megadva)",
+ "city": "Rümlang ZH",
+ "canton": "ZH",
+ "tel": null,
+ "kind": "online",
+ "ships": null,
+ "shipNote": "Az oldalon nincs szállítási/ÁSZF-oldal; szállítási díjat vagy feltételt nem találtam.",
+ "km": 40,
+ "km_est": true,
+ "online_prices": true,
+ "sources": [
+  "https://treehuggersupply.ch/",
+  "https://treehuggersupply.ch/kontakt/",
+  "https://treehuggersupply.ch/dienstleistungen/"
+ ],
+ "notes": "BigCommerce webshop. Cím csak a láblécben: 'Schärer Treehuggersupply, 8153 Rümlang, Schweiz', UID CHE-341.463.190, NATO Cage Code SLUA6; e-mail info@treehuggersupply.ch, telefonszám nincs. Impressum-oldal nincs. A Kontakt oldal szerint látogatás csak előzetes egyeztetéssel. A termékoldalon az ár a BigCommerce 'without_tax' mezőjében jelenik meg, külön ÁFA-felirat nélkül."
+}
