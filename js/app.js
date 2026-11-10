@@ -713,7 +713,7 @@
   function applyPriceVisibility() {
     document.body.classList.toggle('noprice', hidePrices);
     const b = $('#btnPrices');
-    if (b) { b.setAttribute('aria-pressed', hidePrices ? 'true' : 'false'); b.textContent = hidePrices ? 'Árak mutatása' : 'Árak elrejtése'; }
+    if (b) b.checked = !hidePrices;
   }
 
   // ------------------------------------------------------------ indítás
@@ -727,7 +727,7 @@
     $('#rate').oninput = (e) => { const v = Number(e.target.value); if (v > 0) { state.rate = v; update(true); } };
     $('#eurChf').value = state.eurChf;
     $('#eurChf').oninput = (e) => { const v = Number(e.target.value); if (v > 0) { state.eurChf = v; update(true); } };
-    $('#btnPrices').onclick = () => { hidePrices = !hidePrices; try { localStorage.setItem('ar15-hideprices', hidePrices ? '1' : '0'); } catch (e) { /* ignore */ } applyPriceVisibility(); };
+    $('#btnPrices').onchange = () => { hidePrices = !$('#btnPrices').checked; try { localStorage.setItem('ar15-hideprices', hidePrices ? '1' : '0'); } catch (e) { /* ignore */ } applyPriceVisibility(); };
     applyPriceVisibility();
     $('#btnExplode').onclick = () => setExploded(!exploded);
     $('#btnAssemble').onclick = () => renderRifle(true);
