@@ -627,13 +627,13 @@ window.AR_RENDER = (function () {
     sling: [0, 0], tube: [-110, 0], stock: [-200, 20], lower: [0, 140], trigger: [0, 200], grip: [-40, 250],
     mag: [10, 320], bcg: [-30, -170], upper: [0, 0], ch: [-190, -110], barrel: [130, 0], handguard: [130, -110],
     muzzle: [300, 0], optic: [-10, -230], lpvo: [-10, -260], magnifier: [-150, -230], buis: [0, -300],
-    light: [190, -190], mlok: [150, 150], bipod: [220, 240], controls: [-80, 180],
+    light: [190, -190], mlok: [150, 150], bipod: [220, 240], controls: [-80, 180], base: [0, 0],
   };
 
   const LABELS = {
     sling: 'Szíj', tube: 'Puffercső', stock: 'Tus', lower: 'Alsó tok', trigger: 'Elsütő', grip: 'Markolat', mag: 'Tár',
     bcg: 'Zárszerkezet', upper: 'Felső tok', ch: 'Felhúzókar', barrel: 'Cső', handguard: 'Előagy', muzzle: 'Csőtorkolat',
-    optic: 'Red dot', lpvo: 'LPVO', magnifier: 'Nagyító', buis: 'Vas irányzék', light: 'Lámpa', mlok: 'M-LOK', bipod: 'Bipod', controls: 'Kezelőszervek',
+    optic: 'Red dot', lpvo: 'LPVO', magnifier: 'Nagyító', buis: 'Vas irányzék', light: 'Lámpa', mlok: 'M-LOK', bipod: 'Bipod', controls: 'Kezelőszervek', base: 'Alapfegyver', mount: 'Optikaszerelék',
   };
 
   function group(cat, content, labelOverride) {
@@ -646,7 +646,15 @@ window.AR_RENDER = (function () {
    * spec – lásd app.js buildSpec()
    * visszaad: { svg, metrics: { rail spans, muzzleEnd, ... } }
    */
+  function renderPhoto(spec) {
+    const pr = window.AR_PHOTO_RENDER && window.AR_PHOTO_RENDER.render(spec);
+    if (!pr) return null;
+    return { svg: pr.parts.map(p => group(p.cat, p.svg)).join(''), metrics: pr.metrics, photo: true };
+  }
+
   function render(spec) {
+    const ph = renderPhoto(spec);
+    if (ph) return ph;
     const fin = spec.finish;
     const out = [];
     const spans = []; // felső sín foglaltság: [x0,x1,név]

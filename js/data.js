@@ -172,16 +172,16 @@ window.AR_DATA = (function () {
     { id: 'vx-se18', cat: 'lpvo', brand: 'Vortex', name: 'Strike Eagle 1-8x24', price: 450, weight: 560, style: 'lpvo', len: 10.6, obj: 24, needsMount: true, specs: ['1–8x', 'SFP', '30 mm tubus'] },
     { id: 'vx-pst16', cat: 'lpvo', brand: 'Vortex', name: 'Viper PST Gen II 1-6x24', price: 700, weight: 600, style: 'lpvo', len: 10.4, obj: 24, needsMount: true, specs: ['1–6x', 'SFP', 'Világító szálkereszt'] },
     { id: 'vx-razor110', cat: 'lpvo', brand: 'Vortex', name: 'Razor HD Gen III 1-10x24', price: 2000, weight: 610, style: 'lpvo', len: 10.1, obj: 24, needsMount: true, specs: ['1–10x', 'FFP', 'Prémium üveg'] },
-    { id: 'tj-acog', cat: 'lpvo', brand: 'Trijicon', name: 'ACOG TA31 4x32', price: 1400, weight: 430, style: 'acog', specs: ['Fix 4x prizmás', 'Elem nélküli megvilágítás', 'Szerelékkel'] },
+    { id: 'tj-acog', cat: 'lpvo', brand: 'Trijicon', name: 'ACOG TA31 4x32', price: 1400, weight: 430, style: 'acog', contact: true, specs: ['Fix 4x prizmás', 'Elem nélküli megvilágítás', 'Szerelékkel'] },
     { id: 'tj-credo16', cat: 'lpvo', brand: 'Trijicon', name: 'Credo 1-6x24', price: 900, weight: 560, style: 'lpvo', len: 10.3, obj: 24, needsMount: true, specs: ['1–6x', 'SFP', '30 mm tubus'] },
-    { id: 'tj-vcog', cat: 'lpvo', brand: 'Trijicon', name: 'VCOG 1-8x28', price: 2100, weight: 650, style: 'lpvo', len: 10.2, obj: 28, integralMount: true, specs: ['1–8x', 'FFP', 'Integrált szerelék'] },
+    { id: 'tj-vcog', cat: 'lpvo', brand: 'Trijicon', name: 'VCOG 1-8x28', price: 2100, weight: 650, style: 'lpvo', len: 10.2, obj: 28, integralMount: true, contact: true, specs: ['1–8x', 'FFP', 'Integrált szerelék'] },
     { id: 'eo-vudu16', cat: 'lpvo', brand: 'EOTech', name: 'Vudu 1-6x24', price: 1200, weight: 570, style: 'lpvo', len: 10.2, obj: 24, needsMount: true, specs: ['1–6x', 'FFP / SFP', '30 mm tubus'] },
     { id: 'eo-vudu110', cat: 'lpvo', brand: 'EOTech', name: 'Vudu 1-10x28', price: 1700, weight: 640, style: 'lpvo', len: 10.8, obj: 28, needsMount: true, specs: ['1–10x', 'FFP', '34 mm tubus'] },
 
     // ----------------------------------------------------------- Szerelék (LPVO-hoz)
     NONE('mount', 'Nincs külön szerelék'),
-    { id: 'gs-sp30', cat: 'mount', brand: 'Geissele', name: 'Super Precision 30 mm', price: 420, weight: 230, style: 'geissele', specs: ['30 mm', '1,93" magasság', 'Prémium'] },
-    { id: 'vx-cant30', cat: 'mount', brand: 'Vortex', name: 'Sport Cantilever 30 mm', price: 80, weight: 260, style: 'cant', specs: ['30 mm', '2" előretolás'] },
+    { id: 'gs-sp30', cat: 'mount', brand: 'Geissele', name: 'Super Precision 30 mm', price: 420, weight: 230, style: 'geissele', axis: 1.93, specs: ['30 mm', '1,93" magasság', 'Prémium'] },
+    { id: 'vx-cant30', cat: 'mount', brand: 'Vortex', name: 'Sport Cantilever 30 mm', price: 80, weight: 260, style: 'cant', axis: 1.54, specs: ['30 mm', '2" előretolás'] },
 
     // ----------------------------------------------------------- Nagyító
     NONE('magnifier', 'Nincs nagyító'),

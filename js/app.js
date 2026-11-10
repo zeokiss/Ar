@@ -28,7 +28,7 @@
       sel[c] = (list.find(i => i.factory) || list.find(i => i.none) || list[0]).id;
     });
     if (!b.factoryBuis) sel.buis = 'buis-none';
-    return { base: b.id, finish: b.finishes[0], sel, multi: { mlok: [], controls: [] }, colors: {}, rate: 390 };
+    return { base: b.id, finish: b.finishes[0], sel, multi: { mlok: [], controls: [] }, colors: {}, pos: {}, rate: 390 };
   }
 
   let state = loadState() || defaultState();
@@ -55,6 +55,7 @@
     SINGLE_CATS.forEach(c => { if (s.sel && ITEM[s.sel[c]] && ITEM[s.sel[c]].cat === c) out.sel[c] = s.sel[c]; });
     MULTI_CATS.forEach(c => { out.multi[c] = ((s.multi && s.multi[c]) || []).filter(id => ITEM[id] && ITEM[id].cat === c); });
     out.colors = (s.colors && typeof s.colors === 'object') ? s.colors : {};
+    out.pos = (s.pos && typeof s.pos === 'object') ? s.pos : {};
     out.rate = Number(s.rate) > 0 ? Number(s.rate) : d.rate;
     return out;
   }
@@ -76,6 +77,7 @@
     const c = state.colors[it.id] || it.colors[0];
     return D.COLORS[c] ? D.COLORS[c].name : '';
   };
+  const colorIdOf = (it) => (it && it.colors) ? (state.colors[it.id] || it.colors[0]) : undefined;
   const isActive = (it) => it && !it.none;
 
   function factoryStyle(cat) {
@@ -103,18 +105,20 @@
     let stockRear;
     if (st.type === 'rifle') stockRear = (st.style === 'prs' ? 11.0 : st.style === 'b5prec' ? 11.2 : 10.8) + lop;
     else stockRear = (st.style === 'slk' ? 8.4 : 9.2) + lop;
-    const pick = (cat, extra) => { const it = resolved(cat); return isActive(it) ? Object.assign({ hex: colorOf(it) }, it, extra || {}) : null; };
+    const pick = (cat, extra) => { const it = resolved(cat); return isActive(it) ? Object.assign({ hex: colorOf(it), colorId: colorIdOf(it) }, it, extra || {}) : null; };
     const tg = state.multi.controls.includes('mp-trigguard') ? ITEM['mp-trigguard'] : null;
     return {
       barrel: b.barrel, hgLen: b.hgLen, hgStyle: b.hgStyle, finish: D.FINISHES[state.finish].hex, ambi: b.ambi,
-      grip: Object.assign({ hex: colorOf(resolved('grip')) }, resolved('grip')),
-      stock: Object.assign({ hex: colorOf(st) }, st), stockRear,
+      baseId: b.id, finishId: state.finish, pos: state.pos,
+      grip: Object.assign({ hex: colorOf(resolved('grip')), colorId: colorIdOf(resolved('grip')) }, resolved('grip')),
+      stock: Object.assign({ hex: colorOf(st), colorId: colorIdOf(st) }, st), stockRear,
+      mountItem: isActive(sel('mount')) ? sel('mount') : null,
       pad: pad && !pad.factory ? pad.style : 'std',
       optic: pick('optic'), lpvo: pick('lpvo'), mount: (sel('mount') && !sel('mount').none) ? sel('mount').style : null,
       magnifier: pick('magnifier'), buis: pick('buis'), light: pick('light'), bipod: pick('bipod'),
-      muzzle: resolved('muzzle'), trigger: resolved('trigger').style, ch: Object.assign({ hex: colorOf(resolved('ch')) }, resolved('ch')),
-      mag: Object.assign({ hex: colorOf(sel('mag')) }, sel('mag')), sling: pick('sling'),
-      mlok: state.multi.mlok.map(id => Object.assign({ hex: colorOf(ITEM[id]) }, ITEM[id])),
+      muzzle: Object.assign({ colorId: colorIdOf(resolved('muzzle')) }, resolved('muzzle')), trigger: resolved('trigger').style, ch: Object.assign({ hex: colorOf(resolved('ch')) }, resolved('ch')),
+      mag: Object.assign({ hex: colorOf(sel('mag')), colorId: colorIdOf(sel('mag')) }, sel('mag')), sling: pick('sling'),
+      mlok: state.multi.mlok.map(id => Object.assign({ hex: colorOf(ITEM[id]), colorId: colorIdOf(ITEM[id]) }, ITEM[id])),
       controls: state.multi.controls.map(id => ITEM[id].style),
       tguardHex: tg ? colorOf(tg) : null,
     };
@@ -155,7 +159,8 @@
     const isRifle = spec.stock.type === 'rifle';
     const minS = isRifle ? spec.stockRear : spec.stockRear - 1.6;
     const maxS = isRifle ? spec.stockRear + (spec.stock.style === 'prs' ? 1.5 : 0) : spec.stockRear + 1.65;
-    const oal = [(minS + fixed) * 2.54, (maxS + fixed) * 2.54];
+    let oal = [(minS + fixed) * 2.54, (maxS + fixed) * 2.54];
+    if (metrics.oalIn) oal = [metrics.oalIn * 2.54, metrics.oalIn * 2.54];
     return { price, weight, lines, oal };
   }
 
@@ -352,7 +357,7 @@
   }
   function partTitle(cat) {
     const b = base();
-    if (['lower', 'upper', 'barrel', 'handguard', 'bcg'].includes(cat)) return `${b.brand} ${b.name} – ${RN.LABELS[cat]}`;
+    if (['lower', 'upper', 'barrel', 'handguard', 'bcg', 'base'].includes(cat)) return `${b.brand} ${b.name} – ${RN.LABELS[cat]}`;
     if (cat === 'tube') return 'Puffercső';
     if (MULTI_CATS.includes(cat)) return state.multi[cat].map(id => ITEM[id].name).join(', ');
     const it = sel(cat);
@@ -406,11 +411,17 @@
     const shown = items.filter(i => brandFilter === 'Összes' || i.brand === brandFilter || i.factory || i.none);
     const selectedIds = cat.multi ? state.multi[cat.id] : [state.sel[cat.id]];
     const hint = cat.multi ? '<p class="hint">Több elem is választható. Az előmarkolat-félék közül egyszerre egy lehet fent.</p>' : '';
+    const posHtml = (lastMetrics && lastMetrics.photo && POS_CATS[cat.id]) ? posRow(cat.id) : '';
     panel.innerHTML = `
       <div class="panel-head"><h2>${cat.name}</h2>
         <div class="chips">${brands.map(b => `<button class="chip${b === brandFilter ? ' on' : ''}" data-brand="${b}">${b}</button>`).join('')}</div></div>
-      ${hint}
+      ${hint}${posHtml}
       <div class="grid">${shown.map(it => card(it, selectedIds.includes(it.id), cat)).join('')}</div>`;
+    const sl = $('#posSlider', panel);
+    if (sl) {
+      sl.oninput = () => { state.pos[cat.id] = Number(sl.value); $('#posVal').textContent = fmtPos(sl.value); const m = renderRifle(false); lastMetrics = m; currentIssues = issuesFor(m); renderSummary(totals(m), currentIssues); renderPhotoNote(m); save(); };
+      $('#posReset', panel).onclick = () => { state.pos[cat.id] = 0; sl.value = 0; sl.oninput(); };
+    }
     $$('.chip', panel).forEach(c => c.onclick = () => { brandFilter = c.dataset.brand; renderPanel(); });
     $$('.card', panel).forEach(c => c.onclick = (e) => {
       if (e.target.closest('.swatch')) return;
@@ -426,6 +437,12 @@
     });
   }
 
+  const POS_CATS = { optic: [-3, 6, 'a sínen'], lpvo: [-2, 4, 'a sínen'], magnifier: [-3, 3, 'a sínen'], buis: [-1, 2, 'a sínen'], light: [-4, 2, 'az előagyon'], bipod: [-4, 2, 'az előagyon'] };
+  const fmtPos = v => (Number(v) >= 0 ? '+' : '−') + Math.abs(Number(v)).toFixed(1).replace('.', ',') + '"';
+  function posRow(cat) {
+    const [lo, hi, where] = POS_CATS[cat], v = state.pos[cat] || 0;
+    return `<div class="posrow"><label for="posSlider">Pozíció ${where}</label><input id="posSlider" type="range" min="${lo}" max="${hi}" step="0.1" value="${v}"><span id="posVal">${fmtPos(v)}</span><button id="posReset" class="btn small ghost">Alap</button></div>`;
+  }
   function card(it, on, cat) {
     const b = base();
     let name = it.name, brand = it.brand, desc = '';
@@ -459,7 +476,7 @@
           <div class="name big">${x.name}</div>
           <div class="desc">${x.desc}</div>
           <div class="specs"><span>${String(x.barrel).replace('.', ',')}" cső</span><span>${x.cal}</span><span>${x.twist}</span><span>${String(x.hgLen).replace('.', ',')}" előagy${x.hgEstimated ? '*' : ''}</span>${x.ambi ? '<span>Ambidex</span>' : ''}</div>
-          <div class="sw">${x.finishes.map(f => `<button class="swatch fin${x.id === b.id && f === state.finish ? ' on' : ''}" data-base="${x.id}" data-finish="${f}" title="${D.FINISHES[f].name}" style="--c:${D.FINISHES[f].hex}"></button>`).join('')}
+          <div class="sw">${x.finishes.map(f => `<button class="swatch fin${x.id === b.id && f === state.finish ? ' on' : ''}${(window.AR_PHOTOS.get(x.id, 'base', f) || {}).exactColor ? '' : ' nophoto'}" data-base="${x.id}" data-finish="${f}" title="${D.FINISHES[f].name}${(window.AR_PHOTOS.get(x.id, 'base', f) || {}).exactColor ? '' : ' (nincs hivatalos fotó)'}" style="--c:${D.FINISHES[f].hex}"></button>`).join('')}
             <span class="swname">${x.id === b.id ? D.FINISHES[state.finish].name : x.finishes.map(f => D.FINISHES[f].name).join(' / ')}</span></div>
           <div class="card-bot"><span class="price">${fmtEUR(x.price)}</span><span class="w">${fmtKg(x.weight)}</span></div>
           ${x.oalNote ? `<div class="desc small">${x.oalNote}</div>` : ''}
@@ -519,7 +536,24 @@
   }
 
   // ------------------------------------------------------------ összesítő
-  let currentIssues = [];
+  let currentIssues = [], lastMetrics = null;
+  function renderPhotoNote(m) {
+    const el = $('#photoNote');
+    const b = base();
+    if (!m.photo) {
+      el.className = 'photo-note warn';
+      el.innerHTML = `<b>Vázlatnézet.</b> A(z) ${b.brand} ${b.name} modellhez nincs betöltött hivatalos fotó, ezért rajzolt nézet látszik.`;
+      return;
+    }
+    const p = m.photo, bits = [];
+    bits.push(`<b>Fotómód.</b> ${b.brand} ${b.name} – a gyártó hivatalos oldalnézeti fotója, valós méretarányban (${p.ppi} px/hüvelyk).`);
+    if (!p.finishExact) bits.push(`A(z) ${D.FINISHES[state.finish].name} színhez nincs hivatalos fotó, a ${D.FINISHES[p.finishHave] ? D.FINISHES[p.finishHave].name : p.finishHave} kivitelt látod.`);
+    if (p.missing.length) bits.push(`<span class="miss">${p.missing.length} kiegészítőhöz még nincs fotó (szaggatott jelölés): ${[...new Set(p.missing.map(x => x.name))].slice(0, 4).join(', ')}${p.missing.length > 4 ? '…' : ''}.</span>`);
+    if (p.approx.length) bits.push(`Más színű fotó látszik: ${p.approx.map(x => x.name).join(', ')}.`);
+    bits.push('Szíj, elsütő, felhúzókar és kezelőszervek nem jelennek meg külön a képen.');
+    el.className = 'photo-note' + (p.missing.length || !p.finishExact ? ' warn' : '');
+    el.innerHTML = bits.join(' ');
+  }
   function renderSummary(t, issues) {
     const b = base();
     $('#sumTitle').textContent = `${b.brand} ${b.name}`;
@@ -547,6 +581,8 @@
     currentIssues = issuesFor(metrics);
     const t = totals(metrics);
     renderSummary(t, currentIssues);
+    renderPhotoNote(metrics);
+    lastMetrics = metrics;
     renderTabs(currentIssues);
     renderPanel();
     $('#stageCaption').textContent = `${base().brand} ${base().name} · ${D.FINISHES[state.finish].name}`;
@@ -565,7 +601,7 @@
     try { await navigator.clipboard.writeText(url); toast('Link a vágólapon – bárki megnyithatja ezt az összeállítást.'); }
     catch (e) { prompt('Másold ki a linket:', url); }
   }
-  function exportPng() {
+  async function exportPng() {
     const clone = svg.cloneNode(true);
     const vb = (svg.getAttribute('viewBox') || '').split(' ').map(Number);
     const W = 2400, H = Math.round(W * vb[3] / vb[2]);
@@ -581,6 +617,13 @@
     bg.setAttribute('x', vb[0]); bg.setAttribute('y', vb[1]); bg.setAttribute('width', vb[2]); bg.setAttribute('height', vb[3]); bg.setAttribute('fill', '#15171a');
     clone.insertBefore(bg, clone.firstChild.nextSibling);
     clone.querySelectorAll('.label text').forEach(tx => { tx.setAttribute('fill', '#f1c48a'); tx.setAttribute('font-family', 'Arial, sans-serif'); tx.setAttribute('font-size', '15'); });
+    await Promise.all($$('image', clone).map(async im => {
+      const h = im.getAttribute('href');
+      if (h && !h.startsWith('data:')) {
+        const blob = await (await fetch(h)).blob();
+        im.setAttribute('href', await new Promise(r => { const fr = new FileReader(); fr.onload = () => r(fr.result); fr.readAsDataURL(blob); }));
+      }
+    }));
     const data = new XMLSerializer().serializeToString(clone);
     const img = new Image();
     img.onload = () => {
@@ -665,7 +708,9 @@
     initZoom();
     initPartInteraction();
     initPresets();
-    update(false, true);
+    let ready = false;
+    window.AR_PHOTOS.onChange(() => { if (ready) update(false); });
+    window.AR_PHOTOS.load().catch(() => {}).then(() => { ready = true; update(false, true); });
   }
   document.addEventListener('DOMContentLoaded', init);
 })();

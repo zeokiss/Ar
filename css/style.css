@@ -43,9 +43,8 @@ select { background: var(--panel-2); border: 1px solid var(--line); border-radiu
 /* ---------------- színpad */
 .stage { position: relative; border-radius: 16px; overflow: hidden; border: 1px solid var(--line);
   background:
-    radial-gradient(ellipse 60% 55% at 50% 38%, rgba(255, 186, 120, .10), transparent 70%),
-    radial-gradient(ellipse 90% 80% at 50% 110%, #2a2e34 0%, transparent 60%),
-    linear-gradient(180deg, #1b1e22 0%, #121417 62%, #0d0e10 100%);
+    radial-gradient(ellipse 62% 70% at 50% 42%, #6b7078 0%, #4c5158 38%, #2f3338 72%, #1d2024 100%),
+    linear-gradient(180deg, #3a3e44, #1b1d21);
   aspect-ratio: 16 / 7.4; min-height: 300px; }
 .stage::after { content: ''; position: absolute; inset: 0; pointer-events: none;
   background: repeating-linear-gradient(90deg, rgba(255,255,255,.018) 0 1px, transparent 1px 48px), repeating-linear-gradient(0deg, rgba(255,255,255,.018) 0 1px, transparent 1px 48px);
@@ -184,3 +183,14 @@ select { background: var(--panel-2); border: 1px solid var(--line); border-radiu
   .actions { width: 100%; }
   .actions select { flex: 1 1 100%; }
 }
+
+/* ---------------- fotómód */
+.photo-note { margin-top: 10px; padding: 9px 13px; border-radius: 10px; font-size: 12.5px; color: #b9bdc2; background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--ok); }
+.photo-note.warn { border-left-color: var(--warn); }
+.photo-note b { color: var(--text); }
+.photo-note .miss { color: var(--accent-2); }
+.posrow { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 0 0 12px; padding: 8px 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; font-size: 13px; }
+.posrow input[type=range] { flex: 1 1 200px; accent-color: var(--accent); }
+.posrow #posVal { min-width: 52px; text-align: right; font-variant-numeric: tabular-nums; color: var(--accent-2); }
+.swatch.nophoto { opacity: .4; border-style: dashed; }
+.ph text { pointer-events: none; }

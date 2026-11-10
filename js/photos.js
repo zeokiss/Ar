@@ -67,10 +67,11 @@ window.AR_PHOTOS = (function () {
   const resolveSrc = (p) => { if (p.src && !/^data:|^https?:|^\//.test(p.src)) p.src = 'assets/photos/' + p.src; return p; };
 
   async function load() {
-    for (const url of ['assets/photos/manifest.json', 'assets/photos/pack.json']) {
-      const m = await fetchJson(url);
-      if (m && m.photos) m.photos.forEach(p => { resolveSrc(p); p.source = 'repo'; reg.set(key(p.item, p.slot, p.color), p); });
-    }
+    const add = (m, prefix) => (m && m.photos || []).forEach(p => { resolveSrc(p); p.source = 'repo'; reg.set(key(p.item, p.slot, p.color), p); });
+    const index = await fetchJson('assets/photos/manifest.json');
+    add(index);
+    const packs = ((index && index.packs) || []).concat(['packs/pack.json']);
+    for (const rel of packs) { if (rel !== 'packs/pack.json' || !(index && (index.packs || []).includes(rel))) { /* opcionális csomag */ } add(await fetchJson('assets/photos/' + rel)); }
     (await dbAll()).forEach(p => { p.source = 'local'; reg.set(key(p.item, p.slot, p.color), p); });
     notify();
   }

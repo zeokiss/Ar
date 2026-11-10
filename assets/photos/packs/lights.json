@@ -1,0 +1,31 @@
+{
+ "version": 1,
+ "photos": [
+  {
+   "item": "sf-m640",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/sf-m640-main@left-any.webp",
+   "w": 1500,
+   "h": 589,
+   "ppi": 269.78,
+   "ax": 1041.5,
+   "ay": 586.0,
+   "facing": "left",
+   "source": "surefire.com"
+  },
+  {
+   "item": "sf-m640",
+   "slot": "main@right",
+   "color": "*",
+   "src": "parts/sf-m640-main@right-any.webp",
+   "w": 1500,
+   "h": 609,
+   "ppi": 269.78,
+   "ax": 448.5,
+   "ay": 606.0,
+   "facing": "right",
+   "source": "surefire.com"
+  }
+ ]
+}
