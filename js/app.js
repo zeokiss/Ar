@@ -29,7 +29,7 @@
   const variantKey = (it) => BASE[it.id] ? state.finish : (it.colors ? (state.colors[it.id] || it.colors[0]) : null);
   function variantOf(o, it) {
     const k = variantKey(it), v = (o.colors && k) ? o.colors[k] : null;
-    return { chf: v ? v.chf : o.chf, url: (v && v.url) || o.url, in_stock: v ? v.in_stock : o.in_stock };
+    return { chf: v ? v.chf : o.chf, url: (v && v.url) || o.url, in_stock: v ? v.in_stock : o.in_stock, title: (v && v.title) || o.title || '', note: o.note || '' };
   }
   function offersOf(it) {
     const p = PRICES[it.id];
@@ -52,7 +52,7 @@
     const o = offerFor(it);
     if (!o) return { chf: null, none: true, p: null };
     const v = variantOf(o, it);
-    return { chf: v.chf, none: false, p: { shop: o.shop, url: v.url, in_stock: v.in_stock } };
+    return { chf: v.chf, none: false, p: { shop: o.shop, url: v.url, in_stock: v.in_stock, title: v.title, note: v.note } };
   };
   const weightOf = (it) => { const p = PRICES[it.id]; return (p && p.weight_g) ? p.weight_g : (it.weight || 0); };
   const fmtCHF = (n) => (n == null ? '—' : new Intl.NumberFormat('hu-HU', { maximumFractionDigits: 0 }).format(Math.round(n)) + ' CHF');
@@ -638,7 +638,7 @@
       const ls = groups[sh];
       const si = SHOPINFO[sh];
       out += `\n== ${shopTag(sh)}${hidePrices ? '' : ' – ' + fmtCHF(ls.reduce((a, l) => a + l.price, 0))} ==\n${si ? si.name + ', ' + si.addr + (si.visit ? ' (' + si.visit + ')' : '') + '\n' : ''}`;
-      ls.forEach(l => { out += `- ${l.label}${hidePrices ? '' : ' – ' + fmtCHF(l.price)}${l.p.in_stock === false ? ' [nincs raktáron]' : ''}\n  ${l.p.url}\n`; });
+      ls.forEach(l => { out += `- ${l.label}${hidePrices ? '' : ' – ' + fmtCHF(l.price)}${l.p.in_stock === false ? ' [nincs raktáron]' : ''}\n  ${l.p.title ? 'Bolti név: ' + l.p.title + '\n  ' : ''}${l.p.url}\n`; });
     });
     if (est.length) { out += `\n== Még nincs bolti ár ==\n`; est.forEach(l => { out += `- ${l.label}\n`; }); }
     return out;
@@ -655,7 +655,7 @@
     shops.forEach(sh => {
       const ls = groups[sh];
       html += `<div class="ord"><h4><span>${shopTag(sh)}</span><span class="price">${fmtCHF(ls.reduce((a, l) => a + l.price, 0))}</span></h4>${shopInfoHtml(sh)}<ul>` +
-        ls.map(l => `<li><a href="${l.p.url}" target="_blank" rel="noopener">${l.label}</a>${l.p.in_stock === false ? '<em> · nincs raktáron</em>' : ''}<span class="price">${fmtCHF(l.price)}</span></li>`).join('') + '</ul></div>';
+        ls.map(l => `<li><div class="ordname"><span><a href="${l.p.url}" target="_blank" rel="noopener">${l.label}</a>${l.p.in_stock === false ? '<em> · nincs raktáron</em>' : ''}</span>${l.p.title ? `<small>Bolti név: ${esc(l.p.title)}</small>` : ''}${l.p.note ? `<small class="ordwarn">Megjegyzés: ${esc(l.p.note)}</small>` : ''}</div><span class="price">${fmtCHF(l.price)}</span></li>`).join('') + '</ul></div>';
     });
     if (est.length) html += `<div class="ord est"><h4><span>Még nincs svájci bolti ár</span></h4><ul>${est.map(l => `<li>${l.label}</li>`).join('')}</ul></div>`;
     box.innerHTML = html;

@@ -25,24 +25,30 @@
       "black": {
        "chf": 23.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "coyote": {
        "chf": 23.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 23.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "odg": {
        "chf": 23.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-grip",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE Grip",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -53,19 +59,24 @@
       "Dark Earth": {
        "chf": 28.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293230900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "OD": {
        "chf": 28.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293222000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 28.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-grip-10293206000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE Grip",
+     "note": null
     }
    ]
   },
@@ -87,29 +98,36 @@
       "black": {
        "chf": 23.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "coyote": {
        "chf": 23.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "gray": {
        "chf": 23.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 23.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "odg": {
        "chf": 23.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE K2 Grip",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -120,19 +138,24 @@
       "black": {
        "chf": 24.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde-3/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – MOE-K2 Grip AR15/M4 – BLK"
       },
       "fde": {
        "chf": 24.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde-2/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – MOE-K2 Grip AR15/M4 – FDE"
       },
       "odg": {
        "chf": 24.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-od-green/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – MOE-K2 Grip AR15/M4 – OD-Green"
       }
-     }
+     },
+     "title": "Magpul – MOE-K2 Grip AR15/M4 – BLK",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -143,19 +166,24 @@
       "Dark Earth": {
        "chf": 28.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381230900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "OD": {
        "chf": 28.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381222000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 28.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10381206000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE K2 Grip",
+     "note": null
     }
    ]
   },
@@ -177,24 +205,30 @@
       "fde": {
        "chf": 27.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "odg": {
        "chf": 27.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "gray": {
        "chf": 27.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "black": {
        "chf": 27.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-k2-grip1",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE K2+ Grip",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -205,19 +239,24 @@
       "Dark Earth": {
        "chf": 33.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503130900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "OD": {
        "chf": 33.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503122000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 33.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-k2-grip-10503106000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE K2+ Grip",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -228,19 +267,24 @@
       "black": {
        "chf": 34.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-schwarz/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – MOE-K2+ Grip AR15/M4 Schwarz"
       },
       "fde": {
        "chf": 34.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – MOE-K2+ Grip AR15/M4 FDE"
       },
       "odg": {
        "chf": 34.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-schwarz-2/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – MOE-K2+ Grip AR15/M4 OD-Green"
       }
-     }
+     },
+     "title": "Magpul – MOE-K2+ Grip AR15/M4 Schwarz",
+     "note": null
     }
    ]
   },
@@ -262,24 +306,30 @@
       "gray": {
        "chf": 26.9,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "black": {
        "chf": 43.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "fde": {
        "chf": 43.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "odg": {
        "chf": 43.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-miad-556-grip-gen-11-type-1",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1",
+     "note": "AR-15 (5.56) változat; a 7.62 külön termék"
     },
     {
      "shop": "armamat.ch",
@@ -290,19 +340,24 @@
       "Dark Earth": {
        "chf": 49.9,
        "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381330900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "OD": {
        "chf": 49.9,
        "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381322000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 49.9,
        "url": "https://www.armamat.ch/de-ch/p/miad-5.56-grip-gen-1.1-type-1-10381306000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1",
+     "note": "AR-15 (5.56, Type 1) kivitel; a MIAD 7.62 Type 2 másik termék"
     }
    ]
   },
@@ -324,14 +379,18 @@
       "fde": {
        "chf": 24.9,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-3-flat-dark-earth",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "black": {
        "chf": 24.9,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-3-black",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "BCM® Grip Mod 3 - Black",
+     "note": "A boltban \"BCM Grip Mod 3\" (a BCM Gunfighter sorozat)"
     },
     {
      "shop": "armamat.ch",
@@ -342,9 +401,12 @@
       "Schwarz": {
        "chf": 32.9,
        "url": "https://www.armamat.ch/de-ch/p/grip-mod-3-12031706000/",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "BCM Grip Mod 3",
+     "note": null
     }
    ]
   },
@@ -366,29 +428,36 @@
       "black": {
        "chf": 81.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "coyote": {
        "chf": 81.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "odg": {
        "chf": 81.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "gray": {
        "chf": 49.94,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 81.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ctr-carbine-stock-mil-spec",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul CTR Carbine Stock Mil Spec",
+     "note": "Mil-Spec tuskivitel"
     },
     {
      "shop": "armamat.ch",
@@ -399,19 +468,24 @@
       "Dark Earth": {
        "chf": 89.9,
        "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295930900/",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "OD": {
        "chf": 89.9,
        "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295922000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 89.9,
        "url": "https://www.armamat.ch/de-ch/p/ctr-carbine-stock-mil-spec-10295906000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul CTR Carbine Stock Mil Spec",
+     "note": "Mil-Spec csöves kivitel (a bolt csak ezt árulja)"
     }
    ]
   },
@@ -433,19 +507,24 @@
       "black": {
        "chf": 81.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 81.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "odg": {
        "chf": 81.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-carbine-stock-mil-spec",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE SL Carbine Stock Mil Spec",
+     "note": "Mil-Spec tuskivitel"
     },
     {
      "shop": "armamat.ch",
@@ -456,19 +535,24 @@
       "Dark Earth": {
        "chf": 89.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485030900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "OD": {
        "chf": 87.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485022000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 89.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-sl-carbine-stock-mil-spec-10485006000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE SL Carbine Stock Mil Spec",
+     "note": "Mil-Spec csöves kivitel (a bolt csak ezt árulja)"
     }
    ]
   },
@@ -490,19 +574,24 @@
       "black": {
        "chf": 56.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 56.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "odg": {
        "chf": 56.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-k-carbine-stock-mil-spec",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE SL-K Carbine Stock Mil Spec",
+     "note": "Mil-Spec tuskivitel"
     },
     {
      "shop": "armamat.ch",
@@ -513,14 +602,18 @@
       "Dark Earth": {
        "chf": 64.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-sl-k-carbine-stock-mil-spec-10618930900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 64.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-sl-k-carbine-stock-mil-spec-10618906000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE SL-K Carbine Stock Mil Spec",
+     "note": "Mil-Spec csöves kivitel (a bolt csak ezt árulja)"
     }
    ]
   },
@@ -542,24 +635,30 @@
       "black": {
        "chf": 219.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "fde": {
        "chf": 219.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "odg": {
        "chf": 219.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "gray": {
        "chf": 193.34,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ubr-gen-20-collapsible-stock",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul UBR Gen 2.0 Collapsible Stock",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -570,19 +669,24 @@
       "Dark Earth": {
        "chf": 276.9,
        "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619030900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "OD": {
        "chf": 279.9,
        "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619022000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 293.9,
        "url": "https://www.armamat.ch/de-ch/p/ubr-gen-2.0-collapsible-stock-10619006000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul UBR Gen 2.0 Collapsible Stock",
+     "note": null
     }
    ]
   },
@@ -604,24 +708,30 @@
       "fde": {
        "chf": 257.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "black": {
        "chf": 256.6,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "gray": {
        "chf": 256.6,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "odg": {
        "chf": 257.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-gen-3-rifle-stock",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PRS Gen 3 Rifle Stock",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -632,19 +742,24 @@
       "Dark Earth": {
        "chf": 338.9,
        "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619130900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "OD": {
        "chf": 331.9,
        "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619122000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 338.9,
        "url": "https://www.armamat.ch/de-ch/p/prs-gen-3-rifle-stock-mil-spec-10619106000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PRS Gen 3 Rifle Stock Mil Spec",
+     "note": "Mil-Spec csöves kivitel"
     },
     {
      "shop": "schiessstand.ch",
@@ -655,9 +770,12 @@
       "black": {
        "chf": 344.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-moe-carbine-stock-mil-spec-black-2/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – PRS GEN3 Precision-Adjustable Stock / Black"
       }
-     }
+     },
+     "title": "Magpul – PRS GEN3 Precision-Adjustable Stock / Black",
+     "note": null
     }
    ]
   },
@@ -679,19 +797,24 @@
       "black": {
        "chf": 150.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "fde": {
        "chf": 150.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "odg": {
        "chf": 150.0,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-prs-lite",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PRS Lite",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -702,9 +825,12 @@
       "Schwarz": {
        "chf": 163.9,
        "url": "https://www.armamat.ch/de-ch/p/prs-lite-11739906000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PRS Lite",
+     "note": null
     }
    ]
   },
@@ -722,7 +848,9 @@
      "chf": 21.4,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-rubber-buttpad-black",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul Rubber Buttpad Black",
+     "note": "Alap gumi tustalp; a vastagságot (0.30\") a bolti oldal nem írja ki, a név alapján azonosítva"
     },
     {
      "shop": "armamat.ch",
@@ -733,9 +861,12 @@
       "Schwarz": {
        "chf": 26.9,
        "url": "https://www.armamat.ch/de-ch/p/rubber-butt-pad-10381706000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul Rubber Butt-Pad",
+     "note": null
     }
    ]
   },
@@ -753,7 +884,9 @@
      "chf": 21.4,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-extended-rubber-buttpad-black",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul Extended Rubber Buttpad Black",
+     "note": "Extended; a vastagságot (0.55\") a bolti oldal nem írja ki, a név alapján azonosítva"
     },
     {
      "shop": "armamat.ch",
@@ -764,9 +897,12 @@
       "Schwarz": {
        "chf": 26.9,
        "url": "https://www.armamat.ch/de-ch/p/extended-rubber-buttpad-10502506000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul Extended Rubber Buttpad",
+     "note": null
     }
    ]
   },
@@ -784,7 +920,9 @@
      "chf": 21.4,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-enhanced-rubber-buttpad-black",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul Enhanced Rubber Buttpad Black",
+     "note": "Enhanced; a vastagságot (0.70\") a bolti oldal nem írja ki, a név alapján azonosítva"
     },
     {
      "shop": "armamat.ch",
@@ -795,9 +933,12 @@
       "Schwarz": {
        "chf": 26.9,
        "url": "https://www.armamat.ch/de-ch/p/enhanced-rubber-butt-pad-10381806000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul Enhanced Rubber Butt-Pad",
+     "note": null
     }
    ]
   },
@@ -815,7 +956,9 @@
      "chf": 21.4,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-sl-enhanced-rubber-buttpad-070-inches-black",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul MOE SL Enhanced Rubber Buttpad 0.70 Inches Black",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -826,9 +969,12 @@
       "Schwarz": {
        "chf": 26.9,
        "url": "https://www.armamat.ch/de-ch/p/moe-sl-enhanced-rubber-butt-pad-0.70-inches-10619406000/",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE SL Enhanced Rubber Butt-Pad 0.70 Inches",
+     "note": null
     }
    ]
   },
@@ -850,14 +996,18 @@
       "black": {
        "chf": 949.9,
        "url": "https://www.shooting-store.ch/de/produkt/eotech-exps3-0-black",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "tan": {
        "chf": 979.6,
        "url": "https://www.shooting-store.ch/de/produkt/eotech-exps3-0-tan",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "EoTech EXPS3-0 Black",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -868,14 +1018,18 @@
       "Schwarz": {
        "chf": 973.9,
        "url": "https://www.armamat.ch/de-ch/p/exps3-0-10183106000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Tan": {
        "chf": 973.9,
        "url": "https://www.armamat.ch/de-ch/p/exps3-0-10183132800/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "EoTech EXPS3-0",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -886,9 +1040,12 @@
       "fde": {
        "chf": 999.0,
        "url": "https://shop.schiessstand.ch/produkt/eotech-hws-exps3-dcr-2/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "EOTECH – HWS EXPS3-0 / 68MOA ring and 1 MOA Dot / TAN/FDE"
       }
-     }
+     },
+     "title": "EoTech – EXPS3-0",
+     "note": null
     }
    ]
   },
@@ -906,7 +1063,9 @@
      "chf": 793.9,
      "url": "https://shop.schiessstand.ch/produkt/eotech-exps2-0/",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "EoTech – EXPS2-0",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -917,16 +1076,21 @@
       "Schwarz": {
        "chf": 813.9,
        "url": "https://www.armamat.ch/de-ch/p/exps2-0-10232906000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "EoTech EXPS2-0",
+     "note": null
     },
     {
      "shop": "shooting-store.ch",
      "chf": 951.9,
      "url": "https://www.shooting-store.ch/de/produkt/eotech-zielgeraet-modell-exps2-0-montage-picatinny-mil-std-1913",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "EoTech EXPS2-0 Black",
+     "note": "Piros reticle (a \"Green Reticle\" változat külön termék)"
     }
    ]
   },
@@ -948,23 +1112,30 @@
       "Schwarz": {
        "chf": 749.9,
        "url": "https://www.armamat.ch/de-ch/p/xps2-0-10151506000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "EoTech XPS2-0",
+     "note": null
     },
     {
      "shop": "shooting-store.ch",
      "chf": 756.5,
      "url": "https://www.shooting-store.ch/de/produkt/eotech-xps2-0-black",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "EoTech XPS2-0 Black",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
      "chf": 814.9,
      "url": "https://shop.schiessstand.ch/produkt/eotech-xps2-0/",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "EoTech – XPS2-0",
+     "note": null
     }
    ]
   },
@@ -986,14 +1157,18 @@
       "Dark Earth": {
        "chf": 361.9,
        "url": "https://www.armamat.ch/de-ch/p/hs510c-solar-red-circle-dot-sight-10678430900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 361.9,
        "url": "https://www.armamat.ch/de-ch/p/hs510c-solar-red-circle-dot-sight-10678406000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Holosun HS510C Solar Red Circle Dot Sight",
+     "note": null
     },
     {
      "shop": "shooting-store.ch",
@@ -1004,14 +1179,18 @@
       "black": {
        "chf": 425.2,
        "url": "https://www.shooting-store.ch/de/produkt/holosun-hs510c-solar-red-circle-dot-sight-black",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 425.2,
        "url": "https://www.shooting-store.ch/de/produkt/holosun-hs510c-fde-kreispunktvisier-open-reflex-visier-solar-2-moa-punkt-65-moa-ring",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Holosun HS510C Kreispunktvisier OPEN Reflex Visier, Solar 2 MOA Punkt & 65 MOA Ring",
+     "note": "HS510C (piros, 2 MOA pont + 65 MOA gyűrű, napelemes)"
     },
     {
      "shop": "schiessstand.ch",
@@ -1022,9 +1201,12 @@
       "fde": {
        "chf": 421.9,
        "url": "https://shop.schiessstand.ch/produkt/holosun-hs510c-solar-red-circle-dot-sigh-2moa-punkt-65moa-kreis-absehen-fde/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Holosun – HS510C Solar Red Circle Dot Sigh 2MOA Punkt 65MOA Kreis Absehen FDE"
       }
-     }
+     },
+     "title": "Holosun – HS510C Offenes Reflex Rotpunktvisier, wechselbares 2MOA Punkt, 65MOA Kreis Absehen",
+     "note": null
     }
    ]
   },
@@ -1042,7 +1224,9 @@
      "chf": 924.0,
      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-amg-uh-1-gen-ii-holographic-sight",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Vortex Optics AMG UH-1 Gen II Holographic Sight",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1053,14 +1237,18 @@
       "Schwarz": {
        "chf": 949.9,
        "url": "https://www.armamat.ch/de-ch/p/amg-uh-1-gen-ii-holographic-sight-11027306000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Tan": {
        "chf": 822.9,
        "url": "https://www.armamat.ch/de-ch/p/amg-uh-1-gen-ii-holographic-sight-11027332800/",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Vortex Optics AMG UH-1 Gen II Holographic Sight",
+     "note": null
     }
    ]
   },
@@ -1082,16 +1270,21 @@
       "Schwarz": {
        "chf": 446.9,
        "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-6x24-ar-bdc3-11010106000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Vortex Optics Strike Eagle 1-6x24 AR-BDC3",
+     "note": "AR-BDC3 retikulos kivitel (a bolt csak ezt árulja)"
     },
     {
      "shop": "shooting-store.ch",
      "chf": 446.9,
      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-strike-eagle-1-6x24-ar-bdc3",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Vortex Optics Strike Eagle 1-6x24 AR-BDC3",
+     "note": null
     }
    ]
   },
@@ -1113,16 +1306,21 @@
       "Schwarz": {
        "chf": 381.9,
        "url": "https://www.armamat.ch/de-ch/p/strike-eagle-1-8x24-ar-bdc3-11010206000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Vortex Optics Strike Eagle 1-8x24 AR-BDC3",
+     "note": "AR-BDC3 retikulos SFP kivitel; az FFP EBR-8 külön termék"
     },
     {
      "shop": "shooting-store.ch",
      "chf": 559.9,
      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-strike-eagle-1-8x24-ar-bdc3",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Vortex Optics Strike Eagle 1-8x24 AR-BDC3",
+     "note": "SFP, AR-BDC3 reticle"
     }
    ]
   },
@@ -1144,23 +1342,30 @@
       "Schwarz": {
        "chf": 666.9,
        "url": "https://www.armamat.ch/de-ch/p/viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa-10664406000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP VMR-2 MOA",
+     "note": "a bolt két retikulos (MOA/MRAD) kivitelt árul; a data.js nem határozza meg"
     },
     {
      "shop": "schiessstand.ch",
      "chf": 666.9,
      "url": "https://shop.schiessstand.ch/produkt/vortex-optics-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa/",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Vortex Optics – Viper PST Gen II / 1-6×24 / SFP / VMR-2 MOA",
+     "note": "SFP, VMR-2 MOA szálkereszt"
     },
     {
      "shop": "shooting-store.ch",
      "chf": 799.9,
      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP VMR-2 MOA",
+     "note": "Két reticle-változat (MOA / MRAD), a fizikai termék azonos; price_chf = az első (MOA) változat"
     }
    ]
   },
@@ -1178,14 +1383,18 @@
      "chf": 3359.9,
      "url": "https://www.armamat.ch/de-ch/p/razor-gen-iii-1-10x24-ebr-9-mrad-109797/",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Vortex Optics Razor Gen III 1-10x24 EBR-9 MRAD",
+     "note": null
     },
     {
      "shop": "shooting-store.ch",
      "chf": 3359.9,
      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-razor-gen-iii-1-10x24-ebr-9-mrad",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Vortex Optics Razor Gen III 1-10x24 EBR-9 MRAD",
+     "note": null
     }
    ]
   },
@@ -1207,23 +1416,30 @@
       "Schwarz": {
        "chf": 1448.9,
        "url": "https://www.armamat.ch/de-ch/p/vudu-1-6x24-ffp-sr1-reticle-mrad-11045606000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "EoTech Vudu 1-6x24 FFP - SR1 Reticle MRAD",
+     "note": "FFP kivitel ('Vudu X 1-6x24 SFP' külön modell)"
     },
     {
      "shop": "shooting-store.ch",
      "chf": 1503.4,
      "url": "https://www.shooting-store.ch/de/produkt/eotech-vudu-1-6x24-ffp-sr1-reticle-mrad-black",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "EoTech Vudu 1-6x24 FFP - SR1 Reticle MRAD Black",
+     "note": "FFP, SR1 MRAD reticle (az egyetlen 1-6x24 a boltban)"
     },
     {
      "shop": "schiessstand.ch",
      "chf": 1639.0,
      "url": "https://shop.schiessstand.ch/produkt/eotech-vudu-1-6x24-ffp-7-62-sr2-absehen/",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "EOTECH – Vudu® 1-6×24 FFP / 7.62 SR2 Absehen",
+     "note": "bolti változat: FFP, 7.62 SR2 szálkereszt (a data.js nem ad szálkeresztet)"
     }
    ]
   },
@@ -1245,16 +1461,21 @@
       "Schwarz": {
        "chf": 1933.9,
        "url": "https://www.armamat.ch/de-ch/p/vudu-1-10x28-ffp-le5-reticle-mrad-11328806000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "EoTech Vudu 1-10x28 FFP - LE5 Reticle MRAD",
+     "note": "a bolt két retikulos (SR5/LE5) kivitelt árul; a data.js nem határozza meg"
     },
     {
      "shop": "shooting-store.ch",
      "chf": 1949.6,
      "url": "https://www.shooting-store.ch/de/produkt/eotech-vudu-1-10x28-ffp-le5-reticle-mrad-black",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "EoTech Vudu 1-10x28 FFP - LE5 Reticle MRAD Black",
+     "note": "Két reticle-változat (LE5 / SR5), azonos ár"
     }
    ]
   },
@@ -1276,16 +1497,21 @@
       "Schwarz": {
        "chf": 106.9,
        "url": "https://www.armamat.ch/de-ch/p/sport-cantilever-mount-30mm-1.5-inch-height-12737906000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Vortex Optics Sport Cantilever Mount 30mm 1.5 Inch Height",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
      "chf": 106.9,
      "url": "https://shop.schiessstand.ch/produkt/vortex-optics-sport-cantilever-mount-30mm-1-5-inch-height/",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Vortex Optics – Sport Cantilever Mount / 30mm 1.5 Inch Height",
+     "note": null
     }
    ]
   },
@@ -1307,14 +1533,18 @@
       "Schwarz": {
        "chf": 759.9,
        "url": "https://www.armamat.ch/de-ch/p/g33.sts-magnifier-10349306000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Tan": {
        "chf": 759.9,
        "url": "https://www.armamat.ch/de-ch/p/g33.sts-magnifier-10349332800/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "EoTech G33.STS Magnifier",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -1325,9 +1555,12 @@
       "tan": {
        "chf": 784.9,
        "url": "https://shop.schiessstand.ch/produkt/eotech-magnifier-g33-sts-tan/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Eotech – Magnifier / G33.STS / Tan"
       }
-     }
+     },
+     "title": "Eotech – Magnifier / G33.STS / Tan",
+     "note": "a bolt csak TAN színben árulja, STS szereléssel"
     },
     {
      "shop": "shooting-store.ch",
@@ -1338,14 +1571,18 @@
       "black": {
        "chf": 785.6,
        "url": "https://www.shooting-store.ch/de/produkt/eotech-g33sts-magnifier-black",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "tan": {
        "chf": 761.4,
        "url": "https://www.shooting-store.ch/de/produkt/eotech-g33sts-magnifier-tan",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "EoTech G33.STS Magnifier Black",
+     "note": null
     }
    ]
   },
@@ -1367,23 +1604,30 @@
       "Schwarz": {
        "chf": 237.9,
        "url": "https://www.armamat.ch/de-ch/p/hm3x-magnifier-10904806000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Holosun HM3X Magnifier",
+     "note": null
     },
     {
      "shop": "shooting-store.ch",
      "chf": 287.0,
      "url": "https://www.shooting-store.ch/de/produkt/holosun-hm3x-magnifier-black",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Holosun Magnifier HM3X Magnifier",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
      "chf": 309.0,
      "url": "https://shop.schiessstand.ch/produkt/holosun-magnifier-hm3x-3-fach-vergroesserung/",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Holosun – Magnifier / HM3X / 3 fach Vergrößerung",
+     "note": null
     }
    ]
   },
@@ -1405,16 +1649,21 @@
       "Schwarz": {
        "chf": 252.9,
        "url": "https://www.armamat.ch/de-ch/p/tlr-1-hl-10994606000/",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Streamlight TLR-1 HL",
+     "note": null
     },
     {
      "shop": "shooting-store.ch",
      "chf": 252.9,
      "url": "https://www.shooting-store.ch/de/produkt/streamlight-tlr-1-hl-black",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Streamlight TLR-1 HL Black",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -1425,14 +1674,18 @@
       "black": {
        "chf": 279.95,
        "url": "https://shop.schiessstand.ch/produkt/streamlight-tlr-1-hl/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Streamlight – TLR-1 HL Tactical LED Light – Black"
       },
       "fde": {
        "chf": 289.95,
        "url": "https://shop.schiessstand.ch/produkt/streamlight-tlr-1-hl-3/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Streamlight – TLR-1 HL Tactical LED Light – Dark Earth"
       }
-     }
+     },
+     "title": "Streamlight – TLR-1 HL Tactical LED Light – Black",
+     "note": null
     }
    ]
   },
@@ -1454,24 +1707,30 @@
       "black": {
        "chf": 31.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 31.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "gray": {
        "chf": 31.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "odg": {
        "chf": 31.2,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-hand-stop-kit",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul M-LOK Hand Stop Kit",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -1482,24 +1741,30 @@
       "black": {
        "chf": 33.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-schwarz/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – M-LOK Hand Stop Kit / Schwarz"
       },
       "fde": {
        "chf": 33.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-fde/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – M-LOK Hand Stop Kit / FDE"
       },
       "gray": {
        "chf": 33.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-grau/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Magpul – M-LOK Hand Stop Kit / Grau"
       },
       "odg": {
        "chf": 33.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-od-green/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – M-LOK Hand Stop Kit / OD-Green"
       }
-     }
+     },
+     "title": "Magpul – M-LOK Hand Stop Kit / Schwarz",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1510,14 +1775,18 @@
       "Dark Earth": {
        "chf": 36.9,
        "url": "https://www.armamat.ch/de-ch/p/m-lok-hand-stop-kit-10505530900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 36.9,
        "url": "https://www.armamat.ch/de-ch/p/m-lok-hand-stop-kit-10505506000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul M-LOK Hand Stop Kit",
+     "note": null
     }
    ]
   },
@@ -1535,14 +1804,18 @@
      "chf": 23.0,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-section-aluminium-5-slots-black",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul M-LOK Rail Section Aluminium 5 Slots Black",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
      "chf": 26.9,
      "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-aluminum-rail-section-5-slots-58mm/",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul – M-LOK / Aluminum Rail Section 5 Slots – 58mm",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1553,9 +1826,12 @@
       "Schwarz": {
        "chf": 28.9,
        "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-section-aluminium-5-slots-10464006000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul M-LOK Rail Section Aluminium 5 Slots",
+     "note": null
     }
    ]
   },
@@ -1573,7 +1849,9 @@
      "chf": 24.9,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-qd-sling-mount-black",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul M-LOK QD Sling Mount Black",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -1584,9 +1862,12 @@
       "black": {
        "chf": 29.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-qd-sling-mount-black/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – M-LOK QD Sling Mount / Black"
       }
-     }
+     },
+     "title": "Magpul – M-LOK QD Sling Mount / Black",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1597,9 +1878,12 @@
       "Schwarz": {
        "chf": 31.9,
        "url": "https://www.armamat.ch/de-ch/p/m-lok-qd-sling-mount-10485506000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul M-LOK QD Sling Mount",
+     "note": null
     }
    ]
   },
@@ -1621,24 +1905,30 @@
       "fde": {
        "chf": 18.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "coyote": {
        "chf": 18.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "odg": {
        "chf": 18.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "black": {
        "chf": 18.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-m-lok-rail-cover-type-2",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul M-LOK Rail Cover Type 2",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -1649,19 +1939,24 @@
       "black": {
        "chf": 22.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-black/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – M-LOK Rail Cover Type 2 / Black"
       },
       "fde": {
        "chf": 22.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-fde/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – M-LOK Rail Cover Type 2 / FDE"
       },
       "odg": {
        "chf": 22.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-odg/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – M-LOK Rail Cover Type 2 / ODG"
       }
-     }
+     },
+     "title": "Magpul – M-LOK Rail Cover Type 2 / Black",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1672,19 +1967,24 @@
       "Dark Earth": {
        "chf": 23.9,
        "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504630900/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "OD": {
        "chf": 23.9,
        "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504622000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 23.9,
        "url": "https://www.armamat.ch/de-ch/p/m-lok-rail-cover-type-2-10504606000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul M-LOK Rail Cover Type 2",
+     "note": null
     }
    ]
   },
@@ -1702,14 +2002,18 @@
      "chf": 295.2,
      "url": "https://www.shooting-store.ch/de/produkt/geissele-automatics-ar15-super-3-gun-s3g-trigger",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Geissele Automatics AR15 Super 3 Gun S3G Trigger",
+     "note": null
     },
     {
      "shop": "armamat.ch",
      "chf": 414.9,
      "url": "https://www.armamat.ch/de-ch/p/ar15-super-3-gun-s3g-trigger-113721/",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Geissele Automatics AR15 Super 3 Gun S3G Trigger",
+     "note": null
     }
    ]
   },
@@ -1731,24 +2035,30 @@
       "gray": {
        "chf": 129.4,
        "url": "https://www.shooting-store.ch/de/produkt/raptor-charging-handle-ar15-radian-grey",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "odg": {
        "chf": 129.4,
        "url": "https://www.shooting-store.ch/de/produkt/raptor-charging-handle-ar15-radian-od-green",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "fde": {
        "chf": 129.4,
        "url": "https://www.shooting-store.ch/de/produkt/radian-raptor-ambidextrous-charging-handle-ar15-dark-earth",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "black": {
        "chf": 122.9,
        "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-raptor-ambidextrous-charging-handle-ar15-black",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Radian Weapons Raptor Ambidextrous Charging Handle AR15 Black",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1759,9 +2069,12 @@
       "Schwarz": {
        "chf": 148.9,
        "url": "https://www.armamat.ch/de-ch/p/raptor-ambidextrous-charging-handle-ar15-11262806000/",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Radian Weapons Raptor Ambidextrous Charging Handle AR15",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -1772,14 +2085,18 @@
       "black": {
        "chf": 154.9,
        "url": "https://shop.schiessstand.ch/produkt/radian-weapons-ar-15-raptor-ambidextrous-charging-handle-black/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "RADIAN WEAPONS – AR-15 RAPTOR AMBIDEXTROUS CHARGING HANDLE BLACK"
       },
       "fde": {
        "chf": 154.9,
        "url": "https://shop.schiessstand.ch/produkt/radian-weapons-ar-15-raptor-ambidextrous-charging-handle-fde/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "RADIAN WEAPONS – AR-15 RAPTOR AMBIDEXTROUS CHARGING HANDLE FDE"
       }
-     }
+     },
+     "title": "RADIAN WEAPONS – AR-15 RAPTOR AMBIDEXTROUS CHARGING HANDLE BLACK",
+     "note": null
     }
    ]
   },
@@ -1801,19 +2118,24 @@
       "black": {
        "chf": 93.7,
        "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "gray": {
        "chf": 99.5,
        "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "fde": {
        "chf": 99.5,
        "url": "https://www.shooting-store.ch/de/produkt/raptor-lt-charging-handle-ar15",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "RAPTOR - LT Charging Handle - AR15",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1824,9 +2146,12 @@
       "Schwarz": {
        "chf": 114.9,
        "url": "https://www.armamat.ch/de-ch/p/raptor-lt-ambidextrous-charging-handle-for-ar15-11262706000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Radian Weapons Raptor-LT Ambidextrous Charging Handle for AR15",
+     "note": null
     }
    ]
   },
@@ -1844,7 +2169,9 @@
      "chf": 75.6,
      "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-talon-ambidextrous-45-90-safety-selector-black",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Radian Weapons Talon Ambidextrous 45/90 Safety Selector Black",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1855,9 +2182,12 @@
       "Schwarz": {
        "chf": 88.9,
        "url": "https://www.armamat.ch/de-ch/p/talon-ambidextrous-45-90-safety-selector-11262606000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Radian Weapons Talon Ambidextrous 45/90 Safety Selector",
+     "note": "a bolt külön 'Kit' változatot is árul (az nem ez)"
     }
    ]
   },
@@ -1875,7 +2205,9 @@
      "chf": 41.2,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-bad-lever-black",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul B.A.D. Lever Black",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -1886,9 +2218,12 @@
       "black": {
        "chf": 48.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-b-a-d-lever-battery-assist-device-ar15-m4-schwarz/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – B.A.D. Lever – Battery Assist Device AR15/M4 Schwarz"
       }
-     }
+     },
+     "title": "Magpul – B.A.D. Lever – Battery Assist Device AR15/M4 Schwarz",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1899,9 +2234,12 @@
       "Schwarz": {
        "chf": 49.9,
        "url": "https://www.armamat.ch/de-ch/p/b.a.d.-lever-10298606000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul B.A.D. Lever",
+     "note": null
     }
    ]
   },
@@ -1923,14 +2261,18 @@
       "odg": {
        "chf": 20.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-10-gen-m3-odg",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "black": {
        "chf": 20.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-10-gen-m3-black",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PMAG 10 Gen M3 Black",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1941,16 +2283,21 @@
       "Schwarz": {
        "chf": 24.9,
        "url": "https://www.armamat.ch/de-ch/p/pmag-10-gen-m3-10410706000/",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PMAG 10 Gen M3",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
      "chf": 24.9,
      "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-10-ar-m4-gen-m3/",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul – PMAG 10 AR/M4 Gen M3",
+     "note": null
     }
    ]
   },
@@ -1972,14 +2319,18 @@
       "odg": {
        "chf": 20.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-20-gen-m3-odg",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "black": {
        "chf": 20.3,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-20-gen-m3-black",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PMAG 20 Gen M3 Black",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -1990,16 +2341,21 @@
       "Schwarz": {
        "chf": 24.9,
        "url": "https://www.armamat.ch/de-ch/p/pmag-20-gen-m3-10410606000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PMAG 20 Gen M3",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
      "chf": 24.9,
      "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-20-ar-m4-gen-m3-223rem/",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul – PMAG 20 / AR / M4 / GEN M3 / .223REM",
+     "note": null
     }
    ]
   },
@@ -2021,19 +2377,24 @@
       "black": {
        "chf": 19.4,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "coyote": {
        "chf": 19.4,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "odg": {
        "chf": 19.4,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-pmag-30-gen-m3",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PMAG 30 Gen M3",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -2044,9 +2405,12 @@
       "black": {
        "chf": 24.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-30-gen-m3-black/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – PMAG 30 Gen M3 / black"
       }
-     }
+     },
+     "title": "Magpul – PMAG 30 Gen M3 / black",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -2057,14 +2421,18 @@
       "Coyote": {
        "chf": 26.9,
        "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-10294430100/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 26.9,
        "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-10294406000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PMAG 30 Gen M3",
+     "note": null
     }
    ]
   },
@@ -2086,14 +2454,18 @@
       "Coyote": {
        "chf": 31.9,
        "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-10294530100/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 29.9,
        "url": "https://www.armamat.ch/de-ch/p/pmag-30-gen-m3-window-10294506000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PMAG 30 Gen M3 Window",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -2104,14 +2476,18 @@
       "black": {
        "chf": 29.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-ar15-pmag-gen-m3-30schuss/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – AR15 PMAG Gen M3 / 30Schuss / Window / black"
       },
       "coyote": {
        "chf": 29.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-ar15-pmag-gen-m3-30schuss-coyote/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – AR15 PMAG Gen M3 / 30Schuss / Window / Coyote"
       }
-     }
+     },
+     "title": "Magpul – AR15 PMAG Gen M3 / 30Schuss / Window / black",
+     "note": "a bolti színek: black, coyote (MCT); FDE változat nincs"
     }
    ]
   },
@@ -2129,7 +2505,9 @@
      "chf": 31.1,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-ar-15-40rd-pmag-gen-m3-magazine-223-556",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "MAGPUL AR-15 40RD PMAG GEN M3 MAGAZINE 223/5.56",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -2140,9 +2518,12 @@
       "black": {
        "chf": 32.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-40-ar-m4-gen-m3/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – PMAG 40 / AR / M4 / 223.Rem / GEN M3 / black"
       }
-     }
+     },
+     "title": "Magpul – PMAG 40 / AR / M4 / 223.Rem / GEN M3 / black",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -2153,9 +2534,12 @@
       "Schwarz": {
        "chf": 36.9,
        "url": "https://www.armamat.ch/de-ch/p/pmag-40-gen-m3-12184806000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul PMAG 40 Gen M3",
+     "note": null
     }
    ]
   },
@@ -2177,24 +2561,30 @@
       "black": {
        "chf": 45.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "coyote": {
        "chf": 45.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "ranger": {
        "chf": 49.9,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "gray": {
        "chf": 49.9,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ms1-sling",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MS1 Sling",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -2205,24 +2595,30 @@
       "Coyote": {
        "chf": 54.9,
        "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411130100/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Grau": {
        "chf": 49.9,
        "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411110000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Ranger Green": {
        "chf": 54.9,
        "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411120200/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 54.9,
        "url": "https://www.armamat.ch/de-ch/p/ms1-sling-10411106000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MS1 Sling",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -2233,9 +2629,12 @@
       "black": {
        "chf": 54.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-ms1-sling-black/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Magpul – MS1 Sling / Black"
       }
-     }
+     },
+     "title": "Magpul – MS1 Sling / Black",
+     "note": "csak a sima MS1 (a \"Padded\" egy másik termék)"
     }
    ]
   },
@@ -2257,19 +2656,24 @@
       "black": {
        "chf": 94.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "coyote": {
        "chf": 94.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "ranger": {
        "chf": 94.8,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-ms4-dual-qd-gen-2-sling",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MS4 Dual QD Gen 2 Sling",
+     "note": "A boltban Gen 2 kivitel"
     },
     {
      "shop": "armamat.ch",
@@ -2280,19 +2684,24 @@
       "Coyote": {
        "chf": 101.9,
        "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411430100/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Ranger Green": {
        "chf": 101.9,
        "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411420200/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 101.9,
        "url": "https://www.armamat.ch/de-ch/p/ms4-dual-qd-gen-2-sling-10411406000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MS4 Dual QD Gen 2 Sling",
+     "note": "a bolt csak a Gen 2 kivitelt árulja"
     },
     {
      "shop": "schiessstand.ch",
@@ -2303,19 +2712,24 @@
       "black": {
        "chf": 114.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-black/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – MS4® Dual QD Sling GEN2 / Black"
       },
       "coyote": {
        "chf": 114.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-coyote/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – MS4® Dual QD Sling GEN2 / Coyote"
       },
       "ranger": {
        "chf": 114.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-ranger-green/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – MS4® Dual QD Sling GEN2 / Ranger Green"
       }
-     }
+     },
+     "title": "Magpul – MS4® Dual QD Sling GEN2 / Black",
+     "note": "bolti kivitel: GEN2"
     }
    ]
   },
@@ -2337,24 +2751,30 @@
       "black": {
        "chf": 82.4,
        "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "coyote": {
        "chf": 82.4,
        "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "odg": {
        "chf": 82.4,
        "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "multicam": {
        "chf": 82.4,
        "url": "https://www.shooting-store.ch/de/produkt/blue-force-gear-vickers-combat-application-sling",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Blue Force Gear Vickers Combat Application Sling",
+     "note": null
     },
     {
      "shop": "armamat.ch",
@@ -2365,24 +2785,30 @@
       "Coyote": {
        "chf": 84.9,
        "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391530100/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Multicam": {
        "chf": 84.9,
        "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391575100/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "OD": {
        "chf": 77.9,
        "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391522000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "Schwarz": {
        "chf": 84.9,
        "url": "https://www.armamat.ch/de-ch/p/vickers-combat-application-sling-10391506000/",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Blue Force Gear Vickers Combat Application Sling",
+     "note": null
     }
    ]
   },
@@ -2404,14 +2830,18 @@
       "black": {
        "chf": 1749.0,
        "url": "https://shop.schiessstand.ch/produkt/schmeisser-s4f-10-5-m-lok-black-223-rem/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Schmeisser – Halbauto / AR15 / S4F / Black / 10.5 / .223 Rem"
       },
       "olive": {
        "chf": 1849.0,
        "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-s4f-od-green-10-5-223-rem/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Schmeisser – Halbauto / AR15 / S4F / OD Green / 10.5 / .223 Rem"
       }
-     }
+     },
+     "title": "Schmeisser – Halbauto / AR15 / S4F / Black / 10.5 / .223 Rem",
+     "note": null
     },
     {
      "shop": "shooting-store.ch",
@@ -2422,19 +2852,24 @@
       "odg": {
        "chf": 2130.0,
        "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-s4f-od-green-105-223-rem",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "black": {
        "chf": 1995.0,
        "url": "https://www.shooting-store.ch/de/produkt/schmeisser-selbstladebuechse-s4f-black-105-m-lok-223-rem",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "bronze": {
        "chf": 2105.0,
        "url": "https://www.shooting-store.ch/de/produkt/schmeisser-ar15-s4f-m-lok-105-zoll-bronze-223-rem",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Selbstladebüchse Schmeisser AR15 S4F Black 10.5\" .223 Rem",
+     "note": "Standard (Selbstladebüchse, M-LOK, 10.5\", .223 Rem); a Solid Line / Special Edition / CSS-tusos kivitelek más termékek"
     }
    ]
   },
@@ -2456,24 +2891,30 @@
       "black": {
        "chf": 1749.0,
        "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-black-223-rem/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Schmeisser – Halbauto / AR15 / M4FL / Black / 14.5 / .223 Rem"
       },
       "bronze": {
        "chf": 1849.0,
        "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-bronze-223-rem/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Schmeisser – Halbauto / M4FL / 14.5 / M-Lok / Bronze / .223 Rem"
       },
       "earth": {
        "chf": 1899.0,
        "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m4fl-fde-14-5-223-rem/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Schmeisser – Halbauto / AR15 / M4FL / FDE / 14.5 / .223 Rem"
       },
       "olive": {
        "chf": 1849.0,
        "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-od-green-223-rem/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Schmeisser – Halbauto / M4FL / 14.5 / M-Lok / OD Green / .223 Rem"
       }
-     }
+     },
+     "title": "Schmeisser – Halbauto / AR15 / M4FL / Black / 14.5 / .223 Rem",
+     "note": null
     },
     {
      "shop": "shooting-store.ch",
@@ -2484,24 +2925,30 @@
       "bronze": {
        "chf": 2130.0,
        "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-bronze-145-223-rem",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 2130.0,
        "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-fde-145-223-rem",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "black": {
        "chf": 1990.0,
        "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-m4fl-black-145-m-lok-223-rem",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "odg": {
        "chf": 2130.0,
        "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-od-green-145-223-rem",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Selbstladebüchse Schmeisser AR15 M4FL Black 14.5\" .223 Rem",
+     "note": "Standard (14.5\", .223 Rem)"
     }
    ]
   },
@@ -2523,16 +2970,21 @@
       "black": {
        "chf": 1749.0,
        "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m5fl-black-16-75-223-rem/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Schmeisser – Halbauto / AR15 / M5FL Black / 16.75 / .223 Rem"
       }
-     }
+     },
+     "title": "Schmeisser – Halbauto / AR15 / M5FL Black / 16.75 / .223 Rem",
+     "note": null
     },
     {
      "shop": "shooting-store.ch",
      "chf": 1990.0,
      "url": "https://www.shooting-store.ch/de/produkt/schmeisser-m5fl-black-223rem-mlok-1675-10-schuss-langer-handschutz",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Selbstladebüchse Schmeisser AR15 M5FL Black  16.75\" .223 Rem",
+     "note": "Standard (16.75\", .223 Rem); a boltban csak fekete"
     }
    ]
   },
@@ -2554,9 +3006,12 @@
       "black": {
        "chf": 739.5,
        "url": "https://shop.schiessstand.ch/produkt/aimpoint-zielgeraet-pro-2-moa-schwarz/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Aimpoint – Zielgerät PRO / 2 Moa / Schwarz"
       }
-     }
+     },
+     "title": "Aimpoint – Zielgerät PRO / 2 Moa / Schwarz",
+     "note": "a bolti PRO kit tartalmazza a szerelést, a linsenschutz-ot és a spacert (QRP2 nincs név szerint említve)"
     }
    ]
   },
@@ -2578,9 +3033,12 @@
       "black": {
        "chf": 619.9,
        "url": "https://shop.schiessstand.ch/produkt/holosun-reflex-visier-aems-rd-black-rotem-wechselabsehen-2moa-dot-65moa-cricledo/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Holosun – Reflex Visier / AEMS-RD-Black / rotem Wechselabsehen: 2MOA Dot & 65MOA Cricledo"
       }
-     }
+     },
+     "title": "Holosun – Reflex Visier / AEMS-RD-Black / rotem Wechselabsehen: 2MOA Dot & 65MOA Cricledo",
+     "note": "piros (RD) reticle-változat; a bolt a zöld (GR), EVO és PRO-X2 típusokat külön árulja"
     }
    ]
   },
@@ -2602,9 +3060,12 @@
       "fde": {
        "chf": 263.0,
        "url": "https://shop.schiessstand.ch/produkt/holosun-hs403b-microdot-rotpunktvisier-mit-2moa-punkt-absehen-fde/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Holosun – HS403B Microdot Rotpunktvisier mit 2MOA Punkt Absehen / FDE"
       }
-     }
+     },
+     "title": "Holosun – HS403B Microdot Rotpunktvisier mit 2MOA Punkt Absehen / FDE",
+     "note": "a bolti termék tartalmaz Visierlinienerhöhung-ot (magasító); csak FDE színben kapható"
     }
    ]
   },
@@ -2622,7 +3083,9 @@
      "chf": 1729.0,
      "url": "https://shop.schiessstand.ch/produkt/trijicon-zielgeraet-acog-tr-ta31-4x32-dual-illuminated-red-dount-223-bac-reticlemount/",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Trijicon – Zielgerät ACOG / TR-TA31 / 4×32 Dual Illuminated / Red Dount / .223 BAC ReticleMount",
+     "note": "bolti változat: TA31 4x32, .223 BAC szálkereszt, dual illuminated, szereléssel (a szálkereszt-változat nem azonosítható a data.js-ből)"
     }
    ]
   },
@@ -2644,16 +3107,21 @@
       "tan": {
        "chf": 849.0,
        "url": "https://shop.schiessstand.ch/produkt/eotech-g43-compact-3-power-magnifier-with-quick-disconnect-switch-to-side-sts-mount-tan/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "EoTech – G43 / Compact 3 power magnifier with quick disconnect / switch-to-side (STS) mount / TAN"
       }
-     }
+     },
+     "title": "EoTech – G43.STS Magnifier",
+     "note": null
     },
     {
      "shop": "shooting-store.ch",
      "chf": 851.9,
      "url": "https://www.shooting-store.ch/de/produkt/eotech-magnifier-g43",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Eotech Vergrösserungsaufsatz G43.STS 3x Magnifier/Montage Picatinny (MIL STD 1913)/1\"Weaver",
+     "note": "G43.STS (STS szerelékkel); a data.js \"Micro szerelék\" megjelölése eltér"
     }
    ]
   },
@@ -2671,14 +3139,18 @@
      "chf": 254.0,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-offset-sight-front-black",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul MBUS Pro Offset Sight Front Black + Magpul MBUS Pro Offset Sight Rear Black",
+     "note": "A bolt az első és a hátsó irányzékot külön árulja; az ár az alkatrészek összege"
     },
     {
      "shop": "schiessstand.ch",
      "chf": 269.8,
      "url": "https://shop.schiessstand.ch/produkt/magpul-mbus-pro-offset-sight-front-blk/",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul – MBUS Pro Offset Sight / Front / BLK + Magpul – MBUS Pro Offset Sight / Rear / BLK",
+     "note": "SZETT = Front + Rear irányzék, két külön bolti termék; az ár a két termék összege"
     }
    ]
   },
@@ -2700,14 +3172,18 @@
       "black": {
        "chf": 395.0,
        "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m640df-dual-fuel-scout-pro-schwarz/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "SureFire – Lampe / Mod. M640DF Dual Fuel Scout pro / schwarz"
       },
       "tan": {
        "chf": 428.0,
        "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m640df-dual-fuel-scout-pro-tan/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "SureFire – Lampe / Mod. M640DF Dual Fuel Scout pro / tan"
       }
-     }
+     },
+     "title": "SureFire – Lampe / Mod. M640DF Dual Fuel Scout pro / schwarz",
+     "note": null
     }
    ]
   },
@@ -2729,14 +3205,18 @@
       "black": {
        "chf": 399.0,
        "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-tactical-x300u-b-ultra-schwarz/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Surefire – Lampe / Mod. Tactical X300U-B Ultra / schwarz"
       },
       "tan": {
        "chf": 399.0,
        "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-tactical-x300u-b-ultra-tan/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Surefire – Lampe / Mod. Tactical X300U-B Ultra / tan"
       }
-     }
+     },
+     "title": "Surefire – Lampe / Mod. Tactical X300U-B Ultra / schwarz",
+     "note": null
     }
    ]
   },
@@ -2754,7 +3234,9 @@
      "chf": 223.9,
      "url": "https://www.shooting-store.ch/de/produkt/streamlight-protac-rail-mount-hl-x-black",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Streamlight ProTac Rail Mount HL X Black",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -2765,9 +3247,12 @@
       "black": {
        "chf": 229.0,
        "url": "https://shop.schiessstand.ch/produkt/streamlight-protac-rail-mount-hl-x-black/",
-       "in_stock": false
+       "in_stock": false,
+       "title": "Streamlight – ProTac Rail Mount HL-X – Black"
       }
-     }
+     },
+     "title": "Streamlight – ProTac Rail Mount HL-X – Black",
+     "note": "a bolti cím \"ProTac Rail Mount HL-X\"; létezik külön \"HL-X Pro\" is (más termék, nem ez)"
     }
    ]
   },
@@ -2789,14 +3274,18 @@
       "black": {
        "chf": 23.6,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-vertical-grip-m-lok-compatible-mod-3",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 23.6,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-vertical-grip-m-lok-compatible-mod-3",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "BCM® Vertical Grip - (M-LOK® Compatible*) - Mod 3 -",
+     "note": "M-LOK kompatibilis Mod 3 (BCM Gunfighter)"
     },
     {
      "shop": "schiessstand.ch",
@@ -2807,14 +3296,18 @@
       "black": {
        "chf": 49.0,
        "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-black/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "BCM – Gunfighter Vertical Grip / Black"
       },
       "fde": {
        "chf": 49.0,
        "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-fde/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "BCM – Gunfighter Vertical Grip / FDE"
       }
-     }
+     },
+     "title": "BCM – Gunfighter Vertical Grip / Black",
+     "note": "bolti SKU: BCM-VG-MCMR-MOD-3 (Mod 3, M-LOK)"
     }
    ]
   },
@@ -2836,14 +3329,18 @@
       "black": {
        "chf": 23.6,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-kinesthetic-angled-grip-m-lok-compatible",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 23.6,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-kinesthetic-angled-grip-m-lok-compatible",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "BCM® Kinesthetic Angled Grip - (M-LOK® Compatible*)",
+     "note": "M-LOK kompatibilis KAG (BCM Gunfighter)"
     },
     {
      "shop": "schiessstand.ch",
@@ -2854,14 +3351,18 @@
       "black": {
        "chf": 38.0,
        "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-black/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "BCM – Gunfighter KAG Angled Grip / Black"
       },
       "fde": {
        "chf": 38.0,
        "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-fde/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "BCM – Gunfighter KAG Angled Grip / FDE"
       }
-     }
+     },
+     "title": "BCM – Gunfighter KAG Angled Grip / Black",
+     "note": "bolti SKU: BCM-KAG-MCMR (M-LOK)"
     }
    ]
   },
@@ -2883,14 +3384,18 @@
       "black": {
        "chf": 155.7,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-bipod-for-m-lok",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 155.7,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-bipod-for-m-lok",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul Bipod for M-LOK",
+     "note": null
     },
     {
      "shop": "schiessstand.ch",
@@ -2901,14 +3406,18 @@
       "black": {
        "chf": 179.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-bipod-for-m-lok-black/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – Bipod for M-Lok / Black"
       },
       "fde": {
        "chf": 171.9,
        "url": "https://shop.schiessstand.ch/produkt/magpul-bipod-for-m-lok-black-2/",
-       "in_stock": true
+       "in_stock": true,
+       "title": "Magpul – Bipod for M-Lok / FDE"
       }
-     }
+     },
+     "title": "Magpul – Bipod for M-Lok / Black",
+     "note": null
     }
    ]
   },
@@ -2930,14 +3439,18 @@
       "black": {
        "chf": 2128.49,
        "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-l-1675-black-223rem-mlok-10-schuss",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "gray": {
        "chf": 2945.0,
        "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-l-1675-grey-223rem-mlok-10-schuss",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Selbstladebüchse Schmeisser AR15 Dynamic L Black 16.75\" .223 Rem",
+     "note": "A boltban \"AR15 Dynamic L\" néven fut (16.75\"); a \"Dynamic M5FL\" névvel való azonosság a bolti oldal alapján valószínű, nem gyári megerősítésű"
     }
    ]
   },
@@ -2955,7 +3468,9 @@
      "chf": 2580.0,
      "url": "https://www.shooting-store.ch/de/produkt/daniel-defense-ddm4-v7-16-556-nato-brown-milspec",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Daniel Defense DDM4 V7 16\", 5.56 NATO, Brown, MilSpec",
+     "note": "A boltban csak a Brown (Mil-Spec) 16\" változat; a data.js fekete"
     }
    ]
   },
@@ -2973,7 +3488,9 @@
      "chf": 2329.7,
      "url": "https://www.shooting-store.ch/de/produkt/recce-16-mcmr15",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "RECCE-16 MCMR15",
+     "note": null
     }
    ]
   },
@@ -2995,14 +3512,18 @@
       "black": {
        "chf": 32.4,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-0-black",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 32.4,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-grip-mod-0-flat-dark-earth",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "BCM®  Grip Mod 0 - Black",
+     "note": "A boltban \"BCM Grip Mod 0\" (a BCM Gunfighter sorozat)"
     }
    ]
   },
@@ -3024,14 +3545,18 @@
       "black": {
        "chf": 69.8,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-0-black",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "fde": {
        "chf": 69.8,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-0-flat-dark-earth",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "BCM®   Stock - Mod 0 - Black",
+     "note": null
     }
    ]
   },
@@ -3053,14 +3578,18 @@
       "black": {
        "chf": 83.2,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-1-sopmod-compartment-black",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "fde": {
        "chf": 83.2,
        "url": "https://www.shooting-store.ch/de/produkt/bcm-stock-mod-1-sopmod-compartment-flat-dark-earth",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "BCM®  Stock - Mod 1 - SOPMOD - Compartment -Black",
+     "note": null
     }
    ]
   },
@@ -3078,7 +3607,9 @@
      "chf": 99.9,
      "url": "https://www.shooting-store.ch/de/produkt/b5-systems-ar-15-bravo-stock-collapsible-mil-spec-schwarz",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "B5 Systems AR-15 Bravo Stock, Collapsible Mil-Spec, Schwarz",
+     "note": "Mil-Spec kivitel"
     }
    ]
   },
@@ -3096,7 +3627,9 @@
      "chf": 148.9,
      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-crossfire-red-dot-led-upgrade-black",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Vortex Optics Crossfire Red Dot LED Upgrade Black",
+     "note": "A boltban \"Crossfire Red Dot LED Upgrade\"; a magasító szerelék nincs külön feltüntetve"
     }
    ]
   },
@@ -3118,14 +3651,18 @@
       "black": {
        "chf": 396.3,
        "url": "https://www.shooting-store.ch/de/produkt/super-precision-30mm-193-black",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "ddc": {
        "chf": 425.0,
        "url": "https://www.shooting-store.ch/de/produkt/super-precision-30mm-193-ddc",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Super Precision 30MM 1.93, Black",
+     "note": "Geissele Super Precision 30 mm, 1.93\" magasság"
     }
    ]
   },
@@ -3143,7 +3680,9 @@
      "chf": 361.9,
      "url": "https://www.shooting-store.ch/de/produkt/vortex-optics-v3xm-magnifier-with-flip-mount-black",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Vortex Optics V3XM Magnifier with Flip Mount Black",
+     "note": "V3XM modellkód (Vortex Micro 3X magnifier, flip mount); az egyezés a modellkódon alapul, a bolti oldal nem írja ki a \"Micro3X\" nevet"
     }
    ]
   },
@@ -3161,7 +3700,9 @@
      "chf": 114.6,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-3-front-back-up-sight",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul MBUS 3 Front Back-Up Sight + Magpul MBUS 3 Rear Back-Up Sight",
+     "note": "A bolt az első és a hátsó irányzékot külön árulja; az ár az alkatrészek összege"
     }
    ]
   },
@@ -3179,7 +3720,9 @@
      "chf": 246.7,
      "url": "https://www.shooting-store.ch/de/produkt/magpul-mbus-pro-sight-front-black",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Magpul MBUS Pro Sight Front Black + Magpul MBUS Pro Sight Rear Black",
+     "note": "A bolt az első és a hátsó irányzékot külön árulja; az ár az alkatrészek összege"
     }
    ]
   },
@@ -3197,7 +3740,9 @@
      "chf": 105.9,
      "url": "https://www.shooting-store.ch/de/produkt/bcm-compensator-mod-0-556",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "BCM®  Compensator Mod 0 - 5.56",
+     "note": null
     }
    ]
   },
@@ -3215,7 +3760,9 @@
      "chf": 295.2,
      "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-enhanced-ssa-e",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Super Semi-Automatic Enhanced (SSA-E)",
+     "note": null
     }
    ]
   },
@@ -3233,7 +3780,9 @@
      "chf": 295.2,
      "url": "https://www.shooting-store.ch/de/produkt/super-semi-automatic-ssa",
      "in_stock": false,
-     "colors": {}
+     "colors": {},
+     "title": "Super Semi-Automatic (SSA)",
+     "note": null
     }
    ]
   },
@@ -3251,7 +3800,9 @@
      "chf": 295.2,
      "url": "https://www.shooting-store.ch/de/produkt/super-dynamic-enhanced-sd-e",
      "in_stock": true,
-     "colors": {}
+     "colors": {},
+     "title": "Super Dynamic Enhanced (SD-E)",
+     "note": null
     }
    ]
   },
@@ -3273,14 +3824,18 @@
       "fde": {
        "chf": 164.0,
        "url": "https://www.shooting-store.ch/de/produkt/radian-raptor-sd-ambidextrous-charging-handle-ar15-dark-earth",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "black": {
        "chf": 158.1,
        "url": "https://www.shooting-store.ch/de/produkt/radian-weapons-ar-15-raptor-sd-ambidextrous-charging-handle-black",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       }
-     }
+     },
+     "title": "Radian Weapons AR-15 Raptor-SD Ambidextrous Charging Handle Black",
+     "note": null
     }
    ]
   },
@@ -3302,14 +3857,18 @@
       "black": {
        "chf": 141.0,
        "url": "https://www.shooting-store.ch/de/produkt/airborne-charging-handle-ach-556-black",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "ddc": {
        "chf": 153.8,
        "url": "https://www.shooting-store.ch/de/produkt/airborne-charging-handle-ach-556-ddc",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Airborne Charging Handle (ACH), 5.56, Black",
+     "note": "A boltban \"Airborne Charging Handle (ACH)\" néven (Geissele nevet nem tartalmazza a cím)"
     }
    ]
   },
@@ -3331,19 +3890,24 @@
       "black": {
        "chf": 12.4,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       },
       "fde": {
        "chf": 12.4,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
-       "in_stock": true
+       "in_stock": true,
+       "title": null
       },
       "odg": {
        "chf": 12.4,
        "url": "https://www.shooting-store.ch/de/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4",
-       "in_stock": false
+       "in_stock": false,
+       "title": null
       }
-     }
+     },
+     "title": "Magpul MOE Enhanced Trigger Guard, Polymer - AR15/M4",
+     "note": null
     }
    ]
   }

@@ -270,3 +270,7 @@ select { background: var(--panel-2); border: 1px solid var(--line); border-radiu
 .ordinfo { font-size: 11.5px; color: var(--muted); line-height: 1.5; margin: 0 0 6px; }
 .ordinfo a { color: var(--accent-2); text-decoration: none; }
 .ordinfo a:hover { text-decoration: underline; }
+
+.ord li .ordname { min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.ord li .ordname small { color: var(--muted); font-size: 11px; line-height: 1.35; overflow-wrap: anywhere; }
+.ord li .ordname small.ordwarn { color: var(--warn); }

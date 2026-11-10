@@ -134,7 +134,7 @@ SPECS = {
                   why='nincs a boltban'),
     'ap-pro': dict(q=['Aimpoint PRO', 'Aimpoint PRO QRP2'], t=r'(Aimpoint )?PRO.*', b=r'aimpoint',
                    why='ok: nincs a boltban (Aimpoint PRO nincs a kínálatban)'),
-    'ap-acro': dict(q=['Aimpoint Acro P-2'], t=r'Acro P-2', sub=r'3\.5 MOA', cand=r'^Acro P-2$',
+    'ap-acro': dict(q=['Aimpoint Acro P-2'], t=r'Acro P-2', t_never=True, cand=r'^Acro P-2$',
                     why='bizonytalan: a boltban az Acro P-2 önmagában kapható (3.5 MOA), a Picatinny talp nincs '
                         'a termékhez írva -> a csomag nem azonosítható biztosan'),
     'eo-exps3': dict(q=['EOTech EXPS3-0', 'HWS EXPS3-0'], t=r'HWS EXPS3-0', sub=r'Red Circle Dot', prefer=r'Schwarz',
@@ -161,10 +161,8 @@ SPECS = {
     'vx-crossfire': dict(q=['Vortex Crossfire'], t=r'.*Crossfire.*', b=r'vortex',
                          why='ok: nincs a boltban (Vortex Crossfire red dot nincs)'),
     'vx-se16': dict(q=['Vortex Strike Eagle 1-6x24', 'Strike Eagle 1-6'], t=r'Strike Eagle 1-6x24.*', b=r'vortex',
-                    cand=r'Strike Eagle',
                     why='ok: nincs a boltban (csak Strike Eagle EBR-7C 5-25x56 van, az nem azonos)'),
     'vx-se18': dict(q=['Vortex Strike Eagle 1-8x24', 'Strike Eagle 1-8'], t=r'Strike Eagle 1-8x24.*', b=r'vortex',
-                    cand=r'Strike Eagle',
                     why='ok: nincs a boltban (csak Strike Eagle EBR-7C 5-25x56 van, az nem azonos)'),
     'vx-pst16': dict(q=['Vortex Viper PST Gen II 1-6x24', 'Viper PST'], t=r'.*PST.*1-6x24.*', b=r'vortex',
                      why='ok: nincs a boltban (Viper PST 1-6x24 nincs)'),
@@ -176,9 +174,8 @@ SPECS = {
     'tj-credo16': dict(q=['Trijicon Credo', 'Credo 1-6x24'], t=r'.*Credo.*', b=r'trijicon',
                        why='ok: nincs a boltban (Trijicon Credo nincs)'),
     'tj-vcog': dict(q=['Trijicon VCOG 1-8x28', 'VCOG'], t=r'VCOG.* 1-8x28 Riflescope - SCO', b=r'trijicon',
-                    cand=r'VCOG',
-                    why='bizonytalan: a boltban csak a "VCOG 1-8x28 SCO" LaRue LT799 szereléssel kapható, '
-                        'más kivitel -> jelölt a "candidates"-ben'),
+                    note='Bolti kivitel: VCOG 1-8x28 SCO, LaRue Tactical LT799 szereléssel.',
+                    why='nincs a boltban'),
     'eo-vudu16': dict(q=['EOTech Vudu 1-6x24'], t=r'Vudu 1-6x24 FFP', prefer=r'5\.56',
                       note='A boltban csak FFP, többféle célkereszttel (azonos ár); a megjelenített a 5.56 BDC.',
                       why='nincs a boltban'),
@@ -213,7 +210,7 @@ SPECS = {
 
     # ---- Lámpák
     'sf-m600': dict(q=['SureFire M600DF Scout Light Pro', 'Scout Light Pro M600'], t=r'Scout Light Pro M600DF.*',
-                    b=r'surefire', cand=r'^Scout Light Pro M640DF',
+                    b=r'surefire',
                     why='ok: nincs a boltban (M600DF nincs; csak az M640DF/M640DFT/M640U kapható)'),
     'sf-m640': dict(q=['SureFire Scout Light Pro M640DF', 'M640DF'], t=r'Scout Light Pro M640DF', b=r'surefire',
                     why='nincs a boltban'),
@@ -540,8 +537,9 @@ def extract_dims(entries, desc):
         if DIM_LABEL.search(label):
             parts.append('%s: %s' % (label, val))
     for line in desc.split('\n'):
-        if DIM_LINE.search(line) and len(line) <= 160:
-            parts.append(line.strip(' ·•-'))
+        m = DIM_LINE.search(line)
+        if m:
+            parts.append(line[m.start():m.start() + 90].strip(' ·•-,;'))
     seen, out = set(), []
     for p in parts:
         if p not in seen:
@@ -698,7 +696,8 @@ def process_item(shop, item, spec, now_note):
         'in_stock': in_stock, 'stock_text': det['stock_text'],
         'weight_g': extract_weight(det['entries'], det['desc']),
         'dims': extract_dims(det['entries'], det['desc']),
-        'color': color_val or prim['color'],
+        'color': prim['color'] or (color_val.lower() if color_val else None),
+        'color_shop': color_val,
         'brand': prim['brand'], 'sku': ld.get('sku'),
     }
     if note:
