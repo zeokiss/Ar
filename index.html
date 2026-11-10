@@ -18,6 +18,7 @@
     </div>
     <div class="actions">
       <select id="presets" aria-label="Előre összeállított buildek"></select>
+      <button id="btnPrices" class="btn" aria-pressed="false" title="Árak elrejtése bemutatáshoz">Árak elrejtése</button>
       <button id="btnShare" class="btn">Megosztás</button>
       <button id="btnPng" class="btn">PNG mentése</button>
       <button id="btnReset" class="btn ghost">Alaphelyzet</button>
@@ -48,7 +49,7 @@
       </div>
       <div id="photoNote" class="photo-note"></div>
       <div class="stats">
-        <div><span>Ár</span><b id="statPrice"></b><small id="statHuf"></small></div>
+        <div id="statPriceBox"><span>Ár</span><b id="statPrice"></b><small id="statHuf"></small></div>
         <div><span>Tömeg (tár nélkül*)</span><b id="statWeight"></b></div>
         <div><span>Teljes hossz</span><b id="statOal"></b></div>
         <div><span>Cső</span><b id="statBarrel"></b></div>

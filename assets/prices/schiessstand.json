@@ -1,0 +1,1309 @@
+{
+ "shop": "schiessstand.ch",
+ "currency": "CHF",
+ "fetched": "2026-11-10",
+ "source": "https://shop.schiessstand.ch (WooCommerce Store API, 3099 termék a katalógusban)",
+ "price_basis": "kiírt fogyasztói ár, ÁFÁ-val (valueAddedTaxIncluded)",
+ "items": {
+  "schm-s4f": {
+   "title": "Schmeisser – Halbauto / AR15 / S4F / Black / 10.5 / .223 Rem",
+   "price_chf": 1749.0,
+   "list_chf": 1995.0,
+   "url": "https://shop.schiessstand.ch/produkt/schmeisser-s4f-10-5-m-lok-black-223-rem/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/02/03-0099M-Schmeisser-Selbstladebuechse-S4F-10.5-M-lok-Black-.jpg",
+   "in_stock": false,
+   "stock_status": "backorder",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Auf Vorbestellung, Lieferzeit variabel",
+   "sku": "7009342",
+   "colors_prices": {
+    "black": {
+     "title": "Schmeisser – Halbauto / AR15 / S4F / Black / 10.5 / .223 Rem",
+     "price_chf": 1749.0,
+     "list_chf": 1995.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-s4f-10-5-m-lok-black-223-rem/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/02/03-0099M-Schmeisser-Selbstladebuechse-S4F-10.5-M-lok-Black-.jpg",
+     "in_stock": false,
+     "stock_status": "backorder",
+     "availability": "Auf Vorbestellung, Lieferzeit variabel"
+    },
+    "olive": {
+     "title": "Schmeisser – Halbauto / AR15 / S4F / OD Green / 10.5 / .223 Rem",
+     "price_chf": 1849.0,
+     "list_chf": 2130.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-s4f-od-green-10-5-223-rem/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/compressed_7110001_515.webp",
+     "in_stock": false,
+     "stock_status": "backorder",
+     "availability": "Auf Vorbestellung, Lieferzeit variabel"
+    }
+   }
+  },
+  "schm-m4fl": {
+   "title": "Schmeisser – Halbauto / AR15 / M4FL / Black / 14.5 / .223 Rem",
+   "price_chf": 1749.0,
+   "list_chf": 1995.0,
+   "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-black-223-rem/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/SP15-M4FL-Li-1024x242-1.webp",
+   "in_stock": false,
+   "stock_status": "backorder",
+   "weight_g": 3250,
+   "dims": "Länge: 79,5 cm eingeschoben, 89,5 cm ausgezogen",
+   "color": "Black",
+   "availability": "Auf Vorbestellung, Lieferzeit variabel",
+   "sku": "7009343",
+   "colors_prices": {
+    "black": {
+     "title": "Schmeisser – Halbauto / AR15 / M4FL / Black / 14.5 / .223 Rem",
+     "price_chf": 1749.0,
+     "list_chf": 1995.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-black-223-rem/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/SP15-M4FL-Li-1024x242-1.webp",
+     "in_stock": false,
+     "stock_status": "backorder",
+     "availability": "Auf Vorbestellung, Lieferzeit variabel"
+    },
+    "bronze": {
+     "title": "Schmeisser – Halbauto / M4FL / 14.5 / M-Lok / Bronze / .223 Rem",
+     "price_chf": 1849.0,
+     "list_chf": 2130.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-bronze-223-rem/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/compressed_7110005_520.webp",
+     "in_stock": false,
+     "stock_status": "backorder",
+     "availability": "Auf Vorbestellung, Lieferzeit variabel"
+    },
+    "earth": {
+     "title": "Schmeisser – Halbauto / AR15 / M4FL / FDE / 14.5 / .223 Rem",
+     "price_chf": 1899.0,
+     "list_chf": 2130.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m4fl-fde-14-5-223-rem/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/12/Schmeisser_Halbauto_AR15_M4FL_FDE-1.png",
+     "in_stock": false,
+     "stock_status": "backorder",
+     "availability": "Auf Vorbestellung, Lieferzeit variabel"
+    },
+    "olive": {
+     "title": "Schmeisser – Halbauto / M4FL / 14.5 / M-Lok / OD Green / .223 Rem",
+     "price_chf": 1849.0,
+     "list_chf": 2130.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-m4fl-14-5-m-lok-od-green-223-rem/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/compressed_7110006_521.webp",
+     "in_stock": false,
+     "stock_status": "backorder",
+     "availability": "Auf Vorbestellung, Lieferzeit variabel"
+    }
+   }
+  },
+  "schm-m5fl": {
+   "title": "Schmeisser – Halbauto / AR15 / M5FL Black / 16.75 / .223 Rem",
+   "price_chf": 1749.0,
+   "list_chf": 1995.0,
+   "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m5fl-black-16-75-223-rem/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/compressed_7009360_525.webp",
+   "in_stock": false,
+   "stock_status": "backorder",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Auf Vorbestellung, Lieferzeit variabel",
+   "sku": "7009360",
+   "colors_prices": {
+    "black": {
+     "title": "Schmeisser – Halbauto / AR15 / M5FL Black / 16.75 / .223 Rem",
+     "price_chf": 1749.0,
+     "list_chf": 1995.0,
+     "url": "https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-m5fl-black-16-75-223-rem/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/compressed_7009360_525.webp",
+     "in_stock": false,
+     "stock_status": "backorder",
+     "availability": "Auf Vorbestellung, Lieferzeit variabel"
+    }
+   }
+  },
+  "mp-moek2": {
+   "title": "Magpul – MOE-K2 Grip AR15/M4 – BLK",
+   "price_chf": 24.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde-3/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/01/Magpul_MOE_K2_BLK.webp",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG522-BLK",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – MOE-K2 Grip AR15/M4 – BLK",
+     "price_chf": 24.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde-3/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/01/Magpul_MOE_K2_BLK.webp",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "fde": {
+     "title": "Magpul – MOE-K2 Grip AR15/M4 – FDE",
+     "price_chf": 24.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde-2/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/01/Magpul_MOE_K2_FDE.webp",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "odg": {
+     "title": "Magpul – MOE-K2 Grip AR15/M4 – OD-Green",
+     "price_chf": 24.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-od-green/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/01/Magpul_MOE_K2_ODG.webp",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "mp-moek2p": {
+   "title": "Magpul – MOE-K2+ Grip AR15/M4 Schwarz",
+   "price_chf": 34.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-schwarz/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/mag532-blk_magpul_moe-k2-plus_grip_ar15-m4_01_1_clipped_rev_1.jpeg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG532-BLK",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – MOE-K2+ Grip AR15/M4 Schwarz",
+     "price_chf": 34.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-schwarz/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/mag532-blk_magpul_moe-k2-plus_grip_ar15-m4_01_1_clipped_rev_1.jpeg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "fde": {
+     "title": "Magpul – MOE-K2+ Grip AR15/M4 FDE",
+     "price_chf": 34.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/mag532-fde_magpul_moe-k2-plus_grip_ar15-m4_01_clipped_rev_1.jpeg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "odg": {
+     "title": "Magpul – MOE-K2+ Grip AR15/M4 OD-Green",
+     "price_chf": 34.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-schwarz-2/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/mag532-odg_magpul_moe-k2-plus_grip_ar15-m4_01_clipped_rev_1.jpeg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "mp-prs3": {
+   "title": "Magpul – PRS GEN3 Precision-Adjustable Stock / Black",
+   "price_chf": 344.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-moe-carbine-stock-mil-spec-black-2/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/09/Magpul-Stock-Blk.png",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG672-BLK",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – PRS GEN3 Precision-Adjustable Stock / Black",
+     "price_chf": 344.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-moe-carbine-stock-mil-spec-black-2/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/09/Magpul-Stock-Blk.png",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "ap-pro": {
+   "title": "Aimpoint – Zielgerät PRO / 2 Moa / Schwarz",
+   "price_chf": 739.5,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/aimpoint-zielgeraet-pro-2-moa-schwarz/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2024/05/shop_ap-12841.png",
+   "in_stock": false,
+   "stock_status": "out-of-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Zurzeit leider nicht lieferbar",
+   "sku": "AP-12841",
+   "colors_prices": {
+    "black": {
+     "title": "Aimpoint – Zielgerät PRO / 2 Moa / Schwarz",
+     "price_chf": 739.5,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/aimpoint-zielgeraet-pro-2-moa-schwarz/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2024/05/shop_ap-12841.png",
+     "in_stock": false,
+     "stock_status": "out-of-stock",
+     "availability": "Zurzeit leider nicht lieferbar"
+    }
+   },
+   "note": "a bolti PRO kit tartalmazza a szerelést, a linsenschutz-ot és a spacert (QRP2 nincs név szerint említve)"
+  },
+  "eo-exps3": {
+   "title": "EoTech – EXPS3-0",
+   "price_chf": 979.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/eotech-exps3-0/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/exps3_fro.png",
+   "in_stock": false,
+   "stock_status": "backorder",
+   "weight_g": 314,
+   "dims": "L 9.1 cm x B 7 cm x H 5.5 cm",
+   "color": null,
+   "availability": "Auf Vorbestellung, Lieferzeit variabel",
+   "sku": "EXPS3-0",
+   "colors_prices": {
+    "default": {
+     "title": "EoTech – EXPS3-0",
+     "price_chf": 979.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-exps3-0/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/exps3_fro.png",
+     "in_stock": false,
+     "stock_status": "backorder",
+     "availability": "Auf Vorbestellung, Lieferzeit variabel"
+    },
+    "fde": {
+     "title": "EOTECH – HWS EXPS3-0 / 68MOA ring and 1 MOA Dot / TAN/FDE",
+     "price_chf": 999.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-hws-exps3-dcr-2/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/07/exps3_tanfro_clipped_rev_1-1.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "eo-exps2": {
+   "title": "EoTech – EXPS2-0",
+   "price_chf": 793.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/eotech-exps2-0/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2024/04/exps2_fro.png",
+   "in_stock": false,
+   "stock_status": "out-of-stock",
+   "weight_g": 314,
+   "dims": "L 9.1 cm x B 7 cm x H 5.5 cm",
+   "color": null,
+   "availability": "Zurzeit leider nicht lieferbar",
+   "sku": "EXPS2"
+  },
+  "eo-xps2": {
+   "title": "EoTech – XPS2-0",
+   "price_chf": 814.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/eotech-xps2-0/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/03/l_100036447_2.jpg",
+   "in_stock": false,
+   "stock_status": "backorder",
+   "weight_g": 250,
+   "dims": "96x53x63mm",
+   "color": null,
+   "availability": "Auf Vorbestellung, Lieferzeit variabel",
+   "sku": "4427"
+  },
+  "hs-510c": {
+   "title": "Holosun – HS510C Offenes Reflex Rotpunktvisier, wechselbares 2MOA Punkt, 65MOA Kreis Absehen",
+   "price_chf": 458.0,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/holosun-hs510c-offenes-reflex-rotpunktvisier-wechselbares-2moa-punkt-65moa-kreis-absehen/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/99aacf1ea76d7ad428eabf2c38a5e2b1_1920x1920.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "70127430",
+   "colors_prices": {
+    "default": {
+     "title": "Holosun – HS510C Offenes Reflex Rotpunktvisier, wechselbares 2MOA Punkt, 65MOA Kreis Absehen",
+     "price_chf": 458.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/holosun-hs510c-offenes-reflex-rotpunktvisier-wechselbares-2moa-punkt-65moa-kreis-absehen/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/99aacf1ea76d7ad428eabf2c38a5e2b1_1920x1920.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "fde": {
+     "title": "Holosun – HS510C Solar Red Circle Dot Sigh 2MOA Punkt 65MOA Kreis Absehen FDE",
+     "price_chf": 421.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/holosun-hs510c-solar-red-circle-dot-sigh-2moa-punkt-65moa-kreis-absehen-fde/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/05/holosun_hs510c_solar_red_circle_dot_sight-_1_.jpg",
+     "in_stock": false,
+     "stock_status": "out-of-stock",
+     "availability": "Zurzeit leider nicht lieferbar"
+    }
+   }
+  },
+  "hs-aems": {
+   "title": "Holosun – Reflex Visier / AEMS-RD-Black / rotem Wechselabsehen: 2MOA Dot & 65MOA Cricledo",
+   "price_chf": 619.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/holosun-reflex-visier-aems-rd-black-rotem-wechselabsehen-2moa-dot-65moa-cricledo/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/02/610de.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": 110,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "70-78006201",
+   "colors_prices": {
+    "black": {
+     "title": "Holosun – Reflex Visier / AEMS-RD-Black / rotem Wechselabsehen: 2MOA Dot & 65MOA Cricledo",
+     "price_chf": 619.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/holosun-reflex-visier-aems-rd-black-rotem-wechselabsehen-2moa-dot-65moa-cricledo/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/02/610de.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   },
+   "note": "piros (RD) reticle-változat; a bolt a zöld (GR), EVO és PRO-X2 típusokat külön árulja"
+  },
+  "hs-403b": {
+   "title": "Holosun – HS403B Microdot Rotpunktvisier mit 2MOA Punkt Absehen / FDE",
+   "price_chf": 263.0,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/holosun-hs403b-microdot-rotpunktvisier-mit-2moa-punkt-absehen-fde/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/01/FGSFGSGSF.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": 125,
+   "dims": null,
+   "color": "FDE / Dark Earth",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "10678206005",
+   "colors_prices": {
+    "fde": {
+     "title": "Holosun – HS403B Microdot Rotpunktvisier mit 2MOA Punkt Absehen / FDE",
+     "price_chf": 263.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/holosun-hs403b-microdot-rotpunktvisier-mit-2moa-punkt-absehen-fde/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/01/FGSFGSGSF.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   },
+   "note": "a bolti termék tartalmaz Visierlinienerhöhung-ot (magasító); csak FDE színben kapható"
+  },
+  "vx-pst16": {
+   "title": "Vortex Optics – Viper PST Gen II / 1-6×24 / SFP / VMR-2 MOA",
+   "price_chf": 666.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/vortex-optics-viper-pst-gen-ii-1-6x24-sfp-vmr-2-moa/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/07/vortex_optics_viper_pst_gen_ii_1-6x24_sfp_vmr-2_moa.png",
+   "in_stock": false,
+   "stock_status": "backorder",
+   "weight_g": 643,
+   "dims": null,
+   "color": null,
+   "availability": "Auf Vorbestellung, Lieferzeit variabel",
+   "sku": "10664406000",
+   "note": "SFP, VMR-2 MOA szálkereszt"
+  },
+  "tj-acog": {
+   "title": "Trijicon – Zielgerät ACOG / TR-TA31 / 4×32 Dual Illuminated / Red Dount / .223 BAC ReticleMount",
+   "price_chf": 1729.0,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/trijicon-zielgeraet-acog-tr-ta31-4x32-dual-illuminated-red-dount-223-bac-reticlemount/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/09/11386_1.jpg",
+   "in_stock": false,
+   "stock_status": "out-of-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "availability": "Zurzeit leider nicht lieferbar",
+   "sku": "TR-1",
+   "note": "bolti változat: TA31 4x32, .223 BAC szálkereszt, dual illuminated, szereléssel (a szálkereszt-változat nem azonosítható a data.js-ből)"
+  },
+  "eo-vudu16": {
+   "title": "EOTECH – Vudu® 1-6×24 FFP / 7.62 SR2 Absehen",
+   "price_chf": 1639.0,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/eotech-vudu-1-6x24-ffp-7-62-sr2-absehen/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/05/eotech_vudu_scope_1-6x_fr_1_2.jpg",
+   "in_stock": false,
+   "stock_status": "backorder",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "availability": "Auf Vorbestellung, Lieferzeit variabel",
+   "sku": "VDU1-6FFSR2",
+   "note": "bolti változat: FFP, 7.62 SR2 szálkereszt (a data.js nem ad szálkeresztet)"
+  },
+  "vx-cant30": {
+   "title": "Vortex Optics – Sport Cantilever Mount / 30mm 1.5 Inch Height",
+   "price_chf": 106.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/vortex-optics-sport-cantilever-mount-30mm-1-5-inch-height/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/06/Vortex_Optics_Sport_Cantilever_Mount_30mm_1.5_Inch-Height_.png",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "12737906000"
+  },
+  "eo-g33": {
+   "title": "Eotech – Magnifier / G33.STS / Tan",
+   "price_chf": 784.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/eotech-magnifier-g33-sts-tan/",
+   "image": null,
+   "in_stock": false,
+   "stock_status": "out-of-stock",
+   "weight_g": 300,
+   "dims": "113x56x74mm",
+   "color": "Tan",
+   "availability": "Zurzeit leider nicht lieferbar",
+   "sku": "10349332800",
+   "colors_prices": {
+    "tan": {
+     "title": "Eotech – Magnifier / G33.STS / Tan",
+     "price_chf": 784.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-magnifier-g33-sts-tan/",
+     "image": null,
+     "in_stock": false,
+     "stock_status": "out-of-stock",
+     "availability": "Zurzeit leider nicht lieferbar"
+    }
+   },
+   "alt_urls": [
+    "https://shop.schiessstand.ch/produkt/eotech-g33-3-power-magnifier-with-quick-disconnect-switch-to-side-sts-mount-tan/"
+   ],
+   "note": "a bolt csak TAN színben árulja, STS szereléssel"
+  },
+  "eo-g43": {
+   "title": "EoTech – G43.STS Magnifier",
+   "price_chf": 836.5,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/eotech-g43-sts-magnifier/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/03/ascccdasd.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": 320,
+   "dims": "79x58x84 mm",
+   "color": null,
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "EO-G43.STS",
+   "colors_prices": {
+    "default": {
+     "title": "EoTech – G43.STS Magnifier",
+     "price_chf": 836.5,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-g43-sts-magnifier/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/03/ascccdasd.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "tan": {
+     "title": "EoTech – G43 / Compact 3 power magnifier with quick disconnect / switch-to-side (STS) mount / TAN",
+     "price_chf": 849.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/eotech-g43-compact-3-power-magnifier-with-quick-disconnect-switch-to-side-sts-mount-tan/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/11/Eo_Tech_g43_tan_.png",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "hs-hm3x": {
+   "title": "Holosun – Magnifier / HM3X / 3 fach Vergrößerung",
+   "price_chf": 309.0,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/holosun-magnifier-hm3x-3-fach-vergroesserung/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2024/12/e45cbcd09d14cdf532e4313e6684a2b2_1920x1920.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": 304,
+   "dims": null,
+   "color": null,
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "70-78004122"
+  },
+  "mp-mbusoff": {
+   "title": "Magpul – MBUS Pro Offset Sight / Front / BLK + Magpul – MBUS Pro Offset Sight / Rear / BLK",
+   "price_chf": 269.8,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-mbus-pro-offset-sight-front-blk/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/03/mag525-blk_mbus_pro_offset_sight_front_01.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen / Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG525-BLK",
+   "parts": [
+    {
+     "title": "Magpul – MBUS Pro Offset Sight / Front / BLK",
+     "price_chf": 119.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-mbus-pro-offset-sight-front-blk/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/03/mag525-blk_mbus_pro_offset_sight_front_01.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+     "sku": "MAG525-BLK"
+    },
+    {
+     "title": "Magpul – MBUS Pro Offset Sight / Rear / BLK",
+     "price_chf": 149.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-mbus-pro-offset-sight-rear-blk/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/03/mag526-blk_magpul_mbus_pro_offset_sight_rear_01_1.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+     "sku": "MAG526-BLK"
+    }
+   ],
+   "note": "SZETT = Front + Rear irányzék, két külön bolti termék; az ár a két termék összege"
+  },
+  "sf-m640": {
+   "title": "SureFire – Lampe / Mod. M640DF Dual Fuel Scout pro / schwarz",
+   "price_chf": 395.0,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m640df-dual-fuel-scout-pro-schwarz/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/06/24498_L_1.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "SF-M640DF-BK-PRO",
+   "colors_prices": {
+    "black": {
+     "title": "SureFire – Lampe / Mod. M640DF Dual Fuel Scout pro / schwarz",
+     "price_chf": 395.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m640df-dual-fuel-scout-pro-schwarz/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/06/24498_L_1.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "tan": {
+     "title": "SureFire – Lampe / Mod. M640DF Dual Fuel Scout pro / tan",
+     "price_chf": 428.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m640df-dual-fuel-scout-pro-tan/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/06/24499_L_1.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "sf-x300": {
+   "title": "Surefire – Lampe / Mod. Tactical X300U-B Ultra / schwarz",
+   "price_chf": 399.0,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-tactical-x300u-b-ultra-schwarz/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/09/Surfire-SF-X300U-B.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "SF-X300U-B",
+   "colors_prices": {
+    "black": {
+     "title": "Surefire – Lampe / Mod. Tactical X300U-B Ultra / schwarz",
+     "price_chf": 399.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-tactical-x300u-b-ultra-schwarz/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/09/Surfire-SF-X300U-B.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "tan": {
+     "title": "Surefire – Lampe / Mod. Tactical X300U-B Ultra / tan",
+     "price_chf": 399.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/surefire-lampe-mod-tactical-x300u-b-ultra-tan/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/09/Surefire-x300u-b-tn-.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "sl-hlx": {
+   "title": "Streamlight – ProTac Rail Mount HL-X – Black",
+   "price_chf": 229.0,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/streamlight-protac-rail-mount-hl-x-black/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/05/protac-rm-hl-x_le.jpg",
+   "in_stock": false,
+   "stock_status": "out-of-stock",
+   "weight_g": 181,
+   "dims": "138 mm",
+   "color": "Black",
+   "availability": "Zurzeit leider nicht lieferbar",
+   "sku": "47368",
+   "colors_prices": {
+    "black": {
+     "title": "Streamlight – ProTac Rail Mount HL-X – Black",
+     "price_chf": 229.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/streamlight-protac-rail-mount-hl-x-black/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/05/protac-rm-hl-x_le.jpg",
+     "in_stock": false,
+     "stock_status": "out-of-stock",
+     "availability": "Zurzeit leider nicht lieferbar"
+    }
+   },
+   "note": "a bolti cím \"ProTac Rail Mount HL-X\"; létezik külön \"HL-X Pro\" is (más termék, nem ez)"
+  },
+  "sl-tlr1": {
+   "title": "Streamlight – TLR-1 HL Tactical LED Light – Black",
+   "price_chf": 279.95,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/streamlight-tlr-1-hl/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/03/5484_gr.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": 130,
+   "dims": "Länge: 75 mm",
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "30187",
+   "colors_prices": {
+    "black": {
+     "title": "Streamlight – TLR-1 HL Tactical LED Light – Black",
+     "price_chf": 279.95,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/streamlight-tlr-1-hl/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/03/5484_gr.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "fde": {
+     "title": "Streamlight – TLR-1 HL Tactical LED Light – Dark Earth",
+     "price_chf": 289.95,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/streamlight-tlr-1-hl-3/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2024/07/tlr1-hl_flatdarkearth.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "mp-hstop": {
+   "title": "Magpul – M-LOK Hand Stop Kit / Schwarz",
+   "price_chf": 33.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-schwarz/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/07/M-LOK-Hand-Stop-Kit-MAG608-blk-0.jpeg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG608-BLK",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – M-LOK Hand Stop Kit / Schwarz",
+     "price_chf": 33.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-schwarz/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/07/M-LOK-Hand-Stop-Kit-MAG608-blk-0.jpeg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "fde": {
+     "title": "Magpul – M-LOK Hand Stop Kit / FDE",
+     "price_chf": 33.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-fde/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/07/M-LOK-Hand-Stop-Kit-MAG608-fde-0.jpeg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "gray": {
+     "title": "Magpul – M-LOK Hand Stop Kit / Grau",
+     "price_chf": 33.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-grau/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/07/M-LOK-Hand-Stop-Kit-MAG608-gry-0.jpeg",
+     "in_stock": false,
+     "stock_status": "backorder",
+     "availability": "Auf Vorbestellung, Lieferzeit variabel"
+    },
+    "odg": {
+     "title": "Magpul – M-LOK Hand Stop Kit / OD-Green",
+     "price_chf": 33.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-hand-stop-kit-od-green/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/07/M-LOK-Hand-Stop-Kit-MAG608-odg-0.jpeg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "bcm-vg3": {
+   "title": "BCM – Gunfighter Vertical Grip / Black",
+   "price_chf": 49.0,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-black/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/11/l_100026750_3.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "BCM-VG-MCMR-MOD-3-BLK",
+   "colors_prices": {
+    "black": {
+     "title": "BCM – Gunfighter Vertical Grip / Black",
+     "price_chf": 49.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-black/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/11/l_100026750_3.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "fde": {
+     "title": "BCM – Gunfighter Vertical Grip / FDE",
+     "price_chf": 49.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-fde/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/11/l_100026751_1-1.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   },
+   "note": "bolti SKU: BCM-VG-MCMR-MOD-3 (Mod 3, M-LOK)"
+  },
+  "bcm-kag": {
+   "title": "BCM – Gunfighter KAG Angled Grip / Black",
+   "price_chf": 38.0,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-black/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/11/compressed_BCMKAGMCMRBLK_548729.webp",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "BCM-KAG-MCMR-BLK",
+   "colors_prices": {
+    "black": {
+     "title": "BCM – Gunfighter KAG Angled Grip / Black",
+     "price_chf": 38.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-black/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/11/compressed_BCMKAGMCMRBLK_548729.webp",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "fde": {
+     "title": "BCM – Gunfighter KAG Angled Grip / FDE",
+     "price_chf": 38.0,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-fde/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/11/compressed_BCMKAGMCMRFDE_548719.webp",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   },
+   "note": "bolti SKU: BCM-KAG-MCMR (M-LOK)"
+  },
+  "mp-rail5": {
+   "title": "Magpul – M-LOK / Aluminum Rail Section 5 Slots – 58mm",
+   "price_chf": 26.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-aluminum-rail-section-5-slots-58mm/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2024/10/Magpul-M-LOK-Aluminum-Rail-Section-5-0.jpeg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG581"
+  },
+  "mp-qd": {
+   "title": "Magpul – M-LOK QD Sling Mount / Black",
+   "price_chf": 29.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-qd-sling-mount-black/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/mag606-blk_magpul_m-lok_qd_sling_mount_01_1.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "Mag606-BLK",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – M-LOK QD Sling Mount / Black",
+     "price_chf": 29.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-qd-sling-mount-black/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/mag606-blk_magpul_m-lok_qd_sling_mount_01_1.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "mp-cover": {
+   "title": "Magpul – M-LOK Rail Cover Type 2 / Black",
+   "price_chf": 22.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-black/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/08/mag603-blk_m-lok_rail_covers_type_2_01_1.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG603-BLK",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – M-LOK Rail Cover Type 2 / Black",
+     "price_chf": 22.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-black/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/08/mag603-blk_m-lok_rail_covers_type_2_01_1.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "fde": {
+     "title": "Magpul – M-LOK Rail Cover Type 2 / FDE",
+     "price_chf": 22.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-fde/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2024/12/mag603-fde_m-lok_rail_covers_type_2_01.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "odg": {
+     "title": "Magpul – M-LOK Rail Cover Type 2 / ODG",
+     "price_chf": 22.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-m-lok-rail-cover-type-2-odg/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2024/12/mag603-odg_m-lok_rail_covers_type_2_01.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "mp-bipod": {
+   "title": "Magpul – Bipod for M-Lok / Black",
+   "price_chf": 179.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-bipod-for-m-lok-black/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/mag933-blk_magpul_bipod_m-lok_01_1.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG933_BLK",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – Bipod for M-Lok / Black",
+     "price_chf": 179.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-bipod-for-m-lok-black/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/mag933-blk_magpul_bipod_m-lok_01_1.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "fde": {
+     "title": "Magpul – Bipod for M-Lok / FDE",
+     "price_chf": 171.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-bipod-for-m-lok-black-2/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2024/04/mag933-fde_magpul_bipod_m-lok_02.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "rd-raptor": {
+   "title": "RADIAN WEAPONS – AR-15 RAPTOR AMBIDEXTROUS CHARGING HANDLE BLACK",
+   "price_chf": 154.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/radian-weapons-ar-15-raptor-ambidextrous-charging-handle-black/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/l_100023416_2.webp",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "R0001",
+   "colors_prices": {
+    "black": {
+     "title": "RADIAN WEAPONS – AR-15 RAPTOR AMBIDEXTROUS CHARGING HANDLE BLACK",
+     "price_chf": 154.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/radian-weapons-ar-15-raptor-ambidextrous-charging-handle-black/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/l_100023416_2.webp",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "fde": {
+     "title": "RADIAN WEAPONS – AR-15 RAPTOR AMBIDEXTROUS CHARGING HANDLE FDE",
+     "price_chf": 154.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/radian-weapons-ar-15-raptor-ambidextrous-charging-handle-fde/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/l_100023418_2.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "mp-bad": {
+   "title": "Magpul – B.A.D. Lever – Battery Assist Device AR15/M4 Schwarz",
+   "price_chf": 48.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-b-a-d-lever-battery-assist-device-ar15-m4-schwarz/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/Magpul-B.A.D.-Lever-Battery-Assist-Device-AR15-0.jpeg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG980-BLK",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – B.A.D. Lever – Battery Assist Device AR15/M4 Schwarz",
+     "price_chf": 48.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-b-a-d-lever-battery-assist-device-ar15-m4-schwarz/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2025/02/Magpul-B.A.D.-Lever-Battery-Assist-Device-AR15-0.jpeg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "mp-pm10": {
+   "title": "Magpul – PMAG 10 AR/M4 Gen M3",
+   "price_chf": 24.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-10-ar-m4-gen-m3/",
+   "image": null,
+   "in_stock": false,
+   "stock_status": "out-of-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "availability": "Zurzeit leider nicht lieferbar",
+   "sku": "M00-23E15A"
+  },
+  "mp-pm20": {
+   "title": "Magpul – PMAG 20 / AR / M4 / GEN M3 / .223REM",
+   "price_chf": 24.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-20-ar-m4-gen-m3-223rem/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/05/pmag.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": null,
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG560-BLK"
+  },
+  "mp-pm30": {
+   "title": "Magpul – PMAG 30 Gen M3 / black",
+   "price_chf": 24.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-30-gen-m3-black/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/06/mag557-blk_magpul_pmag_30_ar_m4_gen_m3_01_1.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "10908",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – PMAG 30 Gen M3 / black",
+     "price_chf": 24.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-30-gen-m3-black/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/06/mag557-blk_magpul_pmag_30_ar_m4_gen_m3_01_1.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "mp-pm30w": {
+   "title": "Magpul – AR15 PMAG Gen M3 / 30Schuss / Window / black",
+   "price_chf": 29.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-ar15-pmag-gen-m3-30schuss/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2022/12/mag556-blk_magpul_pmag_30_ar_m4_gen_m3_window_01_1.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "10909",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – AR15 PMAG Gen M3 / 30Schuss / Window / black",
+     "price_chf": 29.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-ar15-pmag-gen-m3-30schuss/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2022/12/mag556-blk_magpul_pmag_30_ar_m4_gen_m3_window_01_1.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "coyote": {
+     "title": "Magpul – AR15 PMAG Gen M3 / 30Schuss / Window / Coyote",
+     "price_chf": 29.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-ar15-pmag-gen-m3-30schuss-coyote/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/06/mag556-mct_magpul_pmag_30_ar_m4_gen_m3_window_01.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   },
+   "note": "a bolti színek: black, coyote (MCT); FDE változat nincs"
+  },
+  "mp-pm40": {
+   "title": "Magpul – PMAG 40 / AR / M4 / 223.Rem / GEN M3 / black",
+   "price_chf": 32.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-40-ar-m4-gen-m3/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/02/mag-30.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG233-BLK",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – PMAG 40 / AR / M4 / 223.Rem / GEN M3 / black",
+     "price_chf": 32.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-pmag-40-ar-m4-gen-m3/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2026/02/mag-30.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   }
+  },
+  "mp-ms1": {
+   "title": "Magpul – MS1 Sling / Black",
+   "price_chf": 54.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-ms1-sling-black/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/03/ms1.jpg",
+   "in_stock": false,
+   "stock_status": "backorder",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Auf Vorbestellung, Lieferzeit variabel",
+   "sku": "15049",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – MS1 Sling / Black",
+     "price_chf": 54.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-ms1-sling-black/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/03/ms1.jpg",
+     "in_stock": false,
+     "stock_status": "backorder",
+     "availability": "Auf Vorbestellung, Lieferzeit variabel"
+    }
+   },
+   "note": "csak a sima MS1 (a \"Padded\" egy másik termék)"
+  },
+  "mp-ms4": {
+   "title": "Magpul – MS4® Dual QD Sling GEN2 / Black",
+   "price_chf": 114.9,
+   "list_chf": null,
+   "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-black/",
+   "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/mag518-blk_magpul_ms4_dual_qd_sling_gen2_01.5.jpg",
+   "in_stock": true,
+   "stock_status": "in-stock",
+   "weight_g": null,
+   "dims": null,
+   "color": "Black",
+   "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen",
+   "sku": "MAG518_BLK",
+   "colors_prices": {
+    "black": {
+     "title": "Magpul – MS4® Dual QD Sling GEN2 / Black",
+     "price_chf": 114.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-black/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/mag518-blk_magpul_ms4_dual_qd_sling_gen2_01.5.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "coyote": {
+     "title": "Magpul – MS4® Dual QD Sling GEN2 / Coyote",
+     "price_chf": 114.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-coyote/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2024/03/mag518-coy_magpul_ms4_dual_qd_sling_gen2_01.5.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    },
+    "ranger": {
+     "title": "Magpul – MS4® Dual QD Sling GEN2 / Ranger Green",
+     "price_chf": 114.9,
+     "list_chf": null,
+     "url": "https://shop.schiessstand.ch/produkt/magpul-ms4-dual-qd-sling-gen2-ranger-green/",
+     "image": "https://shop.schiessstand.ch/wp-content/uploads/2023/11/mag518-rgr_magpul_ms4_dual_qd_sling_gen2_01.5.jpg",
+     "in_stock": true,
+     "stock_status": "in-stock",
+     "availability": "Vorrätig, lieferbar in 2-4 Arbeitstagen"
+    }
+   },
+   "note": "bolti kivitel: GEN2"
+  }
+ },
+ "unmatched": {
+  "ap-3x": "a bolt \"3X-P Mag-1\" (Flip Mount + TwistMount) nagyítót árul, ami a 3XMag-1 utódja; nem biztosan azonos | hasonló, de NEM azonos bolti termékek: Aimpoint – Vergrösserungsaufsatz Booster / 3X-PMag-1 mit Flip Mount 39 mm / TwistMount Basis mit variabler Dioptrieneinstellung (-2 bis +2) / schwarz (CHF 926.50) https://shop.schiessstand.ch/produkt/aimpoint-vergroesserungsaufsatz-booster-3x-pmag-1-mit-flip-mount-39-mm-und-twistmount-basis-mit-variabler-dioptrieneinstellung-2-bis-2-schwarz/",
+  "ap-acro": "a bolt csak a céget/optikát árulja, a data.js \"+ szerelék\" csomagot (a megadott szerelékkel) nem; a szerelék nélküli optika ára nem azonos a csomag árával -> nem biztos egyezés | hasonló, de NEM azonos bolti termékek: B&T – Schutzhülle / zu Aimpoint ACRO P2 / aus Gummi / Coyote Tan (CHF 60.50) https://shop.schiessstand.ch/produkt/bt-schutzhuelle-zu-aimpoint-acro-p2-aus-gummi-coyote-tan/; Glock – Pistole / 19X / M13.5×1 / Coyote / 9mm / Aimpoint ACRO P-2 / B&T Verschlussfräsung (CHF 1549.00) https://shop.schiessstand.ch/produkt/glock-pistole-19x-m13-5x1-coyote-9mm-aimpoint-acro-p-2-bt-verschlussfraesung/; Aimpoint – ACRO P-2 / 3.5 MOA / Black (CHF 652.00) https://shop.schiessstand.ch/produkt/aimpoint-acro-p-2-3-5-moa-black/; Aimpoint – ACRO P-2 / 3.5 MOA / Sniper Grey (CHF 713.50) https://shop.schiessstand.ch/produkt/aimpoint-acro-p-2-3-5-moa-sniper-grey/",
+  "ap-m5": "CompM5 nincs a boltban (csak Comp M4s, ami másik modell) | hasonló, de NEM azonos bolti termékek: Aimpoint – Comp® M4s / 2 MOA – Rotpunktvisier (CHF 999.00) https://shop.schiessstand.ch/produkt/aimpoint-comp-m4s-2-moa-rotpunktvisier/",
+  "ap-t2": "a bolt csak a céget/optikát árulja, a data.js \"+ szerelék\" csomagot (a megadott szerelékkel) nem; a szerelék nélküli optika ára nem azonos a csomag árával -> nem biztos egyezés | hasonló, de NEM azonos bolti termékek: Aimpoint – Zielgerät Micro T-2 / black / mit IR Stufe, 2MOA, ACET Technologie / mit Picantinny Montage / Linsenschutz tranparent (CHF 992.00) https://shop.schiessstand.ch/produkt/aimpoint-zielgeraet-micro-t-2-black-mit-ir-stufe-2moa-acet-technologie-mit-picantinny-montage-linsenschutz-tranparent/; Aimpoint Zielgerät Micro T-2 schwarz (CHF 1048.50) https://shop.schiessstand.ch/produkt/aimpoint-zielgeraet-micro-t-2-schwarz/; Aimpoint – Zielgerät Micro T-2 / black / mit IR Stufe, 2MOA, ACET Technologie / mit Picantinny Montage (CHF 981.50) https://shop.schiessstand.ch/produkt/aimpoint-zielgeraet-micro-t-2-black-mit-ir-stufe-2moa-acet-technologie-mit-picantinny-montage/",
+  "b5-bravo": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "b5-esop": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "b5-prec": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "b5-t22": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "b5-t23": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "bcm-ch3": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "bcm-ch4": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "bcm-comp0": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "bcm-g0": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "bcm-g3": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: BCM – Gunfighter Vertical Grip / Black (CHF 49.00) https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-black/; BCM – Gunfighter Vertical Grip / FDE (CHF 49.00) https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-fde/; BCM – Gunfighter KAG Angled Grip / Black (CHF 38.00) https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-black/; BCM – Gunfighter KAG Angled Grip / FDE (CHF 38.00) https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-fde/",
+  "bcm-recce16": "nincs BCM RECCE-16 puska a boltban | hasonló, de NEM azonos bolti termékek: BCM – Gunfighter Vertical Grip / Black (CHF 49.00) https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-black/; BCM – Gunfighter Vertical Grip / FDE (CHF 49.00) https://shop.schiessstand.ch/produkt/bcm-gunfighter-vertical-grip-fde/; BCM – Gunfighter KAG Angled Grip / Black (CHF 38.00) https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-black/; BCM – Gunfighter KAG Angled Grip / FDE (CHF 38.00) https://shop.schiessstand.ch/produkt/bcm-gunfighter-kag-angled-grip-fde/",
+  "bcm-s0": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "bcm-s1": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "bfg-vickers": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "dd-v7": "nincs DDM4 V7 a boltban (csak más modellek) | hasonló, de NEM azonos bolti termékek: Daniel Defense – Halbauto / M4A1 RIII / 14.5 / 5.56mm NATO / FDE (CHF 2970.00) https://shop.schiessstand.ch/produkt/daniel-defense-halbauto-m4a1-riii-14-5-5-56mm-nato-fde/; Daniel Defense – Halbauto / DDM4 MK18 SBR / 10.3 / 5.56mm NATO / Mil Spec+ (CHF 2990.00) https://shop.schiessstand.ch/produkt/daniel-defense-halbauto-ddm4-mk18-sbr-10-3-5-56mm-nato-mil-spec/; Daniel Defense – Halbauto / DD4 RIII / 16 / 5.56mm Nato / FDE (CHF 2970.00) https://shop.schiessstand.ch/produkt/daniel-defense-halbauto-dd4-riii-16-5-56mm-nato-fde/; Daniel Defense – Halbauto / DD4 MK18 RIII SBR / 10.3 / 5.56mm Nato / Schwarz (CHF 2890.00) https://shop.schiessstand.ch/produkt/daniel-defense-halbauto-dd4-mk18-riii-sbr-10-3-5-56mm-nato-schwarz/",
+  "eo-vudu110": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: EOTECH – Vudu® 1-6×24 FFP / 7.62 SR2 Absehen (CHF 1639.00) https://shop.schiessstand.ch/produkt/eotech-vudu-1-6x24-ffp-7-62-sr2-absehen/",
+  "gs-ach": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "gs-s3g": "a boltban Geissele elsütőből csak az SD-C (Super Dynamic Combat) van, a megadott típus nincs | hasonló, de NEM azonos bolti termékek: GEISSELE AUTOMATICS – SD-C SUPER DYNAMIC COMBAT / 2-STAGE FLAT TRIGGER / AR-15 (CHF 334.90) https://shop.schiessstand.ch/produkt/geissele-automatics-sd-c-super-dynamic-combat-2-stage-flat-trigger-ar-15/",
+  "gs-sde": "a boltban Geissele elsütőből csak az SD-C (Super Dynamic Combat) van, a megadott típus nincs | hasonló, de NEM azonos bolti termékek: GEISSELE AUTOMATICS – SD-C SUPER DYNAMIC COMBAT / 2-STAGE FLAT TRIGGER / AR-15 (CHF 334.90) https://shop.schiessstand.ch/produkt/geissele-automatics-sd-c-super-dynamic-combat-2-stage-flat-trigger-ar-15/",
+  "gs-sp30": "a boltban csak a Vortex 1-6x-hez készült SOPMOD \"Super Precision\" szerelés van (Vortex-specifikus), az általános Super Precision 30 mm nincs -> nem azonos | hasonló, de NEM azonos bolti termékek: GEISSELE AUTOMATICS – HIGH AR15 SOPMOD VORTEX / 1-6X MOUNT DDC / 30MM 1.93 (CHF 499.00) https://shop.schiessstand.ch/produkt/geissele-automatics-high-ar15-sopmod-vortex-1-6x-mount-ddc-30mm-1-93/",
+  "gs-ssa": "a boltban Geissele elsütőből csak az SD-C (Super Dynamic Combat) van, a megadott típus nincs | hasonló, de NEM azonos bolti termékek: GEISSELE AUTOMATICS – SD-C SUPER DYNAMIC COMBAT / 2-STAGE FLAT TRIGGER / AR-15 (CHF 334.90) https://shop.schiessstand.ch/produkt/geissele-automatics-sd-c-super-dynamic-combat-2-stage-flat-trigger-ar-15/",
+  "gs-ssae": "a boltban Geissele elsütőből csak az SD-C (Super Dynamic Combat) van, a megadott típus nincs | hasonló, de NEM azonos bolti termékek: GEISSELE AUTOMATICS – SD-C SUPER DYNAMIC COMBAT / 2-STAGE FLAT TRIGGER / AR-15 (CHF 334.90) https://shop.schiessstand.ch/produkt/geissele-automatics-sd-c-super-dynamic-combat-2-stage-flat-trigger-ar-15/",
+  "hr-sbrm": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "mp-cable": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: Magpul – Paraclip (CHF 15.90) https://shop.schiessstand.ch/produkt/magpul-paraclip/; Magpul – M-LOK Paraclip Sling Mount (CHF 29.90) https://shop.schiessstand.ch/produkt/magpul-m-lok-paraclip-sling-mount/",
+  "mp-ctr": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "mp-d60": "D-60 nincs a boltban (csak D-50 típusok más kaliberhez) | hasonló, de NEM azonos bolti termékek: MAGPUL – PMAG D-50 MP / HK94/MP5 / 9mm Para (CHF 179.90) https://shop.schiessstand.ch/produkt/magpul-pmag-d-50-gl9-glock-9mm-para-schwarz-2/; MAGPUL – PMAG D-50 GL9 – GLOCK 9mm Para – Schwarz (CHF 179.90) https://shop.schiessstand.ch/produkt/magpul-pmag-d-50-gl9-glock-9mm-para-schwarz/; Magpul – D-50 Lr/SR Gen M3 PMAG 50 Rds / 7.62×51/308 Black (CHF 249.00) https://shop.schiessstand.ch/produkt/magpul-d-50-lr-sr-gen-m3-pmag-50-rds-7-62x51-308-black/",
+  "mp-mbus3": "MBUS 3 nincs a boltban (csak \"MBUS Original\" és \"MBUS Pro Offset\" külön első/hátsó irányzék) | hasonló, de NEM azonos bolti termékek: Magpul – MBUS Pro Offset Sight / Front / BLK (CHF 119.90) https://shop.schiessstand.ch/produkt/magpul-mbus-pro-offset-sight-front-blk/; Magpul – MBUS Pro Offset Sight / Rear / BLK (CHF 149.90) https://shop.schiessstand.ch/produkt/magpul-mbus-pro-offset-sight-rear-blk/; Magpul – MBUS Original Visierung FDE | Diopter (CHF 73.90) https://shop.schiessstand.ch/produkt/magpul-mbus-original-visierung-fde-diopter/; Magpul – MBUS Original Visierung Schwarz | Diopter (CHF 73.90) https://shop.schiessstand.ch/produkt/magpul-mbus-original-visierung-schwarz-diopter/",
+  "mp-mbuspro": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: Magpul – MBUS Pro Offset Sight / Front / BLK (CHF 119.90) https://shop.schiessstand.ch/produkt/magpul-mbus-pro-offset-sight-front-blk/; Magpul – MBUS Pro Offset Sight / Rear / BLK (CHF 149.90) https://shop.schiessstand.ch/produkt/magpul-mbus-pro-offset-sight-rear-blk/; Magpul – MBUS Original Visierung FDE | Diopter (CHF 73.90) https://shop.schiessstand.ch/produkt/magpul-mbus-original-visierung-fde-diopter/; Magpul – MBUS Original Visierung Schwarz | Diopter (CHF 73.90) https://shop.schiessstand.ch/produkt/magpul-mbus-original-visierung-schwarz-diopter/",
+  "mp-miad": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: Magpul – SVG / Short Vertival Grip / M-Lock / FDE (CHF 26.90) https://shop.schiessstand.ch/produkt/magpul-svg-short-vertival-grip-m-lock-fde/; Magpul – SVG / Short Vertival Grip / M-Lock / BLK (CHF 26.90) https://shop.schiessstand.ch/produkt/magpul-svg-short-vertival-grip-m-lock-blk/; Magpul – MOE-K2 Grip AR15/M4 – OD-Green (CHF 24.90) https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-od-green/; Magpul / MOE+ Grip AR15/M4 – OD-Green (CHF 28.90) https://shop.schiessstand.ch/produkt/moe-grip-ar15-m4-od-green/",
+  "mp-moe": "a sima MOE Grip nincs a boltban (csak a MOE+ / MOE-K2 / K2-XL változat, ezek másik termékek) | hasonló, de NEM azonos bolti termékek: Magpul / MOE+ Grip AR15/M4 – OD-Green (CHF 28.90) https://shop.schiessstand.ch/produkt/moe-grip-ar15-m4-od-green/; Magpul – MOE+ Grip AR15/M4 / BLK (CHF 28.90) https://shop.schiessstand.ch/produkt/magpul-moe-grip-ar15-m4-blk/; Magpul – MOE+ Grip AR15/M4 / FDE (CHF 28.90) https://shop.schiessstand.ch/produkt/magpul-moe-k2-grip-ar15-m4-fde-4/",
+  "mp-moesl": "MOE SL tus nincs a boltban (csak MOE Carbine Mil-Spec / ACS tus, ezek másik termékek) | hasonló, de NEM azonos bolti termékek: Magpul – ACS Carbine Stock / Mil Spec (CHF 163.95) https://shop.schiessstand.ch/produkt/magpul-acs-carbine-stock-mil-spec/; Magpul – MOE Carbine Stock Mil Spec / FDE (CHF 59.90) https://shop.schiessstand.ch/produkt/magpul-moe-carbine-stock-mil-spec-fde/; Magpul – MOE Carbine Stock Mil Spec / Black (CHF 59.90) https://shop.schiessstand.ch/produkt/magpul-moe-carbine-stock-mil-spec-black/; Magpul – ACS Carbine Stock Mil Spec / Black (CHF 125.90) https://shop.schiessstand.ch/produkt/magpul-acs-carbine-stock-mil-spec-black/",
+  "mp-moeslk": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "mp-pad030": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "mp-pad055": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "mp-pad070": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "mp-padsl": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "mp-prslite": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "mp-rvg": "a bolt az RVG-t Picatinny (M1913) változatban árulja + külön \"RVG M-LOK Adapter Rail\"-t; az M-LOK RVG kész termék nincs -> nem azonos | hasonló, de NEM azonos bolti termékek: Magpul – RVG M-LOK Adapter Rail (CHF 11.90) https://shop.schiessstand.ch/produkt/magpul-rvg-m-lok-adapter-rail-2/; Magpul – M-LOK MVG Griff / Black (CHF 29.90) https://shop.schiessstand.ch/produkt/magpul-m-lok-mvg-griff-black/; Magpul – RVG Rail Vertical Grip / M1913 Picatinny / OD-Green (CHF 34.90) https://shop.schiessstand.ch/produkt/magpul-rvg-rail-vertical-grip-m1913-picatinny-od-green-2/; Magpul – RVG Rail Vertical Grip / M1913 Picatinny / OD-Green (CHF 34.90) https://shop.schiessstand.ch/produkt/magpul-rvg-rail-vertical-grip-m1913-picatinny-od-green/",
+  "mp-trigguard": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: Magpul – MOE M-LOK Carbine Hand Guard / black (CHF 59.90) https://shop.schiessstand.ch/produkt/magpul-moe-m-lok-carbine-hand-guard-black/",
+  "mp-ubr2": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "rd-raptorlt": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "rd-raptorsd": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "rd-talon": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "schm-dyn": "a bolt \"AR15 Dynamic L\" néven árul 16.75\"-es Dynamic puskát; az \"M5FL\" jelöléssel való azonosság a bolti oldalon nincs kimondva -> bizonytalan egyezés | hasonló, de NEM azonos bolti termékek: Schmeisser – Halbauto / AR15 Dynamic L / Grey / 16.75 / .223 Rem (CHF 2390.00) https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-dynamic-l-grey-16-75-223-rem/; Schmeisser – Halbauto / AR15 Dynamic L / Grey / 14,5″ / .223Rem (CHF 2349.00) https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-dynamic-l-grey-145%e2%80%b3-223rem/; Schmeisser – Halbauto / AR15 Dynamic L / OD Green / 16.75 / .223 Rem (CHF 2450.00) https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-dynamic-l-od-green-16-75-223-rem/; Schmeisser – Halbauto / AR15 Dynamic L / Black / 16.75 / .223 Rem (CHF 2229.00) https://shop.schiessstand.ch/produkt/schmeisser-halbauto-ar15-dynamic-l-black-16-75-223-rem/",
+  "sf-3p": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: SureFire – Feuerscheindämpfer / Kompensator / 762-5/8-24 (CHF 179.90) https://shop.schiessstand.ch/produkt/surefire-feuerscheindaempfer-kompensator-762-5-8-24/; SureFire – Feuerscheindämpfer / Komp. / Warcomp Flash Hider (CHF 179.90) https://shop.schiessstand.ch/produkt/surefire-feuerscheindaempfer-komp-warcomp-flash-hider/",
+  "sf-m300": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: Surefire – Lampe / Mod. M340T Turbo Mini Scout Light Pro / Tan (CHF 482.90) https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m340t-turbo-mini-scout-light-pro-tan/; Surefire – Lampe / Mod. M340C Scout pro compact / tan (CHF 395.00) https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m340c-scout-pro-compact-tan/; Surefire – Lampe / Mod. M340C Scout pro compact / schwarz (CHF 395.00) https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m340c-scout-pro-compact-schwarz/; Surefire – Lampe / Mod. M340T Turbo Mini Scout Light Pro / BK (CHF 438.00) https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m340t-turbo-scout-compact-dual-fuel-bk/",
+  "sf-m600": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: SureFire – Fernschalter / DS-SR07 Scout schwarz (CHF 237.90) https://shop.schiessstand.ch/produkt/surefire-fernschalter-mod-sr07-rail-switch-f-scout-light-3/; Surefire – Lampe / Mod. M340T Turbo Mini Scout Light Pro / Tan (CHF 482.90) https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m340t-turbo-mini-scout-light-pro-tan/; SureFire – Fernschalter / Mod. CSM-07 M-Lok für Scout Light (CHF 102.00) https://shop.schiessstand.ch/produkt/surefire-fernschalter-mod-csm-07-m-lok-fuer-scout-light/; Surefire – Lampe / Mod. M340C Scout pro compact / tan (CHF 395.00) https://shop.schiessstand.ch/produkt/surefire-lampe-mod-m340c-scout-pro-compact-tan/",
+  "sf-rc2": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "sf-warcomp": "a boltban csak WarComp 7.62 (5/8-24 menet) van, az 5.56 (1/2x28) nincs -> nem azonos | hasonló, de NEM azonos bolti termékek: SureFire – Feuerscheindämpfer / Komp. / Warcomp Flash Hider (CHF 179.90) https://shop.schiessstand.ch/produkt/surefire-feuerscheindaempfer-komp-warcomp-flash-hider/",
+  "tj-credo16": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: CZ – Montageplatte / P-10 OR Trijicon RMR + Holosun 407C/507C/508T/507Comp (CHF 89.00) https://shop.schiessstand.ch/produkt/cz-montageplatte-p-10-or-trijicon-rmr-holosun-407c-507c-508t-507comp/; Phoenix – Pistole / Drake Standart / Rechtshand / SA / Scheibenkorn schwarz / Trijicon SRO / Alu Griff DR / Black / 9mm (CHF 5985.00) https://shop.schiessstand.ch/produkt/phoenix-pistole-drake-standart-rechtshand-sa-scheibenkorn-schwarz-trijicon-sro-alu-griff-dr-black-9mm/; Walther – Adapterplatte / Nr. 2 / aus Aluminium / für Q4 & Q5 / für Trijicon und Holosun 507c /508c (CHF 74.00) https://shop.schiessstand.ch/produkt/walther-adapterplatte-nr-2-aus-aluminium-fuer-q4-q5-fuer-trijicon-und-holosun-507c-508c/; Walther – PDP Montageplatte / Walther PDP Montageplatte Gen2, Nummer 2.2 Trijicon RMR/SRO, Holosun 407C/507C (CHF 68.00) https://shop.schiessstand.ch/produkt/walther-pdp-montageplatte-02-trijicon/",
+  "tj-mro": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: CZ – Montageplatte / P-10 OR Trijicon RMR + Holosun 407C/507C/508T/507Comp (CHF 89.00) https://shop.schiessstand.ch/produkt/cz-montageplatte-p-10-or-trijicon-rmr-holosun-407c-507c-508t-507comp/; Phoenix – Pistole / Drake Standart / Rechtshand / SA / Scheibenkorn schwarz / Trijicon SRO / Alu Griff DR / Black / 9mm (CHF 5985.00) https://shop.schiessstand.ch/produkt/phoenix-pistole-drake-standart-rechtshand-sa-scheibenkorn-schwarz-trijicon-sro-alu-griff-dr-black-9mm/; Walther – Adapterplatte / Nr. 2 / aus Aluminium / für Q4 & Q5 / für Trijicon und Holosun 507c /508c (CHF 74.00) https://shop.schiessstand.ch/produkt/walther-adapterplatte-nr-2-aus-aluminium-fuer-q4-q5-fuer-trijicon-und-holosun-507c-508c/; Walther – PDP Montageplatte / Walther PDP Montageplatte Gen2, Nummer 2.2 Trijicon RMR/SRO, Holosun 407C/507C (CHF 68.00) https://shop.schiessstand.ch/produkt/walther-pdp-montageplatte-02-trijicon/",
+  "tj-vcog": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék) | hasonló, de NEM azonos bolti termékek: CZ – Montageplatte / P-10 OR Trijicon RMR + Holosun 407C/507C/508T/507Comp (CHF 89.00) https://shop.schiessstand.ch/produkt/cz-montageplatte-p-10-or-trijicon-rmr-holosun-407c-507c-508t-507comp/; Phoenix – Pistole / Drake Standart / Rechtshand / SA / Scheibenkorn schwarz / Trijicon SRO / Alu Griff DR / Black / 9mm (CHF 5985.00) https://shop.schiessstand.ch/produkt/phoenix-pistole-drake-standart-rechtshand-sa-scheibenkorn-schwarz-trijicon-sro-alu-griff-dr-black-9mm/; Walther – Adapterplatte / Nr. 2 / aus Aluminium / für Q4 & Q5 / für Trijicon und Holosun 507c /508c (CHF 74.00) https://shop.schiessstand.ch/produkt/walther-adapterplatte-nr-2-aus-aluminium-fuer-q4-q5-fuer-trijicon-und-holosun-507c-508c/; Walther – PDP Montageplatte / Walther PDP Montageplatte Gen2, Nummer 2.2 Trijicon RMR/SRO, Holosun 407C/507C (CHF 68.00) https://shop.schiessstand.ch/produkt/walther-pdp-montageplatte-02-trijicon/",
+  "vx-crossfire": "Crossfire nincs a boltban (csak Strike Fire II, ami másik modell) | hasonló, de NEM azonos bolti termékek: Vortex Optics – Strike Fire II / Red Dot / Sight RG / Co-Witness (CHF 243.90) https://shop.schiessstand.ch/produkt/vortex-optics-strike-fire-ii-red-dot-sight-rg-co-witness/; Vortex Optics – RED DOT MOUNT 45 DEGREES (CHF 79.90) https://shop.schiessstand.ch/produkt/vortex-optics-red-dot-mount-45-degrees/",
+  "vx-m3x": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "vx-razor110": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)",
+  "vx-se16": "csak Strike Eagle 5-25x56 van a boltban, 1-6x24 nincs | hasonló, de NEM azonos bolti termékek: Vortex Optics – Strike Eagle FFP 5-25×56 EBR-7C MRAD (CHF 893.90) https://shop.schiessstand.ch/produkt/vortex-optics-strike-eagle-ffp-5-25x56-ebr-7c-mrad/; Vortex Optics – Strike Eagle FFP 5-25×56 EBR-7C MOA (CHF 893.90) https://shop.schiessstand.ch/produkt/vortex-optics-strike-eagle-ffp-5-25x56-ebr-7c-moa/",
+  "vx-se18": "csak Strike Eagle 5-25x56 van a boltban, 1-8x24 nincs | hasonló, de NEM azonos bolti termékek: Vortex Optics – Strike Eagle FFP 5-25×56 EBR-7C MRAD (CHF 893.90) https://shop.schiessstand.ch/produkt/vortex-optics-strike-eagle-ffp-5-25x56-ebr-7c-mrad/; Vortex Optics – Strike Eagle FFP 5-25×56 EBR-7C MOA (CHF 893.90) https://shop.schiessstand.ch/produkt/vortex-optics-strike-eagle-ffp-5-25x56-ebr-7c-moa/",
+  "vx-sparc": "SPARC AR nincs a boltban (csak Strike Fire II, ami másik modell) | hasonló, de NEM azonos bolti termékek: Vortex Optics – Strike Fire II / Red Dot / Sight RG / Co-Witness (CHF 243.90) https://shop.schiessstand.ch/produkt/vortex-optics-strike-fire-ii-red-dot-sight-rg-co-witness/; Vortex Optics – RED DOT MOUNT 45 DEGREES (CHF 79.90) https://shop.schiessstand.ch/produkt/vortex-optics-red-dot-mount-45-degrees/",
+  "vx-uh1": "nincs a boltban (a teljes katalógusban nincs pontosan azonos termék)"
+ }
+}

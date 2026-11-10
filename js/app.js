@@ -646,7 +646,7 @@
       const cv = document.createElement('canvas'); cv.width = W; cv.height = H;
       const ctx = cv.getContext('2d');
       ctx.drawImage(img, 0, 0);
-      ctx.fillStyle = 'rgba(255,255,255,.55)'; ctx.font = '600 34px Arial'; ctx.fillText(`${base().brand} ${base().name} · ${fmtCHF(totals(RN.render(buildSpec()).metrics).price)}`, 40, H - 40);
+      ctx.fillStyle = 'rgba(255,255,255,.55)'; ctx.font = '600 34px Arial'; ctx.fillText(hidePrices ? `${base().brand} ${base().name}` : `${base().brand} ${base().name} · ${fmtCHF(totals(RN.render(buildSpec()).metrics).price)}`, 40, H - 40);
       const a = document.createElement('a');
       a.download = `${base().name.replace(/\s+/g, '_')}_build.png`;
       a.href = cv.toDataURL('image/png');
@@ -707,6 +707,15 @@
     };
   }
 
+  // ------------------------------------------------------------ árak elrejtése
+  let hidePrices = false;
+  try { hidePrices = localStorage.getItem('ar15-hideprices') === '1'; } catch (e) { /* nincs tároló */ }
+  function applyPriceVisibility() {
+    document.body.classList.toggle('noprice', hidePrices);
+    const b = $('#btnPrices');
+    if (b) { b.setAttribute('aria-pressed', hidePrices ? 'true' : 'false'); b.textContent = hidePrices ? 'Árak mutatása' : 'Árak elrejtése'; }
+  }
+
   // ------------------------------------------------------------ indítás
   function init() {
     $('#defs').innerHTML = RN.DEFS + `
@@ -718,6 +727,8 @@
     $('#rate').oninput = (e) => { const v = Number(e.target.value); if (v > 0) { state.rate = v; update(true); } };
     $('#eurChf').value = state.eurChf;
     $('#eurChf').oninput = (e) => { const v = Number(e.target.value); if (v > 0) { state.eurChf = v; update(true); } };
+    $('#btnPrices').onclick = () => { hidePrices = !hidePrices; try { localStorage.setItem('ar15-hideprices', hidePrices ? '1' : '0'); } catch (e) { /* ignore */ } applyPriceVisibility(); };
+    applyPriceVisibility();
     $('#btnExplode').onclick = () => setExploded(!exploded);
     $('#btnAssemble').onclick = () => renderRifle(true);
     $('#btnShare').onclick = share;
