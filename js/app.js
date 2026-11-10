@@ -774,40 +774,37 @@
   }
 
   // ------------------------------------------------------------ előre összeállított buildek
+  // Az előre összeállított buildek kizárólag olyan alkatrészekből állnak, amelyekhez van valódi fotó.
   const PRESETS = {
     'Gyári állapot': (b) => defaultState(b),
     'Taktikai karabély': () => {
-      const s = defaultState('schm-m4fl');
-      Object.assign(s.sel, { grip: 'bcm-g3', stock: 'bcm-s0', optic: 'eo-exps3', magnifier: 'eo-g33', buis: 'mp-mbuspro', light: 'sf-m600', muzzle: 'sf-warcomp', trigger: 'gs-ssae', ch: 'bcm-ch4', mag: 'mp-pm30', sling: 'bfg-vickers' });
-      s.multi.mlok = ['bcm-kag', 'mp-qd', 'mp-cable'];
+      const s = defaultState('schm-m4fl'); s.finish = 'olive';
+      Object.assign(s.sel, { grip: 'bcm-g3', stock: 'mp-moesl', optic: 'eo-exps3', magnifier: 'eo-g33', buis: 'buis-none', light: 'sf-m640', mag: 'mp-pm30' });
+      s.colors = { 'mp-moesl': 'odg', 'mp-pm30': 'odg' };
       return s;
     },
     'LPVO általános': () => {
       const s = defaultState('schm-m5fl'); s.finish = 'earth';
-      Object.assign(s.sel, { grip: 'mp-moek2p', stock: 'mp-ctr', buttpad: 'mp-pad070', lpvo: 'vx-pst16', mount: 'vx-cant30', optic: 'ap-acro', buis: 'mp-mbusoff', light: 'sf-m640', muzzle: 'sf-3p', trigger: 'gs-sde', ch: 'rd-raptor', mag: 'mp-pm30w', sling: 'mp-ms4' });
-      s.multi.mlok = ['mp-hstop', 'mp-qd', 'mp-cover'];
-      s.colors = { 'mp-moek2p': 'fde', 'mp-ctr': 'fde', 'mp-pm30w': 'fde', 'mp-hstop': 'fde', 'mp-cover': 'fde', 'mp-ms4': 'coyote' };
+      Object.assign(s.sel, { grip: 'bcm-g3', stock: 'mp-ctr', lpvo: 'vx-pst16', mount: 'vx-cant30', buis: 'buis-none', light: 'sl-hlx', mag: 'mp-pm30w' });
+      s.colors = { 'mp-ctr': 'fde' };
       return s;
     },
     'Precíziós (DMR)': () => {
-      const s = defaultState('schm-m5fl'); s.finish = 'olive';
-      Object.assign(s.sel, { grip: 'b5-t23', stock: 'mp-prs3', lpvo: 'tj-vcog', buis: 'mp-mbusoff', muzzle: 'sf-warcomp', trigger: 'gs-ssa', ch: 'rd-raptor', mag: 'mp-pm20', bipod: 'hr-sbrm', sling: 'mp-ms1' });
-      s.colors = { 'b5-t23': 'odg', 'mp-prs3': 'odg', 'mp-pm20': 'odg', 'mp-ms1': 'ranger' };
-      s.multi.mlok = ['mp-qd'];
+      const s = defaultState('schm-m5fl'); s.finish = 'black';
+      Object.assign(s.sel, { grip: 'bcm-g3', stock: 'mp-ubr2', lpvo: 'tj-vcog', buis: 'buis-none', mag: 'mp-pm20' });
+      s.colors = { 'mp-ubr2': 'black', 'mp-pm20': 'black' };
       return s;
     },
     'Rövid CQB': () => {
       const s = defaultState('schm-s4f'); s.finish = 'bronze';
-      Object.assign(s.sel, { grip: 'mp-moek2', stock: 'mp-moeslk', optic: 'ap-t2', magnifier: 'hs-hm3x', buis: 'buis-factory', light: 'sl-hlx', muzzle: 'bcm-comp0', ch: 'rd-raptorlt', mag: 'mp-pm30', sling: 'mp-ms1' });
-      s.multi.mlok = ['mp-rvg'];
-      s.colors = { 'mp-moek2': 'gray', 'mp-moeslk': 'gray', 'mp-pm30': 'gray', 'mp-rvg': 'gray' };
+      Object.assign(s.sel, { stock: 'mp-moeslk', optic: 'hs-510c', magnifier: 'hs-hm3x', buis: 'buis-none', light: 'sl-hlx', mag: 'mp-pm30' });
+      s.colors = { 'mp-moeslk': 'black', 'mp-pm30': 'black' };
       return s;
     },
     'IPSC / Dynamic': () => {
       const s = defaultState('schm-dyn');
-      Object.assign(s.sel, { grip: 'mp-miad', stock: 'mp-moesl', buttpad: 'mp-padsl', lpvo: 'vx-se18', mount: 'vx-cant30', muzzle: 'bcm-comp0', ch: 'rd-raptor', mag: 'mp-pm30' });
-      s.multi.mlok = ['mp-hstop'];
-      s.multi.controls = ['mp-bad'];
+      Object.assign(s.sel, { grip: 'bcm-g3', stock: 'mp-moesl', lpvo: 'vx-se18', mount: 'vx-cant30', mag: 'mp-pm30', buis: 'buis-none' });
+      s.colors = { 'mp-moesl': 'black', 'mp-pm30': 'black' };
       return s;
     },
   };

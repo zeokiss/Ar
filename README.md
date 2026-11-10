@@ -38,8 +38,10 @@ vannak tárolva, így minden szín- és modellváltozat ugyanazt a geometriát h
 
 ## Ami még korlátozott
 
-- **Színváltozatok**: a Schmeisser a fekete kivitelről közöl hivatalos fotót; az FDE / Olive /
-  Bronze változatokhoz nincs, ezeknél a fekete kép látszik, és jelzi.
+- **Színváltozatok**: a Schmeisser a fekete kivitelről közöl hivatalos fotót. Az Olive / Dark Earth /
+  Bronze kivitelt a hivatalos fekete fotó átszínezésével állítja elő a `tools/recolor_base.py`
+  (csak a tok és az előagy kap színt, a bolti fotókról mért Cerakote-színnel); a felület jelzi,
+  hogy ez színezett kép, nem hivatalos fotó.
 - **Alkatrészfotók**: csak tiszta oldalnézetű, ellenőrizhető méretű termékfotók kerülnek fel. Ahol
   ilyen nincs, szaggatott „?” jelölés mutatja a helyét, a lista az állapotsorban látható.
 - A szíj, az elsütő, a felhúzókar és a kezelőszervek nem jelennek meg külön a képen.

@@ -650,6 +650,38 @@
    "source": "shooting-store.ch (t\u00fckr\u00f6zve)",
    "dx": 0.3,
    "dy": -0.62
+  },
+  {
+   "item": "mp-moe",
+   "slot": "main",
+   "color": "fde",
+   "src": "parts/mp-moe-main-fde.webp",
+   "w": 826,
+   "h": 1170,
+   "ppi": 280.37,
+   "ax": 150.0,
+   "ay": 187.0,
+   "facing": "left",
+   "source": "primaryarms.com",
+   "rot": -8.0,
+   "dx": 0.3,
+   "dy": -0.62
+  },
+  {
+   "item": "mp-moek2",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/mp-moek2-main-black.webp",
+   "w": 741,
+   "h": 1176,
+   "ppi": 271.53,
+   "ax": 130.0,
+   "ay": 165.0,
+   "facing": "left",
+   "source": "primaryarms.com",
+   "rot": -8.0,
+   "dx": 0.3,
+   "dy": -0.62
   }
  ]
 }
