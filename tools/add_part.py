@@ -145,10 +145,6 @@ def main():
     pack = json.load(open(pf)) if os.path.exists(pf) else {'version': 1, 'photos': []}
     pack['photos'] = [p for p in pack['photos'] if not (p['item'] == rec['item'] and p['slot'] == rec['slot'] and p['color'] == rec['color'])] + [rec]
     json.dump(pack, open(pf, 'w'), indent=1)
-    # a manifest hivatkozik a csomagra
-    mf = os.path.join(PH, 'manifest.json'); m = json.load(open(mf))
-    rel = 'packs/' + args.pack + '.json'
-    if rel not in m.setdefault('packs', []): m['packs'].append(rel); json.dump(m, open(mf, 'w'), indent=1)
     print('felvéve:', rec['item'], rec['slot'], rec['color'])
 
 

@@ -70,8 +70,8 @@ window.AR_PHOTOS = (function () {
     const add = (m, prefix) => (m && m.photos || []).forEach(p => { resolveSrc(p); p.source = 'repo'; reg.set(key(p.item, p.slot, p.color), p); });
     const index = await fetchJson('assets/photos/manifest.json');
     add(index);
-    const packs = ((index && index.packs) || []).concat(['packs/pack.json']);
-    for (const rel of packs) { if (rel !== 'packs/pack.json' || !(index && (index.packs || []).includes(rel))) { /* opcionális csomag */ } add(await fetchJson('assets/photos/' + rel)); }
+    const packs = ((index && index.packs) || []).concat(['lights', 'optics', 'lpvo', 'furniture'].map(n => 'packs/' + n + '.json'));
+    for (const rel of new Set(packs)) add(await fetchJson('assets/photos/' + rel));
     (await dbAll()).forEach(p => { p.source = 'local'; reg.set(key(p.item, p.slot, p.color), p); });
     notify();
   }

@@ -545,8 +545,5 @@
     ]
    }
   }
- ],
- "packs": [
-  "packs/lights.json"
  ]
 }
