@@ -1864,6 +1864,8 @@
   "packs/lpvo.json",
   "packs/optics.json",
   "packs/thumbs.json",
-  "packs/visible1.json"
+  "packs/visible1.json",
+  "packs/visible2.json",
+  "packs/visible3.json"
  ]
 }

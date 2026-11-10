@@ -1,0 +1,57 @@
+{
+ "version": 1,
+ "photos": [
+  {
+   "item": "ap-t2",
+   "slot": "main@right",
+   "color": "*",
+   "src": "parts/ap-t2-main@right-any.webp",
+   "w": 1432,
+   "h": 1282,
+   "ppi": 579.76,
+   "ax": 725.5,
+   "ay": 1279.0,
+   "facing": "right",
+   "source": "primaryarms.com/aimpoint-micro-t-2-2-moa-red-dot-sight-with-39mm-lrp-mount (200198); meret: optikai tengely 39 mm a sin folott (heldef.ch, thoron.ch), a 68x41x36 mm-es szerelek nelkuli T-2 (heldef.ch, tacstore.ch) arany-ellenorzesevel"
+  },
+  {
+   "item": "ap-t2",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/ap-t2-main@left-any.webp",
+   "w": 902,
+   "h": 1175,
+   "ppi": 369.98,
+   "ax": 467.0,
+   "ay": 1143.0,
+   "facing": "left",
+   "source": "thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/micro-t-2-schwarz-lrp-montage-39-mm (AP200198_63962); meret: optikai tengely 39 mm a sin folott (thoron.ch, heldef.ch), 68x41x36 mm-es T-2 (heldef.ch, tacstore.ch) arany-ellenorzesevel"
+  },
+  {
+   "item": "ap-pro",
+   "slot": "main",
+   "color": "*",
+   "src": "parts/ap-pro-main-any.webp",
+   "w": 1571,
+   "h": 994,
+   "ppi": 306.96,
+   "ax": 850.0,
+   "ay": 810.0,
+   "facing": "left",
+   "source": "primaryarms.com/aimpoint-pro-patrol-rifle-optic-with-mount (12841)"
+  },
+  {
+   "item": "vx-m3x",
+   "slot": "main",
+   "color": "*",
+   "src": "parts/vx-m3x-main-any.webp",
+   "w": 895,
+   "h": 875,
+   "ppi": 309.26,
+   "ax": 352.0,
+   "ay": 720.0,
+   "facing": "left",
+   "source": "waffenzimmi.ch/produkt/vortex-micro-3x-magnifier-qd-flip-mount (vortex_micro_3x_magnifier-3.jpg)"
+  }
+ ]
+}
