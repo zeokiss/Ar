@@ -30,32 +30,6 @@
   {
    "item": "sf-x300",
    "slot": "main@left",
-   "color": "black",
-   "src": "parts/sf-x300-main@left-black.webp",
-   "w": 1280,
-   "h": 469,
-   "ppi": 340.43,
-   "ax": 709.5,
-   "ay": 2.0,
-   "facing": "left",
-   "source": "surefire.com/x300u-b-weaponlight/ (X300U-B profileL, Length 3.76 in)"
-  },
-  {
-   "item": "sf-x300",
-   "slot": "main@right",
-   "color": "black",
-   "src": "parts/sf-x300-main@right-black.webp",
-   "w": 1280,
-   "h": 474,
-   "ppi": 340.43,
-   "ax": 573.0,
-   "ay": 2.0,
-   "facing": "right",
-   "source": "surefire.com/x300u-b-weaponlight/ (X300U-B profileR, Length 3.76 in)"
-  },
-  {
-   "item": "sf-x300",
-   "slot": "main@left",
    "color": "*",
    "src": "parts/sf-x300-main@left-any.webp",
    "w": 1280,

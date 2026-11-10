@@ -122,6 +122,7 @@ window.AR_PHOTO_RENDER = (function () {
       const it = spec.lpvo;
       const axis = it.contact ? 0 : ((mountIt && mountIt.axis) || it.axis || 1.93);
       if (mountIt) railPart('mount', mountIt, 'main', lpvoX, railY);
+      else if (it.needsMount) over.push(['mount', placeholder('mount', 'Szerelék szükséges a céltávcsőhöz', lpvoX, railY)]);
       railPart('lpvo', it, 'main', lpvoX, railY - axis);
     }
     let optX = null, optW = 3.2;
@@ -193,7 +194,7 @@ window.AR_PHOTO_RENDER = (function () {
 
     return {
       parts,
-      metrics: { muzzleEnd: X(fwd), muzzleLen, rearPx: 0, railClash, hgX1: X(pts.hgX1), oalIn: fwd - back, photo: { missing, approx, finishExact: baseRec.exactColor !== false, finishHave: baseRec.color, ppi: baseRec.ppi } },
+      metrics: { muzzleEnd: X(fwd), muzzleLen, rearPx: 0, railClash, hgX1: X(pts.hgX1), oalIn: fwd - back, photo: { missing, approx, finishExact: baseRec.exactColor !== false, finishHave: baseRec.color, finishDerived: !!baseRec.derived, ppi: baseRec.ppi } },
     };
   }
 

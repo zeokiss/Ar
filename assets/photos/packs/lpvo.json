@@ -65,6 +65,71 @@
    "ay": 205.0,
    "facing": "left",
    "source": "primaryarms.com/vortex-strike-eagle-1-8x24-ffp-rifle-scope-ebr-8-moa-reticle (Vortex SE-1801 Length 10.4 in)"
+  },
+  {
+   "item": "vx-pst16",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/vx-pst16-main@left-any.webp",
+   "w": 1600,
+   "h": 319,
+   "ppi": 148.15,
+   "ax": 800.0,
+   "ay": 181.0,
+   "facing": "left",
+   "source": "primaryarms.com/vortex-viper-pst-gen-ii-1-6x24-sfp-vmr2-moa-riflescope (Length 10.8 in)"
+  },
+  {
+   "item": "vx-pst16",
+   "slot": "main@right",
+   "color": "*",
+   "src": "parts/vx-pst16-main@right-any.webp",
+   "w": 1600,
+   "h": 316,
+   "ppi": 148.15,
+   "ax": 800.0,
+   "ay": 176.5,
+   "facing": "right",
+   "source": "primaryarms.com/vortex-viper-pst-gen-ii-1-6x24-sfp-vmr2-moa-riflescope (Length 10.8 in)"
+  },
+  {
+   "item": "eo-vudu110",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/eo-vudu110-main@left-any.webp",
+   "w": 1600,
+   "h": 345,
+   "ppi": 150.52,
+   "ax": 800.0,
+   "ay": 209.0,
+   "facing": "left",
+   "source": "primaryarms.com/eotech-vudu-1-10x28-ffp-rifle-scope-sr5-mrad-reticle-daylight-bright-dot (Length 10.63 in)"
+  },
+  {
+   "item": "tj-vcog",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/tj-vcog-main@left-any.webp",
+   "w": 1077,
+   "h": 327,
+   "ppi": 99.72,
+   "ax": 533.0,
+   "ay": 324.0,
+   "facing": "left",
+   "source": "trijicon.com/products/details/vc18-c-2400001"
+  },
+  {
+   "item": "tj-vcog",
+   "slot": "main@right",
+   "color": "*",
+   "src": "parts/tj-vcog-main@right-any.webp",
+   "w": 1082,
+   "h": 367,
+   "ppi": 100.19,
+   "ax": 536.0,
+   "ay": 326.0,
+   "facing": "right",
+   "source": "trijicon.com/products/details/vc18-c-2400001"
   }
  ]
 }

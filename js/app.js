@@ -476,7 +476,7 @@
           <div class="name big">${x.name}</div>
           <div class="desc">${x.desc}</div>
           <div class="specs"><span>${String(x.barrel).replace('.', ',')}" cső</span><span>${x.cal}</span><span>${x.twist}</span><span>${String(x.hgLen).replace('.', ',')}" előagy${x.hgEstimated ? '*' : ''}</span>${x.ambi ? '<span>Ambidex</span>' : ''}</div>
-          <div class="sw">${x.finishes.map(f => `<button class="swatch fin${x.id === b.id && f === state.finish ? ' on' : ''}${(window.AR_PHOTOS.get(x.id, 'base', f) || {}).exactColor ? '' : ' nophoto'}" data-base="${x.id}" data-finish="${f}" title="${D.FINISHES[f].name}${(window.AR_PHOTOS.get(x.id, 'base', f) || {}).exactColor ? '' : ' (nincs hivatalos fotó)'}" style="--c:${D.FINISHES[f].hex}"></button>`).join('')}
+          <div class="sw">${x.finishes.map(f => `<button class="swatch fin${x.id === b.id && f === state.finish ? ' on' : ''}${(window.AR_PHOTOS.get(x.id, 'base', f) || {}).exactColor ? '' : ' nophoto'}" data-base="${x.id}" data-finish="${f}" title="${D.FINISHES[f].name}${(window.AR_PHOTOS.get(x.id, 'base', f) || {}).exactColor ? ((window.AR_PHOTOS.get(x.id, 'base', f) || {}).derived ? ' (színezett fotó)' : '') : ' (nincs fotó)'}" style="--c:${D.FINISHES[f].hex}"></button>`).join('')}
             <span class="swname">${x.id === b.id ? D.FINISHES[state.finish].name : x.finishes.map(f => D.FINISHES[f].name).join(' / ')}</span></div>
           <div class="card-bot"><span class="price">${fmtEUR(x.price)}</span><span class="w">${fmtKg(x.weight)}</span></div>
           ${x.oalNote ? `<div class="desc small">${x.oalNote}</div>` : ''}
@@ -548,6 +548,7 @@
     const p = m.photo, bits = [];
     bits.push(`<b>Fotómód.</b> ${b.brand} ${b.name} – a gyártó hivatalos oldalnézeti fotója, valós méretarányban (${p.ppi} px/hüvelyk).`);
     if (!p.finishExact) bits.push(`A(z) ${D.FINISHES[state.finish].name} színhez nincs hivatalos fotó, a ${D.FINISHES[p.finishHave] ? D.FINISHES[p.finishHave].name : p.finishHave} kivitelt látod.`);
+    if (p.finishDerived) bits.push(`<b>Színezett változat:</b> a gyártó ehhez a kivitelhez nem közöl nagyfelbontású fotót, ezért a hivatalos fekete fotó tokját és előagyát a bolti fotókról mért Cerakote-színre igazítottam (a tus, markolat, tár, cső és kezelőszervek feketék maradnak).`);
     if (p.missing.length) bits.push(`<span class="miss">${p.missing.length} kiegészítőhöz még nincs fotó (szaggatott jelölés): ${[...new Set(p.missing.map(x => x.name))].slice(0, 4).join(', ')}${p.missing.length > 4 ? '…' : ''}.</span>`);
     if (p.approx.length) bits.push(`Más színű fotó látszik: ${p.approx.map(x => x.name).join(', ')}.`);
     bits.push('Szíj, elsütő, felhúzókar és kezelőszervek nem jelennek meg külön a képen.');

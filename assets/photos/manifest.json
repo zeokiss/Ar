@@ -60,11 +60,11 @@
     "mag": [
      [
       4.19,
-      2.55
+      2.72
      ],
      [
       7.69,
-      2.55
+      2.72
      ],
      [
       7.69,
@@ -206,11 +206,11 @@
     "mag": [
      [
       4.19,
-      2.55
+      2.72
      ],
      [
       7.69,
-      2.55
+      2.72
      ],
      [
       7.69,
@@ -352,11 +352,11 @@
     "mag": [
      [
       4.19,
-      2.55
+      2.72
      ],
      [
       7.69,
-      2.55
+      2.72
      ],
      [
       7.69,
@@ -498,11 +498,11 @@
     "mag": [
      [
       4.19,
-      2.55
+      2.72
      ],
      [
       7.69,
-      2.55
+      2.72
      ],
      [
       7.69,
@@ -584,6 +584,176 @@
      ]
     ]
    }
+  },
+  {
+   "item": "schm-m4fl",
+   "slot": "base",
+   "color": "olive",
+   "src": "base/schm-m4fl-olive.webp",
+   "w": 2560,
+   "h": 678,
+   "ppi": 70.08,
+   "ax": 1679,
+   "ay": 223.0,
+   "facing": "left",
+   "bx0": 42,
+   "bx1": 2502,
+   "source": "schmeisser-germany.com",
+   "derived": true,
+   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Olive); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+  },
+  {
+   "item": "schm-m4fl",
+   "slot": "base",
+   "color": "earth",
+   "src": "base/schm-m4fl-earth.webp",
+   "w": 2560,
+   "h": 678,
+   "ppi": 70.08,
+   "ax": 1679,
+   "ay": 223.0,
+   "facing": "left",
+   "bx0": 42,
+   "bx1": 2502,
+   "source": "schmeisser-germany.com",
+   "derived": true,
+   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Dark Earth); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+  },
+  {
+   "item": "schm-m4fl",
+   "slot": "base",
+   "color": "bronze",
+   "src": "base/schm-m4fl-bronze.webp",
+   "w": 2560,
+   "h": 678,
+   "ppi": 70.08,
+   "ax": 1679,
+   "ay": 223.0,
+   "facing": "left",
+   "bx0": 42,
+   "bx1": 2502,
+   "source": "schmeisser-germany.com",
+   "derived": true,
+   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Bronze); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+  },
+  {
+   "item": "schm-m5fl",
+   "slot": "base",
+   "color": "olive",
+   "src": "base/schm-m5fl-olive.webp",
+   "w": 2560,
+   "h": 699,
+   "ppi": 64.13,
+   "ax": 1727,
+   "ay": 247.5,
+   "facing": "left",
+   "bx0": 84,
+   "bx1": 2478,
+   "source": "schmeisser-germany.com",
+   "derived": true,
+   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Olive); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+  },
+  {
+   "item": "schm-m5fl",
+   "slot": "base",
+   "color": "earth",
+   "src": "base/schm-m5fl-earth.webp",
+   "w": 2560,
+   "h": 699,
+   "ppi": 64.13,
+   "ax": 1727,
+   "ay": 247.5,
+   "facing": "left",
+   "bx0": 84,
+   "bx1": 2478,
+   "source": "schmeisser-germany.com",
+   "derived": true,
+   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Dark Earth); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+  },
+  {
+   "item": "schm-m5fl",
+   "slot": "base",
+   "color": "bronze",
+   "src": "base/schm-m5fl-bronze.webp",
+   "w": 2560,
+   "h": 699,
+   "ppi": 64.13,
+   "ax": 1727,
+   "ay": 247.5,
+   "facing": "left",
+   "bx0": 84,
+   "bx1": 2478,
+   "source": "schmeisser-germany.com",
+   "derived": true,
+   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Bronze); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+  },
+  {
+   "item": "schm-s4f",
+   "slot": "base",
+   "color": "olive",
+   "src": "base/schm-s4f-olive.webp",
+   "w": 2560,
+   "h": 757,
+   "ppi": 75.82,
+   "ax": 1575,
+   "ay": 247.0,
+   "facing": "left",
+   "bx0": 110,
+   "bx1": 2466,
+   "source": "schmeisser-germany.com",
+   "derived": true,
+   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Olive); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+  },
+  {
+   "item": "schm-s4f",
+   "slot": "base",
+   "color": "earth",
+   "src": "base/schm-s4f-earth.webp",
+   "w": 2560,
+   "h": 757,
+   "ppi": 75.82,
+   "ax": 1575,
+   "ay": 247.0,
+   "facing": "left",
+   "bx0": 110,
+   "bx1": 2466,
+   "source": "schmeisser-germany.com",
+   "derived": true,
+   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Dark Earth); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+  },
+  {
+   "item": "schm-s4f",
+   "slot": "base",
+   "color": "bronze",
+   "src": "base/schm-s4f-bronze.webp",
+   "w": 2560,
+   "h": 757,
+   "ppi": 75.82,
+   "ax": 1575,
+   "ay": 247.0,
+   "facing": "left",
+   "bx0": 110,
+   "bx1": 2466,
+   "source": "schmeisser-germany.com",
+   "derived": true,
+   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Bronze); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+  },
+  {
+   "item": "schm-dyn",
+   "slot": "base",
+   "color": "bronze",
+   "src": "base/schm-dyn-bronze.webp",
+   "w": 2133,
+   "h": 450,
+   "ppi": 43.18,
+   "ax": 750,
+   "ay": 154.0,
+   "facing": "right",
+   "bx0": 246,
+   "bx1": 1880,
+   "source": "schmeisser-germany.com",
+   "derived": true,
+   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Bronze); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
   }
  ]
 }
