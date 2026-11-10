@@ -1,0 +1,22 @@
+{
+  "domain": "bt-ag.ch",
+  "url": "https://bt-ag.ch/",
+  "name": "B&T AG",
+  "addr": "Tempelstrasse 6, 3608 Thun",
+  "city": "Thun BE",
+  "canton": "BE",
+  "tel": "+41 33 334 67 00",
+  "kind": "both",
+  "ships": null,
+  "shipNote": "A bt-ag.ch oldalai nem írnak le szállítási díjat vagy időt (az ÁSZF PDF külső tárhelyen van). A 'Privatkunden' oldal szerint a polgári webshop (webshop.bt-ag.ch) 'bewilligungsfrei', közvetlenül online rendelhető termékeket árul; engedélyköteles termékek ott nincsenek.",
+  "km": 160,
+  "km_est": true,
+  "online_prices": false,
+  "sources": [
+    "https://bt-ag.ch/impressum/",
+    "https://bt-ag.ch/privatkunden/",
+    "https://bt-ag.ch/shops/",
+    "https://bt-ag.ch/produkt/zubehoer/montagen/bt-asm-montage-t-series-21mm/"
+  ],
+  "notes": "Gyártó (B&T). A bt-ag.ch WooCommerce-katalógusa (145 tétel) csak saját B&T termékeket tartalmaz, és a termékoldalakon nincs ár ('Händler finden'); a Store API-ban van CHF-ár. Magánvásárlóknak: B&T Flagship Store Thunban (bt-shop.ch) és polgári webshop (webshop.bt-ag.ch); B2B: b2b.bt-ag.ch. A webshop.bt-ag.ch-t a gyűjtés nem érte el (a futtatókörnyezet proxyja 403-mal tiltotta), a bt-shop.ch nem volt a feladat része. A cím a cég impresszumából; a Flagship Store pontos címét a bt-ag.ch nem közli. kind 'both' = Flagship Store + polgári webshop."
+}

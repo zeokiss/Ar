@@ -1,0 +1,21 @@
+{
+  "domain": "swiss-sale.ch",
+  "url": "https://swiss-sale.ch/",
+  "name": "Swiss-Sale.ch AG",
+  "addr": "Neudorfstrasse 4, 6313 Menzingen",
+  "city": "Menzingen ZG",
+  "canton": "ZG",
+  "tel": "+41 41 755 34 33",
+  "kind": "online",
+  "ships": true,
+  "shipNote": "Csak Svájcon és Liechtensteinen belül szállít, kizárólag Svájci Postával: CHF 100 feletti online rendelésnél ingyenes, alatta PostPac Economy CHF 8.90 (Priority CHF 12.90, Swiss-Express 'Mond' CHF 20-tól); a 17 óráig rendelt raktári cikkeket általában aznap feladják.",
+  "km": 17,
+  "km_est": true,
+  "online_prices": true,
+  "sources": [
+    "https://swiss-sale.ch/impressum",
+    "https://swiss-sale.ch/versandinformationen",
+    "https://swiss-sale.ch/agb"
+  ],
+  "notes": "Outdoor-/survival-webshop (JTL-Shop), 2004 óta. Átvétel Menzingenben megbeszélés szerint vagy H–Sze és P 13:30–18:30 (a Versand-oldal szerint), ezért 'online'. Fegyverlámpa csak Fenix, red dot csak Bushnell / Sightmark / Alpen Optics: a konfigurátor márkái közül egyik sincs a kínálatban."
+}

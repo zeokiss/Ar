@@ -1,0 +1,22 @@
+{
+  "domain": "airsoft.ch",
+  "url": "https://www.airsoft.ch/de-ch/",
+  "name": "TM Trading GmbH (airsoft.ch)",
+  "addr": "Gewerbestrasse 6, 6330 Cham",
+  "city": "Cham ZG",
+  "canton": "ZG",
+  "tel": "+41 44 862 48 17",
+  "kind": "online",
+  "ships": true,
+  "shipNote": "Svájci Postával szállít: PostPac Economy CHF 9 (magánvásárlónak CHF 199-től ingyenes), Priority CHF 11 (CHF 299-től ingyenes), Swiss-Express 'Mond' CHF 20, terjedelmes csomag (>100 cm) CHF 28–38; raktári cikk a termékoldal szerint 1–2 munkanap alatt érkezik.",
+  "km": 30,
+  "km_est": true,
+  "online_prices": true,
+  "sources": [
+    "https://www.airsoft.ch/de-ch/i/impressum/",
+    "https://www.airsoft.ch/de-ch/i/versand/",
+    "https://www.airsoft.ch/de-ch/i/kundendienst-kontakt/",
+    "https://www.airsoft.ch/de-ch/i/ueber-uns/"
+  ],
+  "notes": "Túlnyomórészt airsoft-bolt (Shopware 6), de valódi Magpul-, EOTech-, Aimpoint-, Holosun-, Vortex-, Streamlight- és Blue Force Gear-termékeket is árul; csak ezeket vettem fel, airsoft-replikát nem. Átvétel Chamban: Sze–P 09–12 és 13–17, H–K kérésre. Az átfedő termékeknél a termékadatok és árak megegyeznek az armamat.ch-val (azonos Shopware-sablon és termékadatbázis)."
+}

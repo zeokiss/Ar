@@ -30,6 +30,22 @@
       "match": "exact",
       "note": "16\" 5.56 NATO (a termékleírás szerint); a bolt a színt opcióként árulja (Schwarz/Braun/FDE), a fekete változat ára"
     },
+    "ap-pro": {
+      "title": "Aimpoint PRO (Patrol Rifle Optic)",
+      "price_chf": 739.5,
+      "list_chf": null,
+      "url": "https://treehuggersupply.ch/aimpoint-pro-patrol-rifle-optic/",
+      "image": "https://cdn11.bigcommerce.com/s-b2f1onj5wy/images/stencil/1280x1280/products/250/515/Aimpoint_Zielgert_PRO_schwarz_Patrol_Rifle_Optic__42318.1745698185.jpg?c=1",
+      "in_stock": null,
+      "stock_text": "Auf Anfrage.",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "availability": "InStock",
+      "match": "exact",
+      "note": "a bolt leírása szerint a készlet tartalmazza a szereléket, a lencsevédőt és a távtartót (az Aimpoint PRO gyári készlete: QRP2 szerelék + távtartó)"
+    },
     "eo-exps3": {
       "title": "EOTECH HWS EXPS3-0",
       "price_chf": 999.0,
@@ -155,8 +171,7 @@
     "mp-pad070": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
     "mp-padsl": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
     "ap-t2": "ok: csomag (T-2 + LRP szerelék): a bolt 'Aimpoint Micro T-2' terméke 'integrierte Montage'-t említ, az LRP szerelék nincs megnevezve – nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Aimpoint Micro T-2 (992.00 CHF, https://treehuggersupply.ch/aimpoint-micro-t-2/)",
-    "ap-m5": "ok: csomag (CompM5 + LRP szerelék): a bolti 'Aimpoint Comp M5' leírása nem nevezi meg az LRP szereléket – nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Aimpoint Comp M5 (865.00 CHF, https://treehuggersupply.ch/aimpoint-comp-m5/)",
-    "ap-pro": "ok: csomag (PRO + QRP2 szerelék): a bolti termék leírása nem nevezi meg a QRP2 szereléket – nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Aimpoint PRO (Patrol Rifle Optic) (739.50 CHF, https://treehuggersupply.ch/aimpoint-pro-patrol-rifle-optic/)",
+    "ap-m5": "ok: csomag (CompM5 + LRP szerelék): a bolti 'Aimpoint Comp M5' szerelékkel kerül forgalomba ('Gewicht mit Montage: 238g'), de a szerelék típusát (LRP) nem nevezi meg – nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Aimpoint Comp M5 (865.00 CHF, https://treehuggersupply.ch/aimpoint-comp-m5/)",
     "ap-acro": "ok: csomag (ACRO P-2 + Picatinny talp): a bolt az ACRO P-2-t talp nélkül árulja ('Gewicht 61 g nur Visier'); legközelebbi bolti termék(ek), NEM azonos: Aimpoint® Acro® P-2 (ab 652.00 CHF, https://treehuggersupply.ch/aimpoint-acro-p-2/)",
     "hs-510c": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
     "hs-aems": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",

@@ -31,7 +31,6 @@ Botvédelem (403, Cloudflare/captcha oldal, tartós 429) esetén azonnal leáll,
 import argparse
 import datetime
 import hashlib
-import html as htmllib
 import itertools
 import json
 import os
@@ -222,11 +221,12 @@ RULES = {
                why="csomag (T-2 + LRP szerelék): a bolt 'Aimpoint Micro T-2' terméke 'integrierte Montage'-t "
                    "említ, az LRP szerelék nincs megnevezve – nem azonosítható biztosan"),
     "ap-m5": R(None, near=r"Aimpoint Comp ?M5.*",
-               why="csomag (CompM5 + LRP szerelék): a bolti 'Aimpoint Comp M5' leírása nem nevezi meg az LRP "
-                   "szereléket – nem azonosítható biztosan"),
-    "ap-pro": R(None, near=r"Aimpoint PRO.*",
-                why="csomag (PRO + QRP2 szerelék): a bolti termék leírása nem nevezi meg a QRP2 szereléket – "
-                    "nem azonosítható biztosan"),
+               why="csomag (CompM5 + LRP szerelék): a bolti 'Aimpoint Comp M5' szerelékkel kerül forgalomba "
+                   "('Gewicht mit Montage: 238g'), de a szerelék típusát (LRP) nem nevezi meg – nem azonosítható "
+                   "biztosan"),
+    "ap-pro": R(r"Aimpoint PRO \(Patrol Rifle Optic\)", r"Aimpoint",
+                note="a bolt leírása szerint a készlet tartalmazza a szereléket, a lencsevédőt és a távtartót "
+                     "(az Aimpoint PRO gyári készlete: QRP2 szerelék + távtartó)"),
     "ap-acro": R(None, near=r"Aimpoint.? Acro.? P-2",
                  why="csomag (ACRO P-2 + Picatinny talp): a bolt az ACRO P-2-t talp nélkül árulja "
                      "('Gewicht 61 g nur Visier')"),

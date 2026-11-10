@@ -57,6 +57,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_JS = os.path.join(ROOT, "js", "data.js")
 OUT_JSON = os.path.join(ROOT, "assets", "prices", "armatum.json")
 
+SOURCE = API + " (WooCommerce Store API)"
+PRICE_BASIS = ("a bolt kiírt fogyasztói ára (az AGB szerint MWST-vel); 'Verfügbar bei Nachbestellung' "
+               "= nincs raktáron (in_stock=false), csak rendelhető")
+COLOR_ORDER = ("sku", "name", "attr")  # a szín forrásainak sorrendje (a bolt cikkszámai megbízhatóak)
+
 QUERIES = ["magpul", "eotech", "holosun", "aimpoint", "trijicon", "vortex", "surefire", "streamlight",
            "harris", "radian", "geissele", "bcm", "bravo company", "b5 systems", "blue force", "vickers",
            "schmeisser", "daniel defense"]
@@ -72,6 +77,7 @@ class Http:
         self.cache_dir = cache_dir
         self.last = 0.0
         self.n = 0
+        self.final = None
         if cache_dir:
             os.makedirs(cache_dir, exist_ok=True)
 
@@ -83,6 +89,7 @@ class Http:
         if self.cache_dir:
             ck = os.path.join(self.cache_dir, hashlib.sha1(url.encode()).hexdigest())
             if os.path.exists(ck):
+                self.final = url
                 with open(ck, "rb") as f:
                     return f.read().decode("utf-8", "replace")
         headers = {"User-Agent": UA, "Accept-Language": "de-CH,de;q=0.9,en;q=0.5"}
@@ -99,6 +106,7 @@ class Http:
             try:
                 with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=60) as r:
                     body = r.read().decode("utf-8", "replace")
+                    self.final = r.geturl()
                 if re.search(r"<title>\s*(Just a moment|Attention Required|Verifying|Access denied)", body, re.I) \
                         or "cf-chl-" in body or "g-recaptcha" in body:
                     raise Blocked("botvédelmi (Cloudflare/captcha) oldal: " + url)
@@ -128,13 +136,13 @@ class Http:
 
 # =========================================================================== közös segédek
 def norm(s):
-    s = unicodedata.normalize("NFKC", html.unescape(s or "")).replace("\xa0", " ")
+    s = unicodedata.normalize("NFC", html.unescape(s or "")).replace("\xa0", " ")
     return re.sub(r"\s+", " ", s).strip()
 
 
 def key(s):
     """Összehasonlító kulcs: kisbetű, egységes idézőjel/kötőjel, a ' - ', ', ', ' / ' elválasztók szóközzé."""
-    s = norm(s).lower()
+    s = unicodedata.normalize("NFKC", norm(s)).lower()
     s = re.sub(r"[®™©]", "", s)
     s = s.replace("×", "x").replace("′′", '"').replace("″", '"').replace("“", '"').replace("”", '"')
     s = s.replace("′", "'").replace("’", "'")
@@ -252,7 +260,7 @@ DYN = ("a bolt csak 'AR15 Dynamic L' modellt árul; a data.js 'AR15 Dynamic M5FL
 
 NEAR = {
     "schm-s4f": r"schmeisser.*\bs4f\b", "schm-m4fl": r"schmeisser.*m4fl", "schm-m5fl": r"schmeisser.*m5fl",
-    "schm-dyn": r"schmeisser.*dynamic", "dd-v7": r"ddm4 ?v7", "bcm-recce16": r"recce",
+    "schm-dyn": r"schmeisser ar15 dynamic(?!.*(trigger|abzug|falke))", "dd-v7": r"ddm4 ?v7", "bcm-recce16": r"recce",
     "mp-moe": r"\bmoe\b.*grip", "mp-moek2": r"moe[- ]?k2|moe 2k", "mp-moek2p": r"moe[- ]?k2",
     "mp-miad": r"miad", "bcm-g0": r"grip mod", "bcm-g3": r"grip mod", "b5-t22": r"p-grip|type 2[23]",
     "b5-t23": r"p-grip|type 2[23]", "mp-ctr": r"\bctr\b", "mp-moesl": r"moe sl", "mp-moeslk": r"moe sl",
@@ -274,14 +282,14 @@ NEAR = {
     "mp-rail5": r"rail section|aluminium rail|aluminum rail", "mp-qd": r"qd sling mount",
     "mp-cover": r"rail cover", "mp-cable": r"\bwck\b|wire control|cable", "mp-bipod": r"bipod|zweibein",
     "hr-sbrm": r"harris.*(brm|bipod|zweibein)", "sf-warcomp": r"warcomp", "sf-3p": r"3[- ]?prong|sf3p",
-    "bcm-comp0": r"bcm.*comp", "sf-rc2": r"rc2", "gs-ssae": r"geissele.*(ssa|trigger|abzug)",
-    "gs-ssa": r"geissele.*(ssa|trigger|abzug)", "gs-sde": r"geissele.*(sd-|trigger|abzug)",
-    "gs-s3g": r"geissele.*(s3g|trigger|abzug)", "rd-raptor": r"raptor", "rd-raptorlt": r"raptor[- ]lt",
+    "bcm-comp0": r"bcm.*comp", "sf-rc2": r"rc2", "gs-ssae": r"geissele(?!.*guard).*(ssa|trigger|abzug)",
+    "gs-ssa": r"geissele(?!.*guard).*(ssa|trigger|abzug)", "gs-sde": r"geissele(?!.*guard).*(sd-|trigger|abzug)",
+    "gs-s3g": r"geissele(?!.*guard).*(s3g|trigger|abzug)", "rd-raptor": r"raptor", "rd-raptorlt": r"raptor[- ]lt",
     "rd-raptorsd": r"raptor[- ]sd", "bcm-ch4": r"charging handle", "bcm-ch3": r"charging handle",
     "gs-ach": r"geissele.*charging", "rd-talon": r"talon|safety selector", "mp-bad": r"b\.?a\.?d\.? lever",
     "mp-trigguard": r"trigger guard", "mp-pm10": r"pmag ?10", "mp-pm20": r"pmag ?20", "mp-pm30": r"pmag ?30",
     "mp-pm30w": r"pmag ?30.*(window|fenster)", "mp-pm40": r"pmag ?40", "mp-d60": r"\bd-[56]0\b",
-    "mp-ms1": r"\bms1\b", "mp-ms4": r"\bms4\b", "bfg-vickers": r"vickers",
+    "mp-ms1": r"\bms1\b", "mp-ms4": r"\bms4\b", "bfg-vickers": r"vickers.*(sling|riemen|gurt)|(sling|riemen|gurt).*vickers",
 }
 
 
@@ -503,13 +511,23 @@ def expand_variations(http, card):
                          == re.sub(r"[^a-z0-9]", "", (val or "").lower())), val)
             if (a.get("name") or "").lower() == "farbe":
                 c["attr_color"] = disp
-            else:
-                labels.append(disp)
+            labels.append(disp)
         if labels:
             c["name"] = card["name"] + " – " + " / ".join(labels)
         c["image"] = c["image"] or card["image"]
         c["weight_g"] = c["weight_g"] or card["weight_g"]
         out.append(c)
+    return out
+
+
+def prepare_hits(http, hits):
+    """Változatos (variable) termékek kibontása változatonkénti kártyákra (csak az egyezőknél)."""
+    out = []
+    for c, mc in hits:
+        if c.get("type") == "variable" and c.get("variations"):
+            out.extend((v, mc) for v in expand_variations(http, c))
+        else:
+            out.append((c, mc))
     return out
 
 
@@ -619,6 +637,8 @@ def build_item(item, rule, hits, color_order):
                 sorted(k for k in groups if k))
     else:
         valid = []
+        if None in groups and "black" in groups:  # paletta nélküli tételnél a szín nélküli = alapkivitel
+            groups["black"] = groups["black"] + groups.pop(None)
         main_key = "black" if "black" in groups else (None if None in groups else sorted(groups)[0])
     main = best(groups[main_key])[0]
     it = dict(title=main["name"], price_chf=main["price"], list_chf=main["list"], url=main["url"],
@@ -626,8 +646,7 @@ def build_item(item, rule, hits, color_order):
               sku=main["sku"] or None, mpn=main.get("mpn"), weight_g=main.get("weight_g"), dims=main.get("dims"))
     if main_key:
         it["color"] = main_key
-    if pal:
-        it["colors_prices"] = {k: offer(best(groups[k])[0]) for k in valid}
+    it["colors_prices"] = {k: offer(best(groups[k])[0]) for k in valid} if pal else {}
     alts = []
     for k, cs in groups.items():
         for c in best(cs):
@@ -640,6 +659,12 @@ def build_item(item, rule, hits, color_order):
     notes = []
     if rule["note"]:
         notes.append(rule["note"])
+    if globals().get("ITEM_NOTE"):
+        notes.append(globals()["ITEM_NOTE"])
+    for k, cs in groups.items():
+        for c in cs:
+            if c.get("_note") and (c is main or (pal and k in valid)):
+                notes.append(c["_note"] if c is main else "%s: %s" % (COLOR_LABELS.get(k, k), c["_note"]))
     if main_key is None and pal:
         notes.append("a bolti név/cikkszám nem adja meg a színt")
     elif not pal and main_key not in (None, "black"):
@@ -656,7 +681,7 @@ COLOR_LABELS = {"black": "fekete", "fde": "FDE", "odg": "OD Green", "gray": "sz�
                 "mcbrown": "MC Brown", "earth": "Dark Earth", "olive": "OD Green"}
 
 
-def run(http, entries, color_order=("sku", "name", "attr")):
+def run(http, entries, color_order=COLOR_ORDER):
     cards = fetch_catalog(http)
     items, unmatched = {}, {}
     for i, item in enumerate(entries, 1):
@@ -664,18 +689,10 @@ def run(http, entries, color_order=("sku", "name", "attr")):
         rule = RULES.get(pid) or R(None)
         sys.stderr.write("[%d/%d] %s  (%s %s)\n" % (i, len(entries), pid, item["brand"], item["name"]))
         hits = match_cards(rule, cards) if (rule["pats"] or rule["sku"]) else []
-        # változatos termékek kibontása (csak az egyezőknél)
-        exp = []
-        for c, mc in hits:
-            if c.get("type") == "variable" and c.get("variations"):
-                for v in expand_variations(http, c):
-                    exp.append((v, mc))
-            else:
-                exp.append((c, mc))
-        hits = exp
-        if hits and rule["check"]:
-            txt = page_text(http, best([h[0] for h in hits])[0])
-            if not rule["check"].search(txt):
+        hits = prepare_hits(http, hits)  # bolt-specifikus: változatok kibontása / termékoldal-adatok
+        if hits and rule["check"]:  # a termékoldal szövegének igazolnia kell az egyezést
+            hits = [h for h in hits if rule["check"].search(page_text(http, h[0]))]
+            if not hits:
                 unmatched[pid] = unmatched_reason(item, rule, cards, set(),
                                                   why=(rule["why"] or "a termékoldal nem igazolja az egyezést"))
                 continue
@@ -695,7 +712,7 @@ def run(http, entries, color_order=("sku", "name", "attr")):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--only", help="vesszővel elválasztott id-k")
-    ap.add_argument("--out", help="kimeneti JSON (alapértelmezett: assets/prices/armatum.json; --only mellett stdout)")
+    ap.add_argument("--out", help="kimeneti JSON (alapértelmezett: assets/prices/<bolt>.json; --only mellett stdout)")
     ap.add_argument("--cache", help="HTTP gyorsítótár könyvtár")
     args = ap.parse_args()
     entries = read_data_js()
@@ -709,11 +726,8 @@ def main():
     except Blocked as e:
         blocked, items, unmatched = str(e), {}, {}
         sys.stderr.write("BLOKKOLVA: %s\n" % e)
-    doc = dict(shop=SHOP, currency="CHF", fetched=datetime.date.today().isoformat(),
-               source=API + " (WooCommerce Store API)",
-               price_basis="a bolt kiírt fogyasztói ára (az AGB szerint MWST-vel); 'Verfügbar bei Nachbestellung' "
-                           "= nincs raktáron (in_stock=false), csak rendelhető",
-               items=items, unmatched=unmatched, blocked=blocked)
+    doc = dict(shop=SHOP, currency="CHF", fetched=datetime.date.today().isoformat(), source=SOURCE,
+               price_basis=PRICE_BASIS, items=items, unmatched=unmatched, blocked=blocked)
     text = json.dumps(doc, ensure_ascii=False, indent=2) + "\n"
     out = args.out or (None if args.only else OUT_JSON)
     if out:

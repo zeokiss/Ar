@@ -1,0 +1,22 @@
+{
+ "domain": "armurerie-richert.ch",
+ "url": "https://armurerie-richert.ch/",
+ "name": "Atelier d’armurerie RICHERT Sàrl",
+ "addr": "Chem. du Château-Bloch 10, 1219 Vernier",
+ "city": "Vernier GE",
+ "canton": "GE",
+ "tel": "+41 22 793 39 89",
+ "kind": "both",
+ "ships": null,
+ "shipNote": "Az oldal nem ír szállításról, szállítási díjról vagy ingyenes határról (a visszaküldési oldal csak a WooCommerce mintaszövege). Az atelier csak előzetes időpont-egyeztetéssel (sur rendez-vous) látogatható.",
+ "km": 305,
+ "km_est": true,
+ "online_prices": true,
+ "sources": [
+  "https://armurerie-richert.ch/mentions-legales/",
+  "https://armurerie-richert.ch/contact/",
+  "https://armurerie-richert.ch/remboursements_retours/",
+  "https://armurerie-richert.ch/wp-json/wc/store/v1/products"
+ ],
+ "notes": "WooCommerce webshop kosárral (Store API nyilvános, 416 termék). E-mail: ch-richert@bluewin.ch; cégjegyzék: CH-660-1989018-1; ÁFA: CHE-347.137.375; ügyvezető: Christian Richert. A korábbi kutatás Onex GE-t írt, de a Mentions légales és a Contact oldal szerint a cím Vernier GE. A katalógusban minden tétel 'in-stock' jelzésű; termékenkénti cikkszám/súly nincs kitöltve."
+}

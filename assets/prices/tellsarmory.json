@@ -1,0 +1,659 @@
+{
+  "shop": "tellsarmory.ch",
+  "currency": "CHF",
+  "fetched": "2026-11-10",
+  "source": "https://www.tellsarmory.ch/shop/category/waffenzubehor-7, /shop/category/waffen-sturmgewehre-3, /shop?search=<márka> (Odoo HTML) + termékoldalak",
+  "price_basis": "FIGYELEM: a bolt kiírt ára a lekérdezéskor (nem svájci IP-ről) láthatóan MWST NÉLKÜLI volt: minden ár x1.081 kerek .90/.95 végű CHF-összeg (pl. 23.08 -> 24.95, 55.41 -> 59.90, 1850.05 -> 1999.90), az AGB szerint viszont svájci vevőnek minden ár MWST-vel értendő. A price_chf a ténylegesen kiírt ár, átszámítás nélkül; svájci kapcsolatról a fizetendő ár valószínűleg 8.1%-kal magasabb - összehasonlítás előtt ellenőrizni kell. Készletadatot a bolt statikusan nem közöl (in_stock = null).",
+  "items": {
+    "mp-moek2": {
+      "title": "MAGPUL MOE 2K Grip, Black",
+      "price_chf": 23.03,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/mag522blk-magpul-moe-2k-grip-black-88",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/88/image_1920?unique=d5fd654",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": "MAG522BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 23.03,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/mag522blk-magpul-moe-2k-grip-black-88",
+          "in_stock": null,
+          "title": "MAGPUL MOE 2K Grip, Black"
+        },
+        "fde": {
+          "price_chf": 23.03,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/mag522fde-magpul-moe-2k-grip-fde-89",
+          "in_stock": null,
+          "title": "MAGPUL MOE 2K Grip, FDE"
+        }
+      },
+      "note": "a bolt 'MOE 2K Grip' néven listázza; a cikkszám (MAG522) és a leírás szerint MOE-K2; a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "mp-moek2p": {
+      "title": "MAGPUL MOE K2+ Grip, AR15/m4, BLK",
+      "price_chf": 26.73,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/magpul-moe-k2-grip-ar15-m4-blk-574",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/574/image_1920?unique=853cdff",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 26.73,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/magpul-moe-k2-grip-ar15-m4-blk-574",
+          "in_stock": null,
+          "title": "MAGPUL MOE K2+ Grip, AR15/m4, BLK"
+        },
+        "fde": {
+          "price_chf": 26.73,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/magpul-moe-k2-grip-ar15-m4-fde-573",
+          "in_stock": null,
+          "title": "MAGPUL MOE K2+ Grip, AR15/m4, FDE"
+        }
+      },
+      "note": "a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "mp-ctr": {
+      "title": "MAGPUL, CTR Carbine Stock, Blk, Mil Spec",
+      "price_chf": 80.39,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/magpul-ctr-carbine-stock-blk-mil-spec-466",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/466/image_1920?unique=1e65582",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 80.39,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/magpul-ctr-carbine-stock-blk-mil-spec-466",
+          "in_stock": null,
+          "title": "MAGPUL, CTR Carbine Stock, Blk, Mil Spec"
+        },
+        "fde": {
+          "price_chf": 83.16,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/magpul-ctr-carbine-stock-fde-mil-spec-550",
+          "in_stock": null,
+          "title": "MAGPUL, CTR Carbine Stock, FDE, Mil Spec"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "MAGPUL, CTR Carbine Stock, MC Brown, Mil Spec",
+          "color": "mcbrown",
+          "price_chf": 83.16,
+          "list_chf": null,
+          "in_stock": null,
+          "url": "https://www.tellsarmory.ch/shop/magpul-ctr-carbine-stock-mc-brown-mil-spec-571",
+          "sku": null
+        }
+      ],
+      "note": "Mil-Spec csöves kivitel; a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "mp-moeslk": {
+      "title": "MAGPUL MOE SL-K Carbine Stock, Mil Spec, BLK",
+      "price_chf": 55.41,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/mag626-blk-magpul-moe-sl-k-carbine-stock-mil-spec-blk-335",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/335/image_1920?unique=4d3f14b",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": "MAG626-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 55.41,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/mag626-blk-magpul-moe-sl-k-carbine-stock-mil-spec-blk-335",
+          "in_stock": null,
+          "title": "MAGPUL MOE SL-K Carbine Stock, Mil Spec, BLK"
+        },
+        "fde": {
+          "price_chf": 55.41,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/mag626fde-magpul-moe-sl-k-carbine-stock-mil-spec-fde-94",
+          "in_stock": null,
+          "title": "MAGPUL MOE SL-K Carbine Stock, Mil Spec, FDE"
+        }
+      },
+      "note": "Mil-Spec csöves kivitel; a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "b5-bravo": {
+      "title": "B5 SYSTEMS Sopmod Bravo Stock, Mil Spec – Black",
+      "price_chf": 91.58,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/b5-systems-sopmod-bravo-stock-mil-spec-129",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/129/image_1920?unique=e32cf5b",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 91.58,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/b5-systems-sopmod-bravo-stock-mil-spec-129",
+          "in_stock": null,
+          "title": "B5 SYSTEMS Sopmod Bravo Stock, Mil Spec – Black"
+        },
+        "fde": {
+          "price_chf": 91.58,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/b5-systems-sopmod-bravo-stock-mil-spec-129",
+          "in_stock": null,
+          "title": "B5 SYSTEMS Sopmod Bravo Stock, Mil Spec – FDE"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "B5 SYSTEMS Sopmod Bravo Stock, Mil Spec – Coyote Brown",
+          "color": "coyote",
+          "price_chf": 91.58,
+          "list_chf": null,
+          "in_stock": null,
+          "url": "https://www.tellsarmory.ch/shop/b5-systems-sopmod-bravo-stock-mil-spec-129",
+          "sku": null
+        }
+      ],
+      "note": "a bolti név 'Sopmod Bravo Stock'; a leírás szerint a B5 Bravo tus (a SOPMOD-ra épülő, tárolórekesz nélküli kivitel), Mil-Spec; az oldalon kiírt ár az alapértelmezett (Black) változaté, más színhez a bolt nem jelez felárat; a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő; FDE: az oldalon kiírt ár az alapértelmezett (Black) színé; ehhez a színhez a bolt nem jelez felárat",
+      "match": "variant"
+    },
+    "eo-exps3": {
+      "title": "EOTECH EXPS3 Holographic Sight – 3-0 – Black",
+      "price_chf": 970.4,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/eotech-exps3-holographic-sight-132",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/132/image_1920?unique=ee275dc",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "EOTECH EXPS3 Holographic Sight – 3-0 – FDE",
+          "color": "fde",
+          "price_chf": 970.4,
+          "list_chf": null,
+          "in_stock": null,
+          "url": "https://www.tellsarmory.ch/shop/eotech-exps3-holographic-sight-132",
+          "sku": null
+        }
+      ],
+      "note": "a bolt egy termékként árulja szín- (Black/FDE) és szálkereszt-változatokkal (3-0/3-1/3-2/3-4/DCR); a kiírt ár az alapértelmezett Black + 3-0 (= EXPS3-0) kombinációé, felárat a bolt nem jelez; a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "variant"
+    },
+    "vx-uh1": {
+      "title": "VORTEX OPTICS, AMG UH-1 Gen II, blk",
+      "price_chf": 824.19,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/vortex-optics-amg-uh-1-gen-ii-blk-504",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/504/image_1920?unique=4fcfe1c",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "VORTEX OPTICS, AMG UH-1 Gen II, FDE",
+          "color": "fde",
+          "price_chf": 824.19,
+          "list_chf": null,
+          "in_stock": null,
+          "url": "https://www.tellsarmory.ch/shop/vortex-optics-amg-uh-1-gen-ii-fde-507",
+          "sku": null
+        }
+      ],
+      "note": "a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "vx-se16": {
+      "title": "VORTEX OPTICS, Strike Eagle 1-6 x 24 SFP, AR-BDC3, blk",
+      "price_chf": 413.41,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/vortex-optics-strike-eagle-1-6-x-24-sfp-ar-bdc3-blk-509",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/509/image_1920?unique=fdd5878",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "note": "AR-BDC3 szálkereszt, SFP; a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "eo-vudu110": {
+      "title": "EOTECH VUDU 1-10 SR5, – Black",
+      "price_chf": 2034.23,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/eotech-vudu-1-10-sr5-115",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/115/image_1920?unique=33d7357",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "EOTECH VUDU 1-10 SR5, – FDE",
+          "color": "fde",
+          "price_chf": 2034.23,
+          "list_chf": null,
+          "in_stock": null,
+          "url": "https://www.tellsarmory.ch/shop/eotech-vudu-1-10-sr5-115",
+          "sku": null
+        }
+      ],
+      "note": "Vudu 1-10x28 FFP, SR5 (MRAD) szálkereszt, 34 mm; a kiírt ár az alapértelmezett (Black) változaté; a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "variant"
+    },
+    "sf-m640": {
+      "title": "SUREFIRE, M640DF Dual Fuel Scout Light Pro - TAN",
+      "price_chf": 480.11,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/surefire-m640df-dual-fuel-scout-light-pro-tan-723",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/723/image_1920?unique=7d6c64c",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "tan",
+      "colors_prices": {},
+      "note": "a nem-Turbo M640DF csak Tan színben kapható; a fekete csak 'M640DF Dual Fuel Turbo' (M640DFT, más típus); a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő; csak Tan színben kapható (fekete nincs)",
+      "match": "exact"
+    },
+    "sf-x300": {
+      "title": "SUREFIRE, X300U-B, blk",
+      "price_chf": 372.99,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/surefire-x300u-b-blk-616",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/616/image_1920?unique=9a6aec9",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "SUREFIRE, X300U-B, tan",
+          "color": "tan",
+          "price_chf": 392.69,
+          "list_chf": null,
+          "in_stock": null,
+          "url": "https://www.tellsarmory.ch/shop/surefire-x300u-b-tan-617",
+          "sku": null
+        }
+      ],
+      "note": "a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "sl-tlr1": {
+      "title": "STREAMLIGHT, TLR-1 HL, Blk",
+      "price_chf": 233.95,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/streamlight-tlr-1-hl-blk-606",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/606/image_1920?unique=2a968ea",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "STREAMLIGHT, TLR-1 HL, FDE",
+          "color": "fde",
+          "price_chf": 233.95,
+          "list_chf": null,
+          "in_stock": null,
+          "url": "https://www.tellsarmory.ch/shop/streamlight-tlr-1-hl-fde-607",
+          "sku": null
+        }
+      ],
+      "note": "a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "bcm-vg3": {
+      "title": "BCM Gunfighter Vertical Grip MOD3, M-LOK, BLK",
+      "price_chf": 44.4,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/bcm-vg-mcmr-mod-3-blk-bcm-gunfighter-vertical-grip-mod3-m-lok-blk-127",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/127/image_1920?unique=66fee86",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": "BCM-VG-MCMR-MOD-3-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 44.4,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/bcm-vg-mcmr-mod-3-blk-bcm-gunfighter-vertical-grip-mod3-m-lok-blk-127",
+          "in_stock": null,
+          "title": "BCM Gunfighter Vertical Grip MOD3, M-LOK, BLK"
+        },
+        "fde": {
+          "price_chf": 44.4,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/bcm-vg-mcmr-mod-3-fde-bcm-gunfighter-vertical-grip-mod3-m-lok-fde-128",
+          "in_stock": null,
+          "title": "BCM Gunfighter Vertical Grip MOD3, M-LOK, FDE"
+        }
+      },
+      "note": "M-LOK kivitel (a Picatinny változat külön tétel); a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "variant"
+    },
+    "bcm-kag": {
+      "title": "BCM KAG Grip, M-Lok, schwarz",
+      "price_chf": 29.6,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/bcm-kag-grip-m-lok-schwarz-498",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/498/image_1920?unique=215cd32",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 29.6,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/bcm-kag-grip-m-lok-schwarz-498",
+          "in_stock": null,
+          "title": "BCM KAG Grip, M-Lok, schwarz"
+        },
+        "fde": {
+          "price_chf": 29.6,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/bcm-kag-grip-m-lok-fde-499",
+          "in_stock": null,
+          "title": "BCM KAG Grip, M-Lok, fde"
+        }
+      },
+      "note": "KAG (Kinesthetic Angled Grip), M-LOK; a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "mp-qd": {
+      "title": "MAGPUL M-LOK QD Sling Mount",
+      "price_chf": 23.03,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/mag606-blk-magpul-m-lok-qd-sling-mount-84",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/84/image_1920?unique=f70034a",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": "MAG606-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "note": "a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "mp-bipod": {
+      "title": "MAGPUL, Bipod M-LOK, blk",
+      "price_chf": 152.54,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/magpul-bipod-m-lok-blk-529",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/529/image_1920?unique=1b60399",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 152.54,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/magpul-bipod-m-lok-blk-529",
+          "in_stock": null,
+          "title": "MAGPUL, Bipod M-LOK, blk"
+        },
+        "fde": {
+          "price_chf": 152.54,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/magpul-bipod-m-lok-fde-531",
+          "in_stock": null,
+          "title": "MAGPUL, Bipod M-LOK, FDE"
+        }
+      },
+      "note": "Magpul Bipod M-LOK (alumínium); a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "rd-raptor": {
+      "title": "RADIAN WEAPONS, Raptor Charging Handle, for AR15/M16, OD Green",
+      "price_chf": 119.33,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/radian-weapons-raptor-charging-handle-for-ar15-m16-od-green-321",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/321/image_1920?unique=2278815",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "odg",
+      "colors_prices": {
+        "odg": {
+          "price_chf": 119.33,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/radian-weapons-raptor-charging-handle-for-ar15-m16-od-green-321",
+          "in_stock": null,
+          "title": "RADIAN WEAPONS, Raptor Charging Handle, for AR15/M16, OD Green"
+        }
+      },
+      "note": "csak OD Green színben kapható; a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "rd-raptorlt": {
+      "title": "RADIAN WEAPONS, Raptor-LT Charging Handle, For AR15/M16, FDE",
+      "price_chf": 91.58,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/radian-weapons-raptor-lt-charging-handle-for-ar15-m16-fde-578",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/578/image_1920?unique=35e9497",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "fde",
+      "colors_prices": {},
+      "note": "AR-15 kivitel (az MCX-es más termék); a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő; csak FDE színben kapható (fekete nincs)",
+      "match": "exact"
+    },
+    "mp-bad": {
+      "title": "MAGPUL, B.A.D. Lever / BAD Lever - Battery Assist",
+      "price_chf": 40.61,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/magpul-b-a-d-lever-bad-lever-battery-assist-572",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/572/image_1920?unique=1c86920",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {},
+      "note": "a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "exact"
+    },
+    "mp-pm30w": {
+      "title": "MAGPUL, PMAG 30, AR/M4 GEN M3 Window, BLK",
+      "price_chf": 23.03,
+      "list_chf": null,
+      "url": "https://www.tellsarmory.ch/shop/magpul-pmag-30-ar-m4-gen-m3-window-blk-336",
+      "image": "https://www.tellsarmory.ch/web/image/product.template/336/image_1920?unique=915bfee",
+      "in_stock": null,
+      "stock_text": "",
+      "sku": null,
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 23.03,
+          "list_chf": null,
+          "url": "https://www.tellsarmory.ch/shop/magpul-pmag-30-ar-m4-gen-m3-window-blk-336",
+          "in_stock": null,
+          "title": "MAGPUL, PMAG 30, AR/M4 GEN M3 Window, BLK"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "MAGPUL, PMAG 30, AR/M4 GEN M3 Window, TAN",
+          "color": "tan",
+          "price_chf": 23.03,
+          "list_chf": null,
+          "in_stock": null,
+          "url": "https://www.tellsarmory.ch/shop/magpul-pmag-30-ar-m4-gen-m3-window-tan-337",
+          "sku": null
+        }
+      ],
+      "note": "a 'TAN' változat nem szerepel a data.js palettáján (black/fde); a kiírt ár MWST nélkülinek tűnik (lásd price_basis), svájci kapcsolatról ellenőrizendő",
+      "match": "variant"
+    }
+  },
+  "unmatched": {
+    "schm-s4f": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "schm-m4fl": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "schm-m5fl": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "schm-dyn": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "dd-v7": "ok: csak DD4 MK18 RIII / DD4 RIII S / DD5 / PCC9 (más modellek); DDM4 V7 nincs",
+    "bcm-recce16": "ok: BCM fegyver nincs a boltban (csak BCM előmarkolatok)",
+    "mp-moe": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: MAGPUL MOE 2K Grip, Black (23.03 CHF, https://www.tellsarmory.ch/shop/mag522blk-magpul-moe-2k-grip-black-88) | MAGPUL MOE 2K Grip, FDE (23.03 CHF, https://www.tellsarmory.ch/shop/mag522fde-magpul-moe-2k-grip-fde-89) | MAGPUL M-LOK MOE MVG Grip, FDE (25.81 CHF, https://www.tellsarmory.ch/shop/mag597fde-magpul-m-lok-moe-mvg-grip-fde-85) | MAGPUL M-LOK MOE MVG Grip, Blk (25.81 CHF, https://www.tellsarmory.ch/shop/mag597blk-magpul-m-lok-moe-mvg-grip-blk-86)",
+    "mp-miad": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-g0": "ok: BCM pisztolymarkolat nincs a boltban (csak előmarkolatok); legközelebbi bolti termék(ek), NEM azonos: BCM Gunfighter Vertical Grip MOD3, M-LOK, BLK (44.40 CHF, https://www.tellsarmory.ch/shop/bcm-vg-mcmr-mod-3-blk-bcm-gunfighter-vertical-grip-mod3-m-lok-blk-127) | BCM Gunfighter Vertical Grip MOD3, M-LOK, FDE (44.40 CHF, https://www.tellsarmory.ch/shop/bcm-vg-mcmr-mod-3-fde-bcm-gunfighter-vertical-grip-mod3-m-lok-fde-128) | BCM Gunfighter Vertical Grip MOD3, Picatinny, BLK (51.80 CHF, https://www.tellsarmory.ch/shop/bcm-vg-s-blk-bcm-gunfighter-vertical-grip-mod3-picatinny-blk-143) | BCM Gunfighter Vertical Grip MOD3, Picatinny, FDE (51.80 CHF, https://www.tellsarmory.ch/shop/bcm-vg-s-fde-bcm-gunfighter-vertical-grip-mod3-picatinny-fde-144)",
+    "bcm-g3": "ok: BCM pisztolymarkolat nincs a boltban (csak előmarkolatok); legközelebbi bolti termék(ek), NEM azonos: BCM Gunfighter Vertical Grip MOD3, M-LOK, BLK (44.40 CHF, https://www.tellsarmory.ch/shop/bcm-vg-mcmr-mod-3-blk-bcm-gunfighter-vertical-grip-mod3-m-lok-blk-127) | BCM Gunfighter Vertical Grip MOD3, M-LOK, FDE (44.40 CHF, https://www.tellsarmory.ch/shop/bcm-vg-mcmr-mod-3-fde-bcm-gunfighter-vertical-grip-mod3-m-lok-fde-128) | BCM Gunfighter Vertical Grip MOD3, Picatinny, BLK (51.80 CHF, https://www.tellsarmory.ch/shop/bcm-vg-s-blk-bcm-gunfighter-vertical-grip-mod3-picatinny-blk-143) | BCM Gunfighter Vertical Grip MOD3, Picatinny, FDE (51.80 CHF, https://www.tellsarmory.ch/shop/bcm-vg-s-fde-bcm-gunfighter-vertical-grip-mod3-picatinny-fde-144)",
+    "b5-t22": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "b5-t23": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-moesl": "ok: csak MOE SL-K és SL-M tus (más termékek); legközelebbi bolti termék(ek), NEM azonos: MAGPUL MOE SL-K Carbine Stock, Mil Spec, FDE (55.41 CHF, https://www.tellsarmory.ch/shop/mag626fde-magpul-moe-sl-k-carbine-stock-mil-spec-fde-94) | MAGPUL MOE SL-K Carbine Stock, Mil Spec, BLK (55.41 CHF, https://www.tellsarmory.ch/shop/mag626-blk-magpul-moe-sl-k-carbine-stock-mil-spec-blk-335) | MAGPUL MOE SL-M Carbine Stock, Mil Spec, BLK (55.41 CHF, https://www.tellsarmory.ch/shop/magpul-moe-sl-m-carbine-stock-mil-spec-blk-500) | MAGPUL MOE SL-M Carbine Stock, Mil Spec, FDE (55.41 CHF, https://www.tellsarmory.ch/shop/magpul-moe-sl-m-carbine-stock-mil-spec-fde-551)",
+    "mp-ubr2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-prs3": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-prslite": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-s0": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-s1": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "b5-esop": "ok: csak a B5 Bravo tus (a leírás szerint a SOPMOD-ra épül, de nem az Enhanced SOPMOD); legközelebbi bolti termék(ek), NEM azonos: B5 SYSTEMS Sopmod Bravo Stock, Mil Spec (91.58 CHF, https://www.tellsarmory.ch/shop/b5-systems-sopmod-bravo-stock-mil-spec-129)",
+    "b5-prec": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-pad030": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-pad055": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-pad070": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-padsl": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "ap-t2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "ap-m5": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "ap-pro": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "ap-acro": "ok: csomag (ACRO P-2 + Picatinny talp): a bolt az ACRO P-2-t talp nélkül árulja; legközelebbi bolti termék(ek), NEM azonos: AIMPOINT ACRO P-2, 3.5 MOA, Black (603.15 CHF, https://www.tellsarmory.ch/shop/ap-200691-aimpoint-acro-p-2-3-5-moa-black-44) | AIMPOINT ACRO P-2, 3.5 MOA, FDE (692.88 CHF, https://www.tellsarmory.ch/shop/aimpoint-acro-p-2-3-5-moa-fde-586)",
+    "eo-exps2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-xps2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "hs-510c": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "hs-aems": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "hs-403b": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "tj-mro": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "vx-sparc": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-crossfire": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-se18": "ok: csak 'Strike Eagle 1-8x24 FFP EBR-8' (első fókuszsíkos; a data.js SFP kivitelt ír); legközelebbi bolti termék(ek), NEM azonos: VORTEX OPTICS Strike Eagle 1-8x24 FFP EBR-8 (618.87 CHF, https://www.tellsarmory.ch/shop/vortex-optics-strike-eagle-1-8x24-ffp-ebr-8-667)",
+    "vx-pst16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-razor110": "ok: csak 'AMG 1-10x24 FFP EBR-9' (más termékcsalád), Razor HD Gen III 1-10x24 nincs",
+    "tj-acog": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "tj-credo16": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "tj-vcog": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "eo-vudu16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-sp30": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: GEISSELE S Ultra Precision Trigger Guard, FDE (49.95 CHF, https://www.tellsarmory.ch/shop/geissele-s-ultra-precision-trigger-guard-fde-579)",
+    "vx-cant30": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-g33": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-g43": "ok: G43 + 'Micro' szerelék csomag: a bolti G43 (Tan) a leírás szerint 'Flip-to-Side' (STS) szerelékkel érkezik; legközelebbi bolti termék(ek), NEM azonos: EOTECH, G43 Magnifier, Tan (868.64 CHF, https://www.tellsarmory.ch/shop/eotech-g43-magnifier-tan-325)",
+    "ap-3x": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "hs-hm3x": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-m3x": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-mbus3": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-mbuspro": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-mbusoff": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-m600": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-m300": "ok: csak M340C / M340V Mini Scout Light Pro (más típus); M300 nincs; legközelebbi bolti termék(ek), NEM azonos: SUREFIRE, M340C Mini Scout Light Pro - Black (415.36 CHF, https://www.tellsarmory.ch/shop/surefire-m340c-mini-scout-light-pro-black-272) | SUREFIRE, M340V Mini Scout Light Pro Vampire, FDE (582.70 CHF, https://www.tellsarmory.ch/shop/surefire-m340v-mini-scout-light-pro-vampire-fde-536) | SUREFIRE, M340V Mini Scout Light Pro Vampire, BLK (582.70 CHF, https://www.tellsarmory.ch/shop/surefire-m340v-mini-scout-light-pro-vampire-blk-537)",
+    "sl-hlx": "ok: csak TLR-1 HL-X USB / TLR-7 (más típus); ProTac Rail Mount HL-X nincs; legközelebbi bolti termék(ek), NEM azonos: STREAMLIGHT, TLR-7 HL-X Sub, GLOCK, Blk (251.53 CHF, https://www.tellsarmory.ch/shop/streamlight-tlr-7-hl-x-sub-glock-blk-614) | STREAMLIGHT, TLR-7 HL-X Sub, SIG, Blk (251.53 CHF, https://www.tellsarmory.ch/shop/streamlight-tlr-7-hl-x-sub-sig-blk-615) | STREAMLIGHT, TLR7 HL-X USB, Blk (254.30 CHF, https://www.tellsarmory.ch/shop/streamlight-tlr7-hl-x-usb-blk-610) | STREAMLIGHT, TLR7 HL-X USB, FDE (254.30 CHF, https://www.tellsarmory.ch/shop/streamlight-tlr7-hl-x-usb-fde-611)",
+    "mp-rvg": "ok: csak 'MOE RVG Grip' (Picatinny) és 'M-LOK MOE MVG Grip' - az M-LOK RVG nincs, nem azonos; legközelebbi bolti termék(ek), NEM azonos: MAGPUL MOE RVG Grip, Black (29.51 CHF, https://www.tellsarmory.ch/shop/mag412blk-magpul-moe-rvg-grip-black-91) | MAGPUL MOE RVG Grip, FDE (29.51 CHF, https://www.tellsarmory.ch/shop/mag412fde-magpul-moe-rvg-grip-fde-92)",
+    "mp-hstop": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-rail5": "ok: csak 7 slotos alumínium M-LOK sín (MAG582) kapható; legközelebbi bolti termék(ek), NEM azonos: MAGPUL M-LOK Rail Section, Aluminium, 7 Slots (23.03 CHF, https://www.tellsarmory.ch/shop/mag582blk-magpul-m-lok-rail-section-aluminium-7-slots-87)",
+    "mp-cover": "ok: csak Wilson Combat M-LOK takaró (más márka)",
+    "mp-cable": "ok: a Magpul M-LOK Cable Management Kit nincs a boltban; a 'WCK - Wire Control Kit' más termék; legközelebbi bolti termék(ek), NEM azonos: MAGPUL WCK Wire Control Kit M-LOK - FDE (23.08 CHF, https://www.tellsarmory.ch/shop/mag1296-magpul-wck-wire-control-kit-m-lok-fde-80) | MAGPUL WCK Wire Control Kit M-LOK - Black (23.08 CHF, https://www.tellsarmory.ch/shop/magpul-wck-wire-control-kit-m-lok-black-452)",
+    "hr-sbrm": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "sf-warcomp": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-3p": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-comp0": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-rc2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-ssae": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-ssa": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-sde": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-s3g": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "rd-raptorsd": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-ch4": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-ch3": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-ach": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "rd-talon": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-trigguard": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-pm10": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-pm20": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: MAGPUL, PMAG 20 LR/SR GEN M3 Window, .308, Coyote (33.21 CHF, https://www.tellsarmory.ch/shop/magpul-pmag-20-lr-sr-gen-m3-window-308-coyote-554) | MAGPUL, PMAG 20 LR/SR GEN M3 Window, .308, Schwarz (33.21 CHF, https://www.tellsarmory.ch/shop/magpul-pmag-20-lr-sr-gen-m3-window-308-schwarz-555)",
+    "mp-pm30": "ok: csak a Window (ablakos) PMAG 30 Gen M3 kapható; legközelebbi bolti termék(ek), NEM azonos: MAGPUL, PMAG 30, AR/M4 GEN M3 Window, BLK (23.03 CHF, https://www.tellsarmory.ch/shop/magpul-pmag-30-ar-m4-gen-m3-window-blk-336) | MAGPUL, PMAG 30, AR/M4 GEN M3 Window, TAN (23.03 CHF, https://www.tellsarmory.ch/shop/magpul-pmag-30-ar-m4-gen-m3-window-tan-337)",
+    "mp-pm40": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-d60": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-ms1": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-ms4": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bfg-vickers": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)"
+  },
+  "blocked": null
+}

@@ -1,0 +1,2366 @@
+{
+  "shop": "tacstore.ch",
+  "currency": "CHF",
+  "fetched": "2026-11-10",
+  "source": "https://www.tacstore.ch/catalog/all-products?keywords=… (kereső-lista beágyazott JSON-ja)",
+  "price_basis": "kiírt fogyasztói ár CHF, 8.1% ÁFÁ-val (AGB 1.); akciónál price_chf = akciós ár, list_chf = áthúzott ár",
+  "stock_basis": "in_stock=true csak 'Umgehend versandbereit' (saját raktár); egyébként false, a pontos szöveg a stock_text-ben",
+  "items": {
+    "schm-s4f": {
+      "title": "Schmeisser AR15 S4F 10.5 Inch .223 Rem - Black",
+      "price_chf": 1995.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/schmeisser-ar15-s4f-10-5-inch-223-rem-black",
+      "image": "https://www.tacstore.ch/images/products/119267/5516533/210x210/schmeisser-ar15-s4f-10-5-inch-223-rem-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 2-4 Tagen",
+      "sku": "355_7009342",
+      "mpn": "7009342",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 1995.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/schmeisser-ar15-s4f-10-5-inch-223-rem-black",
+          "in_stock": false,
+          "title": "Schmeisser AR15 S4F 10.5 Inch .223 Rem - Black"
+        },
+        "olive": {
+          "price_chf": 2130.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/schmeisser-ar15-s4f-10-5-inch-223-rem-olive",
+          "in_stock": false,
+          "title": "Schmeisser AR15 S4F 10.5 Inch .223 Rem - Olive"
+        },
+        "bronze": {
+          "price_chf": 2130.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/schmeisser-ar15-s4f-10-5-inch-223-rem-bronze",
+          "in_stock": false,
+          "title": "Schmeisser AR15 S4F 10.5 Inch .223 Rem - Bronze"
+        }
+      },
+      "note": "a CSS-tusos, a 9 mm-es (AR15-9) és a 'Complete Upper' változat másik termék",
+      "match": "exact"
+    },
+    "schm-m4fl": {
+      "title": "Schmeisser AR15 M4FL 14.5 Inch .223 Rem - Black",
+      "price_chf": 1995.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/schmeisser-ar15-m4fl-14-5-inch-223-rem-black",
+      "image": "https://www.tacstore.ch/images/products/119259/5516269/210x210/schmeisser-ar15-m4fl-14-5-inch-223-rem-black.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "355_7009343",
+      "mpn": "7009343",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 1995.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/schmeisser-ar15-m4fl-14-5-inch-223-rem-black",
+          "in_stock": true,
+          "title": "Schmeisser AR15 M4FL 14.5 Inch .223 Rem - Black"
+        },
+        "olive": {
+          "price_chf": 2130.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/schmeisser-ar15-m4fl-14-5-inch-223-rem-olive",
+          "in_stock": false,
+          "title": "Schmeisser AR15 M4FL 14.5 Inch .223 Rem - Olive"
+        },
+        "earth": {
+          "price_chf": 2130.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/schmeisser-ar15-m4fl-14-5-inch-223-rem-dark-earth",
+          "in_stock": false,
+          "title": "Schmeisser AR15 M4FL 14.5 Inch .223 Rem - Dark Earth"
+        },
+        "bronze": {
+          "price_chf": 2130.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/schmeisser-ar15-m4fl-14-5-inch-223-rem-bronze",
+          "in_stock": false,
+          "title": "Schmeisser AR15 M4FL 14.5 Inch .223 Rem - Bronze"
+        }
+      },
+      "note": "a CSS-tusos, a 9 mm-es (AR15-9) és a 'Complete Upper' változat másik termék",
+      "match": "exact"
+    },
+    "schm-m5fl": {
+      "title": "Schmeisser AR15 M5FL 16.75 Inch .223 Rem - Black",
+      "price_chf": 2015.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/schmeisser-ar15-m5fl-16-75-inch-223-rem-black",
+      "image": "https://www.tacstore.ch/images/products/119266/5516506/210x210/schmeisser-ar15-m5fl-16-75-inch-223-rem-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 2-4 Tagen",
+      "sku": "355_7009360",
+      "mpn": "7009360",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 2015.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/schmeisser-ar15-m5fl-16-75-inch-223-rem-black",
+          "in_stock": false,
+          "title": "Schmeisser AR15 M5FL 16.75 Inch .223 Rem - Black"
+        }
+      },
+      "note": "a 9 mm-es (AR15-9) és a 'Complete Upper' változat másik termék",
+      "match": "exact"
+    },
+    "dd-v7": {
+      "title": "Daniel Defense DDM4 V7 16 Inch 5.56 NATO - Black",
+      "price_chf": 2399.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/daniel-defense-ddm4-v7-16-5-56-nato-black",
+      "image": "https://www.tacstore.ch/images/products/117042/5444398/210x210/daniel-defense-ddm4-v7-16-5-56-nato-black.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "350_A-000000-02143",
+      "mpn": "A-000000-02143",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 2399.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/daniel-defense-ddm4-v7-16-5-56-nato-black",
+          "in_stock": false,
+          "title": "Daniel Defense DDM4 V7 16 Inch 5.56 NATO - Black"
+        },
+        "earth": {
+          "price_chf": 2699.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/daniel-defense-ddm4-v7-16-5-56-nato-dark-earth",
+          "in_stock": false,
+          "title": "Daniel Defense DDM4 V7 16 Inch 5.56 NATO - Dark Earth"
+        }
+      },
+      "note": "16\" kivitel; a 'No Mag' (Grey), PRO, S, SLW és K változat más termék",
+      "match": "exact"
+    },
+    "bcm-recce16": {
+      "title": "BCM RECCE-16 MCMR15 5.56 - Black",
+      "price_chf": 2862.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/bcm-recce-16-mcmr15-5-56-black",
+      "image": "https://www.tacstore.ch/images/products/135711/6040715/210x210/152_750-750.jpg",
+      "in_stock": false,
+      "stock_text": "Lieferfrist 2-4 Monate",
+      "sku": "152_750-750",
+      "mpn": "750-750",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 2862.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/bcm-recce-16-mcmr15-5-56-black",
+          "in_stock": false,
+          "title": "BCM RECCE-16 MCMR15 5.56 - Black"
+        }
+      },
+      "note": "RECCE-16 MCMR15 (15\" előagy), 5.56; a Precision / Enhanced Lightweight / .300 BLK más termék",
+      "match": "exact"
+    },
+    "mp-moe": {
+      "title": "Magpul MOE Grip AR15 - Black",
+      "price_chf": 25.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-moe-grip-ar15-black",
+      "image": "https://www.tacstore.ch/images/products/14415/6603406/210x210/152_MAG415-BLK.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG415-BLK",
+      "mpn": "MAG415-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 25.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-grip-ar15-black",
+          "in_stock": false,
+          "title": "Magpul MOE Grip AR15 - Black"
+        },
+        "fde": {
+          "price_chf": 25.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-grip-ar15-dark-earth",
+          "in_stock": false,
+          "title": "Magpul MOE Grip AR15 - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 25.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-grip-ar15-olive-drab",
+          "in_stock": false,
+          "title": "Magpul MOE Grip AR15 - Olive Drab"
+        },
+        "gray": {
+          "price_chf": 25.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136111",
+          "in_stock": false,
+          "title": "Magpul MOE Grip AR15 - Grey"
+        }
+      },
+      "other_colors": [
+        {
+          "title": "Magpul MOE Grip AR15 - Modified Coyote Brown",
+          "price_chf": 25.95,
+          "url": "https://www.tacstore.ch/magpul-moe-grip-ar15-modified-coyote-brown"
+        }
+      ],
+      "match": "exact"
+    },
+    "mp-moek2": {
+      "title": "Magpul MOE K2 AR15 Grip - Black",
+      "price_chf": 25.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-moe-k2-ar15-grip-black",
+      "image": "https://www.tacstore.ch/images/products/14514/6606412/210x210/152_MAG522-BLK.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG522-BLK",
+      "mpn": "MAG522-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 25.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-k2-ar15-grip-black",
+          "in_stock": false,
+          "title": "Magpul MOE K2 AR15 Grip - Black"
+        },
+        "fde": {
+          "price_chf": 25.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-k2-ar15-grip-dark-earth",
+          "in_stock": false,
+          "title": "Magpul MOE K2 AR15 Grip - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 25.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-k2-ar15-grip-olive-drab",
+          "in_stock": false,
+          "title": "Magpul MOE K2 AR15 Grip - Olive Drab"
+        },
+        "gray": {
+          "price_chf": 25.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-k2-ar15-grip-grey",
+          "in_stock": false,
+          "title": "Magpul MOE K2 AR15 Grip - Grey"
+        }
+      },
+      "other_colors": [
+        {
+          "title": "Magpul MOE K2 AR15 Grip - Modified Coyote Brown",
+          "price_chf": 25.95,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136138"
+        }
+      ],
+      "match": "exact"
+    },
+    "mp-moek2p": {
+      "title": "Magpul MOE K2+ Grip - Black",
+      "price_chf": 31.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-moe-k2-grip-black",
+      "image": "https://www.tacstore.ch/images/products/25435/4218386/210x210/magpul-moe-k2-grip-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 5-10 Tagen",
+      "sku": "152_MAG532-BLK",
+      "mpn": "MAG532-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 31.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-k2-grip-black",
+          "in_stock": false,
+          "title": "Magpul MOE K2+ Grip - Black"
+        },
+        "fde": {
+          "price_chf": 31.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-k2-grip-dark-earth",
+          "in_stock": false,
+          "title": "Magpul MOE K2+ Grip - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 31.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-k2-grip-olive",
+          "in_stock": false,
+          "title": "Magpul MOE K2+ Grip - Olive"
+        },
+        "gray": {
+          "price_chf": 31.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136139",
+          "in_stock": false,
+          "title": "Magpul MOE K2+ Grip - Grey"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-miad": {
+      "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1 - Black",
+      "price_chf": 48.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-miad-5-56-grip-gen-1-1-type-1-black",
+      "image": "https://www.tacstore.ch/images/products/25430/4218325/210x210/152_MAG520-BLK.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 5-10 Tagen",
+      "sku": "152_MAG520-BLK",
+      "mpn": "MAG520-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 48.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-miad-5-56-grip-gen-1-1-type-1-black",
+          "in_stock": false,
+          "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1 - Black"
+        },
+        "fde": {
+          "price_chf": 48.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-miad-5-56-grip-gen-1-1-type-1-dark-earth",
+          "in_stock": false,
+          "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1 - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 48.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-miad-5-56-grip-gen-1-1-type-1-olive",
+          "in_stock": true,
+          "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1 - Olive"
+        },
+        "gray": {
+          "price_chf": 48.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136136",
+          "in_stock": false,
+          "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1 - Grey"
+        }
+      },
+      "note": "AR-15 (5.56, Type 1) kivitel; a 7.62 Type 2 másik termék",
+      "match": "exact"
+    },
+    "bcm-g0": {
+      "title": "BCM Gunfighter Grip Mod 0 - Black",
+      "price_chf": 39.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/bcm-gunfighter-grip-mod-0-black",
+      "image": "https://www.tacstore.ch/images/products/14278/6599739/210x210/14278.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "303_BCM-GFG-MOD-0-BLK",
+      "mpn": "BCM-GFG-MOD-0-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 39.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-grip-mod-0-black",
+          "in_stock": true,
+          "title": "BCM Gunfighter Grip Mod 0 - Black"
+        },
+        "fde": {
+          "price_chf": 25.95,
+          "list_chf": 39.95,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-grip-mod-0-dark-earth",
+          "in_stock": true,
+          "title": "BCM Gunfighter Grip Mod 0 - Dark Earth"
+        }
+      },
+      "match": "exact"
+    },
+    "bcm-g3": {
+      "title": "BCM Gunfighter Grip Mod 3 - Black",
+      "price_chf": 30.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/bcm-gunfighter-grip-mod3-black",
+      "image": "https://www.tacstore.ch/images/products/14281/6599846/210x210/14281.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 10-14 Tagen",
+      "sku": "303_BCM-GFG-MOD-3-BLK",
+      "mpn": "BCM-GFG-MOD-3-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 30.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-grip-mod3-black",
+          "in_stock": false,
+          "title": "BCM Gunfighter Grip Mod 3 - Black"
+        },
+        "fde": {
+          "price_chf": 30.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-grip-mod-3-dark-earth",
+          "in_stock": false,
+          "title": "BCM Gunfighter Grip Mod 3 - Dark Earth"
+        }
+      },
+      "note": "a 'Mod 3-KD' másik termék",
+      "match": "exact"
+    },
+    "b5-t23": {
+      "title": "B5 Systems P-Grip Type 23 - Black",
+      "price_chf": 35.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/b5-systems-p-grip-type-23-black",
+      "image": "https://www.tacstore.ch/images/products/133473/5992413/210x210/364_PGR-1122-BK.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "364_PGR-1122",
+      "mpn": "PGR-1122",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 35.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/b5-systems-p-grip-type-23-black",
+          "in_stock": false,
+          "title": "B5 Systems P-Grip Type 23 - Black"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-ctr": {
+      "title": "Magpul CTR Carbine Mil-Spec Stock - Black",
+      "price_chf": 89.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-ctr-carbine-mil-spec-stock-black",
+      "image": "https://www.tacstore.ch/images/products/14364/6602085/210x210/152_MAG310-BLK.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 5-10 Tagen",
+      "sku": "152_MAG310-BLK",
+      "mpn": "MAG310-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 89.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ctr-carbine-mil-spec-stock-black",
+          "in_stock": false,
+          "title": "Magpul CTR Carbine Mil-Spec Stock - Black"
+        },
+        "fde": {
+          "price_chf": 89.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ctr-carbine-mil-spec-stock-dark-earth",
+          "in_stock": true,
+          "title": "Magpul CTR Carbine Mil-Spec Stock - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 89.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ctr-carbine-mil-spec-stock-olive-drab",
+          "in_stock": false,
+          "title": "Magpul CTR Carbine Mil-Spec Stock - Olive Drab"
+        },
+        "gray": {
+          "price_chf": 89.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ctr-carbine-mil-spec-stock-grey",
+          "in_stock": false,
+          "title": "Magpul CTR Carbine Mil-Spec Stock - Grey"
+        }
+      },
+      "other_colors": [
+        {
+          "title": "Magpul CTR Carbine Mil-Spec Stock - Modified Coyote Brown",
+          "price_chf": 89.95,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136102"
+        }
+      ],
+      "note": "Mil-Spec csöves kivitel",
+      "match": "exact"
+    },
+    "mp-moesl": {
+      "title": "Magpul MOE SL Carbine Stock Mil-Spec - Black",
+      "price_chf": 98.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-moe-sl-carbine-stock-mil-spec-black",
+      "image": "https://www.tacstore.ch/images/products/16566/6628344/210x210/152_MAG347-BLK.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 5-10 Tagen",
+      "sku": "152_MAG347-BLK",
+      "mpn": "MAG347-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 98.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-sl-carbine-stock-mil-spec-black",
+          "in_stock": false,
+          "title": "Magpul MOE SL Carbine Stock Mil-Spec - Black"
+        },
+        "fde": {
+          "price_chf": 98.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-sl-carbine-stock-mil-spec-dark-earth",
+          "in_stock": false,
+          "title": "Magpul MOE SL Carbine Stock Mil-Spec - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 98.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-sl-carbine-stock-mil-spec-olive",
+          "in_stock": true,
+          "title": "Magpul MOE SL Carbine Stock Mil-Spec - Olive"
+        },
+        "gray": {
+          "price_chf": 98.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136108",
+          "in_stock": false,
+          "title": "Magpul MOE SL Carbine Stock Mil-Spec - Grey"
+        }
+      },
+      "note": "Mil-Spec csöves kivitel",
+      "match": "exact"
+    },
+    "mp-moeslk": {
+      "title": "Magpul MOE SL-K Carbine Stock Mil-Spec - Black",
+      "price_chf": 61.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-moe-sl-k-carbine-stock-mil-spec-black",
+      "image": "https://www.tacstore.ch/images/products/25364/4660573/210x210/152_MAG626-BLK.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "209_21857",
+      "mpn": "21857",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 61.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-sl-k-carbine-stock-mil-spec-black",
+          "in_stock": false,
+          "title": "Magpul MOE SL-K Carbine Stock Mil-Spec - Black"
+        },
+        "fde": {
+          "price_chf": 61.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-sl-k-carbine-stock-mil-spec-dark-earth",
+          "in_stock": false,
+          "title": "Magpul MOE SL-K Carbine Stock Mil-Spec - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 49.95,
+          "list_chf": 61.95,
+          "url": "https://www.tacstore.ch/magpul-moe-sl-k-carbine-stock-mil-spec-olive",
+          "in_stock": true,
+          "title": "Magpul MOE SL-K Carbine Stock Mil-Spec - Olive"
+        },
+        "gray": {
+          "price_chf": 61.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136161",
+          "in_stock": false,
+          "title": "Magpul MOE SL-K Carbine Stock Mil-Spec - Grey"
+        }
+      },
+      "note": "Mil-Spec csöves kivitel",
+      "match": "exact"
+    },
+    "mp-ubr2": {
+      "title": "Magpul UBR Gen 2.0 Collapsible Stock - Black",
+      "price_chf": 195.95,
+      "list_chf": 305.95,
+      "url": "https://www.tacstore.ch/magpul-ubr-gen-2-0-collapsible-stock-black",
+      "image": "https://www.tacstore.ch/images/products/25463/4218551/210x210/152_MAG482-BLK.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "152_MAG482-BLK",
+      "mpn": "MAG482-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 195.95,
+          "list_chf": 305.95,
+          "url": "https://www.tacstore.ch/magpul-ubr-gen-2-0-collapsible-stock-black",
+          "in_stock": true,
+          "title": "Magpul UBR Gen 2.0 Collapsible Stock - Black"
+        },
+        "fde": {
+          "price_chf": 195.95,
+          "list_chf": 305.95,
+          "url": "https://www.tacstore.ch/magpul-ubr-gen-2-0-collapsible-stock-dark-earth",
+          "in_stock": false,
+          "title": "Magpul UBR Gen 2.0 Collapsible Stock - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 195.95,
+          "list_chf": 305.95,
+          "url": "https://www.tacstore.ch/magpul-ubr-gen-2-0-collapsible-stock-olive",
+          "in_stock": true,
+          "title": "Magpul UBR Gen 2.0 Collapsible Stock - Olive"
+        },
+        "gray": {
+          "price_chf": 305.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136124",
+          "in_stock": false,
+          "title": "Magpul UBR Gen 2.0 Collapsible Stock - Grey"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-prs3": {
+      "title": "Magpul PRS Gen 3 Rifle Stock - Black",
+      "price_chf": 337.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-prs-gen-3-rifle-stock-black",
+      "image": "https://www.tacstore.ch/images/products/25466/4218601/210x210/152_MAG672-BLK.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 5-10 Tagen",
+      "sku": "152_MAG672-BLK",
+      "mpn": "MAG672-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 337.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-prs-gen-3-rifle-stock-black",
+          "in_stock": false,
+          "title": "Magpul PRS Gen 3 Rifle Stock - Black"
+        },
+        "fde": {
+          "price_chf": 337.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-prs-gen-3-rifle-stock-dark-earth",
+          "in_stock": false,
+          "title": "Magpul PRS Gen 3 Rifle Stock - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 337.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-prs-gen-3-rifle-stock-olive",
+          "in_stock": false,
+          "title": "Magpul PRS Gen 3 Rifle Stock - Olive"
+        },
+        "gray": {
+          "price_chf": 337.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136163",
+          "in_stock": false,
+          "title": "Magpul PRS Gen 3 Rifle Stock - Grey"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-prslite": {
+      "title": "Magpul PRS Lite Stock - Black",
+      "price_chf": 165.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-prs-lite-stock-black",
+      "image": "https://www.tacstore.ch/images/products/109485/5313251/210x210/magpul-prs-lite-stock-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG1159-BLK",
+      "mpn": "MAG1159-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 165.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-prs-lite-stock-black",
+          "in_stock": false,
+          "title": "Magpul PRS Lite Stock - Black"
+        }
+      },
+      "match": "exact"
+    },
+    "bcm-s0": {
+      "title": "BCM Gunfighter Stock Mod 0 - Black",
+      "price_chf": 84.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/bcm-gunfighter-stock-mod-0-black",
+      "image": "https://www.tacstore.ch/images/products/96868/5134520/210x210/bcm-gunfighter-stock-mod-0-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 10-14 Tagen",
+      "sku": "152_BCM-GFS-MOD-0-BLK",
+      "mpn": "BCM-GFS-MOD-0-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 84.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-stock-mod-0-black",
+          "in_stock": false,
+          "title": "BCM Gunfighter Stock Mod 0 - Black"
+        },
+        "fde": {
+          "price_chf": 84.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-stock-mod-0-dark-earth",
+          "in_stock": false,
+          "title": "BCM Gunfighter Stock Mod 0 - Dark Earth"
+        }
+      },
+      "note": "a 'Stock Assembly Mod 0 SOPMOD' másik termék",
+      "match": "exact"
+    },
+    "bcm-s1": {
+      "title": "BCM Gunfighter Stock Mod 1 SOPMOD Compartment - Black",
+      "price_chf": 73.95,
+      "list_chf": 115.95,
+      "url": "https://www.tacstore.ch/bcm-gunfighter-stock-mod-1-sopmod-compartment-black",
+      "image": "https://www.tacstore.ch/images/products/96870/5134528/210x210/bcm-gunfighter-stock-mod-1-sopmod-compartment-black.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "152_BCM-GFS-MOD1-SPMD-BLK",
+      "mpn": "BCM-GFS-MOD1-SPMD-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 73.95,
+          "list_chf": 115.95,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-stock-mod-1-sopmod-compartment-black",
+          "in_stock": true,
+          "title": "BCM Gunfighter Stock Mod 1 SOPMOD Compartment - Black"
+        },
+        "fde": {
+          "price_chf": 73.95,
+          "list_chf": 115.95,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-stock-mod-1-sopmod-compartment-dark-earth",
+          "in_stock": true,
+          "title": "BCM Gunfighter Stock Mod 1 SOPMOD Compartment - Dark Earth"
+        }
+      },
+      "note": "tárolórekeszes (Compartment) SOPMOD kivitel",
+      "match": "exact"
+    },
+    "b5-bravo": {
+      "title": "B5 Systems BRAVO Stock - Black",
+      "price_chf": 99.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/b5-systems-bravo-stock-black",
+      "image": "https://www.tacstore.ch/images/products/133474/5992446/210x210/364_BRV-1082-BK.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "364_BRV-1082",
+      "mpn": "BRV-1082",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 99.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/b5-systems-bravo-stock-black",
+          "in_stock": false,
+          "title": "B5 Systems BRAVO Stock - Black"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pad055": {
+      "title": "Magpul Extended Rubber Buttpad - Black",
+      "price_chf": 21.95,
+      "list_chf": 26.95,
+      "url": "https://www.tacstore.ch/magpul-extended-rubber-buttpad-black",
+      "image": "https://www.tacstore.ch/images/products/25369/4218103/210x210/magpul-extended-rubber-buttpad-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 3-5 Tagen",
+      "sku": "209_18486",
+      "mpn": "18486",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 21.95,
+          "list_chf": 26.95,
+          "url": "https://www.tacstore.ch/magpul-extended-rubber-buttpad-black",
+          "in_stock": false,
+          "title": "Magpul Extended Rubber Buttpad - Black"
+        }
+      },
+      "note": "Extended Rubber Butt-Pad (0.55\")",
+      "match": "exact"
+    },
+    "mp-pad070": {
+      "title": "Magpul Carbine Stock Enhanced Rubber Buttpad 0.70 Inch",
+      "price_chf": 25.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-carbine-stock-enhanced-rubber-butt-pad-0.70-inch",
+      "image": "https://www.tacstore.ch/images/products/14375/6624931/210x210/14375.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG317-BLK",
+      "mpn": "MAG317-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 25.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-carbine-stock-enhanced-rubber-butt-pad-0.70-inch",
+          "in_stock": false,
+          "title": "Magpul Carbine Stock Enhanced Rubber Buttpad 0.70 Inch"
+        }
+      },
+      "note": "a szín a cikkszámból (MAG317-BLK)",
+      "match": "exact"
+    },
+    "mp-padsl": {
+      "title": "Magpul MOE SL Enhanced Rubber Buttpad 0.70 Inch - Black",
+      "price_chf": 26.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-moe-sl-enhanced-rubber-buttpad-0-70-inches-black",
+      "image": "https://www.tacstore.ch/images/products/25371/6697446/210x210/magpul-moe-sl-enhanced-rubber-buttpad-0-70-inches-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG349-BLK",
+      "mpn": "MAG349-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 26.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-moe-sl-enhanced-rubber-buttpad-0-70-inches-black",
+          "in_stock": false,
+          "title": "Magpul MOE SL Enhanced Rubber Buttpad 0.70 Inch - Black"
+        }
+      },
+      "match": "exact"
+    },
+    "ap-t2": {
+      "title": "Aimpoint Micro T-2 2 MOA & 39mm LRP Picatinny Mount",
+      "price_chf": 1159.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/aimpoint-micro-t-2-2-moa-39mm-lrp-picatinny-mount",
+      "image": "https://www.tacstore.ch/images/products/71279/4605091/210x210/aimpoint-micro-t-2-2-moa-39mm-lrp-picatinny-mount.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "107_AP-200198",
+      "mpn": "AP-200198",
+      "weight_g": null,
+      "dims": null,
+      "note": "Micro T-2 2 MOA + LRP szerelék 39 mm-es távtartóval (Lower 1/3); a 33 mm-es és a standard szerelékes csomag más termék",
+      "match": "exact"
+    },
+    "ap-m5": {
+      "title": "Aimpoint Comp M5 2 MOA & 39mm LRP Mount Red Dot Reflex Sight",
+      "price_chf": 999.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/aimpoint-comp-m5-2-moa-39mm-lrp-mount-red-dot-reflex-sight",
+      "image": "https://www.tacstore.ch/images/products/20561/6666121/210x210/aimpoint-comp-m5-2-moa-red-dot-reflex-sight.jpg",
+      "in_stock": false,
+      "stock_text": "Auf Anfrage",
+      "sku": "107_AP-200386",
+      "mpn": "AP-200386",
+      "weight_g": null,
+      "dims": null,
+      "note": "CompM5 2 MOA + 39 mm-es LRP szerelék; a 'Standard Mount' és a szerelék nélküli más termék",
+      "match": "exact"
+    },
+    "ap-pro": {
+      "title": "Aimpoint PRO - 2 MOA",
+      "price_chf": 769.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/aimpoint-pro-2-moa",
+      "image": "https://www.tacstore.ch/images/products/10400/6509368/210x210/10400.jpg",
+      "in_stock": false,
+      "stock_text": "Auf Anfrage",
+      "sku": "107_AP-12841",
+      "mpn": "AP-12841",
+      "weight_g": null,
+      "dims": null,
+      "note": "a bolti leírás szerint QRP2 Picatinny szerelékkel és AR15/M4 távtartóval (Aimpoint 12841)",
+      "match": "exact"
+    },
+    "ap-acro": {
+      "title": "Aimpoint ACRO P-2 Sight & B&T ASM 23mm Mount - Black",
+      "price_chf": 710.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/catalog/product?products_id=152333",
+      "image": "https://www.tacstore.ch/images/products/152333/3705921/210x210/107_AP-200809-1-BT.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "107_AP-200809-1-BT",
+      "mpn": "AP-200809-1-BT",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 710.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=152333",
+          "in_stock": false,
+          "title": "Aimpoint ACRO P-2 Sight & B&T ASM 23mm Mount - Black"
+        }
+      },
+      "note": "ACRO P-2 + B&T ASM 23 mm QD Picatinny/NAR szerelék (szett); a pontméret a bolti oldalon nincs megadva",
+      "match": "exact"
+    },
+    "eo-exps3": {
+      "title": "EoTech EXPS3-0 Holosight - Tan",
+      "price_chf": 969.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/eotech-exps3-0-holosight-tan",
+      "image": "https://www.tacstore.ch/images/products/11962/6564593/210x210/eotech-exps3-0-holosight-tan.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 2-4 Tagen",
+      "sku": "303_EO-EXPS3-0TAN",
+      "mpn": "EO-EXPS3-0TAN",
+      "weight_g": null,
+      "dims": null,
+      "note": "az EXPS3-1/-2/-4/-DCR más retikül/típus; csak 'tan' színben kapható ebben a boltban",
+      "match": "exact"
+    },
+    "eo-exps2": {
+      "title": "EoTech EXPS2-0 Holosight - Black",
+      "price_chf": 819.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/eotech-exps2-0-holosight-black",
+      "image": "https://www.tacstore.ch/images/products/11963/6564616/210x210/eotech-exps2-0-holosight-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "303_EO-EXPS2-0",
+      "mpn": "EO-EXPS2-0",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 819.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/eotech-exps2-0-holosight-black",
+          "in_stock": false,
+          "title": "EoTech EXPS2-0 Holosight - Black"
+        }
+      },
+      "note": "a zöld (GRN) és az EXPS2-2 más termék",
+      "match": "exact"
+    },
+    "eo-xps2": {
+      "title": "EoTech XPS2-0 Holosight - Black",
+      "price_chf": 799.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/eotech-xps2-0-holosight-black",
+      "image": "https://www.tacstore.ch/images/products/10051/6631138/210x210/eotech-xps2-0-holosight.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "303_EO-XPS2-0",
+      "mpn": "EO-XPS2-0",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 799.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/eotech-xps2-0-holosight-black",
+          "in_stock": false,
+          "title": "EoTech XPS2-0 Holosight - Black"
+        },
+        "odg": {
+          "price_chf": 799.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/eotech-xps2-0-holosight-olive",
+          "in_stock": false,
+          "title": "EoTech XPS2-0 Holosight - Olive"
+        },
+        "gray": {
+          "price_chf": 799.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/eotech-xps2-0-holosight-grey",
+          "in_stock": false,
+          "title": "EoTech XPS2-0 Holosight - Grey"
+        }
+      },
+      "note": "a zöld (GRN) és az XPS2-2 más termék",
+      "match": "exact"
+    },
+    "hs-510c": {
+      "title": "Holosun HS510C Circle Dot Sight",
+      "price_chf": 421.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/holosun-hs510c-circle-dot-sight",
+      "image": "https://www.tacstore.ch/images/products/17794/6638488/210x210/holosun-hs510c-circle-dot-sight.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 5-10 Tagen",
+      "sku": "303_HOL-HS510C",
+      "mpn": "HOL-HS510C",
+      "weight_g": null,
+      "dims": null,
+      "color": "_",
+      "colors_prices": {
+        "fde": {
+          "price_chf": 421.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/holosun-hs510c-solar-red-circle-dot-sight-dark-earth",
+          "in_stock": false,
+          "title": "Holosun HS510C Solar Red Circle Dot Sight - Dark Earth"
+        }
+      },
+      "note": "a HE510C-GR (Elite, zöld) és a HM3X-kombó más termék",
+      "match": "exact"
+    },
+    "vx-uh1": {
+      "title": "Vortex Optics AMG UH-1 Gen II Holographic Sight - Tan",
+      "price_chf": 899.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/vortex-optics-amg-uh-1-gen-ii-holographic-sight-tan",
+      "image": "https://www.tacstore.ch/images/products/113094/5344244/210x210/vortex-optics-amg-uh-1-gen-ii-holographic-sight-tan.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "129_AMG-HS02T",
+      "mpn": "AMG-HS02T",
+      "weight_g": null,
+      "dims": null,
+      "note": "csak 'tan' színben kapható ebben a boltban",
+      "match": "exact"
+    },
+    "vx-sparc": {
+      "title": "Vortex Optics SPARC AR Red Dot LED Upgrade - Black",
+      "price_chf": 229.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/vortex-optics-sparc-ar-red-dot-led-upgrade-black",
+      "image": "https://www.tacstore.ch/images/products/27114/4224900/210x210/vortex-sparc-ar-red-dot-led-upgrade.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "129_SPC-AR2",
+      "mpn": "SPC-AR2",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 229.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/vortex-optics-sparc-ar-red-dot-led-upgrade-black",
+          "in_stock": true,
+          "title": "Vortex Optics SPARC AR Red Dot LED Upgrade - Black"
+        }
+      },
+      "note": "SPARC AR (SPC-AR2) – a gyári csomagban magasító távtartóval; a bolti leírás ezt nem részletezi",
+      "match": "exact"
+    },
+    "vx-se18": {
+      "title": "Vortex Optics Strike Eagle 1-8x24 Riflescope AR-BDC3 Reticle - MOA",
+      "price_chf": 419.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/vortex-optics-strike-eagle-1-8x24-riflescope-ar-bdc3-reticle-moa",
+      "image": "https://www.tacstore.ch/images/products/58724/4489502/210x210/vortex-strike-eagle-1-8x24-riflescope-ar-bdc3-reticle-moa.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "129_SE-1824-2",
+      "mpn": "SE-1824-2",
+      "weight_g": null,
+      "dims": null,
+      "note": "AR-BDC3 retikulos SFP kivitel; az FFP EBR-8 külön termék",
+      "match": "exact"
+    },
+    "vx-pst16": {
+      "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP Riflescope VMR-2 MOA",
+      "price_chf": 749.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/vortex-optics-viper-pst-gen-ii-1-6x24-sfp-riflescope-vmr-2-moa",
+      "image": "https://www.tacstore.ch/images/products/18752/6490861/210x210/vortex-viper-pst-gen-ii-1-6x24-sfp-riflescope-vmr-2-moa.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "129_PST-1605",
+      "mpn": "PST-1605",
+      "weight_g": null,
+      "dims": null,
+      "alternatives": [
+        {
+          "title": "Vortex Optics Viper PST Gen II 1-6x24 SFP Riflescope VMR-2 MRAD",
+          "price_chf": 749.95,
+          "url": "https://www.tacstore.ch/vortex-optics-viper-pst-gen-ii-1-6x24-sfp-riflescope-vmr-2-mrad"
+        }
+      ],
+      "note": "két retikulos kivitel (VMR-2 MOA / MRAD) azonos áron; a data.js nem határozza meg",
+      "match": "variant"
+    },
+    "vx-razor110": {
+      "title": "Vortex Optics Razor HD Gen III 1-10x24 FFP Riflescope EBR-9 BDC MOA",
+      "price_chf": 2499.95,
+      "list_chf": 2999.95,
+      "url": "https://www.tacstore.ch/vortex-optics-razor-hd-gen-iii-1-10x24-ffp-riflescope-ebr-9-bdc-moa",
+      "image": "https://www.tacstore.ch/images/products/27128/6699014/210x210/vortex-razor-hd-gen-iii-1-10x24-ffp-riflescope-ebr-9-bdc-moa.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "129_RZR-11001",
+      "mpn": "RZR-11001",
+      "weight_g": null,
+      "dims": null,
+      "alternatives": [
+        {
+          "title": "Vortex Optics Razor HD Gen III 1-10x24 FFP Riflescope EBR-9 MRAD",
+          "price_chf": 2999.95,
+          "url": "https://www.tacstore.ch/vortex-optics-razor-hd-gen-iii-1-10x24-ffp-riflescope-ebr-9-mrad"
+        }
+      ],
+      "note": "két retikulos kivitel (EBR-9 MOA / MRAD); a fő ár a (most akciós) MOA-é",
+      "match": "variant"
+    },
+    "tj-acog": {
+      "title": "Trijicon TA31-CH-G 4x32 ACOG Crosshair Green .223 & TA51 Mount",
+      "price_chf": 1699.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/trijicon-ta31-ch-g-4x32-acog-crosshair-green-.223-ta51-mount",
+      "image": "https://www.tacstore.ch/images/products/11385/6548561/210x210/11385.jpg",
+      "in_stock": false,
+      "stock_text": "Auf Anfrage",
+      "sku": "107_TR-TA31-CH-G",
+      "mpn": "TR-TA31-CH-G",
+      "weight_g": null,
+      "dims": null,
+      "color": "_",
+      "colors_prices": {
+        "fde": {
+          "price_chf": 2382.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/trijicon-ta31-4x32-acog-horseshoe-green-223-ta51-mount-dark-earth",
+          "in_stock": false,
+          "title": "Trijicon TA31 4x32 ACOG Horseshoe Green .223 & TA51 Mount - Dark Earth"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Trijicon TA31-CH 4x32 ACOG Crosshair Red .223 & TA51 Mount",
+          "price_chf": 1899.95,
+          "url": "https://www.tacstore.ch/trijicon-ta31-ch-4x32-acog-crosshair-red-.223-ta51-mount"
+        },
+        {
+          "title": "Trijicon TA31F 4x32 ACOG Red Chevron Reticle .223 & TA51 Mount",
+          "price_chf": 1899.95,
+          "url": "https://www.tacstore.ch/trijicon-ta31f-4x32-acog-red-chevron-reticle-223-ta51-mount"
+        },
+        {
+          "title": "Trijicon TA31H 4x32 ACOG Horseshoe Red .223 & TA51 Mount",
+          "price_chf": 1899.95,
+          "url": "https://www.tacstore.ch/trijicon-ta31ch-4x32-acog-horseshoe-red-.223-ta51-mount"
+        }
+      ],
+      "note": "TA31 4x32 .223 + TA51 szerelék; több retikül-változat (a data.js nem határozza meg), a fő ár a legolcsóbbé; a RMR-kombók, a 300 BLK és a szerelék nélküli változatok nem kerültek be",
+      "match": "variant"
+    },
+    "tj-credo16": {
+      "title": "Trijicon Credo 1-6x24 SFP Red BDC Segmented Circle Reticle Riflescope",
+      "price_chf": 1699.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/trijicon-credo-1-6x24-sfp-red-bdc-segmented-circle-reticle-riflescope",
+      "image": "https://www.tacstore.ch/images/products/125084/5707133/210x210/trijicon-credo-1-6x24-sfp-red-bdc-segmented-circle-reticle-riflescope.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "325_2900015",
+      "mpn": "2900015",
+      "weight_g": null,
+      "dims": null,
+      "note": "SFP kivitel (a data.js szerint SFP); az FFP MRAD külön termék",
+      "match": "exact"
+    },
+    "eo-vudu16": {
+      "title": "EoTech Vudu 1-6x24 SR1 FFP MRAD - Black",
+      "price_chf": 1499.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/eotech-vudu-1-6x24-sr1-ffp-mrad-black",
+      "image": "https://www.tacstore.ch/images/products/72961/4743611/210x210/eotech-vudu-1-6x24-sr1-ffp-mrad-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "209_30985",
+      "mpn": "30985",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 1499.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-6x24-sr1-ffp-mrad-black",
+          "in_stock": false,
+          "title": "EoTech Vudu 1-6x24 SR1 FFP MRAD - Black"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "EoTech Vudu 1-6x24 SR1 FFP MRAD Green - Black",
+          "price_chf": 1499.95,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-6x24-sr1-ffp-mrad-green-black"
+        },
+        {
+          "title": "EoTech Vudu 1-6x24 SR2 FFP 7.62 BDC MOA - Black",
+          "price_chf": 1499.95,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-6x24-sr2-ffp-7-62-bdc-moa-black"
+        },
+        {
+          "title": "EoTech Vudu 1-6x24 SR2 FFP 7.62 BDC MOA Green - Black",
+          "price_chf": 1499.95,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-6x24-sr2-ffp-7-62-bdc-moa-green-black"
+        },
+        {
+          "title": "EoTech Vudu 1-6x24 SR3 FFP 5.56 BDC MOA - Black",
+          "price_chf": 1499.95,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-6x24-sr3-ffp-5-56-bdc-moa-black"
+        },
+        {
+          "title": "EoTech Vudu 1-6x24 SR3 FFP 5.56 BDC MOA Green - Black",
+          "price_chf": 1499.95,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-6x24-sr3-ffp-5-56-bdc-moa-green-black"
+        }
+      ],
+      "note": "FFP kivitel, több retikül (SR1/SR2/SR3, piros/zöld) azonos áron; a 'Vudu X 1-6x24 SFP' másik modell",
+      "match": "variant"
+    },
+    "eo-vudu110": {
+      "title": "EoTech Vudu 1-10x28 LE5 FFP MRAD - Black",
+      "price_chf": 2099.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/eotech-vudu-1-10x28-le5-ffp-mrad-black",
+      "image": "https://www.tacstore.ch/images/products/84164/4897211/210x210/eotech-vudu-1-10x28-le5-ffp-mrad-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "303_EO-VDU1-10FFLE5",
+      "mpn": "EO-VDU1-10FFLE5",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 2099.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-10x28-le5-ffp-mrad-black",
+          "in_stock": false,
+          "title": "EoTech Vudu 1-10x28 LE5 FFP MRAD - Black"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "EoTech Vudu 1-10x28 SR4 FFP MOA - Black",
+          "price_chf": 2099.95,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-10x28-sr4-ffp-moa-black"
+        },
+        {
+          "title": "EoTech Vudu 1-10x28 SR5 FFP MRAD - Black",
+          "price_chf": 2198.95,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-10x28-sr5-ffp-mrad-black"
+        }
+      ],
+      "other_colors": [
+        {
+          "title": "EoTech Vudu 1-10x28 SR4 FFP MOA - Tan",
+          "price_chf": 1999.95,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-10x28-sr4-ffp-moa-tan"
+        },
+        {
+          "title": "EoTech Vudu 1-10x28 SR5 FFP MRAD - Tan",
+          "price_chf": 2331.95,
+          "url": "https://www.tacstore.ch/eotech-vudu-1-10x28-sr5-ffp-mrad-tan"
+        }
+      ],
+      "note": "FFP, több retikül (SR4/SR5/LE5); a fő ár a legolcsóbb fekete kiviteé",
+      "match": "variant"
+    },
+    "gs-sp30": {
+      "title": "Geissele Super Precision Scope Mount 30mm AR15 1.93 Inch - Black",
+      "price_chf": 427.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/catalog/product?products_id=135326",
+      "image": "https://www.tacstore.ch/images/products/135326/6032357/210x210/152_05-542B.jpg",
+      "in_stock": false,
+      "stock_text": "Lieferfrist 2-4 Monate",
+      "sku": "152_05-542B",
+      "mpn": "05-542B",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 427.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=135326",
+          "in_stock": false,
+          "title": "Geissele Super Precision Scope Mount 30mm AR15 1.93 Inch - Black"
+        }
+      },
+      "note": "30 mm, 1.93\" magasság",
+      "match": "exact"
+    },
+    "vx-cant30": {
+      "title": "Vortex Optics Sport Cantilever Mount 30mm 1.5 Inch Height",
+      "price_chf": 104.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/vortex-optics-sport-cantilever-mount-30mm-1-5-inch-height",
+      "image": "https://www.tacstore.ch/images/products/125003/5705325/210x210/vortex-optics-sport-cantilever-mount-30mm-1-5-inch-height.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "129_SCM-30-150",
+      "mpn": "SCM-30-150",
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "eo-g33": {
+      "title": "EoTech G33.STS Magnifier - Tan",
+      "price_chf": 759.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/eotech-g33.sts-magnifier-tan",
+      "image": "https://www.tacstore.ch/images/products/11965/6564696/210x210/11965.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "303_EO-G33.STSTAN",
+      "mpn": "EO-G33.STSTAN",
+      "weight_g": null,
+      "dims": null,
+      "note": "G33 + STS szerelék (G33.STS); csak 'tan' színben kapható ebben a boltban",
+      "match": "exact"
+    },
+    "ap-3x": {
+      "title": "Aimpoint 3XMag-1 Magnifier & 30mm FlipMount & TwistMount Base",
+      "price_chf": 1733.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/catalog/product?products_id=152336",
+      "image": "https://www.tacstore.ch/images/products/152336/3705942/210x210/107_AP-200333.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "107_AP-200333",
+      "mpn": "AP-200333",
+      "weight_g": null,
+      "dims": null,
+      "alternatives": [
+        {
+          "title": "Aimpoint 3XMag-1 Magnifier & 39mm FlipMount & TwistMount Base",
+          "price_chf": 1733.95,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=152335"
+        }
+      ],
+      "note": "3XMag-1 + FlipMount (30 vagy 39 mm-es) + TwistMount talp, azonos áron",
+      "match": "variant"
+    },
+    "hs-hm3x": {
+      "title": "Holosun HM3X Magnifier - Black",
+      "price_chf": 279.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/holosun-hm3x-magnifier-black",
+      "image": "https://www.tacstore.ch/images/products/22496/6692201/210x210/175_HM3X.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "303_HOL-HM3X",
+      "mpn": "HOL-HM3X",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 279.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/holosun-hm3x-magnifier-black",
+          "in_stock": false,
+          "title": "Holosun HM3X Magnifier - Black"
+        },
+        "fde": {
+          "price_chf": 279.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/holosun-hm3x-magnifier-dark-earth",
+          "in_stock": false,
+          "title": "Holosun HM3X Magnifier - Dark Earth"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Holosun HM3X 3x Micro Magnifier - Black",
+          "price_chf": 287.95,
+          "url": "https://www.tacstore.ch/holosun-hm3x-3x-micro-magnifier-black"
+        }
+      ],
+      "note": "a HM3XT Elite és a kombók más termékek",
+      "match": "variant"
+    },
+    "vx-m3x": {
+      "title": "Vortex Optics Micro 3X Magnifier & Flip Mount",
+      "price_chf": 319.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/vortex-optics-micro-3x-magnifier-flip-mount",
+      "image": "https://www.tacstore.ch/images/products/27155/4225196/210x210/vortex-micro-3x-magnifier-flip-mount.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "129_V3XM",
+      "mpn": "V3XM",
+      "weight_g": null,
+      "dims": null,
+      "note": "Micro 3X + Flip Mount (V3XM)",
+      "match": "exact"
+    },
+    "sf-m640": {
+      "title": "SureFire M640DF Dual Fuel Scout Light Pro - Black",
+      "price_chf": 447.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/surefire-m640df-dual-fuel-scout-light-pro-black",
+      "image": "https://www.tacstore.ch/images/products/30275/4278172/210x210/surefire-m640df-dual-fuel-scout-light-pro-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 2-4 Tagen",
+      "sku": "352_SF-M640DF-BK-PRO",
+      "mpn": "SF-M640DF-BK-PRO",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 447.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/surefire-m640df-dual-fuel-scout-light-pro-black",
+          "in_stock": false,
+          "title": "SureFire M640DF Dual Fuel Scout Light Pro - Black"
+        }
+      },
+      "other_colors": [
+        {
+          "title": "SureFire M640DF Dual Fuel Scout Light Pro - Tan",
+          "price_chf": 518.95,
+          "url": "https://www.tacstore.ch/surefire-m640df-dual-fuel-scout-light-pro-tan"
+        }
+      ],
+      "note": "az M640DFT (Turbo), M640U, M640T és M640V más típusok",
+      "match": "exact"
+    },
+    "sf-x300": {
+      "title": "SureFire X300U-B LED Light - Black",
+      "price_chf": 447.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/surefire-x300u-b-led-light-black",
+      "image": "https://www.tacstore.ch/images/products/17408/6634180/210x210/surefire-x300u-b-led-light-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 2-4 Tagen",
+      "sku": "255_SFX300U-B",
+      "mpn": "SFX300U-B",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 447.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/surefire-x300u-b-led-light-black",
+          "in_stock": false,
+          "title": "SureFire X300U-B LED Light - Black"
+        }
+      },
+      "other_colors": [
+        {
+          "title": "SureFire X300U-B LED Light - Tan",
+          "price_chf": 471.95,
+          "url": "https://www.tacstore.ch/surefire-x300u-b-led-light-tan"
+        }
+      ],
+      "match": "exact"
+    },
+    "sl-hlx": {
+      "title": "Streamlight ProTac Rail Mount HL-X - Black",
+      "price_chf": 193.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/streamlight-protac-rail-mount-hl-x-black",
+      "image": "https://www.tacstore.ch/images/products/25950/4221218/210x210/streamlight-protac-rail-mount-hl-x-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 10-14 Tagen",
+      "sku": "303_STRE-88066",
+      "mpn": "STRE-88066",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 193.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/streamlight-protac-rail-mount-hl-x-black",
+          "in_stock": false,
+          "title": "Streamlight ProTac Rail Mount HL-X - Black"
+        }
+      },
+      "note": "az 'HL-X Pro System' változatok más termékek",
+      "match": "exact"
+    },
+    "sl-tlr1": {
+      "title": "Streamlight TLR-1 HL Tactical LED Light - Black",
+      "price_chf": 240.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/streamlight-tlr-1-hl-tactical-led-light-black",
+      "image": "https://www.tacstore.ch/images/products/14222/6624887/210x210/streamlight-tlr-1-hl-tactical-led-light-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 10-14 Tagen",
+      "sku": "303_69260",
+      "mpn": "69260",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 240.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/streamlight-tlr-1-hl-tactical-led-light-black",
+          "in_stock": false,
+          "title": "Streamlight TLR-1 HL Tactical LED Light - Black"
+        },
+        "fde": {
+          "price_chf": 250.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/streamlight-tlr-1-hl-tactical-led-light-dark-earth",
+          "in_stock": false,
+          "title": "Streamlight TLR-1 HL Tactical LED Light - Dark Earth"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Streamlight TLR-1 HL Tactical LED Light - Dark Earth Brown",
+          "price_chf": 250.95,
+          "url": "https://www.tacstore.ch/streamlight-tlr-1-hl-tactical-led-light-dark-earth-brown"
+        }
+      ],
+      "note": "a 'Long Gun Kit' és az 'Earless Screw' változat más termék",
+      "match": "exact"
+    },
+    "mp-hstop": {
+      "title": "Magpul M-LOK Hand Stop Kit - Black",
+      "price_chf": 36.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-m-lok-hand-stop-kit-black",
+      "image": "https://www.tacstore.ch/images/products/16643/6628826/210x210/152_MAG608-BLK.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 3-5 Tagen",
+      "sku": "152_MAG608-BLK",
+      "mpn": "MAG608-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 36.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-m-lok-hand-stop-kit-black",
+          "in_stock": false,
+          "title": "Magpul M-LOK Hand Stop Kit - Black"
+        },
+        "fde": {
+          "price_chf": 36.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-m-lok-hand-stop-kit-dark-earth",
+          "in_stock": false,
+          "title": "Magpul M-LOK Hand Stop Kit - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 36.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-m-lok-hand-stop-kit-olive",
+          "in_stock": false,
+          "title": "Magpul M-LOK Hand Stop Kit - Olive"
+        },
+        "gray": {
+          "price_chf": 36.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-m-lok-hand-stop-kit-grey",
+          "in_stock": false,
+          "title": "Magpul M-LOK Hand Stop Kit - Grey"
+        }
+      },
+      "note": "az 'XTM Hand Stop Kit' más termék",
+      "match": "exact"
+    },
+    "bcm-vg3": {
+      "title": "BCM Gunfighter Vertical Grip Mod 3 M-LOK - Black",
+      "price_chf": 28.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/bcm-gunfighter-vertical-grip-mod-3-m-lok-black",
+      "image": "https://www.tacstore.ch/images/products/96876/6817989/210x210/bcm-gunfighter-vertical-grip-mod-3-m-lok-black.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "303_BCM-VG-MCMR-MOD-3-BLK",
+      "mpn": "BCM-VG-MCMR-MOD-3-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 28.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-vertical-grip-mod-3-m-lok-black",
+          "in_stock": false,
+          "title": "BCM Gunfighter Vertical Grip Mod 3 M-LOK - Black"
+        },
+        "fde": {
+          "price_chf": 28.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-vertical-grip-mod-3-m-lok-dark-earth",
+          "in_stock": false,
+          "title": "BCM Gunfighter Vertical Grip Mod 3 M-LOK - Dark Earth"
+        }
+      },
+      "note": "M-LOK kivitel (a KeyMod és Picatinny változat más termék)",
+      "match": "exact"
+    },
+    "bcm-kag": {
+      "title": "BCM Gunfighter KAG M-LOK - Black",
+      "price_chf": 31.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/bcm-gunfighter-kag-m-lok-black",
+      "image": "https://www.tacstore.ch/images/products/96855/6817974/210x210/bcm-gunfighter-kag-m-lok-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 10-14 Tagen",
+      "sku": "303_BCM-KAG-MCMR-BLK",
+      "mpn": "BCM-KAG-MCMR-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 31.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-kag-m-lok-black",
+          "in_stock": false,
+          "title": "BCM Gunfighter KAG M-LOK - Black"
+        },
+        "fde": {
+          "price_chf": 31.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/bcm-gunfighter-kag-m-lok-dark-earth",
+          "in_stock": true,
+          "title": "BCM Gunfighter KAG M-LOK - Dark Earth"
+        }
+      },
+      "note": "M-LOK kivitel",
+      "match": "exact"
+    },
+    "mp-rail5": {
+      "title": "Magpul M-LOK Aluminium Rail 5 Slot",
+      "price_chf": 25.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-m-lok-aluminium-rail-5-slot",
+      "image": "https://www.tacstore.ch/images/products/14526/6625181/210x210/14526.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG581-BLK",
+      "mpn": "MAG581-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 25.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-m-lok-aluminium-rail-5-slot",
+          "in_stock": false,
+          "title": "Magpul M-LOK Aluminium Rail 5 Slot"
+        }
+      },
+      "note": "a szín a cikkszámból (MAG581-BLK)",
+      "match": "exact"
+    },
+    "mp-qd": {
+      "title": "Magpul M-LOK QD Sling Mount - Black",
+      "price_chf": 31.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-m-lok-qd-sling-mount-black",
+      "image": "https://www.tacstore.ch/images/products/18164/6640238/210x210/magpul-m-lok-qd-sling-mount-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG606-BLK",
+      "mpn": "MAG606-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 31.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-m-lok-qd-sling-mount-black",
+          "in_stock": false,
+          "title": "Magpul M-LOK QD Sling Mount - Black"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-cover": {
+      "title": "Magpul M-LOK Rail Cover Type 2 - Black",
+      "price_chf": 20.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-m-lok-rail-cover-type-2-black",
+      "image": "https://www.tacstore.ch/images/products/18159/6468216/210x210/152_MAG603-BLK.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG603-BLK",
+      "mpn": "MAG603-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 20.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-m-lok-rail-cover-type-2-black",
+          "in_stock": false,
+          "title": "Magpul M-LOK Rail Cover Type 2 - Black"
+        },
+        "fde": {
+          "price_chf": 20.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-m-lok-rail-cover-type-2-dark-earth",
+          "in_stock": false,
+          "title": "Magpul M-LOK Rail Cover Type 2 - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 20.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-m-lok-rail-cover-type-2-olive",
+          "in_stock": false,
+          "title": "Magpul M-LOK Rail Cover Type 2 - Olive"
+        },
+        "gray": {
+          "price_chf": 20.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136157",
+          "in_stock": false,
+          "title": "Magpul M-LOK Rail Cover Type 2 - Grey"
+        }
+      },
+      "other_colors": [
+        {
+          "title": "Magpul M-LOK Rail Cover Type 2 - Modified Coyote Brown",
+          "price_chf": 20.95,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=136158"
+        }
+      ],
+      "note": "a 'Half Slot' és a Type 1 más termék",
+      "match": "exact"
+    },
+    "mp-bipod": {
+      "title": "Magpul Bipod M-LOK - Black",
+      "price_chf": 171.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-bipod-m-lok-black",
+      "image": "https://www.tacstore.ch/images/products/21997/6686337/210x210/magpul-bipod-m-lok-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG933-BLK",
+      "mpn": "MAG933-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 171.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-bipod-m-lok-black",
+          "in_stock": false,
+          "title": "Magpul Bipod M-LOK - Black"
+        },
+        "fde": {
+          "price_chf": 171.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-bipod-m-lok-dark-earth",
+          "in_stock": true,
+          "title": "Magpul Bipod M-LOK - Dark Earth"
+        }
+      },
+      "note": "Magpul Bipod for M-LOK (MAG933); a MOE / MOE QD bipod más termék",
+      "match": "exact"
+    },
+    "hr-sbrm": {
+      "title": "Harris S-BRM M-LOK 6-9 Inch Rotating Bipod",
+      "price_chf": 243.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/catalog/product?products_id=168100",
+      "image": "https://www.tacstore.ch/images/products/168100/3960063/210x210/181_HAS-BRM-MLOK.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 2-4 Tagen",
+      "sku": "181_HAS-BRM-MLOK",
+      "mpn": "HAS-BRM-MLOK",
+      "weight_g": null,
+      "dims": null,
+      "note": "S-BRM 6-9\", közvetlen M-LOK rögzítéssel (S-BRM-MLOK)",
+      "match": "exact"
+    },
+    "sf-warcomp": {
+      "title": "SureFire WARCOMP 556 1/2-28 Flash Hider",
+      "price_chf": 199.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/surefire-warcomp-556-12-28-flash-hider",
+      "image": "https://www.tacstore.ch/images/products/117718/5468300/210x210/surefire-warcomp-556-12-28-flash-hider.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 2-4 Tagen",
+      "sku": "352_SF-WARCOMP-556-1/2-28",
+      "mpn": "SF-WARCOMP-556-1/2-28",
+      "weight_g": null,
+      "dims": null,
+      "alternatives": [
+        {
+          "title": "SureFire WARCOMP CTN 556 1/2-28 Flash Hider",
+          "price_chf": 199.95,
+          "url": "https://www.tacstore.ch/surefire-warcomp-ctn-556-12-28-flash-hider"
+        }
+      ],
+      "note": "1/2-28; a nyitott és a zárt (CTN) ágú változat azonos áron",
+      "match": "variant"
+    },
+    "sf-3p": {
+      "title": "SureFire SF3P 556 1/2x28 Flash Hider",
+      "price_chf": 234.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/surefire-sf3p-556-1-2x28-flash-hider",
+      "image": "https://www.tacstore.ch/images/products/17360/6633730/210x210/surefire-sf3p-556-1-2x28-flash-hider.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "352_SF-SF3P-556-1/2-28",
+      "mpn": "SF-SF3P-556-1/2-28",
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "bcm-comp0": {
+      "title": "BCM Gunfighter Compensator MOD0 5.56 / .223",
+      "price_chf": 134.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/bcm-gunfighter-compensator-mod0-5.56-.223",
+      "image": "https://www.tacstore.ch/images/products/14276/6599687/210x210/14276.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 3-5 Tagen",
+      "sku": "152_BCM-GFC-MOD-0-556",
+      "mpn": "BCM-GFC-MOD-0-556",
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "gs-ssae": {
+      "title": "Geissele Super Semi-Automatic Enhanced SSA-E Trigger",
+      "price_chf": 389.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/geissele-super-semi-automatic-enhanced-ssa-e-trigger",
+      "image": "https://www.tacstore.ch/images/products/117599/5464920/210x210/geissele-super-semi-automatic-enhanced-ssa-e-trigger.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "325_05-160",
+      "mpn": "05-160",
+      "weight_g": null,
+      "dims": null,
+      "note": "a 'Large Pin' és az 'SSA-E X' más termék",
+      "match": "exact"
+    },
+    "gs-ssa": {
+      "title": "Geissele Super Semi-Automatic SSA Trigger",
+      "price_chf": 389.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/geissele-super-semi-automatic-ssa-trigger",
+      "image": "https://www.tacstore.ch/images/products/117601/5464949/210x210/geissele-super-semi-automatic-ssa-trigger.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 10-14 Tagen",
+      "sku": "325_05-101",
+      "mpn": "05-101",
+      "weight_g": null,
+      "dims": null,
+      "note": "a 'Large Pin' és az 'SSA X' más termék",
+      "match": "exact"
+    },
+    "gs-sde": {
+      "title": "Geissele Super Dynamic Enhanced Trigger SD-E",
+      "price_chf": 392.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/geissele-super-dynamic-enhanced-trigger-sd-e",
+      "image": "https://www.tacstore.ch/images/products/117581/5464603/210x210/geissele-super-dynamic-enhanced-trigger-sd-e.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "152_05-167",
+      "mpn": "05-167",
+      "weight_g": null,
+      "dims": null,
+      "match": "exact"
+    },
+    "gs-s3g": {
+      "title": "Geissele AR15 Super 3 Gun S3G Trigger",
+      "price_chf": 414.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/geissele-ar15-super-3-gun-s3g-trigger",
+      "image": "https://www.tacstore.ch/images/products/86964/4922975/210x210/geissele-ar15-super-3-gun-s3g-trigger.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "209_37591",
+      "mpn": "37591",
+      "weight_g": null,
+      "dims": null,
+      "note": "a 'Large Pin' más termék",
+      "match": "exact"
+    },
+    "rd-raptor": {
+      "title": "Radian Raptor Ambidextrous Charging Handle AR15 - Black",
+      "price_chf": 153.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/radian-raptor-ambidextrous-charging-handle-ar15-black",
+      "image": "https://www.tacstore.ch/images/products/84249/4897510/210x210/radian-raptor-ambidextrous-charging-handle-ar15-black.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "303_RAD-R0001",
+      "mpn": "RAD-R0001",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 153.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/radian-raptor-ambidextrous-charging-handle-ar15-black",
+          "in_stock": true,
+          "title": "Radian Raptor Ambidextrous Charging Handle AR15 - Black"
+        }
+      },
+      "match": "exact"
+    },
+    "rd-raptorlt": {
+      "title": "Radian Raptor-LT Ambidextrous Charging Handle AR15 - Dark Earth",
+      "price_chf": 123.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/radian-raptor-lt-ambidextrous-charging-handle-ar15-dark-earth",
+      "image": "https://www.tacstore.ch/images/products/104918/5252461/210x210/radian-raptor-lt-ambidextrous-charging-handle-ar15-dark-earth.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 10-14 Tagen",
+      "sku": "303_RAD-R0149",
+      "mpn": "RAD-R0149",
+      "weight_g": null,
+      "dims": null,
+      "color": "fde",
+      "colors_prices": {
+        "fde": {
+          "price_chf": 123.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/radian-raptor-lt-ambidextrous-charging-handle-ar15-dark-earth",
+          "in_stock": false,
+          "title": "Radian Raptor-LT Ambidextrous Charging Handle AR15 - Dark Earth"
+        }
+      },
+      "note": "feketében nem kapható ebben a boltban; a fő ár a(z) 'fde' színé",
+      "match": "exact"
+    },
+    "rd-raptorsd": {
+      "title": "Radian Raptor-SD Ambidextrous Charging Handle AR15 - Black",
+      "price_chf": 196.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/radian-raptor-sd-ambidextrous-charging-handle-ar15-black",
+      "image": "https://www.tacstore.ch/images/products/104903/5252414/210x210/radian-raptor-sd-ambidextrous-charging-handle-ar15-black.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "303_RAD-R0006",
+      "mpn": "RAD-R0006",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 196.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/radian-raptor-sd-ambidextrous-charging-handle-ar15-black",
+          "in_stock": false,
+          "title": "Radian Raptor-SD Ambidextrous Charging Handle AR15 - Black"
+        },
+        "fde": {
+          "price_chf": 204.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/radian-raptor-sd-ambidextrous-charging-handle-ar15-dark-earth",
+          "in_stock": false,
+          "title": "Radian Raptor-SD Ambidextrous Charging Handle AR15 - Dark Earth"
+        },
+        "odg": {
+          "price_chf": 212.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=134849",
+          "in_stock": false,
+          "title": "Radian Raptor-SD Ambidextrous Charging Handle AR15 - Olive"
+        },
+        "gray": {
+          "price_chf": 212.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/catalog/product?products_id=134848",
+          "in_stock": false,
+          "title": "Radian Raptor-SD Ambidextrous Charging Handle AR15 - Grey"
+        }
+      },
+      "match": "exact"
+    },
+    "gs-ach": {
+      "title": "Geissele Airborne Charging Handle ACH 5.56 - Black",
+      "price_chf": 152.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/geissele-airborne-charging-handle-ach-5-56-black",
+      "image": "https://www.tacstore.ch/images/products/117540/5463814/210x210/geissele-airborne-charging-handle-ach-5-56-black.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 10-14 Tagen",
+      "sku": "325_05-497B",
+      "mpn": "05-497B",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 152.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/geissele-airborne-charging-handle-ach-5-56-black",
+          "in_stock": false,
+          "title": "Geissele Airborne Charging Handle ACH 5.56 - Black"
+        }
+      },
+      "other_colors": [
+        {
+          "title": "Geissele Airborne Charging Handle ACH 5.56 - DDC",
+          "price_chf": 106.95,
+          "url": "https://www.tacstore.ch/geissele-airborne-charging-handle-ach-5-56-ddc"
+        }
+      ],
+      "note": "a DDC színű és az URGI változat külön termék",
+      "match": "exact"
+    },
+    "mp-bad": {
+      "title": "Magpul B.A.D. Lever",
+      "price_chf": 45.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-b.a.d.-lever",
+      "image": "https://www.tacstore.ch/images/products/14551/6625213/210x210/14551.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG980-BLK",
+      "mpn": "MAG980-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 45.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-b.a.d.-lever",
+          "in_stock": false,
+          "title": "Magpul B.A.D. Lever"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm10": {
+      "title": "Magpul PMAG 10 AR/M4 Gen M3 5.56 Magazine - Black",
+      "price_chf": 24.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-pmag-10-ar-m4-gen-m3-5.56-magazine-black",
+      "image": "https://www.tacstore.ch/images/products/16551/6628222/210x210/16551.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "152_MAG559-BLK",
+      "mpn": "MAG559-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 24.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-pmag-10-ar-m4-gen-m3-5.56-magazine-black",
+          "in_stock": false,
+          "title": "Magpul PMAG 10 AR/M4 Gen M3 5.56 Magazine - Black"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm20": {
+      "title": "Magpul PMAG 20 AR/M4 Gen M3 5.56 Magazine - Olive",
+      "price_chf": 23.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-pmag-20-arm4-gen-m3-5-56-magazine-olive",
+      "image": "https://www.tacstore.ch/images/products/136151/6049304/210x210/152_MAG560-ODG.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "152_MAG560-ODG",
+      "mpn": "MAG560-ODG",
+      "weight_g": null,
+      "dims": null,
+      "color": "odg",
+      "colors_prices": {
+        "odg": {
+          "price_chf": 23.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-pmag-20-arm4-gen-m3-5-56-magazine-olive",
+          "in_stock": false,
+          "title": "Magpul PMAG 20 AR/M4 Gen M3 5.56 Magazine - Olive"
+        }
+      },
+      "note": "feketében nem kapható ebben a boltban; a fő ár a(z) 'odg' színé",
+      "match": "exact"
+    },
+    "mp-pm30": {
+      "title": "Magpul PMAG 30 AR/M4 Gen M3 5.56 Magazine - Black",
+      "price_chf": 23.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-pmag-30-ar-m4-gen-m3-5.56-magazine-black",
+      "image": "https://www.tacstore.ch/images/products/16539/6628130/210x210/152_MAG557-BLK.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "152_MAG557-BLK",
+      "mpn": "MAG557-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 23.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-pmag-30-ar-m4-gen-m3-5.56-magazine-black",
+          "in_stock": true,
+          "title": "Magpul PMAG 30 AR/M4 Gen M3 5.56 Magazine - Black"
+        },
+        "coyote": {
+          "price_chf": 23.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-pmag-30-ar-m4-gen-m3-5.56-magazine-coyote",
+          "in_stock": true,
+          "title": "Magpul PMAG 30 AR/M4 Gen M3 5.56 Magazine - Coyote"
+        }
+      },
+      "other_colors": [
+        {
+          "title": "Magpul PMAG 30 AR/M4 Gen M3 5.56 Magazine - Modified Coyote Brown",
+          "price_chf": 23.95,
+          "url": "https://www.tacstore.ch/magpul-pmag-30-arm4-gen-m3-5-56-magazine-modified-coyote-brown"
+        }
+      ],
+      "match": "exact"
+    },
+    "mp-pm30w": {
+      "title": "Magpul PMAG 30 AR/M4 Gen M3 Window 5.56 Magazine - Black",
+      "price_chf": 27.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-pmag-30-ar-m4-gen-m3-window-5.56-magazine-black",
+      "image": "https://www.tacstore.ch/images/products/14348/6601671/210x210/152_MAG556-BLK.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "152_MAG556-BLK",
+      "mpn": "MAG556-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 27.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-pmag-30-ar-m4-gen-m3-window-5.56-magazine-black",
+          "in_stock": true,
+          "title": "Magpul PMAG 30 AR/M4 Gen M3 Window 5.56 Magazine - Black"
+        },
+        "coyote": {
+          "price_chf": 27.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-pmag-30-arm4-gen-m3-window-5-56-magazine-coyote",
+          "in_stock": true,
+          "title": "Magpul PMAG 30 AR/M4 Gen M3 Window 5.56 Magazine - Coyote"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm40": {
+      "title": "Magpul PMAG 40 AR/M4 Gen M3 5.56 Magazine - Black",
+      "price_chf": 37.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-pmag-40-arm4-gen-m3-5-56-magazine-black",
+      "image": "https://www.tacstore.ch/images/products/18141/6467478/210x210/magpul-pmag-40-arm4-gen-m3-5-56-magazine-black.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "152_MAG233-BLK",
+      "mpn": "MAG233-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 37.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-pmag-40-arm4-gen-m3-5-56-magazine-black",
+          "in_stock": true,
+          "title": "Magpul PMAG 40 AR/M4 Gen M3 5.56 Magazine - Black"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-ms1": {
+      "title": "Magpul MS1 Sling - Black",
+      "price_chf": 50.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-ms1-sling-black",
+      "image": "https://www.tacstore.ch/images/products/16646/6628846/210x210/16646.jpg",
+      "in_stock": false,
+      "stock_text": "Derzeit nicht lagernd",
+      "sku": "152_MAG513-BLK",
+      "mpn": "MAG513-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 50.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ms1-sling-black",
+          "in_stock": false,
+          "title": "Magpul MS1 Sling - Black"
+        },
+        "coyote": {
+          "price_chf": 50.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ms1-sling-coyote",
+          "in_stock": true,
+          "title": "Magpul MS1 Sling - Coyote"
+        },
+        "ranger": {
+          "price_chf": 50.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ms1-sling-ranger-green",
+          "in_stock": false,
+          "title": "Magpul MS1 Sling - Ranger Green"
+        },
+        "gray": {
+          "price_chf": 50.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ms1-sling-grey",
+          "in_stock": false,
+          "title": "Magpul MS1 Sling - Grey"
+        }
+      },
+      "note": "a Lite / Padded / QDM változat más termék",
+      "match": "exact"
+    },
+    "mp-ms4": {
+      "title": "Magpul MS4 Dual QD Sling Gen 2 - Black",
+      "price_chf": 104.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/magpul-ms4-dual-qd-sling-gen-2-black",
+      "image": "https://www.tacstore.ch/images/products/14507/6625125/210x210/14507.jpg",
+      "in_stock": true,
+      "stock_text": "Umgehend versandbereit",
+      "sku": "152_MAG518-BLK",
+      "mpn": "MAG518-BLK",
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 104.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ms4-dual-qd-sling-gen-2-black",
+          "in_stock": true,
+          "title": "Magpul MS4 Dual QD Sling Gen 2 - Black"
+        },
+        "coyote": {
+          "price_chf": 104.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ms4-dual-qd-sling-gen-2-coyote",
+          "in_stock": false,
+          "title": "Magpul MS4 Dual QD Sling Gen 2 - Coyote"
+        },
+        "ranger": {
+          "price_chf": 104.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/magpul-ms4-dual-qd-sling-gen-2-ranger-green",
+          "in_stock": false,
+          "title": "Magpul MS4 Dual QD Sling Gen 2 - Ranger Green"
+        }
+      },
+      "note": "Gen 2 kivitel; az 'MS4 QDM' más termék",
+      "match": "exact"
+    },
+    "bfg-vickers": {
+      "title": "Blue Force Gear 2 Point Vickers Combat Applications Sling - Coyote",
+      "price_chf": 84.95,
+      "list_chf": null,
+      "url": "https://www.tacstore.ch/blue-force-gear-2-point-vickers-combat-applications-sling-coyote",
+      "image": "https://www.tacstore.ch/images/products/11327/6632481/210x210/11327.jpg",
+      "in_stock": false,
+      "stock_text": "Versandbereit in 4-7 Tagen",
+      "sku": "193_VCAS-125-OA-CB",
+      "mpn": "VCAS-125-OA-CB",
+      "weight_g": null,
+      "dims": null,
+      "color": "coyote",
+      "colors_prices": {
+        "coyote": {
+          "price_chf": 84.95,
+          "list_chf": null,
+          "url": "https://www.tacstore.ch/blue-force-gear-2-point-vickers-combat-applications-sling-coyote",
+          "in_stock": false,
+          "title": "Blue Force Gear 2 Point Vickers Combat Applications Sling - Coyote"
+        }
+      },
+      "note": "2-pontos, nem párnázott kivitel; a 'Padded' és a 'Push Button' / '221' változat más termék; feketében nem kapható ebben a boltban; a fő ár a(z) 'coyote' színé",
+      "match": "exact"
+    }
+  },
+  "unmatched": {
+    "schm-dyn": "ok: bizonytalan: a bolt 'AR15 Dynamic L 16.75 Inch' (Black / Grey) néven árul 16.75\"-es Dynamic puskát; az 'M5FL' megjelöléssel való azonosság a bolti oldalon nincs kimondva; legközelebbi bolti termék(ek), NEM azonos: Schmeisser AR15 Dynamic L 16.75 Inch .223 Rem - Black (2595.95 CHF, https://www.tacstore.ch/schmeisser-ar15-dynamic-l-16-75-inch-223-rem-black) | Schmeisser AR15 Dynamic L 16.75 Inch .223 Rem - Grey (2745.95 CHF, https://www.tacstore.ch/schmeisser-ar15-dynamic-l-16-75-inch-223-rem-grey)",
+    "b5-t22": "ok: a Type 22 P-Grip nincs (csak Type 23); legközelebbi bolti termék(ek), NEM azonos: B5 Systems P-Grip Type 23 - Black (35.95 CHF, https://www.tacstore.ch/b5-systems-p-grip-type-23-black)",
+    "b5-esop": "ok: B5 Enhanced SOPMOD tus nincs (csak Bravo és AK tus); legközelebbi bolti termék(ek), NEM azonos: B5 Systems BRAVO Stock - Black (99.95 CHF, https://www.tacstore.ch/b5-systems-bravo-stock-black) | B5 Systems AK Stock Fixed - Black (186.95 CHF, https://www.tacstore.ch/b5-systems-ak-stock-fixed-black)",
+    "b5-prec": "ok: B5 Precision tus nincs (csak Bravo és AK tus); legközelebbi bolti termék(ek), NEM azonos: B5 Systems BRAVO Stock - Black (99.95 CHF, https://www.tacstore.ch/b5-systems-bravo-stock-black) | B5 Systems AK Stock Fixed - Black (186.95 CHF, https://www.tacstore.ch/b5-systems-ak-stock-fixed-black)",
+    "mp-pad030": "ok: a 0.30\"-es (alap) Rubber Butt-Pad nincs; csak Extended (0.55\") és Enhanced (0.70\"); legközelebbi bolti termék(ek), NEM azonos: Magpul Extended Rubber Buttpad - Black (21.95 CHF, https://www.tacstore.ch/magpul-extended-rubber-buttpad-black) | Magpul Carbine Stock Enhanced Rubber Buttpad 0.70 Inch (25.95 CHF, https://www.tacstore.ch/magpul-carbine-stock-enhanced-rubber-butt-pad-0.70-inch)",
+    "hs-aems": "ok: az eredeti 'AEMS' nincs, csak AEMS EVO / Core / PRO / Macro / Max (más modellek); legközelebbi bolti termék(ek), NEM azonos: Holosun AEMS EVO Gold Circle Dot Sight - Black (571.95 CHF, https://www.tacstore.ch/catalog/product?products_id=164848) | Holosun AEMS CORE X2 Green Dot Sight - Black (479.95 CHF, https://www.tacstore.ch/holosun-aems-core-x2-green-dot-sight-black) | Holosun AEMS PRO X2 Solar Gold Circle Dot Sight - Black (503.95 CHF, https://www.tacstore.ch/catalog/product?products_id=164852) | Holosun AEMS Core X2 Gold Dot Sight - Black (377.95 CHF, https://www.tacstore.ch/catalog/product?products_id=164847)",
+    "hs-403b": "ok: a HS403B nincs, csak a HE403B-GR Elite (zöld, más modell); legközelebbi bolti termék(ek), NEM azonos: Holosun HE403B-GR Elite Green Dot Sight (289.95 CHF, https://www.tacstore.ch/holosun-he403b-gr-elite-green-dot-sight)",
+    "tj-mro": "ok: 'MRO HD + Lower 1/3 szerelék' csomag nincs: az MRO HD szerelék nélkül, a Lower 1/3 szerelékes csomagok pedig a nem-HD MRO-val szerepelnek; legközelebbi bolti termék(ek), NEM azonos: Trijicon MRO 1x25 2.0 MOA Red Dot Lower 1/3 Co-Witness Mount (873.95 CHF, https://www.tacstore.ch/trijicon-mro-1x25-2-0-moa-red-dot-lower-13-co-witness-mount) | Trijicon MRO HD 1x25 2.0 MOA Red Dot (1199.95 CHF, https://www.tacstore.ch/trijicon-mro-hd-1x25-2-0-moa-red-dot-2200050)",
+    "vx-crossfire": "ok: bizonytalan: az eredeti 'Crossfire 2 MOA Red Dot' csak Tan színben és magasító említése nélkül szerepel; a 'Crossfire II' (Lower 1/3 szerelékkel) újabb, másik modell; legközelebbi bolti termék(ek), NEM azonos: Vortex Optics Crossfire 2 MOA Red Dot - Tan (146.95 CHF, https://www.tacstore.ch/vortex-optics-crossfire-2-moa-red-dot-tan) | Vortex Optics Crossfire II 2 MOA Red Dot - Black (154.95 CHF, https://www.tacstore.ch/vortex-optics-crossfire-ii-2-moa-red-dot-black) | Vortex Optics Crossfire II 2 MOA Solar Red Dot - Tan (174.95 CHF, https://www.tacstore.ch/vortex-optics-crossfire-ii-2-moa-solar-red-dot-tan) | Vortex Optics Crossfire II 2 MOA Solar Red Dot - Black (174.95 CHF, https://www.tacstore.ch/vortex-optics-crossfire-ii-2-moa-solar-red-dot-black)",
+    "vx-se16": "ok: a Strike Eagle 1-6x24 nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Vortex Optics Strike Eagle 1-8x24 FFP Riflescope EBR-8 - MOA (599.95 CHF, https://www.tacstore.ch/vortex-optics-strike-eagle-1-8x24-ffp-riflescope-ebr-8-moa) | Vortex Optics Strike Eagle 1-8x24 Riflescope AR-BDC3 Reticle - MOA (419.95 CHF, https://www.tacstore.ch/vortex-optics-strike-eagle-1-8x24-riflescope-ar-bdc3-reticle-moa)",
+    "tj-vcog": "ok: VCOG nincs a boltban (csak hozzá való szerelékek); legközelebbi bolti termék(ek), NEM azonos: Midwest Industries Trijicon ACOG/VCOG QD Mount 2 Lever (282.95 CHF, https://www.tacstore.ch/catalog/product?products_id=141442) | Midwest Industries Trijicon ACOG / VCOG QD Mount - Black (152.95 CHF, https://www.tacstore.ch/midwest-industries-trijicon-acog-vcog-qd-mount-black)",
+    "eo-g43": "ok: G43 + 'Micro' szerelék csomag nincs: a bolt a G43-at STS szerelékkel (G43.STS) árulja; legközelebbi bolti termék(ek), NEM azonos: EoTech G43 Magnifier - Tan (789.95 CHF, https://www.tacstore.ch/eotech-g43-magnifier-tan) | EoTech G43 Magnifier - Black (789.95 CHF, https://www.tacstore.ch/eotech-g43-magnifier-black)",
+    "mp-mbus3": "ok: szett (első + hátsó irányzék): a bolt nem árul szettet (az árat nem adjuk össze); legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS 3 Front Back-Up Sight - Black (53.95 CHF, https://www.tacstore.ch/magpul-mbus-3-front-back-up-sight-black) | Magpul MBUS 3 Rear Back-Up Sight - Dark Earth (81.95 CHF, https://www.tacstore.ch/magpul-mbus-3-rear-back-up-sight-dark-earth) | Magpul MBUS 3 Front Back-Up Sight - Olive (53.95 CHF, https://www.tacstore.ch/magpul-mbus-3-front-back-up-sight-olive) | Magpul MBUS 3 Rear Back-Up Sight - Grey (81.95 CHF, https://www.tacstore.ch/catalog/product?products_id=136035)",
+    "mp-mbuspro": "ok: szett (első + hátsó irányzék): a bolt nem árul szettet (az árat nem adjuk össze); legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS PRO Rear Flip Up Sight (149.95 CHF, https://www.tacstore.ch/magpul-mbus-pro-rear-flip-up-sight) | Magpul MBUS PRO Front Flip Up Sight (122.95 CHF, https://www.tacstore.ch/magpul-mbus-pro-front-flip-up-sight)",
+    "mp-mbusoff": "ok: szett (első + hátsó irányzék): a bolt nem árul szettet (az árat nem adjuk össze); legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS Pro Offset Rear Sight (149.95 CHF, https://www.tacstore.ch/magpul-mbus-pro-offset-rear-sight) | Magpul MBUS Pro Offset Front Sight (119.95 CHF, https://www.tacstore.ch/magpul-mbus-pro-offset-front-sight)",
+    "sf-m600": "ok: M600DF nincs a boltban (csak M640 és M340/M140 Scout Light Pro változatok); legközelebbi bolti termék(ek), NEM azonos: SureFire M640DF Dual Fuel Scout Light Pro - Black (447.95 CHF, https://www.tacstore.ch/surefire-m640df-dual-fuel-scout-light-pro-black) | SureFire M640DF Dual Fuel Scout Light Pro - Tan (518.95 CHF, https://www.tacstore.ch/surefire-m640df-dual-fuel-scout-light-pro-tan)",
+    "sf-m300": "ok: M300 nincs a boltban (csak M340 / M140 Mini/Micro Scout Light Pro); legközelebbi bolti termék(ek), NEM azonos: SureFire M340C Mini Scout Light Pro - Black (447.95 CHF, https://www.tacstore.ch/surefire-m340c-mini-scout-light-pro-black) | SureFire M340C Mini Scout Light Pro - Tan (447.95 CHF, https://www.tacstore.ch/surefire-m340c-mini-scout-light-pro-tan)",
+    "mp-rvg": "ok: az 'M-LOK RVG' függőleges markolat nincs; a 'MOE RVG Rail Vertical Grip' Picatinny-s, a 'RVG M-LOK Adapter Rail' csak sín; legközelebbi bolti termék(ek), NEM azonos: Magpul MOE RVG Rail Vertical Grip - Black (34.95 CHF, https://www.tacstore.ch/magpul-moe-rvg-rail-vertical-grip-black) | Magpul RVG M-LOK Adapter Rail (8.95 CHF, https://www.tacstore.ch/magpul-rvg-m-lok-adapter-rail)",
+    "mp-cable": "ok: Magpul M-LOK Cable Management Kit nincs a boltban",
+    "sf-rc2": "ok: a SOCOM556-RC2 hangtompító (+ WarComp) nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: SureFire SOCOM Closed Tine Flash Hider 5.56mm - Black (199.95 CHF, https://www.tacstore.ch/catalog/product?products_id=171652) | SureFire SOCOM Adapter Shim Kit (16.95 CHF, https://www.tacstore.ch/catalog/product?products_id=171651)",
+    "bcm-ch4": "ok: bizonytalan: a bolti 'Gunfighter Charging Handle … Large Latch' neve Mod 4-et (nagy kar), a cikkszáma (BCM-GFH-MOD3B-556) viszont Mod 3-at jelez; legközelebbi bolti termék(ek), NEM azonos: BCM Gunfighter Charging Handle 5.56mm/.223 Large Latch - Black (73.95 CHF, https://www.tacstore.ch/bcm-gunfighter-charging-handle-5-56mm-223-large-latch-black)",
+    "bcm-ch3": "ok: bizonytalan: a bolti 'Gunfighter Charging Handle … Large Latch' cikkszáma Mod 3B, a neve viszont nagy (Mod 4) kart ír; legközelebbi bolti termék(ek), NEM azonos: BCM Gunfighter Charging Handle 5.56mm/.223 Large Latch - Black (73.95 CHF, https://www.tacstore.ch/bcm-gunfighter-charging-handle-5-56mm-223-large-latch-black)",
+    "rd-talon": "ok: csak 'Kit' kiszerelés van (2-karos R0018 / 4-karos R0013) – a data.js tétel kiszerelése nem azonosítható biztosan; a 'Talon-GI' más termék; legközelebbi bolti termék(ek), NEM azonos: Radian Talon Ambidextrous 45/90 Safety Selector 4 Lever Kit AR15 - Black (138.95 CHF, https://www.tacstore.ch/radian-talon-ambidextrous-4590-safety-selector-4-lever-kit-ar15-black) | Radian Talon Ambidextrous 45/90 Safety Selector 2 Lever Kit AR15 - Black (94.95 CHF, https://www.tacstore.ch/radian-talon-ambidextrous-4590-safety-selector-2-lever-kit-ar15-black)",
+    "mp-trigguard": "ok: a 'MOE Enhanced Trigger Guard' név nem szerepel; a 'Polymer Enhanced Trigger Guard' (MAG1186) nem azonosítható biztosan azonosnak; legközelebbi bolti termék(ek), NEM azonos: Magpul Polymer Enhanced Trigger Guard - Dark Earth (16.95 CHF, https://www.tacstore.ch/magpul-polymer-enhanced-trigger-guard-dark-earth) | Magpul Polymer Enhanced Trigger Guard - Olive (16.95 CHF, https://www.tacstore.ch/magpul-polymer-enhanced-trigger-guard-olive) | Magpul Polymer Enhanced Trigger Guard - Black (16.95 CHF, https://www.tacstore.ch/magpul-polymer-enhanced-trigger-guard-black)",
+    "mp-d60": "ok: a PMAG D-60 dobtár nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Magpul PMAG D-50 GL9 Glock 9x19 - Black (194.95 CHF, https://www.tacstore.ch/magpul-pmag-d-50-gl9-glock-9x19-black) | Magpul PMAG D-50 EV9 CZ Scorpion EVO 3 - Black (204.95 CHF, https://www.tacstore.ch/magpul-pmag-d-50-ev9-cz-scorpion-evo-3-black)"
+  },
+  "blocked": null
+}

@@ -1,0 +1,22 @@
+{
+  "domain": "shop.indoorswiss.ch",
+  "url": "https://shop.indoorswiss.ch/de/",
+  "name": "Indoor Swiss Shooting AG",
+  "addr": "Bischofszellerstrasse 72a, 9200 Gossau SG",
+  "city": "Gossau SG",
+  "canton": "SG",
+  "tel": "+41 71 380 00 10",
+  "kind": "both",
+  "ships": true,
+  "shipNote": "Svájci Postával (Priority) és DPD-vel szállít, súly/méret szerinti díjjal (pl. csomag 5 kg-ig CHF 9.90, ajánlva/Signature CHF 12.00, DPD CHF 14.00), minimális rendelési érték nélkül; fegyvertörvény alá eső cikket mindig ajánlva, fegyvert és lőszert csak Postával küldenek. A 12 óráig leadott, raktáron lévő és a jogi feltételeknek megfelelő rendelés általában másnap érkezik; a gossaui átvétel ingyenes.",
+  "km": 80,
+  "km_est": true,
+  "online_prices": true,
+  "sources": [
+    "https://shop.indoorswiss.ch/de/content/2-rechtliche-hinweise",
+    "https://shop.indoorswiss.ch/de/content/11-versand",
+    "https://shop.indoorswiss.ch/de/kontaktieren-sie-uns",
+    "https://shop.indoorswiss.ch/de/content/12-verkauf-von-waffen-und-munition"
+  ],
+  "notes": "Lőtér + szaküzlet webshoppal (PrestaShop, 'über 9800 Produkte'); e-mail: shop@indoorswiss.ch. A Versand-oldal szerint gossaui átvétel lehetséges (ingyenes), a lábléc nyitvatartásra és útvonalra hivatkozik (indoorswiss.ch). AR-15-releváns kínálat kicsi: Magpul (21 tétel), BCM (KAG / Vertical Grip Mod 3), Holosun, néhány EOTech/Aimpoint/Vortex/Geissele/Daniel Defense termék."
+}

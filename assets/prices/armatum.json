@@ -1,0 +1,1540 @@
+{
+  "shop": "armatum.ch",
+  "currency": "CHF",
+  "fetched": "2026-11-10",
+  "source": "https://armatum.ch/wp-json/wc/store/v1/products (WooCommerce Store API)",
+  "price_basis": "a bolt kiírt fogyasztói ára (az AGB szerint MWST-vel); 'Verfügbar bei Nachbestellung' = nincs raktáron (in_stock=false), csak rendelhető",
+  "items": {
+    "schm-s4f": {
+      "title": "Schmeisser AR15 S4F Schwarz 10.5″",
+      "price_chf": 1989.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/schmeisser-ar15-s4f-schwarz10-5/",
+      "image": "https://armatum.ch/wp-content/uploads/2025/10/Schmeisser-AR15-S4F-Black-10.5-.223-Rem.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "03-0099M",
+      "mpn": null,
+      "weight_g": 3150,
+      "dims": "Länge 720 mm",
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 1989.0,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/schmeisser-ar15-s4f-schwarz10-5/",
+          "in_stock": false,
+          "title": "Schmeisser AR15 S4F Schwarz 10.5″"
+        },
+        "bronze": {
+          "price_chf": 2129.0,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/schmeisser-ar15-s4f-bronze-10-5-223-rem-kurzlauf/",
+          "in_stock": false,
+          "title": "Schmeisser AR15 S4F Bronze 10.5″"
+        }
+      },
+      "note": "standard M-LOK (Slim Line) kivitel; a 'SOLID LINE' más előagyú termék",
+      "match": "exact"
+    },
+    "schm-m4fl": {
+      "title": "Schmeisser AR15 M4FL Schwarz 14.5″",
+      "price_chf": 1999.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/schmeisser-ar15-m4fl-black-14-5-223-rem/",
+      "image": "https://armatum.ch/wp-content/uploads/2025/10/Schmeisser-AR15-S4F-Black-10.5-.223-Rem.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "03-0074M",
+      "mpn": null,
+      "weight_g": null,
+      "dims": "Länge 795 mm",
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 1999.0,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/schmeisser-ar15-m4fl-black-14-5-223-rem/",
+          "in_stock": false,
+          "title": "Schmeisser AR15 M4FL Schwarz 14.5″"
+        },
+        "bronze": {
+          "price_chf": 2129.0,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/schmeisser-ar15-m4fl-bronze-14-5-223-rem/",
+          "in_stock": false,
+          "title": "Schmeisser AR15 M4FL Bronze 14.5″ .223 Rem – M-LOK Slim Line"
+        }
+      },
+      "note": "standard M-LOK (Slim Line) kivitel; a 'SOLID LINE' és a 12.5\" más termék",
+      "match": "exact"
+    },
+    "mp-moe": {
+      "title": "Magpul MOE Grip – AR15/M4 – Schwarz",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-moe-grip-kaufen-ar15-griff-ergonomisch-4/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Magpul-MOE-Grip-–-AR15_M4-blk.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG415-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-grip-kaufen-ar15-griff-ergonomisch-4/",
+          "in_stock": false,
+          "title": "Magpul MOE Grip – AR15/M4 – Schwarz"
+        },
+        "fde": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-grip-kaufen-ar15-griff-ergonomisch-5/",
+          "in_stock": false,
+          "title": "Magpul MOE Grip – AR15/M4 – FDE"
+        },
+        "odg": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-grip-kaufen-ar15-griff-ergonomisch-3/",
+          "in_stock": false,
+          "title": "Magpul MOE Grip – AR15/M4 – ODG"
+        },
+        "gray": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-grip-kaufen-ar15-griff-ergonomisch/",
+          "in_stock": false,
+          "title": "Magpul MOE Grip – AR15/M4 – Grey"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Magpul MOE Grip – AR15/M4 – MC Brown",
+          "color": "mcbrown",
+          "price_chf": 24.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/magpul-moe-grip-kaufen-ar15-griff-ergonomisch-2/",
+          "sku": "MAG415-MCB"
+        }
+      ],
+      "match": "exact"
+    },
+    "mp-moek2": {
+      "title": "Magpul MOE-K2 Grip – Schwarz",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-kaufen-ar15-griff-ergonomisch/",
+      "image": "https://armatum.ch/wp-content/uploads/2024/10/mag522-blk_magpul_moe-k2_grip_ar15-m4_01_1.jpg",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG522-BLK",
+      "mpn": null,
+      "weight_g": 82,
+      "dims": "Breite 30 mm",
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-kaufen-ar15-griff-ergonomisch/",
+          "in_stock": false,
+          "title": "Magpul MOE-K2 Grip – Schwarz"
+        },
+        "fde": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-fde/",
+          "in_stock": true,
+          "title": "Magpul MOE-K2 Grip – FDE"
+        },
+        "odg": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-kaufen-ar15-griff-ergonomisch-2/",
+          "in_stock": false,
+          "title": "Magpul MOE-K2 Grip – AR15/M4 – ODG"
+        },
+        "gray": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-kaufen-ar15-griff-ergonomisch-4/",
+          "in_stock": false,
+          "title": "Magpul MOE-K2 Grip – AR15/M4 – Grey"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Magpul MOE-K2 Grip – AR15/M4 – MC Brown",
+          "color": "mcbrown",
+          "price_chf": 24.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-kaufen-ar15-griff-ergonomisch-3/",
+          "sku": "MAG522-MCB"
+        }
+      ],
+      "match": "exact"
+    },
+    "mp-moek2p": {
+      "title": "Magpul MOE-K2+ Grip – AR15/M4 Schwarz",
+      "price_chf": 28.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-ar15-m4-4/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/compressed_MAG532BLK_487908.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG532-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-ar15-m4-4/",
+          "in_stock": false,
+          "title": "Magpul MOE-K2+ Grip – AR15/M4 Schwarz"
+        },
+        "fde": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-ar15-m4-5/",
+          "in_stock": false,
+          "title": "Magpul MOE-K2+ Grip – AR15/M4 Grey"
+        },
+        "odg": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-ar15-m4-7/",
+          "in_stock": false,
+          "title": "Magpul MOE-K2+ Grip – AR15/M4 ODG"
+        },
+        "gray": {
+          "price_chf": 28.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-k2-grip-ar15-m4-6/",
+          "in_stock": false,
+          "title": "Magpul MOE-K2+ Grip – AR15/M4 Grey"
+        }
+      },
+      "note": "a bolt egyik tételének neve hibásan 'Grey', cikkszáma MAG532-FDE (FDE)",
+      "match": "exact"
+    },
+    "mp-miad": {
+      "title": "Magpul MIAD GEN 1.1 Grip Kit – TYPE 1 Schwarz",
+      "price_chf": 44.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-miad-gen-1-1-grip-kit-type-1/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/compressed_MAG520BLK_511898.webp",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "MAG520-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 44.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-miad-gen-1-1-grip-kit-type-1/",
+          "in_stock": true,
+          "title": "Magpul MIAD GEN 1.1 Grip Kit – TYPE 1 Schwarz"
+        },
+        "fde": {
+          "price_chf": 44.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-miad-gen-1-1-grip-kit-type-1-2/",
+          "in_stock": false,
+          "title": "Magpul MIAD GEN 1.1 Grip Kit – TYPE 1 FDE"
+        },
+        "odg": {
+          "price_chf": 44.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-miad-gen-1-1-grip-kit-type-1-4/",
+          "in_stock": false,
+          "title": "Magpul MIAD GEN 1.1 Grip Kit – TYPE 1 ODG"
+        }
+      },
+      "note": "Type 1 (AR-15) kivitel; a Type 2 (AR-10/SR-25) más termék",
+      "match": "exact"
+    },
+    "mp-ctr": {
+      "title": "Magpul CTR Carbine Stock – Mil Spec – Schwarz",
+      "price_chf": 89.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-ctr-stock-kaufen-ar15-carbine-schaft-mil-spec-2/",
+      "image": "https://armatum.ch/wp-content/uploads/2024/10/mag310-blk_magpul_ctr_carbine_stock-mil-spec_01.jpg",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG310-BLK",
+      "mpn": null,
+      "weight_g": 255,
+      "dims": "Länge 177 mm",
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ctr-stock-kaufen-ar15-carbine-schaft-mil-spec-2/",
+          "in_stock": false,
+          "title": "Magpul CTR Carbine Stock – Mil Spec – Schwarz"
+        },
+        "fde": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ctr-stock-kaufen-ar15-carbine-schaft-mil-spec/",
+          "in_stock": true,
+          "title": "Magpul CTR Carbine Stock – Mil Spec – FDE"
+        },
+        "odg": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ctr-stock-kaufen-ar15-carbine-schaft-mil-spec-5/",
+          "in_stock": false,
+          "title": "Magpul CTR Carbine Stock – Mil-Spec – ODG"
+        },
+        "gray": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ctr-stock-kaufen-ar15-carbine-schaft-mil-spec-4/",
+          "in_stock": false,
+          "title": "Magpul CTR Carbine Stock – Mil-Spec – Grey"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Magpul CTR Carbine Stock – Mil-Spec – MC Brown",
+          "color": "mcbrown",
+          "price_chf": 89.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/magpul-ctr-stock-kaufen-ar15-carbine-schaft-mil-spec-3/",
+          "sku": "MAG310-MCB"
+        }
+      ],
+      "note": "Mil-Spec csöves kivitel",
+      "match": "exact"
+    },
+    "mp-moesl": {
+      "title": "Magpul MOE SL® Carbine Stock – Mil-Spec – Schwarz",
+      "price_chf": 89.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-moe-sl-carbine-stock-leichter-mil-spec-schiebeschaft-fuer-ar-15-m4/?attribute_pa_farbe=schwarz",
+      "image": "https://armatum.ch/wp-content/uploads/2024/10/mag347-blk_magpul_moe_sl_carbine_stock_mil_01.jpg",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "MAG347-BLK",
+      "mpn": null,
+      "weight_g": 264,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-sl-carbine-stock-leichter-mil-spec-schiebeschaft-fuer-ar-15-m4/?attribute_pa_farbe=schwarz",
+          "in_stock": true,
+          "title": "Magpul MOE SL® Carbine Stock – Mil-Spec – Schwarz"
+        },
+        "fde": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-sl-carbine-stock-leichter-mil-spec-schiebeschaft-fuer-ar-15-m4/?attribute_pa_farbe=fde-flat-dark-earth",
+          "in_stock": false,
+          "title": "Magpul MOE SL® Carbine Stock – Mil-Spec – FDE - Flat Dark Earth"
+        },
+        "odg": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-sl-carbine-stock-mil-spec-2/",
+          "in_stock": false,
+          "title": "Magpul MOE SL Carbine Stock – Mil-Spec ODG"
+        },
+        "gray": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-sl-carbine-stock-mil-spec/",
+          "in_stock": false,
+          "title": "Magpul MOE SL Carbine Stock – Mil-Spec Grey"
+        }
+      },
+      "note": "Mil-Spec csöves kivitel",
+      "match": "exact"
+    },
+    "mp-moeslk": {
+      "title": "Magpul MOE SL-K Carbine Stock – Mil-Spec Schwarz",
+      "price_chf": 66.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-moe-sl-k-carbine-stock-mil-spec/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/compressed_MAG626BLK_492848.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG626-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 66.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-sl-k-carbine-stock-mil-spec/",
+          "in_stock": false,
+          "title": "Magpul MOE SL-K Carbine Stock – Mil-Spec Schwarz"
+        },
+        "fde": {
+          "price_chf": 66.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-sl-k-carbine-stock-mil-spec-2/",
+          "in_stock": false,
+          "title": "Magpul MOE SL-K Carbine Stock – Mil-Spec FDE"
+        },
+        "odg": {
+          "price_chf": 66.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-sl-k-carbine-stock-mil-spec-4/",
+          "in_stock": false,
+          "title": "Magpul MOE SL-K Carbine Stock – Mil-Spec ODG"
+        }
+      },
+      "note": "Mil-Spec csöves kivitel",
+      "match": "exact"
+    },
+    "mp-ubr2": {
+      "title": "Magpul UBR GEN2 Collapsible Stock – Schwarz",
+      "price_chf": 319.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-ubr-gen2-collapsible-stock/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Magpul-UBR-GEN2-Collapsible-Stock-blk.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG482-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 319.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ubr-gen2-collapsible-stock/",
+          "in_stock": false,
+          "title": "Magpul UBR GEN2 Collapsible Stock – Schwarz"
+        },
+        "fde": {
+          "price_chf": 319.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ubr-gen2-collapsible-stock-2/",
+          "in_stock": false,
+          "title": "Magpul UBR GEN2 Collapsible Stock – FDE"
+        },
+        "odg": {
+          "price_chf": 319.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ubr-gen2-collapsible-stock-4/",
+          "in_stock": false,
+          "title": "Magpul UBR GEN2 Collapsible Stock – ODG"
+        },
+        "gray": {
+          "price_chf": 319.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ubr-gen2-collapsible-stock-3/",
+          "in_stock": false,
+          "title": "Magpul UBR GEN2 Collapsible Stock -Grey"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-prs3": {
+      "title": "Magpul PRS GEN3 Precision Adjustable Stock – Schwarz",
+      "price_chf": 344.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/prs-gen3-stock-magpul-precision-2/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Magpul-PRS-GEN3-Precision-Adjustable-Stock-ODG.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG672-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 344.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/prs-gen3-stock-magpul-precision-2/",
+          "in_stock": false,
+          "title": "Magpul PRS GEN3 Precision Adjustable Stock – Schwarz"
+        },
+        "fde": {
+          "price_chf": 344.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/prs-gen3-stock-magpul-precision-3/",
+          "in_stock": false,
+          "title": "Magpul PRS GEN3 Precision Adjustable Stock – FDE"
+        },
+        "odg": {
+          "price_chf": 344.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/prs-gen3-stock-magpul-precision/",
+          "in_stock": false,
+          "title": "Magpul PRS GEN3 Precision-Adjustable Stock – ODG"
+        },
+        "gray": {
+          "price_chf": 344.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/prs-gen3-stock-magpul-precision-4/",
+          "in_stock": false,
+          "title": "Magpul PRS GEN3 Precision Adjustable Stock – Grey"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-prslite": {
+      "title": "Magpul PRS Lite Precision Adjustable Stock – Schwarz",
+      "price_chf": 169.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/prs-lite-stock-magpul-precision/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Magpul-PRS-Lite-Precision-Adjustable-Stock-schwarz.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG1159-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 169.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/prs-lite-stock-magpul-precision/",
+          "in_stock": false,
+          "title": "Magpul PRS Lite Precision Adjustable Stock – Schwarz"
+        },
+        "fde": {
+          "price_chf": 169.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/prs-lite-stock-magpul-precision-2/",
+          "in_stock": false,
+          "title": "Magpul PRS Lite Precision Adjustable Stock – FDE"
+        },
+        "odg": {
+          "price_chf": 169.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/prs-lite-stock-magpul-precision-3/",
+          "in_stock": false,
+          "title": "Magpul PRS Lite Precision Adjustable Stock – ODG"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pad030": {
+      "title": "Magpul Rubber Butt-Pad 0.30 Zoll",
+      "price_chf": 22.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/rubber-butt-pad-magpul-0-30-zoll/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Magpul-Rubber-Butt-Pad-0.30.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG315-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "mp-pad055": {
+      "title": "Magpul Extended Rubber Butt-Pad 0.55 Zoll Schaftkappe",
+      "price_chf": 22.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-butt-pad-extended-0-55-zoll/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/compressed_resize_600x600_MAG316BLK_5082010.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG316-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "mp-pad070": {
+      "title": "Magpul Enhanced Rubber Butt-Pad 0.70 Zoll Schaftkappe",
+      "price_chf": 22.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-butt-pad-enhanced-rubber-0-70-zoll/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/compressed_MAG317BLK_5082110.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG317-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "mp-padsl": {
+      "title": "Magpul MOE SL Enhanced Rubber Butt-Pad 0.70 Zoll",
+      "price_chf": 22.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/moe-sl-enhanced-rubber-butt-pad-0-70-zoll/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Magpul-MOE-SL-Enhanced-Rubber-Butt-Pad-0.70.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG349-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "eo-exps3": {
+      "title": "Eotech EXPS3-0 Schwarz",
+      "price_chf": 949.9,
+      "list_chf": 1019.5,
+      "url": "https://armatum.ch/produkt/eotech-exps3-0-red-dot-schwarz/",
+      "image": "https://armatum.ch/wp-content/uploads/2024/06/exps3_rlo.png",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "EXPS3-0",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "Eotech EXPS3-0 Tan",
+          "color": "tan",
+          "price_chf": 999.0,
+          "list_chf": 1042.0,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/eotech-exps3-0-red-dot-tan/",
+          "sku": "EXPS3-0TAN"
+        }
+      ],
+      "note": "EXPS3-0 (68 MOA kör + 1 MOA pont)",
+      "match": "exact"
+    },
+    "eo-exps2": {
+      "title": "Eotech HWS EXPS2-0 Red Dot – Schwarz",
+      "price_chf": 799.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/eotech-hws-exps2-0-red-dot-schwarz/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/09/Eotech-HWS-EXPS2-0-Red-Dot-–-Schwarz.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "EXPS2-0",
+      "mpn": null,
+      "weight_g": 318,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "note": "EXPS2-0 (68 MOA kör + 1 MOA pont)",
+      "match": "exact"
+    },
+    "eo-xps2": {
+      "title": "Eotech XPS2-0 68 MOA Ring+ 1 MOA Dot",
+      "price_chf": 759.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/eotech-xps2-0-holographisches-visier-kompakt-robust/",
+      "image": "https://armatum.ch/wp-content/uploads/2025/09/aHR0cHM6Ly9zaG9wLnN3aXNzbG94eC5jb20vbWVkaWEvaW1hZ2UvZTAvZWUvOTcveHBzMl9ybG9fY2xpcHBlZF9yZXZfMS5qcGc_.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "XPS2-2-0",
+      "mpn": null,
+      "weight_g": 255,
+      "dims": "Breite 53 mm x Höhe 64 mm x Länge 96.5 mm",
+      "color": "black",
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "hs-510c": {
+      "title": "Holosun HS510C Red Circle Dot Reflexvisier Open Solar",
+      "price_chf": 429.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/holosun-hs510c-open-reflexvisier-red-circle-dot/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/11/Holosun-HS510C-Open-Reflexvisier-–-Red-Circle-Dot-Solar-Failsafe-Shake-Awake-quadrat.jpg",
+      "in_stock": true,
+      "stock_text": "Nur noch 1 vorrätig",
+      "sku": "78001220",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "Holosun HS510C-FDE Red Circle Dot Reflexvisier Open Solar",
+          "color": "fde",
+          "price_chf": 429.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://armatum.ch/produkt/holosun-hs510c-fde-open-reflexvisier-red-circle-dot/",
+          "sku": "78003507"
+        }
+      ],
+      "match": "exact"
+    },
+    "hs-aems": {
+      "title": "Holosun AEMS RD Red Circle Dot Reflexvisier Closed Emitter Solar",
+      "price_chf": 559.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/holosun-aems-rd-closed-emitter-reflexvisier/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Holosun-AEMS-RD-Red-Circle-Dot-Reflexvisier-Closed-Emitter-Solar.jpg",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "78006201",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "note": "az alap AEMS (piros, 2 MOA pont + 65 MOA kör); az AEMS Core / Pro / Max / GR más modell/változat",
+      "match": "variant"
+    },
+    "tj-acog": {
+      "title": "Trijicon ACOG 4×32 Red Horseshoe Dot Zielfernrohr .223 BAC TA51",
+      "price_chf": 1639.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/trijicon-acog-4x32-horseshoe-dot-zielfernrohr-223/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Trijicon®-Zielgeraet-ACOG®-4×32-Dual-Illuminated-Red-Horseshoe-Dot-.223-BAC-Reticle-w-TA51-Mount.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "TR-TA31-H",
+      "mpn": null,
+      "weight_g": 428,
+      "dims": null,
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "Trijicon ACOG 4×32 Dual Illuminated Red Crosshair Zielfernrohr .223 BAC TA51",
+          "color": null,
+          "price_chf": 1639.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/trijicon-acog-4x32-dual-illuminated-zielfernrohr/",
+          "sku": "TR-TA31-CH"
+        }
+      ],
+      "note": "TA31 (ACOG 4x32, .223 BAC, TA51 szereléssel); a bolt két szálkereszt-változatot árul azonos áron (TA31-CH: dual illuminated red crosshair, TA31-H: red horseshoe dot); a data.js nem határozza meg a szálkeresztet. Az RMR-rel szerelt csomagok más termékek.",
+      "match": "variant"
+    },
+    "eo-vudu16": {
+      "title": "Eotech Vudu 1-6×24 – SR1(MRAD)",
+      "price_chf": 1499.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/eotech-vudu-1-6x24-ffp/?attribute_pa_absehen=sr1mrad",
+      "image": "https://armatum.ch/wp-content/uploads/2024/06/Vudu_Reticle_SR1_6X.png",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "EO-VDU1-6FFSR1",
+      "mpn": null,
+      "weight_g": 570,
+      "dims": null,
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "Eotech Vudu 1-6×24 – SR2(7.62 BDC-MOA)",
+          "color": null,
+          "price_chf": 1499.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/eotech-vudu-1-6x24-ffp/?attribute_pa_absehen=sr27-62-bdc-moa",
+          "sku": "EO-VDU1-6FFSR2"
+        },
+        {
+          "title": "Eotech Vudu 1-6×24 – SR3(5.56 BDC-MOA)",
+          "color": null,
+          "price_chf": 1499.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/eotech-vudu-1-6x24-ffp/?attribute_pa_absehen=sr35-56-bdc-moa",
+          "sku": "EO-VDU-6FFSR3"
+        }
+      ],
+      "note": "FFP kivitel (EO-VDU1-6FFSR); a bolt SR1 / SR2 / SR3 szálkeresztet kínál azonos áron",
+      "match": "variant"
+    },
+    "eo-vudu110": {
+      "title": "Eotech Vudu 1-10×28 – LE-5(MRAD)",
+      "price_chf": 2099.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/eotech-vudu-1-10x28/?attribute_pa_absehen=le-5mrad",
+      "image": "https://armatum.ch/wp-content/uploads/2024/07/Vudu_Reticle_LE5_web-01.png",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "EO-VDU1-10FFLE5",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "Eotech Vudu 1-10×28 – SR-4(MOA)",
+          "color": null,
+          "price_chf": 2099.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/eotech-vudu-1-10x28/?attribute_pa_absehen=sr-4moa",
+          "sku": "EO-VDU1-10FFSR4"
+        },
+        {
+          "title": "Eotech Vudu 1-10×28 – SR-5(MRAD)",
+          "color": null,
+          "price_chf": 2099.0,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/eotech-vudu-1-10x28/?attribute_pa_absehen=sr-5mrad",
+          "sku": "EO-VDU1-10FFSR5"
+        }
+      ],
+      "note": "FFP kivitel; a bolt LE-5 / SR-4 / SR-5 szálkeresztet kínál azonos áron",
+      "match": "variant"
+    },
+    "hs-hm3x": {
+      "title": "Holosun HM3X Magnifier 3x Vergrößerung Flip Mount",
+      "price_chf": 329.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/holosun-hm3x-magnifier-3x-vergroesserung-mit-flip-mount/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Holosun-HM3X-Magnifier-–-3x-Vergroesserung-Flip-Mount.jpg",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "78004122",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "sf-m640": {
+      "title": "SureFire M640 Scout Light Pro",
+      "price_chf": 389.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/surefire-m640-dual-fuel-scout-light-pro-1-500-lumen-fuer-hoechste-praezision/",
+      "image": "https://armatum.ch/wp-content/uploads/2025/02/shop_m640df-bk-front-isol-scaled-1.jpg",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "SF-M640DF-BK-PRO",
+      "mpn": null,
+      "weight_g": 156,
+      "dims": "Länge 141 mm x Breite 29 mm",
+      "color": "black",
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "SureFire M640DF Scout Pro Tan – Dual Fuel Waffenlampe 1500 Lumen",
+          "color": "tan",
+          "price_chf": 459.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/m640df-scout-pro-surefire-dual-fuel-tan-1500-lumen/",
+          "sku": "SF-M640DF-TN-PRO"
+        }
+      ],
+      "note": "a fekete változat bolti neve 'SureFire M640 Scout Light Pro', cikkszáma SF-M640DF-BK-PRO; a Turbo (M640DFT) és az M640U más típus",
+      "match": "variant"
+    },
+    "sf-x300": {
+      "title": "SureFire X300U-B Ultra",
+      "price_chf": 399.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/surefire-x300u-b-ultra-1-000-lumen-waffeinleuchte-mit-ipx7-schutz/",
+      "image": "https://armatum.ch/wp-content/uploads/2025/06/shop_sf-x300u-b-01.webp",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "SF-X300U-B",
+      "mpn": null,
+      "weight_g": 116,
+      "dims": "Länge 95 mm",
+      "color": "black",
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "SureFire X300U-B Tan – Hybrid Waffenlampe 1000 Lumen mit T-Slot-Montage",
+          "color": "tan",
+          "price_chf": 424.5,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/x300u-b-tan-surefire-hybrid-waffenlampe-1000-lumen/",
+          "sku": "SF-X300U-B-TN"
+        }
+      ],
+      "match": "exact"
+    },
+    "sl-hlx": {
+      "title": "Streamlight ProTac Rail Mount HL-X",
+      "price_chf": 249.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/streamlight-waffenlicht-protac-rail-mount-hl-x/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/11/protacrailmounthl-x_03-quadrat.jpg",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "SL-88066",
+      "mpn": null,
+      "weight_g": 35,
+      "dims": "Länge 138 mm",
+      "color": "black",
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "mp-hstop": {
+      "title": "Magpul M-LOK Hand Stop Kit Schwarz",
+      "price_chf": 33.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-m-lok-hand-stop-kit/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/compressed_MAG608BLK_508539.webp",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "MAG608-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-m-lok-hand-stop-kit/",
+          "in_stock": true,
+          "title": "Magpul M-LOK Hand Stop Kit Schwarz"
+        },
+        "fde": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-m-lok-hand-stop-kit-2/",
+          "in_stock": true,
+          "title": "Magpul M-LOK Hand Stop Kit FDE"
+        },
+        "odg": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-hand-stop-odg-m-lok-hand-stop-kit/",
+          "in_stock": false,
+          "title": "Magpul M-LOK Hand Stop Kit ODG"
+        },
+        "gray": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-hand-stop-grey-m-lok-hand-stop-kit/",
+          "in_stock": false,
+          "title": "Magpul M-LOK Hand Stop Kit Grey"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-rail5": {
+      "title": "Magpul M-LOK Aluminum Rail Section, 5 Slots",
+      "price_chf": 26.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-m-lok-aluminum-rail-section-5-slots/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/compressed_MAG581BLK_476468.webp",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "MAG581-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "mp-qd": {
+      "title": "Magpul M-LOK QD Sling Mount",
+      "price_chf": 27.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-m-lok-qd-sling-mount-qd-schlingenbefestigung-fuer-m-lok-schnittstellen/",
+      "image": "https://armatum.ch/wp-content/uploads/2024/12/mag606-blk_magpul_m-lok_qd_sling_mount_01_1.jpg",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "MAG606-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "mp-cover": {
+      "title": "Magpul M-LOK Rail Cover TYPE 2 – Schwarz",
+      "price_chf": 19.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-m-lok-rail-cover-type-2-kaufen-mehr-grip-4/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Magpul-M-LOK-Rail-Cover-TYPE-2-blk.webp",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "MAG603-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 19.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-m-lok-rail-cover-type-2-kaufen-mehr-grip-4/",
+          "in_stock": true,
+          "title": "Magpul M-LOK Rail Cover TYPE 2 – Schwarz"
+        },
+        "fde": {
+          "price_chf": 19.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-m-lok-rail-cover-type-2-kaufen-mehr-grip-3/",
+          "in_stock": false,
+          "title": "Magpul M-LOK Rail Cover TYPE 2 – FDE"
+        },
+        "odg": {
+          "price_chf": 19.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-m-lok-rail-cover-type-2-kaufen-mehr-grip-2/",
+          "in_stock": false,
+          "title": "Magpul M-LOK Rail Cover TYPE 2 – ODG"
+        },
+        "gray": {
+          "price_chf": 19.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-m-lok-rail-cover-type-2-kaufen-mehr-grip/",
+          "in_stock": false,
+          "title": "Magpul M-LOK Rail Cover TYPE 2 – Gray"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Magpul M-LOK Rail Cover TYPE 2 – MC Brown",
+          "color": "mcbrown",
+          "price_chf": 19.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/magpul-m-lok-rail-cover-type-2-kaufen-mehr-grip-5/",
+          "sku": "MAG603-MCB"
+        }
+      ],
+      "match": "exact"
+    },
+    "mp-bipod": {
+      "title": "Magpul Bipod für M-LOK – Schwarz",
+      "price_chf": 169.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-bipod-m-lok-kaufen-zweibein-ar15-stabil/",
+      "image": "https://armatum.ch/wp-content/uploads/2024/09/mag933-blk_magpul_bipod_m-lok_01_1.jpg",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG933-BLK",
+      "mpn": null,
+      "weight_g": 311,
+      "dims": "Höhe 261 mm",
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 169.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-bipod-m-lok-kaufen-zweibein-ar15-stabil/",
+          "in_stock": false,
+          "title": "Magpul Bipod für M-LOK – Schwarz"
+        },
+        "fde": {
+          "price_chf": 169.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-bipod-fuer-m-lok-fde/",
+          "in_stock": false,
+          "title": "Magpul Bipod für M-LOK – FDE"
+        }
+      },
+      "note": "Magpul Bipod for M-LOK (MAG933, alumínium)",
+      "match": "exact"
+    },
+    "sf-warcomp": {
+      "title": "SureFire WARCOMP 5.56 NATO 1/2-28 Feuerscheindämpfer mit SOCOM Schalldämpferaufnahme",
+      "price_chf": 179.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/surefire-warcomp-5-56-1-2-28-feuerscheindaempfer-kompensator/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/24549_L_1.jpg",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "SF-WARCOMP-556-1/2-28",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "note": "WARCOMP-556 1/2-28 (a CTN és a 7.62 más termék)",
+      "match": "exact"
+    },
+    "sf-3p": {
+      "title": "SureFire 3-Prong Feuerscheindämpfer 5.56 NATO 1/2-28 mit SOCOM Schalldämpferaufnahme",
+      "price_chf": 179.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/surefire-3-prong-feuerscheindaempfer-5-56-1-2-28-socom/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/SF3P-556-1-2X28_1-1.jpg",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "SF-SF3P-556-1/2-28",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "note": "SF3P-556 1/2-28",
+      "match": "exact"
+    },
+    "rd-raptorlt": {
+      "title": "Radian Weapons Raptor-LT AR15/M16 Ladehebel Schwarz",
+      "price_chf": 99.0,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/raptor-lt-ar15-radian-weapons-schwarz/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/05/Radian-Weapons-Raptor-LT.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "RAD-R0148",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "note": "AR-15 kivitel (az AR10 más termék)",
+      "match": "exact"
+    },
+    "mp-bad": {
+      "title": "Magpul B.A.D. Lever – Battery Assist Device – AR15/M4",
+      "price_chf": 44.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-bad-lever-kaufen-ar15-bolt-catch-upgrade/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Magpul-B.A.D.-Lever-–-Battery-Assist-Device-–-AR15_M4.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG980-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "mp-trigguard": {
+      "title": "Magpul MOE Enhanced Trigger Guard, Polymer – AR15/M4 Schwarz",
+      "price_chf": 13.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/compressed_MAG1186BLK_504928.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG1186-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 13.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4/",
+          "in_stock": false,
+          "title": "Magpul MOE Enhanced Trigger Guard, Polymer – AR15/M4 Schwarz"
+        },
+        "fde": {
+          "price_chf": 13.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4-2/",
+          "in_stock": false,
+          "title": "Magpul MOE Enhanced Trigger Guard, Polymer – AR15/M4 FDE"
+        },
+        "odg": {
+          "price_chf": 13.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-moe-enhanced-trigger-guard-polymer-ar15-m4-3/",
+          "in_stock": false,
+          "title": "Magpul MOE Enhanced Trigger Guard, Polymer – AR15/M4 ODG"
+        }
+      },
+      "note": "MAG1186 (polimer); az alumínium 'Enhanced Trigger Guard' (MAG015) más termék",
+      "match": "exact"
+    },
+    "mp-pm10": {
+      "title": "Magpul PMAG 10 AR/M4 GEN M3 5.56×45 – Schwarz",
+      "price_chf": 21.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-pmag-10-gen-m3-kaufen-ar15-magazin-5-56-2/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Magpul-PMAG-10-AR_M4-GEN-M3-5.56x45-BLK.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG559-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 21.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-pmag-10-gen-m3-kaufen-ar15-magazin-5-56-2/",
+          "in_stock": false,
+          "title": "Magpul PMAG 10 AR/M4 GEN M3 5.56×45 – Schwarz"
+        },
+        "odg": {
+          "price_chf": 21.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-pmag-10-gen-m3-kaufen-ar15-magazin-5-56/",
+          "in_stock": false,
+          "title": "Magpul PMAG 10 AR/M4 GEN M3 5.56×45 – ODG"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm20": {
+      "title": "Magpul PMAG 20 AR/M4 GEN M3 5.56×45 – Schwarz",
+      "price_chf": 21.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-pmag-20-gen-m3-kaufen-ar15-magazin-5-56/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/04/Magpul-PMAG-20-AR_M4-GEN-M3-5.56x45-blk5.webp",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "MAG560-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 21.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-pmag-20-gen-m3-kaufen-ar15-magazin-5-56/",
+          "in_stock": true,
+          "title": "Magpul PMAG 20 AR/M4 GEN M3 5.56×45 – Schwarz"
+        },
+        "odg": {
+          "price_chf": 21.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-pmag-20-gen-m3-kaufen-ar15-magazin-5-56-2/",
+          "in_stock": false,
+          "title": "Magpul PMAG 20 AR/M4 GEN M3 5.56×45 – ODG"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm30": {
+      "title": "Magpul PMAG 30 AR/M4 GEN M3",
+      "price_chf": 19.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-pmag-30-gen-m3-ar15-magazin-5-56x45/",
+      "image": "https://armatum.ch/wp-content/uploads/2025/12/mag557-blk_magpul_pmag_30_ar_m4_gen_m3_01_1.jpg",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "MAG557-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 19.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-pmag-30-gen-m3-ar15-magazin-5-56x45/",
+          "in_stock": true,
+          "title": "Magpul PMAG 30 AR/M4 GEN M3"
+        },
+        "odg": {
+          "price_chf": 19.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-pmag-30-gen-m3-kaufen-ar15-magazin-5-56-2/",
+          "in_stock": false,
+          "title": "Magpul PMAG 30 AR/M4 GEN M3 5.56×45 – ODG"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Magpul PMAG 30 AR/M4 GEN M3 5.56×45 – MC Brown",
+          "color": "mcbrown",
+          "price_chf": 19.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/magpul-pmag-30-gen-m3-kaufen-ar15-magazin-5-56/",
+          "sku": "MAG557-MCB"
+        },
+        {
+          "title": "Magpul PMAG 30 AR/M4 GEN M3 MCT",
+          "color": "mct",
+          "price_chf": 19.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://armatum.ch/produkt/magpul-pmag-30-gen-m3-ar15-magazin-5-56x45-mct/",
+          "sku": "MAG557-MCT"
+        }
+      ],
+      "match": "exact"
+    },
+    "mp-pm30w": {
+      "title": "Magpul PMAG 30 AR/M4 GEN M3 mit Fenster",
+      "price_chf": 26.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-pmag-30-ar-m4-gen-m3-mit-fenster/",
+      "image": "https://armatum.ch/wp-content/uploads/2024/05/mag556-blk_magpul_pmag_30_ar_m4_gen_m3_window_01_1.jpg",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "MAG556-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 26.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-pmag-30-ar-m4-gen-m3-mit-fenster/",
+          "in_stock": true,
+          "title": "Magpul PMAG 30 AR/M4 GEN M3 mit Fenster"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Magpul PMAG 30 AR/M4 GEN M3 mit Fenster ODG",
+          "color": "odg",
+          "price_chf": 26.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://armatum.ch/produkt/magpul-pmag-30-gen-m3-fenster-kaufen-ar15-magazin/",
+          "sku": "MAG556-ODG"
+        },
+        {
+          "title": "Magpul PMAG 30 AR/M4 GEN M3 mit Fenster MC-Brown",
+          "color": "mcbrown",
+          "price_chf": 26.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/magpul-pmag-30-gen-m3-fenster-kaufen-ar15-magazin-2/",
+          "sku": "MAG556-MCB"
+        },
+        {
+          "title": "Magpul PMAG 30 AR/M4 GEN M3 mit Fenster MCT",
+          "color": "mct",
+          "price_chf": 26.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://armatum.ch/produkt/magpul-pmag-30-ar-m4-gen-m3-mit-fenster-mct/",
+          "sku": "MAG556-MCT"
+        }
+      ],
+      "match": "exact"
+    },
+    "mp-pm40": {
+      "title": "Magpul PMAG 40 AR/M4 GEN M3, 5.56×45 Schwarz",
+      "price_chf": 34.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-pmag-40-ar-m4-gen-m3-5-56x45/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/compressed_MAG233BLK_498308.webp",
+      "in_stock": true,
+      "stock_text": "An Lager",
+      "sku": "MAG233-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 34.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-pmag-40-ar-m4-gen-m3-5-56x45/",
+          "in_stock": true,
+          "title": "Magpul PMAG 40 AR/M4 GEN M3, 5.56×45 Schwarz"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-d60": {
+      "title": "Magpul PMAG D-60 AR/M4",
+      "price_chf": 199.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-pmag-d-60-ar-m4-5-56/",
+      "image": "https://armatum.ch/wp-content/uploads/2024/09/mag576-blk_magpul_pmag_d-60_ar-m4_gen_m3_01_1.jpg",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG576-BLK",
+      "mpn": null,
+      "weight_g": 581,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 199.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-pmag-d-60-ar-m4-5-56/",
+          "in_stock": false,
+          "title": "Magpul PMAG D-60 AR/M4"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-ms1": {
+      "title": "Magpul MS1 Sling – Schwarz",
+      "price_chf": 49.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-ms1-sling/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/05/Magpul-MS1-Sling-Schwarz.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG513-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 49.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ms1-sling/",
+          "in_stock": false,
+          "title": "Magpul MS1 Sling – Schwarz"
+        },
+        "coyote": {
+          "price_chf": 49.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ms1-sling-2/",
+          "in_stock": false,
+          "title": "Magpul MS1 Sling – Coyote"
+        },
+        "ranger": {
+          "price_chf": 49.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ms1-sling-4/",
+          "in_stock": false,
+          "title": "Magpul MS1 Sling – Ranger Green"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Magpul MS1 Sling – Grey",
+          "color": "gray",
+          "price_chf": 49.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/magpul-ms1-sling-3/",
+          "sku": "MAG513-GRY"
+        }
+      ],
+      "match": "exact"
+    },
+    "mp-ms4": {
+      "title": "Magpul MS4 Dual QD Sling GEN2 Schwarz",
+      "price_chf": 109.9,
+      "list_chf": null,
+      "url": "https://armatum.ch/produkt/magpul-ms4-dual-qd-sling-gen2/",
+      "image": "https://armatum.ch/wp-content/uploads/2026/06/compressed_MAG518BLK_509577.webp",
+      "in_stock": false,
+      "stock_text": "Verfügbar bei Nachbestellung",
+      "sku": "MAG518-BLK",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 109.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ms4-dual-qd-sling-gen2/",
+          "in_stock": false,
+          "title": "Magpul MS4 Dual QD Sling GEN2 Schwarz"
+        },
+        "coyote": {
+          "price_chf": 109.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ms4-dual-qd-sling-gen2-2/",
+          "in_stock": false,
+          "title": "Magpul MS4 Dual QD Sling GEN2 Coyote"
+        },
+        "ranger": {
+          "price_chf": 109.9,
+          "list_chf": null,
+          "url": "https://armatum.ch/produkt/magpul-ms4-dual-qd-sling-gen2-4/",
+          "in_stock": false,
+          "title": "Magpul MS4 Dual QD Sling GEN2 Ranger Green"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Magpul MS4 Dual QD Sling GEN2 Grau",
+          "color": "gray",
+          "price_chf": 109.9,
+          "list_chf": null,
+          "in_stock": false,
+          "url": "https://armatum.ch/produkt/magpul-ms4-dual-qd-sling-gen2-3/",
+          "sku": "MAG518-GRY"
+        }
+      ],
+      "note": "Gen 2 kivitel (a bolt csak ezt árulja)",
+      "match": "exact"
+    }
+  },
+  "unmatched": {
+    "schm-m5fl": "ok: csak az 'AR15 M5FL 16.75\" SOLID LINE' kapható (más előagy, másik cikkszám: 03-0076S); a standard M5FL nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Schmeisser AR15-9 M5FL Black 16.75″ (1889.00 CHF, https://armatum.ch/produkt/schmeisser-ar15-9-m5fl-16-75-9mm-para-modular/) | Schmeisser SP15 M5FL 16.75″ Geradezugrepetierer .223 Rem (1899.00 CHF, https://armatum.ch/produkt/schmeisser-sp15-m5fl-geradezugrepetierer-223-rem/) | Schmeisser AR15 M5FL 16.75″ .223 Rem SOLID LINE (2090.00 CHF, https://armatum.ch/produkt/schmeisser-ar15-m5fl-16-75-223-rem-solid-line/)",
+    "schm-dyn": "ok: a bolt csak 'AR15 Dynamic L' modellt árul; a data.js 'AR15 Dynamic M5FL' megnevezésével való azonosság a bolti oldalon nincs kimondva -> bizonytalan, nem vettük fel; legközelebbi bolti termék(ek), NEM azonos: Schmeisser AR15 Dynamic L Black 14.5″ .223 Rem (2589.00 CHF, https://armatum.ch/produkt/schmeisser-ar15-dynamic-l-black-14-5-223-rem/) | Schmeisser AR15 Dynamic L — 16.75″ .223 Rem (2589.00 CHF, https://armatum.ch/produkt/schmeisser-ar15-dynamic-l-16-75-223-rem-slim-line-m-lok/) | Schmeisser AR15 Dynamic L Grey 16.75″ .223 Rem (2739.00 CHF, https://armatum.ch/produkt/schmeisser-ar15-dynamic-grey-10-5-223-rem/) | Schmeisser AR15 Dynamic L Grey 16.75″ .223 Rem (2739.00 CHF, https://armatum.ch/produkt/schmeisser-ar15-dynamic-l-grey-16-75-223-rem-kopie/)",
+    "dd-v7": "ok: csak DDM4 V7 PRO 18\" és DDM4 V7 SLW (más modellek); a sima DDM4 V7 nincs; legközelebbi bolti termék(ek), NEM azonos: Daniel Defense DDM4 V7 SLW (2780.00 CHF, https://armatum.ch/produkt/daniel-defense-ddm4-v7-slw-ultraleichtes-ar-15-mit-herausragender-praezision/) | Daniel Defense DDM4 V7 PRO 18 Zoll 5.56 NATO Black – Premium Competition AR-15 (2889.00 CHF, https://armatum.ch/produkt/daniel-defense-ddm4-v7-pro-18-zoll-5-56-nato-black/)",
+    "bcm-recce16": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-g0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-g3": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-t22": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-t23": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-s0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-s1": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-bravo": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-esop": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-prec": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "ap-t2": "ok: a Micro T-2 nincs a boltban (csak Micro T-1 / H-2, Duty RDS)",
+    "ap-m5": "ok: a CompM5 nincs a boltban",
+    "ap-pro": "ok: az Aimpoint PRO nincs a boltban",
+    "ap-acro": "ok: csomag (ACRO P-2 + Picatinny talp): a bolt az ACRO P-2-t talp nélkül árulja; legközelebbi bolti termék(ek), NEM azonos: Aimpoint ACRO P-2 3.5 MOA (649.00 CHF, https://armatum.ch/produkt/aimpoint-acro-p-2-3-5-moa-rotpunktvisier/) | Aimpoint ACRO P-2 3.5 MOA FDE (749.00 CHF, https://armatum.ch/produkt/aimpoint-acro-p-2-3-5-moa-fde-rotpunktvisier/)",
+    "hs-403b": "ok: a HS403B nincs a boltban",
+    "tj-mro": "ok: az MRO nincs a boltban",
+    "vx-uh1": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-sparc": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-crossfire": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-se16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-se18": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-pst16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-razor110": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "tj-credo16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "tj-vcog": "ok: csak VCOG 1-6x24 kapható (a data.js 1-8x28-at ír); legközelebbi bolti termék(ek), NEM azonos: Trijicon VCOG 1-6×24 Red Horseshoe Dot Zielfernrohr .223 TA51 (2999.90 CHF, https://armatum.ch/produkt/trijicon-vcog-1-6x24-zielfernrohr-223-horseshoe-dot/) | Trijicon VCOG 1-6×24 Red Horseshoe Dot Zielfernrohr .308 TA51 (2999.90 CHF, https://armatum.ch/produkt/trijicon-vcog-1-6x24-zielfernrohr-308-horseshoe-dot/)",
+    "gs-sp30": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-cant30": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-g33": "ok: a G33 önállóan (G33.STS) nincs a boltban, csak HHS csomagokban (EXPS + G33); legközelebbi bolti termék(ek), NEM azonos: Eotech HHS II / HWS EXPS2-2 mit G33 Magnifier (1529.00 CHF, https://armatum.ch/produkt/eotech-hhs-ii-hws-exps2-2-mit-g33-magnifier/) | Eotech HHS STC EXPS3-0 mit G33 Vergrösserung – Holographic Hybrid Sight (1752.00 CHF, https://armatum.ch/produkt/eotech-hhs-stc-exps3-0-mit-g33-vergroesserung/)",
+    "eo-g43": "ok: G43 + 'Micro' szerelék csomag: a bolt csak a G43.STS (STS szerelékkel) változatot árulja; legközelebbi bolti termék(ek), NEM azonos: Eotech Magnifier 3x G43.STS (836.50 CHF, https://armatum.ch/produkt/eotech-magnifier-3x-g43-sts/)",
+    "ap-3x": "ok: csak az Aimpoint Booster 3X-C (más termék); 3XMag-1 + Flip nincs; legközelebbi bolti termék(ek), NEM azonos: Aimpoint® Montagering Twist Mount QD inkl. Basis zu Aimpoint Booster 3x (265.50 CHF, https://armatum.ch/produkt/aimpoint-montagering-zu-aimpoint-booster-3x/) | Aimpoint® Vergrösserungsaufsatz Booster 3X-C Compact schwarz (338.00 CHF, https://armatum.ch/produkt/aimpoint-vergroesserungsaufsatz-booster-3x-c-compact-schwarz/)",
+    "vx-m3x": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-mbus3": "ok: szett (első + hátsó irányzék): a bolt az elsőt és a hátsót külön termékként árulja, szett nincs; legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS 3 Sight – Front ODG (48.90 CHF, https://armatum.ch/produkt/magpul-mbus-3-sight-front-3/) | Magpul MBUS 3 Sight – Front FDE (48.90 CHF, https://armatum.ch/produkt/magpul-mbus-3-sight-front-2/) | Magpul MBUS 3 Sight – Front Schwarz (48.90 CHF, https://armatum.ch/produkt/magpul-mbus-3-sight-front/) | Magpul MBUS 3 Sight – Rear ODG (69.90 CHF, https://armatum.ch/produkt/magpul-mbus-3-sight-rear-3/)",
+    "mp-mbuspro": "ok: szett (első + hátsó irányzék): a bolt az elsőt és a hátsót külön termékként árulja, szett nincs; legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS Pro Sight – Front Hooded (129.90 CHF, https://armatum.ch/produkt/magpul-mbus-pro-front-sight-kaufen-hooded-visier/) | Magpul MBUS Pro Sight – Front (129.90 CHF, https://armatum.ch/produkt/magpul-mbus-pro-sight-front/) | Magpul MBUS Pro Sight – Rear (154.90 CHF, https://armatum.ch/produkt/magpul-mbus-pro-sight-rear/)",
+    "mp-mbusoff": "ok: szett (első + hátsó irányzék): a bolt az elsőt és a hátsót külön termékként árulja, szett nincs; legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS Pro Offset Sight – Front (129.90 CHF, https://armatum.ch/produkt/magpul-mbus-pro-offset-sight-front/) | Magpul MBUS Pro Offset Sight – Rear (159.90 CHF, https://armatum.ch/produkt/magpul-mbus-pro-offset-sight-rear/)",
+    "sf-m600": "ok: az M600 lámpa nincs a boltban (csak M600 LED-modul alkatrész); legközelebbi bolti termék(ek), NEM azonos: LED Modul SureFire Upgrade für M600 Scout Light Schwarz 1000 Lumen (329.00 CHF, https://armatum.ch/produkt/surefire-led-upgrade-modul-m600-scout-light-1000-lumen/)",
+    "sf-m300": "ok: csak M340C / M340T Mini Scout Light Pro (más típus); M300 nincs; legközelebbi bolti termék(ek), NEM azonos: Montage SureFire Picatinny für M340 Scout Light Pro & M640 Scout Light Pro Tan (85.90 CHF, https://armatum.ch/produkt/surefire-picatinny-montage-scout-light-pro-m340-m640-tan/) | SureFire Picatinny Montage für M340 Scout Light Pro & M640 Scout Light Pro Schwarz (85.90 CHF, https://armatum.ch/produkt/surefire-picatinny-montage-scout-light-pro-m340-m640-schwarz/) | SureFire M-LOK Montage für M340 Scout Light Pro & M640 Scout Light Pro Schwarz (85.90 CHF, https://armatum.ch/produkt/surefire-m-lok-montage-scout-light-pro-m340-m640-schwarz/) | SureFire Lampe M340C Mini Scout Light Pro (379.00 CHF, https://armatum.ch/produkt/surefire-lampe-m340c-mini/)",
+    "sl-tlr1": "ok: csak TLR-1 HL-X USB (más típus); TLR-1 HL nincs; legközelebbi bolti termék(ek), NEM azonos: Streamlight TLR-1 HL-X USB Waffenlampe Schwarz (366.40 CHF, https://armatum.ch/produkt/streamlight-tlr-1-hl-x-usb-waffenlampe-schwarz/)",
+    "mp-rvg": "ok: az 'M-LOK RVG' nincs a boltban: a bolti RVG a Picatinny (M1913) változat, ill. külön 'RVG M-LOK Adapter Rail' - nem azonos; legközelebbi bolti termék(ek), NEM azonos: Magpul RVG M-LOK Adapter Rail (10.90 CHF, https://armatum.ch/produkt/rvg-m-lok-adapter-rail-magpul/) | Magpul RVG – Rail Vertical Grip – ODG (29.90 CHF, https://armatum.ch/produkt/magpul-rvg-vertical-grip-kaufen-picatinny-vordergriff/) | Magpul RVG – Rail Vertical Grip – Gray (29.90 CHF, https://armatum.ch/produkt/magpul-rvg-vertical-grip-kaufen-picatinny-vordergriff-2/) | Magpul RVG – Rail Vertical Grip – FDE (29.90 CHF, https://armatum.ch/produkt/magpul-rvg-vertical-grip-kaufen-picatinny-vordergriff-3/)",
+    "bcm-vg3": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-kag": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "mp-cable": "ok: a Magpul M-LOK Cable Management Kit nincs a boltban; a 'WCK - Wire Control Kit' más termék; legközelebbi bolti termék(ek), NEM azonos: Magpul WCK Wire Control Kit M-LOK – ODG (24.90 CHF, https://armatum.ch/produkt/magpul-wire-control-wck-m-lok-3/) | Magpul WCK Wire Control Kit M-LOK – FDE (24.90 CHF, https://armatum.ch/produkt/magpul-wire-control-wck-m-lok/) | Magpul WCK Wire Control Kit M-LOK – Schwarz (24.90 CHF, https://armatum.ch/produkt/magpul-wire-control-wck-m-lok-2/)",
+    "hr-sbrm": "ok: a bolti Harris M-LOK bipod a BRM (cikkszám HAS-BRM-MLOK, nem dönthető 'S' / swivel); az S-BRM ('Swivel gekerbte Beine 6-9\"') csak M-LOK adapter nélkül kapható; legközelebbi bolti termék(ek), NEM azonos: Harris Bipod Zweibeinstütze Swivel glatte Beine 9″-13″ (189.90 CHF, https://armatum.ch/produkt/harris-bipod-swivel-zweibeinstuetze-3/) | Harris Bipod Zweibeinstütze Swivel glatte Beine 6″-9″ (189.90 CHF, https://armatum.ch/produkt/harris-bipod-swivel-zweibeinstuetze/) | Harris Bipod Zweibeinstütze Swivel gekerbte Beine 9″-13″ (189.90 CHF, https://armatum.ch/produkt/harris-bipod-swivel-zweibeinstuetze-4/) | Harris Bipod Zweibeinstütze, Swivel gekerbte Beine, 6″-9″ (189.90 CHF, https://armatum.ch/produkt/harris-bipod-swivel-zweibeinstuetze-2/)",
+    "bcm-comp0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "sf-rc2": "ok: a SOCOM556-RC2 hangtompító nincs a boltban",
+    "gs-ssae": "ok: Geissele elsütő nincs a boltban (csak Geissele Super Duty puska)",
+    "gs-ssa": "ok: Geissele elsütő nincs a boltban (csak Geissele Super Duty puska)",
+    "gs-sde": "ok: Geissele elsütő nincs a boltban (csak Geissele Super Duty puska)",
+    "gs-s3g": "ok: Geissele elsütő nincs a boltban (csak Geissele Super Duty puska)",
+    "rd-raptor": "ok: a Raptor (nem LT) nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Radian Weapons Raptor-LT AR15/M16 Ladehebel Schwarz (99.00 CHF, https://armatum.ch/produkt/raptor-lt-ar15-radian-weapons-schwarz/) | Radian Weapons Raptor-LT AR10/SR25 Ladehebel Schwarz (119.00 CHF, https://armatum.ch/produkt/raptor-lt-ar10-radian-weapons-schwarz/)",
+    "rd-raptorsd": "ok: a Raptor-SD nincs a boltban",
+    "bcm-ch4": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-ch3": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "gs-ach": "ok: Geissele felhúzókar nincs a boltban",
+    "rd-talon": "ok: a Radian Talon nincs a boltban",
+    "bfg-vickers": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)"
+  },
+  "blocked": null
+}

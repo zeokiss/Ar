@@ -1,0 +1,580 @@
+{
+ "shop": "armashop.ch",
+ "currency": "CHF",
+ "fetched": "2026-11-10",
+ "source": "https://armashop.ch/product-sitemap*.xml + termékoldalak (JSON-LD)",
+ "price_basis": "a bolt kiírt ára CHF-ben (akciónál price_chf = akciós ár, list_chf = eredeti ár); a webshop 'kosara' e-mailes rendelést küld",
+ "items": {
+  "mp-moe": {
+   "title": "Magpul MOE Pistol Grip AR15 BLK",
+   "price_chf": 25.9,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/moe-pistol-grip-ar15-blk/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/mag415-blk_magpul_moe_grip-ar15-m4_01.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385562777",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "Noir",
+   "color": "black",
+   "colors_prices": {
+    "black": {
+     "price_chf": 25.9,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/moe-pistol-grip-ar15-blk/",
+     "in_stock": true,
+     "title": "Magpul MOE Pistol Grip AR15 BLK"
+    }
+   },
+   "match": "exact",
+   "note": "a bolt 'Coyote' színű MOE markolatot is árul (a 'Couleur' mezője FDE-t ír) – a Coyote/FDE ellentmondás miatt nem soroltuk a palettához"
+  },
+  "mp-moek2": {
+   "title": "Magpul MOE-K2 AR Pistol Grip FDE",
+   "price_chf": 25.9,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/moe-k2-ar-pistol-grip-fde/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/mag522-fde_magpul_moe-k2_grip_ar15-m4_01.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385567140",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "FDE",
+   "color": "fde",
+   "colors_prices": {
+    "fde": {
+     "price_chf": 25.9,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/moe-k2-ar-pistol-grip-fde/",
+     "in_stock": true,
+     "title": "Magpul MOE-K2 AR Pistol Grip FDE"
+    }
+   },
+   "match": "exact",
+   "note": "csak FDE színben kapható"
+  },
+  "mp-ctr": {
+   "title": "Magpul Stock CTR FDE",
+   "price_chf": 89.9,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/stock-ctr-fde/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/mag310_fde_1.png",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385567047",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "FDE",
+   "color": "fde",
+   "colors_prices": {
+    "fde": {
+     "price_chf": 89.9,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/stock-ctr-fde/",
+     "in_stock": true,
+     "title": "Magpul Stock CTR FDE"
+    }
+   },
+   "match": "exact",
+   "note": "csak FDE színben; a bolt nem jelöli a Mil-Spec/Commercial kivitelt"
+  },
+  "mp-moeslk": {
+   "title": "Magpul MOE SL-K Carabine Stock BLK",
+   "price_chf": 65.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/moe-sl-k-carabine-stock-blk/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/mag626-blk_magpul_moe_sl-k_carbine_stock_mil-spec_01_1.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385568096",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "Noir",
+   "color": "black",
+   "colors_prices": {
+    "black": {
+     "price_chf": 65.0,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/moe-sl-k-carabine-stock-blk/",
+     "in_stock": true,
+     "title": "Magpul MOE SL-K Carabine Stock BLK"
+    },
+    "fde": {
+     "price_chf": 65.0,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/moe-sl-k-carabine-stock-fde/",
+     "in_stock": true,
+     "title": "Magpul MOE SL-K Carabine Stock FDE"
+    }
+   },
+   "match": "exact"
+  },
+  "mp-prs3": {
+   "title": "Magpul PRS GEN3 Stock Black",
+   "price_chf": 365.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/prs-gen3-stock-black/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/mag672-blk_prs_gen3_precision-adjustable_stock_01_1.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385566432",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "Noir",
+   "color": "black",
+   "colors_prices": {
+    "black": {
+     "price_chf": 365.0,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/prs-gen3-stock-black/",
+     "in_stock": true,
+     "title": "Magpul PRS GEN3 Stock Black"
+    },
+    "fde": {
+     "price_chf": 365.0,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/prs-gen3-stock-fde/",
+     "in_stock": true,
+     "title": "Magpul PRS GEN3 Stock FDE"
+    }
+   },
+   "match": "exact"
+  },
+  "mp-prslite": {
+   "title": "Magpul PRS Lite Stock BK",
+   "price_chf": 165.9,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/prs-lite-stock-bk/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/mag1159-blk_magpul_prs_lite_stock_01_1.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385565597",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "Noir",
+   "color": "black",
+   "colors_prices": {
+    "black": {
+     "price_chf": 165.9,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/prs-lite-stock-bk/",
+     "in_stock": true,
+     "title": "Magpul PRS Lite Stock BK"
+    },
+    "fde": {
+     "price_chf": 165.9,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/prs-lite-stock-fde/",
+     "in_stock": true,
+     "title": "Magpul PRS Lite Stock FDE"
+    }
+   },
+   "match": "exact"
+  },
+  "eo-exps3": {
+   "title": "EoTech EXPS3-0",
+   "price_chf": 1100.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/exps3-0/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/exps3_rlo_clipped_rev_1-1.jpeg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "35645",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "Noir",
+   "alternatives": [
+    {
+     "title": "EoTech EXPS3-0TAN",
+     "url": "https://armashop.ch/produit/exps3-0tan/",
+     "price_chf": 1100.0
+    }
+   ],
+   "match": "exact",
+   "note": "fekete; a bolt TAN színben is árulja (EXPS3-0TAN)"
+  },
+  "hs-aems": {
+   "title": "HOLOSUN AEMS Advanced Encoldes Micro Red Dot Sight 2MOA 65 MOA Circle Dot",
+   "price_chf": 645.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/aems-advanced-encoldes-micro-red-dot-sight-2moa-65-moa-circle-dot/",
+   "image": "https://armashop.ch/wp-content/uploads/2022/11/d9a5baaaf7bf8dede2c38cb72c56cd32.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385557943",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": null,
+   "match": "exact",
+   "note": "eredeti AEMS (2 MOA pont + 65 MOA kör)"
+  },
+  "vx-uh1": {
+   "title": "Vortex Red Dot AMG UH-1 Gen 2",
+   "price_chf": 906.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/red-dot-amg-uh-1-gen-2/",
+   "image": "https://armashop.ch/wp-content/uploads/2025/11/Capture-decran-2025-11-19-093153.png",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385569251",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": null,
+   "match": "exact"
+  },
+  "vx-se16": {
+   "title": "Vortex ShortDot Strike Eagle 1-6×24 AR-BDC3 MOA",
+   "price_chf": 499.99,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/shortdot-strike-eagle-1-6x24-ar-bdc3-moa/",
+   "image": "https://armashop.ch/wp-content/uploads/2023/08/vortex-strike-eagle-1-6x24-riflescope-ar-bdc3-reticle-moa.jpeg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "29866",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": null,
+   "match": "exact",
+   "note": "bolti név: 'ShortDot Strike Eagle 1-6x24 AR-BDC3 MOA'; a bolt 'Strike Eagle 1-6x24 Gen 2' terméket is árul (470 CHF), annak azonossága leírás hiányában nem igazolt"
+  },
+  "gs-sp30": {
+   "title": "Geissele Super Precision Scope Mount -30MM Black",
+   "price_chf": 428.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/super-precision-scope-mount-30mm-black/",
+   "image": "https://armashop.ch/wp-content/uploads/2025/10/optics-accessories-geissele-automatics-geissele-automatics-super-precision-geissele-05-404b-30mm-standard-mount-38217088958695_1800x1800.webp",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385571574",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "Noir",
+   "match": "exact",
+   "note": "alap 'Super Precision 30mm' (az Extended / HyperExtended külön termék); a magasságot a bolti oldal nem írja"
+  },
+  "hs-hm3x": {
+   "title": "HOLOSUN Magnifier 3x, HM3X",
+   "price_chf": 354.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/magnifier-3x-hm3x/",
+   "image": "https://armashop.ch/wp-content/uploads/2022/02/4564564668635.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4564564668635",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": null,
+   "match": "exact"
+  },
+  "mp-hstop": {
+   "title": "Magpul Hand Stop Kit M-LOK",
+   "price_chf": 36.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/hand-stop-kit-m-lok-2/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/mag608-blk_magpul_m-lok_hand_stop_kit_01.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385562767-1-1-1",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "Noir",
+   "color": "black",
+   "colors_prices": {
+    "black": {
+     "price_chf": 36.0,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/hand-stop-kit-m-lok-2/",
+     "in_stock": true,
+     "title": "Magpul Hand Stop Kit M-LOK"
+    }
+   },
+   "alternatives": [
+    {
+     "title": "Magpul Hand Stop Kit M-LOK",
+     "url": "https://armashop.ch/produit/hand-stop-kit-m-lok/",
+     "price_chf": 36.0
+    }
+   ],
+   "match": "exact",
+   "note": "a bolt egy második, szín nélküli 'Hand Stop Kit M-LOK' terméket is listáz azonos áron"
+  },
+  "bcm-kag": {
+   "title": "BCM KAG M-LOCk BLK",
+   "price_chf": 35.0,
+   "list_chf": 40.0,
+   "url": "https://armashop.ch/produit/kag-m-lock-blk/",
+   "image": "https://armashop.ch/wp-content/uploads/2025/05/l_100026752_2.webp",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385566367",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "Noir",
+   "color": "black",
+   "colors_prices": {
+    "black": {
+     "price_chf": 35.0,
+     "list_chf": 40.0,
+     "url": "https://armashop.ch/produit/kag-m-lock-blk/",
+     "in_stock": true,
+     "title": "BCM KAG M-LOCk BLK"
+    },
+    "fde": {
+     "price_chf": 35.0,
+     "list_chf": 40.0,
+     "url": "https://armashop.ch/produit/kag-m-lock-fde/",
+     "in_stock": true,
+     "title": "BCM KAG M-LOCK FDE"
+    }
+   },
+   "match": "exact"
+  },
+  "mp-cover": {
+   "title": "Magpul M-LOK Rail cover type 2 FDE",
+   "price_chf": 25.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/m-lok-rail-cover-type-2-fde/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/mag603-fde_m-lok_rail_covers_type_2_01.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385565600",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "FDE",
+   "color": "fde",
+   "colors_prices": {
+    "fde": {
+     "price_chf": 25.0,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/m-lok-rail-cover-type-2-fde/",
+     "in_stock": true,
+     "title": "Magpul M-LOK Rail cover type 2 FDE"
+    }
+   },
+   "match": "exact",
+   "note": "csak FDE színben (a fekete/OD csak Type 1)"
+  },
+  "mp-bipod": {
+   "title": "Magpul M-LOK Bipod",
+   "price_chf": 160.0,
+   "list_chf": 175.0,
+   "url": "https://armashop.ch/produit/m-lok-bipod/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/mag933-blk_magpul_bipod_m-lok_02_1.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385568098",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": null,
+   "colors_prices": {
+    "fde": {
+     "price_chf": 160.0,
+     "list_chf": 175.0,
+     "url": "https://armashop.ch/produit/magpul-m-lok-bipod/",
+     "in_stock": true,
+     "title": "Magpul Magpul M-LOK Bipod"
+    }
+   },
+   "match": "exact",
+   "note": "a fő tétel ('M-LOK Bipod') színe nincs megadva; a 'Magpul M-LOK Bipod' TAN (=FDE) színű"
+  },
+  "sf-warcomp": {
+   "title": "Surefire WARCOMP Flash Hider",
+   "price_chf": 230.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/39964/",
+   "image": "https://armashop.ch/wp-content/uploads/2025/05/Capture-decran-2025-05-10-152520.png",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "39964",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": null,
+   "match": "exact",
+   "note": "1/2-28 UNEF, .223/5.56"
+  },
+  "mp-pm40": {
+   "title": "Magpul PMAG AR/M4 40 coups 556 Gen3 BLK",
+   "price_chf": 37.9,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/pmag-ar-m4-40-coups-556-gen3-blk/",
+   "image": "https://armashop.ch/wp-content/uploads/2024/09/mag233-blk_magpul_pmag_40_ar_m4_gen_m3_02_1.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385568095",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "Noir",
+   "color": "black",
+   "colors_prices": {
+    "black": {
+     "price_chf": 37.9,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/pmag-ar-m4-40-coups-556-gen3-blk/",
+     "in_stock": true,
+     "title": "Magpul PMAG AR/M4 40 coups 556 Gen3 BLK"
+    }
+   },
+   "match": "exact",
+   "note": "bolti 'Gen3' = Gen M3"
+  },
+  "mp-d60": {
+   "title": "Magpul AR-15 PMAG D-60",
+   "price_chf": 230.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/ar-15-pmag-d-60/",
+   "image": "https://armashop.ch/wp-content/uploads/2025/10/l_100016592_5.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4564564666509",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": "Black",
+   "color": "black",
+   "colors_prices": {
+    "black": {
+     "price_chf": 230.0,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/ar-15-pmag-d-60/",
+     "in_stock": true,
+     "title": "Magpul AR-15 PMAG D-60"
+    }
+   },
+   "match": "exact"
+  },
+  "mp-ms1": {
+   "title": "Magpul Sling MS1 Coyote",
+   "price_chf": 99.0,
+   "list_chf": null,
+   "url": "https://armashop.ch/produit/sling-ms1-coyote/",
+   "image": "https://armashop.ch/wp-content/uploads/2023/09/l_100026956_2.jpg",
+   "in_stock": true,
+   "stock_text": "InStock",
+   "sku": "4717385559041",
+   "mpn": null,
+   "weight_g": null,
+   "dims": null,
+   "color_shop": null,
+   "color": "coyote",
+   "colors_prices": {
+    "coyote": {
+     "price_chf": 99.0,
+     "list_chf": null,
+     "url": "https://armashop.ch/produit/sling-ms1-coyote/",
+     "in_stock": true,
+     "title": "Magpul Sling MS1 Coyote"
+    }
+   },
+   "match": "exact",
+   "note": "csak Coyote színben; a bolt nem jelzi, hogy 'Padded' lenne (ára a más boltokban látott sima MS1-árnál jóval magasabb)"
+  }
+ },
+ "unmatched": {
+  "schm-s4f": "ok: csak 'Ar15-9 S4F' (9 mm-es változat) van, az AR15 S4F (.223) nincs; legközelebbi bolti termék(ek), NEM azonos: Schmeisser Ar15-9 S4F Bronze 10.5” (1990.00 CHF, https://armashop.ch/produit/ar15-9-s4f-bronze-10-5/)",
+  "schm-m4fl": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "schm-m5fl": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "schm-dyn": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "dd-v7": "ok: nincs DDM4 V7 (alapkivitel) a boltban, csak V7 P / V7 S / V7 K változatok; legközelebbi bolti termék(ek), NEM azonos: Daniel Defense DDM4 V7s (2550.00 CHF, https://armashop.ch/produit/ddm4-v7p/) | Daniel Defense DDM4 V7s CHOCOLATE CHIP CERAKOTE FINISH (3350.00 CHF, https://armashop.ch/produit/ddm4-v7s-chocolate-chip-cerakote-finish/) | Daniel Defense DDM4 V7 K 10.3′′ LE Exclusive (2499.00 CHF, https://armashop.ch/produit/ddm4-v7-k-10-3-le-exclusive/)",
+  "bcm-recce16": "ok: nincs BCM RECCE-16 a boltban (csak BCM4 / MK2 puskák); legközelebbi bolti termék(ek), NEM azonos: BCM AR-15 BCM4 (2300.00 CHF, https://armashop.ch/produit/ar-15-bcm4/)",
+  "mp-moek2p": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-miad": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "bcm-g0": "ok: csak BCM Grip Mod 1 van, Mod 0 nincs; legközelebbi bolti termék(ek), NEM azonos: BCM Grip Mod 1 BLK (44.00 CHF, https://armashop.ch/produit/grip-mod-1-blk/)",
+  "bcm-g3": "ok: csak BCM Grip Mod 1 van, Mod 3 nincs; legközelebbi bolti termék(ek), NEM azonos: BCM Grip Mod 1 BLK (44.00 CHF, https://armashop.ch/produit/grip-mod-1-blk/)",
+  "b5-t22": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "b5-t23": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-moesl": "ok: teljes méretű MOE SL tus nincs, csak MOE Carbine és MOE SL-K; legközelebbi bolti termék(ek), NEM azonos: Magpul MOE Carabine Stock FDE (65.00 CHF, https://armashop.ch/produit/moe-carabine-stock-fde/) | Magpul MOE SL-K Carabine Stock BLK (65.00 CHF, https://armashop.ch/produit/moe-sl-k-carabine-stock-blk/)",
+  "mp-ubr2": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "bcm-s0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "bcm-s1": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "b5-bravo": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "b5-esop": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "b5-prec": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-pad030": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-pad055": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-pad070": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-padsl": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "ap-t2": "ok: nincs Micro T-2 (+ LRP) a boltban, csak Micro H-1 / H-2 változatok; legközelebbi bolti termék(ek), NEM azonos: Aimpoint Micro H-2, without IR level, 2MOA, with Picatinny Mount (704.00 CHF, nincs készleten, https://armashop.ch/produit/micro-h-2-without-ir-level-2moa-with-picatinny-mount/)",
+  "ap-m5": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "ap-pro": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "ap-acro": "ok: csak ACRO P-1 + QD Picatinny és ACRO S-2 van, ACRO P-2 nincs; legközelebbi bolti termék(ek), NEM azonos: Aimpoint Red Dot ACRO P-1 & QD Picatiny (721.50 CHF, nincs készleten, https://armashop.ch/produit/red-dot-acro-p-1-qd-picatiny/)",
+  "eo-exps2": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "eo-xps2": "ok: csak XPS2-2 (két pontos retikül) van, XPS2-0 nincs; legközelebbi bolti termék(ek), NEM azonos: EoTech XPS2-2 (883.00 CHF, https://armashop.ch/produit/xps2-2/)",
+  "hs-510c": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "hs-403b": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "tj-mro": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "vx-sparc": "ok: a bolti 'Upgrade' megnevezésű Vortex red dot leírás nélkül szerepel; a csomag tartalma (magasító) és a pontos modell nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Vortex Red Dot Sparc AR Upgrade 2 MOA (264.90 CHF, https://armashop.ch/produit/red-dot-sparc-ar-upgrade-2-moa/)",
+  "vx-crossfire": "ok: a bolti 'Upgrade' megnevezésű Vortex red dot leírás nélkül szerepel; a csomag tartalma (magasító) és a pontos modell nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Vortex Red Dot Crossfire Upgrade 2MOA (179.90 CHF, nincs készleten, https://armashop.ch/produit/red-dot-crossfire-upgrade-2moa/) | Vortex Red Dot Crossfire Upgrade 2MOA TAN (190.00 CHF, https://armashop.ch/produit/red-dot-crossfire-upgrade-2moa-tan/)",
+  "vx-se18": "ok: csak 'Strike Eagle 1-8x24 Gen 2' van; leírás nélkül (fókuszsík, retikül) nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Vortex Strike Eagle 1-8×24 Gen 2 (700.00 CHF, https://armashop.ch/produit/strike-eagle-1-8x24-gen-2/)",
+  "vx-pst16": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "vx-razor110": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "tj-acog": "ok: csak LED-es (elemes) ACOG van (4x32 TA51 szerelékkel / 3.5x35), az elem nélküli TA31 nincs; legközelebbi bolti termék(ek), NEM azonos: Trijicon ACOG 4×32 Red LED .223 Crosshair TA51 Mount (1850.00 CHF, https://armashop.ch/produit/acog-4x32-red-led-223-crosshair-ta51-mount/)",
+  "tj-credo16": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "tj-vcog": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "eo-vudu16": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "eo-vudu110": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "vx-cant30": "ok: a bolti 'Vortex Cantilever 30mm mount' leírás nélkül szerepel (Sport sorozat, magasság, előretolás nincs megadva) – nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Vortex Cantilever 30mm mount (169.90 CHF, https://armashop.ch/produit/cantilever-30-mm-mount/)",
+  "eo-g33": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "eo-g43": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "ap-3x": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "vx-m3x": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-mbus3": "ok: szett (első + hátsó irányzék): a bolt az elsőt és a hátsót külön termékként árulja, szett nincs; legközelebbi bolti termék(ek), NEM azonos: Magpul Sight MBUS 3 Front BLK (50.90 CHF, https://armashop.ch/produit/sight-mbus-3-front-blk/) | Magpul Sight MBUS 3 Rear BLK (75.90 CHF, https://armashop.ch/produit/sight-mbus-3-rear-blk/)",
+  "mp-mbuspro": "ok: MBUS Pro nincs a boltban, csak az eredeti MBUS (külön első/hátsó); legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS Sight Front (64.95 CHF, https://armashop.ch/produit/mbus-sight-front/)",
+  "mp-mbusoff": "ok: szett (első + hátsó irányzék): a bolt az elsőt és a hátsót külön termékként árulja, szett nincs; legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS Pro Offset Sight Front Black (123.90 CHF, https://armashop.ch/produit/mbus-pro-offset-sight-front-black/) | Magpul MBUS Pro Offset Sight Rear Black (152.90 CHF, https://armashop.ch/produit/mbus-pro-offset-sight-rear-black/)",
+  "sf-m600": "ok: a bolti 'Scout Light Pro' típusjelzése (M600DF / M600U ...) nincs megadva – nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Surefire LampeScout Light Pro BLK (370.00 CHF, https://armashop.ch/produit/lampescout-light-pro-blk-arrive-prochainement/)",
+  "sf-m640": "ok: a bolt M640U-t árul, a data.js M640DF (Dual Fuel) – más típus; legközelebbi bolti termék(ek), NEM azonos: Surefire M640U Scout Pro Black (385.00 CHF, https://armashop.ch/produit/m640u-scout-pro-black/)",
+  "sf-m300": "ok: csak M340C Mini Scout van, M300 Mini Scout Light Pro nincs; legközelebbi bolti termék(ek), NEM azonos: Surefire Lampe M340C Mini Scout Light BLK (370.00 CHF, https://armashop.ch/produit/lampe-m340c-mini-scout-light-blk-arrive-prochainement/)",
+  "sf-x300": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "sl-hlx": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "sl-tlr1": "ok: csak használt (Occasion) TLR-1 van; legközelebbi bolti termék(ek), NEM azonos: Streamlight TLR-1 Occasion BK (80.00 CHF, nincs készleten, https://armashop.ch/produit/tlr-1-occasion-bk/)",
+  "mp-rvg": "ok: csak a Picatinny-s 'RVG Rail Vertical Grip' van, az M-LOK RVG nincs; legközelebbi bolti termék(ek), NEM azonos: Magpul RVG Rail Vertical Grip Black (31.90 CHF, https://armashop.ch/produit/rvg-rail-vertical-grip-black/)",
+  "bcm-vg3": "ok: a 'BCM Vertical Grip Mod 3' rögzítési módja (M-LOK / Picatinny / KeyMod) nincs megadva; legközelebbi bolti termék(ek), NEM azonos: BCM Vertical Grip Mod 3 BLK (35.00 CHF, https://armashop.ch/produit/vertical-grip-mod-3-blk/) | BCM Vertical Grip Mod 3 FDE (35.00 CHF, https://armashop.ch/produit/vertical-grip-mod-3-fde/)",
+  "mp-rail5": "ok: a 'Magpul Aluminium Rail M-LOK' slotszáma nincs megadva; 5 slotos alumínium sín nem azonosítható; legközelebbi bolti termék(ek), NEM azonos: Magpul Aluminium Rail M-LOK (30.00 CHF, https://armashop.ch/produit/aluminium-rail-m-lok/) | Magpul M-Lok Aluminum rail 7 slots (32.00 CHF, https://armashop.ch/produit/m-lok-aluminum-rail-7-slots/)",
+  "mp-qd": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-cable": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "hr-sbrm": "ok: Harris bipod nincs, csak Tac Shield Bipod 6-9\" (más gyártó); legközelebbi bolti termék(ek), NEM azonos: Tac Shield Bipod 6-9” (57.40 CHF, nincs készleten, https://armashop.ch/produit/bipod-6-9/)",
+  "sf-3p": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "bcm-comp0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "sf-rc2": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "gs-ssae": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "gs-ssa": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "gs-sde": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "gs-s3g": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "rd-raptor": "ok: a bolti 'Radian Weapons levier d’armement ambidextre' terméknél a típus (Raptor / Raptor-LT / Raptor-SD) nincs megadva – nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Radian Weapons levier d’armement ambidextre BLK (180.00 CHF, https://armashop.ch/produit/levier-d-armement-ambidextre-blk/) | Radian Weapons levier d’armement ambidextre FDE (180.00 CHF, https://armashop.ch/produit/levier-d-armement-ambidextre-fde/)",
+  "rd-raptorlt": "ok: a bolti 'Radian Weapons levier d’armement ambidextre' terméknél a típus (Raptor / Raptor-LT / Raptor-SD) nincs megadva – nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Radian Weapons levier d’armement ambidextre BLK (180.00 CHF, https://armashop.ch/produit/levier-d-armement-ambidextre-blk/)",
+  "rd-raptorsd": "ok: a bolti 'Radian Weapons levier d’armement ambidextre' terméknél a típus (Raptor / Raptor-LT / Raptor-SD) nincs megadva – nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Radian Weapons levier d’armement ambidextre BLK (180.00 CHF, https://armashop.ch/produit/levier-d-armement-ambidextre-blk/)",
+  "bcm-ch4": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "bcm-ch3": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "gs-ach": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "rd-talon": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-bad": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-trigguard": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-pm10": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-pm20": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "mp-pm30": "ok: 5.56 Gen M3 30-as PMAG csak 'Coyote' színben van (a bolti 'Couleur' mező FDE-t ír – ellentmondásos), ez nem azonosítható a data.js palettájával; a fekete 'PMAG ... 300 Gen M3' .300 BLK-hez készült, más termék; legközelebbi bolti termék(ek), NEM azonos: Magpul PMAG AR/M4 30 coups 556 Gen3 Coyote (23.90 CHF, https://armashop.ch/produit/pmag-ar-m4-30-coups-556-gen3-coyote/) | Magpul Magasin PMAG AR/M4 30 coups, 300 Gen M3 Black (29.90 CHF, https://armashop.ch/produit/magasin-pmag-ar-m4-30-coups-300-gen-m3-black/)",
+  "mp-pm30w": "ok: csak 'Window Coyote' van (a bolti 'Couleur' mező Noir-t ír – ellentmondásos); legközelebbi bolti termék(ek), NEM azonos: Magpul PMAG AR/M4 30 coups 556 Gen3 Window Coyote (28.90 CHF, https://armashop.ch/produit/pmag-ar-m4-30-coups-556-gen3-window-coyote/)",
+  "mp-ms4": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)",
+  "bfg-vickers": "ok: nincs a boltban (a bolt nem forgalmazza ezt a terméket)"
+ },
+ "blocked": null
+}

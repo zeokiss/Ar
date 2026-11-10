@@ -450,9 +450,10 @@ def search(http, q, max_pages=20):
             pr, lp = card_price(it.select_one(".article-list-item-price"))
             cards.append(dict(name=name, url=u, price=pr))
         nxt = s.select_one('.opc-segment-navigation[data-op-type="pagination"] [data-op-href]')
-        if not new or not nxt:
+        href = nxt["data-op-href"] if nxt else ""
+        if not new or "pposCatItem=" not in href or href.lower().startswith("javascript"):
             break
-        url = urllib.parse.urljoin(BASE, nxt["data-op-href"])
+        url = urllib.parse.urljoin(BASE, href)
     return cards
 
 

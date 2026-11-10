@@ -1,0 +1,592 @@
+{
+  "shop": "gunlex.ch",
+  "currency": "CHF",
+  "fetched": "2026-11-10",
+  "source": "https://gunlex.ch/?s=<keresőszó>&post_type=product (WooCommerce HTML-kereső; a Store API HTTP 500-at ad) + termékoldalak",
+  "price_basis": "a bolt kiírt fogyasztói ára (az AGB szerint MWST-vel); akciónál price_chf = 'Aktueller Preis', list_chf = 'Ursprünglicher Preis'",
+  "items": {
+    "schm-s4f": {
+      "title": "Schmeisser AR15 S4F",
+      "price_chf": 1745.0,
+      "list_chf": 1995.0,
+      "url": "https://gunlex.ch/shop/halbautomaten/schmeisser-ar15-s4f/",
+      "image": "https://gunlex.ch/wp-content/uploads/schmeisser-ar15-s4f-black-01.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "100478",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 1745.0,
+          "list_chf": 1995.0,
+          "url": "https://gunlex.ch/shop/halbautomaten/schmeisser-ar15-s4f/",
+          "in_stock": true,
+          "title": "Schmeisser AR15 S4F"
+        },
+        "bronze": {
+          "price_chf": 1790.0,
+          "list_chf": 2150.0,
+          "url": "https://gunlex.ch/shop/halbautomaten/schmeisser-ar15-s4f-bronze-2/",
+          "in_stock": true,
+          "title": "Schmeisser AR15 S4F Bronze"
+        }
+      },
+      "note": "standard kivitel (10.5\"); a SOLID LINE, CSS, Special Edition és a Falke LE optikás csomagok más termékek; a bolti név a feketénél nem írja ki a színt",
+      "match": "exact"
+    },
+    "schm-m4fl": {
+      "title": "Schmeisser AR15 M4FL",
+      "price_chf": 1690.0,
+      "list_chf": 1995.0,
+      "url": "https://gunlex.ch/shop/halbautomaten/schmeisser-ar15-m4fl/",
+      "image": "https://gunlex.ch/wp-content/uploads/schmeisser-ar15-m4fl-black-01.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "100479",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 1690.0,
+          "list_chf": 1995.0,
+          "url": "https://gunlex.ch/shop/halbautomaten/schmeisser-ar15-m4fl/",
+          "in_stock": true,
+          "title": "Schmeisser AR15 M4FL"
+        },
+        "bronze": {
+          "price_chf": 1850.0,
+          "list_chf": 2130.0,
+          "url": "https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-m4fl-bronze/",
+          "in_stock": false,
+          "title": "Schmeisser AR15 M4FL Bronze"
+        }
+      },
+      "note": "standard kivitel (14.5\"); a SOLID LINE, Special Edition és a Falke LE optikás csomagok más termékek; a bolti név a feketénél nem írja ki a színt; bronz: a bolti találati lista linkje egy másik termékoldalra (Schmeisser AR15 M4FL Bronze mit Falke LE) irányít; az ár és a készlet a találati listából",
+      "match": "exact"
+    },
+    "schm-m5fl": {
+      "title": "Schmeisser AR15 M5FL",
+      "price_chf": 1760.0,
+      "list_chf": 2015.0,
+      "url": "https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-m5fl/",
+      "image": "https://gunlex.ch/wp-content/uploads/schmeisser-ar15-m5fl-black-01.jpg",
+      "in_stock": false,
+      "stock_text": "Nicht vorrätig",
+      "sku": "100842",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 1760.0,
+          "list_chf": 2015.0,
+          "url": "https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-m5fl/",
+          "in_stock": false,
+          "title": "Schmeisser AR15 M5FL"
+        }
+      },
+      "note": "standard kivitel (16.75\"); a Falke LE optikás csomag más termék",
+      "match": "exact"
+    },
+    "mp-moek2p": {
+      "title": "Magpul MOE K2+Grip",
+      "price_chf": 28.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/griff/magpul-moe-k2grip/",
+      "image": "https://gunlex.ch/wp-content/uploads/Magpul-MOE-K2-4.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "122177",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {},
+      "note": "a bolti név/cikkszám nem adja meg a színt",
+      "match": "exact"
+    },
+    "mp-ctr": {
+      "title": "Magpul CTR Carbine Stock Mil Spec Black",
+      "price_chf": 89.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/griff/magpul-ctr-carbine-stock-mil-spec-black/",
+      "image": "https://gunlex.ch/wp-content/uploads/magpul-ctr-stock-01.jpg",
+      "in_stock": false,
+      "stock_text": "Nicht vorrätig",
+      "sku": "121558",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 89.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/griff/magpul-ctr-carbine-stock-mil-spec-black/",
+          "in_stock": false,
+          "title": "Magpul CTR Carbine Stock Mil Spec Black"
+        }
+      },
+      "note": "Mil-Spec csöves kivitel",
+      "match": "exact"
+    },
+    "hs-510c": {
+      "title": "Holosun HS510C",
+      "price_chf": 379.0,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/reflexvisiere/holosun-hs510c/",
+      "image": "https://gunlex.ch/wp-content/uploads/holosun-hs510c-2.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "100204",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {},
+      "alternatives": [
+        {
+          "title": "Holosun HS510C Solar Red Circle Dot Sight FDE",
+          "color": "fde",
+          "price_chf": 361.0,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://gunlex.ch/shop/reflexvisiere/holosun-hs510c-solar-red-circle-dot-sight-fde/",
+          "sku": "122016"
+        }
+      ],
+      "note": "a FDE változat külön tétel (más ár)",
+      "match": "variant"
+    },
+    "tj-acog": {
+      "title": "Trijicon TA31",
+      "price_chf": 2401.5,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/reflexvisiere/trijicon/",
+      "image": "https://gunlex.ch/wp-content/uploads/2023/07/main-97.jpg",
+      "in_stock": false,
+      "stock_text": "Nicht vorrätig",
+      "sku": "100192",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {},
+      "note": "TA31 (4x32 ACOG, .223 Rem) - a bolti oldal a szálkereszt-változatot nem adja meg; a data.js sem határozza meg",
+      "match": "variant"
+    },
+    "eo-vudu110": {
+      "title": "EOTech VUDU 1-10×28 FFP",
+      "price_chf": 2199.0,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/zielfernrohre/eotech-vudu-1-10x28-ffp/",
+      "image": "https://gunlex.ch/wp-content/uploads/eo-tech-vudu-1-10x28-ffp-122416-3.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "122416",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {},
+      "note": "FFP kivitel",
+      "match": "exact"
+    },
+    "hs-hm3x": {
+      "title": "Holosun HM3X",
+      "price_chf": 250.0,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/reflexvisiere/holosun-3x-magnifier/",
+      "image": "https://gunlex.ch/wp-content/uploads/2023/07/905c7e74-bfbb-4e89-808d-197519b5d6ad.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "100207",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "mp-hstop": {
+      "title": "Magpul M-LOK Hand Stop Kit",
+      "price_chf": 33.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/griff/magpul-m-lok-hand-stop-kit/",
+      "image": "https://gunlex.ch/wp-content/uploads/Magpul-M-LOK-Hand-Stop-Kit-3.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "122176",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/griff/magpul-m-lok-hand-stop-kit/",
+          "in_stock": true,
+          "title": "Magpul M-LOK Hand Stop Kit"
+        },
+        "fde": {
+          "price_chf": 33.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/griff/magpul-m-lok-hand-stop-kit-fde/",
+          "in_stock": true,
+          "title": "Magpul M-LOK Hand Stop Kit FDE"
+        }
+      },
+      "note": "a szín nélküli bolti tételt feketének vettük (az FDE külön tétel)",
+      "match": "exact"
+    },
+    "mp-qd": {
+      "title": "Magpul M-Lok QD Sling Mount",
+      "price_chf": 27.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/gewehrriemen/magpul-m-lok-qd-sling-mount/",
+      "image": "https://gunlex.ch/wp-content/uploads/magpul-mlok-qd-sling-mount-01.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "120424",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "mp-bipod": {
+      "title": "Magpul Zweibeinstütze M-Lok schwarz",
+      "price_chf": 164.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/zweibeinstuetzen/magpul-zweibeinstuetze-m-lok-schwarz/",
+      "image": "https://gunlex.ch/wp-content/uploads/magpul-zweibeinstuetze-m-lok-schwarz-03.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "120512",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 164.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/zweibeinstuetzen/magpul-zweibeinstuetze-m-lok-schwarz/",
+          "in_stock": true,
+          "title": "Magpul Zweibeinstütze M-Lok schwarz"
+        },
+        "fde": {
+          "price_chf": 164.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/zweibeinstuetzen/magpul-zweibeinstuetze-m-lok-fde/",
+          "in_stock": true,
+          "title": "Magpul Zweibeinstütze M-lok FDE"
+        }
+      },
+      "note": "a bolti leírás szerint 'Magpul Bipod for M-LOK'",
+      "match": "exact"
+    },
+    "sf-warcomp": {
+      "title": "SureFire Warcomp 556 1/2-28",
+      "price_chf": 205.0,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/muendungsbremsen-schalldaempfer/surefire-warcomp-556-1-2-28/",
+      "image": "https://gunlex.ch/wp-content/uploads/surefire-warcomp-556-1-2-28-122152-1.jpg",
+      "in_stock": false,
+      "stock_text": "Nicht vorrätig",
+      "sku": "122152",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {},
+      "match": "exact"
+    },
+    "sf-3p": {
+      "title": "Surefire Flash Hider 3 Prong 556",
+      "price_chf": 179.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/muendungsbremsen-schalldaempfer/surefire-flash-hider-3-prong-556/",
+      "image": "https://gunlex.ch/wp-content/uploads/surefire-flash-hider-3-pong-2-1.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "122711",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "colors_prices": {},
+      "note": "a bolti leírás szerint SF3P (5.56)",
+      "match": "exact"
+    },
+    "mp-pm10": {
+      "title": "Magpul Pmag10 AR/M4 GEN M3",
+      "price_chf": 21.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/magazine/magpul-pmag10-gen-3-223-rem-schwarz/",
+      "image": "https://gunlex.ch/wp-content/uploads/2023/07/cc24886e-e823-44d4-a285-66ff95221b4d.jpg",
+      "in_stock": false,
+      "stock_text": "Nicht vorrätig",
+      "sku": "100240",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 21.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/magazine/magpul-pmag10-gen-3-223-rem-schwarz/",
+          "in_stock": false,
+          "title": "Magpul Pmag10 AR/M4 GEN M3"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm30": {
+      "title": "Magpul PMAG 30 AR M4 GEN M3",
+      "price_chf": 20.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/magazine/magpul-pmag-30-ar-m4-gen-m3/",
+      "image": "https://gunlex.ch/wp-content/uploads/magpul-pmag30-ar-ma-gen3-05.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "120235",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 20.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/magazine/magpul-pmag-30-ar-m4-gen-m3/",
+          "in_stock": true,
+          "title": "Magpul PMAG 30 AR M4 GEN M3"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-pm30w": {
+      "title": "Magpul PMAG 30 AR/M4 GEN M3 .223 Rem Window",
+      "price_chf": 24.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/magazine/magpul-pmag30-gen-3-223-rem-schwarz/",
+      "image": "https://gunlex.ch/wp-content/uploads/2023/07/0c13ded1-b1e0-4f68-ae64-fa92c15e67dc.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "100238",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/magazine/magpul-pmag30-gen-3-223-rem-schwarz/",
+          "in_stock": true,
+          "title": "Magpul PMAG 30 AR/M4 GEN M3 .223 Rem Window"
+        },
+        "fde": {
+          "price_chf": 24.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/magazine/magpul-pmag30-gen-3-223-rem-tan/",
+          "in_stock": true,
+          "title": "Magpul PMAG 30 Gen 3 Window .223 Rem FDE"
+        }
+      },
+      "note": "az FDE tétel bolti neve 'PMAG 30 Gen 3 Window'",
+      "match": "exact"
+    },
+    "mp-pm40": {
+      "title": "MAGPUL PMAG 40 AR/M4 GEN M3",
+      "price_chf": 32.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/magazine/magpul-pmag-40-ar-m4-gen-m3/",
+      "image": "https://gunlex.ch/wp-content/uploads/magpul-pmag-40-ar-m4-gen-m3-122493-Folgenummer-1-2.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "122493",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 32.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/magazine/magpul-pmag-40-ar-m4-gen-m3/",
+          "in_stock": true,
+          "title": "MAGPUL PMAG 40 AR/M4 GEN M3"
+        }
+      },
+      "match": "exact"
+    },
+    "mp-ms1": {
+      "title": "Magpul MS1 Sling Black",
+      "price_chf": 50.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/gewehrriemen/magpul-ms1-sling-black/",
+      "image": "https://gunlex.ch/wp-content/uploads/magpul-ms1-sling-01.jpg",
+      "in_stock": false,
+      "stock_text": "Nicht vorrätig",
+      "sku": "121557",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 50.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/gewehrriemen/magpul-ms1-sling-black/",
+          "in_stock": false,
+          "title": "Magpul MS1 Sling Black"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Sling Magpul MS1 Grey",
+          "color": "gray",
+          "price_chf": 54.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://gunlex.ch/shop/gewehrriemen/sling-magpul-ms1-grey/",
+          "sku": "120319"
+        }
+      ],
+      "match": "exact"
+    },
+    "mp-ms4": {
+      "title": "Magpul Sling MS4 Dual QD black",
+      "price_chf": 114.9,
+      "list_chf": null,
+      "url": "https://gunlex.ch/shop/gewehrriemen/magpul-sling-ms4-dual-qd-black/",
+      "image": "https://gunlex.ch/wp-content/uploads/magpul-ms4-dual-qd-gen2-sling-03.jpg",
+      "in_stock": true,
+      "stock_text": "Vorrätig",
+      "sku": "120321",
+      "mpn": null,
+      "weight_g": null,
+      "dims": null,
+      "color": "black",
+      "colors_prices": {
+        "black": {
+          "price_chf": 114.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/gewehrriemen/magpul-sling-ms4-dual-qd-black/",
+          "in_stock": true,
+          "title": "Magpul Sling MS4 Dual QD black"
+        },
+        "ranger": {
+          "price_chf": 100.9,
+          "list_chf": null,
+          "url": "https://gunlex.ch/shop/gewehrriemen/magpul-ms4-dual-qd-gen2-ranger-green/",
+          "in_stock": true,
+          "title": "Magpul MS4 Dual QD Gen2 Ranger Green"
+        }
+      },
+      "alternatives": [
+        {
+          "title": "Magpul MS4 Dual QD Gen2 FDE",
+          "color": "fde",
+          "price_chf": 114.9,
+          "list_chf": null,
+          "in_stock": true,
+          "url": "https://gunlex.ch/shop/gewehrriemen/magpul-ms4-dual-qd-gen2-fde/",
+          "sku": "121636"
+        }
+      ],
+      "note": "az FDE tétel nem szerepel a data.js palettáján (black/coyote/ranger)",
+      "match": "exact"
+    }
+  },
+  "unmatched": {
+    "schm-dyn": "ok: a bolt 'AR15 Dynamic' (10.5\") és 'AR15 Dynamic L' (14.5\" / 16.75\") modelleket árul; a data.js 'AR15 Dynamic M5FL' megnevezésével való azonosság a bolti oldalon nincs kimondva -> bizonytalan, nem vettük fel; legközelebbi bolti termék(ek), NEM azonos: Schmeisser AR15 Dynamic L 16.75″ (2290.00 CHF, https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-dynamic-l-16-75/) | Schmeisser AR15 Dynamic L (2290.00 CHF, https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-dynamic-l/) | Schmeisser AR15 Dynamic Black (2290.00 CHF, https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-dynamic-black/) | Schmeisser AR15 Dynamic Grey (2490.00 CHF, https://gunlex.ch/shop/aktion-waffen/schmeisser-ar15-dynamic-grey/)",
+    "dd-v7": "ok: csak DDM4 V7 PRO / V7 SLW / V7K / V7S (más modellek); a sima DDM4 V7 nincs; legközelebbi bolti termék(ek), NEM azonos: Daniel Defense DDM4 V7S 11.5″ 5.56 (2320.00 CHF, https://gunlex.ch/shop/halbautomaten/daniel-defense-ddm4-v7s-11-5-5-56/) | Daniel Defense DDM4 V7 SLW 14.5″ Black (2380.00 CHF, https://gunlex.ch/shop/halbautomaten/daniel-defense-ddm4-v7-slw-14-5-black/) | Daniel Defense DDM4 V7K (2580.00 CHF, https://gunlex.ch/shop/halbautomaten/daniel-defense-ddm4-v7k-law-tactical/) | Daniel Defense DDM4 V7 SLW Deep Woods Green 14.5″ (2690.00 CHF, https://gunlex.ch/shop/halbautomaten/daniel-defense-ddm4-v7-slw-deep-woods-green-14-5/)",
+    "bcm-recce16": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "mp-moe": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Magpul MOE K2+Grip (28.90 CHF, https://gunlex.ch/shop/griff/magpul-moe-k2grip/)",
+    "mp-moek2": "ok: csak az AK-hoz való MOE-K2 AK markolat (más termék); legközelebbi bolti termék(ek), NEM azonos: Magpul MOE-K2 AK Schwarz (25.90 CHF, https://gunlex.ch/shop/griff/magpul-moe-k2-ak-schwarz/) | Magpul MOE-K2 AK FDE (25.90 CHF, https://gunlex.ch/shop/griff/magpul-moe-k2-ak-fde/) | Magpul MOE K2+Grip (28.90 CHF, https://gunlex.ch/shop/griff/magpul-moe-k2grip/)",
+    "mp-miad": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-g0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-g3": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-t22": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-t23": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "mp-moesl": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-moeslk": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-ubr2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-prs3": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-prslite": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "bcm-s0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-s1": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-bravo": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-esop": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "b5-prec": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "mp-pad030": "ok: a bolti 'Magpul Rubber Butt Pad' vastagsága/típusa (0.30\" / 0.55\" / 0.70\") nincs megadva, nem azonosítható biztosan; legközelebbi bolti termék(ek), NEM azonos: Magpul Rubber Butt Pad (20.00 CHF, https://gunlex.ch/shop/griff/magpul-rubber-butt-pad/)",
+    "mp-pad055": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Magpul Rubber Butt Pad (20.00 CHF, https://gunlex.ch/shop/griff/magpul-rubber-butt-pad/)",
+    "mp-pad070": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Magpul Rubber Butt Pad (20.00 CHF, https://gunlex.ch/shop/griff/magpul-rubber-butt-pad/)",
+    "mp-padsl": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Magpul Rubber Butt Pad (20.00 CHF, https://gunlex.ch/shop/griff/magpul-rubber-butt-pad/)",
+    "ap-t2": "ok: a bolti 'Micro T-2 2 MOA LRP Montage' (Aimpoint 200212) LRP szerelékkel, de 39 mm-es távtartó nélkül érkezik (optikai tengely 20 mm a szerelék felett) - nem a data.js 'Lower 1/3' kivitele; legközelebbi bolti termék(ek), NEM azonos: Aimpoint Micro T-2 2 MOA LRP Montage (1069.00 CHF, https://gunlex.ch/shop/reflexvisiere/aimpoint-micro-t-2-2-moa-lrp-montage/)",
+    "ap-m5": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "ap-pro": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "ap-acro": "ok: csomag (ACRO P-2 + Picatinny talp): a bolt az ACRO P-2-t talp nélkül árulja; legközelebbi bolti termék(ek), NEM azonos: Aimpoint ACRO P-2 3.5 MOA Schwarz (652.00 CHF, https://gunlex.ch/shop/reflexvisiere/aimpoint-acro-p-2-3-5-moa-schwarz/)",
+    "eo-exps3": "ok: csak EXPS3-DCR (más szálkereszt, külön modell); EXPS3-0 nincs; legközelebbi bolti termék(ek), NEM azonos: EOTech HWS EXPS3 DCR TAN (999.00 CHF, https://gunlex.ch/shop/reflexvisiere/eotech-hws-exps3-dcr-tan/) | EOTech HWS EXPS3-DCR (999.00 CHF, https://gunlex.ch/shop/reflexvisiere/eotech-hws-exps3-dcr/)",
+    "eo-exps2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-xps2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "hs-aems": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "hs-403b": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "tj-mro": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-uh1": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-sparc": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-crossfire": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-se16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-se18": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-pst16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "vx-razor110": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "tj-credo16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "tj-vcog": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-vudu16": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-sp30": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "vx-cant30": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-g33": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "eo-g43": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "ap-3x": "ok: csak az Aimpoint 3X-C nagyító (más termék); 3XMag-1 + Flip nincs; legközelebbi bolti termék(ek), NEM azonos: B&T Flip Down QD Aimpoint Booster Coyote Tan (257.50 CHF, https://gunlex.ch/shop/montageschienen/bt-flip-down-qd-aimpoint-booster-coyote-tan/) | Aimpoint 3X-C Magnifier (345.00 CHF, https://gunlex.ch/shop/reflexvisiere/aimpoint-3x-c-magnifier/)",
+    "vx-m3x": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-mbus3": "ok: szett (első + hátsó irányzék): a bolt az elsőt és a hátsót külön termékként árulja, szett nincs; legközelebbi bolti termék(ek), NEM azonos: Magpul MBUS 3 Sight Front (48.90 CHF, https://gunlex.ch/shop/zielvorrichtungen/magpul-mbus-3-sight-front/) | Magpul MBUS 3 Sight Rear (72.90 CHF, https://gunlex.ch/shop/zielvorrichtungen/magpul-mbus-3-sight-rear/)",
+    "mp-mbuspro": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-mbusoff": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-m600": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-m640": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-m300": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sf-x300": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "sl-hlx": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Streamlight TLR-7 HL-X Sub (279.90 CHF, https://gunlex.ch/shop/lampen/streamlight-tlr-7-hl-x-sub/)",
+    "sl-tlr1": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-rvg": "ok: az 'M-LOK RVG' nincs a boltban: a bolti RVG a Picatinny (M1913) változat, ill. külön 'RVG M-LOK Adapter Rail' - nem azonos; legközelebbi bolti termék(ek), NEM azonos: Magpul RVG Rail Grip (30.90 CHF, https://gunlex.ch/shop/griff/magpul-rvg-rail-grip/)",
+    "bcm-vg3": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-kag": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "mp-rail5": "ok: a bolti 'Magpul M-Lok Rail Section' slot-száma és anyaga nincs megadva, nem azonosítható biztosan az 5 slotos alumínium sínnel; legközelebbi bolti termék(ek), NEM azonos: Magpul M-Lok Rail Section (24.90 CHF, https://gunlex.ch/shop/montageschienen/magpul-m-lok-rail-section/)",
+    "mp-cover": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-cable": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "hr-sbrm": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-comp0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "sf-rc2": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "gs-ssae": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "gs-ssa": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "gs-sde": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "gs-s3g": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "rd-raptor": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "rd-raptorlt": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "rd-raptorsd": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-ch4": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "bcm-ch3": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "gs-ach": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "rd-talon": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
+    "mp-bad": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-trigguard": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-pm20": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Magazin Magpul PMag 20 300 Backout (22.90 CHF, https://gunlex.ch/shop/magazine/magazin-magpul-pmag-20-300-backout/) | Magpul PMag20 LR/SR 7.62×51 (37.90 CHF, https://gunlex.ch/shop/magazine/magpul-pmag20-lr-sr-7-62x51/)",
+    "mp-d60": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket); legközelebbi bolti termék(ek), NEM azonos: Magazin Magpul Pmag D-50 GL9 9 mm (179.00 CHF, https://gunlex.ch/shop/magazine/magazin-magpul-pmag-d-50-gl9-9-mm/)",
+    "bfg-vickers": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)"
+  },
+  "blocked": null
+}

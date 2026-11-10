@@ -1,0 +1,23 @@
+{
+  "domain": "waffenemmental.ch",
+  "url": "https://waffenemmental.ch/",
+  "name": "Waffen Emmental GmbH",
+  "addr": "Schmiedenstrasse 8, 3550 Langnau i. E.",
+  "city": "Langnau i.E. BE",
+  "canton": "BE",
+  "tel": "+41 34 402 79 79",
+  "kind": "both",
+  "ships": null,
+  "shipNote": "Az oldal nem ír le szállítási díjat vagy szállítási időt (az ÁSZF külső PDF). Az 'Informationen' oldal szerint online és a boltban is lehet vásárolni; fegyverhez, lőszerhez és 10 lövetnél nagyobb puskatárhoz a törvény szerinti dokumentumok (pl. WES, Ausnahmebewilligung, Besitzbestätigung) kellenek, eredetiben postán.",
+  "km": 110,
+  "km_est": true,
+  "online_prices": true,
+  "sources": [
+    "https://waffenemmental.ch/imprint",
+    "https://waffenemmental.ch/informationen",
+    "https://waffenemmental.ch/kontakt",
+    "https://waffenemmental.ch/legal",
+    "https://waffenemmental.ch/"
+  ],
+  "notes": "Fegyverbolt új és használt fegyverekkel. Nyitvatartás (főoldal): H 18–20, K 13–17, Cs 17–20, Szo 09–13, egyéb időpont megbeszélés szerint. A webshop listái és keresője külső szolgáltatásból (Algolia) töltődnek, ezért a gyűjtés a bolt saját termék-sitemapjét (~800 tétel) használja. A kínálatban kevés AR-15-tartozék van (Magpul PMAG-ek, néhány Streamlight/Holosun)."
+}
