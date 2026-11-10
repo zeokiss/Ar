@@ -502,7 +502,12 @@
     if (it.factory || it.none) return '';
     const col = colorIdOf(it), P = window.AR_PHOTOS;
     const rec = P.get(it.id, 'main@left', col) || P.get(it.id, 'main', col) || P.get(it.id, 'main@right', col);
-    if (!rec) return '<div class="thumb empty"><span>nincs fotó</span></div>';
+    if (!rec) {
+      // nincs kalibrált oldalnézet: a bolti termékfotó a kártyán látszik (a puskán ilyenkor szaggatott jelölés van)
+      const t = P.get(it.id, 'thumb', '*');
+      if (t && t.slot === 'thumb') return `<div class="thumb"><img src="${t.src}" alt="${esc(it.brand + ' ' + it.name)}" title="Bolti termékfotó (${esc(t.credit || '')}); a puskán még nem jelenik meg" loading="lazy" decoding="async"></div>`;
+      return '<div class="thumb empty"><span>nincs fotó</span></div>';
+    }
     return `<div class="thumb"><img src="${rec.src}" alt="${esc(it.brand + ' ' + it.name)}" loading="lazy" decoding="async"${rec.facing === 'right' ? ' class="flip"' : ''}></div>`;
   }
   function thumbBase(x) {

@@ -12,7 +12,7 @@ Lépések:
      beírva a packs/*.json rekordokba,
   3. a többi alapfegyvernél (más render-szög, pl. Dynamic) a különbség a manifest.json geo-rekordjának `adj` mezőjébe kerül
      (adj.mag / adj.grip: {rot, dx}); a megjelenítő ezt adja a fotó saját értékéhez.
-Futtatás:  python3 tools/fit_parts.py [--dry]
+Futtatás:  python3 tools/fit_parts.py [--dry] [--adj-only] [--only id1,id2]   (új alkatrész felvétele után: --only <id>)
 """
 import glob, json, os, sys
 import numpy as np
@@ -22,7 +22,9 @@ from align_lib import *
 DRY = '--dry' in sys.argv
 ADJ_ONLY = '--adj-only' in sys.argv   # csak az alapfegyver-korrekciók újraszámolása
 BASE_ID = 'schm-m4fl'
-GRIPS = ('bcm-g3', 'bcm-g0', 'b5-t22', 'b5-t23', 'mp-moek2', 'mp-moek2p', 'mp-miad')
+GRIPS = ('bcm-g3', 'bcm-g0', 'b5-t22', 'b5-t23', 'mp-moek2', 'mp-moek2p', 'mp-miad', 'mp-moe')
+MAGS = ('mp-pm10', 'mp-pm20', 'mp-pm30', 'mp-pm30w', 'mp-pm40', 'mp-d60')   # új tár/markolat felvételekor itt is add hozzá
+ONLY = set(sys.argv[sys.argv.index('--only') + 1].split(',')) if '--only' in sys.argv else None   # csak ezek a termék-id-k
 REF = {'mag': ('mp-pm30', 'black'), 'grip': ('bcm-g3', 'black')}
 
 recs = load_records()
@@ -62,8 +64,9 @@ for f in ([] if ADJ_ONLY else sorted(glob.glob(os.path.join(PH, 'packs', '*.json
     d = json.load(open(f, encoding='utf-8'))
     dirty = False
     for p in d['photos']:
-        kind = 'mag' if p['item'].startswith('mp-pm') and p['item'] != 'mp-pm' else ('grip' if p['item'] in GRIPS else None)
+        kind = 'mag' if p['item'] in MAGS else ('grip' if p['item'] in GRIPS else None)
         if not kind or not p['slot'].startswith('main'): continue
+        if ONLY and p['item'] not in ONLY: continue
         rot, dx = fit(kind, p, FAC[BASE_ID], 0.0)
         if (p['item'], p.get('color')) == REF[kind] and p['slot'].startswith('main'): ref_vals[kind] = (rot, dx)
         print(f"  {kind:4s} {p['item']:10s} {p['slot']:11s} {str(p.get('color')):8s} rot {p.get('rot')}→{rot:6.2f}  dx {p.get('dx')}→{dx:6.3f}")
@@ -72,7 +75,9 @@ for f in ([] if ADJ_ONLY else sorted(glob.glob(os.path.join(PH, 'packs', '*.json
     if dirty and not DRY:
         json.dump(d, open(f, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
-# ---- 2. a többi alapfegyver korrekciója a referencia-alkatrészen mérve
+# ---- 2. a többi alapfegyver korrekciója a referencia-alkatrészen mérve (--only esetén kihagyjuk: nem változik)
+if ONLY:
+    print('kész (--only: az alapfegyver-korrekciók nem változtak)'); sys.exit(0)
 if ADJ_ONLY:
     for kind, (item, color) in REF.items():
         r = find(recs, item, 'main', color)

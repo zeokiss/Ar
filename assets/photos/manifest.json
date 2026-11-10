@@ -1857,5 +1857,12 @@
    "note": "A hivatalos fekete fotó átszínezése (Bronze); a szín a bolti fotókról mért Cerakote-tokszín.",
    "fill": "#3d3222"
   }
+ ],
+ "packs": [
+  "packs/furniture.json",
+  "packs/lights.json",
+  "packs/lpvo.json",
+  "packs/optics.json",
+  "packs/thumbs.json"
  ]
 }
