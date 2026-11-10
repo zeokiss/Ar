@@ -112,6 +112,8 @@ def main():
     ap.add_argument('--anchor', default='contact'); ap.add_argument('--tol', type=int, default=22)
     ap.add_argument('--pack', default='parts'); ap.add_argument('--dry', action='store_true')
     ap.add_argument('--source', default=''); ap.add_argument('--max-px', type=int, default=1600)
+    ap.add_argument('--rot', type=float, default=0.0, help='forgatás fokban az illesztési pont körül; pozitív = a termék eleje lefelé billen')
+    ap.add_argument('--dx', type=float, default=0.0, help='finomhangolás előre, hüvelyk'); ap.add_argument('--dy', type=float, default=0.0, help='finomhangolás lefelé, hüvelyk')
     args = ap.parse_args()
     if not (args.width_in or args.height_in):
         sys.exit('Adj meg --width-in vagy --height-in értéket (a valós méret a méretarányhoz).')
@@ -140,6 +142,9 @@ def main():
     rec = dict(item=args.item, slot=args.slot, color=args.color, src='parts/' + name, w=im.width, h=im.height,
                ppi=round(ppi, 2), ax=round(ax, 1), ay=round(ay, 1), facing=args.facing)
     if args.source: rec['source'] = args.source
+    if args.rot: rec['rot'] = args.rot
+    if args.dx: rec['dx'] = args.dx
+    if args.dy: rec['dy'] = args.dy
     pdir = os.path.join(PH, 'packs'); os.makedirs(pdir, exist_ok=True)
     pf = os.path.join(pdir, args.pack + '.json')
     pack = json.load(open(pf)) if os.path.exists(pf) else {'version': 1, 'photos': []}

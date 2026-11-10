@@ -65,3 +65,15 @@ Ha nincs ellenőrizhető méret, hagyd ki az alkatrészt.
 - Új alapfegyver: `tools/build_base_assets.py`.
 - A megjelenítő a katalógust a böngészőben tölti be; a fejlesztői szervert a repó gyökeréből
   indítsd (`python3 -m http.server 8765`).
+
+## Igazítás (forgatás, finomhangolás)
+
+A motor az illesztési pont körül forgat. Ha a termékfotó dőlése nem egyezik a fegyveren állóval
+(pl. a markolat függőlegesen áll a fotón), nem kell a képet előre elforgatni:
+
+- `--rot FOK` – forgatás az illesztési pont körül; pozitív érték a termék elejét lefelé billenti
+  (a fegyver keretében, irányfüggetlenül), negatív felfelé. A markolatnál pl. a gyári M4FL markolat
+  dőlése a mérce.
+- `--dx`, `--dy` – finomhangolás hüvelykben (előre / lefelé).
+
+Mindig előnézettel ellenőrizd a valódi puskán (lásd fent), és ha kell, igazíts rajta.
