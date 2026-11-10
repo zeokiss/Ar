@@ -13,6 +13,58 @@
    "ay": 137.0,
    "facing": "right",
    "source": "b5systems.com/collection/ar/bravo-stock/ (profile-right render, Length 7.2 in)"
+  },
+  {
+   "item": "b5-bravo",
+   "slot": "main",
+   "color": "fde",
+   "src": "parts/b5-bravo-main-fde.webp",
+   "w": 1526,
+   "h": 1062,
+   "ppi": 211.94,
+   "ax": 1523.0,
+   "ay": 188.5,
+   "facing": "right",
+   "source": "b5systems.com/collection/ar/bravo-stock/ (profile-right render, Length 7.2 in)"
+  },
+  {
+   "item": "b5-bravo",
+   "slot": "main",
+   "color": "odg",
+   "src": "parts/b5-bravo-main-odg.webp",
+   "w": 1501,
+   "h": 1036,
+   "ppi": 208.47,
+   "ax": 1498.0,
+   "ay": 177.0,
+   "facing": "right",
+   "source": "b5systems.com/collection/ar/bravo-stock/ (profile-right render, Length 7.2 in)"
+  },
+  {
+   "item": "b5-bravo",
+   "slot": "main",
+   "color": "wolfgray",
+   "src": "parts/b5-bravo-main-wolfgray.webp",
+   "w": 1506,
+   "h": 1038,
+   "ppi": 209.17,
+   "ax": 1503.0,
+   "ay": 181.0,
+   "facing": "right",
+   "source": "b5systems.com/collection/ar/bravo-stock/ (profile-right render, Length 7.2 in)"
+  },
+  {
+   "item": "b5-esop",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/b5-esop-main-black.webp",
+   "w": 1586,
+   "h": 1046,
+   "ppi": 213.46,
+   "ax": 1583.0,
+   "ay": 124.5,
+   "facing": "right",
+   "source": "b5systems.com/collection/ar/enhanced-sopmod-stock/ (profile-right render, Length 7.43 in)"
   }
  ]
 }
