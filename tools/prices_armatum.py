@@ -136,7 +136,8 @@ def key(s):
     """Összehasonlító kulcs: kisbetű, egységes idézőjel/kötőjel, a ' - ', ', ', ' / ' elválasztók szóközzé."""
     s = norm(s).lower()
     s = re.sub(r"[®™©]", "", s)
-    s = s.replace("×", "x").replace("″", '"').replace("“", '"').replace("”", '"').replace("’", "'")
+    s = s.replace("×", "x").replace("′′", '"').replace("″", '"').replace("“", '"').replace("”", '"')
+    s = s.replace("′", "'").replace("’", "'")
     s = re.sub(r"[–—‐−]", "-", s)
     s = re.sub(r"\s*[,|;]\s*", " ", s)
     s = re.sub(r"\s+[-/]+\s+", " ", s)
