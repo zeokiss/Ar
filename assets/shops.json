@@ -65,5 +65,62 @@
     "https://www.armamat.ch/de-ch/i/versand-zahlungsmoeglichkeiten/"
    ]
   }
- }
+ },
+ "other_sources": [
+  {
+   "name": "Schmeisser GmbH",
+   "url": "https://schmeisser-germany.com",
+   "for": "Az alapfegyverek hivatalos oldalnézeti fotói (M4FL, M5FL, S4F, Dynamic) és a gyári adatok (hossz, tömeg)."
+  },
+  {
+   "name": "Primary Arms",
+   "url": "https://www.primaryarms.com",
+   "for": "Termékfotók és adatok: Vortex, Magpul, B5, EOTech, Holosun termékek oldalnézeti képei (a nyilvános termék-API-ról)."
+  },
+  {
+   "name": "Magpul",
+   "url": "https://magpul.com",
+   "for": "Tusok és tárak fotói, valamint a termékoldalak méretadatai."
+  },
+  {
+   "name": "EOTech",
+   "url": "https://www.eotechinc.com",
+   "for": "EXPS2, EXPS3, XPS2, G33, G43 fotók és méretek."
+  },
+  {
+   "name": "Trijicon",
+   "url": "https://www.trijicon.com",
+   "for": "ACOG, Credo, VCOG, MRO fotók és méretek."
+  },
+  {
+   "name": "Holosun",
+   "url": "https://www.holosun.com",
+   "for": "HS510C és HM3X fotók és méretek."
+  },
+  {
+   "name": "SureFire",
+   "url": "https://www.surefire.com",
+   "for": "Fegyverlámpák (M640DF, X300U-B) fotói és méretei."
+  },
+  {
+   "name": "Streamlight",
+   "url": "https://www.streamlight.com",
+   "for": "Fegyverlámpák (HL-X, TLR-1 HL) fotói és méretei."
+  },
+  {
+   "name": "B5 Systems",
+   "url": "https://www.b5systems.com",
+   "for": "A Type 22 és Type 23 markolat gyártói méretei (a méretarányhoz)."
+  },
+  {
+   "name": "tacstore.ch",
+   "url": "https://www.tacstore.ch",
+   "for": "A Schmeisser színes kivitelek (Olive, Dark Earth, Bronze) referenciafotói: ezekből mértem a Cerakote-színeket. A képek nincsenek a programban."
+  },
+  {
+   "name": "Vortex, Aimpoint, Geissele",
+   "url": "",
+   "for": "Csak szöveges műszaki adatok (webes keresésből, a gyártói oldalak az automata letöltést tiltják)."
+  }
+ ]
 }

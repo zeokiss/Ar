@@ -299,3 +299,22 @@ select { background: var(--panel-2); border: 1px solid var(--line); border-radiu
   .logo p { display: none; }
   .top { gap: 10px; }
 }
+
+/* ---------------- boltok és források */
+.sources { max-width: 1680px; margin: 8px auto 0; padding: 0 24px 8px; }
+.sources h2 { font: 700 26px/1 var(--head); text-transform: uppercase; letter-spacing: .02em; margin: 0 0 8px; }
+.srcnote { color: var(--muted); margin: 0 0 14px; max-width: 80ch; }
+.srcgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.srcbox { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; min-width: 0; }
+.srcbox h3 { margin: 0 0 4px; font: 700 18px/1.1 var(--head); display: flex; justify-content: space-between; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.srcbox h3 a { color: var(--accent-2); text-decoration: none; }
+.srcbox h3 small { font: 500 12px var(--body); color: var(--muted); }
+.srcbox p { margin: 0 0 6px; font-size: 12.5px; line-height: 1.5; overflow-wrap: anywhere; }
+.srcbox .srcmeta { color: var(--muted); font-size: 12px; }
+.srcsub { font: 700 18px/1 var(--head); text-transform: uppercase; letter-spacing: .03em; margin: 18px 0 8px; }
+.srclist { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 6px 18px; }
+.srclist li { display: flex; flex-direction: column; gap: 1px; padding: 6px 0; border-top: 1px solid var(--line); min-width: 0; }
+.srclist li span { color: var(--muted); font-size: 12.5px; }
+.srclist li a { color: var(--text); text-decoration: none; }
+.srclist li a:hover { color: var(--accent-2); text-decoration: underline; }
+@media (max-width: 640px) { .sources { padding: 0 16px 8px; } .srclist { grid-template-columns: 1fr; } }

@@ -652,38 +652,6 @@
    "dy": -0.62
   },
   {
-   "item": "mp-moe",
-   "slot": "main",
-   "color": "fde",
-   "src": "parts/mp-moe-main-fde.webp",
-   "w": 826,
-   "h": 1170,
-   "ppi": 280.37,
-   "ax": 150.0,
-   "ay": 180.0,
-   "facing": "left",
-   "source": "primaryarms.com",
-   "rot": -8.0,
-   "dx": 0.3,
-   "dy": -0.62
-  },
-  {
-   "item": "mp-moe",
-   "slot": "main",
-   "color": "odg",
-   "src": "parts/mp-moe-main-odg.webp",
-   "w": 825,
-   "h": 1173,
-   "ppi": 281.09,
-   "ax": 150.0,
-   "ay": 178.0,
-   "facing": "left",
-   "source": "primaryarms.com",
-   "rot": -8.0,
-   "dx": 0.3,
-   "dy": -0.62
-  },
-  {
    "item": "mp-moek2",
    "slot": "main",
    "color": "black",

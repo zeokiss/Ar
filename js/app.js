@@ -949,6 +949,29 @@
     window.AR_QS_REFRESH = () => { if (!list.hidden) render(); };
   }
 
+  // ------------------------------------------------------------ boltok és források
+  function renderSources() {
+    const el = $('#sources');
+    if (!el) return;
+    const cnt = {}, best = {};
+    Object.values(PRICES).forEach(it => {
+      (it.offers || []).forEach(o => { cnt[o.shop] = (cnt[o.shop] || 0) + 1; });
+      const b = (it.offers || []).reduce((x, y) => (!x || y.chf < x.chf ? y : x), null);
+      if (b) best[b.shop] = (best[b.shop] || 0) + 1;
+    });
+    const shops = Object.keys(SHOPINFO).filter(shopOk).sort((x, y) => (cnt[y] || 0) - (cnt[x] || 0));
+    const others = (window.AR_OTHER_SOURCES || []);
+    el.innerHTML = `<h2 id="srcTitle">Boltok és források</h2>
+      <p class="srcnote">Az árak <b>kizárólag</b> az alábbi svájci boltokból származnak (CHF, ÁFÁ-s kiírt ár). A fotók és a méretek a második listában szereplő gyártói és kereskedői oldalakról jönnek.</p>
+      <div class="srcgrid">${shops.map(sh => { const i = SHOPINFO[sh]; return `<div class="srcbox">
+        <h3><a href="${i.url}" target="_blank" rel="noopener">${esc(sh)}</a><small>${esc(i.city)}</small></h3>
+        <p>${esc(i.name)}<br>${esc(i.addr)}${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}</p>
+        <p class="srcmeta">${cnt[sh] || 0} termék ára · ${best[sh] || 0} tételnél ez a legolcsóbb<br>${esc(i.visit || (i.km != null ? 'kb. ' + i.km + ' km a ' + SHOPREF.plz + ' ' + SHOPREF.place + ' térségétől' : ''))}</p>
+        <p class="srcmeta">${esc(i.shipNote || '')}</p></div>`; }).join('')}</div>
+      <h3 class="srcsub">Fotó- és adatforrások</h3>
+      <ul class="srclist">${others.map(o => `<li><b>${o.url ? `<a href="${o.url}" target="_blank" rel="noopener">${esc(o.name)}</a>` : esc(o.name)}</b><span>${esc(o.for)}</span></li>`).join('')}</ul>`;
+  }
+
   // ------------------------------------------------------------ árak elrejtése
   let hidePrices = false;
   try { hidePrices = localStorage.getItem('ar15-hideprices') === '1'; } catch (e) { /* nincs tároló */ }
@@ -979,9 +1002,9 @@
     initPresets();
     let ready = false;
     window.AR_PHOTOS.onChange(() => { if (ready) update(false); });
-    const loadShops = fetch('assets/shops.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (j) { SHOPINFO = j.shops || {}; if (j.reference) SHOPREF = Object.assign(SHOPREF, j.reference); } }).catch(() => {});
+    const loadShops = fetch('assets/shops.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (j) { SHOPINFO = j.shops || {}; window.AR_OTHER_SOURCES = j.other_sources || []; if (j.reference) SHOPREF = Object.assign(SHOPREF, j.reference); } }).catch(() => {});
     const loadPrices = fetch('assets/prices/merged.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (j && j.items) { PRICES = j.items; SHOPS = j.shops || []; } }).catch(() => {});
-    Promise.all([window.AR_PHOTOS.load().catch(() => {}), loadPrices, loadShops]).then(() => { buildShopMode(); ready = true; update(false, true); });
+    Promise.all([window.AR_PHOTOS.load().catch(() => {}), loadPrices, loadShops]).then(() => { buildShopMode(); renderSources(); ready = true; update(false, true); });
   }
   document.addEventListener('DOMContentLoaded', init);
 })();
