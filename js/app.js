@@ -962,7 +962,7 @@
     const shops = Object.keys(SHOPINFO).filter(shopOk).sort((x, y) => (cnt[y] || 0) - (cnt[x] || 0));
     const others = (window.AR_OTHER_SOURCES || []);
     el.innerHTML = `<h2 id="srcTitle">Boltok és források</h2>
-      <p class="srcnote">Az árak <b>kizárólag</b> az alábbi svájci boltokból származnak (CHF, ÁFÁ-s kiírt ár). A fotók és a méretek a második listában szereplő gyártói és kereskedői oldalakról jönnek.</p>
+      <p class="srcnote">Az árak <b>kizárólag</b> az alábbi svájci boltokból származnak (CHF, a bolt kiírt fogyasztói ára). A fotók és a méretek a második listában szereplő gyártói és kereskedői oldalakról jönnek.</p>
       <div class="srcgrid">${shops.map(sh => { const i = SHOPINFO[sh]; return `<div class="srcbox">
         <h3><a href="${i.url}" target="_blank" rel="noopener">${esc(sh)}</a><small>${esc(i.city)}</small></h3>
         <p>${esc(i.name)}<br>${esc(i.addr)}${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}</p>
