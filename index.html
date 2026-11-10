@@ -16,6 +16,11 @@
       <span class="mark">AR</span>
       <div><h1>AR-15 Konfigurátor</h1><p>Alapfegyver + márkás kiegészítők, élő vizualizációval</p></div>
     </div>
+    <div class="qsearch" role="search">
+      <input id="qs" type="search" placeholder="Keresés: név, márka, típus, szín…  ( / )" autocomplete="off" spellcheck="false"
+             role="combobox" aria-expanded="false" aria-controls="qsList" aria-autocomplete="list" aria-label="Gyorskeresés a termékek között">
+      <ul id="qsList" class="qs-list" role="listbox" hidden></ul>
+    </div>
     <div class="actions">
       <select id="presets" aria-label="Előre összeállított buildek"></select>
       <label class="pswitch" title="Árak megjelenítése / elrejtése"><span>Ár</span><input type="checkbox" id="btnPrices" role="switch" checked aria-label="Árak megjelenítése"><i aria-hidden="true"></i></label>

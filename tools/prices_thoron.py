@@ -565,7 +565,7 @@ def candidates_for(spec, item, results):
         if s_rx and not s_rx.search(r['sub']):
             continue
         rest, color = split_sub(r['sub'])
-        r = dict(r, color=color, group=(r['title'], ' | '.join(rest)))
+        r = dict(r, color=color, group=(r['title'], ' | '.join(rest).lower()))
         out.append(r)
     return out
 

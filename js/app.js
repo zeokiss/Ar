@@ -707,6 +707,133 @@
     };
   }
 
+  // ------------------------------------------------------------ gyorskeresés
+  const norm = (t) => String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9.+\- ]+/g, ' ');
+  // kategóriánként magyar és angol kulcsszavak, hogy "ravasz", "scope" vagy "torkolat" is találjon
+  const CAT_WORDS = {
+    base: 'puska fegyver alapfegyver karabely rifle carbine ar15 ar-15 ar',
+    grip: 'markolat pisztolymarkolat pistol grip fogantyu',
+    stock: 'tus vallpar stock puffercso buffer',
+    buttpad: 'tustalp vallparna butt pad recoil pad tamasz',
+    optic: 'red dot reddot holo holografikus reflex optika irnyzek sight pontcel',
+    lpvo: 'lpvo celtavcso scope variable zoom prizmas optika acog tavcso',
+    mount: 'szerelek mount gyuru ring cantilever szerelekin',
+    magnifier: 'nagyito magnifier 3x booster',
+    buis: 'vas iranyzek buis backup sight flip-up iron sight',
+    light: 'lampa fegyverlampa weaponlight light flashlight vilagito taktikai lampa',
+    mlok: 'mlok m-lok kiegeszito elomarkolat vertical grip kezutkozo handstop sin rail qd cover vedo',
+    bipod: 'bipod ketlab lab tamasz harris',
+    muzzle: 'torkolat langrejto kompenzator hangtompito suppressor muzzle flash hider brake comp',
+    trigger: 'elsuto ravasz trigger',
+    ch: 'felhuzokar toltokar charging handle',
+    controls: 'kezeloszerv biztosito safety selector zarakaszto ravaszvedo trigger guard',
+    mag: 'tar magazine pmag lovedek 10 20 30 40 toltenyes',
+    sling: 'szij sling hevder',
+  };
+  let QS = [];
+  function qsBuild() {
+    const catName = Object.fromEntries(D.CATEGORIES.map(c => [c.id, c.name]));
+    const out = [];
+    D.BASES.forEach(b => out.push({ kind: 'base', id: b.id, cat: 'base', title: `${b.brand} ${b.name}`, sub: `Alapfegyver · ${String(b.barrel).replace('.', ',')}" · ${b.cal}`,
+      hay: norm([b.brand, b.name, b.id, b.tag, b.cal, b.desc, CAT_WORDS.base, 'm4 m5 s4 dynamic ' + b.finishes.map(f => D.FINISHES[f].name).join(' ')].join(' ')) }));
+    D.ITEMS.forEach(i => {
+      if (i.factory || i.none) return;
+      const colors = (i.colors || []).map(c => D.COLORS[c] ? D.COLORS[c].name + ' ' + c : c).join(' ');
+      out.push({ kind: 'item', id: i.id, cat: i.cat, title: `${i.brand} ${i.name}`, sub: `${catName[i.cat]}${(i.specs && i.specs[0]) ? ' · ' + i.specs[0] : ''}`,
+        hay: norm([i.brand, i.name, i.id, catName[i.cat], CAT_WORDS[i.cat] || '', (i.specs || []).join(' '), colors, i.type || '', i.style || ''].join(' ')) });
+    });
+    QS = out.map(e => Object.assign(e, { t: norm(e.title), cw: norm((catName[e.cat] || '') + ' ' + (CAT_WORDS[e.cat] || '')) }));
+  }
+  function qsScore(e, toks, whole) {
+    let sc = 0;
+    for (const t of toks) {
+      const wordStart = new RegExp('(^|[ \\-.])' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+      if (wordStart.test(e.t)) sc += 4;
+      else if (e.t.includes(t)) sc += 3;
+      else if (wordStart.test(e.hay)) sc += 2;
+      else if (e.hay.includes(t)) sc += 1;
+      else return 0;
+      if (wordStart.test(e.cw)) sc += 3;        // a kategória nevére / szinonimájára találat előbbre kerül
+    }
+    if (e.t.startsWith(whole)) sc += 3;
+    return sc;
+  }
+  function qsSearch(q) {
+    const whole = norm(q).trim();
+    if (!whole) return [];
+    const toks = whole.split(/\s+/).filter(Boolean);
+    return QS.map(e => ({ e, s: qsScore(e, toks, whole) })).filter(x => x.s > 0).map(x => (x.s += (window.AR_PHOTOS.has(x.e.id) ? 0.5 : 0), x))
+      .sort((a, b) => b.s - a.s || a.e.title.length - b.e.title.length).slice(0, 12).map(x => x.e);
+  }
+  const hl = (title, toks) => {
+    let out = esc(title);
+    toks.filter(t => t.length > 1).forEach(t => {
+      // ékezetek nélküli egyezés kiemelése az eredeti szövegen
+      const n = norm(title); const at = n.indexOf(t);
+      if (at >= 0 && n.length === title.length) out = out.replace(new RegExp(esc(title.slice(at, at + t.length)).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')), m => `<mark>${m}</mark>`);
+    });
+    return out;
+  };
+  const esc = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  function qsIsOn(e) {
+    if (e.kind === 'base') return state.base === e.id;
+    return MULTI_CATS.includes(e.cat) ? state.multi[e.cat].includes(e.id) : state.sel[e.cat] === e.id;
+  }
+  function qsPick(e) {
+    if (e.kind === 'base') { activeTab = 'base'; brandFilter = 'Összes'; setBase(e.id, null); }
+    else {
+      activeTab = e.cat; brandFilter = 'Összes';
+      if (!qsIsOn(e)) choose(e.cat, e.id); else update(true);
+    }
+    const cat = D.CATEGORIES.find(c => c.id === e.cat);
+    toast(`${e.title} – ${qsIsOn(e) ? 'kiválasztva' : 'kiválasztás megszűnt'} (${cat ? cat.name : ''})`);
+    const card = $(`#panel .card[data-id="${e.id}"]`);
+    if (card) { card.classList.add('flash'); }
+  }
+  function initQuickSearch() {
+    const input = $('#qs'), list = $('#qsList');
+    if (!input) return;
+    qsBuild();
+    let res = [], sel = 0;
+    const close = () => { list.hidden = true; input.setAttribute('aria-expanded', 'false'); input.removeAttribute('aria-activedescendant'); };
+    const mark = () => $$('#qsList li').forEach((li, i) => { const on = i === sel; li.setAttribute('aria-selected', on ? 'true' : 'false'); if (on) { input.setAttribute('aria-activedescendant', li.id); li.scrollIntoView({ block: 'nearest' }); } });
+    const render = () => {
+      const q = input.value;
+      if (!q.trim()) { close(); return; }
+      res = qsSearch(q); sel = 0;
+      const toks = norm(q).trim().split(/\s+/);
+      if (!res.length) list.innerHTML = '<li class="qs-empty" role="presentation">Nincs találat. Próbálj rövidebb szót vagy márkanevet (pl. „holosun”, „lámpa”, „tus”).</li>';
+      else list.innerHTML = res.map((e, i) => {
+        const q2 = e.kind === 'base' ? D.BASES.find(b => b.id === e.id) : ITEM[e.id];
+        const pr = priceOf(q2);
+        const photo = e.kind === 'base' ? !!window.AR_PHOTOS.get(e.id, 'base', 'black') : window.AR_PHOTOS.has(e.id);
+        return `<li id="qso${i}" role="option" data-i="${i}" aria-selected="false"><div class="qs-main"><b>${hl(e.title, toks)}</b><small>${esc(e.sub)}</small></div>` +
+          `<div class="qs-side">${qsIsOn(e) ? '<span class="qs-tag on">kiválasztva</span>' : ''}${photo ? '<span class="qs-tag ok">fotó</span>' : ''}<span class="price">${fmtCHF(pr.chf, pr.est)}</span></div></li>`;
+      }).join('') + `<li class="qs-foot" role="presentation">${res.length} találat · ↑↓ választ · Enter kiválaszt · Esc bezár</li>`;
+      list.hidden = false; input.setAttribute('aria-expanded', 'true'); mark();
+    };
+    input.addEventListener('input', render);
+    input.addEventListener('focus', () => { if (input.value.trim()) render(); });
+    input.addEventListener('keydown', (ev) => {
+      if (ev.key === 'ArrowDown' && res.length) { ev.preventDefault(); sel = (sel + 1) % res.length; mark(); }
+      else if (ev.key === 'ArrowUp' && res.length) { ev.preventDefault(); sel = (sel - 1 + res.length) % res.length; mark(); }
+      else if (ev.key === 'Enter' && res[sel] && !list.hidden) { ev.preventDefault(); const e = res[sel]; qsPick(e); input.value = ''; close(); input.blur(); }
+      else if (ev.key === 'Escape') { if (input.value) input.value = ''; close(); input.blur(); }
+    });
+    list.addEventListener('mousedown', (ev) => ev.preventDefault());   // a fókusz maradjon a mezőn a kattintásig
+    list.addEventListener('click', (ev) => {
+      const li = ev.target.closest('li[data-i]'); if (!li) return;
+      qsPick(res[Number(li.dataset.i)]); input.value = ''; close();
+    });
+    list.addEventListener('mousemove', (ev) => { const li = ev.target.closest('li[data-i]'); if (li && Number(li.dataset.i) !== sel) { sel = Number(li.dataset.i); mark(); } });
+    document.addEventListener('click', (ev) => { if (!ev.target.closest('.qsearch')) close(); });
+    document.addEventListener('keydown', (ev) => {
+      const typing = /^(INPUT|TEXTAREA|SELECT)$/.test((document.activeElement || {}).tagName || '');
+      if ((ev.key === '/' && !typing) || ((ev.ctrlKey || ev.metaKey) && ev.key.toLowerCase() === 'k')) { ev.preventDefault(); input.focus(); input.select(); }
+    });
+    window.AR_QS_REFRESH = () => { if (!list.hidden) render(); };
+  }
+
   // ------------------------------------------------------------ árak elrejtése
   let hidePrices = false;
   try { hidePrices = localStorage.getItem('ar15-hideprices') === '1'; } catch (e) { /* nincs tároló */ }
@@ -729,6 +856,7 @@
     $('#eurChf').oninput = (e) => { const v = Number(e.target.value); if (v > 0) { state.eurChf = v; update(true); } };
     $('#btnPrices').onchange = () => { hidePrices = !$('#btnPrices').checked; try { localStorage.setItem('ar15-hideprices', hidePrices ? '1' : '0'); } catch (e) { /* ignore */ } applyPriceVisibility(); };
     applyPriceVisibility();
+    initQuickSearch();
     $('#btnExplode').onclick = () => setExploded(!exploded);
     $('#btnAssemble').onclick = () => renderRifle(true);
     $('#btnShare').onclick = share;
