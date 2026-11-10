@@ -15,7 +15,17 @@
   const FACTORY_W = { grip: 75, stock: 250, muzzle: 85, trigger: 70, ch: 45, buis: 90 };
   const RIFLE_KIT = { name: 'Rifle puffercső-készlet (tushoz szükséges)', price: 60, weight: 110 };
 
-  const fmtEUR = n => new Intl.NumberFormat('hu-HU', { maximumFractionDigits: 0 }).format(n) + ' €';
+  // Árak: ahol van valós bolti ár (assets/prices/merged.json), azt használjuk (CHF);
+  // ahol nincs, a js/data.js becsült EUR-ára kerül átváltásra (jelölve: ~).
+  let PRICES = {};
+  const priceOf = (it) => {
+    const p = PRICES[it.id];
+    if (p && p.chf != null) return { chf: p.chf, est: false, p };
+    return { chf: (it.price || 0) * state.eurChf, est: !!it.price, p: null };
+  };
+  const weightOf = (it) => { const p = PRICES[it.id]; return (p && p.weight_g) ? p.weight_g : (it.weight || 0); };
+  const fmtCHF = (n, est) => (est ? '~ ' : '') + new Intl.NumberFormat('hu-HU', { maximumFractionDigits: 0 }).format(Math.round(n)) + ' CHF';
+  const shopName = (p) => (p && p.shop) ? p.shop : '';
   const fmtHUF = n => new Intl.NumberFormat('hu-HU', { maximumFractionDigits: 0 }).format(Math.round(n / 1000) * 1000) + ' Ft';
   const fmtKg = g => (g / 1000).toLocaleString('hu-HU', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' kg';
 
@@ -28,7 +38,7 @@
       sel[c] = (list.find(i => i.factory) || list.find(i => i.none) || list[0]).id;
     });
     if (!b.factoryBuis) sel.buis = 'buis-none';
-    return { base: b.id, finish: b.finishes[0], sel, multi: { mlok: [], controls: [] }, colors: {}, pos: {}, rate: 390 };
+    return { base: b.id, finish: b.finishes[0], sel, multi: { mlok: [], controls: [] }, colors: {}, pos: {}, rate: 430, eurChf: 0.93 };
   }
 
   let state = loadState() || defaultState();
@@ -57,6 +67,7 @@
     out.colors = (s.colors && typeof s.colors === 'object') ? s.colors : {};
     out.pos = (s.pos && typeof s.pos === 'object') ? s.pos : {};
     out.rate = Number(s.rate) > 0 ? Number(s.rate) : d.rate;
+    out.eurChf = Number(s.eurChf) > 0 ? Number(s.eurChf) : d.eurChf;
     return out;
   }
   function save() {
@@ -126,8 +137,9 @@
 
   function totals(metrics) {
     const b = base();
-    let price = b.price, weight = b.weight;
-    const lines = [{ cat: 'base', label: `${b.brand} ${b.name}`, sub: D.FINISHES[state.finish].name, price: b.price, weight: b.weight }];
+    const bp = priceOf(b);
+    let price = bp.chf, weight = weightOf(b), estCount = bp.est ? 1 : 0;
+    const lines = [{ cat: 'base', label: `${b.brand} ${b.name}`, sub: D.FINISHES[state.finish].name, price: bp.chf, est: bp.est, p: bp.p, weight: weightOf(b) }];
     SINGLE_CATS.forEach(cat => {
       const it = sel(cat);
       if (!it || it.none && !(cat === 'buis' && b.factoryBuis)) return;
@@ -135,23 +147,23 @@
         if (cat === 'mag') { weight += 90; }
         return;
       }
-      let w = it.weight;
+      let w = weightOf(it);
       if (it.none) { // gyári BUIS eltávolítva
         weight -= FACTORY_W.buis; return;
       }
       if (FACTORY_W[cat] != null && !(cat === 'buis' && !b.factoryBuis)) w -= FACTORY_W[cat];
-      price += it.price; weight += w;
-      lines.push({ cat, label: `${it.brand} ${it.name}`, sub: colorName(it), price: it.price, weight: it.weight });
+      const ip = priceOf(it); price += ip.chf; weight += w; if (ip.est) estCount++;
+      lines.push({ cat, label: `${it.brand} ${it.name}`, sub: colorName(it), price: ip.chf, est: ip.est, p: ip.p, weight: weightOf(it) });
     });
     MULTI_CATS.forEach(cat => state.multi[cat].forEach(id => {
       const it = ITEM[id];
-      price += it.price; weight += it.weight;
-      lines.push({ cat, label: `${it.brand} ${it.name}`, sub: colorName(it), price: it.price, weight: it.weight });
+      const ip = priceOf(it); price += ip.chf; weight += weightOf(it); if (ip.est) estCount++;
+      lines.push({ cat, label: `${it.brand} ${it.name}`, sub: colorName(it), price: ip.chf, est: ip.est, p: ip.p, weight: weightOf(it) });
     }));
     const st = sel('stock');
     if (st && st.type === 'rifle') {
-      price += RIFLE_KIT.price; weight += RIFLE_KIT.weight;
-      lines.push({ cat: 'stock', label: RIFLE_KIT.name, sub: 'becsült', price: RIFLE_KIT.price, weight: RIFLE_KIT.weight });
+      price += RIFLE_KIT.price * state.eurChf; weight += RIFLE_KIT.weight; estCount++;
+      lines.push({ cat: 'stock', label: RIFLE_KIT.name, sub: 'becsült', price: RIFLE_KIT.price * state.eurChf, est: true, weight: RIFLE_KIT.weight });
     }
     // hossz
     const spec = buildSpec();
@@ -161,7 +173,7 @@
     const maxS = isRifle ? spec.stockRear + (spec.stock.style === 'prs' ? 1.5 : 0) : spec.stockRear + 1.65;
     let oal = [(minS + fixed) * 2.54, (maxS + fixed) * 2.54];
     if (metrics.oalIn) oal = [metrics.oalIn * 2.54, metrics.oalIn * 2.54];
-    return { price, weight, lines, oal };
+    return { price, weight, lines, oal, estCount };
   }
 
   // ------------------------------------------------------------ kompatibilitás
@@ -461,7 +473,8 @@
       ${desc ? `<div class="desc">${desc}</div>` : ''}
       ${specs ? `<div class="specs">${specs}</div>` : ''}
       ${swatches(it, on)}
-      <div class="card-bot"><span class="price">${it.price ? fmtEUR(it.price) : (it.factory ? 'benne az árban' : '—')}</span>${it.weight ? `<span class="w">${it.weight} g</span>` : ''}</div>
+      <div class="card-bot">${(() => { if (!it.price && !(PRICES[it.id])) return `<span class="price">${it.factory ? 'benne az árban' : '—'}</span>`; const q = priceOf(it); return `<span class="price">${fmtCHF(q.chf, q.est)}</span>`; })()}${weightOf(it) ? `<span class="w">${weightOf(it)} g</span>` : ''}</div>
+      ${(() => { const q = it.price || PRICES[it.id] ? priceOf(it) : null; if (!q) return ''; return q.est ? '<div class="src est">becsült ár</div>' : `<div class="src"><a href="${q.p.url}" target="_blank" rel="noopener">${shopName(q.p)}</a>${q.p.in_stock === false ? ' · nincs raktáron' : ''}</div>`; })()}
       ${errs.length ? `<div class="warnline">${errs[0]}</div>` : ''}
     </div>`;
   }
@@ -478,7 +491,8 @@
           <div class="specs"><span>${String(x.barrel).replace('.', ',')}" cső</span><span>${x.cal}</span><span>${x.twist}</span><span>${String(x.hgLen).replace('.', ',')}" előagy${x.hgEstimated ? '*' : ''}</span>${x.ambi ? '<span>Ambidex</span>' : ''}</div>
           <div class="sw">${x.finishes.map(f => `<button class="swatch fin${x.id === b.id && f === state.finish ? ' on' : ''}${(window.AR_PHOTOS.get(x.id, 'base', f) || {}).exactColor ? '' : ' nophoto'}" data-base="${x.id}" data-finish="${f}" title="${D.FINISHES[f].name}${(window.AR_PHOTOS.get(x.id, 'base', f) || {}).exactColor ? ((window.AR_PHOTOS.get(x.id, 'base', f) || {}).derived ? ' (színezett fotó)' : '') : ' (nincs fotó)'}" style="--c:${D.FINISHES[f].hex}"></button>`).join('')}
             <span class="swname">${x.id === b.id ? D.FINISHES[state.finish].name : x.finishes.map(f => D.FINISHES[f].name).join(' / ')}</span></div>
-          <div class="card-bot"><span class="price">${fmtEUR(x.price)}</span><span class="w">${fmtKg(x.weight)}</span></div>
+          <div class="card-bot"><span class="price">${(() => { const q = priceOf(x); return fmtCHF(q.chf, q.est); })()}</span><span class="w">${fmtKg(weightOf(x))}</span></div>
+          ${(() => { const q = priceOf(x); return q.est ? '<div class="src est">becsült ár</div>' : `<div class="src"><a href="${q.p.url}" target="_blank" rel="noopener">${shopName(q.p)}</a></div>`; })()}
           ${x.oalNote ? `<div class="desc small">${x.oalNote}</div>` : ''}
         </div>`).join('')}</div>
       <p class="hint small">* Becsült érték a megjelenítéshez. Az árak tájékoztató jellegű európai irányárak; a színváltozatok elérhetősége modellenként és kereskedőnként eltérhet.</p>`;
@@ -498,7 +512,7 @@
         return `<section class="brand-box${D.BRANDS[br].core ? '' : ' spec'}"><h3>${br}${D.BRANDS[br].core ? '' : ' <small>specialista</small>'}</h3><p>${D.BRANDS[br].note}</p>
           ${cats.map(c => `<div class="bcat"><h4>${c.name}</h4><ul>${its.filter(i => i.cat === c.id).map(i => {
             const on = c.multi ? state.multi[c.id].includes(i.id) : state.sel[c.id] === i.id;
-            return `<li class="${on ? 'on' : ''}" data-cat="${c.id}" data-id="${i.id}"><span>${i.name}</span><b>${fmtEUR(i.price)}</b></li>`;
+            return `<li class="${on ? 'on' : ''}" data-cat="${c.id}" data-id="${i.id}"><span>${i.name}</span><b>${(() => { const q = priceOf(i); return fmtCHF(q.chf, q.est); })()}</b></li>`;
           }).join('')}</ul></div>`).join('')}</section>`;
       }).join('')}</div>`;
     $$('.brands li', panel).forEach(li => li.onclick = () => choose(li.dataset.cat, li.dataset.id, true));
@@ -559,15 +573,16 @@
     const b = base();
     $('#sumTitle').textContent = `${b.brand} ${b.name}`;
     $('#sumFinish').textContent = D.FINISHES[state.finish].name;
-    $('#statPrice').textContent = fmtEUR(t.price);
-    $('#statHuf').textContent = '≈ ' + fmtHUF(t.price * state.rate);
+    $('#statPrice').textContent = fmtCHF(t.price);
+    $('#statHuf').textContent = '≈ ' + fmtHUF(t.price * state.rate) + (t.estCount ? ` · ${t.estCount} becsült tétel` : '');
     $('#statWeight').textContent = fmtKg(t.weight);
     $('#statOal').textContent = Math.abs(t.oal[1] - t.oal[0]) < 0.5 ? `${t.oal[0].toFixed(0)} cm` : `${t.oal[0].toFixed(0)}–${t.oal[1].toFixed(0)} cm`;
     $('#statBarrel').textContent = `${String(b.barrel).replace('.', ',')}" · ${b.cal}`;
-    $('#sumList').innerHTML = t.lines.map(l => `<li data-cat="${l.cat}"><div><b>${l.label}</b>${l.sub ? `<small>${l.sub}</small>` : ''}</div><span>${fmtEUR(l.price)}</span></li>`).join('');
+    $('#sumList').innerHTML = t.lines.map(l => `<li data-cat="${l.cat}"><div><b>${l.label}</b>${l.sub ? `<small>${l.sub}</small>` : ''}</div><span>${l.est ? fmtCHF(l.price, true) : fmtCHF(l.price)}</span></li>`).join('');
     $$('#sumList li').forEach(li => li.onclick = () => { activeTab = li.dataset.cat; renderTabs(); renderPanel(); });
-    $('#sumTotal').textContent = fmtEUR(t.price);
+    $('#sumTotal').textContent = fmtCHF(t.price);
     $('#sumHuf').textContent = '≈ ' + fmtHUF(t.price * state.rate);
+    $('#sumEst').textContent = t.estCount ? `Ebből ${t.estCount} tétel becsült ár (nincs bolti ár hozzá).` : 'Minden tétel valós bolti ár.';
     const order = { error: 0, warn: 1, info: 2 };
     const sorted = issues.slice().sort((a, c) => order[a.lvl] - order[c.lvl]);
     const nErr = issues.filter(i => i.lvl === 'error').length;
@@ -631,7 +646,7 @@
       const cv = document.createElement('canvas'); cv.width = W; cv.height = H;
       const ctx = cv.getContext('2d');
       ctx.drawImage(img, 0, 0);
-      ctx.fillStyle = 'rgba(255,255,255,.55)'; ctx.font = '600 34px Arial'; ctx.fillText(`${base().brand} ${base().name} · ${fmtEUR(totals(RN.render(buildSpec()).metrics).price)}`, 40, H - 40);
+      ctx.fillStyle = 'rgba(255,255,255,.55)'; ctx.font = '600 34px Arial'; ctx.fillText(`${base().brand} ${base().name} · ${fmtCHF(totals(RN.render(buildSpec()).metrics).price)}`, 40, H - 40);
       const a = document.createElement('a');
       a.download = `${base().name.replace(/\s+/g, '_')}_build.png`;
       a.href = cv.toDataURL('image/png');
@@ -682,9 +697,9 @@
     $('#presets').innerHTML = '<option value="">Előre összeállított buildek…</option>' + Object.keys(PRESETS).map(k => `<option>${k}</option>`).join('');
     $('#presets').onchange = (e) => {
       const k = e.target.value; if (!k) return;
-      const rate = state.rate;
+      const rate = state.rate, ec = state.eurChf;
       state = sanitize(PRESETS[k](state.base));
-      state.rate = rate;
+      state.rate = rate; state.eurChf = ec;
       activeTab = 'base';
       update(false, true);
       e.target.value = '';
@@ -701,17 +716,20 @@
       <mask id="reflMask" maskUnits="userSpaceOnUse"><rect id="reflMaskRect" x="-2000" y="0" width="6000" height="400" fill="url(#reflGrad)"/></mask>`;
     $('#rate').value = state.rate;
     $('#rate').oninput = (e) => { const v = Number(e.target.value); if (v > 0) { state.rate = v; update(true); } };
+    $('#eurChf').value = state.eurChf;
+    $('#eurChf').oninput = (e) => { const v = Number(e.target.value); if (v > 0) { state.eurChf = v; update(true); } };
     $('#btnExplode').onclick = () => setExploded(!exploded);
     $('#btnAssemble').onclick = () => renderRifle(true);
     $('#btnShare').onclick = share;
     $('#btnPng').onclick = exportPng;
-    $('#btnReset').onclick = () => { if (confirm('Visszaállítod a gyári állapotot?')) { const r = state.rate; state = defaultState(state.base); state.rate = r; update(false, true); } };
+    $('#btnReset').onclick = () => { if (confirm('Visszaállítod a gyári állapotot?')) { const r = state.rate, ec = state.eurChf; state = defaultState(state.base); state.rate = r; state.eurChf = ec; update(false, true); } };
     initZoom();
     initPartInteraction();
     initPresets();
     let ready = false;
     window.AR_PHOTOS.onChange(() => { if (ready) update(false); });
-    window.AR_PHOTOS.load().catch(() => {}).then(() => { ready = true; update(false, true); });
+    const loadPrices = fetch('assets/prices/merged.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (j && j.items) PRICES = j.items; }).catch(() => {});
+    Promise.all([window.AR_PHOTOS.load().catch(() => {}), loadPrices]).then(() => { ready = true; update(false, true); });
   }
   document.addEventListener('DOMContentLoaded', init);
 })();

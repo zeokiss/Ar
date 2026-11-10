@@ -48,7 +48,7 @@
       </div>
       <div id="photoNote" class="photo-note"></div>
       <div class="stats">
-        <div><span>Becsült ár</span><b id="statPrice"></b><small id="statHuf"></small></div>
+        <div><span>Ár</span><b id="statPrice"></b><small id="statHuf"></small></div>
         <div><span>Tömeg (tár nélkül*)</span><b id="statWeight"></b></div>
         <div><span>Teljes hossz</span><b id="statOal"></b></div>
         <div><span>Cső</span><b id="statBarrel"></b></div>
@@ -67,7 +67,9 @@
       <div class="sum-total">
         <div><span>Összesen</span><b id="sumTotal"></b></div>
         <div class="huf"><span id="sumHuf"></span>
-          <label>1 € = <input id="rate" type="number" min="1" step="1" inputmode="numeric"> Ft</label></div>
+          <label>1 CHF = <input id="rate" type="number" min="1" step="1" inputmode="numeric"> Ft</label></div>
+        <div class="huf"><span id="sumEst" class="estnote"></span>
+          <label title="Csak a becsült árú tételekhez">1 € = <input id="eurChf" type="number" min="0.1" step="0.01" inputmode="decimal"> CHF</label></div>
       </div>
       <p class="fine">* A tömeg az alapfegyver gyári adatából és a cserélt alkatrészek különbségéből becsült. Az árak tájékoztató jellegű európai irányárak, a tényleges ár kereskedőnként eltér.</p>
     </aside>

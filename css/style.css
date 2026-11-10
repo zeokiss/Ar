@@ -194,3 +194,9 @@ select { background: var(--panel-2); border: 1px solid var(--line); border-radiu
 .posrow #posVal { min-width: 52px; text-align: right; font-variant-numeric: tabular-nums; color: var(--accent-2); }
 .swatch.nophoto { opacity: .4; border-style: dashed; }
 .ph text { pointer-events: none; }
+
+.card .src { font-size: 11.5px; color: var(--muted); }
+.card .src a { color: var(--accent-2); text-decoration: none; }
+.card .src a:hover { text-decoration: underline; }
+.card .src.est { color: #8a8f95; font-style: italic; }
+.estnote { color: var(--muted); font-size: 11.5px; }
