@@ -212,7 +212,7 @@ COLOR_ORDER = [
     ("odg", r"\b(odg|od green|olive drab|olive|oliv|olivgrün|olivgrun)\b"),
     ("fde", r"\b(fde|flat dark earth|dark earth|flache dunkle erde|dunkle erde)\b"),
     ("gray", r"\b(stealth gr[ae]y|gr[ae]y|grau|gris)\b"),
-    ("black", r"\b(black|schwarz|blk|noir|nero|negro)\b"),
+    ("black", r"\b(black|schwarz|scharz|blk|noir|nero|negro)\b"),
 ]
 
 
@@ -289,10 +289,12 @@ RULES = {
     "mp-pad070": S(["Magpul Enhanced Rubber Butt-Pad", "Magpul Butt-Pad"], [MP, r"rubber butt ?pad", r"0.70", r"enhanced"], [r"moe sl"], brand=MP),
     "mp-padsl": S(["Magpul MOE SL Enhanced Butt-Pad", "Magpul Butt-Pad"], [MP, r"moe sl", r"butt ?pad", r"0.70"], brand=MP),
     # ---- red dot / holo (szerelékkel)
-    "ap-t2": S(["Aimpoint Micro T-2", "Aimpoint T-2"], [r"aimpoint", r"micro t ?2\b", r"\blrp\b", r"\b39"], [r"without|ohne"], brand="aimpoint", kit=True,
-               why="csomag (T-2 + LRP szerelék): nincs olyan bolti tétel, amely a T-2-t LRP szerelékkel és 39 mm távtartóval együtt, egy cikkszámon adná"),
-    "ap-m5": S(["Aimpoint Comp M5", "Aimpoint CompM5"], [r"aimpoint", r"\bcomp ?m5\b", r"\blrp\b"], [r"without|ohne"], brand="aimpoint", kit=True,
-               why="csomag (CompM5 + LRP szerelék): nincs ilyen bolti tétel"),
+    "ap-t2": S(["Aimpoint Micro T-2", "Aimpoint T-2"], [r"aimpoint", r"micro t ?2\b"], [r"without|ohne|mount only"], brand="aimpoint", kit=True,
+               desc=[r"\blrp\b", r"\b39 ?mm|\b39\b"],
+               why="csomag (T-2 + LRP szerelék, 39 mm távtartóval): nincs olyan bolti tétel, amely ezt egy cikkszámon, a szerelékkel együtt adná"),
+    "ap-m5": S(["Aimpoint Comp M5", "Aimpoint CompM5"], [r"aimpoint", r"\bcomp ?m5\b"], [r"without|ohne|mount only"], brand="aimpoint", kit=True,
+               desc=[r"(kommt mit|comes with|inklusive|inkl|includes|lieferumfang|with|mit) .{0,80}\blrp\b|\blrp\b.{0,60}(included|inklusive|inkl)"],
+               why="csomag (CompM5 + LRP szerelék): a bolti tétel nem igazolja az LRP szerelék mellékelését"),
     "ap-pro": S(["Aimpoint Patrol Rifle Optic", "Aimpoint PRO"], [r"aimpoint", r"\bpro\b|patrol rifle optic"], [r"magnif|mount only"], brand="aimpoint", kit=True,
                 desc=[r"qrp ?2"], why="csomag (PRO + QRP2 szerelék): a bolti termék nem igazolja a QRP2 szerelék tartozékként való szállítását"),
     "ap-acro": S(["Aimpoint ACRO P-2", "Aimpoint ACRO"], [r"aimpoint", r"ac?r?c?ro p ?2|arcro p ?2|acro p ?2"], [r"montage|mount|spacer"], brand="aimpoint", kit=True,
@@ -349,8 +351,8 @@ RULES = {
     "sf-m640": S(["SureFire M640", "SureFire Scout Light"], [r"surefire", r"m640 ?df"], [r"m640 ?dft|turbo"], brand="surefire", near=r"m640"),
     "sf-m300": S(["SureFire M300", "SureFire Scout Light"], [r"surefire", r"\bm300"], [r"m300 ?t|turbo|m340"], multi=True, brand="surefire", near=r"m3[04]0"),
     "sf-x300": S(["SureFire X300", "SureFire X300U"], [r"surefire", r"x300 ?u ?b\b"], brand="surefire", near=r"x300"),
-    "sl-hlx": S(["Streamlight ProTac Rail Mount", "Streamlight HL-X"], [r"streamlight", r"pro ?tac rail mount", r"\bhl x\b"], [r"hl x pro"], brand="streamlight", near=r"pro ?tac"),
-    "sl-tlr1": S(["Streamlight TLR-1 HL", "Streamlight TLR-1"], [r"streamlight", r"tlr 1 hl\b"], [r"tlr 1 hl (g|x|pro)\b|hl x|flash"], brand="streamlight", near=r"tlr 1"),
+    "sl-hlx": S(["Streamlight ProTac Rail Mount", "Streamlight HL-X"], [r"stream ?ligh?t", r"pro ?tac rail mount", r"\bhl x\b"], [r"hl x pro"], brand="stream ?ligh?t", near=r"pro ?tac"),
+    "sl-tlr1": S(["Streamlight TLR-1 HL", "Streamlight TLR-1"], [r"stream ?ligh?t", r"tlr 1 hl\b"], [r"tlr 1 hl (g|x|pro)\b|hl x|flash"], brand="stream ?ligh?t", near=r"tlr 1"),
     # ---- M-LOK
     "mp-rvg": S(["Magpul RVG", "Magpul M-LOK RVG"], [MP, r"\brvg\b", r"\bgrip\b", r"m ?lok"], [r"adapter"], brand=MP, near=r"\brvg\b",
                 why="az 'M-LOK RVG' függőleges markolat nincs a boltban"),
@@ -584,7 +586,12 @@ def build_item(prod, det, variants, palette, rule, alts):
                     " | ".join("%s (%s CHF)" % (v.get("title"), fmt_chf(v.get("price"))) for v in priced[:6]))
     pt = norm(prod["title"])
     vt = norm(main.get("title") or "")
-    title = pt if (not vt or slugify(vt) in slugify(pt) or one) else "%s – %s" % (pt, vt)
+    if not vt or one or slugify(vt) in slugify(pt):
+        title = pt
+    elif slugify(pt) in slugify(vt):
+        title = vt
+    else:
+        title = "%s – %s" % (pt, vt)
     item = dict(title=title, price_chf=main["price"],
                 list_chf=main["list"] if main.get("list") and main["list"] > main["price"] else None,
                 url=main.get("url") or prod["url"], image=main.get("image") or det.get("image") or prod.get("image"),
@@ -628,7 +635,7 @@ def decide(http, pid, brand, name, palette, rule, qcache):
             reason += "; legközelebbi bolti termék(ek), NEM azonos: " + near_text(near)
         return "no", reason
     hits.sort(key=lambda c: (c.get("price_from") is None, c.get("price_from") or 0))
-    cols = [color_of(c["title"]) for c in hits]
+    cols = [color_of(c["title"] + " " + (c.get("hint") or "")) for c in hits]
     nn = [x for x in cols if x]
     color_mode = len(hits) > 1 and nn and len(set(nn)) == len(nn) and cols.count(None) <= 1
     if len(hits) > 1 and not rule["multi"] and not color_mode:
@@ -643,7 +650,7 @@ def decide(http, pid, brand, name, palette, rule, qcache):
                 det = d
             for v in d.get("variants") or []:
                 v = dict(v)
-                v["title"] = c["title"] if not v.get("title") else "%s / %s" % (c["title"], v["title"])
+                v["title"] = (c["title"] + " " + (c.get("hint") or "")).strip() if not v.get("title") else "%s / %s" % (c["title"], v["title"])
                 v["color_force"] = col or "black"
                 variants.append(v)
     else:
