@@ -1,0 +1,70 @@
+{
+ "version": 1,
+ "photos": [
+  {
+   "item": "tj-credo16",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/tj-credo16-main@left-any.webp",
+   "w": 1299,
+   "h": 274,
+   "ppi": 119.17,
+   "ax": 649.5,
+   "ay": 161.5,
+   "facing": "left",
+   "source": "trijicon.com/products/details/cr624-c-2900024"
+  },
+  {
+   "item": "tj-credo16",
+   "slot": "main@right",
+   "color": "*",
+   "src": "parts/tj-credo16-main@right-any.webp",
+   "w": 1311,
+   "h": 278,
+   "ppi": 120.28,
+   "ax": 655.5,
+   "ay": 163.5,
+   "facing": "right",
+   "source": "trijicon.com/products/details/cr624-c-2900024"
+  },
+  {
+   "item": "tj-acog",
+   "slot": "main@right",
+   "color": "*",
+   "src": "parts/tj-acog-main@right-any.webp",
+   "w": 919,
+   "h": 509,
+   "ppi": 153.68,
+   "ax": 270.0,
+   "ay": 457.0,
+   "facing": "right",
+   "source": "trijicon.com/products/details/ta31f"
+  },
+  {
+   "item": "tj-acog",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/tj-acog-main@left-any.webp",
+   "w": 919,
+   "h": 458,
+   "ppi": 153.68,
+   "ax": 650.0,
+   "ay": 455.0,
+   "facing": "left",
+   "source": "trijicon.com/products/details/ta31f"
+  },
+  {
+   "item": "vx-se18",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/vx-se18-main@left-any.webp",
+   "w": 1600,
+   "h": 352,
+   "ppi": 153.85,
+   "ax": 800.0,
+   "ay": 205.0,
+   "facing": "left",
+   "source": "primaryarms.com/vortex-strike-eagle-1-8x24-ffp-rifle-scope-ebr-8-moa-reticle (Vortex SE-1801 Length 10.4 in)"
+  }
+ ]
+}

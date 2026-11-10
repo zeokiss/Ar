@@ -26,6 +26,84 @@
    "ay": 606.0,
    "facing": "right",
    "source": "surefire.com"
+  },
+  {
+   "item": "sf-x300",
+   "slot": "main@left",
+   "color": "black",
+   "src": "parts/sf-x300-main@left-black.webp",
+   "w": 1280,
+   "h": 469,
+   "ppi": 340.43,
+   "ax": 709.5,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "surefire.com/x300u-b-weaponlight/ (X300U-B profileL, Length 3.76 in)"
+  },
+  {
+   "item": "sf-x300",
+   "slot": "main@right",
+   "color": "black",
+   "src": "parts/sf-x300-main@right-black.webp",
+   "w": 1280,
+   "h": 474,
+   "ppi": 340.43,
+   "ax": 573.0,
+   "ay": 2.0,
+   "facing": "right",
+   "source": "surefire.com/x300u-b-weaponlight/ (X300U-B profileR, Length 3.76 in)"
+  },
+  {
+   "item": "sf-x300",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/sf-x300-main@left-any.webp",
+   "w": 1280,
+   "h": 469,
+   "ppi": 340.43,
+   "ax": 709.5,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "surefire.com/x300u-b-weaponlight/"
+  },
+  {
+   "item": "sf-x300",
+   "slot": "main@right",
+   "color": "*",
+   "src": "parts/sf-x300-main@right-any.webp",
+   "w": 1280,
+   "h": 474,
+   "ppi": 340.43,
+   "ax": 573.0,
+   "ay": 2.0,
+   "facing": "right",
+   "source": "surefire.com/x300u-b-weaponlight/"
+  },
+  {
+   "item": "sl-tlr1",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/sl-tlr1-main@left-any.webp",
+   "w": 777,
+   "h": 331,
+   "ppi": 229.2,
+   "ax": 392.0,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "streamlight.com/products/detail/tlr-1-hl (Length Max 3.39 in)"
+  },
+  {
+   "item": "sl-hlx",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/sl-hlx-main@left-any.webp",
+   "w": 790,
+   "h": 253,
+   "ppi": 145.49,
+   "ax": 437.0,
+   "ay": 219.0,
+   "facing": "left",
+   "source": "streamlight.com/products/detail/protac-rail-mount-hl-x (Length Max 5.43 in)"
   }
  ]
 }

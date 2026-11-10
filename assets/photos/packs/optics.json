@@ -1,0 +1,57 @@
+{
+ "version": 1,
+ "photos": [
+  {
+   "item": "hs-510c",
+   "slot": "main@right",
+   "color": "*",
+   "src": "parts/hs-510c-main@right-any.webp",
+   "w": 830,
+   "h": 620,
+   "ppi": 251.52,
+   "ax": 395.0,
+   "ay": 617.0,
+   "facing": "right",
+   "source": "holosun.com/products/hs510c"
+  },
+  {
+   "item": "hs-510c",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/hs-510c-main@left-any.webp",
+   "w": 835,
+   "h": 622,
+   "ppi": 253.03,
+   "ax": 435.0,
+   "ay": 619.0,
+   "facing": "left",
+   "source": "holosun.com/products/hs510c"
+  },
+  {
+   "item": "hs-hm3x",
+   "slot": "main@left",
+   "color": "*",
+   "src": "parts/hs-hm3x-main@left-any.webp",
+   "w": 879,
+   "h": 558,
+   "ppi": 219.75,
+   "ax": 661.5,
+   "ay": 555.0,
+   "facing": "left",
+   "source": "holosun.com/products/hm3x"
+  },
+  {
+   "item": "hs-hm3x",
+   "slot": "main@right",
+   "color": "*",
+   "src": "parts/hs-hm3x-main@right-any.webp",
+   "w": 849,
+   "h": 561,
+   "ppi": 212.25,
+   "ax": 230.5,
+   "ay": 558.0,
+   "facing": "right",
+   "source": "holosun.com/products/hm3x"
+  }
+ ]
+}
