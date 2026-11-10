@@ -1,18 +1,597 @@
 {
  "shops": {
-  "thoron.ch": {
-   "name": "THORON AG",
-   "city": "Steinen SZ",
-   "addr": "Bahnhofstrasse 25a, 6422 Steinen",
-   "ships": true,
-   "shipNote": "Van „Zahlung & Versand” oldaluk (a szállítási feltételeket ott találod). Saját üzlet nyitvatartással (szerda zárva).",
-   "tel": "+41 41 508 26 25",
-   "url": "https://www.thoron.ch",
-   "sources": [
-    "https://www.thoron.ch/de/informationen/impressum",
-    "https://www.thoron.ch/de/service/zahlung-versand"
+  "AATS-Shop": {
+   "name": "AATS-Group GmbH",
+   "display": "AATS-Shop",
+   "addr": "Kirchbergstrasse 192, 3400 Burgdorf",
+   "city": "Burgdorf",
+   "canton": "BE",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Holosun",
+    "Daniel Defense",
+    "Trijicon"
    ],
-   "kind": "both"
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/aats/griff-daniel-defense-pistol-grip-assembly-schwarz-aats/m4c9cavg8ua3"
+   ]
+  },
+  "Action Sport (indoor lőtér)": {
+   "name": "Action Sport",
+   "addr": "Gsteigstrasse 12, 3800 Matten b. Interlaken",
+   "city": "Matten b. Interlaken",
+   "canton": "BE",
+   "verified": false,
+   "sources": [
+    "https://www.police.be.ch/content/dam/police/dokumente/police-be-ch/d/waffen/adressliste-zugelassene-schiesskeller-waffentragpruefung-d.pdf"
+   ]
+  },
+  "aebiwaffen.ch": {
+   "name": "Aebi Waffen GmbH",
+   "display": "Aebi Waffen",
+   "addr": "Kalchofenstrasse 22, 3415 Hasle-Rüegsau",
+   "city": "Hasle-Rüegsau",
+   "canton": "BE",
+   "url": "https://www.aebiwaffen.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Stern Defense",
+    "SureFire",
+    "Davika",
+    "Vortex",
+    "Plan B",
+    "AB Waffen"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/aebi/stern-defense-handschutz-ar15-sd-hg8-mod5-8/m2s2arjrhkty"
+   ]
+  },
+  "airsoft.ch": {
+   "name": "airsoft.ch",
+   "url": "https://www.airsoft.ch/en-ch",
+   "kind": "online",
+   "ships": true,
+   "online_prices": true,
+   "brands": [
+    "Magpul",
+    "Holosun",
+    "EOTech",
+    "Aimpoint",
+    "Vortex Optics",
+    "Streamlight"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.airsoft.ch/en-ch/m/magpul"
+   ]
+  },
+  "armamat.ch": {
+   "name": "TM Trading GmbH",
+   "city": "Cham",
+   "addr": "Gewerbestrasse 6, 6330 Cham",
+   "ships": true,
+   "shipNote": "Szállít: PostPac Economy 9 CHF (terjedelmes áru 28 CHF), 299 CHF fölött a postaköltség benne van az árban; 1–2 nap Svájcon belül.",
+   "tel": "+41 44 862 48 17",
+   "url": "https://www.armamat.ch",
+   "sources": [
+    "https://www.armamat.ch/de-ch/i/impressum/",
+    "https://www.armamat.ch/de-ch/i/versand-zahlungsmoeglichkeiten/"
+   ],
+   "kind": "both",
+   "canton": "ZG"
+  },
+  "armashop.ch": {
+   "name": "Armurerie Nouvelle Lausanne SA",
+   "display": "Armashop",
+   "city": "Lausanne/Renens",
+   "canton": "VD",
+   "url": "https://armashop.ch/",
+   "kind": "both",
+   "online_prices": true,
+   "brands": [
+    "Radian",
+    "Aero Precision",
+    "Noveske",
+    "Law Tactical",
+    "Noblex",
+    "Springfield Armory"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/armashop/radian-weapons-ar-15-builder-s-kit-155-radian-grey/m22ubooha7ze"
+   ]
+  },
+  "armatum.ch": {
+   "name": "Armatum GmbH",
+   "display": "Armatum",
+   "addr": "Färchstrasse 6b, 4629 Fulenbach",
+   "city": "Fulenbach",
+   "canton": "SO",
+   "url": "https://armatum.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Holosun",
+    "EOTech",
+    "Magpul",
+    "Strike Industries",
+    "Blackhawk",
+    "Daniel Defense",
+    "B&T",
+    "Vaultek"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/armatum/holosun-eps-gr-6-green-dot-rotpunktvisier/mf90wf097chj"
+   ]
+  },
+  "armeriablockhouse.ch": {
+   "name": "Armeria Blockhouse Sagl",
+   "display": "Armeria Blockhouse",
+   "addr": "Al Gagiurasc 12, 6528 Camorino",
+   "city": "Camorino",
+   "canton": "TI",
+   "url": "https://www.armeriablockhouse.ch/",
+   "kind": "store",
+   "verified": false,
+   "sources": [
+    "https://search.ch/tel/camorino/al-gagiurasc-4/armeria-blockhouse-sagl.en.html"
+   ]
+  },
+  "Armurerie Gilles": {
+   "name": "Armurerie Gilles",
+   "city": "Genève",
+   "canton": "GE",
+   "verified": false,
+   "sources": [
+    "https://tirsportifchabris.fr/blog/armurerie-geneve-suisse"
+   ]
+  },
+  "armurerie-lesdix.ch": {
+   "name": "Armurerie Les Dix",
+   "url": "https://armurerie-lesdix.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Aero Precision",
+    "CMC",
+    "Geissele",
+    "Recce",
+    "Javelin",
+    "BTA"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/les-dix/aero-precision-ar-rifle-replacement-handguard/msyiahi5wks4"
+   ]
+  },
+  "armurerie-richert.ch": {
+   "name": "Armurerie Richert",
+   "addr": "1213 Onex",
+   "city": "Onex",
+   "canton": "GE",
+   "url": "https://armurerie-richert.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "BCM",
+    "Noveske",
+    "LMT",
+    "Daniel Defense",
+    "Battle Arms",
+    "Centurion Arms",
+    "EOTech",
+    "Holosun",
+    "Vortex",
+    "Andro Corp"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/richert-arm/ar15-bcm-reece-145/mwj36rvk2kh8"
+   ]
+  },
+  "birkenast.ch": {
+   "name": "Birkenast Natur GmbH",
+   "display": "Birkenast",
+   "url": "https://www.birkenast.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Anschütz",
+    "Steyr",
+    "Rödale",
+    "Helle"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/birkenast/anschuetz-9015-precise/mhymwyfzphsr"
+   ]
+  },
+  "Boller-Waffen": {
+   "name": "Boller-Waffen",
+   "city": "Steinen",
+   "canton": "SZ",
+   "verified": false,
+   "sources": [
+    "https://www.local.ch/de/q/zentralschweiz-region/waffen-und-munition"
+   ]
+  },
+  "Brix Waffen": {
+   "name": "Brix Waffen AG",
+   "display": "Brix Waffen",
+   "addr": "Rhonesandstrasse 10, 3900 Brig",
+   "city": "Brig",
+   "canton": "VS",
+   "kind": "store",
+   "online_prices": false,
+   "verified": false,
+   "sources": [
+    "https://www.brig-simplon.ch/en/poi/brix-waffen"
+   ]
+  },
+  "bt-ag.ch": {
+   "name": "B&T AG",
+   "display": "B&T AG - Flagship Store + Webshop",
+   "city": "Thun",
+   "canton": "BE",
+   "url": "https://bt-ag.ch/en/privatkunden/",
+   "kind": "store",
+   "brands": [
+    "B&T",
+    "Accu-Shot (forgalmaz)",
+    "30+ külföldi beszállító"
+   ],
+   "verified": false,
+   "sources": [
+    "https://bt-ag.ch/en/shops/"
+   ]
+  },
+  "Caputi Waffen": {
+   "name": "Caputi Waffen",
+   "city": "Brittnau",
+   "canton": "AG",
+   "verified": false,
+   "sources": [
+    "https://onlineinfo.ch/firma/caputi-waffen---che-108-633-310/pdf"
+   ]
+  },
+  "ellie-firearms.com": {
+   "name": "Ellie FA GmbH",
+   "display": "ELLIE-Firearms",
+   "city": "Buchs",
+   "canton": "SG",
+   "url": "https://ellie-firearms.com/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Hera Arms",
+    "Vortex",
+    "Falke",
+    "Condor",
+    "Skeleton Optics",
+    "Akdas",
+    "Skywolf",
+    "Messerschmitt"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/ellie/hera-cqr-gen1-black/m8h9f8tzvrj6"
+   ]
+  },
+  "felder-jagdhof.ch": {
+   "name": "Felder Jagdhof AG",
+   "display": "Felder Jagdhof",
+   "url": "https://felder-jagdhof.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Blaser",
+    "Sauer",
+    "Svemko",
+    "Seeland",
+    "Meindl"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/felder/schalldaempfer-svemko-pure-m/mavai783uhlc"
+   ]
+  },
+  "freesport.ch": {
+   "name": "Freesport Pierre-Alain Dufaux SA",
+   "addr": "Route des Grives 6, 1763 Granges-Paccot",
+   "city": "Granges-Paccot",
+   "canton": "FR",
+   "url": "https://freesport.ch/",
+   "kind": "store",
+   "verified": false,
+   "sources": [
+    "https://search.ch/tel/granges-paccot/route-des-grives-6/freesport-pierre-alain-dufaux-sa.en.html"
+   ]
+  },
+  "freis-waffenschmiede.ch": {
+   "name": "Freis Waffenschmiede",
+   "url": "https://freis-waffenschmiede.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Hera Arms"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/freiwa/h15gl-pistolengriff/msd27cwnynfj"
+   ]
+  },
+  "Gun Shop Schweiz GmbH": {
+   "name": "Gun Shop Schweiz GmbH",
+   "addr": "8833 Samstagern",
+   "city": "Samstagern",
+   "canton": "ZH",
+   "verified": false,
+   "sources": [
+    "https://onlineinfo.ch/firma/gun-shop-schweiz-gmbh---che-116-072-448/pdf"
+   ]
+  },
+  "gunfactory.ch": {
+   "name": "Gun Factory Handels AG",
+   "display": "Gun Factory",
+   "addr": "Schürmatt 12, 8964 Rudolfstetten",
+   "city": "Rudolfstetten",
+   "canton": "AG",
+   "url": "https://gunfactory.ch/",
+   "kind": "store",
+   "verified": false,
+   "sources": [
+    "https://www.oeffnungszeitenbuch.de/filiale/Rudolfstetten-Gun%2520Factory-880247W.html"
+   ]
+  },
+  "gunlex.ch": {
+   "name": "Gunlex GmbH",
+   "display": "Gunlex Waffen",
+   "addr": "Emmetterstrasse 15, 6375 Beckenried",
+   "city": "Beckenried",
+   "canton": "NW",
+   "url": "https://gunlex.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Holosun",
+    "EOTech",
+    "Vortex",
+    "SureFire",
+    "Schmeisser",
+    "Lux Def Tec",
+    "B&T",
+    "Desert Tech",
+    "Derya"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/gunlex/schmeisser-pcc-ar15-9-dynamic-grey/m4xz4rt601a6"
+   ]
+  },
+  "gwmh-shop.ch": {
+   "name": "GWMH AG / Glarner Waffen Manufaktur GWM+H",
+   "display": "GWMH Shop",
+   "url": "https://www.gwmh-shop.ch/",
+   "kind": "online",
+   "ships": true,
+   "online_prices": true,
+   "brands": [
+    "Magpul",
+    "Knights Armament",
+    "CAA Tactical",
+    "Burris",
+    "SPC"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/gwmh/magpul-ar15-flip-up-mbus-gen-2-front-sight/mili8d86jcmy"
+   ]
+  },
+  "heldef.ch": {
+   "name": "Helvetia Defense Sàrl",
+   "display": "Helvetia Defense",
+   "url": "https://heldef.ch/",
+   "kind": "online",
+   "ships": true,
+   "online_prices": true,
+   "brands": [
+    "Holosun",
+    "EOTech",
+    "Aimpoint",
+    "Vortex",
+    "Hera Arms",
+    "Nextorch",
+    "Vaultek",
+    "GPS"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/heldef/red-dot-aimpoint-9000-l-2-moa/mpp3metmmobb"
+   ]
+  },
+  "Hollenstein Waffen": {
+   "name": "Hollenstein Waffen",
+   "city": "Bettwiesen",
+   "canton": "TG",
+   "verified": false,
+   "sources": [
+    "https://onlineinfo.ch/company/hollenstein-waffen---che-107-090-223/pdf"
+   ]
+  },
+  "indoorswiss.ch": {
+   "name": "Indoor Swiss Shooting AG",
+   "display": "Indoor Swiss Shooting",
+   "url": "https://shop.indoorswiss.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Holosun",
+    "EOTech",
+    "Leupold",
+    "Hawke",
+    "Firefield",
+    "GPS",
+    "Allen"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/indoor-swiss/eotech-eflx-mini-red-dot-sight/mhu1krzaiwpe"
+   ]
+  },
+  "Kessler Shop (Kessler Waffen AG)": {
+   "name": "Kessler Waffen AG",
+   "display": "Kessler Shop",
+   "addr": "Löwenstrasse 20, 8280 Kreuzlingen",
+   "city": "Kreuzlingen",
+   "canton": "TG",
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/?F=MSO&L=EN"
+   ]
+  },
+  "Lakeside Shooting": {
+   "name": "Lakeside Shooting AG",
+   "display": "Lakeside Shooting",
+   "addr": "Alte Landstrasse 15, 8804 Au ZH",
+   "city": "Au ZH",
+   "canton": "ZH",
+   "kind": "store",
+   "verified": false,
+   "sources": [
+    "https://onlineinfo.ch/firma/lakeside-shooting-ag---che-325-288-818/pdf"
+   ]
+  },
+  "m426.ch": {
+   "name": "M426 Systems GmbH",
+   "display": "M426 Systems",
+   "addr": "Schenkstrasse 6, 3380 Wangen an der Aare",
+   "city": "Wangen an der Aare",
+   "canton": "BE",
+   "url": "https://m426.ch/shop",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Magpul",
+    "BCM",
+    "Aimpoint",
+    "Shield",
+    "Eratac",
+    "Blade-Tech"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/m426/handschutz-magpul-moer-akm-hand-guard/mk1hl2alu70f"
+   ],
+   "noPriceReason": "A bolt oldala botvédelmet használ, automatikusan nem kérdezhető le; az árakat a bolt oldalán kell megnézni."
+  },
+  "MAS Dayer Sàrl / 'Dayer Armes'": {
+   "name": "MAS Dayer Sàrl",
+   "display": "MAS Dayer Sàrl / 'Dayer Armes'",
+   "city": "Hérémence",
+   "canton": "VS",
+   "verified": false,
+   "sources": [
+    "https://onlineinfo.ch/firma/mas-dayer-sarl---che-104-349-666/pdf"
+   ]
+  },
+  "MGX GmbH": {
+   "name": "MGX GmbH",
+   "city": "Unterengstringen",
+   "canton": "ZH",
+   "verified": false,
+   "sources": [
+    "https://onlineinfo.ch/company/mgx-gmbh---che-112-540-166/pdf"
+   ]
+  },
+  "munitionsdepot.ch": {
+   "name": "Munitionsdepot",
+   "url": "https://munitionsdepot.ch/",
+   "kind": "online",
+   "ships": true,
+   "online_prices": true,
+   "brands": [
+    "Vortex",
+    "Falke",
+    "Hawke",
+    "Hornady",
+    "B&T",
+    "SIG Sauer",
+    "Elftmann",
+    "Wilson/Aero (ladegriff)"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/munitionsdepot/ladegriff-aero-precision-zu-ar15/mgwy8699i828"
+   ],
+   "noPriceReason": "A bolt oldala botvédelmet használ, automatikusan nem kérdezhető le; az árakat a bolt oldalán kell megnézni."
+  },
+  "renehild-tactical.ch": {
+   "name": "René Hild Tactical",
+   "url": "https://renehild-tactical.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Aimpoint",
+    "Nitecore",
+    "5.11",
+    "3M Peltor",
+    "Haley Strategic",
+    "Reload Swiss"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/rene-hild/aimpoint-nano/mstzsk1d5r4g"
+   ]
+  },
+  "rothwaffen.ch": {
+   "name": "Roth Waffen",
+   "url": "https://rothwaffen.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Stoeger",
+    "Ruger",
+    "Walther"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/roth/pistole-stoeger-str-9-optic-ready-9mm-para-15-schuss/mkz21cbdppca"
+   ]
+  },
+  "schiesscenter.ch": {
+   "name": "VSH Schiess- und Ausbildungszentrum AG",
+   "display": "VSH Schiesscenter",
+   "url": "https://schiesscenter.ch/",
+   "kind": "both",
+   "online_prices": true,
+   "brands": [
+    "Magpul",
+    "Holosun",
+    "5.11",
+    "AHG",
+    "GPS",
+    "DDoptics"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/vsh-saz/magpul-moe-grip-ar15-m4/m6q7c0pbw8pe"
+   ]
+  },
+  "Schiesssport-Center Geissbühler": {
+   "name": "Schiesssport-Center Geissbühler GmbH",
+   "display": "Schiesssport-Center Geissbühler",
+   "addr": "Industriestrasse 4, 6078 Lungern",
+   "city": "Lungern",
+   "canton": "OW",
+   "verified": false,
+   "sources": [
+    "https://www.local.ch/de/q/zentralschweiz-region/waffen-und-munition"
+   ]
   },
   "schiessstand.ch": {
    "name": "Schiessstand.ch GmbH",
@@ -27,11 +606,30 @@
     "https://schiessstand.ch/allgemeine-geschaeftsbedingungen/",
     "https://schiessstand.ch/unser-laden/"
    ],
-   "kind": "both"
+   "kind": "both",
+   "canton": "GL"
+  },
+  "schildwaffen.ch": {
+   "name": "Schild Waffen",
+   "city": "Wallbach",
+   "canton": "AG",
+   "url": "https://www.schildwaffen.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "SureFire",
+    "Aimpoint",
+    "Holosun",
+    "5.11"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/schild/lampe-surefire-x300u-b-tan-1000lm/mplsofk6c6ep"
+   ]
   },
   "shooting-store.ch": {
    "name": "Shooting-Inn AG",
-   "city": "Oberentfelden AG",
+   "city": "Oberentfelden",
    "addr": "Köllikerstrasse 32, 5036 Oberentfelden",
    "ships": true,
    "shipNote": "Szállít: a szállítási díj a csomag súlya szerint számolódik; előre fizetés (Vorauskasse).",
@@ -41,21 +639,305 @@
     "https://www.shooting-store.ch/de/impressum",
     "https://www.shooting-store.ch/bc/agb.html"
    ],
-   "kind": "both"
+   "kind": "both",
+   "canton": "AG"
   },
-  "armamat.ch": {
-   "name": "TM Trading GmbH",
-   "city": "Cham ZG",
-   "addr": "Gewerbestrasse 6, 6330 Cham",
-   "ships": true,
-   "shipNote": "Szállít: PostPac Economy 9 CHF (terjedelmes áru 28 CHF), 299 CHF fölött a postaköltség benne van az árban; 1–2 nap Svájcon belül.",
-   "tel": "+41 44 862 48 17",
-   "url": "https://www.armamat.ch",
-   "sources": [
-    "https://www.armamat.ch/de-ch/i/impressum/",
-    "https://www.armamat.ch/de-ch/i/versand-zahlungsmoeglichkeiten/"
+  "stampfli-waffen.ch": {
+   "name": "Stampfli Waffen AG",
+   "display": "Stampfli Waffen",
+   "addr": "Grossmatte-Ost",
+   "city": "Luzern",
+   "canton": "LU",
+   "url": "https://www.stampfli-waffen.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Magpul",
+    "Desert Tech",
+    "Corelock",
+    "Blackhawk",
+    "Rieffel",
+    "Tikka"
    ],
-   "kind": "both"
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/stampfli/magpul-moe-bipod/mbpumaushveq"
+   ],
+   "noPriceReason": "A bolt oldala botvédelmet használ, automatikusan nem kérdezhető le; az árakat a bolt oldalán kell megnézni."
+  },
+  "swiss-sale.ch": {
+   "name": "Swiss-Sale.ch",
+   "url": "https://swiss-sale.ch/",
+   "kind": "online",
+   "ships": true,
+   "online_prices": true,
+   "brands": [
+    "Nitecore",
+    "Fenix",
+    "101 INC",
+    "Fostex",
+    "Alpen Optics",
+    "Sightmark"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swiss-sale.ch/weapon-lights?ed=1"
+   ]
+  },
+  "tacstore.ch": {
+   "name": "Tacstore.ch",
+   "url": "https://www.tacstore.ch/en/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "B&T"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.tacstore.ch/en/bt-tp9-n-tactical-pistol-9x19mm-grey"
+   ]
+  },
+  "tellsarmory.ch": {
+   "name": "Tells Armory AG",
+   "display": "Tells Armory",
+   "addr": "Blattistrasse 14b, 6376 Emmetten",
+   "city": "Emmetten",
+   "canton": "NW",
+   "url": "https://tellsarmory.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "BCM",
+    "B5 Systems",
+    "SureFire",
+    "Vortex",
+    "EOTech",
+    "Radian",
+    "Unity Tactical",
+    "Daniel Defense",
+    "Walker's",
+    "GSCI",
+    "KORE"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/tells-armory/bcm-kag-grip-m-lok-schwarz/mdsy8a9wronw"
+   ]
+  },
+  "thoron.ch": {
+   "name": "THORON AG",
+   "city": "Steinen",
+   "addr": "Bahnhofstrasse 25a, 6422 Steinen",
+   "ships": true,
+   "shipNote": "Van „Zahlung & Versand” oldaluk (a szállítási feltételeket ott találod). Saját üzlet nyitvatartással (szerda zárva).",
+   "tel": "+41 41 508 26 25",
+   "url": "https://www.thoron.ch",
+   "sources": [
+    "https://www.thoron.ch/de/informationen/impressum",
+    "https://www.thoron.ch/de/service/zahlung-versand"
+   ],
+   "kind": "both",
+   "canton": "SZ"
+  },
+  "treehuggersupply.ch": {
+   "name": "Treehugger Supply",
+   "url": "https://treehuggersupply.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "SureFire",
+    "Trijicon",
+    "Aimpoint",
+    "Vortex",
+    "A-TEC",
+    "Acheron",
+    "Silent Steel"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/treehugger/trijicon-acog-3535-dual-illuminated-223-556/m2c0rn2af3zl"
+   ]
+  },
+  "Ulrich Waffen AG": {
+   "name": "Ulrich Waffen AG",
+   "addr": "Selgis 6 vagy Selgis 8, 6436 Ried",
+   "city": "Ried",
+   "canton": "SZ",
+   "verified": false,
+   "sources": [
+    "https://onlineinfo.ch/firma/ulrich-waffen-ag---che-412-081-094/pdf"
+   ]
+  },
+  "vogtwaffen.ch": {
+   "name": "Vogt Waffen",
+   "addr": "Marterlochstrasse 218, 8180 Bülach",
+   "city": "Bülach",
+   "canton": "ZH",
+   "url": "https://www.vogtwaffen.ch/",
+   "kind": "store",
+   "brands": [
+    "B&T",
+    "Swarovski"
+   ],
+   "verified": false,
+   "sources": [
+    "https://www.swarovskioptik.com/us/en/birding/dealer-locator/vogt-waffen-michael-vogt-7ff2"
+   ],
+   "noPriceReason": "A bolt oldala botvédelmet használ, automatikusan nem kérdezhető le; az árakat a bolt oldalán kell megnézni."
+  },
+  "Waffen Glauser AG": {
+   "name": "Waffen Glauser AG",
+   "addr": "Stadtplatz 17, 3270 Aarberg",
+   "city": "Aarberg",
+   "canton": "BE",
+   "verified": false,
+   "sources": [
+    "https://onlineinfo.ch/firma/waffen-glauser-ag---che-103-736-888/pdf"
+   ]
+  },
+  "Waffen Ingold": {
+   "name": "Waffen Ingold AG",
+   "display": "Waffen Ingold",
+   "addr": "3429 Höchstetten",
+   "city": "Höchstetten",
+   "canton": "BE",
+   "kind": "store",
+   "online_prices": false,
+   "verified": false,
+   "sources": [
+    "https://www.local.ch/en/d/hoechstetten/3429/weapons-and-munitions/waffen-ingold-ag--7K5YGZl5ErLMFryqUWX0A"
+   ]
+  },
+  "waffenboerse.ch": {
+   "name": "NaturAktiv AG",
+   "display": "Waffenbörse",
+   "addr": "8422 Pfungen",
+   "city": "Pfungen",
+   "canton": "ZH",
+   "url": "https://www.waffenboerse.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Holosun",
+    "Aimpoint",
+    "EOTech",
+    "Streamlight",
+    "Zev",
+    "Blaser",
+    "GPS",
+    "Eberlestock"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/naturaktiv/holosun-aro-mrs-rd/mh1n391ppakj"
+   ]
+  },
+  "waffenemmental.ch": {
+   "name": "Waffen Emmental GmbH",
+   "display": "Waffen Emmental",
+   "addr": "Schmiedenstrasse 8, 3550 Langnau i.E.",
+   "city": "Langnau im Emmental",
+   "canton": "BE",
+   "url": "https://waffenemmental.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "SIG Sauer",
+    "S&W",
+    "Walther",
+    "Beretta",
+    "Taurus"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/waffen-emmental/sig-sauer-inc-p229-9mm-luger/mbcd2qc1iwk7"
+   ]
+  },
+  "waffenhandel-pluess.ch": {
+   "name": "Waffenhandel Plüss",
+   "url": "https://www.waffenhandel-pluess.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Holosun",
+    "Lux Def Tec",
+    "GSG"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/pluess/holosun-hs507k-x2-red-circle-dot-sight/meb7oy6knmy5"
+   ]
+  },
+  "waffenpauli.ch": {
+   "name": "Waffen Pauli AG",
+   "display": "Waffen Pauli",
+   "addr": "5606 Dintikon",
+   "city": "Dintikon",
+   "canton": "AG",
+   "url": "https://www.waffenpauli.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Blaser",
+    "OXA",
+    "A-Tec",
+    "Primos",
+    "Victorinox"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/pauli/schiessstabilisator-oxa/m9rsmuwz3895"
+   ]
+  },
+  "Waffenwerkstatt Ming": {
+   "name": "Waffenwerkstatt Ming",
+   "city": "Sempach",
+   "canton": "LU",
+   "verified": false,
+   "sources": [
+    "https://www.local.ch/de/q/zentralschweiz-region/waffen-und-munition"
+   ]
+  },
+  "waffenzimmi.ch": {
+   "name": "Waffen Zimmi",
+   "url": "https://waffenzimmi.ch/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "FBT",
+    "Hornady",
+    "Blaser",
+    "Brownells"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/zimmi/fbt-wingman-ar-15-schwarz-105-223-rem/mwp2s66wefdz"
+   ]
+  },
+  "wyn.swiss": {
+   "name": "WYN Sàrl",
+   "display": "WYN",
+   "addr": "Chemin du Croset 9, 1024 Ecublens",
+   "city": "Ecublens",
+   "canton": "VD",
+   "url": "https://wyn.swiss/",
+   "kind": "online",
+   "online_prices": true,
+   "brands": [
+    "Magpul",
+    "Holosun",
+    "ZEV",
+    "Swarovski",
+    "Benelli",
+    "CZ",
+    "H&K",
+    "S&W",
+    "Walther"
+   ],
+   "verified": false,
+   "sources": [
+    "https://swisswaffen.com/markt/wyn/magpul-pmag-d-50-gl9-pcc/m7fne3c3mr2r"
+   ]
   }
  },
  "other_sources": [

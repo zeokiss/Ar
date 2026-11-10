@@ -21,7 +21,7 @@
   const shopOk = (sh) => {
     if (!Object.keys(SHOPINFO).length) return true;
     const i = SHOPINFO[sh];
-    return !!i && i.ships !== false && i.kind !== 'store';
+    return !!i;
   };
   const shopTag = (sh) => (SHOPINFO[sh] && SHOPINFO[sh].city) ? `${sh} (${SHOPINFO[sh].city})` : sh;
   const shopBadge = (sh) => { const i = SHOPINFO[sh]; return i && i.ships ? ' · szállít' : ''; };
@@ -638,7 +638,8 @@
   function shopInfoHtml(sh) {
     const i = SHOPINFO[sh];
     if (!i) return '';
-    return `<div class="ordinfo">${[i.name, i.addr].filter(Boolean).map(esc).join(' · ')}${i.shipNote ? '<br>' + esc(i.shipNote) : ''}` +
+    const pick = i.ships === false ? '<br><b>Nem szállít – csak személyes átvétel a boltban.</b>' : '';
+    return `<div class="ordinfo">${[i.name, i.addr].filter(Boolean).map(esc).join(' · ')}${pick}${i.shipNote ? '<br>' + esc(i.shipNote) : ''}` +
       `${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}${i.url ? ' · <a href="' + i.url + '" target="_blank" rel="noopener">a bolt oldala ↗</a>' : ''}</div>`;
   }
   function orderText(t) {
@@ -952,9 +953,15 @@
   }
 
   // ------------------------------------------------------------ boltok és források
-  function renderSources() {
-    const el = $('#sources');
-    if (!el) return;
+  // Boltkatalógus: Svájc fegyverboltjai (online és fizikai), kereshető és szűrhető – senki lakóhelyéhez nem kötött.
+  const CANTON = { AG: 'Aargau', AI: 'Appenzell I.Rh.', AR: 'Appenzell A.Rh.', BE: 'Bern', BL: 'Basel-Landschaft', BS: 'Basel-Stadt',
+    FR: 'Fribourg', GE: 'Genève', GL: 'Glarus', GR: 'Graubünden', JU: 'Jura', LU: 'Luzern', NE: 'Neuchâtel', NW: 'Nidwalden',
+    OW: 'Obwalden', SG: 'St. Gallen', SH: 'Schaffhausen', SO: 'Solothurn', SZ: 'Schwyz', TG: 'Thurgau', TI: 'Ticino', UR: 'Uri',
+    VD: 'Vaud', VS: 'Valais', ZG: 'Zug', ZH: 'Zürich' };
+  const KIND = { online: 'webshop', store: 'üzlet', both: 'webshop + üzlet' };
+  const shopF = { q: '', kind: 'all', canton: '', priced: false };
+  let shopStat = { cnt: {}, best: {} };
+  function shopStats() {
     const cnt = {}, best = {};
     Object.values(PRICES).forEach(it => {
       const offs = (it.offers || []).filter(o => shopOk(o.shop));
@@ -962,36 +969,82 @@
       const b = offs.reduce((x, y) => (!x || y.chf < x.chf ? y : x), null);
       if (b) best[b.shop] = (best[b.shop] || 0) + 1;
     });
+    return { cnt, best };
+  }
+  const shopHay = (sh) => { const i = SHOPINFO[sh];
+    return norm([sh, i.display, i.name, i.city, i.addr, i.canton, CANTON[i.canton], KIND[i.kind], (i.brands || []).join(' ')].join(' ')); };
+  function shopMatches(sh) {
+    const i = SHOPINFO[sh];
+    if (shopF.kind === 'online' && !(i.kind === 'online' || i.kind === 'both')) return false;
+    if (shopF.kind === 'store' && !(i.kind === 'store' || i.kind === 'both')) return false;
+    if (shopF.canton && i.canton !== shopF.canton) return false;
+    if (shopF.priced && !shopStat.cnt[sh]) return false;
+    const words = norm(shopF.q).split(' ').filter(Boolean);
+    if (words.length) { const h = shopHay(sh); if (!words.every(w => h.includes(w))) return false; }
+    return true;
+  }
+  function shopWhy(sh) {
+    const i = SHOPINFO[sh];
+    if (i.noPriceReason) return i.noPriceReason;
+    if (i.kind === 'store' || i.online_prices === false) return 'Nincs online árlista – az árakat a boltban kell megkérdezni.';
+    if (!i.url) return 'Webcím nem ismert – az árakat a boltban kell megkérdezni.';
+    return 'A kalkulátor termékei közül egyikhez sem találtam pontosan egyező, árazott terméket.';
+  }
+  function shopCard(sh) {
+    const i = SHOPINFO[sh], n = shopStat.cnt[sh] || 0;
+    const tags = [KIND[i.kind] || 'típus: nem ismert', i.ships ? 'szállít' : (i.ships === false ? 'nem szállít' : ''), i.verified === false ? 'nem ellenőrzött adat' : ''].filter(Boolean);
+    const title = i.display || i.name || sh, url = i.url && /^https:\/\//.test(i.url) ? i.url : '';
+    const place = [i.city, i.canton].filter(Boolean).join(' ');
+    return `<div class="srcbox${n ? '' : ' muted'}">
+      <h3>${url ? `<a href="${url}" target="_blank" rel="noopener">${esc(title)}</a>` : `<span>${esc(title)}</span>`}<small>${esc(place)}</small></h3>
+      <p class="srctags">${tags.map(t => `<span>${esc(t)}</span>`).join('')}</p>
+      <p>${i.display && i.name ? esc(i.name) + '<br>' : ''}${i.addr ? esc(i.addr) : ''}${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}${i.hours ? '<br>' + esc(i.hours) : ''}${url ? `<br><span class="srcdom">${esc(sh)}</span>` : ''}</p>
+      ${n ? `<p class="srcmeta"><b>${n} termék ára a kalkulátorban</b> · ${shopStat.best[sh] || 0} tételnél ez a legolcsóbb</p>` : `<p class="srcmeta why">${esc(shopWhy(sh))}</p>`}
+      ${i.shipNote ? `<p class="srcmeta">${esc(i.shipNote)}</p>` : ''}
+      ${i.brands && i.brands.length ? `<p class="srcmeta">Márkák: ${esc(i.brands.join(', '))}</p>` : ''}</div>`;
+  }
+  function renderShopGrid() {
     const all = Object.keys(SHOPINFO);
-    const priced = all.filter(sh => shopOk(sh) && cnt[sh]).sort((x, y) => (cnt[y] || 0) - (cnt[x] || 0) || x.localeCompare(y));
-    const rest = all.filter(sh => !priced.includes(sh)).sort((x, y) => x.localeCompare(y));
-    const KIND = { online: 'csak online', store: 'csak üzlet', both: 'webshop + üzlet' };
-    const why = (sh) => {
-      const i = SHOPINFO[sh];
-      if (i.noPriceReason) return i.noPriceReason;
-      if (!shopOk(sh)) return 'Nem szállít (csak bolti átvétel), ezért az árait nem veszem figyelembe.';
-      if (i.online_prices === false) return 'Nincs online árlista – az árakat a boltban kell megkérdezni.';
-      return 'A kalkulátor termékei közül egyikhez sem találtam pontosan egyező, árazott terméket.';
-    };
-    const box = (sh, withPrice) => { const i = SHOPINFO[sh];
-      const tags = [i.canton, KIND[i.kind], i.ships ? 'szállít' : (i.ships === false ? 'nem szállít' : ''), i.verified === false ? 'nem ellenőrzött adat' : ''].filter(Boolean);
-      const title = i.display || sh, url = i.url && /^https:\/\//.test(i.url) ? i.url : '';
-      return `<div class="srcbox${withPrice ? '' : ' muted'}">
-        <h3>${url ? `<a href="${url}" target="_blank" rel="noopener">${esc(title)}</a>` : `<span>${esc(title)}</span>`}<small>${esc(i.city || '')}</small></h3>
-        ${tags.length ? `<p class="srctags">${tags.map(t => `<span>${esc(t)}</span>`).join('')}</p>` : ''}
-        <p>${esc(i.name || '')}${i.addr ? '<br>' + esc(i.addr) : ''}${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}${i.hours ? '<br>' + esc(i.hours) : ''}</p>
-        ${withPrice ? `<p class="srcmeta"><b>${cnt[sh]} termék ára</b> · ${best[sh] || 0} tételnél ez a legolcsóbb</p>` : ''}
-        ${i.shipNote ? `<p class="srcmeta">${esc(i.shipNote)}</p>` : ''}
-        ${withPrice ? '' : `<p class="srcmeta why">${esc(why(sh))}</p>`}</div>`; };
+    const list = all.filter(shopMatches).sort((x, y) => (shopStat.cnt[y] || 0) - (shopStat.cnt[x] || 0) ||
+      String(SHOPINFO[x].display || SHOPINFO[x].name || x).localeCompare(String(SHOPINFO[y].display || SHOPINFO[y].name || y), 'de'));
+    $('#shopCount').textContent = list.length === all.length ? `${all.length} bolt` : `${list.length} / ${all.length} bolt`;
+    $('#shopGrid').innerHTML = list.length ? list.map(shopCard).join('') : '<p class="srcempty">Nincs a szűrésnek megfelelő bolt.</p>';
+  }
+  function renderSources() {
+    const el = $('#sources');
+    if (!el) return;
+    shopStat = shopStats();
+    const all = Object.keys(SHOPINFO);
+    const priced = all.filter(sh => shopStat.cnt[sh]).length;
+    const nOnline = all.filter(sh => ['online', 'both'].includes(SHOPINFO[sh].kind)).length;
+    const nStore = all.filter(sh => ['store', 'both'].includes(SHOPINFO[sh].kind)).length;
+    const cc = {};
+    all.forEach(sh => { const c = SHOPINFO[sh].canton; if (c) cc[c] = (cc[c] || 0) + 1; });
     const others = (window.AR_OTHER_SOURCES || []);
-    el.innerHTML = `<h2 id="srcTitle">Boltok és források</h2>
-      <p class="srcnote">${all.length} svájci online shop van a listán, ebből <b>${priced.length}</b> bolt árai vannak a kalkulátorban. Az árak <b>kizárólag</b> svájci online shopokból származnak, az ország egész területéről (CHF, a bolt kiírt fogyasztói ára).</p>
-      <h3 class="srcsub">Árak forrásai <small>${priced.length} online shop</small></h3>
-      <div class="srcgrid">${priced.map(sh => box(sh, true)).join('')}</div>
-      ${rest.length ? `<h3 class="srcsub">További svájci online shopok <small>${rest.length} bolt · ár nélkül</small></h3>
-      <div class="srcgrid">${rest.map(sh => box(sh, false)).join('')}</div>` : ''}
+    el.innerHTML = `<h2 id="srcTitle">Svájci boltok és források</h2>
+      <p class="srcnote">${all.length} svájci fegyverbolt az ország egész területéről: ${nOnline} webshop, ${nStore} fizikai üzlet (a kettő átfedhet). <b>${priced}</b> bolt árai vannak a kalkulátorban; az árak <b>kizárólag</b> svájci boltok kiírt CHF-árai. Alapból minden tételnél a legolcsóbb ajánlat számít, de tételenként vagy egy boltra is válthatsz.</p>
+      <div class="shopbar" role="search">
+        <input id="shopQ" type="search" placeholder="Keresés: bolt, város, kanton, márka…" aria-label="Bolt keresése" autocomplete="off">
+        <div class="seg" role="group" aria-label="Bolt típusa">
+          <button type="button" data-k="all">Mind</button><button type="button" data-k="online">Webshop</button><button type="button" data-k="store">Üzlet</button>
+        </div>
+        <select id="shopCanton" aria-label="Kanton"><option value="">Minden kanton</option>${Object.keys(CANTON).filter(c => cc[c]).map(c => `<option value="${c}">${c} – ${CANTON[c]} (${cc[c]})</option>`).join('')}</select>
+        <label class="shopchk"><input id="shopPriced" type="checkbox"> csak ahol van ár</label>
+        <span id="shopCount" class="pill"></span>
+      </div>
+      <div id="shopGrid" class="srcgrid"></div>
       <h3 class="srcsub">Fotó- és adatforrások</h3>
       <ul class="srclist">${others.map(o => `<li><b>${o.url ? `<a href="${o.url}" target="_blank" rel="noopener">${esc(o.name)}</a>` : esc(o.name)}</b><span>${esc(o.for)}</span></li>`).join('')}</ul>`;
+    const q = $('#shopQ'), ct = $('#shopCanton'), pr = $('#shopPriced');
+    q.value = shopF.q; ct.value = shopF.canton; pr.checked = shopF.priced;
+    const segs = $$('.shopbar .seg button');
+    const setSeg = () => segs.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.k === shopF.kind)));
+    segs.forEach(b => b.onclick = () => { shopF.kind = b.dataset.k; setSeg(); renderShopGrid(); });
+    q.oninput = () => { shopF.q = q.value; renderShopGrid(); };
+    ct.onchange = () => { shopF.canton = ct.value; renderShopGrid(); };
+    pr.onchange = () => { shopF.priced = pr.checked; renderShopGrid(); };
+    setSeg();
+    renderShopGrid();
   }
 
   // ------------------------------------------------------------ árak elrejtése
