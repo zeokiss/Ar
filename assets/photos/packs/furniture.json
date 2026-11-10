@@ -223,7 +223,9 @@
    "ay": 3.0,
    "facing": "left",
    "source": "magpul.com/pmag-30-ar-m4-gen-m3.html",
-   "toned": true
+   "toned": true,
+   "rot": -15.25,
+   "dx": -0.677
   },
   {
    "item": "mp-pm10",
@@ -237,7 +239,9 @@
    "ay": 2.0,
    "facing": "left",
    "source": "magpul.com/pmag-10-ar-m4-gen-m3.html",
-   "toned": true
+   "toned": true,
+   "rot": -7.75,
+   "dx": -0.485
   },
   {
    "item": "bcm-g3",
@@ -251,7 +255,9 @@
    "ay": 325.0,
    "facing": "left",
    "source": "shooting-store.ch",
-   "toned": true
+   "toned": true,
+   "rot": -6.5,
+   "dx": -0.198
   },
   {
    "item": "mp-pm20",
@@ -265,7 +271,9 @@
    "ay": 2.0,
    "facing": "left",
    "source": "magpul.com/pmag-20-ar-m4-gen-m3.html",
-   "toned": true
+   "toned": true,
+   "rot": -12.75,
+   "dx": -0.64
   },
   {
    "item": "mp-pm30w",
@@ -278,7 +286,9 @@
    "ax": 193.5,
    "ay": 2.0,
    "facing": "left",
-   "source": "magpul.com/pmag-30-ar-m4-gen-m3-window.html"
+   "source": "magpul.com/pmag-30-ar-m4-gen-m3-window.html",
+   "rot": -15.5,
+   "dx": -0.736
   },
   {
    "item": "mp-pm40",
@@ -292,7 +302,9 @@
    "ay": 2.0,
    "facing": "left",
    "source": "magpul.com/pmag-40-ar-m4-gen-m3.html",
-   "toned": true
+   "toned": true,
+   "rot": -20.5,
+   "dx": -0.89
   },
   {
    "item": "mp-pm10",
@@ -305,7 +317,9 @@
    "ax": 324.5,
    "ay": 2.0,
    "facing": "left",
-   "source": "magpul.com/pmag-10-ar-m4-gen-m3.html"
+   "source": "magpul.com/pmag-10-ar-m4-gen-m3.html",
+   "rot": -7.75,
+   "dx": -0.483
   },
   {
    "item": "mp-pm20",
@@ -318,7 +332,9 @@
    "ax": 240.5,
    "ay": 3.0,
    "facing": "left",
-   "source": "magpul.com/pmag-20-ar-m4-gen-m3.html"
+   "source": "magpul.com/pmag-20-ar-m4-gen-m3.html",
+   "rot": -12.5,
+   "dx": -0.608
   },
   {
    "item": "mp-pm30",
@@ -331,7 +347,9 @@
    "ax": 190.5,
    "ay": 2.0,
    "facing": "left",
-   "source": "magpul.com/pmag-30-ar-m4-gen-m3.html"
+   "source": "magpul.com/pmag-30-ar-m4-gen-m3.html",
+   "rot": -15.5,
+   "dx": -0.686
   },
   {
    "item": "bcm-g3",
@@ -344,7 +362,9 @@
    "ax": 224.0,
    "ay": 213.0,
    "facing": "right",
-   "source": "shooting-store.ch"
+   "source": "shooting-store.ch",
+   "rot": -10.5,
+   "dx": -0.172
   },
   {
    "item": "b5-t22",
@@ -358,8 +378,8 @@
    "ay": 2.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": -0.25,
+   "dx": 0.348,
    "dy": -0.62,
    "toned": true
   },
@@ -375,8 +395,8 @@
    "ay": 2.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": 0.0,
+   "dx": 0.351,
    "dy": -0.62,
    "toned": true
   },
@@ -392,8 +412,8 @@
    "ay": 2.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": 0.0,
+   "dx": 0.353,
    "dy": -0.62
   },
   {
@@ -408,8 +428,8 @@
    "ay": 2.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": -0.75,
+   "dx": 0.338,
    "dy": -0.62
   },
   {
@@ -424,8 +444,8 @@
    "ay": 3.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": 0.0,
+   "dx": 0.355,
    "dy": -0.62
   },
   {
@@ -440,8 +460,8 @@
    "ay": 2.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": -0.75,
+   "dx": 0.348,
    "dy": -0.62
   },
   {
@@ -456,8 +476,8 @@
    "ay": 2.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": -0.25,
+   "dx": 0.351,
    "dy": -0.62
   },
   {
@@ -472,8 +492,8 @@
    "ay": 2.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": -1.25,
+   "dx": 0.35,
    "dy": -0.62
   },
   {
@@ -488,8 +508,8 @@
    "ay": 110.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": 0.0,
+   "dx": 0.471,
    "dy": -0.62
   },
   {
@@ -504,8 +524,8 @@
    "ay": 110.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": -0.5,
+   "dx": 0.443,
    "dy": -0.62,
    "toned": true
   },
@@ -521,8 +541,8 @@
    "ay": 110.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": -0.25,
+   "dx": 0.476,
    "dy": -0.62
   },
   {
@@ -537,8 +557,8 @@
    "ay": 110.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": 0.25,
+   "dx": 0.478,
    "dy": -0.62
   },
   {
@@ -553,8 +573,8 @@
    "ay": 110.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": 0.25,
+   "dx": 0.486,
    "dy": -0.62
   },
   {
@@ -569,8 +589,8 @@
    "ay": 110.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": 0.0,
+   "dx": 0.46,
    "dy": -0.62
   },
   {
@@ -585,8 +605,8 @@
    "ay": 110.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": 0.25,
+   "dx": 0.469,
    "dy": -0.62
   },
   {
@@ -601,8 +621,8 @@
    "ay": 110.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -9.0,
-   "dx": 0.3,
+   "rot": 0.25,
+   "dx": 0.482,
    "dy": -0.62
   },
   {
@@ -617,9 +637,10 @@
    "ay": 2.0,
    "facing": "left",
    "source": "shooting-store.ch",
-   "dx": 0.3,
+   "dx": 0.373,
    "dy": -0.62,
-   "toned": true
+   "toned": true,
+   "rot": 8.0
   },
   {
    "item": "bcm-g0",
@@ -633,8 +654,9 @@
    "ay": 2.0,
    "facing": "right",
    "source": "shooting-store.ch",
-   "dx": 0.3,
-   "dy": -0.62
+   "dx": 0.435,
+   "dy": -0.62,
+   "rot": 11.0
   },
   {
    "item": "bcm-g0",
@@ -647,9 +669,10 @@
    "ax": 118.0,
    "ay": 2.0,
    "facing": "left",
-   "source": "shooting-store.ch (t\u00fckr\u00f6zve)",
-   "dx": 0.3,
-   "dy": -0.62
+   "source": "shooting-store.ch (tükrözve)",
+   "dx": 0.44,
+   "dy": -0.62,
+   "rot": 11.0
   },
   {
    "item": "mp-moek2",
@@ -663,8 +686,8 @@
    "ay": 164.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -8.0,
-   "dx": 0.3,
+   "rot": -2.5,
+   "dx": 0.615,
    "dy": -0.62
   },
   {
@@ -679,8 +702,8 @@
    "ay": 164.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -8.0,
-   "dx": 0.3,
+   "rot": -2.75,
+   "dx": 0.607,
    "dy": -0.62
   },
   {
@@ -695,8 +718,8 @@
    "ay": 164.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -8.0,
-   "dx": 0.3,
+   "rot": -2.75,
+   "dx": 0.611,
    "dy": -0.62
   },
   {
@@ -711,8 +734,8 @@
    "ay": 174.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -8.0,
-   "dx": 0.3,
+   "rot": -3.75,
+   "dx": 0.487,
    "dy": -0.62
   },
   {
@@ -727,8 +750,8 @@
    "ay": 168.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -8.0,
-   "dx": 0.3,
+   "rot": -3.75,
+   "dx": 0.517,
    "dy": -0.62
   },
   {
@@ -743,8 +766,8 @@
    "ay": 173.0,
    "facing": "left",
    "source": "primaryarms.com",
-   "rot": -8.0,
-   "dx": 0.3,
+   "rot": -13.5,
+   "dx": 0.337,
    "dy": -0.62
   },
   {
@@ -759,8 +782,8 @@
    "ay": 157.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -8.0,
-   "dx": 0.3,
+   "rot": -9.75,
+   "dx": 0.377,
    "dy": -0.62
   },
   {
@@ -775,8 +798,8 @@
    "ay": 93.0,
    "facing": "right",
    "source": "primaryarms.com",
-   "rot": -8.0,
-   "dx": 0.3,
+   "rot": -12.25,
+   "dx": 0.336,
    "dy": -0.62
   }
  ]

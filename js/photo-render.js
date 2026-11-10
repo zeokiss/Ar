@@ -40,7 +40,7 @@ window.AR_PHOTO_RENDER = (function () {
     if (!baseRec || !geo) return null;
     const other = baseRec.facing === 'left' ? 'right' : 'left';
     const getPart = (id, slot, color) => ph.get(id, slot + '@' + baseRec.facing, color) || ph.get(id, slot, color) || ph.get(id, slot + '@' + other, color);
-    const pts = geo.pts, cuts = geo.cuts || {};
+    const pts = geo.pts, cuts = geo.cuts || {}, adj = geo.adj || {};
     const D = baseRec.facing === 'left' ? -1 : 1;
     const X = (x) => D * x * S, Y = (y) => y * S;
     const pos = spec.pos || {};
@@ -48,13 +48,37 @@ window.AR_PHOTO_RENDER = (function () {
     const behind = [], over = [];
     const spans = [];
     const holes = []; // a gyári alapfotóból kivágandó poligonok
+    const clips = []; // vágósíkok: a csere-alkatrésznek a gyári alkatrész felett nincs látható része
     let uid = 0;
 
-    function img(rec, xin, yin) {
+    // A csere-tár/markolat felső szakasza az alaptest mögött van. Ami a vágási poligon teteje fölé kilóg, az csak a
+    // tok sziluettjén kívül látszana (vékony csík, kilógó él), ezért ott levágjuk.
+    function clipBelow(svg, poly) {
+      if (!poly || !poly.length) return svg;
+      const id = 'clipbelow' + (++uid), top = Math.min.apply(null, poly.map(p => p[1])) * S;
+      clips.push(`<clipPath id="${id}" clipPathUnits="userSpaceOnUse"><rect x="-4000" y="${top.toFixed(1)}" width="8000" height="4000"/></clipPath>`);
+      return `<g clip-path="url(#${id})">${svg}</g>`;
+    }
+
+    // Ha a csere-alkatrész keskenyebb a gyárinál, a hézagban a stúdió-háttér látszana. A valóságban ott a tok / a
+    // ravaszvédő anyaga látszik árnyékban, ezért a gyári alkatrész helyének tetejét a tok színével töltjük ki, lefelé
+    // elhalványulva (az alkatrész mögött, csak a hézagban látszik).
+    const fillCol = baseRec.fill || '#27282b';
+    function fadeBand(poly, depth) {
+      if (!poly || !poly.length) return '';
+      const id = 'fadefill' + (++uid), top = Math.min.apply(null, poly.map(p => p[1]));
+      clips.push(`<linearGradient id="${id}" gradientUnits="userSpaceOnUse" x1="0" y1="${(top * S).toFixed(1)}" x2="0" y2="${((top + depth) * S).toFixed(1)}"><stop offset="0" stop-color="${fillCol}" stop-opacity="1"/><stop offset="1" stop-color="${fillCol}" stop-opacity="0"/></linearGradient>`);
+      return `<polygon points="${poly.map(([x, y]) => `${X(x).toFixed(1)},${Y(y).toFixed(1)}`).join(' ')}" fill="url(#${id})"/>`;
+    }
+
+    // adj: az alapfegyverenkénti korrekció (a gyári tár/markolat tengelye a fotó render-szögétől függ; geo.adj)
+    function img(rec, xin, yin, adj) {
+      const a = adj || {};
       const k = (S / rec.ppi) * (rec.scale || 1);
       const F = D * (rec.facing === 'left' ? -1 : 1);
-      const x = X(xin + (rec.dx || 0)), y = Y(yin + (rec.dy || 0));
-      const t = `translate(${x.toFixed(2)},${y.toFixed(2)}) rotate(${((rec.rot || 0) * D).toFixed(2)}) scale(${(F * k).toFixed(5)},${k.toFixed(5)}) translate(${-rec.ax},${-rec.ay})`;
+      const x = X(xin + (rec.dx || 0) + (a.dx || 0)), y = Y(yin + (rec.dy || 0) + (a.dy || 0));
+      const rot = ((rec.rot || 0) + (a.rot || 0)) * D;
+      const t = `translate(${x.toFixed(2)},${y.toFixed(2)}) rotate(${rot.toFixed(2)}) scale(${(F * k).toFixed(5)},${k.toFixed(5)}) translate(${-rec.ax},${-rec.ay})`;
       return `<image href="${esc(rec.src)}" x="0" y="0" width="${rec.w}" height="${rec.h}" transform="${t}" preserveAspectRatio="none"/>`;
     }
     function placeholder(cat, name, xin, yin) {
@@ -79,13 +103,13 @@ window.AR_PHOTO_RENDER = (function () {
     const magIt = spec.mag && !spec.mag.factory ? spec.mag : null;
     if (magIt) {
       const rec = getPart(magIt.id, 'main', magIt.colorId);
-      if (rec) { behind.push(['mag', img(rec, pts.mag[0], pts.mag[1])]); holes.push(cuts.mag); note(rec, magIt); }
+      if (rec) { behind.push(['mag', fadeBand((geo.fillpoly || {}).mag, 0.5) + clipBelow(img(rec, pts.mag[0], pts.mag[1], adj.mag), cuts.mag)]); holes.push(cuts.mag); note(rec, magIt); }
       else behind.push(['mag', placeholder('mag', magIt.name, pts.mag[0], pts.mag[1] + 2.6)]);
     }
     const gripIt = spec.grip && !spec.grip.factory ? spec.grip : null;
     if (gripIt) {
       const rec = getPart(gripIt.id, 'main', gripIt.colorId);
-      if (rec) { behind.push(['grip', img(rec, pts.grip[0], pts.grip[1])]); holes.push(cuts.grip); note(rec, gripIt); }
+      if (rec) { behind.push(['grip', fadeBand((geo.fillpoly || {}).grip, 1.0) + clipBelow(img(rec, pts.grip[0], pts.grip[1], adj.grip), cuts.grip)]); holes.push(cuts.grip); note(rec, gripIt); }
       else behind.push(['grip', placeholder('grip', gripIt.name, pts.grip[0], pts.grip[1] + 1.8)]);
     }
     const mzIt = spec.muzzle && !spec.muzzle.factory ? spec.muzzle : null;
@@ -178,9 +202,9 @@ window.AR_PHOTO_RENDER = (function () {
     const maskId = 'cutmask' + (++uid);
     const polys = holes.filter(Boolean);
     let baseSvg = img(baseRec, 0, 0);
-    let defs = '';
+    let defs = clips.length ? `<defs>${clips.join('')}</defs>` : '';  // vágósíkok és kitöltő-színátmenetek
     if (polys.length) {
-      defs = `<defs><mask id="${maskId}" maskUnits="userSpaceOnUse" x="-4000" y="-1500" width="8000" height="3000"><rect x="-4000" y="-1500" width="8000" height="3000" fill="#fff"/>` +
+      defs += `<defs><mask id="${maskId}" maskUnits="userSpaceOnUse" x="-4000" y="-1500" width="8000" height="3000"><rect x="-4000" y="-1500" width="8000" height="3000" fill="#fff"/>` +
         polys.map(p => `<polygon points="${p.map(([x, y]) => `${X(x).toFixed(1)},${Y(y).toFixed(1)}`).join(' ')}" fill="#000"/>`).join('') + '</mask></defs>';
       baseSvg = `<g mask="url(#${maskId})">${baseSvg}</g>`;
     }

@@ -36,6 +36,15 @@ független ellenőrzés: az így kapott teljes hossz egyezik a gyári adatlappal
 95 cm kihúzott tusnál). A rögzítési pontok (sín, előagy, torkolat, tus, markolat, tár) hüvelykben
 vannak tárolva, így minden szín- és modellváltozat ugyanazt a geometriát használja.
 
+## Illesztés-ellenőrzés (tár, markolat)
+
+A termékfotókon a tár és a markolat a saját függőlegesében áll; a puskán a tárnyílás kb. 12 fokkal előre, a markolat kb.
+17 fokkal hátra dől. A `tools/fit_parts.py` a gyári alkatrész éleiből (az alapfotó alfa-csatornájából) kimeri a tengelyt, és
+minden tár- és markolatfotóhoz beírja a forgatást (`rot`) és az eltolást (`dx`); a többi alapfegyver (pl. a Dynamic, más
+render-szög) eltérése a `manifest.json` geo-rekordjának `adj` mezőjébe kerül. A megjelenítő a csere-alkatrészt a tárnyílás /
+markolat fölött levágja (nincs kilógó él), és a keskenyebb alkatrész melletti hézagot a tok színével tölti ki
+(`tools/base_fill.py`). Kiadás előtt: `python3 tools/check_fit.py` (112 változat: dőlés, középvonal, kilógás, új rések).
+
 ## Ami még korlátozott
 
 - **Színváltozatok**: a Schmeisser a fekete kivitelről közöl hivatalos fotót. Az Olive / Dark Earth /

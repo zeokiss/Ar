@@ -14,7 +14,8 @@
    "facing": "left",
    "bx0": 42,
    "bx1": 2502,
-   "source": "schmeisser-germany.com"
+   "source": "schmeisser-germany.com",
+   "fill": "#222222"
   },
   {
    "item": "schm-m4fl",
@@ -145,6 +146,278 @@
       1.0
      ]
     ]
+   },
+   "adj": {
+    "mag": {
+     "rot": 0.0,
+     "dx": 0.0
+    },
+    "grip": {
+     "rot": 0.0,
+     "dx": 0.0
+    }
+   },
+   "fillpoly": {
+    "mag": [
+     [
+      4.2,
+      2.72
+     ],
+     [
+      4.2,
+      2.74
+     ],
+     [
+      4.19,
+      2.79
+     ],
+     [
+      4.19,
+      2.84
+     ],
+     [
+      4.19,
+      2.89
+     ],
+     [
+      4.19,
+      2.94
+     ],
+     [
+      4.19,
+      2.99
+     ],
+     [
+      4.19,
+      3.04
+     ],
+     [
+      4.19,
+      3.09
+     ],
+     [
+      4.19,
+      3.14
+     ],
+     [
+      4.19,
+      3.19
+     ],
+     [
+      6.91,
+      3.19
+     ],
+     [
+      6.9,
+      3.14
+     ],
+     [
+      6.9,
+      3.09
+     ],
+     [
+      6.9,
+      3.04
+     ],
+     [
+      6.89,
+      2.99
+     ],
+     [
+      6.88,
+      2.94
+     ],
+     [
+      6.88,
+      2.89
+     ],
+     [
+      6.88,
+      2.84
+     ],
+     [
+      6.88,
+      2.79
+     ],
+     [
+      7.08,
+      2.74
+     ],
+     [
+      7.08,
+      2.72
+     ]
+    ],
+    "grip": [
+     [
+      -0.05,
+      1.81
+     ],
+     [
+      -0.05,
+      1.83
+     ],
+     [
+      -0.02,
+      1.88
+     ],
+     [
+      0.01,
+      1.93
+     ],
+     [
+      0.03,
+      1.98
+     ],
+     [
+      0.04,
+      2.03
+     ],
+     [
+      0.05,
+      2.08
+     ],
+     [
+      0.06,
+      2.13
+     ],
+     [
+      0.07,
+      2.18
+     ],
+     [
+      0.07,
+      2.23
+     ],
+     [
+      0.07,
+      2.28
+     ],
+     [
+      0.06,
+      2.33
+     ],
+     [
+      0.05,
+      2.38
+     ],
+     [
+      0.04,
+      2.43
+     ],
+     [
+      0.03,
+      2.48
+     ],
+     [
+      0.01,
+      2.53
+     ],
+     [
+      0.0,
+      2.58
+     ],
+     [
+      -0.02,
+      2.63
+     ],
+     [
+      -0.04,
+      2.68
+     ],
+     [
+      -0.06,
+      2.73
+     ],
+     [
+      -0.07,
+      2.78
+     ],
+     [
+      1.89,
+      2.78
+     ],
+     [
+      1.88,
+      2.73
+     ],
+     [
+      1.88,
+      2.68
+     ],
+     [
+      1.87,
+      2.63
+     ],
+     [
+      1.86,
+      2.58
+     ],
+     [
+      1.85,
+      2.53
+     ],
+     [
+      1.85,
+      2.48
+     ],
+     [
+      1.84,
+      2.43
+     ],
+     [
+      1.83,
+      2.38
+     ],
+     [
+      1.82,
+      2.33
+     ],
+     [
+      1.82,
+      2.28
+     ],
+     [
+      1.81,
+      2.23
+     ],
+     [
+      1.8,
+      2.18
+     ],
+     [
+      1.79,
+      2.13
+     ],
+     [
+      1.79,
+      2.08
+     ],
+     [
+      1.78,
+      2.03
+     ],
+     [
+      1.77,
+      1.98
+     ],
+     [
+      1.76,
+      1.93
+     ],
+     [
+      1.25,
+      1.88
+     ],
+     [
+      0.39,
+      1.83
+     ],
+     [
+      0.39,
+      1.81
+     ]
+    ]
    }
   },
   {
@@ -160,7 +433,8 @@
    "facing": "left",
    "bx0": 84,
    "bx1": 2478,
-   "source": "schmeisser-germany.com"
+   "source": "schmeisser-germany.com",
+   "fill": "#212221"
   },
   {
    "item": "schm-m5fl",
@@ -291,6 +565,278 @@
       1.0
      ]
     ]
+   },
+   "adj": {
+    "mag": {
+     "rot": -0.5,
+     "dx": -0.009
+    },
+    "grip": {
+     "rot": -0.25,
+     "dx": 0.01
+    }
+   },
+   "fillpoly": {
+    "mag": [
+     [
+      4.21,
+      2.72
+     ],
+     [
+      4.21,
+      2.74
+     ],
+     [
+      4.19,
+      2.79
+     ],
+     [
+      4.19,
+      2.84
+     ],
+     [
+      4.19,
+      2.89
+     ],
+     [
+      4.19,
+      2.94
+     ],
+     [
+      4.19,
+      2.99
+     ],
+     [
+      4.19,
+      3.04
+     ],
+     [
+      4.19,
+      3.09
+     ],
+     [
+      4.19,
+      3.14
+     ],
+     [
+      4.19,
+      3.19
+     ],
+     [
+      6.92,
+      3.19
+     ],
+     [
+      6.92,
+      3.14
+     ],
+     [
+      6.91,
+      3.09
+     ],
+     [
+      6.91,
+      3.04
+     ],
+     [
+      6.91,
+      2.99
+     ],
+     [
+      6.9,
+      2.94
+     ],
+     [
+      6.9,
+      2.89
+     ],
+     [
+      6.9,
+      2.84
+     ],
+     [
+      6.9,
+      2.79
+     ],
+     [
+      7.08,
+      2.74
+     ],
+     [
+      7.08,
+      2.72
+     ]
+    ],
+    "grip": [
+     [
+      -0.03,
+      1.81
+     ],
+     [
+      -0.03,
+      1.83
+     ],
+     [
+      0.0,
+      1.88
+     ],
+     [
+      0.03,
+      1.93
+     ],
+     [
+      0.05,
+      1.98
+     ],
+     [
+      0.06,
+      2.03
+     ],
+     [
+      0.07,
+      2.08
+     ],
+     [
+      0.08,
+      2.13
+     ],
+     [
+      0.09,
+      2.18
+     ],
+     [
+      0.09,
+      2.23
+     ],
+     [
+      0.09,
+      2.28
+     ],
+     [
+      0.08,
+      2.33
+     ],
+     [
+      0.07,
+      2.38
+     ],
+     [
+      0.06,
+      2.43
+     ],
+     [
+      0.05,
+      2.48
+     ],
+     [
+      0.03,
+      2.53
+     ],
+     [
+      0.01,
+      2.58
+     ],
+     [
+      0.0,
+      2.63
+     ],
+     [
+      -0.02,
+      2.68
+     ],
+     [
+      -0.04,
+      2.73
+     ],
+     [
+      -0.05,
+      2.78
+     ],
+     [
+      1.89,
+      2.78
+     ],
+     [
+      1.88,
+      2.73
+     ],
+     [
+      1.88,
+      2.68
+     ],
+     [
+      1.87,
+      2.63
+     ],
+     [
+      1.86,
+      2.58
+     ],
+     [
+      1.85,
+      2.53
+     ],
+     [
+      1.85,
+      2.48
+     ],
+     [
+      1.84,
+      2.43
+     ],
+     [
+      1.83,
+      2.38
+     ],
+     [
+      1.82,
+      2.33
+     ],
+     [
+      1.82,
+      2.28
+     ],
+     [
+      1.81,
+      2.23
+     ],
+     [
+      1.8,
+      2.18
+     ],
+     [
+      1.79,
+      2.13
+     ],
+     [
+      1.79,
+      2.08
+     ],
+     [
+      1.78,
+      2.03
+     ],
+     [
+      1.77,
+      1.98
+     ],
+     [
+      1.76,
+      1.93
+     ],
+     [
+      1.25,
+      1.88
+     ],
+     [
+      0.39,
+      1.83
+     ],
+     [
+      0.39,
+      1.81
+     ]
+    ]
    }
   },
   {
@@ -306,7 +852,8 @@
    "facing": "left",
    "bx0": 110,
    "bx1": 2466,
-   "source": "schmeisser-germany.com"
+   "source": "schmeisser-germany.com",
+   "fill": "#212121"
   },
   {
    "item": "schm-s4f",
@@ -437,6 +984,278 @@
       1.0
      ]
     ]
+   },
+   "adj": {
+    "mag": {
+     "rot": 0.75,
+     "dx": 0.021
+    },
+    "grip": {
+     "rot": 0.25,
+     "dx": -0.012
+    }
+   },
+   "fillpoly": {
+    "mag": [
+     [
+      4.19,
+      2.72
+     ],
+     [
+      4.19,
+      2.74
+     ],
+     [
+      4.19,
+      2.79
+     ],
+     [
+      4.19,
+      2.84
+     ],
+     [
+      4.19,
+      2.89
+     ],
+     [
+      4.19,
+      2.94
+     ],
+     [
+      4.19,
+      2.99
+     ],
+     [
+      4.19,
+      3.04
+     ],
+     [
+      4.19,
+      3.09
+     ],
+     [
+      4.19,
+      3.14
+     ],
+     [
+      4.19,
+      3.19
+     ],
+     [
+      6.9,
+      3.19
+     ],
+     [
+      6.89,
+      3.14
+     ],
+     [
+      6.89,
+      3.09
+     ],
+     [
+      6.89,
+      3.04
+     ],
+     [
+      6.88,
+      2.99
+     ],
+     [
+      6.88,
+      2.94
+     ],
+     [
+      6.88,
+      2.89
+     ],
+     [
+      6.87,
+      2.84
+     ],
+     [
+      6.87,
+      2.79
+     ],
+     [
+      7.05,
+      2.74
+     ],
+     [
+      7.05,
+      2.72
+     ]
+    ],
+    "grip": [
+     [
+      -0.07,
+      1.81
+     ],
+     [
+      -0.07,
+      1.83
+     ],
+     [
+      -0.04,
+      1.88
+     ],
+     [
+      -0.01,
+      1.93
+     ],
+     [
+      0.01,
+      1.98
+     ],
+     [
+      0.02,
+      2.03
+     ],
+     [
+      0.03,
+      2.08
+     ],
+     [
+      0.04,
+      2.13
+     ],
+     [
+      0.05,
+      2.18
+     ],
+     [
+      0.05,
+      2.23
+     ],
+     [
+      0.05,
+      2.28
+     ],
+     [
+      0.04,
+      2.33
+     ],
+     [
+      0.03,
+      2.38
+     ],
+     [
+      0.02,
+      2.43
+     ],
+     [
+      0.01,
+      2.48
+     ],
+     [
+      0.0,
+      2.53
+     ],
+     [
+      -0.02,
+      2.58
+     ],
+     [
+      -0.04,
+      2.63
+     ],
+     [
+      -0.06,
+      2.68
+     ],
+     [
+      -0.07,
+      2.73
+     ],
+     [
+      -0.09,
+      2.78
+     ],
+     [
+      1.89,
+      2.78
+     ],
+     [
+      1.88,
+      2.73
+     ],
+     [
+      1.88,
+      2.68
+     ],
+     [
+      1.87,
+      2.63
+     ],
+     [
+      1.86,
+      2.58
+     ],
+     [
+      1.85,
+      2.53
+     ],
+     [
+      1.85,
+      2.48
+     ],
+     [
+      1.84,
+      2.43
+     ],
+     [
+      1.83,
+      2.38
+     ],
+     [
+      1.82,
+      2.33
+     ],
+     [
+      1.82,
+      2.28
+     ],
+     [
+      1.81,
+      2.23
+     ],
+     [
+      1.8,
+      2.18
+     ],
+     [
+      1.79,
+      2.13
+     ],
+     [
+      1.79,
+      2.08
+     ],
+     [
+      1.78,
+      2.03
+     ],
+     [
+      1.77,
+      1.98
+     ],
+     [
+      1.76,
+      1.93
+     ],
+     [
+      1.25,
+      1.88
+     ],
+     [
+      0.39,
+      1.83
+     ],
+     [
+      0.39,
+      1.81
+     ]
+    ]
    }
   },
   {
@@ -452,7 +1271,8 @@
    "facing": "right",
    "bx0": 246,
    "bx1": 1880,
-   "source": "schmeisser-germany.com"
+   "source": "schmeisser-germany.com",
+   "fill": "#212121"
   },
   {
    "item": "schm-dyn",
@@ -583,6 +1403,278 @@
       1.0
      ]
     ]
+   },
+   "adj": {
+    "mag": {
+     "rot": -2.75,
+     "dx": -0.046
+    },
+    "grip": {
+     "rot": -1.25,
+     "dx": 0.05
+    }
+   },
+   "fillpoly": {
+    "mag": [
+     [
+      4.29,
+      2.72
+     ],
+     [
+      4.29,
+      2.74
+     ],
+     [
+      4.27,
+      2.79
+     ],
+     [
+      4.24,
+      2.84
+     ],
+     [
+      4.21,
+      2.89
+     ],
+     [
+      4.19,
+      2.94
+     ],
+     [
+      4.19,
+      2.99
+     ],
+     [
+      4.19,
+      3.04
+     ],
+     [
+      4.19,
+      3.09
+     ],
+     [
+      4.19,
+      3.14
+     ],
+     [
+      4.19,
+      3.19
+     ],
+     [
+      7.0,
+      3.19
+     ],
+     [
+      7.0,
+      3.14
+     ],
+     [
+      7.0,
+      3.09
+     ],
+     [
+      7.0,
+      3.04
+     ],
+     [
+      7.0,
+      2.99
+     ],
+     [
+      6.99,
+      2.94
+     ],
+     [
+      6.98,
+      2.89
+     ],
+     [
+      6.98,
+      2.84
+     ],
+     [
+      6.98,
+      2.79
+     ],
+     [
+      7.15,
+      2.74
+     ],
+     [
+      7.15,
+      2.72
+     ]
+    ],
+    "grip": [
+     [
+      0.03,
+      1.81
+     ],
+     [
+      0.03,
+      1.83
+     ],
+     [
+      0.06,
+      1.88
+     ],
+     [
+      0.1,
+      1.93
+     ],
+     [
+      0.12,
+      1.98
+     ],
+     [
+      0.14,
+      2.03
+     ],
+     [
+      0.14,
+      2.08
+     ],
+     [
+      0.15,
+      2.13
+     ],
+     [
+      0.16,
+      2.18
+     ],
+     [
+      0.16,
+      2.23
+     ],
+     [
+      0.16,
+      2.28
+     ],
+     [
+      0.16,
+      2.33
+     ],
+     [
+      0.15,
+      2.38
+     ],
+     [
+      0.14,
+      2.43
+     ],
+     [
+      0.13,
+      2.48
+     ],
+     [
+      0.11,
+      2.53
+     ],
+     [
+      0.09,
+      2.58
+     ],
+     [
+      0.07,
+      2.63
+     ],
+     [
+      0.06,
+      2.68
+     ],
+     [
+      0.04,
+      2.73
+     ],
+     [
+      0.02,
+      2.78
+     ],
+     [
+      1.89,
+      2.78
+     ],
+     [
+      1.88,
+      2.73
+     ],
+     [
+      1.88,
+      2.68
+     ],
+     [
+      1.87,
+      2.63
+     ],
+     [
+      1.86,
+      2.58
+     ],
+     [
+      1.85,
+      2.53
+     ],
+     [
+      1.85,
+      2.48
+     ],
+     [
+      1.84,
+      2.43
+     ],
+     [
+      1.83,
+      2.38
+     ],
+     [
+      1.82,
+      2.33
+     ],
+     [
+      1.82,
+      2.28
+     ],
+     [
+      1.81,
+      2.23
+     ],
+     [
+      1.8,
+      2.18
+     ],
+     [
+      1.79,
+      2.13
+     ],
+     [
+      1.79,
+      2.08
+     ],
+     [
+      1.78,
+      2.03
+     ],
+     [
+      1.77,
+      1.98
+     ],
+     [
+      1.76,
+      1.93
+     ],
+     [
+      1.25,
+      1.88
+     ],
+     [
+      0.39,
+      1.83
+     ],
+     [
+      0.39,
+      1.81
+     ]
+    ]
    }
   },
   {
@@ -600,7 +1692,8 @@
    "bx1": 2502,
    "source": "schmeisser-germany.com",
    "derived": true,
-   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Olive); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+   "note": "A hivatalos fekete fotó átszínezése (Olive); a szín a bolti fotókról mért Cerakote-tokszín.",
+   "fill": "#403b2b"
   },
   {
    "item": "schm-m4fl",
@@ -617,7 +1710,8 @@
    "bx1": 2502,
    "source": "schmeisser-germany.com",
    "derived": true,
-   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Dark Earth); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+   "note": "A hivatalos fekete fotó átszínezése (Dark Earth); a szín a bolti fotókról mért Cerakote-tokszín.",
+   "fill": "#514029"
   },
   {
    "item": "schm-m4fl",
@@ -634,7 +1728,8 @@
    "bx1": 2502,
    "source": "schmeisser-germany.com",
    "derived": true,
-   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Bronze); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+   "note": "A hivatalos fekete fotó átszínezése (Bronze); a szín a bolti fotókról mért Cerakote-tokszín.",
+   "fill": "#423524"
   },
   {
    "item": "schm-m5fl",
@@ -651,7 +1746,8 @@
    "bx1": 2478,
    "source": "schmeisser-germany.com",
    "derived": true,
-   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Olive); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+   "note": "A hivatalos fekete fotó átszínezése (Olive); a szín a bolti fotókról mért Cerakote-tokszín.",
+   "fill": "#403a2b"
   },
   {
    "item": "schm-m5fl",
@@ -668,7 +1764,8 @@
    "bx1": 2478,
    "source": "schmeisser-germany.com",
    "derived": true,
-   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Dark Earth); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+   "note": "A hivatalos fekete fotó átszínezése (Dark Earth); a szín a bolti fotókról mért Cerakote-tokszín.",
+   "fill": "#504029"
   },
   {
    "item": "schm-m5fl",
@@ -685,7 +1782,8 @@
    "bx1": 2478,
    "source": "schmeisser-germany.com",
    "derived": true,
-   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Bronze); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+   "note": "A hivatalos fekete fotó átszínezése (Bronze); a szín a bolti fotókról mért Cerakote-tokszín.",
+   "fill": "#413524"
   },
   {
    "item": "schm-s4f",
@@ -702,7 +1800,8 @@
    "bx1": 2466,
    "source": "schmeisser-germany.com",
    "derived": true,
-   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Olive); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+   "note": "A hivatalos fekete fotó átszínezése (Olive); a szín a bolti fotókról mért Cerakote-tokszín.",
+   "fill": "#3f3a2a"
   },
   {
    "item": "schm-s4f",
@@ -719,7 +1818,8 @@
    "bx1": 2466,
    "source": "schmeisser-germany.com",
    "derived": true,
-   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Dark Earth); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+   "note": "A hivatalos fekete fotó átszínezése (Dark Earth); a szín a bolti fotókról mért Cerakote-tokszín.",
+   "fill": "#4f3f28"
   },
   {
    "item": "schm-s4f",
@@ -736,7 +1836,8 @@
    "bx1": 2466,
    "source": "schmeisser-germany.com",
    "derived": true,
-   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Bronze); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+   "note": "A hivatalos fekete fotó átszínezése (Bronze); a szín a bolti fotókról mért Cerakote-tokszín.",
+   "fill": "#413524"
   },
   {
    "item": "schm-dyn",
@@ -753,7 +1854,8 @@
    "bx1": 1880,
    "source": "schmeisser-germany.com",
    "derived": true,
-   "note": "A hivatalos fekete fot\u00f3 \u00e1tsz\u00ednez\u00e9se (Bronze); a sz\u00edn a bolti fot\u00f3kr\u00f3l m\u00e9rt Cerakote-toksz\u00edn."
+   "note": "A hivatalos fekete fotó átszínezése (Bronze); a szín a bolti fotókról mért Cerakote-tokszín.",
+   "fill": "#3d3222"
   }
  ]
 }
