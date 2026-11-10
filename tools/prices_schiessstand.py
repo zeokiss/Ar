@@ -503,39 +503,73 @@ def to_g(val, unit):
     return round(float(val.replace(',', '.')))
 
 
+def _weight(val):
+    m = re.match(r"^(?:ca\.?\s*)?([\d.,']+)\s*(kg|g)\b", val.strip(), re.I)
+    if not m:
+        return None
+    try:
+        g = to_g(m.group(1), m.group(2))
+    except ValueError:
+        return None
+    return g if 1 <= g <= 15000 else None  # épelmeződő bolti adat (pl. "230 kg" egy hevederre) kiszűrése
+
+
 def parse_page(page_html):
-    """Súly/méret a WooCommerce "Zusätzliche Information" táblából (ha a bolt kitöltötte)."""
+    """Cím + súly/méret a WooCommerce "Zusätzliche Information" táblából (ha a bolt kitöltötte)."""
     out = {}
     for m in re.finditer(r'<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--(\w+)">\s*'
                          r'<th[^>]*>(.*?)</th>\s*<td[^>]*>(.*?)</td>', page_html, re.S):
-        key = m.group(1)
-        val = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', m.group(3)))).strip()
-        out[key] = val
+        out[m.group(1)] = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', m.group(3)))).strip()
     res = {}
-    w = out.get('weight')
-    if w:
-        mm = re.match(r"([\d.,']+)\s*(kg|g)\b", w, re.I)
-        if mm:
-            res['weight_g'] = to_g(mm.group(1), mm.group(2))
+    h = re.search(r'<h1[^>]*class="[^"]*product_title[^"]*"[^>]*>(.*?)</h1>', page_html, re.S)
+    res['_title'] = re.sub(r'<[^>]+>', '', h.group(1)).strip() if h else None
+    if out.get('weight'):
+        w = _weight(out['weight'])
+        if w:
+            res['weight_g'] = w
     if out.get('dimensions'):
         res['dims'] = out['dimensions']
     return res
 
 
 def parse_description(desc_html):
-    """Tartalék: ha a táblában nincs adat, a leírás strukturált sorai (GEWICHT / LÄNGE) alapján."""
-    txt = html.unescape(re.sub(r'<(br|/p|/li|/tr|/td|/div)[^>]*>', '\n', desc_html or ''))
+    """Tartalék: strukturált sorok a leírásból ("Gewicht:", "Länge:", nagybetűs GEWICHT/LÄNGE blokk,
+    "Gewicht von 317g und Abmessungen von 95x58x73mm"). A "verpackt" (csomagolt) értékeket kihagyja."""
+    txt = html.unescape(re.sub(r'<(br|/p|/li|/tr|/td|/div|/h\d)[^>]*>', '\n', desc_html or ''))
     txt = re.sub(r'<[^>]+>', ' ', txt)
+    lines = [re.sub(r'[ \t\u00a0]+', ' ', ln).strip() for ln in txt.split('\n')]
+    lines = [ln for ln in lines if ln]
+    kv = {}
+    for i, ln in enumerate(lines):
+        m = re.match(r'^([A-Za-zÄÖÜäöüß ]{3,30}):\s*(.*)$', ln)
+        if m:
+            key, val = m.group(1).strip().lower(), m.group(2).strip()
+            if not val and i + 1 < len(lines):
+                val = lines[i + 1]
+        elif ln in ('GEWICHT', 'LÄNGE') and i + 1 < len(lines):
+            key, val = ln.lower(), lines[i + 1]
+        else:
+            continue
+        if val and not val.endswith(':'):
+            kv.setdefault(key, val)
     res = {}
-    m = re.search(r'(?:GEWICHT|Gewicht)\s*[:\n ]\s*(?:ca\.?\s*)?([\d.,\']+)\s*(kg|g)\b', txt)
-    if m:
-        try:
-            res['weight_g'] = to_g(m.group(1), m.group(2))
-        except ValueError:
-            pass
-    m = re.search(r'(?:LÄNGE|Länge|Gesamtlänge)\s*[:\n ]\s*([^\n]{3,80})', txt)
-    if m:
-        res['dims'] = 'Länge: ' + re.sub(r'\s+', ' ', m.group(1)).strip()
+    w = _weight(kv['gewicht']) if 'gewicht' in kv else None
+    if w is None:
+        m = re.search(r'Gewicht von (?:ca\.?\s*)?([\d.,]+\s*(?:kg|g)\b)', txt)
+        w = _weight(m.group(1)) if m else None
+    if w:
+        res['weight_g'] = w
+    parts = [kv[k] for k in ('länge', 'breite', 'höhe') if k in kv]
+    if len(parts) == 3:
+        res['dims'] = 'L %s x B %s x H %s' % tuple(parts)
+    elif kv.get('abmessungen'):
+        res['dims'] = kv['abmessungen'][:100]
+    else:
+        m = re.search(r'Abmessungen von ([\d.,]+(?:\s*[x×]\s*[\d.,]+)+\s*(?:mm|cm))', txt)
+        if m:
+            res['dims'] = m.group(1)
+        elif 'länge' in kv:
+            res['dims'] = 'Länge: ' + kv['länge'][:100]
     return res
 
 
@@ -546,7 +580,7 @@ def enrich(matched, use_pages, cache_dir):
     for pid, m in matched.items():
         main = m['main']
         extra = {}
-        if use_pages and main.get('url'):
+        if use_pages and main.get('url') and not main.get('parts'):
             fn = os.path.join(pdir, re.sub(r'[^a-z0-9]+', '_', main['url'].lower())[-120:] + '.html')
             if os.path.exists(fn):
                 page = open(fn, encoding='utf-8').read()
@@ -561,9 +595,12 @@ def enrich(matched, use_pages, cache_dir):
                     print('  hiba: %s' % e, file=sys.stderr)
                     page = ''
             extra = parse_page(page)
-        if 'weight_g' not in extra or 'dims' not in extra:
-            d = parse_description(m.get('desc', ''))
-            for k, v in d.items():
+            t = extra.pop('_title', None)
+            if t and norm(t) != norm(main['title']):  # az oldal nem a várt termék -> nem használjuk
+                print('  FIGYELEM: oldalcím eltér (%r != %r), oldaladat kihagyva' % (t, main['title']), file=sys.stderr)
+                extra = {}
+        if ('weight_g' not in extra or 'dims' not in extra) and m.get('desc'):
+            for k, v in parse_description(m['desc']).items():
                 extra.setdefault(k, v)
         main['weight_g'] = extra.get('weight_g')
         main['dims'] = extra.get('dims')
