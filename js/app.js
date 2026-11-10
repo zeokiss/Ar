@@ -35,7 +35,16 @@
     const p = PRICES[it.id];
     if (!p) return [];
     const offs = (p.offers && p.offers.length) ? p.offers : (p.chf != null ? [{ shop: p.shop, chf: p.chf, url: p.url, in_stock: p.in_stock }] : []);
-    return offs.filter(o => shopOk(o.shop));
+    return offs.filter(o => shopOk(o.shop) && colorOk(o, it));
+  }
+  // Ha a bolt főára egy másik színé (pl. csak Coyote kapható), az nem ajánlat a kiválasztott színre;
+  // szín nélküli tételnél (alapértelmezett fekete) a nem fekete szín külön termék, ezért nem egyezik.
+  function colorOk(o, it) {
+    const k = variantKey(it);
+    if (o.colors && k && o.colors[k]) return true;
+    if (!o.color) return true;
+    if (k) return o.color === k;
+    return !it.colors ? (o.color === 'black') : true;
   }
   // Bolt-választás egy tételhez: tételenként felülírható, egyébként az "egy boltból" mód, egyébként a legolcsóbb.
   function offerFor(it) {

@@ -48,7 +48,7 @@ try:
 except ImportError:  # pragma: no cover
     sys.exit("Hiányzik a beautifulsoup4: pip install beautifulsoup4 lxml")
 
-SHOP = "shop.indoorswiss.ch"
+SHOP = "indoorswiss.ch"
 BASE = "https://shop.indoorswiss.ch"
 LANG = "/de"
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -714,7 +714,7 @@ def main():
             sys.stderr.write("   -> unmatched\n")
     if blocked:
         items, unmatched = {}, {e["id"]: "ok: a bolt botvédelmet / tiltást adott, a gyűjtés leállt" for e in entries}
-    doc = dict(shop="shop.indoorswiss.ch", currency="CHF", fetched=datetime.date.today().isoformat(),
+    doc = dict(shop=SHOP, currency="CHF", fetched=datetime.date.today().isoformat(),
                items=items, unmatched=unmatched, blocked=blocked)
     text = json.dumps(doc, ensure_ascii=False, indent=2) + "\n"
     out = args.out or (None if args.only else OUT_JSON)

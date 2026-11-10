@@ -23,6 +23,16 @@ def data_weights():
     return out
 
 
+COLOR_ALIAS = {'black': 'black', 'schwarz': 'black', 'noir': 'black', 'nero': 'black',
+               'fde': 'fde', 'fde / dark earth': 'fde', 'flat dark earth': 'fde',
+               'coyote': 'coyote', 'odg': 'odg', 'od green': 'odg', 'olive drab green': 'odg'}
+
+
+def color_of(it):
+    """A bolt főárához tartozó szín, a data.js palettakulcsára normálva; ha nem egyértelmű: None."""
+    return COLOR_ALIAS.get(str(it.get('color') or '').strip().lower())
+
+
 def colors_of(it):
     """Színváltozatonkénti ár: {szín: {chf, url, in_stock, title}}. Régebbi fájlokban az érték csak szám."""
     out = {}
@@ -50,7 +60,7 @@ def main():
                 continue
             offers.setdefault(iid, []).append(dict(
                 shop=shop, chf=float(it['price_chf']), list_chf=it.get('list_chf'), url=it.get('url'),
-                image=it.get('image'), in_stock=it.get('in_stock'), title=it.get('title'),
+                image=it.get('image'), in_stock=it.get('in_stock'), title=it.get('title'), color=color_of(it),
                 weight_g=it.get('weight_g'), dims=it.get('dims'), note=it.get('note'),
                 colors=colors_of(it)))
 
@@ -63,7 +73,7 @@ def main():
             chf=best['chf'], shop=best['shop'], url=best['url'], in_stock=best['in_stock'], title=best['title'],
             weight_g=round(sum(weights) / len(weights)) if weights else None,
             dims=next((o['dims'] for o in offs if o.get('dims')), None),
-            offers=sorted(({k: o[k] for k in ('shop', 'chf', 'url', 'in_stock', 'colors', 'title', 'note')} for o in offs), key=lambda x: x['chf']))
+            offers=sorted(({k: o[k] for k in ('shop', 'chf', 'url', 'in_stock', 'colors', 'title', 'note', 'color') if o.get(k) is not None} for o in offs), key=lambda x: x['chf']))
 
     out = dict(currency='CHF', shops=shops, built=datetime.date.today().isoformat(), items=items)
     json.dump(out, open(os.path.join(PR, 'merged.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
