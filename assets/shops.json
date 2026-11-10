@@ -18,7 +18,8 @@
    "sources": [
     "https://www.thoron.ch/de/informationen/impressum",
     "https://www.thoron.ch/de/service/zahlung-versand"
-   ]
+   ],
+   "km_basis": "légvonal"
   },
   "schiessstand.ch": {
    "name": "Schiessstand.ch GmbH",
@@ -49,7 +50,8 @@
    "sources": [
     "https://www.shooting-store.ch/de/impressum",
     "https://www.shooting-store.ch/bc/agb.html"
-   ]
+   ],
+   "km_basis": "légvonal"
   },
   "armamat.ch": {
    "name": "TM Trading GmbH",
@@ -63,7 +65,8 @@
    "sources": [
     "https://www.armamat.ch/de-ch/i/impressum/",
     "https://www.armamat.ch/de-ch/i/versand-zahlungsmoeglichkeiten/"
-   ]
+   ],
+   "km_basis": "légvonal"
   }
  },
  "other_sources": [

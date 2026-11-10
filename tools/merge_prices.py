@@ -23,6 +23,19 @@ def data_weights():
     return out
 
 
+def colors_of(it):
+    """Színváltozatonkénti ár: {szín: {chf, url, in_stock, title}}. Régebbi fájlokban az érték csak szám."""
+    out = {}
+    for k, v in (it.get('colors_prices') or {}).items():
+        if k == 'default':
+            continue
+        if isinstance(v, dict) and v.get('price_chf') is not None:
+            out[k] = dict(chf=float(v['price_chf']), url=v.get('url'), in_stock=v.get('in_stock'), title=v.get('title'))
+        elif isinstance(v, (int, float)):
+            out[k] = dict(chf=float(v), url=None, in_stock=None, title=None)
+    return out
+
+
 def main():
     offers = {}
     shops = []
@@ -39,9 +52,7 @@ def main():
                 shop=shop, chf=float(it['price_chf']), list_chf=it.get('list_chf'), url=it.get('url'),
                 image=it.get('image'), in_stock=it.get('in_stock'), title=it.get('title'),
                 weight_g=it.get('weight_g'), dims=it.get('dims'), note=it.get('note'),
-                colors={k: dict(chf=v['price_chf'], url=v.get('url'), in_stock=v.get('in_stock'), title=v.get('title'))
-                        for k, v in (it.get('colors_prices') or {}).items()
-                        if isinstance(v, dict) and v.get('price_chf') is not None and k != 'default'}))
+                colors=colors_of(it)))
 
     items = {}
     for iid, offs in offers.items():

@@ -638,8 +638,8 @@
   function shopInfoHtml(sh) {
     const i = SHOPINFO[sh];
     if (!i) return '';
-    const dist = i.visit ? i.visit : (i.km != null ? `kb. ${i.km} km a ${SHOPREF.plz} ${SHOPREF.place} térségétől (légvonal, becslés)` : '');
-    return `<div class="ordinfo">${esc(i.name)} · ${esc(i.addr)}${dist ? '<br>' + dist : ''}<br>${esc(i.shipNote || '')}` +
+    const dist = i.visit ? i.visit : (i.km != null ? `kb. ${i.km} km a ${SHOPREF.plz} ${SHOPREF.place} térségétől (${i.km_basis || 'közúton'}, becslés)` : '');
+    return `<div class="ordinfo">${[i.name, i.addr].filter(Boolean).map(esc).join(' · ')}${dist ? '<br>' + dist : ''}${i.shipNote ? '<br>' + esc(i.shipNote) : ''}` +
       `${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}${i.url ? ' · <a href="' + i.url + '" target="_blank" rel="noopener">a bolt oldala ↗</a>' : ''}</div>`;
   }
   function orderText(t) {
@@ -681,7 +681,10 @@
   function buildShopMode() {
     const sel = $('#shopMode');
     if (!sel) return;
-    sel.innerHTML = `<option value="cheapest">Legolcsóbb tételenként</option>` + SHOPS.filter(shopOk).map(sh => `<option value="${sh}">Egy boltból: ${shopTag(sh)}</option>`).join('');
+    const cnt = {};
+    Object.values(PRICES).forEach(it => (it.offers || []).forEach(o => { cnt[o.shop] = (cnt[o.shop] || 0) + 1; }));
+    const list = SHOPS.filter(shopOk).sort((x, y) => (cnt[y] || 0) - (cnt[x] || 0) || x.localeCompare(y));
+    sel.innerHTML = `<option value="cheapest">Legolcsóbb tételenként</option>` + list.map(sh => `<option value="${sh}">Egy boltból: ${shopTag(sh)} – ${cnt[sh] || 0} termék</option>`).join('');
     if (state.mode !== 'cheapest' && !SHOPS.filter(shopOk).includes(state.mode)) state.mode = 'cheapest';
     sel.value = state.mode;
     sel.onchange = () => { state.mode = sel.value; update(true); };
@@ -968,7 +971,7 @@
     });
     const KIND = { online: 'csak online', store: 'csak üzlet', both: 'webshop + üzlet' };
     const dist = (i) => i.visit ? i.visit
-      : (i.km != null ? `${i.km_est ? 'kb. ' : ''}${i.km} km a ${SHOPREF.plz} ${SHOPREF.place} térségétől${i.km_est ? ' (becslés)' : ''}` : '');
+      : (i.km != null ? `kb. ${i.km} km a ${SHOPREF.plz} ${SHOPREF.place} térségétől (${i.km_basis || 'közúton'}, becslés)` : '');
     const why = (sh) => {
       const i = SHOPINFO[sh];
       if (i.noPriceReason) return i.noPriceReason;
@@ -976,11 +979,13 @@
       if (i.online_prices === false) return 'Nincs online árlista – az árakat a boltban kell megkérdezni.';
       return 'A kalkulátor termékei közül egyikhez sem találtam pontosan egyező, árazott terméket.';
     };
-    const box = (sh, withPrice) => { const i = SHOPINFO[sh]; const tags = [i.canton, KIND[i.kind], i.ships ? 'szállít' : (i.ships === false ? 'nem szállít' : '')].filter(Boolean);
+    const box = (sh, withPrice) => { const i = SHOPINFO[sh];
+      const tags = [i.canton, KIND[i.kind], i.ships ? 'szállít' : (i.ships === false ? 'nem szállít' : ''), i.verified === false ? 'nem ellenőrzött adat' : ''].filter(Boolean);
+      const title = i.display || sh, url = i.url && /^https:\/\//.test(i.url) ? i.url : '';
       return `<div class="srcbox${withPrice ? '' : ' muted'}">
-        <h3><a href="${i.url}" target="_blank" rel="noopener">${esc(sh)}</a><small>${esc(i.city || '')}</small></h3>
+        <h3>${url ? `<a href="${url}" target="_blank" rel="noopener">${esc(title)}</a>` : `<span>${esc(title)}</span>`}<small>${esc(i.city || '')}</small></h3>
         ${tags.length ? `<p class="srctags">${tags.map(t => `<span>${esc(t)}</span>`).join('')}</p>` : ''}
-        <p>${esc(i.name || '')}${i.addr ? '<br>' + esc(i.addr) : ''}${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}</p>
+        <p>${esc(i.name || '')}${i.addr ? '<br>' + esc(i.addr) : ''}${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}${i.hours ? '<br>' + esc(i.hours) : ''}</p>
         <p class="srcmeta">${withPrice ? `<b>${cnt[sh]} termék ára</b> · ${best[sh] || 0} tételnél ez a legolcsóbb<br>` : ''}${esc(dist(i))}</p>
         ${i.shipNote ? `<p class="srcmeta">${esc(i.shipNote)}</p>` : ''}
         ${withPrice ? '' : `<p class="srcmeta why">${esc(why(sh))}</p>`}</div>`; };

@@ -1844,7 +1844,20 @@
      "chf": 249.9,
      "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/pistol-lights-pistolenlampen/tlr-1-hl",
      "in_stock": true,
-     "colors": {},
+     "colors": {
+      "black": {
+       "chf": 249.9,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "fde": {
+       "chf": 260.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      }
+     },
      "title": "TLR-1 HL",
      "note": null
     },
@@ -2318,7 +2331,62 @@
      "chf": 129.0,
      "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/raptor--9172",
      "in_stock": true,
-     "colors": {},
+     "colors": {
+      "black-np3": {
+       "chf": 139.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "brown": {
+       "chf": 139.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "tungsten": {
+       "chf": 139.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "clear-anodized": {
+       "chf": 139.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "black": {
+       "chf": 129.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "fde": {
+       "chf": 129.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "np3": {
+       "chf": 139.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "odg": {
+       "chf": 129.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "gray": {
+       "chf": 129.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      }
+     },
      "title": "Raptor",
      "note": null
     },
@@ -3124,7 +3192,32 @@
      "chf": 82.9,
      "url": "https://www.thoron.ch/de/waffenzubehoer/gewehrriemen/vickers-combat-application-sling--3874",
      "in_stock": false,
-     "colors": {},
+     "colors": {
+      "odg": {
+       "chf": 84.9,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "black": {
+       "chf": 82.9,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "coyote": {
+       "chf": 82.9,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "multicam": {
+       "chf": 82.9,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      }
+     },
      "title": "Vickers Combat Application Sling",
      "note": null
     },
@@ -3569,7 +3662,20 @@
      "chf": 439.0,
      "url": "https://www.thoron.ch/de/waffenzubehoer/waffenlampen/rifle-lights-gewehrlampen/scout-light-pro-m640df",
      "in_stock": true,
-     "colors": {},
+     "colors": {
+      "black": {
+       "chf": 439.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "tan": {
+       "chf": 459.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      }
+     },
      "title": "Scout Light Pro M640DF",
      "note": null
     }
@@ -3901,7 +4007,50 @@
      "chf": 2450.0,
      "url": "https://www.thoron.ch/de/waffen/sturmgewehre/ddm4-v7-16",
      "in_stock": true,
-     "colors": {},
+     "colors": {
+      "black": {
+       "chf": 2450.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "rattlecan": {
+       "chf": 2700.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "milspec-plus": {
+       "chf": 2700.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "cobalt": {
+       "chf": 2700.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "fde": {
+       "chf": 2700.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "tornado": {
+       "chf": 2850.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "deep-woods": {
+       "chf": 2700.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      }
+     },
      "title": "DDM4 V7 | 16\"",
      "note": null
     },
@@ -4111,7 +4260,20 @@
      "chf": 436.9,
      "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-scope-mount-zf-montagen/super-precision-scope-mount-193",
      "in_stock": true,
-     "colors": {},
+     "colors": {
+      "black": {
+       "chf": 436.9,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "ddc": {
+       "chf": 469.9,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      }
+     },
      "title": "Super Precision Scope Mount | 1.93\"",
      "note": null
     }
@@ -4362,7 +4524,20 @@
      "chf": 159.0,
      "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-upper-parts/charging-handle-ladegriffe/airborne-charging-handle",
      "in_stock": true,
-     "colors": {},
+     "colors": {
+      "black": {
+       "chf": 159.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      },
+      "ddc": {
+       "chf": 179.0,
+       "url": null,
+       "in_stock": null,
+       "title": null
+      }
+     },
      "title": "Airborne Charging Handle",
      "note": null
     }
