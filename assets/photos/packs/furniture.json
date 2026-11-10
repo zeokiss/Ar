@@ -208,6 +208,19 @@
    "ay": 86.5,
    "facing": "right",
    "source": "magpul.com/ubr-gen2-collapsible-stock.html"
+  },
+  {
+   "item": "bcm-g3",
+   "slot": "main",
+   "color": "black",
+   "src": "parts/bcm-g3-main-black.webp",
+   "w": 565,
+   "h": 866,
+   "ppi": 191.25,
+   "ax": 347.0,
+   "ay": 2.0,
+   "facing": "left",
+   "source": "shooting-store.ch"
   }
  ]
 }
