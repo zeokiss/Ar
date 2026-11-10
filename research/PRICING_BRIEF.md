@@ -50,12 +50,11 @@ egyező** termék CHF-árának összegyűjtése. A felhasználó Svájcban él, 
    {"domain": "…", "url": "https://…", "name": "<cégnév>", "addr": "<utca, PLZ hely>", "city": "<hely + kanton-rövidítés>",
     "canton": "ZH", "tel": "+41 …", "kind": "online|store|both", "ships": true|false|null,
     "shipNote": "<magyarul, 1–2 mondat, csak amit az oldal ténylegesen leír: szállítási díj, ingyenes határ, idő>",
-    "km": <közúti km 8805 Richterswil-től, egész szám>, "km_est": true,
     "online_prices": true|false, "sources": ["https://…"], "notes": "…"}
    ```
    A `ships` csak akkor `true`, ha a bolt oldala leírja, hogy Svájcon belül postáz/szállít (fegyvernél és
    „wesentliche Bestandteile”-nél a szállítás engedélyhez kötött – ezt írd a shipNote-ba, ha az oldal említi).
-   A `km` becslés (a PLZ alapján, közúton), ezért `km_est: true`.
+   A kalkulátor az egész országra szól: távolságot, lakóhelyet nem kell megadni.
 
 ## Végén
 

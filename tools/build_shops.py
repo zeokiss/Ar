@@ -8,7 +8,9 @@ Források, ebben a sorrendben (a korábbi felülírja a későbbit):
   3. research/shopinfo_extra.json   – a fizikai / bizonytalan boltok ellenőrzése,
   4. research/ch_shops.json         – az első felderítés (keresési találatok; nem ellenőrzött).
 
-A bolt kulcsa a domain (www. nélkül); domain nélküli boltnál a név.
+Csak svájci ONLINE shop kerül a listára (webshop vagy webshop + üzlet), az ország egész területéről;
+a csak fizikai boltok és a webcím nélküli cégjegyzék-találatok kimaradnak. Lakóhely/távolság nincs.
+A bolt kulcsa a domain (www. nélkül).
 Ár csak az assets/prices/<slug>.json-ból jön (merge_prices.py), ez a script árat nem kezel.
 
 Futtatás:  python3 tools/build_shops.py
@@ -52,12 +54,16 @@ def from_shopinfo(s):
     out = dict(
         name=clean(s.get('name')), addr=clean(s.get('addr')), city=clean(s.get('city')), canton=clean(s.get('canton')),
         tel=clean(s.get('tel')), url=clean(s.get('url')), kind=clean(s.get('kind')), ships=tri(s.get('ships')),
-        shipNote=clean(s.get('shipNote')), km=s.get('km') if isinstance(s.get('km'), (int, float)) else None,
-        km_est=bool(s.get('km_est', True)), online_prices=tri(s.get('online_prices')),
-        hours=clean(s.get('hours')), verified=s.get('verified', True), sources=s.get('sources') or [])
+        shipNote=clean(s.get('shipNote')), online_prices=tri(s.get('online_prices')),
+        verified=s.get('verified', True), sources=s.get('sources') or [])
     if s.get('blocked'):
         out['noPriceReason'] = BLOCKED
     return out
+
+
+def is_online(rec, url):
+    """Online shop-e: van webcíme, és nem tisztán fizikai bolt / nem jelezte, hogy nincs online árlista."""
+    return bool(url) and rec.get('kind') != 'store' and rec.get('online_prices') is not False
 
 
 def main():
@@ -71,6 +77,8 @@ def main():
         if k in shops:
             continue
         rec = from_shopinfo(s)
+        if not is_online(rec, rec.get('url')):
+            continue
         pf = os.path.join(ROOT, 'assets', 'prices', os.path.basename(f))
         if os.path.exists(pf):
             p = json.load(open(pf, encoding='utf-8'))
@@ -86,6 +94,8 @@ def main():
             if k in shops:
                 continue
             rec = from_shopinfo(s)
+            if not is_online(rec, rec.get('url')):
+                continue
             rec['name'] = clean(s.get('company')) or clean(s.get('name'))
             rec['display'] = clean(s.get('name'))
             shops[k] = rec
@@ -95,13 +105,12 @@ def main():
         if s.get('name') in SKIP_NAMES:
             continue
         k = key_of(s.get('domain'), s.get('name'))
-        if k in shops:
+        if k in shops or not clean(s.get('url')) or s.get('online_prices') is not True:
             continue
         shops[k] = dict(
             name=clean(s.get('company')) or s.get('name'), display=s.get('name'), addr=clean(s.get('address')),
             city=clean(s.get('city')), canton=clean(s.get('canton')), url=clean(s.get('url')),
-            kind='store' if s.get('in_store') is True and s.get('online_prices') is False else None,
-            ships=tri(s.get('ships')), online_prices=tri(s.get('online_prices')), km=None, km_est=True,
+            kind='online', ships=tri(s.get('ships')), online_prices=True,
             verified=False, sources=[s.get('source_url')] if s.get('source_url') else [])
 
     # botvédett oldalak (a próba szerint): nincs automatikus ár

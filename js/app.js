@@ -16,15 +16,15 @@
   const RIFLE_KIT = { name: 'Rifle puffercső-készlet (tushoz szükséges)', price: 60, weight: 110 };
 
   // Árak: KIZÁRÓLAG svájci bolti árak (assets/prices/merged.json); ahol nincs ilyen, ott "nincs ár" látszik.
-  // Csak olyan bolt jöhet szóba, amelyik szállít, vagy a 8805 Richterswil közelében van (assets/shops.json).
-  let PRICES = {}, SHOPS = [], SHOPINFO = {}, SHOPREF = { place: 'Richterswil', plz: '8805', radius_km: 30 };
+  // Ár csak svájci online shopból jöhet (assets/shops.json); a lakóhely és a távolság nem számít.
+  let PRICES = {}, SHOPS = [], SHOPINFO = {};
   const shopOk = (sh) => {
     if (!Object.keys(SHOPINFO).length) return true;
     const i = SHOPINFO[sh];
-    return !!i && (i.ships === true || i.walk === true || (i.km != null && i.km <= SHOPREF.radius_km));
+    return !!i && i.ships !== false && i.kind !== 'store';
   };
   const shopTag = (sh) => (SHOPINFO[sh] && SHOPINFO[sh].city) ? `${sh} (${SHOPINFO[sh].city})` : sh;
-  const shopBadge = (sh) => { const i = SHOPINFO[sh]; return i ? (i.walk ? ' · helyben is elérhető' : (i.ships ? ' · szállít' : '')) : ''; };
+  const shopBadge = (sh) => { const i = SHOPINFO[sh]; return i && i.ships ? ' · szállít' : ''; };
   // a színváltozatnak külön lehet ára és termékoldala (pl. a Schmeisser Bronze kivitel drágább a feketénél)
   const variantKey = (it) => BASE[it.id] ? state.finish : (it.colors ? (state.colors[it.id] || it.colors[0]) : null);
   function variantOf(o, it) {
@@ -638,8 +638,7 @@
   function shopInfoHtml(sh) {
     const i = SHOPINFO[sh];
     if (!i) return '';
-    const dist = i.visit ? i.visit : (i.km != null ? `kb. ${i.km} km a ${SHOPREF.plz} ${SHOPREF.place} térségétől (${i.km_basis || 'közúton'}, becslés)` : '');
-    return `<div class="ordinfo">${[i.name, i.addr].filter(Boolean).map(esc).join(' · ')}${dist ? '<br>' + dist : ''}${i.shipNote ? '<br>' + esc(i.shipNote) : ''}` +
+    return `<div class="ordinfo">${[i.name, i.addr].filter(Boolean).map(esc).join(' · ')}${i.shipNote ? '<br>' + esc(i.shipNote) : ''}` +
       `${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}${i.url ? ' · <a href="' + i.url + '" target="_blank" rel="noopener">a bolt oldala ↗</a>' : ''}</div>`;
   }
   function orderText(t) {
@@ -650,7 +649,7 @@
     Object.keys(groups).forEach(sh => {
       const ls = groups[sh];
       const si = SHOPINFO[sh];
-      out += `\n== ${shopTag(sh)}${hidePrices ? '' : ' – ' + fmtCHF(ls.reduce((a, l) => a + l.price, 0))} ==\n${si ? si.name + ', ' + si.addr + (si.visit ? ' (' + si.visit + ')' : '') + '\n' : ''}`;
+      out += `\n== ${shopTag(sh)}${hidePrices ? '' : ' – ' + fmtCHF(ls.reduce((a, l) => a + l.price, 0))} ==\n${si ? [si.name, si.addr].filter(Boolean).join(', ') + '\n' : ''}`;
       ls.forEach(l => { out += `- ${l.label}${hidePrices ? '' : ' – ' + fmtCHF(l.price)}${l.p.in_stock === false ? ' [nincs raktáron]' : ''}\n  ${l.p.title ? 'Bolti név: ' + l.p.title + '\n  ' : ''}${l.p.url}\n`; });
     });
     if (est.length) { out += `\n== Még nincs bolti ár ==\n`; est.forEach(l => { out += `- ${l.label}\n`; }); }
@@ -965,17 +964,12 @@
     });
     const all = Object.keys(SHOPINFO);
     const priced = all.filter(sh => shopOk(sh) && cnt[sh]).sort((x, y) => (cnt[y] || 0) - (cnt[x] || 0) || x.localeCompare(y));
-    const rest = all.filter(sh => !priced.includes(sh)).sort((x, y) => {
-      const a = SHOPINFO[x], b = SHOPINFO[y];
-      return ((a.km == null) - (b.km == null)) || ((a.km || 0) - (b.km || 0)) || x.localeCompare(y);
-    });
+    const rest = all.filter(sh => !priced.includes(sh)).sort((x, y) => x.localeCompare(y));
     const KIND = { online: 'csak online', store: 'csak üzlet', both: 'webshop + üzlet' };
-    const dist = (i) => i.visit ? i.visit
-      : (i.km != null ? `kb. ${i.km} km a ${SHOPREF.plz} ${SHOPREF.place} térségétől (${i.km_basis || 'közúton'}, becslés)` : '');
     const why = (sh) => {
       const i = SHOPINFO[sh];
       if (i.noPriceReason) return i.noPriceReason;
-      if (!shopOk(sh)) return `Nem szállít, és ${SHOPREF.radius_km} km-nél messzebb van, ezért az árait nem veszem figyelembe.`;
+      if (!shopOk(sh)) return 'Nem szállít (csak bolti átvétel), ezért az árait nem veszem figyelembe.';
       if (i.online_prices === false) return 'Nincs online árlista – az árakat a boltban kell megkérdezni.';
       return 'A kalkulátor termékei közül egyikhez sem találtam pontosan egyező, árazott terméket.';
     };
@@ -986,15 +980,15 @@
         <h3>${url ? `<a href="${url}" target="_blank" rel="noopener">${esc(title)}</a>` : `<span>${esc(title)}</span>`}<small>${esc(i.city || '')}</small></h3>
         ${tags.length ? `<p class="srctags">${tags.map(t => `<span>${esc(t)}</span>`).join('')}</p>` : ''}
         <p>${esc(i.name || '')}${i.addr ? '<br>' + esc(i.addr) : ''}${i.tel ? '<br>Tel.: ' + esc(i.tel) : ''}${i.hours ? '<br>' + esc(i.hours) : ''}</p>
-        <p class="srcmeta">${withPrice ? `<b>${cnt[sh]} termék ára</b> · ${best[sh] || 0} tételnél ez a legolcsóbb<br>` : ''}${esc(dist(i))}</p>
+        ${withPrice ? `<p class="srcmeta"><b>${cnt[sh]} termék ára</b> · ${best[sh] || 0} tételnél ez a legolcsóbb</p>` : ''}
         ${i.shipNote ? `<p class="srcmeta">${esc(i.shipNote)}</p>` : ''}
         ${withPrice ? '' : `<p class="srcmeta why">${esc(why(sh))}</p>`}</div>`; };
     const others = (window.AR_OTHER_SOURCES || []);
     el.innerHTML = `<h2 id="srcTitle">Boltok és források</h2>
-      <p class="srcnote">${all.length} svájci bolt van a listán, ebből <b>${priced.length}</b> bolt árai vannak a kalkulátorban. Az árak <b>kizárólag</b> svájci boltokból származnak (CHF, a bolt kiírt fogyasztói ára), és csak olyan boltból, amelyik szállít, vagy ${SHOPREF.radius_km} km-en belül van ${SHOPREF.plz} ${SHOPREF.place}-től.</p>
-      <h3 class="srcsub">Árak forrásai <small>${priced.length} bolt</small></h3>
+      <p class="srcnote">${all.length} svájci online shop van a listán, ebből <b>${priced.length}</b> bolt árai vannak a kalkulátorban. Az árak <b>kizárólag</b> svájci online shopokból származnak, az ország egész területéről (CHF, a bolt kiírt fogyasztói ára).</p>
+      <h3 class="srcsub">Árak forrásai <small>${priced.length} online shop</small></h3>
       <div class="srcgrid">${priced.map(sh => box(sh, true)).join('')}</div>
-      ${rest.length ? `<h3 class="srcsub">További svájci boltok <small>${rest.length} bolt · ár nélkül</small></h3>
+      ${rest.length ? `<h3 class="srcsub">További svájci online shopok <small>${rest.length} bolt · ár nélkül</small></h3>
       <div class="srcgrid">${rest.map(sh => box(sh, false)).join('')}</div>` : ''}
       <h3 class="srcsub">Fotó- és adatforrások</h3>
       <ul class="srclist">${others.map(o => `<li><b>${o.url ? `<a href="${o.url}" target="_blank" rel="noopener">${esc(o.name)}</a>` : esc(o.name)}</b><span>${esc(o.for)}</span></li>`).join('')}</ul>`;
@@ -1030,7 +1024,7 @@
     initPresets();
     let ready = false;
     window.AR_PHOTOS.onChange(() => { if (ready) update(false); });
-    const loadShops = fetch('assets/shops.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (j) { SHOPINFO = j.shops || {}; window.AR_OTHER_SOURCES = j.other_sources || []; if (j.reference) SHOPREF = Object.assign(SHOPREF, j.reference); } }).catch(() => {});
+    const loadShops = fetch('assets/shops.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (j) { SHOPINFO = j.shops || {}; window.AR_OTHER_SOURCES = j.other_sources || []; } }).catch(() => {});
     const loadPrices = fetch('assets/prices/merged.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (j && j.items) { PRICES = j.items; SHOPS = j.shops || []; } }).catch(() => {});
     Promise.all([window.AR_PHOTOS.load().catch(() => {}), loadPrices, loadShops]).then(() => { buildShopMode(); renderSources(); ready = true; update(false, true); });
   }

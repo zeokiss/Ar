@@ -45,7 +45,11 @@ vannak tárolva, így minden szín- és modellváltozat ugyanazt a geometriát h
 - **Alkatrészfotók**: csak tiszta oldalnézetű, ellenőrizhető méretű termékfotók kerülnek fel. Ahol
   ilyen nincs, szaggatott „?” jelölés mutatja a helyét, a lista az állapotsorban látható.
 - A szíj, az elsütő, a felhúzókar és a kezelőszervek nem jelennek meg külön a képen.
-- **Árak: kizárólag svájci frank (CHF), kizárólag svájci boltokból** (Thoron, Schiessstand, Shooting-Store, Armamat; `assets/prices/`). Becsült vagy átváltott ár nincs: ahol nincs bolti ár, ott „nincs ár" látszik. A boltok adatai (cím, szállítás, távolság): `assets/shops.json`.
+- **Árak: kizárólag svájci frank (CHF), kizárólag svájci online shopokból**, az ország egész területéről
+  (`assets/prices/<bolt>.json`, összefésülve: `tools/merge_prices.py` → `assets/prices/merged.json`).
+  Alapból minden tételnél a legolcsóbb ajánlat számít; tételenként vagy egy boltra is váltható. Becsült vagy
+  átváltott ár nincs: ahol nincs bolti ár, ott „nincs ár" látszik. A boltok adatai (cég, cím, szállítás):
+  `assets/shops.json` (`tools/build_shops.py`). A kalkulátor senki lakóhelyéhez nem kötött.
 - A tömegek a bolti adatlapokból, ennek hiányában kerekített gyári adatokból származnak.
 
 ## Jogi megjegyzés
