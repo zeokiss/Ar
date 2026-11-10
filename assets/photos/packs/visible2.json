@@ -12,7 +12,8 @@
    "ax": 897.0,
    "ay": 90.0,
    "facing": "right",
-   "source": "b5systems.com/collection/ar/bravo-stock/ (profile-right render; Length 7.2 in)"
+   "source": "b5systems.com/collection/ar/bravo-stock/ (profile-right render; Length 7.2 in)",
+   "toned": true
   },
   {
    "item": "b5-bravo",
@@ -64,7 +65,8 @@
    "ax": 897.0,
    "ay": 87.2,
    "facing": "right",
-   "source": "b5systems.com/collection/ar/enhanced-sopmod-stock/ (profile-right render; Length 7.43 in)"
+   "source": "b5systems.com/collection/ar/enhanced-sopmod-stock/ (profile-right render; Length 7.43 in)",
+   "toned": true
   },
   {
    "item": "b5-esop",
@@ -155,7 +157,8 @@
    "ax": 873.0,
    "ay": 66.4,
    "facing": "right",
-   "source": "primaryarms.com/magpul-prs-gen-3-precision-rifle-stock-black (image MAG672-BLK_00; Magpul spec Length 11.1-12.5 in, min used: magpul.com/prs-gen3-precision-adjustable-stock.html)"
+   "source": "primaryarms.com/magpul-prs-gen-3-precision-rifle-stock-black (image MAG672-BLK_00; Magpul spec Length 11.1-12.5 in, min used: magpul.com/prs-gen3-precision-adjustable-stock.html)",
+   "toned": true
   },
   {
    "item": "mp-prs3",
@@ -194,7 +197,8 @@
    "ax": 349.5,
    "ay": 124.5,
    "facing": "right",
-   "source": "primaryarms.com/magpul-m-lok-aluminum-rail-section-5-slot-mag581 (image MAG581_00, top view); size: Overall length 2.5 in (magpul.com/m-lokaluminumrail-5slots.html + PA)"
+   "source": "primaryarms.com/magpul-m-lok-aluminum-rail-section-5-slot-mag581 (image MAG581_00, top view); size: Overall length 2.5 in (magpul.com/m-lokaluminumrail-5slots.html + PA)",
+   "toned": true
   },
   {
    "item": "mp-cable",
@@ -207,7 +211,8 @@
    "ax": 277.0,
    "ay": 231.5,
    "facing": "right",
-   "source": "primaryarms.com/magpul-wire-control-kit-m-lok (image MAG1296-BLK_01, top-view unit cropped from the flat-lay, white balance neutralised; size: magpul.com/wck-wire-control-kit-m-lok.html Tech Specs 'Dimensions (each): 0.78L x 0.63W x 0.25H in')"
+   "source": "primaryarms.com/magpul-wire-control-kit-m-lok (image MAG1296-BLK_01, top-view unit cropped from the flat-lay, white balance neutralised; size: magpul.com/wck-wire-control-kit-m-lok.html Tech Specs 'Dimensions (each): 0.78L x 0.63W x 0.25H in')",
+   "toned": true
   }
  ]
 }

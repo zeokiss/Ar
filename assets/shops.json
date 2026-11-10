@@ -64,22 +64,22 @@
    ]
   },
   "airsoft.ch": {
-   "name": "airsoft.ch",
-   "url": "https://www.airsoft.ch/en-ch",
+   "name": "TM Trading GmbH",
+   "addr": "Gewerbestrasse 6, 6330 Cham",
+   "city": "Cham ZG",
+   "canton": "ZG",
+   "tel": "+41 44 862 48 17",
+   "url": "https://www.airsoft.ch/de-ch/",
    "kind": "online",
    "ships": true,
+   "shipNote": "Svájci Postával szállít: PostPac Economy CHF 9, Priority CHF 11, Swiss-Express 'Mond' CHF 20, terjedelmes csomag CHF 28–38; raktári cikk a termékoldal szerint 1–2 munkanap alatt érkezik.",
    "online_prices": true,
-   "brands": [
-    "Magpul",
-    "Holosun",
-    "EOTech",
-    "Aimpoint",
-    "Vortex Optics",
-    "Streamlight"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://www.airsoft.ch/en-ch/m/magpul"
+    "https://www.airsoft.ch/de-ch/i/impressum/",
+    "https://www.airsoft.ch/de-ch/i/versand/",
+    "https://www.airsoft.ch/de-ch/i/kundendienst-kontakt/",
+    "https://www.airsoft.ch/de-ch/i/ueber-uns/"
    ]
   },
   "ambrosini-lugano.ch": {
@@ -227,28 +227,21 @@
    ]
   },
   "armurerie-richert.ch": {
-   "name": "Armurerie Richert",
-   "addr": "1213 Onex",
-   "city": "Onex",
+   "name": "Atelier d’armurerie RICHERT Sàrl",
+   "addr": "Chem. du Château-Bloch 10, 1219 Vernier",
+   "city": "Vernier GE",
    "canton": "GE",
+   "tel": "+41 22 793 39 89",
    "url": "https://armurerie-richert.ch/",
-   "kind": "online",
+   "kind": "both",
+   "shipNote": "Az oldal nem ír szállításról, szállítási díjról vagy ingyenes határról. Az atelier csak előzetes időpont-egyeztetéssel látogatható.",
    "online_prices": true,
-   "brands": [
-    "BCM",
-    "Noveske",
-    "LMT",
-    "Daniel Defense",
-    "Battle Arms",
-    "Centurion Arms",
-    "EOTech",
-    "Holosun",
-    "Vortex",
-    "Andro Corp"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/richert-arm/ar15-bcm-reece-145/mwj36rvk2kh8"
+    "https://armurerie-richert.ch/mentions-legales/",
+    "https://armurerie-richert.ch/contact/",
+    "https://armurerie-richert.ch/remboursements_retours/",
+    "https://armurerie-richert.ch/wp-json/wc/store/v1/products"
    ]
   },
   "army-shop.ch": {
@@ -275,20 +268,10 @@
   },
   "birkenast.ch": {
    "name": "Birkenast Natur GmbH",
-   "display": "Birkenast",
    "url": "https://www.birkenast.ch/",
-   "kind": "online",
-   "online_prices": true,
-   "brands": [
-    "Anschütz",
-    "Steyr",
-    "Rödale",
-    "Helle"
-   ],
-   "verified": false,
-   "sources": [
-    "https://swisswaffen.com/markt/birkenast/anschuetz-9015-precise/mhymwyfzphsr"
-   ]
+   "shipNote": "Nem ellenőrizhető: a bolt weboldalát a szerver HTTP 429-cel utasítja el, ezért a bolt saját oldaláról nem tudtunk adatot olvasni. A megkerülés tilos, ezért nem is próbáltuk.",
+   "verified": true,
+   "noPriceReason": "A bolt oldala botvédelmet használ, automatikusan nem kérdezhető le; az árakat a bolt oldalán kell megnézni."
   },
   "Boller-Waffen": {
    "name": "Boller-Waffen",
@@ -359,19 +342,20 @@
   },
   "bt-ag.ch": {
    "name": "B&T AG",
-   "display": "B&T AG - Flagship Store + Webshop",
-   "city": "Thun",
+   "addr": "Tempelstrasse 6, 3608 Thun",
+   "city": "Thun BE",
    "canton": "BE",
-   "url": "https://bt-ag.ch/en/privatkunden/",
-   "kind": "store",
-   "brands": [
-    "B&T",
-    "Accu-Shot (forgalmaz)",
-    "30+ külföldi beszállító"
-   ],
-   "verified": false,
+   "tel": "+41 33 334 67 00",
+   "url": "https://bt-ag.ch/",
+   "kind": "both",
+   "shipNote": "A bt-ag.ch oldalai nem írnak le szállítási díjat vagy időt. A 'Privatkunden' oldal szerint a polgári webshop 'bewilligungsfrei', közvetlenül online rendelhető termékeket árul; engedélyköteles termékek ott nincsenek.",
+   "online_prices": false,
+   "verified": true,
    "sources": [
-    "https://bt-ag.ch/en/shops/"
+    "https://bt-ag.ch/impressum/",
+    "https://bt-ag.ch/privatkunden/",
+    "https://bt-ag.ch/shops/",
+    "https://bt-ag.ch/produkt/zubehoer/montagen/bt-asm-montage-t-series-21mm/"
    ]
   },
   "buechelwaffen.ch": {
@@ -527,45 +511,57 @@
   },
   "felder-jagdhof.ch": {
    "name": "Felder Jagdhof AG",
-   "display": "Felder Jagdhof",
+   "addr": "Ebnet 41, 6162 Entlebuch",
+   "city": "Entlebuch LU",
+   "canton": "LU",
+   "tel": "+41 41 480 20 22",
    "url": "https://felder-jagdhof.ch/",
-   "kind": "online",
+   "kind": "both",
+   "shipNote": "Az elérhető oldalakon nincs leírva szállítási díj vagy szállítási mód; az ÁSZF csak PDF-ben érhető el. A fegyverekhez a weboldal Waffenerwerbsschein bemutatását kéri: online vásárlásnál a három aláírt eredeti WES-példányt és az útlevél/személyi igazolvány színes másolatát postán kell elküldeni; lőszerhez büntetőjogi kivonat/WES/EU-fegyverútlevél kell. Szállításról az oldal nem nyilatkozik, ezért ships = null.",
    "online_prices": true,
-   "brands": [
-    "Blaser",
-    "Sauer",
-    "Svemko",
-    "Seeland",
-    "Meindl"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/felder/schalldaempfer-svemko-pure-m/mavai783uhlc"
+    "https://felder-jagdhof.ch/imprint",
+    "https://felder-jagdhof.ch/geschaeft",
+    "https://felder-jagdhof.ch/legal",
+    "https://felder-jagdhof.ch/shop/item/sturmgewehr-schmeisser-ar15-s4f-black-10-5-223-rem-72009342",
+    "https://felder-jagdhof.ch/"
    ]
   },
   "freesport.ch": {
    "name": "Freesport Pierre-Alain Dufaux SA",
    "addr": "Route des Grives 6, 1763 Granges-Paccot",
-   "city": "Granges-Paccot",
+   "city": "Granges-Paccot FR",
    "canton": "FR",
-   "url": "https://freesport.ch/",
-   "kind": "store",
-   "verified": false,
+   "tel": "+41 26 350 61 61",
+   "url": "https://www.freesport.ch/",
+   "kind": "both",
+   "ships": true,
+   "shipNote": "A CGV szerint a szállítás Svájcon belül történik; a szállítási díjat külön, a rendelési folyamat során közlik. Fegyver, lényeges alkatrész és lőszer vásárlásához személyi igazolvány/útlevél, 3 hónapnál nem régebbi bűnügyi nyilvántartási kivonat vagy fegyvervásárlási engedély kell; a vevő legyen nagykorú és Svájcban lakjon.",
+   "online_prices": true,
+   "verified": true,
    "sources": [
-    "https://search.ch/tel/granges-paccot/route-des-grives-6/freesport-pierre-alain-dufaux-sa.en.html"
+    "https://www.freesport.ch/informations/mention-legal/",
+    "https://www.freesport.ch/assistance-boutique/cgv/",
+    "https://www.freesport.ch/assistance-boutique/achat-d-armes-et-de-munitions/",
+    "https://www.freesport.ch/"
    ]
   },
   "freis-waffenschmiede.ch": {
    "name": "Freis Waffenschmiede",
-   "url": "https://freis-waffenschmiede.ch/",
-   "kind": "online",
+   "addr": "Industriestrasse 18, 9300 Wittenbach",
+   "city": "Wittenbach SG",
+   "canton": "SG",
+   "tel": "+41 79 738 51 00",
+   "url": "https://freis-waffenschmiede.ch/de/home",
+   "kind": "both",
+   "shipNote": "A bolt oldalain nincs leírva szállítási díj vagy szállítási mód; a kosár/pénztár oldalakat a robots.txt tiltja, ezeket nem olvastuk. Fegyverekhez a svájci előírások szerint fegyvervásárlási engedély kell. Szállításról az oldal nem nyilatkozik, ezért ships = null.",
    "online_prices": true,
-   "brands": [
-    "Hera Arms"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/freiwa/h15gl-pistolengriff/msd27cwnynfj"
+    "https://freis-waffenschmiede.ch/de/pages/ueber-uns",
+    "https://freis-waffenschmiede.ch/de/home",
+    "https://freis-waffenschmiede.ch/robots.txt"
    ]
   },
   "fuhrerindustries.ch": {
@@ -649,15 +645,21 @@
   },
   "gunfactory.ch": {
    "name": "Gun Factory Handels AG",
-   "display": "Gun Factory",
-   "addr": "Schürmatt 12, 8964 Rudolfstetten",
-   "city": "Rudolfstetten",
+   "addr": "Schürmatt 12 / Industrie Grossmatt, 8964 Rudolfstetten",
+   "city": "Rudolfstetten AG",
    "canton": "AG",
-   "url": "https://gunfactory.ch/",
-   "kind": "store",
-   "verified": false,
+   "tel": "+41 56 633 08 00",
+   "url": "https://www.gunfactory.ch/",
+   "kind": "both",
+   "ships": true,
+   "shipNote": "Az ÁSZF szerint minden küldemény ajánlva utazik a címzett kockázatára és költségére; a szállítási költséget a vevő viseli. Online rendelésnél minimum CHF 50 áruérték, alatta CHF 10 kismennyiségi felár; új ügyfélnek csak bankkártyás fizetés, számlára csak meglévő ügyfélnek. Fegyverekhez a megfelelő engedélyek kellenek; külföldre is szállítanak, ha az ügyfélnek megvan az importengedélye.",
+   "online_prices": true,
+   "verified": true,
    "sources": [
-    "https://www.oeffnungszeitenbuch.de/filiale/Rudolfstetten-Gun%2520Factory-880247W.html"
+    "https://www.gunfactory.ch/div/impressum.htm",
+    "https://www.gunfactory.ch/div/bedingungen.htm",
+    "https://www.gunfactory.ch/frroben.htm",
+    "https://www.gunfactory.ch/div/kontakt_infos.htm"
    ]
   },
   "gunlex.ch": {
@@ -788,26 +790,6 @@
    "sources": [
     "https://onlineinfo.ch/company/hollenstein-waffen---che-107-090-223/pdf",
     "https://kapo.tg.ch/public/upload/assets/123006/2112%20Vorgehen%20Waffen%20im%20Nachlass.pdf?fp=1"
-   ]
-  },
-  "indoorswiss.ch": {
-   "name": "Indoor Swiss Shooting AG",
-   "display": "Indoor Swiss Shooting",
-   "url": "https://shop.indoorswiss.ch/",
-   "kind": "online",
-   "online_prices": true,
-   "brands": [
-    "Holosun",
-    "EOTech",
-    "Leupold",
-    "Hawke",
-    "Firefield",
-    "GPS",
-    "Allen"
-   ],
-   "verified": false,
-   "sources": [
-    "https://swisswaffen.com/markt/indoor-swiss/eotech-eflx-mini-red-dot-sight/mhu1krzaiwpe"
    ]
   },
   "Kesselring Freizeit und Natur": {
@@ -1045,17 +1027,20 @@
   },
   "rothwaffen.ch": {
    "name": "Roth Waffen",
+   "addr": "Untergasse 12, 4922 Thunstetten",
+   "city": "Thunstetten BE",
+   "canton": "BE",
    "url": "https://rothwaffen.ch/",
    "kind": "online",
+   "ships": true,
+   "shipNote": "Svájcon belül a Schweizerische Post szállít; fegyvert és lőszert ajánlva küldenek, és kizárólag Svájcon belülre. A szállítási díjakat a pénztárnál mutatja a webshop. A szállítás a fizetés beérkezése és a szükséges iratok ellenőrzése után történik.",
    "online_prices": true,
-   "brands": [
-    "Stoeger",
-    "Ruger",
-    "Walther"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/roth/pistole-stoeger-str-9-optic-ready-9mm-para-15-schuss/mkz21cbdppca"
+    "https://rothwaffen.ch/Informationen/Impressum/",
+    "https://rothwaffen.ch/widgets/cms/acb6dae40eab4a6c8a56918ba5abe3eb",
+    "https://rothwaffen.ch/Informationen/AGB/",
+    "https://rothwaffen.ch/"
    ]
   },
   "rueggwaffen.ch": {
@@ -1075,22 +1060,10 @@
   },
   "schiesscenter.ch": {
    "name": "VSH Schiess- und Ausbildungszentrum AG",
-   "display": "VSH Schiesscenter",
    "url": "https://schiesscenter.ch/",
-   "kind": "both",
-   "online_prices": true,
-   "brands": [
-    "Magpul",
-    "Holosun",
-    "5.11",
-    "AHG",
-    "GPS",
-    "DDoptics"
-   ],
-   "verified": false,
-   "sources": [
-    "https://swisswaffen.com/markt/vsh-saz/magpul-moe-grip-ar15-m4/m6q7c0pbw8pe"
-   ]
+   "shipNote": "Nem ellenőrizhető: a bolt weboldalát a szerver HTTP 429-cel utasítja el, ezért a bolt saját oldaláról nem tudtunk adatot olvasni. A megkerülés tilos, ezért nem is próbáltuk.",
+   "verified": true,
+   "noPriceReason": "A bolt oldala botvédelmet használ, automatikusan nem kérdezhető le; az árakat a bolt oldalán kell megnézni."
   },
   "Schiesssport-Center Geissbühler": {
    "name": "Schiesssport-Center Geissbühler GmbH",
@@ -1167,6 +1140,25 @@
    ],
    "kind": "both",
    "canton": "AG"
+  },
+  "shop.indoorswiss.ch": {
+   "name": "Indoor Swiss Shooting AG",
+   "addr": "Bischofszellerstrasse 72a, 9200 Gossau SG",
+   "city": "Gossau SG",
+   "canton": "SG",
+   "tel": "+41 71 380 00 10",
+   "url": "https://shop.indoorswiss.ch/de/",
+   "kind": "both",
+   "ships": true,
+   "shipNote": "Svájci Postával és DPD-vel szállít, súly/méret szerinti díjjal, minimális rendelési érték nélkül; fegyvertörvény alá eső cikket mindig ajánlva, fegyvert és lőszert csak Postával küldenek. A 12 óráig leadott, raktáron lévő és a jogi feltételeknek megfelelő rendelés általában másnap érkezik; a gossaui átvétel ingyenes.",
+   "online_prices": true,
+   "verified": true,
+   "sources": [
+    "https://shop.indoorswiss.ch/de/content/2-rechtliche-hinweise",
+    "https://shop.indoorswiss.ch/de/content/11-versand",
+    "https://shop.indoorswiss.ch/de/kontaktieren-sie-uns",
+    "https://shop.indoorswiss.ch/de/content/12-verkauf-von-waffen-und-munition"
+   ]
   },
   "shop.kesslerauktionen.ch": {
    "name": "Kessler Auktionen AG",
@@ -1283,22 +1275,21 @@
    ]
   },
   "swiss-sale.ch": {
-   "name": "Swiss-Sale.ch",
+   "name": "Swiss-Sale.ch AG",
+   "addr": "Neudorfstrasse 4, 6313 Menzingen",
+   "city": "Menzingen ZG",
+   "canton": "ZG",
+   "tel": "+41 41 755 34 33",
    "url": "https://swiss-sale.ch/",
    "kind": "online",
    "ships": true,
+   "shipNote": "Csak Svájcon és Liechtensteinen belül szállít, kizárólag Svájci Postával: CHF 100 feletti online rendelésnél ingyenes, alatta PostPac Economy CHF 8.90; a 17 óráig rendelt raktári cikkeket általában aznap feladják.",
    "online_prices": true,
-   "brands": [
-    "Nitecore",
-    "Fenix",
-    "101 INC",
-    "Fostex",
-    "Alpen Optics",
-    "Sightmark"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swiss-sale.ch/weapon-lights?ed=1"
+    "https://swiss-sale.ch/impressum",
+    "https://swiss-sale.ch/versandinformationen",
+    "https://swiss-sale.ch/agb"
    ]
   },
   "swissordnance.com": {
@@ -1656,23 +1647,21 @@
   },
   "waffenemmental.ch": {
    "name": "Waffen Emmental GmbH",
-   "display": "Waffen Emmental",
-   "addr": "Schmiedenstrasse 8, 3550 Langnau i.E.",
-   "city": "Langnau im Emmental",
+   "addr": "Schmiedenstrasse 8, 3550 Langnau i. E.",
+   "city": "Langnau i.E. BE",
    "canton": "BE",
+   "tel": "+41 34 402 79 79",
    "url": "https://waffenemmental.ch/",
-   "kind": "online",
+   "kind": "both",
+   "shipNote": "Az oldal nem ír le szállítási díjat vagy szállítási időt. Az 'Informationen' oldal szerint online és a boltban is lehet vásárolni; fegyverhez, lőszerhez és 10 lövetnél nagyobb puskatárhoz a törvény szerinti dokumentumok kellenek, eredetiben postán.",
    "online_prices": true,
-   "brands": [
-    "SIG Sauer",
-    "S&W",
-    "Walther",
-    "Beretta",
-    "Taurus"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/waffen-emmental/sig-sauer-inc-p229-9mm-luger/mbcd2qc1iwk7"
+    "https://waffenemmental.ch/imprint",
+    "https://waffenemmental.ch/informationen",
+    "https://waffenemmental.ch/kontakt",
+    "https://waffenemmental.ch/legal",
+    "https://waffenemmental.ch/"
    ]
   },
   "waffenglauser.ch": {
@@ -1747,23 +1736,21 @@
   },
   "waffenpauli.ch": {
    "name": "Waffen Pauli AG",
-   "display": "Waffen Pauli",
-   "addr": "5606 Dintikon",
-   "city": "Dintikon",
+   "addr": "Rennweg 2, 5606 Dintikon",
+   "city": "Dintikon AG",
    "canton": "AG",
+   "tel": "+41 62 822 33 46",
    "url": "https://www.waffenpauli.ch/",
-   "kind": "online",
+   "kind": "both",
+   "ships": true,
+   "shipNote": "Postázás Svájcon belül: csomag 5 kg-ig CHF 15, 10 kg-ig CHF 18, 20 kg-ig CHF 25, terjedelmes CHF 35; kis küldemény CHF 1.10 / 3.-. Fegyvert és lényeges alkatrészt, lőszert ajánlva és saját kézbe küldenek, 1500 CHF feletti értéknél biztosítással; a fegyvervásárlási engedélyt a vevőnek alá kell írnia, még mielőtt a bolt beírja a sorozatszámot. Új ügyfélnek csak előrefizetéssel szállítanak, az export nem lehetséges.",
    "online_prices": true,
-   "brands": [
-    "Blaser",
-    "OXA",
-    "A-Tec",
-    "Primos",
-    "Victorinox"
-   ],
-   "verified": false,
+   "verified": true,
    "sources": [
-    "https://swisswaffen.com/markt/pauli/schiessstabilisator-oxa/m9rsmuwz3895"
+    "https://www.waffenpauli.ch/Informationen/Impressum/",
+    "https://www.waffenpauli.ch/Informationen/AGB/",
+    "https://www.waffenpauli.ch/widgets/cms/ac31521cf0b0466d9675ec2b47e755a6",
+    "https://www.waffenpauli.ch/"
    ]
   },
   "Waffenwerkstatt Ming": {

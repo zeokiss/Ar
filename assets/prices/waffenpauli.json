@@ -128,6 +128,21 @@
       "note": "S-BRM 6-9\" (15,2-23 cm), gyárilag M-LOK rögzítéssel (HAS-BRM-MLOK)",
       "match": "exact"
     },
+    "gs-ssae": {
+      "title": "Abzug Geissele Automatics Super Semi-Automatic Enhanced (SSA-E) Trigger 2 Stage AR15/AR10",
+      "price_chf": 369.0,
+      "list_chf": null,
+      "url": "https://www.waffenpauli.ch/Abzug-Geissele-Automatics-Super-Semi-Automatic-Enhanced-SSA-E-Trigger-2-Stage-AR15-AR10/100006357",
+      "image": "https://www.waffenpauli.ch/media/93/5c/c4/1681892597/42daed80dd305666b0d9869866e21a28.jpg?ts=1681892597",
+      "in_stock": false,
+      "stock_text": "Auf Bestellung",
+      "sku": "100006357",
+      "mpn": null,
+      "weight_g": 150,
+      "dims": "L 150 mm x B 150 mm x H 25 mm (bolti adat, valószínűleg csomagméret)",
+      "colors_prices": {},
+      "match": "exact"
+    },
     "rd-raptor": {
       "title": "Wyssen-RADIAN Raptor Ladehebel AXTS zu AR15/M16",
       "price_chf": 135.0,
@@ -208,6 +223,30 @@
       "note": "a bolti név nem írja ki, de a leírás szerint 'GEN M3 PMAG' 5,56x45; a 'sandfarben' 20-as (WP0229.5) színe nem azonosítható biztosan FDE-ként, ezért nincs felvéve",
       "match": "exact"
     },
+    "mp-pm30w": {
+      "title": "Magazin Magpul PMAG 30 AR/M4 GEN M3 Window",
+      "price_chf": 26.0,
+      "list_chf": null,
+      "url": "https://www.waffenpauli.ch/Magazin-Magpul-PMAG-30-AR-M4-GEN-M3-Window/MAG556-BLK",
+      "image": "https://www.waffenpauli.ch/media/73/de/3f/1742973350/af2a19d732c0525787e6f60feccc25a9.jpg?ts=1742973350",
+      "in_stock": true,
+      "stock_text": "Nur noch 5 lieferbar.",
+      "sku": "MAG556-BLK",
+      "mpn": null,
+      "weight_g": 100,
+      "dims": "L 300 mm x B 100 mm x H 30 mm (bolti adat, valószínűleg csomagméret)",
+      "colors_prices": {
+        "black": {
+          "price_chf": 26.0,
+          "list_chf": null,
+          "url": "https://www.waffenpauli.ch/Magazin-Magpul-PMAG-30-AR-M4-GEN-M3-Window/MAG556-BLK",
+          "in_stock": true,
+          "title": "Magazin Magpul PMAG 30 AR/M4 GEN M3 Window"
+        }
+      },
+      "note": "a bolt Coyote (MCT) színben is árulja (MAG556-MCT, 26.00 CHF) – ez nem FDE, a data.js palettájában (black/fde) nincs",
+      "match": "exact"
+    },
     "mp-pm40": {
       "title": "Magazin Magpul GEN M3 PMAG, schwarz, 40Patronen .223 Rem.",
       "price_chf": 34.0,
@@ -260,8 +299,8 @@
     "mp-pad055": "ok: Magpul tustalp nincs a boltban",
     "mp-pad070": "ok: Magpul tustalp nincs a boltban",
     "mp-padsl": "ok: Magpul tustalp nincs a boltban",
-    "ap-t2": "ok: a Micro T-2 (+ LRP) nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Wyss Montagebase zu Aimpoint Micro H1 (88.00 CHF, https://www.waffenpauli.ch/Wyss-Montagebase-zu-Aimpoint-Micro-H1/60.1200) | Pistole Glock 48 R/MOS 08/FS/Combo AIMPOINT COATM 3,5 MOA 9mm Para (1369.00 CHF, https://www.waffenpauli.ch/Pistole-Glock-48-R-MOS-08-FS-Combo-AIMPOINT-COA-3-5-MOA-9mm-Para/76073C) | Montageplatte Walther PDP Gen2, Nr.8 für Aimpoint Acro (68.00 CHF, https://www.waffenpauli.ch/Montageplatte-Walther-PDP-Gen2-Nr.8-fuer-Aimpoint-Acro/2874288) | Pistole Glock 47 MOS 08/FS/Combo AIMPOINT COATM 3,5 MOA 9mm Para (1519.00 CHF, https://www.waffenpauli.ch/Pistole-Glock-47-MOS-08-FS-Combo-AIMPOINT-COA-3-5-MOA-9mm-Para/74393C)",
-    "ap-m5": "ok: a CompM5 (+ LRP) nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Wyss Montagebase zu Aimpoint Micro H1 (88.00 CHF, https://www.waffenpauli.ch/Wyss-Montagebase-zu-Aimpoint-Micro-H1/60.1200) | Pistole Glock 48 R/MOS 08/FS/Combo AIMPOINT COATM 3,5 MOA 9mm Para (1369.00 CHF, https://www.waffenpauli.ch/Pistole-Glock-48-R-MOS-08-FS-Combo-AIMPOINT-COA-3-5-MOA-9mm-Para/76073C) | Montageplatte Walther PDP Gen2, Nr.8 für Aimpoint Acro (68.00 CHF, https://www.waffenpauli.ch/Montageplatte-Walther-PDP-Gen2-Nr.8-fuer-Aimpoint-Acro/2874288) | Pistole Glock 47 MOS 08/FS/Combo AIMPOINT COATM 3,5 MOA 9mm Para (1519.00 CHF, https://www.waffenpauli.ch/Pistole-Glock-47-MOS-08-FS-Combo-AIMPOINT-COA-3-5-MOA-9mm-Para/74393C)",
+    "ap-t2": "ok: a Micro T-2 (+ LRP) nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Wyss Montagebase zu Aimpoint Micro H1 (88.00 CHF, https://www.waffenpauli.ch/Wyss-Montagebase-zu-Aimpoint-Micro-H1/60.1200) | Pistole Glock 48 R/MOS 08/FS/Combo AIMPOINT COA 3,5 MOA 9mm Para (1369.00 CHF, https://www.waffenpauli.ch/Pistole-Glock-48-R-MOS-08-FS-Combo-AIMPOINT-COA-3-5-MOA-9mm-Para/76073C) | Montageplatte Walther PDP Gen2, Nr.8 für Aimpoint Acro (68.00 CHF, https://www.waffenpauli.ch/Montageplatte-Walther-PDP-Gen2-Nr.8-fuer-Aimpoint-Acro/2874288) | Pistole Glock 47 MOS 08/FS/Combo AIMPOINT COA 3,5 MOA 9mm Para (1519.00 CHF, https://www.waffenpauli.ch/Pistole-Glock-47-MOS-08-FS-Combo-AIMPOINT-COA-3-5-MOA-9mm-Para/74393C)",
+    "ap-m5": "ok: a CompM5 (+ LRP) nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Wyss Montagebase zu Aimpoint Micro H1 (88.00 CHF, https://www.waffenpauli.ch/Wyss-Montagebase-zu-Aimpoint-Micro-H1/60.1200) | Pistole Glock 48 R/MOS 08/FS/Combo AIMPOINT COA 3,5 MOA 9mm Para (1369.00 CHF, https://www.waffenpauli.ch/Pistole-Glock-48-R-MOS-08-FS-Combo-AIMPOINT-COA-3-5-MOA-9mm-Para/76073C) | Montageplatte Walther PDP Gen2, Nr.8 für Aimpoint Acro (68.00 CHF, https://www.waffenpauli.ch/Montageplatte-Walther-PDP-Gen2-Nr.8-fuer-Aimpoint-Acro/2874288) | Pistole Glock 47 MOS 08/FS/Combo AIMPOINT COA 3,5 MOA 9mm Para (1519.00 CHF, https://www.waffenpauli.ch/Pistole-Glock-47-MOS-08-FS-Combo-AIMPOINT-COA-3-5-MOA-9mm-Para/74393C)",
     "ap-pro": "ok: az Aimpoint PRO nincs a boltban",
     "ap-acro": "ok: csomag (ACRO P-2 + Picatinny talp): a bolt az ACRO P-2-t talp nélkül árulja; legközelebbi bolti termék(ek), NEM azonos: Aimpoint Zielgerät ACRO P-2 3.5 MOA schwarz (690.00 CHF, https://www.waffenpauli.ch/Aimpoint-Zielgeraet-ACRO-P-2-3.5-MOA-schwarz/AP-200691)",
     "eo-exps3": "ok: az EXPS3-0 nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Hybrid Holographic Sight II EOTech EXPS2-2 inkl G33 STS Booster (1530.00 CHF, https://www.waffenpauli.ch/Hybrid-Holographic-Sight-II-EOTech-EXPS2-2-inkl-G33-STS-Booster/10349206000)",
@@ -308,10 +347,9 @@
     "sf-3p": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
     "bcm-comp0": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
     "sf-rc2": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
-    "gs-ssae": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
-    "gs-ssa": "ok: az SSA nincs a boltban (csak SSA-E); legközelebbi bolti termék(ek), NEM azonos: Abzug Geissele Automatics Super Semi-Automatic Enhanced (SSA-ETM) Trigger 2 Stage AR15/AR10 (369.00 CHF, https://www.waffenpauli.ch/Abzug-Geissele-Automatics-Super-Semi-Automatic-Enhanced-SSA-E-Trigger-2-Stage-AR15-AR10/100006357)",
-    "gs-sde": "ok: az SD-E nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Abzug Geissele Automatics Super Semi-Automatic Enhanced (SSA-ETM) Trigger 2 Stage AR15/AR10 (369.00 CHF, https://www.waffenpauli.ch/Abzug-Geissele-Automatics-Super-Semi-Automatic-Enhanced-SSA-E-Trigger-2-Stage-AR15-AR10/100006357)",
-    "gs-s3g": "ok: az S3G nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Abzug Geissele Automatics Super Semi-Automatic Enhanced (SSA-ETM) Trigger 2 Stage AR15/AR10 (369.00 CHF, https://www.waffenpauli.ch/Abzug-Geissele-Automatics-Super-Semi-Automatic-Enhanced-SSA-E-Trigger-2-Stage-AR15-AR10/100006357)",
+    "gs-ssa": "ok: az SSA nincs a boltban (csak SSA-E); legközelebbi bolti termék(ek), NEM azonos: Abzug Geissele Automatics Super Semi-Automatic Enhanced (SSA-E) Trigger 2 Stage AR15/AR10 (369.00 CHF, https://www.waffenpauli.ch/Abzug-Geissele-Automatics-Super-Semi-Automatic-Enhanced-SSA-E-Trigger-2-Stage-AR15-AR10/100006357)",
+    "gs-sde": "ok: az SD-E nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Abzug Geissele Automatics Super Semi-Automatic Enhanced (SSA-E) Trigger 2 Stage AR15/AR10 (369.00 CHF, https://www.waffenpauli.ch/Abzug-Geissele-Automatics-Super-Semi-Automatic-Enhanced-SSA-E-Trigger-2-Stage-AR15-AR10/100006357)",
+    "gs-s3g": "ok: az S3G nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Abzug Geissele Automatics Super Semi-Automatic Enhanced (SSA-E) Trigger 2 Stage AR15/AR10 (369.00 CHF, https://www.waffenpauli.ch/Abzug-Geissele-Automatics-Super-Semi-Automatic-Enhanced-SSA-E-Trigger-2-Stage-AR15-AR10/100006357)",
     "rd-raptorlt": "ok: a Raptor-LT nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Wyssen-RADIAN Raptor SD für AR15 und WD9 (165.00 CHF, https://www.waffenpauli.ch/Wyssen-RADIAN-Raptor-SD-fuer-AR15-und-WD9/WD15.500R-SD) | Wyssen-RADIAN Raptor Ladehebel AXTS zu AR15/M16 (135.00 CHF, https://www.waffenpauli.ch/Wyssen-RADIAN-Raptor-Ladehebel-AXTS-zu-AR15-M16/WD15.500R)",
     "bcm-ch4": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
     "bcm-ch3": "ok: nincs a boltban (a bolt nem forgalmazza ezt a márkát/terméket)",
@@ -319,8 +357,7 @@
     "rd-talon": "ok: a Talon nincs a boltban",
     "mp-bad": "ok: a B.A.D. Lever nincs a boltban",
     "mp-trigguard": "ok: a MOE Enhanced Trigger Guard nincs a boltban",
-    "mp-pm30": "ok: sima PMAG 30 AR/M4 Gen M3 (ablak nélkül) nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Magazin Magpul PMAG 30 AR/M4 GEN M3TM Window (26.00 CHF, https://www.waffenpauli.ch/Magazin-Magpul-PMAG-30-AR-M4-GEN-M3-Window/MAG556-BLK) | Magazin Magpul PMAG30 AR 300 B Gen M3 für AR15, SIG MCX, 300 Blackout 7.62x35 30 Patronen, schwarz, occasion (20.00 CHF, https://www.waffenpauli.ch/Magazin-Magpul-PMAG30-AR-300-B-Gen-M3-fuer-AR15-SIG-MCX-300-Blackout-7.62x35-30-Patronen-schwarz-occasion/Occasion00816) | Magazin Magpul TMAG 30 AR/M4 GEN M3TM .223 Rem. , transparent (ab 33.00 CHF, https://www.waffenpauli.ch/Magazin-Magpul-TMAG-30-AR-M4-GEN-M3-.223-Rem.-transparent/MAG1417) | Magazin Magpul PMAG 30 AR/M4 GEN M3 Window - Coyote .223 Rem. (26.00 CHF, https://www.waffenpauli.ch/Magazin-Magpul-PMAG-30-AR-M4-GEN-M3-Window-Coyote-.223-Rem./MAG556-MCT)",
-    "mp-pm30w": "ok: nincs a boltban (a keresés nem adott pontosan azonos terméket)",
+    "mp-pm30": "ok: sima PMAG 30 AR/M4 Gen M3 (ablak nélkül) nincs a boltban; legközelebbi bolti termék(ek), NEM azonos: Magazin Magpul PMAG 30 AR/M4 GEN M3 Window (26.00 CHF, https://www.waffenpauli.ch/Magazin-Magpul-PMAG-30-AR-M4-GEN-M3-Window/MAG556-BLK) | Magazin Magpul PMAG30 AR 300 B Gen M3 für AR15, SIG MCX, 300 Blackout 7.62x35 30 Patronen, schwarz, occasion (20.00 CHF, https://www.waffenpauli.ch/Magazin-Magpul-PMAG30-AR-300-B-Gen-M3-fuer-AR15-SIG-MCX-300-Blackout-7.62x35-30-Patronen-schwarz-occasion/Occasion00816) | Magazin Magpul TMAG 30 AR/M4 GEN M3 .223 Rem. , transparent (ab 33.00 CHF, https://www.waffenpauli.ch/Magazin-Magpul-TMAG-30-AR-M4-GEN-M3-.223-Rem.-transparent/MAG1417) | Magazin Magpul PMAG 30 AR/M4 GEN M3 Window - Coyote .223 Rem. (26.00 CHF, https://www.waffenpauli.ch/Magazin-Magpul-PMAG-30-AR-M4-GEN-M3-Window-Coyote-.223-Rem./MAG556-MCT)",
     "mp-d60": "ok: a D-60 dobtár nincs a boltban",
     "mp-ms1": "ok: az MS1 Sling nincs a boltban; az 'MS1 Lite' másik termék; legközelebbi bolti termék(ek), NEM azonos: Gewehrriemen Magpul MS1 Lite Sling , schwarz (52.00 CHF, https://www.waffenpauli.ch/Gewehrriemen-Magpul-MS1-Lite-Sling-schwarz/12376906000)",
     "mp-ms4": "ok: az MS4 Dual QD nincs a boltban; az 'MS4 Dual QDM' (mini-QD) másik termék; legközelebbi bolti termék(ek), NEM azonos: Magpul Gewehrriemen MS4 Dual QDM Sling black (115.00 CHF, https://www.waffenpauli.ch/Magpul-Gewehrriemen-MS4-Dual-QDM-Sling-black/MAG953-BLK) | Magpul Gewehrriemen MS4 Dual QDM Sling coyote (115.00 CHF, https://www.waffenpauli.ch/Magpul-Gewehrriemen-MS4-Dual-QDM-Sling-coyote/MAG953-COY)",

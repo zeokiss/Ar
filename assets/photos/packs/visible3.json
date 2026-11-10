@@ -12,7 +12,7 @@
    "ax": 725.5,
    "ay": 1279.0,
    "facing": "right",
-   "source": "primaryarms.com/aimpoint-micro-t-2-2-moa-red-dot-sight-with-39mm-lrp-mount (200198); meret: optikai tengely 39 mm a sin folott (heldef.ch, thoron.ch), a 68x41x36 mm-es szerelek nelkuli T-2 (heldef.ch, tacstore.ch) arany-ellenorzesevel"
+   "source": "primaryarms.com/aimpoint-micro-t-2-2-moa-red-dot-sight-with-39mm-lrp-mount (200198_03.jpg); m\u00e9ret: optikai tengely 39 mm a s\u00edn felett (heldef.ch, thoron.ch), a szerel\u00e9k n\u00e9lk\u00fcli T-2 68x41x36 mm (heldef.ch, tacstore.ch) ar\u00e1nyellen\u0151rz\u00e9s\u00e9vel"
   },
   {
    "item": "ap-t2",
@@ -25,7 +25,8 @@
    "ax": 467.0,
    "ay": 1143.0,
    "facing": "left",
-   "source": "thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/micro-t-2-schwarz-lrp-montage-39-mm (AP200198_63962); meret: optikai tengely 39 mm a sin folott (thoron.ch, heldef.ch), 68x41x36 mm-es T-2 (heldef.ch, tacstore.ch) arany-ellenorzesevel"
+   "source": "thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/micro-t-2-schwarz-lrp-montage-39-mm (AP200198_63962.png); m\u00e9ret: optikai tengely 39 mm a s\u00edn felett (thoron.ch, heldef.ch), a szerel\u00e9k n\u00e9lk\u00fcli T-2 68x41x36 mm (heldef.ch, tacstore.ch) ar\u00e1nyellen\u0151rz\u00e9s\u00e9vel",
+   "toned": true
   },
   {
    "item": "ap-pro",
@@ -38,7 +39,7 @@
    "ax": 850.0,
    "ay": 810.0,
    "facing": "left",
-   "source": "primaryarms.com/aimpoint-pro-patrol-rifle-optic-with-mount (12841)"
+   "source": "primaryarms.com/aimpoint-pro-patrol-rifle-optic-with-mount (12841_01.jpg); m\u00e9ret: hossz 130 mm, objekt\u00edv \u00d838 mm (tacstore.ch/aimpoint-pro-2-moa), 130x53x62 mm szerel\u00e9ssel \u00e9s 39 mm optikai tengely (heldef.ch); a fot\u00f3n m\u00e9rt hossz / \u00d838 / 62 mm magass\u00e1g 2%-on bel\u00fcl egyezik"
   },
   {
    "item": "vx-m3x",
@@ -51,7 +52,37 @@
    "ax": 352.0,
    "ay": 720.0,
    "facing": "left",
-   "source": "waffenzimmi.ch/produkt/vortex-micro-3x-magnifier-qd-flip-mount (vortex_micro_3x_magnifier-3.jpg)"
+   "source": "waffenzimmi.ch/produkt/vortex-micro-3x-magnifier-qd-flip-mount (vortex_micro_3x_magnifier-3.jpg); m\u00e9ret: hossz 73-74 mm (waffenzimmi.ch, tacstore.ch), szerel\u00e9si magass\u00e1g 37/40 mm (waffenzimmi.ch)"
+  },
+  {
+   "item": "mp-moe",
+   "slot": "main",
+   "color": "fde",
+   "src": "parts/mp-moe-main-fde.webp",
+   "w": 826,
+   "h": 1170,
+   "ppi": 280.37,
+   "ax": 150.0,
+   "ay": 289.1,
+   "facing": "left",
+   "source": "primaryarms.com/magpul-moe-pistol-grip-flat-dark-earth (MAG415-FDE_00.jpg); m\u00e9ret: magass\u00e1g 10,6 cm (armamat.ch/de-ch/p/moe-grip-10293206000, a MOE-K2 rekord is \u00edgy k\u00e9sz\u00fclt), Magpul 4,0 in (magpul.com/moe-grip-ar15-m4.html) ar\u00e1nyellen\u0151rz\u00e9s\u00e9vel",
+   "rot": -13.75,
+   "dx": 0.474
+  },
+  {
+   "item": "mp-moe",
+   "slot": "main",
+   "color": "odg",
+   "src": "parts/mp-moe-main-odg.webp",
+   "w": 825,
+   "h": 1173,
+   "ppi": 281.09,
+   "ax": 150.0,
+   "ay": 285.4,
+   "facing": "left",
+   "source": "primaryarms.com/magpul-moe-pistol-grip-olive-drab-green (MAG415-ODG_00.jpg); m\u00e9ret: magass\u00e1g 10,6 cm (armamat.ch/de-ch/p/moe-grip-10293206000, a MOE-K2 rekord is \u00edgy k\u00e9sz\u00fclt), Magpul 4,0 in (magpul.com/moe-grip-ar15-m4.html) ar\u00e1nyellen\u0151rz\u00e9s\u00e9vel",
+   "rot": -12.75,
+   "dx": 0.488
   }
  ]
 }

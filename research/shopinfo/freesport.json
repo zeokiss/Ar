@@ -1,0 +1,22 @@
+{
+  "domain": "freesport.ch",
+  "url": "https://www.freesport.ch/",
+  "name": "Freesport Pierre-Alain Dufaux SA",
+  "addr": "Route des Grives 6, 1763 Granges-Paccot",
+  "city": "Granges-Paccot FR",
+  "canton": "FR",
+  "tel": "+41 26 350 61 61",
+  "kind": "both",
+  "ships": true,
+  "shipNote": "A CGV szerint a szállítás Svájcon belül történik ('Les livraisons sont effectuées en Suisse'); a szállítási díjat külön, a rendelési folyamat során közlik (összeg az oldalakon nincs). Fegyver, lényeges alkatrész és lőszer vásárlásához személyi igazolvány/útlevél, 3 hónapnál nem régebbi bűnügyi nyilvántartási kivonat vagy fegyvervásárlási engedély kell; a vevő legyen nagykorú és Svájcban lakjon.",
+  "km": 175,
+  "km_est": true,
+  "online_prices": true,
+  "sources": [
+    "https://www.freesport.ch/informations/mention-legal/",
+    "https://www.freesport.ch/assistance-boutique/cgv/",
+    "https://www.freesport.ch/assistance-boutique/achat-d-armes-et-de-munitions/",
+    "https://www.freesport.ch/"
+  ],
+  "notes": "Fegyverbolt + lőtér (Freesport 'Offizieller Online Shop'); Shopware 6, francia/német felület, árak CHF-ben ÁFÁ-val. Telefonszám a főoldal lábléce és a Mention légale szerint: +41 26 350 61 61, info@freesport.ch. Vadász/sportlövő kínálat (Blaser, Walther, Wyss, Hawke...), AR-15 tartozék gyakorlatilag nincs."
+}

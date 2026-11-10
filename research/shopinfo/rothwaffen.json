@@ -1,0 +1,22 @@
+{
+  "domain": "rothwaffen.ch",
+  "url": "https://rothwaffen.ch/",
+  "name": "Roth Waffen",
+  "addr": "Untergasse 12, 4922 Thunstetten",
+  "city": "Thunstetten BE",
+  "canton": "BE",
+  "tel": null,
+  "kind": "online",
+  "ships": true,
+  "shipNote": "Svájcon belül a Schweizerische Post szállít; fegyvert és lőszert ajánlva (Einschreiben) küldenek, és kizárólag Svájcon belülre (külföldre tilos). A szállítási díjakat a pénztárnál mutatja a webshop (konkrét összeg az oldalakon nincs). A szállítás a fizetés beérkezése és a szükséges iratok (pl. WES) ellenőrzése után történik.",
+  "km": 120,
+  "km_est": true,
+  "online_prices": true,
+  "sources": [
+    "https://rothwaffen.ch/Informationen/Impressum/",
+    "https://rothwaffen.ch/widgets/cms/acb6dae40eab4a6c8a56918ba5abe3eb",
+    "https://rothwaffen.ch/Informationen/AGB/",
+    "https://rothwaffen.ch/"
+  ],
+  "notes": "Online fegyverbolt (új és használt fegyverek, lőszer, optika, tartozékok), Shopware 6; árak CHF-ben, 8,1% ÁFÁ-val. Showroom kizárólag előzetes időpont-egyeztetéssel (átvétel is). Telefonszám nincs kiírva, csak e-mail (info@rothwaffen.ch) és kapcsolatfelvételi űrlap. AR-15-ből Schmeisser fegyvereket árul, tartozékot (Magpul stb.) nem."
+}

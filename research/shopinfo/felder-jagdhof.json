@@ -1,0 +1,23 @@
+{
+  "domain": "felder-jagdhof.ch",
+  "url": "https://felder-jagdhof.ch/",
+  "name": "Felder Jagdhof AG",
+  "addr": "Ebnet 41, 6162 Entlebuch",
+  "city": "Entlebuch LU",
+  "canton": "LU",
+  "tel": "+41 41 480 20 22",
+  "kind": "both",
+  "ships": null,
+  "shipNote": "Az elérhető oldalakon (Impressum, Rechtliches, Geschäft, webshop) nincs leírva szállítási díj vagy szállítási mód; az ÁSZF csak PDF-ben érhető el (nem tölthető le). A fegyverekhez (pl. Schmeisser) a weboldal Waffenerwerbsschein (WES) bemutatását kéri: online vásárlásnál a három aláírt eredeti WES-példányt és az útlevél/személyi igazolvány színes másolatát postán kell elküldeni; lőszerhez büntetőjogi kivonat/WES/EU-fegyverútlevél kell. Szállításról az oldal nem nyilatkozik, ezért ships = null.",
+  "km": 95,
+  "km_est": true,
+  "online_prices": true,
+  "sources": [
+    "https://felder-jagdhof.ch/imprint",
+    "https://felder-jagdhof.ch/geschaeft",
+    "https://felder-jagdhof.ch/legal",
+    "https://felder-jagdhof.ch/shop/item/sturmgewehr-schmeisser-ar15-s4f-black-10-5-223-rem-72009342",
+    "https://felder-jagdhof.ch/"
+  ],
+  "notes": "Vadász/sport bolt (1978 óta; 1992 óta a Jagdhofban: bolt, lőtér és fegyvermesterség egy fedél alatt, 1000 m2). Az árak CHF-ben, ÁFÁ-val a webshopban; Angular-alapú webshop, kb. 11 600 tétellel; AR-15 tartozékból csak Schmeisser fegyverek, Aimpoint és Holosun optikák. Tanácsadáshoz időpontot javasolnak. Tel. az impresszumból (+41 41 480 20 22)."
+}

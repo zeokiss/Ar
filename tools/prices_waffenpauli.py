@@ -131,8 +131,8 @@ def soup(markup):
 
 # --------------------------------------------------------------------------- segédek
 def norm(s):
-    s = unicodedata.normalize("NFKC", s or "").replace("\xa0", " ")
-    s = re.sub(r"[®™©]", "", s)
+    s = re.sub(r"[®™©]", "", s or "")  # NFKC előtt: a ™ különben "TM"-mé alakulna
+    s = unicodedata.normalize("NFKC", s).replace("\xa0", " ")
     return re.sub(r"\s+", " ", s).strip()
 
 

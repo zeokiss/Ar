@@ -1,0 +1,22 @@
+{
+  "domain": "gunfactory.ch",
+  "url": "https://www.gunfactory.ch/",
+  "name": "Gun Factory Handels AG",
+  "addr": "Schürmatt 12 / Industrie Grossmatt, 8964 Rudolfstetten",
+  "city": "Rudolfstetten AG",
+  "canton": "AG",
+  "tel": "+41 56 633 08 00",
+  "kind": "both",
+  "ships": true,
+  "shipNote": "Az ÁSZF szerint minden küldemény ajánlva (eingeschrieben) utazik a címzett kockázatára és költségére; a szállítási költséget a vevő viseli (konkrét összeg az oldalon nincs). Online rendelésnél minimum CHF 50 áruérték, alatta CHF 10 kismennyiségi felár; új ügyfélnek csak bankkártyás fizetés, számlára csak meglévő ügyfélnek. Fegyverekhez a megfelelő engedélyek (WES) kellenek; külföldre is szállítanak, ha az ügyfélnek megvan az importengedélye.",
+  "km": 42,
+  "km_est": true,
+  "online_prices": true,
+  "sources": [
+    "https://www.gunfactory.ch/div/impressum.htm",
+    "https://www.gunfactory.ch/div/bedingungen.htm",
+    "https://www.gunfactory.ch/frroben.htm",
+    "https://www.gunfactory.ch/div/kontakt_infos.htm"
+  ],
+  "notes": "A főoldal csak egy keretes (frameset) bemutatóoldal (1,2 kB), a kínálat statikus kategória-oldalakon van, 'Bestellen' gombokkal és CHF árakkal (saját cikkszámmal). Nyitvatartás (frroben.htm): szerda-péntek 10:00-12:00 és 14:00-18:00, szombat 10:00-14:00. Telefon az impresszumból: (+41) 056 633 0800; e-mail: info(at)gunfactory.ch. Készletjelzés a kategória-oldalakon: 'ab Lager lieferbar' / 'Bestellt / nur noch kleine Lagermenge verfügbar' / 'zur Zeit nicht an Lager'."
+}

@@ -1,0 +1,8 @@
+{
+  "shop": "schiesscenter.ch",
+  "currency": "CHF",
+  "fetched": "2026-11-10",
+  "items": {},
+  "unmatched": {},
+  "blocked": "HTTP 429 (Too Many Requests) a főoldalra: két próbálkozás (az előzetes próba és egy újrapróbálás >= 5 perc múlva, egyetlen kéréssel), mindkétszer 429, válasz nélküli törzzsel; a bolt védelmének megkerülése tilos, ezért a gyűjtés leállt. Árak nem érhetők el."
+}

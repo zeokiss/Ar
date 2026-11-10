@@ -33,7 +33,7 @@ def main():
     for pf in sorted(glob.glob(os.path.join(PH, 'packs', '*.json'))):
         pack = json.load(open(pf)); dirty = False
         for rec in pack['photos']:
-            if rec.get('toned') or rec.get('color') not in ('black', '*') or not rec.get('src'):
+            if rec.get('toned') or rec.get('slot') == 'thumb' or rec.get('color') not in ('black', '*') or not rec.get('src'):   # a kártya-bélyegképek nem kerülnek a puskára
                 continue
             path = os.path.join(PH, rec['src'])
             if not os.path.exists(path):

@@ -1,0 +1,22 @@
+{
+  "domain": "waffenpauli.ch",
+  "url": "https://www.waffenpauli.ch/",
+  "name": "Waffen Pauli AG",
+  "addr": "Rennweg 2, 5606 Dintikon",
+  "city": "Dintikon AG",
+  "canton": "AG",
+  "tel": "+41 62 822 33 46",
+  "kind": "both",
+  "ships": true,
+  "shipNote": "Postázás Svájcon belül (Schweizerische Post, Priority + aláírás): csomag 5 kg-ig CHF 15, 10 kg-ig CHF 18, 20 kg-ig CHF 25, terjedelmes (Sperrgut) CHF 35; kis küldemény (levél) CHF 1.10 / 3.-. Fegyvert és lényeges alkatrészt, lőszert ajánlva és saját kézbe (Eingeschrieben & Eigenhändig) küldenek, 1500 CHF feletti értéknél biztosítással (ezt külön felszámolják); a fegyvervásárlási engedélyt (WES) a vevőnek alá kell írnia, még mielőtt a bolt beírja a sorozatszámot. Új ügyfélnek csak előrefizetéssel szállítanak, az export nem lehetséges.",
+  "km": 52,
+  "km_est": true,
+  "online_prices": true,
+  "sources": [
+    "https://www.waffenpauli.ch/Informationen/Impressum/",
+    "https://www.waffenpauli.ch/Informationen/AGB/",
+    "https://www.waffenpauli.ch/widgets/cms/ac31521cf0b0466d9675ec2b47e755a6",
+    "https://www.waffenpauli.ch/"
+  ],
+  "notes": "Shopware 6 webshop, az árak CHF-ben, ÁFA-val; a kínálat vadász/sport jellegű, AR-15 tartozékból kevés (Magpul PMAG tárak, néhány Holosun/Harris/Radian/Geissele termék). Nyitva (a főoldal szerint): kedd-péntek 13:30-18:30, szombat 08:00-13:00, hétfőn zárva. Telefonszám a főoldal láblécéből (Service-Hotline 062 822 33 46)."
+}

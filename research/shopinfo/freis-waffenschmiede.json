@@ -1,0 +1,21 @@
+{
+  "domain": "freis-waffenschmiede.ch",
+  "url": "https://freis-waffenschmiede.ch/de/home",
+  "name": "Freis Waffenschmiede",
+  "addr": "Industriestrasse 18, 9300 Wittenbach",
+  "city": "Wittenbach SG",
+  "canton": "SG",
+  "tel": "+41 79 738 51 00",
+  "kind": "both",
+  "ships": null,
+  "shipNote": "A bolt oldalain (home, Über uns, termékoldalak) nincs leírva szállítási díj vagy szállítási mód; a kosár/pénztár oldalakat a robots.txt tiltja, ezeket nem olvastuk. Fegyverekhez (Waffen kategória) a svájci előírások szerint fegyvervásárlási engedély kell. Szállításról az oldal nem nyilatkozik, ezért ships = null.",
+  "km": 100,
+  "km_est": true,
+  "online_prices": true,
+  "sources": [
+    "https://freis-waffenschmiede.ch/de/pages/ueber-uns",
+    "https://freis-waffenschmiede.ch/de/home",
+    "https://freis-waffenschmiede.ch/robots.txt"
+  ],
+  "notes": "Waffenfachgeschäft és biztonsági szolgáltató (Sicherheitsdienst), tulajdonos Patric Frei; nyitvatartás (Über uns): hétfő zárva, kedd-péntek 10:00-19:00, szombat 10:00-16:00, vasárnap zárva. Online shop ~600 termékkel (JSF/PrimeFaces, keresőfunkció nélkül); az árak CHF-ben. Címet és telefonszámot az 'Über uns' oldal és a főoldal lábléce adja."
+}

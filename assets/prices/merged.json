@@ -8,17 +8,26 @@
   "armatum.ch",
   "armurerie-lesdix.ch",
   "armurerie-richert.ch",
+  "birkenast.ch",
+  "bpshop.ch",
   "bt-ag.ch",
   "ellie-firearms.com",
+  "felder-jagdhof.ch",
+  "freesport.ch",
+  "freis-waffenschmiede.ch",
+  "gunfactory.ch",
   "gunlex.ch",
   "gwmh-shop.ch",
   "heldef.ch",
   "indoorswiss.ch",
   "renehild-tactical.ch",
+  "rothwaffen.ch",
+  "schiesscenter.ch",
   "schiessstand.ch",
   "shooting-store.ch",
   "swiss-sale.ch",
   "tacstore.ch",
+  "taczone.ch",
   "tellsarmory.ch",
   "thoron.ch",
   "treehuggersupply.ch",
@@ -84,6 +93,15 @@
      "color": "black"
     },
     {
+     "shop": "felder-jagdhof.ch",
+     "chf": 1795.0,
+     "url": "https://felder-jagdhof.ch/shop/item/sturmgewehr-schmeisser-ar15-s4f-black-10-5-223-rem-72009342",
+     "in_stock": true,
+     "colors": {},
+     "title": "Sturmgewehr Schmeisser AR15 S4F Black 10.5\" .223 Rem.",
+     "note": "Standard S4F 10.5\" fekete; a 'Komplettset' / 'mit Falke' / 'Komplettpaket' tételek csomagok (nem azonosak). Akciós ár (áthúzott: gyári ajánlott ár)"
+    },
+    {
      "shop": "armatum.ch",
      "chf": 1989.0,
      "url": "https://armatum.ch/produkt/schmeisser-ar15-s4f-schwarz10-5/",
@@ -128,6 +146,33 @@
      "title": "Halbautomat Schmeisser AR15 S4F .223 10.5\" Blk",
      "note": "standard kivitel (Slim Line M-LOK előagy, 10.5\")",
      "color": "black"
+    },
+    {
+     "shop": "rothwaffen.ch",
+     "chf": 1995.0,
+     "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-S4F-Black-10.5-.223-Rem/7009342",
+     "colors": {
+      "black": {
+       "chf": 1995.0,
+       "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-S4F-Black-10.5-.223-Rem/7009342",
+       "in_stock": null,
+       "title": "Selbstladebüchse Schmeisser AR15 S4F Black 10.5\" .223 Rem"
+      },
+      "olive": {
+       "chf": 2130.0,
+       "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-S4F-OD-Green-10.5-.223-Rem/7110001",
+       "in_stock": null,
+       "title": "Selbstladebüchse Schmeisser AR15 S4F OD Green 10.5\" .223 Rem"
+      },
+      "bronze": {
+       "chf": 2130.0,
+       "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-S4F-Bronze-10.5-.223-Rem/7009333",
+       "in_stock": null,
+       "title": "Selbstladebüchse Schmeisser AR15 S4F Bronze 10.5\" .223 Rem"
+      }
+     },
+     "title": "Selbstladebüchse Schmeisser AR15 S4F Black 10.5\" .223 Rem",
+     "note": "Standard kivitel (nem 'CSS Stock' / 'Special Edition'); a bolt a kiviteleket külön termékként árulja"
     },
     {
      "shop": "shooting-store.ch",
@@ -435,6 +480,33 @@
      "title": "Schmeisser AR15 M4FL Schwarz 14.5″",
      "note": "standard M-LOK (Slim Line) kivitel; a 'SOLID LINE' és a 12.5\" más termék",
      "color": "black"
+    },
+    {
+     "shop": "rothwaffen.ch",
+     "chf": 2015.0,
+     "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M4FL-Black-14.5-.223-Rem/7009343",
+     "colors": {
+      "black": {
+       "chf": 2015.0,
+       "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M4FL-Black-14.5-.223-Rem/7009343",
+       "in_stock": null,
+       "title": "Selbstladebüchse Schmeisser AR15 M4FL Black 14.5\" .223 Rem"
+      },
+      "fde": {
+       "chf": 2130.0,
+       "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M4FL-FDE-14.5-.223-Rem/7200007",
+       "in_stock": null,
+       "title": "Selbstladebüchse Schmeisser AR15 M4FL FDE 14.5\" .223 Rem"
+      },
+      "bronze": {
+       "chf": 2130.0,
+       "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M4FL-Bronze-14.5-.223-Rem/7110005",
+       "in_stock": null,
+       "title": "Selbstladebüchse Schmeisser AR15 M4FL Bronze 14.5\" .223 Rem"
+      }
+     },
+     "title": "Selbstladebüchse Schmeisser AR15 M4FL Black 14.5\" .223 Rem",
+     "note": "Standard kivitel (nem 'CSS Stock' / 'Special Edition'); a bolt a kiviteleket külön termékként árulja"
     },
     {
      "shop": "waffenzimmi.ch",
@@ -1352,6 +1424,14 @@
      "color": "black"
     },
     {
+     "shop": "gunfactory.ch",
+     "chf": 349.0,
+     "url": "https://www.gunfactory.ch/langwaf/colt_rearstock.htm",
+     "colors": {},
+     "title": "PRS (Precision Rifle Sniper) Gen.3 Festschaft",
+     "note": "a bolti oldal nem nevezi meg a színt; csak AR15 A1/A2 (rifle) puffercsőre szerelhető"
+    },
+    {
      "shop": "aebiwaffen.ch",
      "chf": 360.0,
      "url": "https://www.aebiwaffen.ch/de/2797/magpul-prs-gen3-precision-adjustable-stock-black",
@@ -2094,6 +2174,14 @@
      "title": "EoTech – XPS2-0"
     },
     {
+     "shop": "gunfactory.ch",
+     "chf": 855.0,
+     "url": "https://www.gunfactory.ch/optic/eotech.htm",
+     "colors": {},
+     "title": "XPS3 XPS2 / XPS2-0 NICHT Nachtsicht-tauglich",
+     "note": "XPS2-0 (nem éjjellátó-kompatibilis kivitel); ugyanabban a szakaszban az XPS3-0 NV is szerepel (32727, nem azonos)"
+    },
+    {
      "shop": "thoron.ch",
      "chf": 859.0,
      "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-sights-visierungen/rifle-reflex-sights-red-dot/hws-xps2-0--1118542071",
@@ -2242,6 +2330,14 @@
      "colors": {},
      "title": "Dot Sight HS510C",
      "color": "black"
+    },
+    {
+     "shop": "felder-jagdhof.ch",
+     "chf": 442.0,
+     "url": "https://felder-jagdhof.ch/shop/item/leuchtpunktvisierung-holosun-hs510c-red-dot-70-78001220",
+     "in_stock": false,
+     "colors": {},
+     "title": "Leuchtpunktvisier Holosun HS510C"
     },
     {
      "shop": "gwmh-shop.ch",
@@ -2795,6 +2891,15 @@
      "color": "black"
     },
     {
+     "shop": "gunfactory.ch",
+     "chf": 815.0,
+     "url": "https://www.gunfactory.ch/optic/booster.htm",
+     "in_stock": true,
+     "colors": {},
+     "title": "Eo-Tech 3¼x Vergrösserung / Booster",
+     "note": "'EoTech 3¼x Booster (G33) inkl. Flip to side Montage' - a G33.STS-nek megfelelő felszereléssel; a bolti oldal a 'G33.STS' jelölést nem írja ki"
+    },
+    {
      "shop": "waffenzimmi.ch",
      "chf": 830.0,
      "url": "https://www.waffenzimmi.ch/produkt/hawke-reflex-dot-5-moa-7/",
@@ -2929,6 +3034,14 @@
      "in_stock": true,
      "colors": {},
      "title": "Vergrösserungsoptik; Magnifier, Holosun Magnifier HM3X"
+    },
+    {
+     "shop": "gunfactory.ch",
+     "chf": 299.0,
+     "url": "https://www.gunfactory.ch/optic/booster.htm",
+     "in_stock": true,
+     "colors": {},
+     "title": "Holosun HM3X 3x Vergrösserung / Booster"
     },
     {
      "shop": "schiessstand.ch",
@@ -3264,6 +3377,15 @@
      "color": "black"
     },
     {
+     "shop": "bpshop.ch",
+     "chf": 260.0,
+     "url": "https://bpshop.ch/produkt/streamlight-tlr-1-hl-gun-light/",
+     "in_stock": true,
+     "colors": {},
+     "title": "Streamlight TLR-1 HL GUN LIGHT",
+     "note": "több színváltozat van, a fekete ára szerepel; a többi: Streamlight TLR-1 HL GUN LIGHT – Flache dunkle Erde Braun 260.00 CHF; a színjelölés nélküli alaptermék feketének véve (a többi szín külön termékként szerepel a boltban)"
+    },
+    {
      "shop": "waffenzimmi.ch",
      "chf": 260.0,
      "url": "https://www.waffenzimmi.ch/produkt/streamlight-tlr-1-hl-black/",
@@ -3300,6 +3422,14 @@
      },
      "title": "Streamlight – TLR-1 HL Tactical LED Light – Black",
      "color": "black"
+    },
+    {
+     "shop": "gunfactory.ch",
+     "chf": 299.0,
+     "url": "https://www.gunfactory.ch/faustfw/glock_tacticallight.htm",
+     "colors": {},
+     "title": "Streamlight TLR-1 HL, 1'000 (!!) Lumens Ausgangsleistung / Black",
+     "note": "a bolt FDE kivitelben is árulja (320 CHF, 33448); a TLR-1 HL oldal a pisztoly-lámpák között szerepel (Picatinny/Glock sínre)"
     }
    ]
   },
@@ -4259,10 +4389,10 @@
   },
   "hr-sbrm": {
    "chf": 226.0,
-   "shop": "waffenpauli.ch",
-   "url": "https://www.waffenpauli.ch/Harris-Zweibeinstuetzen-Mod.-S-BRM-neigbar-15.2-23cm-MLOCK/HAS-BRM-MLOK",
+   "shop": "gunfactory.ch",
+   "url": "https://www.gunfactory.ch/langwaf/sniperzweibein.htm",
    "in_stock": true,
-   "title": "Harris Zweibeinstützen Mod. S-BRM, neigbar, 15.2-23cm (MLOCK)",
+   "title": "Harris Zweibein, das Original! / M-LOK Direktmontage",
    "weight_g": 390,
    "dims": "L 230 mm x B 100 mm x H 50 mm (bolti adat, valószínűleg csomagméret)",
    "offers": [
@@ -4274,6 +4404,15 @@
      "colors": {},
      "title": "Harris Zweibeinstütze S-BRM 6\"- 9\" MLOK",
      "note": "S-BRM M-LOK kivitel (HB-S-BRM-MLOK)"
+    },
+    {
+     "shop": "gunfactory.ch",
+     "chf": 226.0,
+     "url": "https://www.gunfactory.ch/langwaf/sniperzweibein.htm",
+     "in_stock": true,
+     "colors": {},
+     "title": "Harris Zweibein, das Original! / M-LOK Direktmontage",
+     "note": "S-BRM 15-23 cm (6-9\"), M-LOK direktmontázzsal (BRM-MLOK); a 192 CHF-es sima S-BRM (3992) nyakpántcsavarra szerelhető, M-LOK adapter 25 CHF külön - összeget nem számolunk"
     },
     {
      "shop": "waffenpauli.ch",
@@ -4769,6 +4908,13 @@
      "color": "fde"
     },
     {
+     "shop": "freis-waffenschmiede.ch",
+     "chf": 145.0,
+     "url": "https://freis-waffenschmiede.ch/de/shop/products/300",
+     "colors": {},
+     "title": "Radian Raptor LT für AR15"
+    },
+    {
      "shop": "waffenzimmi.ch",
      "chf": 180.0,
      "url": "https://www.waffenzimmi.ch/produkt/radian-weapons-raptor-lt-amidextrius-charging-handle-fde/",
@@ -5015,7 +5161,7 @@
    "url": "https://www.aebiwaffen.ch/de/5358/magazin-magpul-pmag-window-ar-15-223-rem-30-schuss-gen-m3-blk",
    "in_stock": true,
    "title": "Magazin Magpul PMAG Window AR-15 .223 Rem 30 Schuss GEN M3 BLK",
-   "weight_g": 150,
+   "weight_g": 125,
    "dims": "Länge 19 cm x Breite 7.5 cm x Höhe 2.8 cm",
    "offers": [
     {
@@ -5098,6 +5244,22 @@
      "color": "black"
     },
     {
+     "shop": "waffenpauli.ch",
+     "chf": 26.0,
+     "url": "https://www.waffenpauli.ch/Magazin-Magpul-PMAG-30-AR-M4-GEN-M3-Window/MAG556-BLK",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 26.0,
+       "url": "https://www.waffenpauli.ch/Magazin-Magpul-PMAG-30-AR-M4-GEN-M3-Window/MAG556-BLK",
+       "in_stock": true,
+       "title": "Magazin Magpul PMAG 30 AR/M4 GEN M3 Window"
+      }
+     },
+     "title": "Magazin Magpul PMAG 30 AR/M4 GEN M3 Window",
+     "note": "a bolt Coyote (MCT) színben is árulja (MAG556-MCT, 26.00 CHF) – ez nem FDE, a data.js palettájában (black/fde) nincs"
+    },
+    {
      "shop": "indoorswiss.ch",
      "chf": 26.5,
      "url": "https://shop.indoorswiss.ch/de/magazine/21052-148383-magpul-pmag-30-ar-m4-gen-m3-window.html",
@@ -5139,6 +5301,22 @@
      "color": "black"
     },
     {
+     "shop": "gunfactory.ch",
+     "chf": 27.0,
+     "url": "https://www.gunfactory.ch/langwaf/colt_mags.htm",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 27.0,
+       "url": "https://www.gunfactory.ch/langwaf/colt_mags.htm",
+       "in_stock": true,
+       "title": "Magpul PMAG 30 Gen.3 .223 Magazin , 30rds / Black"
+      }
+     },
+     "title": "Magpul PMAG 30 Gen.3 .223 Magazin , 30rds / Black",
+     "note": "a bolt Coyote színben is árulja (29 CHF, 34441) - ez nem szerepel a data.js palettájában (black/fde)"
+    },
+    {
      "shop": "tacstore.ch",
      "chf": 27.95,
      "url": "https://www.tacstore.ch/magpul-pmag-30-ar-m4-gen-m3-window-5.56-magazine-black",
@@ -5159,6 +5337,14 @@
      },
      "title": "Magpul PMAG 30 AR/M4 Gen M3 Window 5.56 Magazine - Black",
      "color": "black"
+    },
+    {
+     "shop": "freis-waffenschmiede.ch",
+     "chf": 28.0,
+     "url": "https://freis-waffenschmiede.ch/de/shop/products/402",
+     "colors": {},
+     "title": "MAGPUL AR 15 Magazin mit Fenster 30 Schuss Kaliber .223 Rem.",
+     "note": "a bolti oldal nem nevezi meg a színt; a név nem írja ki a 'PMAG' szót, de a leírás szerint 'GEN M3' ablakos 30-as tár"
     },
     {
      "shop": "armamat.ch",
@@ -5545,6 +5731,22 @@
      "colors": {},
      "title": "MS4 Dual QD Sling",
      "color": "black"
+    },
+    {
+     "shop": "gunfactory.ch",
+     "chf": 115.0,
+     "url": "https://www.gunfactory.ch/langwaf/accgewehr_riemen.htm",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 115.0,
+       "url": "https://www.gunfactory.ch/langwaf/accgewehr_riemen.htm",
+       "in_stock": true,
+       "title": "MagPul MS4 Dual QD Multi Mission Sling / Schwarz"
+      }
+     },
+     "title": "MagPul MS4 Dual QD Multi Mission Sling / Schwarz",
+     "note": "a bolti oldal a generációt nem nevezi meg; csak fekete kivitel"
     }
    ]
   },
@@ -6240,6 +6442,14 @@
      "colors": {},
      "title": "VORTEX Razor AMG UH-1 GenII noir ou tan",
      "note": "a bolt egy termékként árulja fekete vagy tan színben (azonos ár)"
+    },
+    {
+     "shop": "freis-waffenschmiede.ch",
+     "chf": 999.0,
+     "url": "https://freis-waffenschmiede.ch/de/shop/products/379",
+     "colors": {},
+     "title": "AMG UH-1 Gen II",
+     "note": "bolti név: 'AMG UH-1 Gen II' (a Vortex AMG UH-1 Gen II; a leírás: 1 MOA pont, CR123, 311 g); a márka a bolti oldalon nincs kiírva"
     }
    ]
   },
@@ -6851,6 +7061,27 @@
      "colors": {},
      "title": "Bipod for M-LOK",
      "color": "black"
+    },
+    {
+     "shop": "freis-waffenschmiede.ch",
+     "chf": 175.0,
+     "url": "https://freis-waffenschmiede.ch/de/shop/products/512",
+     "colors": {
+      "black": {
+       "chf": 175.0,
+       "url": "https://freis-waffenschmiede.ch/de/shop/products/512",
+       "in_stock": null,
+       "title": "Magpul M-Lock BLK"
+      },
+      "fde": {
+       "chf": 185.0,
+       "url": "https://freis-waffenschmiede.ch/de/shop/products/513",
+       "in_stock": null,
+       "title": "Magpul M-Lock FDE"
+      }
+     },
+     "title": "Magpul M-Lock BLK",
+     "note": "Magpul M-LOK bipod (6.3-10.3\"); a QD / Picatinny rögzítésű változatok külön termékek"
     },
     {
      "shop": "schiessstand.ch",
@@ -7543,6 +7774,27 @@
      },
      "title": "Magpul MOE K2 Grip",
      "color": "black"
+    },
+    {
+     "shop": "gunfactory.ch",
+     "chf": 29.0,
+     "url": "https://www.gunfactory.ch/langwaf/colt_pistolgrip.htm",
+     "colors": {
+      "black": {
+       "chf": 29.0,
+       "url": "https://www.gunfactory.ch/langwaf/colt_pistolgrip.htm",
+       "in_stock": null,
+       "title": "Magpul MOE K2 Grip / Black"
+      },
+      "odg": {
+       "chf": 29.0,
+       "url": "https://www.gunfactory.ch/langwaf/colt_pistolgrip.htm",
+       "in_stock": null,
+       "title": "Magpul MOE K2 Grip / OD Oliv"
+      }
+     },
+     "title": "Magpul MOE K2 Grip / Black",
+     "note": "a bolt TAN/Desert színben is árulja (29 CHF, 40358) - a 'TAN' nem azonosítható biztosan FDE-ként, ezért nincs felvéve"
     }
    ]
   },
@@ -7692,6 +7944,15 @@
      "title": "Magpul MIAD 5.56 Grip Gen 1.1 Type 1",
      "note": "AR-15 (5.56, Type 1) kivitel; a MIAD 7.62 Type 2 másik termék",
      "color": "black"
+    },
+    {
+     "shop": "gunfactory.ch",
+     "chf": 53.0,
+     "url": "https://www.gunfactory.ch/langwaf/colt_pistolgrip.htm",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul MIAD (MI ssion AD aptable ) Full Grip Set Gen 1.1",
+     "note": "az AR15-ös MIAD markolat (a bolti oldal: 'Pistolengriffe für alle Halbautomaten Typ AR15/M16/M4'); típus (Type 1/2) nincs külön kiírva"
     }
    ]
   },
@@ -7915,6 +8176,15 @@
      "colors": {},
      "title": "UBR GEN2 Collapsible Stock",
      "color": "black"
+    },
+    {
+     "shop": "gunfactory.ch",
+     "chf": 337.0,
+     "url": "https://www.gunfactory.ch/langwaf/colt_rearstock.htm",
+     "in_stock": true,
+     "colors": {},
+     "title": "UBR (Utility Battle Rifle) Gen.2 Einschubschaft Typ AR15 M4",
+     "note": "a bolti oldal nem nevezi meg a színt"
     }
    ]
   },
@@ -8086,6 +8356,15 @@
      "color": "black"
     },
     {
+     "shop": "gunfactory.ch",
+     "chf": 22.0,
+     "url": "https://www.gunfactory.ch/langwaf/colt_mags.htm",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul PMAG 10 Gen.3 .223 Magazin , 10rds",
+     "note": "a bolti oldal nem nevezi meg a színt"
+    },
+    {
      "shop": "indoorswiss.ch",
      "chf": 22.5,
      "url": "https://shop.indoorswiss.ch/de/magazine/21054-148385-magpul-pmag-10-ar-m4-gen-m3.html",
@@ -8157,6 +8436,14 @@
      },
      "title": "Magpul PMAG 10 AR/M4 Gen M3 5.56 Magazine - Black",
      "color": "black"
+    },
+    {
+     "shop": "freis-waffenschmiede.ch",
+     "chf": 25.0,
+     "url": "https://freis-waffenschmiede.ch/de/shop/products/405",
+     "colors": {},
+     "title": "MAGPUL AR 15 Magazin 10 Schuss Kaliber .223 Rem",
+     "note": "a bolti oldal nem nevezi meg a színt; a név nem írja ki a 'PMAG' szót, de a leírás szerint 'GEN M3' Magpul AR15 tár; Bewilligung nélkül vásárolható"
     },
     {
      "shop": "waffenzimmi.ch",
@@ -8337,6 +8624,15 @@
      "note": "a bolti név nem írja ki, de a leírás szerint 'GEN M3 PMAG' 5,56x45; a 'sandfarben' 20-as (WP0229.5) színe nem azonosítható biztosan FDE-ként, ezért nincs felvéve"
     },
     {
+     "shop": "taczone.ch",
+     "chf": 27.0,
+     "url": "https://www.taczone.ch/produkt/pmag-20-gen-m3-556-223-magazin-fuer-ar15-20-schuss/",
+     "in_stock": true,
+     "colors": {},
+     "title": "PMAG 20 Gen M3 5,56/.223 Magazin für AR15 – 20 Schuss",
+     "note": "a bolt a színt nem nevezi meg (a cím/változat nem tartalmaz színt)"
+    },
+    {
      "shop": "wyn.swiss",
      "chf": 28.0,
      "url": "https://wyn.swiss/portfolio-item/accessoires-ar-15/",
@@ -8431,6 +8727,22 @@
      "title": "Magazin Magpul PMAG 30 Schuss Gen M3 AR/M4 5,56 × 45 mm NATO / .223 Remington"
     },
     {
+     "shop": "gunfactory.ch",
+     "chf": 21.0,
+     "url": "https://www.gunfactory.ch/langwaf/colt_mags.htm",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 21.0,
+       "url": "https://www.gunfactory.ch/langwaf/colt_mags.htm",
+       "in_stock": true,
+       "title": "Magpul PMAG 30 Gen.3 .223 Magazin , 30rds / Black"
+      }
+     },
+     "title": "Magpul PMAG 30 Gen.3 .223 Magazin , 30rds / Black",
+     "note": "a sima (ablak nélküli) Gen.3 fekete; a bolt egy Gen.2 fekete tárat is árul (34532, nem azonos)"
+    },
+    {
      "shop": "thoron.ch",
      "chf": 21.9,
      "url": "https://www.thoron.ch/de/waffenzubehoer/magazine-ladehilfen/rifle-magazine-gewehrmagazine/pmag-30-ar-m4-gen-m3",
@@ -8515,6 +8827,22 @@
      "colors": {},
      "title": "Chargeur MAGPUL AR-15 PMAG GEN M3, Cal. 5.56, 30cps",
      "note": "a bolt 'ACCESSOIRES AR-15' gyűjtőlistájáról (PV = prix de vente); szín nincs megadva"
+    },
+    {
+     "shop": "taczone.ch",
+     "chf": 29.0,
+     "url": "https://www.taczone.ch/produkt/pmag-30-gen-m3-556-223-magazin-fuer-ar15-30-schuss/",
+     "in_stock": true,
+     "colors": {
+      "black": {
+       "chf": 29.0,
+       "url": "https://www.taczone.ch/produkt/pmag-30-gen-m3-556-223-magazin-fuer-ar15-30-schuss/",
+       "in_stock": true,
+       "title": "PMAG 30 Gen M3 5,56/.223 Magazin für AR15 – 30 Schuss"
+      }
+     },
+     "title": "PMAG 30 Gen M3 5,56/.223 Magazin für AR15 – 30 Schuss",
+     "note": "a bolt további színei, amelyek nincsenek a palettában, kimaradtak: coyote; a színjelölés nélküli alaptermék feketének véve (a többi szín külön termékként szerepel a boltban)"
     }
    ]
   },
@@ -8656,6 +8984,15 @@
      },
      "title": "Magpul PMAG 40 AR/M4 Gen M3 5.56 Magazine - Black",
      "color": "black"
+    },
+    {
+     "shop": "gunfactory.ch",
+     "chf": 38.0,
+     "url": "https://www.gunfactory.ch/langwaf/colt_mags.htm",
+     "in_stock": true,
+     "colors": {},
+     "title": "Magpul PMAG 40 Gen.3 .223 Magazin , 40rds",
+     "note": "a bolti oldal nem nevezi meg a színt"
     }
    ]
   },
@@ -8901,14 +9238,23 @@
    ]
   },
   "mp-d60": {
-   "chf": 209.0,
-   "shop": "wyn.swiss",
-   "url": "https://wyn.swiss/portfolio-item/magpul-pmag-d-60-ar-m4/",
+   "chf": 194.0,
+   "shop": "gunfactory.ch",
+   "url": "https://www.gunfactory.ch/langwaf/magazin_betamag.htm",
    "in_stock": true,
-   "title": "MAGPUL PMAG D-60 AR/M4",
+   "title": "AR15 Trommel-Magazin PMAG D-60 Kaliber .223",
    "weight_g": 581,
    "dims": null,
    "offers": [
+    {
+     "shop": "gunfactory.ch",
+     "chf": 194.0,
+     "url": "https://www.gunfactory.ch/langwaf/magazin_betamag.htm",
+     "in_stock": true,
+     "colors": {},
+     "title": "AR15 Trommel-Magazin PMAG D-60 Kaliber .223",
+     "note": "a bolti oldal nem nevezi meg a színt"
+    },
     {
      "shop": "armatum.ch",
      "chf": 199.9,
@@ -9267,10 +9613,10 @@
   },
   "schm-m5fl": {
    "chf": 2015.0,
-   "shop": "waffenzimmi.ch",
-   "url": "https://www.waffenzimmi.ch/produkt/schmeisser-ar15-m5fl-1675/",
-   "in_stock": true,
-   "title": "Schmeisser AR15 M5FL 16.75“",
+   "shop": "rothwaffen.ch",
+   "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M5FL-Black-16.75-.223-Rem/7009360",
+   "in_stock": null,
+   "title": "Selbstladebüchse Schmeisser AR15 M5FL Black 16.75\" .223 Rem",
    "weight_g": null,
    "dims": null,
    "offers": [
@@ -9316,6 +9662,21 @@
      "title": "Selbstladebüchse Schmeisser AR15 M5FL Black  16.75\" .223 Rem",
      "note": "Standard (16.75\", .223 Rem); a boltban csak fekete",
      "color": "black"
+    },
+    {
+     "shop": "rothwaffen.ch",
+     "chf": 2015.0,
+     "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M5FL-Black-16.75-.223-Rem/7009360",
+     "colors": {
+      "black": {
+       "chf": 2015.0,
+       "url": "https://rothwaffen.ch/Selbstladebuechse-Schmeisser-AR15-M5FL-Black-16.75-.223-Rem/7009360",
+       "in_stock": null,
+       "title": "Selbstladebüchse Schmeisser AR15 M5FL Black 16.75\" .223 Rem"
+      }
+     },
+     "title": "Selbstladebüchse Schmeisser AR15 M5FL Black 16.75\" .223 Rem",
+     "note": "Standard kivitel (nem 'CSS Stock' / 'Special Edition'); a bolt a kiviteleket külön termékként árulja; a bolt csak a fekete kivitelt árulja"
     },
     {
      "shop": "waffenzimmi.ch",
@@ -10021,8 +10382,8 @@
    "url": "https://www.thoron.ch/de/waffenzubehoer/rifle-lower-parts/rifle-triggers-abzuege/super-semi-automatic-enhanced-ssa-e-trigger",
    "in_stock": true,
    "title": "Super Semi-Automatic Enhanced (SSA-E) Trigger",
-   "weight_g": null,
-   "dims": null,
+   "weight_g": 150,
+   "dims": "L 150 mm x B 150 mm x H 25 mm (bolti adat, valószínűleg csomagméret)",
    "offers": [
     {
      "shop": "shooting-store.ch",
@@ -10039,6 +10400,14 @@
      "in_stock": true,
      "colors": {},
      "title": "Super Semi-Automatic Enhanced (SSA-E) Trigger"
+    },
+    {
+     "shop": "waffenpauli.ch",
+     "chf": 369.0,
+     "url": "https://www.waffenpauli.ch/Abzug-Geissele-Automatics-Super-Semi-Automatic-Enhanced-SSA-E-Trigger-2-Stage-AR15-AR10/100006357",
+     "in_stock": false,
+     "colors": {},
+     "title": "Abzug Geissele Automatics Super Semi-Automatic Enhanced (SSA-E) Trigger 2 Stage AR15/AR10"
     },
     {
      "shop": "tacstore.ch",

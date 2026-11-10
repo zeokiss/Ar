@@ -1,0 +1,17 @@
+{
+  "domain": "birkenast.ch",
+  "url": "https://www.birkenast.ch/",
+  "name": "Birkenast Natur GmbH",
+  "addr": null,
+  "city": null,
+  "canton": null,
+  "tel": null,
+  "kind": null,
+  "ships": null,
+  "shipNote": "Nem ellenőrizhető: a bolt weboldalát a szerver HTTP 429-cel utasítja el (két próbálkozás, köztük >= 5 perc), ezért a bolt saját oldaláról nem tudtunk adatot olvasni. A megkerülés tilos, ezért nem is próbáltuk.",
+  "km": null,
+  "km_est": true,
+  "online_prices": null,
+  "sources": [],
+  "notes": "BLOKKOLT: a birkenast.ch minden kérésre HTTP 429-et ad (az 1. próba a megbízó előzetes próbája volt, a 2. egy kérés ~15:18-kor). Az alábbi adat nem a bolt oldaláról származik, csak tájékoztató (research/ch_shops.json alapján): Birkenast Natur GmbH, sportlövő/vadász kínálat (Anschütz, Steyr, Rödale, Helle), AR-15-höz nem releváns. Újrapróbálás csak a bolt/üzemeltető engedélyével, vagy ha a korlátozás feloldódott."
+}
