@@ -95,6 +95,25 @@ def detect(path, facing):
     return dict(bx0=x0, bx1=x1, W=W, H=H, F=F, ppi=ppi, yAxis=yAxis, muzzle=muzzle_x, nose=nose, railTop=L, hgBottom=hgBottom,
                 rear=rear_rail, railFront=rail_front, tip=front_end)
 
+def sights(path, F, ax, ppi, railTop):
+    """A gyári flip-up irányzékok helye (hüvelyk): a sín fölé magasodó, összefüggő sávok."""
+    a = np.array(Image.open(path).convert('RGBA'))[:, :, 3] > 128
+    top = np.where(a.any(0), a.argmax(0), 9999)
+    xs = np.where(top < railTop - 8)[0]
+    groups, start, prev = [], None, None
+    for x in xs:
+        if start is None: start = prev = x
+        elif x - prev > 6: groups.append((start, prev)); start = prev = x
+        else: prev = x
+    if start is not None: groups.append((start, prev))
+    out = []
+    for s0, e0 in groups:
+        if e0 - s0 < 8: continue
+        i0, i1 = F * (s0 - ax) / ppi, F * (e0 - ax) / ppi
+        out.append([round(min(i0, i1) - 0.12, 2), round(max(i0, i1) + 0.12, 2)])
+    return sorted(out)
+
+
 def main():
     os.makedirs(os.path.join(OUT, 'base'), exist_ok=True)
     photos = []
@@ -108,13 +127,14 @@ def main():
                            ppi=round(pp, 2), ax=O, ay=round(r['yAxis'], 1), facing=facing, bx0=r['bx0'], bx1=r['bx1'],
                            source='schmeisser-germany.com'))
         railY = round((r['railTop'] - r['yAxis']) / pp, 3)
+        sg = sights(p, F, O, pp, r['railTop'])
         tip = inch(r['tip'])
         cuts = dict(CUTS)
         cuts['muzzle'] = [[inch(r['muzzle']) - 0.03, -1.0], [tip + 0.2, -1.0], [tip + 0.2, 1.0], [inch(r['muzzle']) - 0.03, 1.0]]
         photos.append(dict(item=item, slot='geo', color='*', pts=dict(
             railX0=0.0, railX1=inch(r['railFront']), railY=railY,
             hgX0=7.3, hgX1=inch(r['nose']), hgBottomY=round((r['hgBottom'] - r['yAxis']) / pp, 3), sideY=0.0,
-            muzzle=[inch(r['muzzle']), 0.0], tipX=tip, **LOWER), cuts=cuts))
+            muzzle=[inch(r['muzzle']), 0.0], tipX=tip, sights=sg, **LOWER), cuts=cuts))
         print(item, {k: (round(v, 2) if isinstance(v, float) else v) for k, v in r.items()})
     with open(os.path.join(OUT, 'manifest.json'), 'w') as f:
         json.dump({'version': 1, 'photos': photos}, f, indent=1)

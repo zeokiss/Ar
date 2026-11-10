@@ -99,8 +99,8 @@ window.AR_PHOTO_RENDER = (function () {
     const factoryBuis = spec.buis && spec.buis.factory;
     const noSightsInPhoto = !(factoryBuis && !spec.optic && !spec.lpvo);
     if (noSightsInPhoto) {
-      holes.push([[1.0, -4], [2.6, -4], [2.6, pts.railY - 0.03], [1.0, pts.railY - 0.03]]);
-      holes.push([[pts.hgX1 - 2.4, -4], [pts.hgX1 - 0.9, -4], [pts.hgX1 - 0.9, pts.railY - 0.03], [pts.hgX1 - 2.4, pts.railY - 0.03]]);
+      const sg = pts.sights || [[1.0, 2.6], [pts.hgX1 - 2.4, pts.hgX1 - 0.9]];
+      sg.forEach(([a, b]) => holes.push([[a, -4], [b, -4], [b, pts.railY - 0.03], [a, pts.railY - 0.03]]));
     }
 
     // ------------------------------------------------ felső rétegek
