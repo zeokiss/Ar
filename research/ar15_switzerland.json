@@ -523,8 +523,8 @@
       {
        "title": "Halbautomat Schmeisser AR15 M4FL , .223Rem, 14.5\", Special Edition FDE",
        "price_chf": 2450.0,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/halbautomat-schmeisser-ar15-m4fl-223rem-145-special-edition-fde",
        "fetched": "2026-11-10",
        "barrel_in": 14.5,
@@ -538,8 +538,8 @@
       {
        "title": "Halbautomat Schmeisser AR15 S4F, 10.5\", .223 Rem,  Special Edition OD Green / FDE",
        "price_chf": 2450.0,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/halbautomat-schmeisser-ar15-s4f-105-223-rem-special-edition-od-green-fde",
        "fetched": "2026-11-10",
        "barrel_in": 10.5,
@@ -554,8 +554,8 @@
       {
        "title": "Halbautomat Schmeisser AR15-9 M4FL Black 14.5\" 9mm Para",
        "price_chf": 1545.83,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/schmeisser-m4fl-schwarz-mlok-223-remington-10-schuss",
        "fetched": "2026-11-10",
        "barrel_in": 14.5,
@@ -614,8 +614,8 @@
       {
        "title": "Halbautomat Schmeisser AR15-9 M5FL Black 16.75\" 9mm Para",
        "price_chf": 1545.83,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/schmeisser-ar15-9l-1675-9mm-para-mlok-10-schuss",
        "fetched": "2026-11-10",
        "barrel_in": 16.75,
@@ -704,8 +704,8 @@
       {
        "title": "Halbautomat Schmeisser AR15-9mm Dynamic PCC Grey 10.5\"",
        "price_chf": 2395.0,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/halbautomat-schmeisser-ar15-9mm-dynamic-pcc-grey-105",
        "fetched": "2026-11-10",
        "barrel_in": 10.5,
@@ -734,8 +734,8 @@
       {
        "title": "Selbstladebüchse Schmeisser AR15 DMR Black 18\" .223 Rem",
        "price_chf": 3215.0,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dmr-black-18-223rem-mlok-10-schuss",
        "fetched": "2026-11-10",
        "barrel_in": 18.0,
@@ -779,8 +779,8 @@
       {
        "title": "Selbstladebüchse Schmeisser AR15 Dynamic Black 10.5\" .223 Rem",
        "price_chf": 2805.0,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-105-black-223rem-mlok-10-schuss",
        "fetched": "2026-11-10",
        "barrel_in": 10.5,
@@ -824,8 +824,8 @@
       {
        "title": "Selbstladebüchse Schmeisser AR15 Dynamic L Black 16.75\" .223 Rem",
        "price_chf": 2128.49,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/schmeisser-dynamic-l-1675-black-223rem-mlok-10-schuss",
        "fetched": "2026-11-10",
        "barrel_in": 16.75,
@@ -884,8 +884,8 @@
       {
        "title": "Selbstladebüchse Schmeisser AR15 M4FL Bronze 14.5\" .223 Rem",
        "price_chf": 2130.0,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-bronze-145-223-rem",
        "fetched": "2026-11-10",
        "barrel_in": 14.5,
@@ -899,8 +899,8 @@
       {
        "title": "Selbstladebüchse Schmeisser AR15 M4FL CSS Stock Black 14.5\" .223 Rem",
        "price_chf": 1694.47,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-css-stock-black-145-223-rem",
        "fetched": "2026-11-10",
        "barrel_in": 14.5,
@@ -929,8 +929,8 @@
       {
        "title": "Selbstladebüchse Schmeisser AR15 M4FL CSS Stock OD Green 14.5\" .223 Rem",
        "price_chf": 1789.6,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-schmeisser-ar15-m4fl-css-stock-od-green-145-223-rem",
        "fetched": "2026-11-10",
        "barrel_in": 14.5,
@@ -1104,7 +1104,7 @@
       18.0
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -1163,7 +1163,7 @@
       14.5
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -1214,7 +1214,7 @@
       14.5
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -1265,7 +1265,7 @@
       14.5
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -1307,7 +1307,7 @@
       14.5
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -1348,7 +1348,7 @@
       18.0
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -1378,7 +1378,7 @@
       12.5
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black (noch nicht erhältlich)",
@@ -1411,7 +1411,7 @@
       16.75
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -1464,7 +1464,7 @@
       16.75
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -1526,7 +1526,7 @@
       16.75
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -1608,7 +1608,7 @@
       14.5
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -1650,7 +1650,7 @@
       24.0
      ],
      "handguard": [
-      "M-LOK (S4F/M4FL/Dynamic - bolti leírás); egyes sorozatokhoz KeyMod/M-LOK - nem minden vonal ellenőrzött"
+      "M-LOK (bolti leírások szerint az S4F/M4FL; a gyártói oldal vonalanként nem nevezi meg)"
      ],
      "finishes": [
       "Black",
@@ -3559,8 +3559,8 @@
       {
        "title": "Geissele Border Patrol Pistole, 11.5\", 5.56MM - Schwarz",
        "price_chf": 2297.2,
-       "in_stock": false,
-       "stock_text": "Lager: 3 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "3 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/border-patrol-rifle-556mm-115",
        "fetched": "2026-11-10",
        "barrel_in": 11.5,
@@ -3632,8 +3632,8 @@
       {
        "title": "Geissele Super Duty MOD1 Rifle, 14.5\", 5.56MM - Black",
        "price_chf": 2695.8,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/super-duty-mod1-rifle-145-556mm-p-w-black",
        "fetched": "2026-11-10",
        "barrel_in": 14.5,
@@ -4336,8 +4336,8 @@
       {
        "title": "Selbstladebüchse Colt M4 Carbine 16.1 Zoll 223 Rem",
        "price_chf": 1990.0,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/selbstladebuechse-colt-m4-carbine-161-zoll-223-rem",
        "fetched": "2026-11-10",
        "barrel_in": 16.1,
@@ -4444,8 +4444,8 @@
       {
        "title": "BCM® CQB 11 MCMR",
        "price_chf": 2287.8,
-       "in_stock": false,
-       "stock_text": "Lager: 3 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "3 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/cqb12-kmr-a10-carbine",
        "fetched": "2026-11-10",
        "image": "https://www.shooting-store.ch/shop/ProdukteBilder/83468_gr.jpg",
@@ -4580,8 +4580,8 @@
       {
        "title": "RECCE-14 MCMR10, Enhanced Light Weight",
        "price_chf": 2483.6,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/recce-14-mcmr10-enhanced-light-weight",
        "fetched": "2026-11-10",
        "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68910_gr.jpg",
@@ -4590,8 +4590,8 @@
       {
        "title": "RECCE-14 MCMR13",
        "price_chf": 2483.6,
-       "in_stock": false,
-       "stock_text": "Lager: 3 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "3 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/recce-14-mcmr13",
        "fetched": "2026-11-10",
        "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68909_gr.jpg",
@@ -4630,8 +4630,8 @@
       {
        "title": "RECCE-16 KMR-A15 Precision",
        "price_chf": 2699.0,
-       "in_stock": false,
-       "stock_text": "Lager: 2 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "2 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/recce-16-kmr-a15-precision",
        "fetched": "2026-11-10",
        "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68907_gr.jpg",
@@ -4660,8 +4660,8 @@
       {
        "title": "RECCE-16 MCMR15 Precision",
        "price_chf": 2699.0,
-       "in_stock": false,
-       "stock_text": "Lager: 2 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "2 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/recce-16-mcmr15-precision",
        "fetched": "2026-11-10",
        "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68906_gr.jpg",
@@ -9565,8 +9565,8 @@
       {
        "title": "Selbstladebüche Lux Def Tec LDT15 L4 14.5\" .223 Rem",
        "price_chf": 1183.15,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/selbstladebueche-lux-def-tec-ldt15-l4-145-223-rem",
        "fetched": "2026-11-10",
        "barrel_in": 14.5,
@@ -9862,7 +9862,7 @@
     "dimensions_available": false
    },
    "sources": [],
-   "confidence": "snippet-only",
+   "confidence": "partial",
    "platform_class": "AR-15",
    "notes": "Csak 1 használt tétel a schiessstand.ch-n (AR15 PDW 300 AAC, occ)."
   },
@@ -9880,8 +9880,8 @@
       {
        "title": "16 INCH 300 BRAVO BASE",
        "price_chf": 907.3,
-       "in_stock": false,
-       "stock_text": "Lager: 3 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "3 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/16-inch-300-bravo-base",
        "fetched": "2026-11-10",
        "image": "https://www.shooting-store.ch/shop/ProdukteBilder/68619_gr.jpg",
@@ -9890,8 +9890,8 @@
       {
        "title": "16 INCH 5.56 NATO BRAVO BASE CERAKOTE ( FDE )",
        "price_chf": 951.7,
-       "in_stock": false,
-       "stock_text": "Lager: 6 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "6 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/16-inch-556-nato-bravo-base-cerakote-fde",
        "fetched": "2026-11-10",
        "caliber": ".223 Rem / 5.56 NATO",
@@ -9904,8 +9904,8 @@
       {
        "title": "16 INCH 5.56 NATO BRAVO BASE CERAKOTE ( MAGPUL OD GREEN)",
        "price_chf": 960.3,
-       "in_stock": false,
-       "stock_text": "Lager: 4 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "4 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/16-inch-556-nato-bravo-base-cerakote-magpul-od-green",
        "fetched": "2026-11-10",
        "caliber": ".223 Rem / 5.56 NATO",
@@ -9918,8 +9918,8 @@
       {
        "title": "16 INCH 5.56 NATO BRAVO Tungsten",
        "price_chf": 1025.2,
-       "in_stock": false,
-       "stock_text": "Lager: 5 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "5 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/16-inch-556-nato-bravo-tungsten",
        "fetched": "2026-11-10",
        "caliber": ".223 Rem / 5.56 NATO",
@@ -9932,8 +9932,8 @@
       {
        "title": "ACI-15 556 BRAVO 16 CERAKOTE BURNT BRONZE",
        "price_chf": 939.1,
-       "in_stock": false,
-       "stock_text": "Lager: 12 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "12 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/aci-15-556-bravo-16-cerakote-burnt-bronze",
        "fetched": "2026-11-10",
        "colors": [
@@ -9945,8 +9945,8 @@
       {
        "title": "Andro Corp  12.5 INCH 556 HALO SBR 5.56",
        "price_chf": 885.5,
-       "in_stock": false,
-       "stock_text": "Lager: 5 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "5 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/andro-corp-125-inch-556-halo-sbr-556",
        "fetched": "2026-11-10",
        "caliber": ".223 Rem / 5.56 NATO",
@@ -9955,8 +9955,8 @@
       {
        "title": "Andro Corp ACI-15 20” 5.56 NATO A2",
        "price_chf": 1195.7,
-       "in_stock": false,
-       "stock_text": "Lager: 5 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "5 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/andro-corp-aci-15-20-556-nato-a2",
        "fetched": "2026-11-10",
        "barrel_in": 20.0,
@@ -9977,8 +9977,8 @@
       {
        "title": "Andro Corp ACI-15 556 NATO HALO 12.5",
        "price_chf": 950.0,
-       "in_stock": false,
-       "stock_text": "Lager: 3 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "3 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/andro-corp-aci-15-556-nato-halo-125",
        "fetched": "2026-11-10",
        "image": "https://www.shooting-store.ch/shop/ProdukteBilder/89328_gr.jpg",
@@ -9987,8 +9987,8 @@
       {
        "title": "Andro Corp ACI-15 Bravo 16",
        "price_chf": 893.5,
-       "in_stock": false,
-       "stock_text": "Lager: 18 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "18 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/andro-corp-aci-15-bravo-16",
        "fetched": "2026-11-10",
        "image": "https://www.shooting-store.ch/shop/ProdukteBilder/65423_gr.jpg",
@@ -10091,8 +10091,8 @@
       {
        "title": "Faxon Bantam 10.5” 9mm PCC",
        "price_chf": 1456.6,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/faxon-bantam-105-9mm-pcc",
        "fetched": "2026-11-10",
        "barrel_in": 10.5,
@@ -10103,8 +10103,8 @@
       {
        "title": "Faxon Bantam 16” 9mm PCC",
        "price_chf": 1221.8,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/faxon-bantam-16-9mm-pcc",
        "fetched": "2026-11-10",
        "barrel_in": 16.0,
@@ -10115,8 +10115,8 @@
       {
        "title": "Faxon ION Ultralight 5.56 Rifle",
        "price_chf": 1569.81,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/faxon-ion-ultralight-556-rifle",
        "fetched": "2026-11-10",
        "caliber": ".223 Rem / 5.56 NATO",
@@ -10633,8 +10633,8 @@
       {
        "title": "B&T Halbautomat SPC223, .223 Rem, 308mm",
        "price_chf": 2951.0,
-       "in_stock": false,
-       "stock_text": "Lager: 2 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "2 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/b-t-halbautomat-spc223-223-rem-308mm",
        "fetched": "2026-11-10",
        "caliber": ".223 Rem / 5.56 NATO",
@@ -10644,8 +10644,8 @@
       {
        "title": "B&T Selbstladebüchse APC223 PRO, .223 Rem, 264mm Lauf, Coyote Tan",
        "price_chf": 2845.0,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/b-t-selbstladebuechse-apc223-pro-223-rem-308mm-mit-langem-handschutz-coyote-tan1",
        "fetched": "2026-11-10",
        "caliber": ".223 Rem / 5.56 NATO",
@@ -10658,8 +10658,8 @@
       {
        "title": "B&T Selbstladebüchse APC300 PRO, .300 Blk, 222mm",
        "price_chf": 2682.61,
-       "in_stock": false,
-       "stock_text": "Lager: 1 Artikel an Lager Weitere Informationen",
+       "in_stock": true,
+       "stock_text": "1 Artikel an Lager",
        "url": "https://www.shooting-store.ch/de/produkt/b-t-selbstladebuechse-apc300-pro-300-blk-222mm",
        "fetched": "2026-11-10",
        "caliber": ".300 BLK",
@@ -11425,7 +11425,7 @@
   "A svájci importőr/általános forgalmazó SEMMILYEN márkánál nem azonosítható megbízhatóan, kivéve a Schmeisser gyártói oldala által megnevezett \"Schlegel Handels AG\"-t (schlegel-handels.ch nem érhető el, szerepe nem ellenőrzött). Daniel Defense, Geissele, LMT, Clawgear, LuxDefTec, Hera: a keresések nem találtak svájci importőrt.",
   "Gyártói hivatalos oldalak elérhetetlenek (proxy 403 / nem engedélyezett host): danieldefense.com (403 botvédelem - nem kerültük meg), geissele.com, lmtdefense.com, colt.com, ruger.com, cmmginc.com, sigsauer.com, diamondbackfirearms.com, noveske.com, radianweapons.com, bt-ag.ch, wyssen-defence.ch, clawgear.com, hera-arms.de, astra-defense.com, bravocompanymfg.com (a bravocompanyusa.com ide irányít át). Ezért csak Schmeisser rendelkezik ellenőrzött gyártói adatlappal; DD adatai (6,2 lb, 32 1/4\"-35 7/8\") csak keresési kivonatból.",
   "Tömeg: a gyártói Schmeisser-oldalon NINCS tömegadat. Tömeg boltoldalról: Schmeisser S4F 3150 g / 72-79 cm (shooting-store); BCM RECCE-oldalak \"Gewicht:\" mezőt tartalmaznak szövegesen (nem strukturáltan kinyerve).",
-  "Oldalnézeti kép: átlátszó hátterű, nagy felbontású oldalnézetet csak a Schmeisser gyártói oldala ad (RGBA PNG, 2133x450 px a Dynamic/Ultramatch/AR15-9 modelleknél; 1024x300 px a Slim Line 12,5\"-nél; néhány vonalnál (Duty, Solid Line, .22 LR) csak JPG fotó). Boltok (thoron: /temp/resize_600x600_*.jpeg; schiessstand: /wp-content/uploads/*.jpg; shooting-store: /shop/ProdukteBilder/*.png|jpg) háttere nem lett pixelenként ellenőrizve - általában fehér hátterű termékfotó, nem átlátszó.",
+  "Oldalnézeti kép: átlátszó hátterű, nagy felbontású oldalnézetet csak a Schmeisser gyártói oldala ad (RGBA PNG, 2133x450 px a Dynamic/Ultramatch/AR15-9 modelleknél; 1024x300 px a Slim Line 12,5\"-nél; néhány vonalnál (Duty, Solid Line, .22 LR) csak JPG fotó). Boltok: thoron (JPEG, pl. 1280x1280), schiessstand (JPG), shooting-store (/shop/ProdukteBilder/*_gr.png, 1000x1000 RGB, nincs alfa-csatorna) - 2 mintát letöltve ellenőriztem: RGB, fehér háttér (255,255,255), nincs átlátszóság; a JPEG formátum eleve nem hordoz alfát. Nem oldalnézeti stúdiófotók garantáltan.",
   "Készlet: a lista a lekérdezés pillanatnyi állapota (2026-11-10). Az \"in_stock\" csak ott true, ahol a bolt raktáron/lagernd státuszt ír ki (\"Verfügbar\" Thoron; \"Artikel an Lager\" shooting-store; InStock a Store API-ban). Rendelésre/beszállítótól rendelhető = false.",
   "A schiessstand.ch Store API csak a \"Büchsen\" (93) és \"Occasion\" (282) kategóriát tartalmazza (381 termék); más kategóriába sorolt AR-ek kimaradhattak. Az ár az API \"price\" mezője (akciós ár), a \"list_chf\" az áthúzott alapár.",
   "Thoron: a /de/suche?search=... kereső kapcsolatot szakított (connection reset) - ezért kategóriaoldalakat (sturmgewehre 5 oldal, maschinenpistolen, gebrauchtwaffen, praezisionsgewehre, repetiergewehre) olvastuk végig. Szétszórt AR-15-ök más kategóriában kimaradhattak. Az 5 kategória 341 listaelem.",
