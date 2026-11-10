@@ -202,7 +202,7 @@ window.AR_PHOTO_RENDER = (function () {
 
     return {
       parts,
-      metrics: { muzzleEnd: X(fwd), muzzleLen, rearPx: 0, railClash, hgX1: X(pts.hgX1), oalIn: fwd - back, photo: { missing, approx, finishExact: baseRec.exactColor !== false, finishHave: baseRec.color, finishDerived: !!baseRec.derived, ppi: baseRec.ppi } },
+      metrics: { dir: D, muzzleEnd: X(fwd), muzzleLen, rearPx: 0, railClash, hgX1: X(pts.hgX1), oalIn: fwd - back, photo: { missing, approx, finishExact: baseRec.exactColor !== false, finishHave: baseRec.color, finishDerived: !!baseRec.derived, ppi: baseRec.ppi } },
     };
   }
 

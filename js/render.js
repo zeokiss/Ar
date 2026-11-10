@@ -636,20 +636,22 @@ window.AR_RENDER = (function () {
     optic: 'Red dot', lpvo: 'LPVO', magnifier: 'Nagyító', buis: 'Vas irányzék', light: 'Lámpa', mlok: 'M-LOK', bipod: 'Bipod', controls: 'Kezelőszervek', base: 'Alapfegyver', mount: 'Optikaszerelék',
   };
 
-  function group(cat, content, labelOverride) {
+  // Fotós módban a robbantás irányai a fegyver irányához igazodnak (dir: +1 = a cső jobbra, -1 = balra néz).
+  const EXPLODE_PHOTO = {
+    stock: [-190, 30], mag: [30, 170], grip: [-20, 150], muzzle: [150, 0], optic: [-10, -130], lpvo: [10, -160], magnifier: [-120, -130],
+    mount: [10, -70], light: [100, -120], bipod: [120, 130], mlok: [70, 110], buis: [0, -150], base: [0, 0],
+  };
+  function group(cat, content, labelOverride, dir) {
     if (!content) return '';
-    const [ex, ey] = EXPLODE[cat] || [0, 0];
+    let [ex, ey] = dir ? (EXPLODE_PHOTO[cat] || [0, 0]) : (EXPLODE[cat] || [0, 0]);
+    if (dir) ex *= dir;
     return `<g class="part" data-cat="${cat}" data-label="${labelOverride || LABELS[cat] || cat}" style="--ex:${ex}px;--ey:${ey}px"><g class="inner">${content}</g></g>`;
   }
 
-  /**
-   * spec – lásd app.js buildSpec()
-   * visszaad: { svg, metrics: { rail spans, muzzleEnd, ... } }
-   */
   function renderPhoto(spec) {
     const pr = window.AR_PHOTO_RENDER && window.AR_PHOTO_RENDER.render(spec);
     if (!pr) return null;
-    return { svg: pr.parts.map(p => group(p.cat, p.svg)).join(''), metrics: pr.metrics, photo: true };
+    return { svg: pr.parts.map(p => group(p.cat, p.svg, null, pr.metrics.dir)).join(''), metrics: pr.metrics, photo: true };
   }
 
   function render(spec) {
